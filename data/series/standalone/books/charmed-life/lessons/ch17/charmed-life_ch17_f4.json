@@ -20,18 +20,32 @@
       "wordCount": 586,
       "uniqueWordCount": 336,
       "paragraphCount": 12,
-      "vocabularyCount": 29,
+      "vocabularyCount": 27,
       "levelDistribution": {
         "A1": 0,
-        "A2": 1,
+        "A2": 0,
         "B1": 0,
-        "B2": 20,
-        "C1": 8,
+        "B2": 24,
+        "C1": 3,
         "C2": 0
       }
     }
   },
   "vocabulary": [
+    {
+      "word": "accident",
+      "lemma": "accident",
+      "lemmaId": "accident",
+      "pos": "noun",
+      "wordKey": "accident_noun",
+      "level": "B2",
+      "ipa": "ˈæksɪdənt",
+      "translations": {
+        "ru": "несчастный случай"
+      },
+      "definition": "An unfortunate event resulting in damage or injury.",
+      "example": "You go and have that fearsome accident."
+    },
     {
       "word": "account",
       "lemma": "account",
@@ -41,24 +55,10 @@
       "level": "B2",
       "ipa": "əˈkaʊnt",
       "translations": {
-        "ru": "основание, причина"
+        "ru": "счёт, причина в выражении \"on no account\""
       },
-      "definition": "(in the phrase 'on no account') for no reason, definitely not.",
+      "definition": "In expressions meaning reason or basis.",
       "example": "You’re on no account to touch any."
-    },
-    {
-      "word": "beyond",
-      "lemma": "beyond",
-      "lemmaId": "beyond",
-      "pos": "phrase",
-      "wordKey": "beyond_phrase",
-      "level": "B2",
-      "ipa": "bɪˈjɒnd",
-      "translations": {
-        "ru": "за, по ту сторону"
-      },
-      "definition": "At or to the further side of.",
-      "example": "Beyond the tiger—if there was a beyond—lay the horrors of Monday without magic."
     },
     {
       "word": "blamed",
@@ -69,10 +69,24 @@
       "level": "B2",
       "ipa": "bleɪmd",
       "translations": {
-        "ru": "винить"
+        "ru": "обвинённый"
       },
-      "definition": "To say or think that someone is responsible for a fault or wrong.",
+      "definition": "Held responsible for a fault or wrong.",
       "example": "I was so cross at being blamed for it."
+    },
+    {
+      "word": "carpet",
+      "lemma": "carpet",
+      "lemmaId": "carpet",
+      "pos": "noun",
+      "wordKey": "carpet_noun",
+      "level": "B2",
+      "ipa": "ˈkɑːpɪt",
+      "translations": {
+        "ru": "ковёр"
+      },
+      "definition": "A floor covering made from thick woven fabric.",
+      "example": "That lump of dough is still stuck to your carpet."
     },
     {
       "word": "cross",
@@ -83,24 +97,10 @@
       "level": "B2",
       "ipa": "krɒs",
       "translations": {
-        "ru": "сердитый, раздражённый"
+        "ru": "злой, раздражённый"
       },
       "definition": "Annoyed or angry.",
       "example": "I was so cross at being blamed for it."
-    },
-    {
-      "word": "dangerous",
-      "lemma": "dangerous",
-      "lemmaId": "dangerous",
-      "pos": "adjective",
-      "wordKey": "dangerous_adjective",
-      "level": "B2",
-      "ipa": "ˈdeɪndʒərəs",
-      "translations": {
-        "ru": "опасный"
-      },
-      "definition": "Able or likely to cause harm or injury.",
-      "example": "You ask for the most dangerous stuff in the world."
     },
     {
       "word": "demanded",
@@ -111,66 +111,10 @@
       "level": "B2",
       "ipa": "dɪˈmɑːndɪd",
       "translations": {
-        "ru": "требовать"
+        "ru": "требовал"
       },
-      "definition": "To ask for urgently or forcefully.",
-      "example": "Mr. Baslam came on Wednesday and demanded twenty pounds."
-    },
-    {
-      "word": "dressed",
-      "lemma": "dressed",
-      "lemmaId": "dressed",
-      "pos": "adjective",
-      "wordKey": "dressed_adjective",
-      "level": "B2",
-      "ipa": "drɛst",
-      "translations": {
-        "ru": "одетый"
-      },
-      "definition": "Wearing clothes of a particular type or style.",
-      "example": "Julia and Roger came in next, dressed ready for church."
-    },
-    {
-      "word": "drifted",
-      "lemma": "drifted",
-      "lemmaId": "drifted",
-      "pos": "verb",
-      "wordKey": "drifted_verb",
-      "level": "B2",
-      "ipa": "drɪftɪd",
-      "translations": {
-        "ru": "медленно плыть, дрейфовать"
-      },
-      "definition": "To be carried slowly by a current of air or water; to move aimlessly.",
-      "example": "...but he drifted away to sleep while Janet talked."
-    },
-    {
-      "word": "due to",
-      "lemma": "due to",
-      "lemmaId": "due_to",
-      "pos": "phrase",
-      "wordKey": "due_to_phrase",
-      "level": "B2",
-      "ipa": "djuː tuː",
-      "translations": {
-        "ru": "ожидается, предполагается"
-      },
-      "definition": "Scheduled or expected to happen at a particular time.",
-      "example": "This afternoon he was due to be turned into a frog or face a tiger."
-    },
-    {
-      "word": "euphemia",
-      "lemma": "euphemia",
-      "lemmaId": "euphemia",
-      "pos": "phrase",
-      "wordKey": "euphemia_phrase",
-      "level": "A2",
-      "ipa": "ˌjuːfəˈmiːə",
-      "translations": {
-        "ru": "Эвфемия (имя)"
-      },
-      "definition": "A character's name in the text.",
-      "example": "Euphemia came in with his breakfast on a tray."
+      "definition": "Asked for something forcefully or insistently.",
+      "example": "Mr. Baslam came on Wednesday and demanded twenty pounds Cat knew he could not get."
     },
     {
       "word": "fearsome",
@@ -179,39 +123,25 @@
       "pos": "adjective",
       "wordKey": "fearsome_adjective",
       "level": "C1",
-      "ipa": "ˈfɪəsəm",
+      "ipa": "ˈfɪəs(ə)m",
       "translations": {
-        "ru": "ужасающий, страшный"
+        "ru": "ужасный, грозный"
       },
       "definition": "Causing fear; frightening.",
-      "example": "You go and have that fearsome accident."
+      "example": "You go and have that fearsome accident and then you ask for the most dangerous stuff."
     },
     {
-      "word": "flaming",
-      "lemma": "flaming",
-      "lemmaId": "flaming",
-      "pos": "adjective",
-      "wordKey": "flaming_adjective",
-      "level": "C1",
-      "ipa": "ˈfleɪmɪŋ",
-      "translations": {
-        "ru": "пылающий, огненный"
-      },
-      "definition": "Burning with a bright flame.",
-      "example": "All he needed was a flaming sword."
-    },
-    {
-      "word": "forbid",
-      "lemma": "forbid",
-      "lemmaId": "forbid",
+      "word": "forbade",
+      "lemma": "forbade",
+      "lemmaId": "forbade",
       "pos": "verb",
-      "wordKey": "forbid_verb",
-      "level": "B2",
-      "ipa": "fəˈbɪd",
+      "wordKey": "forbade_verb",
+      "level": "C1",
+      "ipa": "fəˈbeɪd",
       "translations": {
-        "ru": "запрещать"
+        "ru": "запретил"
       },
-      "definition": "To order someone not to do something.",
+      "definition": "Past of forbid; commanded not to do something.",
       "example": "He forbade me to go to church."
     },
     {
@@ -220,13 +150,13 @@
       "lemmaId": "forbidden",
       "pos": "adjective",
       "wordKey": "forbidden_adjective",
-      "level": "C1",
+      "level": "B2",
       "ipa": "fəˈbɪdn",
       "translations": {
         "ru": "запрещённый"
       },
-      "definition": "Not allowed; prohibited.",
-      "example": "...take Janet and some dragons’ blood to the forbidden garden."
+      "definition": "Not allowed; banned.",
+      "example": "The only hope seemed to be to take Janet and some dragons’ blood to the forbidden garden."
     },
     {
       "word": "freezing",
@@ -237,9 +167,9 @@
       "level": "B2",
       "ipa": "ˈfriːzɪŋ",
       "translations": {
-        "ru": "леденящий, очень холодный"
+        "ru": "морозный"
       },
-      "definition": "Extremely cold, causing freezing or frost.",
+      "definition": "Very cold or causing frost.",
       "example": "Cat thought he had been meaning to say something about freezing fog in the Grampians."
     },
     {
@@ -253,8 +183,8 @@
       "translations": {
         "ru": "мрачно, угрюмо"
       },
-      "definition": "In a sad or depressed manner.",
-      "example": "Janet said gloomily."
+      "definition": "In a way that is dark or depressing.",
+      "example": "That lump of dough is still stuck to your carpet,” Janet said gloomily."
     },
     {
       "word": "harmful",
@@ -265,9 +195,9 @@
       "level": "B2",
       "ipa": "ˈhɑːmfʊl",
       "translations": {
-        "ru": "вредный, опасный"
+        "ru": "вредный"
       },
-      "definition": "Causing or capable of causing harm.",
+      "definition": "Causing or able to cause harm; injurious.",
       "example": "Dragons’ blood is so harmful that I’m never happy even when Michael uses it."
     },
     {
@@ -276,13 +206,13 @@
       "lemmaId": "horrors",
       "pos": "noun",
       "wordKey": "horrors_noun",
-      "level": "C1",
-      "ipa": "ˈhɒrərz",
+      "level": "B2",
+      "ipa": "ˈhɒrəz",
       "translations": {
         "ru": "ужасы"
       },
-      "definition": "Things that cause feelings of fear or disgust.",
-      "example": "...lay the horrors of Monday without magic."
+      "definition": "Something very unpleasant or frightening.",
+      "example": "Beyond the tiger—if there was a beyond—lay the horrors of Monday without magic."
     },
     {
       "word": "hugged",
@@ -295,22 +225,8 @@
       "translations": {
         "ru": "обнял"
       },
-      "definition": "Held (someone) tightly in one's arms to show affection.",
+      "definition": "Held someone tightly in one's arms to show affection.",
       "example": "She scooped Cat off his pillows and hugged him."
-    },
-    {
-      "word": "interest",
-      "lemma": "interest",
-      "lemmaId": "interest",
-      "pos": "noun",
-      "wordKey": "interest_noun",
-      "level": "B2",
-      "ipa": "ˈɪntrɪst",
-      "translations": {
-        "ru": "интерес"
-      },
-      "definition": "The feeling of wanting to learn or know about something.",
-      "example": "...with armfuls of books and toys and a great many interested questions."
     },
     {
       "word": "lump",
@@ -335,9 +251,9 @@
       "level": "B2",
       "ipa": "ˈpʌnɪʃt",
       "translations": {
-        "ru": "наказывать"
+        "ru": "наказанный"
       },
-      "definition": "To cause suffering due to wrongdoing.",
+      "definition": "Subjected to a penalty for wrongdoing.",
       "example": "It is hard to be punished for other people’s sins."
     },
     {
@@ -346,13 +262,27 @@
       "lemmaId": "quivering",
       "pos": "adjective",
       "wordKey": "quivering_adjective",
-      "level": "C1",
+      "level": "B2",
       "ipa": "ˈkwɪvərɪŋ",
       "translations": {
-        "ru": "дрожащий, трясущийся"
+        "ru": "дрожащий"
       },
-      "definition": "Shaking slightly, typically through nervousness or cold.",
-      "example": "He woke...cold and quivering."
+      "definition": "Shaking slightly because of cold, fear, or excitement.",
+      "example": "He woke on Sunday morning, quite the opposite: cold and quivering."
+    },
+    {
+      "word": "rather",
+      "lemma": "rather",
+      "lemmaId": "rather",
+      "pos": "adverb",
+      "wordKey": "rather_adverb",
+      "level": "B2",
+      "ipa": "ˈrɑːðə(r)",
+      "translations": {
+        "ru": "весьма, довольно"
+      },
+      "definition": "To some degree, fairly or quite.",
+      "example": "a rather heavy strong tiger Will Suggins would make too."
     },
     {
       "word": "rewarded",
@@ -365,8 +295,8 @@
       "translations": {
         "ru": "награждённый"
       },
-      "definition": "Given a benefit in recognition of service or achievement.",
-      "example": "...even though I’ve been rewarded with the sight of a sky-blue dressing gown."
+      "definition": "Given a reward for good behaviour or achievement.",
+      "example": "even though I’ve been rewarded with the sight of a sky-blue dressing gown."
     },
     {
       "word": "settling in",
@@ -375,12 +305,26 @@
       "pos": "phrase",
       "wordKey": "settling_in_phrase",
       "level": "B2",
-      "ipa": "ˈsɛtlɪŋ ɪn",
+      "ipa": "ˈsetlɪŋ ɪn",
       "translations": {
-        "ru": "осваиваться, привыкать"
+        "ru": "привыкание, обживание"
       },
-      "definition": "Becoming comfortable in a new environment.",
+      "definition": "Becoming comfortable in a new place or situation.",
       "example": "He felt he was truly settling in to it."
+    },
+    {
+      "word": "silly",
+      "lemma": "silly",
+      "lemmaId": "silly",
+      "pos": "adjective",
+      "wordKey": "silly_adjective",
+      "level": "B2",
+      "ipa": "ˈsɪli",
+      "translations": {
+        "ru": "глупый"
+      },
+      "definition": "Showing lack of good sense or judgement.",
+      "example": "You poor silly darling!"
     },
     {
       "word": "snug",
@@ -388,13 +332,13 @@
       "lemmaId": "snug",
       "pos": "adjective",
       "wordKey": "snug_adjective",
-      "level": "C1",
+      "level": "B2",
       "ipa": "snʌɡ",
       "translations": {
-        "ru": "уютный, удобный"
+        "ru": "уютный, тёплый"
       },
-      "definition": "Comfortably warm and protected.",
-      "example": "...feeling snug and cared for."
+      "definition": "Comfortably warm, sheltered, or cozy.",
+      "example": "he drifted away to sleep while Janet talked, feeling snug and cared for."
     },
     {
       "word": "stuffed",
@@ -402,27 +346,55 @@
       "lemmaId": "stuffed",
       "pos": "adjective",
       "wordKey": "stuffed_adjective",
-      "level": "C1",
+      "level": "B2",
       "ipa": "stʌft",
       "translations": {
         "ru": "набитый, наполненный"
       },
-      "definition": "Filled tightly with something.",
+      "definition": "Filled or packed tightly with something.",
       "example": "The garden is old as the hills and stuffed with magic of every kind."
     },
     {
-      "word": "understand",
-      "lemma": "understand",
-      "lemmaId": "understand",
-      "pos": "verb",
-      "wordKey": "understand_verb",
+      "word": "sword",
+      "lemma": "sword",
+      "lemmaId": "sword",
+      "pos": "noun",
+      "wordKey": "sword_noun",
       "level": "B2",
-      "ipa": "ˌʌndəˈstænd",
+      "ipa": "sɔːd",
       "translations": {
-        "ru": "понимать"
+        "ru": "меч"
       },
-      "definition": "To grasp the meaning or significance of.",
-      "example": "You’ll be taken into the garden when you know enough magic to understand it."
+      "definition": "A weapon with a long metal blade.",
+      "example": "All he needed was a flaming sword."
+    },
+    {
+      "word": "tray",
+      "lemma": "tray",
+      "lemmaId": "tray",
+      "pos": "noun",
+      "wordKey": "tray_noun",
+      "level": "B2",
+      "ipa": "treɪ",
+      "translations": {
+        "ru": "поднос"
+      },
+      "definition": "A flat object used for carrying food or drinks.",
+      "example": "Euphemia came in with his breakfast on a tray."
+    },
+    {
+      "word": "vicar",
+      "lemma": "vicar",
+      "lemmaId": "vicar",
+      "pos": "noun",
+      "wordKey": "vicar_noun",
+      "level": "B2",
+      "ipa": "ˈvɪkə(r)",
+      "translations": {
+        "ru": "священник"
+      },
+      "definition": "A priest in charge of a parish in the Church of England.",
+      "example": "The vicar won’t have me because of what Gwendolen did."
     },
     {
       "word": "workshop",
@@ -433,10 +405,10 @@
       "level": "B2",
       "ipa": "ˈwɜːkʃɒp",
       "translations": {
-        "ru": "мастерская, цех"
+        "ru": "мастерская"
       },
-      "definition": "A room or building where things are made or repaired.",
-      "example": "Cat climbed out of bed to get some dragons’ blood from Mr. Saunders’ workshop."
+      "definition": "A room where things are made or repaired.",
+      "example": "Cat climbed out of bed to go and get some dragons’ blood from Mr. Saunders’ workshop."
     }
   ]
 }

@@ -25,40 +25,26 @@
         "A1": 0,
         "A2": 0,
         "B1": 0,
-        "B2": 14,
-        "C1": 8,
-        "C2": 3
+        "B2": 9,
+        "C1": 11,
+        "C2": 5
       }
     }
   },
   "vocabulary": [
     {
-      "word": "alarm",
-      "lemma": "alarm",
-      "lemmaId": "alarm",
-      "pos": "noun",
-      "wordKey": "alarm_noun",
+      "word": "alarm(ed)",
+      "lemma": "alarm(ed)",
+      "lemmaId": "alarmed",
+      "pos": "phrase",
+      "wordKey": "alarmed_phrase",
       "level": "B2",
-      "ipa": "əˈlɑːm",
+      "ipa": "əˈlɑːmd",
       "translations": {
-        "ru": "тревога, беспокойство"
+        "ru": "тревожить/тревожный"
       },
-      "definition": "A feeling of fear or anxiety caused by the sudden realization of danger.",
+      "definition": "To make afraid or uneasy; fear or anxiety because of danger.",
       "example": "Both boys were thoroughly depressed and alarmed."
-    },
-    {
-      "word": "brandy",
-      "lemma": "brandy",
-      "lemmaId": "brandy",
-      "pos": "noun",
-      "wordKey": "brandy_noun",
-      "level": "B2",
-      "ipa": "ˈbrændi",
-      "translations": {
-        "ru": "бренди (алкоголь)"
-      },
-      "definition": "A strong alcoholic spirit distilled from wine or fermented fruit juice.",
-      "example": "This is the last time I take you where brandy is served."
     },
     {
       "word": "charms",
@@ -66,13 +52,13 @@
       "lemmaId": "charms",
       "pos": "noun",
       "wordKey": "charms_noun",
-      "level": "B2",
+      "level": "C1",
       "ipa": "tʃɑːmz",
       "translations": {
         "ru": "чары, заклинания"
       },
-      "definition": "Objects or spells believed to have magical powers.",
-      "example": "We set the usual charms for the defence of Caprona each year."
+      "definition": "Magical spells or objects believed to have power.",
+      "example": "Each year we set the usual charms for the defense of Caprona."
     },
     {
       "word": "conferred",
@@ -83,10 +69,10 @@
       "level": "C1",
       "ipa": "kənˈfɜːd",
       "translations": {
-        "ru": "совещаться, обсуждать"
+        "ru": "совещаться, консультироваться"
       },
-      "definition": "To have a discussion, exchange opinions, or deliberate.",
-      "example": "We conferred with the Duke about the situation."
+      "definition": "To discuss something together in order to exchange opinions or make a decision.",
+      "example": "We conferred with the Duke."
     },
     {
       "word": "confounded",
@@ -97,24 +83,10 @@
       "level": "C2",
       "ipa": "kənˈfaʊndɪd",
       "translations": {
-        "ru": "проклятый, чертов"
+        "ru": "чёртов, проклятый"
       },
-      "definition": "Used to express anger or annoyance.",
+      "definition": "Used for emphasis to express anger or annoyance.",
       "example": "Oh this confounded rain!"
-    },
-    {
-      "word": "crumpled",
-      "lemma": "crumpled",
-      "lemmaId": "crumpled",
-      "pos": "verb",
-      "wordKey": "crumpled_verb",
-      "level": "B2",
-      "ipa": "ˈkrʌmpld",
-      "translations": {
-        "ru": "сжался, сморщился"
-      },
-      "definition": "To press or crush something into folds or wrinkles; here meaning to show a physical sign of embarrassment or shame.",
-      "example": "He crumpled under their gaze."
     },
     {
       "word": "crushingly",
@@ -122,13 +94,41 @@
       "lemmaId": "crushingly",
       "pos": "adverb",
       "wordKey": "crushingly_adverb",
-      "level": "C2",
+      "level": "C1",
       "ipa": "ˈkrʌʃɪŋli",
       "translations": {
-        "ru": "разрушительно, сокрушительно"
+        "ru": "категорически, подавляюще"
       },
-      "definition": "In a way that is overwhelming or devastating.",
-      "example": "Uncle Umberto said, “that is just what I’m complaining of.” in a crushing manner."
+      "definition": "In a way that strongly suppresses or overwhelms.",
+      "example": "Uncle Umberto crushingly, “That is just what I’m complaining of.”"
+    },
+    {
+      "word": "curse",
+      "lemma": "curse",
+      "lemmaId": "curse",
+      "pos": "noun",
+      "wordKey": "curse_noun",
+      "level": "B2",
+      "ipa": "kɜːs",
+      "translations": {
+        "ru": "проклятие"
+      },
+      "definition": "A spell intended to cause harm or punishment.",
+      "example": "The Angel of Caprona is a spell like any other spell."
+    },
+    {
+      "word": "dejected",
+      "lemma": "dejected",
+      "lemmaId": "dejected",
+      "pos": "adjective",
+      "wordKey": "dejected_adjective",
+      "level": "C1",
+      "ipa": "dɪˈdʒɛktɪd",
+      "translations": {
+        "ru": "унылый, подавленный"
+      },
+      "definition": "Sad and depressed; dispirited.",
+      "example": "Paolo and Tonino expected Domenico to be crushed again."
     },
     {
       "word": "depressed",
@@ -139,10 +139,10 @@
       "level": "B2",
       "ipa": "dɪˈprɛst",
       "translations": {
-        "ru": "угнетённый, подавленный"
+        "ru": "подавленный"
       },
-      "definition": "In a state of unhappiness or despondency.",
-      "example": "Both boys were thoroughly depressed and alarmed."
+      "definition": "Sad and without hope.",
+      "example": "Tonino and Paolo looked wondering what had depressed them so."
     },
     {
       "word": "disgusting",
@@ -150,27 +150,13 @@
       "lemmaId": "disgusting",
       "pos": "adjective",
       "wordKey": "disgusting_adjective",
-      "level": "B2",
+      "level": "C1",
       "ipa": "dɪsˈɡʌstɪŋ",
       "translations": {
         "ru": "отвратительный"
       },
-      "definition": "Arousing revulsion or strong disapproval.",
+      "definition": "Extremely unpleasant or offensive.",
       "example": "Guido Petrocchi wished those disgusting daughters of his to be present."
-    },
-    {
-      "word": "divine",
-      "lemma": "divine",
-      "lemmaId": "divine",
-      "pos": "adjective",
-      "wordKey": "divine_adjective",
-      "level": "B2",
-      "ipa": "dɪˈvaɪn",
-      "translations": {
-        "ru": "божественный"
-      },
-      "definition": "Of, from, or like God or a god.",
-      "example": "Even if it is of divine origin."
     },
     {
       "word": "enchanter",
@@ -178,13 +164,13 @@
       "lemmaId": "enchanter",
       "pos": "noun",
       "wordKey": "enchanter_noun",
-      "level": "C1",
-      "ipa": "ɪnˈʧɑːntə",
+      "level": "C2",
+      "ipa": "ɪnˈtʃɑːntə",
       "translations": {
-        "ru": "чародей, заклинатель"
+        "ru": "чародей, волшебник"
       },
-      "definition": "A person who uses magic or sorcery; a magician.",
-      "example": "The Duke suspects they are paying an enchanter to..."
+      "definition": "A person who uses magic or enchanting spells.",
+      "example": "The Duke suspects they are paying an enchanter to—"
     },
     {
       "word": "gloom",
@@ -195,80 +181,66 @@
       "level": "C1",
       "ipa": "ɡluːm",
       "translations": {
-        "ru": "уныние, мрак"
+        "ru": "уныние, мрачность"
       },
-      "definition": "A state of depression or despondency.",
-      "example": "Uncle Umberto answered, with deepest gloom, “When my father was a boy...”"
+      "definition": "A state of darkness or sadness; melancholy.",
+      "example": "Uncle Umberto answered, with deepest gloom."
     },
     {
-      "word": "glorious",
-      "lemma": "glorious",
-      "lemmaId": "glorious",
+      "word": "gloomy",
+      "lemma": "gloomy",
+      "lemmaId": "gloomy",
       "pos": "adjective",
-      "wordKey": "glorious_adjective",
+      "wordKey": "gloomy_adjective",
       "level": "B2",
-      "ipa": "ˈɡlɔːrɪəs",
+      "ipa": "ˈɡluːmi",
       "translations": {
-        "ru": "великолепный, славный"
+        "ru": "мрачный, унылый"
       },
-      "definition": "Having great beauty and splendor worthy of admiration.",
-      "example": "The glorious Angel took the words back to Heaven."
+      "definition": "Dark or poorly lit, especially so as to appear depressing or frightening; sad.",
+      "example": "The two old men simply looked gloomy."
     },
     {
-      "word": "jeer",
-      "lemma": "jeer",
-      "lemmaId": "jeer",
-      "pos": "verb",
-      "wordKey": "jeer_verb",
-      "level": "C1",
-      "ipa": "dʒɪə",
+      "word": "good-natured",
+      "lemma": "good-natured",
+      "lemmaId": "good_natured",
+      "pos": "adjective",
+      "wordKey": "good_natured_adjective",
+      "level": "B2",
+      "ipa": "ˌɡʊdˈneɪtʃəd",
       "translations": {
-        "ru": "насмехаться, освистывать"
+        "ru": "добродушный"
       },
-      "definition": "To make rude and mocking remarks, typically in a loud voice.",
-      "example": "They jeered at the speaker."
+      "definition": "Having a kind and pleasant character.",
+      "example": "The Duke is very good-natured, I’ll say that."
     },
     {
       "word": "lurch",
       "lemma": "lurch",
       "lemmaId": "lurch",
-      "pos": "verb",
-      "wordKey": "lurch_verb",
-      "level": "B2",
-      "ipa": "lɜːʧ",
-      "translations": {
-        "ru": "крениться, дергаться"
-      },
-      "definition": "To make an abrupt, uncontrolled movement.",
-      "example": "The coach lurched around the corner."
-    },
-    {
-      "word": "lurk",
-      "lemma": "lurk",
-      "lemmaId": "lurk",
-      "pos": "verb",
-      "wordKey": "lurk_verb",
+      "pos": "phrase",
+      "wordKey": "lurch_phrase",
       "level": "C1",
-      "ipa": "lɜːk",
+      "ipa": "verb",
       "translations": {
-        "ru": "таиться, скрываться"
+        "ru": "шататься, идти рывками"
       },
-      "definition": "To lie hidden, ready to attack or appear.",
-      "example": "The danger might be lurking nearby."
+      "definition": "To make an abrupt, uncontrolled movement or series of movements; stagger.",
+      "example": "The coach lurched around the corner into the Corso."
     },
     {
       "word": "makeshift",
       "lemma": "makeshift",
       "lemmaId": "makeshift",
-      "pos": "adjective",
-      "wordKey": "makeshift_adjective",
+      "pos": "noun",
+      "wordKey": "makeshift_noun",
       "level": "C1",
       "ipa": "ˈmeɪkʃɪft",
       "translations": {
-        "ru": "временный, заменяющий"
+        "ru": "временное решение, замена"
       },
-      "definition": "Serving as a temporary substitute; sufficient for the time being.",
-      "example": "The words you sing are a makeshift for the proper ones."
+      "definition": "A temporary substitute or solution.",
+      "example": "The words you sing are a makeshift."
     },
     {
       "word": "manuscript",
@@ -276,27 +248,27 @@
       "lemmaId": "manuscript",
       "pos": "noun",
       "wordKey": "manuscript_noun",
-      "level": "B2",
-      "ipa": "ˈmænjʊskrɪpt",
+      "level": "C1",
+      "ipa": "ˈmænjuskrɪpt",
       "translations": {
         "ru": "рукопись"
       },
-      "definition": "A handwritten or typed document, especially a writer’s work before publication.",
+      "definition": "A handwritten or typed document, especially a writer's original text before publication.",
       "example": "I’ll look in every manuscript I can think of."
     },
     {
-      "word": "patter",
-      "lemma": "patter",
-      "lemmaId": "patter",
+      "word": "pledged",
+      "lemma": "pledged",
+      "lemmaId": "pledged",
       "pos": "verb",
-      "wordKey": "patter_verb",
-      "level": "B2",
-      "ipa": "ˈpætə",
+      "wordKey": "pledged_verb",
+      "level": "C1",
+      "ipa": "plɛdʒt",
       "translations": {
-        "ru": "стучать, барабанить (о дожде)"
+        "ru": "обязались"
       },
-      "definition": "To make a quick succession of light tapping sounds, e.g. raindrops.",
-      "example": "Rain ceaselessly pattered down."
+      "definition": "Committed or promised solemnly.",
+      "example": "We—like idiots—have pledged ourselves to complete what God left unfinished."
     },
     {
       "word": "presumption",
@@ -304,55 +276,69 @@
       "lemmaId": "presumption",
       "pos": "noun",
       "wordKey": "presumption_noun",
-      "level": "C1",
+      "level": "C2",
       "ipa": "prɪˈzʌmpʃən",
       "translations": {
-        "ru": "самонадеянность, дерзость"
+        "ru": "самонадеянность, презумпция"
       },
-      "definition": "An act of taking something for granted in a way that is disrespectful or bold.",
+      "definition": "An attitude of bold or arrogant behaviour without justification.",
       "example": "The presumption of man!"
     },
     {
-      "word": "sap",
-      "lemma": "sap",
-      "lemmaId": "sap",
+      "word": "sapping",
+      "lemma": "sapping",
+      "lemmaId": "sapping",
       "pos": "verb",
-      "wordKey": "sap_verb",
+      "wordKey": "sapping_verb",
       "level": "C1",
-      "ipa": "sæp",
+      "ipa": "ˈsæpɪŋ",
       "translations": {
-        "ru": "подрывать, истощать"
+        "ru": "истощать, подрывать"
       },
-      "definition": "To gradually weaken or destroy something.",
+      "definition": "Gradually weakening or destroying strength or power.",
       "example": "Something is definitely sapping our strength."
     },
     {
-      "word": "shame",
-      "lemma": "shame",
-      "lemmaId": "shame",
+      "word": "squawk",
+      "lemma": "squawk",
+      "lemmaId": "squawk",
       "pos": "noun",
-      "wordKey": "shame_noun",
+      "wordKey": "squawk_noun",
       "level": "B2",
-      "ipa": "ʃeɪm",
+      "ipa": "skwɔːk",
       "translations": {
-        "ru": "стыд"
+        "ru": "пронзительный крик"
       },
-      "definition": "A painful feeling arising from the consciousness of something dishonourable.",
-      "example": "I should die of shame if they did it before we did."
+      "definition": "A loud, harsh noise or cry, especially one of protest or laughter.",
+      "example": "Domenico interrupted with a squawk of laughter."
     },
     {
-      "word": "spell",
-      "lemma": "spell",
-      "lemmaId": "spell",
-      "pos": "noun",
-      "wordKey": "spell_noun",
+      "word": "suspects",
+      "lemma": "suspects",
+      "lemmaId": "suspects",
+      "pos": "verb",
+      "wordKey": "suspects_verb",
       "level": "B2",
-      "ipa": "spɛl",
+      "ipa": "səˈspekts",
       "translations": {
-        "ru": "заклинание"
+        "ru": "подозревает"
       },
-      "definition": "A word or formula believed to have magical power.",
-      "example": "The Angel of Caprona is a spell like any other spell."
+      "definition": "To believe or worry that something is true or likely.",
+      "example": "The Duke suspects they are paying an enchanter."
+    },
+    {
+      "word": "timidly",
+      "lemma": "timidly",
+      "lemmaId": "timidly",
+      "pos": "adverb",
+      "wordKey": "timidly_adverb",
+      "level": "B2",
+      "ipa": "ˈtɪmɪdli",
+      "translations": {
+        "ru": "робко, застенчиво"
+      },
+      "definition": "In a way that shows a lack of confidence or courage.",
+      "example": "Domenico said timidly."
     },
     {
       "word": "traitors",
@@ -365,8 +351,22 @@
       "translations": {
         "ru": "предатели"
       },
-      "definition": "People who betray their country, cause, or friends.",
-      "example": "The Petrocchis were no more traitors than we are."
+      "definition": "People who betray someone or something, especially their country or friends.",
+      "example": "I could see the Petrocchis were no more traitors than we are!"
+    },
+    {
+      "word": "vanquished",
+      "lemma": "vanquished",
+      "lemmaId": "vanquished",
+      "pos": "adjective",
+      "wordKey": "vanquished_adjective",
+      "level": "C2",
+      "ipa": "ˈvæŋkwɪʃt",
+      "translations": {
+        "ru": "побеждённый"
+      },
+      "definition": "Defeated or conquered completely.",
+      "example": "The glorious Angel took the words back to Heaven after the White Devil was vanquished."
     },
     {
       "word": "vanquished",
@@ -377,10 +377,10 @@
       "level": "C2",
       "ipa": "ˈvæŋkwɪʃt",
       "translations": {
-        "ru": "побежденный, покоренный"
+        "ru": "побеждённый, покорённый"
       },
-      "definition": "Defeated thoroughly in battle or contest.",
-      "example": "The White Devil was vanquished by the Angel."
+      "definition": "Defeated thoroughly in a battle or contest.",
+      "example": "The glorious Angel took the words back to Heaven after the White Devil was vanquished."
     }
   ]
 }

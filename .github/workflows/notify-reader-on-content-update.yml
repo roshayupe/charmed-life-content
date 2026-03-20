@@ -1,0 +1,30 @@
+name: Notify Reader About Content Update
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "data/**"
+      - "covers/**"
+
+jobs:
+  notify-reader:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Dispatch update event to reader repo
+        env:
+          READER_REPO_TOKEN: ${{ secrets.READER_REPO_TOKEN }}
+        run: |
+          if [ -z "$READER_REPO_TOKEN" ]; then
+            echo "Missing READER_REPO_TOKEN secret"
+            exit 1
+          fi
+
+          curl -sS -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer $READER_REPO_TOKEN" \
+            https://api.github.com/repos/roshayupe/charmed-life-reader/dispatches \
+            -d '{"event_type":"content-updated"}'

@@ -8,6 +8,7 @@
   "meta": {
     "bookId": "witch-week",
     "bookTitle": "Witch Week",
+    "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
     "seriesTitle": "Standalone",
@@ -20,13 +21,13 @@
       "wordCount": 600,
       "uniqueWordCount": 300,
       "paragraphCount": 12,
-      "vocabularyCount": 29,
+      "vocabularyCount": 22,
       "levelDistribution": {
         "A1": 0,
         "A2": 0,
         "B1": 0,
-        "B2": 17,
-        "C1": 9,
+        "B2": 14,
+        "C1": 5,
         "C2": 3
       }
     }
@@ -41,12 +42,24 @@
       "level": "B2",
       "ipa": "ˈæŋkʃəs",
       "translations": {
+        "de": {
+          "translation": "besorgt"
+        },
+        "es": {
+          "translation": "ansioso"
+        },
         "ru": {
-          "translation": "тревожный, обеспокоенный"
+          "translation": "тревожный"
+        },
+        "uk": {
+          "translation": "стурбований"
         }
       },
-      "definition": "Experiencing worry or unease about something uncertain or potentially bad.",
-      "example": "The bright, smiling, anxious face of Miss Hodge."
+      "definition": "Feeling worried or uneasy about something with an uncertain outcome.",
+      "example": "He saw the bright, smiling, anxious face of Miss Hodge, but his mind was not on her at all.",
+      "exampleStart": 3141,
+      "exampleEnd": 3232,
+      "matchedForm": "anxious"
     },
     {
       "word": "attract",
@@ -57,76 +70,24 @@
       "level": "B2",
       "ipa": "əˈtrækt",
       "translations": {
+        "de": {
+          "translation": "anziehen"
+        },
+        "es": {
+          "translation": "atraer"
+        },
         "ru": {
           "translation": "привлекать"
+        },
+        "uk": {
+          "translation": "приваблювати"
         }
       },
-      "definition": "To cause interest or attention to oneself or itself.",
-      "example": "He wanted so badly to attract Miss Hodge’s attention."
-    },
-    {
-      "word": "calmly",
-      "lemma": "calmly",
-      "lemmaId": "calmly",
-      "pos": "adverb",
-      "wordKey": "calmly_adverb",
-      "level": "B2",
-      "ipa": "ˈkɑːmlɪ",
-      "translations": {
-        "ru": {
-          "translation": "спокойно"
-        }
-      },
-      "definition": "In a quiet and peaceful manner.",
-      "example": "Miss Hodge remarked calmly."
-    },
-    {
-      "word": "cast",
-      "lemma": "cast",
-      "lemmaId": "cast",
-      "pos": "verb",
-      "wordKey": "cast_verb",
-      "level": "B2",
-      "ipa": "verb",
-      "translations": {
-        "ru": {
-          "translation": "бросать, посылать взгляд"
-        }
-      },
-      "definition": "To look quickly in a particular direction.",
-      "example": "He cast a quick glance at the note."
-    },
-    {
-      "word": "choir",
-      "lemma": "choir",
-      "lemmaId": "choir",
-      "pos": "noun",
-      "wordKey": "choir_noun",
-      "level": "B2",
-      "ipa": "kwaɪə",
-      "translations": {
-        "ru": {
-          "translation": "хор"
-        }
-      },
-      "definition": "A group of people who sing together, often in church or school.",
-      "example": "Fifty were also in the school choir."
-    },
-    {
-      "word": "collocation",
-      "lemma": "collocation",
-      "lemmaId": "collocation",
-      "pos": "noun",
-      "wordKey": "collocation_noun",
-      "level": "C2",
-      "ipa": "ˌkɒləˈkeɪʃən",
-      "translations": {
-        "ru": {
-          "translation": "словосочетание, устойчивое выражение"
-        }
-      },
-      "definition": "A habitual combination of words that sound natural to native speakers.",
-      "example": "Meaningful multi-word expressions and collocations."
+      "definition": "Cause to draw attention or interest.",
+      "example": "He wanted so badly to attract Miss Hodge’s attention, but he knew that words like witch were not the kind of words one used in front of a lady.",
+      "exampleStart": 1537,
+      "exampleEnd": 1680,
+      "matchedForm": "attract"
     },
     {
       "word": "consult",
@@ -134,31 +95,55 @@
       "lemmaId": "consult",
       "pos": "verb",
       "wordKey": "consult_verb",
-      "level": "C1",
+      "level": "B2",
       "ipa": "kənˈsʌlt",
       "translations": {
+        "de": {
+          "translation": "beraten"
+        },
+        "es": {
+          "translation": "consultar"
+        },
         "ru": {
-          "translation": "консультироваться, советоваться"
+          "translation": "консультироваться"
+        },
+        "uk": {
+          "translation": "консультуватись"
         }
       },
-      "definition": "To seek advice or information from someone, especially an expert or authoritative person.",
-      "example": "Mr. Crossley sped to the staff room, hoping to find someone he could consult about the note."
+      "definition": "Seek advice or information from someone.",
+      "example": "Crossley sped to the staff room, hoping to find someone he could consult about the note.",
+      "exampleStart": 612,
+      "exampleEnd": 700,
+      "matchedForm": "consult"
     },
     {
       "word": "deputy head",
-      "lemma": "deputy head",
-      "lemmaId": "deputy_head",
-      "pos": "phrase",
-      "wordKey": "deputy_head_phrase",
-      "level": "C1",
-      "ipa": "phrase",
+      "lemma": "deputyhead",
+      "lemmaId": "deputyhead",
+      "pos": "noun",
+      "wordKey": "deputyhead_noun",
+      "level": "B2",
+      "ipa": "ˈdɛpjuti hɛd",
       "translations": {
+        "de": {
+          "translation": "stellvertretender Schulleiter"
+        },
+        "es": {
+          "translation": "subdirector"
+        },
         "ru": {
-          "translation": "заместитель директора школы"
+          "translation": "заместитель директора"
+        },
+        "uk": {
+          "translation": "заступник директора"
         }
       },
-      "definition": "The person who is second in command at a school.",
-      "example": "Mr. Wentworth, as deputy head."
+      "definition": "An official second-in-command in a school or organization.",
+      "example": "Wentworth, as deputy head, had a study where he wrestled with the schedules and various other problems Miss Cadwallader gave him.",
+      "exampleStart": 2366,
+      "exampleEnd": 2495,
+      "matchedForm": "deputy"
     },
     {
       "word": "despairingly",
@@ -166,15 +151,27 @@
       "lemmaId": "despairingly",
       "pos": "adverb",
       "wordKey": "despairingly_adverb",
-      "level": "C1",
+      "level": "C2",
       "ipa": "dɪˈspɛərɪŋli",
       "translations": {
+        "de": {
+          "translation": "verzweifelt"
+        },
+        "es": {
+          "translation": "desesperadamente"
+        },
         "ru": {
           "translation": "отчаянно"
+        },
+        "uk": {
+          "translation": "відчайдушно"
         }
       },
       "definition": "In a manner showing loss of hope.",
-      "example": "He rubbed the thin patch at the back of his hair despairingly."
+      "example": "Wentworth rubbed the thin patch at the back of his hair despairingly.",
+      "exampleStart": 3051,
+      "exampleEnd": 3120,
+      "matchedForm": "despairingly"
     },
     {
       "word": "excitedly",
@@ -182,15 +179,27 @@
       "lemmaId": "excitedly",
       "pos": "adverb",
       "wordKey": "excitedly_adverb",
-      "level": "C1",
+      "level": "B2",
       "ipa": "ɪkˈsaɪtɪdli",
       "translations": {
+        "de": {
+          "translation": "aufgeregt"
+        },
+        "es": {
+          "translation": "emocionadamente"
+        },
         "ru": {
-          "translation": "возбужденно, взволнованно"
+          "translation": "возбужденно"
+        },
+        "uk": {
+          "translation": "захоплено"
         }
       },
-      "definition": "Showing great enthusiasm or eagerness.",
-      "example": "Mr. Crossley was telling her excitedly about the note."
+      "definition": "In a way that shows happiness or enthusiasm.",
+      "example": "Crossley was telling her excitedly about the note.",
+      "exampleStart": 1214,
+      "exampleEnd": 1264,
+      "matchedForm": "excitedly"
     },
     {
       "word": "fierce",
@@ -199,46 +208,54 @@
       "pos": "adjective",
       "wordKey": "fierce_adjective",
       "level": "B2",
-      "ipa": "fɪəs",
+      "ipa": "fɪərs",
       "translations": {
+        "de": {
+          "translation": "heftig"
+        },
+        "es": {
+          "translation": "fiero"
+        },
         "ru": {
-          "translation": "яростный, жестокий, сильный"
+          "translation": "жестокий"
+        },
+        "uk": {
+          "translation": "лютий"
         }
       },
-      "definition": "Having or displaying an intense or aggressive quality.",
-      "example": "A particularly fierce problem."
+      "definition": "Showing strong, intense, or aggressive force.",
+      "example": "When Miss Hodge tapped on the door, he was wrestling with a particularly fierce one.",
+      "exampleStart": 2496,
+      "exampleEnd": 2580,
+      "matchedForm": "fierce"
     },
     {
       "word": "frightening",
-      "lemma": "frightening",
-      "lemmaId": "frightening",
+      "lemma": "frighten",
+      "lemmaId": "frighten",
       "pos": "adjective",
-      "wordKey": "frightening_adjective",
+      "wordKey": "frighten_adjective",
       "level": "B2",
-      "ipa": "ˈfraɪtnɪŋ",
+      "ipa": "ˈfraɪtənɪŋ",
       "translations": {
+        "de": {
+          "translation": "beängstigend"
+        },
+        "es": {
+          "translation": "atemorizante"
+        },
         "ru": {
-          "translation": "страшный, пугающий"
+          "translation": "страшащий"
+        },
+        "uk": {
+          "translation": "страшний"
         }
       },
       "definition": "Causing fear or alarm.",
-      "example": "That was a thoroughly frightening thought."
-    },
-    {
-      "word": "glance",
-      "lemma": "glance",
-      "lemmaId": "glance",
-      "pos": "noun",
-      "wordKey": "glance_noun",
-      "level": "B2",
-      "ipa": "ɡlɑːns",
-      "translations": {
-        "ru": {
-          "translation": "взгляд, мимолётный взгляд"
-        }
-      },
-      "definition": "A quick or brief look at something.",
-      "example": "She spared the note one glance."
+      "example": "And that was a thoroughly frightening thought.",
+      "exampleStart": 374,
+      "exampleEnd": 420,
+      "matchedForm": "frightening"
     },
     {
       "word": "hastily",
@@ -249,12 +266,24 @@
       "level": "C1",
       "ipa": "ˈheɪstɪli",
       "translations": {
+        "de": {
+          "translation": "eilig"
+        },
+        "es": {
+          "translation": "apresuradamente"
+        },
         "ru": {
-          "translation": "поспешно, торопливо"
+          "translation": "поспешно"
+        },
+        "uk": {
+          "translation": "поспішно"
         }
       },
-      "definition": "With excessive speed or urgency; hurriedly.",
-      "example": "Mr. Crossley said hastily."
+      "definition": "In a hurried or rushed manner.",
+      "example": "Crossley said hastily.",
+      "exampleStart": 1829,
+      "exampleEnd": 1851,
+      "matchedForm": "hastily"
     },
     {
       "word": "ignore",
@@ -263,30 +292,54 @@
       "pos": "verb",
       "wordKey": "ignore_verb",
       "level": "B2",
-      "ipa": "ɪɡˈnɔː",
+      "ipa": "ɪɡˈnɔːr",
       "translations": {
+        "de": {
+          "translation": "ignorieren"
+        },
+        "es": {
+          "translation": "ignorar"
+        },
         "ru": {
           "translation": "игнорировать"
+        },
+        "uk": {
+          "translation": "ігнорувати"
         }
       },
-      "definition": "To deliberately pay no attention to.",
-      "example": "I think it’s just a silly joke, ignore it."
+      "definition": "Refuse to take notice of.",
+      "example": "“Ignore it.",
+      "exampleStart": 1983,
+      "exampleEnd": 1994,
+      "matchedForm": "Ignore"
     },
     {
       "word": "inquisitors",
-      "lemma": "inquisitors",
-      "lemmaId": "inquisitors",
+      "lemma": "inquisitor",
+      "lemmaId": "inquisitor",
       "pos": "noun",
-      "wordKey": "inquisitors_noun",
+      "wordKey": "inquisitor_noun",
       "level": "C2",
-      "ipa": "ɪnˈkwɪzɪtəz",
+      "ipa": "ɪnˈkwɪzɪtər",
       "translations": {
+        "de": {
+          "translation": "Inquisitoren"
+        },
+        "es": {
+          "translation": "inquisidores"
+        },
         "ru": {
           "translation": "инквизиторы"
+        },
+        "uk": {
+          "translation": "інквізитори"
         }
       },
-      "definition": "People who conduct an official investigation or inquiry, often in a harsh or severe manner.",
-      "example": "That meant inquisitors coming to the school."
+      "definition": "People who conduct an official investigation, especially harshly or oppressively.",
+      "example": "If what it said was true, that meant inquisitors coming to the school.",
+      "exampleStart": 303,
+      "exampleEnd": 373,
+      "matchedForm": "inquisitors"
     },
     {
       "word": "miserably",
@@ -295,30 +348,26 @@
       "pos": "adverb",
       "wordKey": "miserably_adverb",
       "level": "B2",
-      "ipa": "ˈmɪzərəblɪ",
+      "ipa": "ˈmɪzərəbli",
       "translations": {
+        "de": {
+          "translation": "elend"
+        },
+        "es": {
+          "translation": "tristemente"
+        },
         "ru": {
-          "translation": "несчастно, жалко"
+          "translation": "жалко"
+        },
+        "uk": {
+          "translation": "нещасно"
         }
       },
       "definition": "In a way that shows unhappiness or discomfort.",
-      "example": "Mr. Crossley agreed miserably."
-    },
-    {
-      "word": "orchestra",
-      "lemma": "orchestra",
-      "lemmaId": "orchestra",
-      "pos": "noun",
-      "wordKey": "orchestra_noun",
-      "level": "B2",
-      "ipa": "ˈɔːkɪstrə",
-      "translations": {
-        "ru": {
-          "translation": "оркестр"
-        }
-      },
-      "definition": "A large group of musicians who play various instruments together.",
-      "example": "There were seventy people in the school orchestra."
+      "example": "Crossley agreed miserably.",
+      "exampleStart": 2068,
+      "exampleEnd": 2094,
+      "matchedForm": "miserably"
     },
     {
       "word": "particularly",
@@ -327,14 +376,26 @@
       "pos": "adverb",
       "wordKey": "particularly_adverb",
       "level": "B2",
-      "ipa": "pəˈtɪkjʊləli",
+      "ipa": "pərˈtɪkjələrli",
       "translations": {
+        "de": {
+          "translation": "besonders"
+        },
+        "es": {
+          "translation": "particularmente"
+        },
         "ru": {
-          "translation": "особенно, в особенности"
+          "translation": "особенно"
+        },
+        "uk": {
+          "translation": "особливо"
         }
       },
-      "definition": "To a higher degree than usual; especially.",
-      "example": "He was wrestling with a particularly fierce one."
+      "definition": "Especially; more than usually.",
+      "example": "When Miss Hodge tapped on the door, he was wrestling with a particularly fierce one.",
+      "exampleStart": 2496,
+      "exampleEnd": 2580,
+      "matchedForm": "particularly"
     },
     {
       "word": "pitiable",
@@ -343,62 +404,82 @@
       "pos": "adjective",
       "wordKey": "pitiable_adjective",
       "level": "C2",
-      "ipa": "ˈpɪtɪəbl",
+      "ipa": "ˈpɪtɪəbəl",
       "translations": {
+        "de": {
+          "translation": "bemitleidenswert"
+        },
+        "es": {
+          "translation": "lamentable"
+        },
         "ru": {
-          "translation": "жалкий, достойный жалости"
+          "translation": "жалкий"
+        },
+        "uk": {
+          "translation": "жалюгідний"
         }
       },
-      "definition": "Deserving or arousing pity; lamentable.",
-      "example": "He was in a pitiable state."
+      "definition": "Deserving or arousing pity.",
+      "example": "Suppose one of them is—” He was in a pitiable state.",
+      "exampleStart": 1484,
+      "exampleEnd": 1536,
+      "matchedForm": "pitiable"
     },
     {
       "word": "pleaded",
-      "lemma": "pleaded",
-      "lemmaId": "pleaded",
+      "lemma": "plead",
+      "lemmaId": "plead",
       "pos": "verb",
-      "wordKey": "pleaded_verb",
+      "wordKey": "plead_verb",
       "level": "B2",
-      "ipa": "ˈpliːdɪd",
+      "ipa": "pliːd",
       "translations": {
+        "de": {
+          "translation": "flehen"
+        },
+        "es": {
+          "translation": "suplicar"
+        },
         "ru": {
-          "translation": "умолял, настаивал"
+          "translation": "умолять"
+        },
+        "uk": {
+          "translation": "благати"
         }
       },
-      "definition": "To ask or appeal earnestly and emotionally.",
-      "example": "Mr. Crossley pleaded, “But what shall I do about it?”"
+      "definition": "Make an emotional or earnest appeal.",
+      "example": "Crossley pleaded.",
+      "exampleStart": 1385,
+      "exampleEnd": 1402,
+      "matchedForm": "pleaded"
     },
     {
-      "word": "rehearsal",
-      "lemma": "rehearsal",
-      "lemmaId": "rehearsal",
-      "pos": "noun",
-      "wordKey": "rehearsal_noun",
+      "word": "remarked",
+      "lemma": "remark",
+      "lemmaId": "remark",
+      "pos": "verb",
+      "wordKey": "remark_verb",
       "level": "B2",
-      "ipa": "rɪˈhɜːsəl",
+      "ipa": "rɪˈmɑːrkt",
       "translations": {
+        "de": {
+          "translation": "bemerkte"
+        },
+        "es": {
+          "translation": "comentó"
+        },
         "ru": {
-          "translation": "репетиция"
+          "translation": "заметил"
+        },
+        "uk": {
+          "translation": "зауважив"
         }
       },
-      "definition": "A practice session for a performance.",
-      "example": "How do you arrange rehearsals and practices?"
-    },
-    {
-      "word": "shuffle away",
-      "lemma": "shuffle away",
-      "lemmaId": "shuffle_away",
-      "pos": "phrase",
-      "wordKey": "shuffle_away_phrase",
-      "level": "B2",
-      "ipa": "phrase",
-      "translations": {
-        "ru": {
-          "translation": "уходить медленно, волоча ноги"
-        }
-      },
-      "definition": "To move slowly without lifting the feet properly.",
-      "example": "6B had shuffled away to the school hall."
+      "definition": "Say something as a comment.",
+      "example": "”\n\n“I was brought up to be sorry for witches,” Miss Hodge remarked calmly.",
+      "exampleStart": 1721,
+      "exampleEnd": 1795,
+      "matchedForm": "remarked"
     },
     {
       "word": "spiteful",
@@ -407,46 +488,82 @@
       "pos": "adjective",
       "wordKey": "spiteful_adjective",
       "level": "C1",
-      "ipa": "ˈspaɪtfʊl",
+      "ipa": "ˈspaɪtfəl",
       "translations": {
+        "de": {
+          "translation": "boshaft"
+        },
+        "es": {
+          "translation": "malicioso"
+        },
         "ru": {
-          "translation": "злобный, злой"
+          "translation": "злобный"
+        },
+        "uk": {
+          "translation": "злопам’ятний"
         }
       },
-      "definition": "Showing a desire to harm, annoy, or frustrate someone deliberately.",
-      "example": "It’s such a spiteful thing to write!"
+      "definition": "Having or showing a desire to harm or upset others.",
+      "example": "“Even if it’s true, it’s such a spiteful thing to write!",
+      "exampleStart": 1403,
+      "exampleEnd": 1459,
+      "matchedForm": "spiteful"
     },
     {
       "word": "squared off",
-      "lemma": "squared off",
-      "lemmaId": "squared_off",
-      "pos": "phrase",
-      "wordKey": "squared_off_phrase",
+      "lemma": "squaredoff",
+      "lemmaId": "squaredoff",
+      "pos": "noun",
+      "wordKey": "squaredoff_noun",
       "level": "C1",
-      "ipa": "phrase",
+      "ipa": "skwɛrd ɔf",
       "translations": {
+        "de": {
+          "translation": "ausrichten"
+        },
+        "es": {
+          "translation": "alinear"
+        },
         "ru": {
-          "translation": "аккуратно выстроить, располагать в аккуратный ряд"
+          "translation": "выровнять"
+        },
+        "uk": {
+          "translation": "вирівняти"
         }
       },
-      "definition": "To arrange items neatly or in square shapes; to organize tidily.",
-      "example": "Miss Hodge thoughtfully squared off another stack of books."
+      "definition": "To make something have straight edges or be properly aligned.",
+      "example": "Miss Hodge thoughtfully squared off another stack of books, until she was sure Mr.",
+      "exampleStart": 2176,
+      "exampleEnd": 2258,
+      "matchedForm": "squared"
     },
     {
       "word": "staff room",
-      "lemma": "staff room",
-      "lemmaId": "staff_room",
-      "pos": "phrase",
-      "wordKey": "staff_room_phrase",
+      "lemma": "staffroom",
+      "lemmaId": "staffroom",
+      "pos": "noun",
+      "wordKey": "staffroom_noun",
       "level": "B2",
-      "ipa": "phrase",
+      "ipa": "stɑːf ruːm",
       "translations": {
+        "de": {
+          "translation": "Lehrerzimmer"
+        },
+        "es": {
+          "translation": "sala de profesores"
+        },
         "ru": {
           "translation": "учительская"
+        },
+        "uk": {
+          "translation": "кімната для персоналу"
         }
       },
-      "definition": "A room in a school where teachers can meet and rest.",
-      "example": "Mr. Crossley sped to the staff room."
+      "definition": "A room where school staff gather and work.",
+      "example": "Crossley sped to the staff room, hoping to find someone he could consult about the note.",
+      "exampleStart": 612,
+      "exampleEnd": 700,
+      "matchedForm": "staff"
     },
     {
       "word": "thoroughly",
@@ -457,12 +574,24 @@
       "level": "C1",
       "ipa": "ˈθʌrəli",
       "translations": {
+        "de": {
+          "translation": "gründlich"
+        },
+        "es": {
+          "translation": "completamente"
+        },
         "ru": {
-          "translation": "тщательно, основательно"
+          "translation": "тщательно"
+        },
+        "uk": {
+          "translation": "ретельно"
         }
       },
-      "definition": "Completely, very much, in every way possible.",
-      "example": "And that was a thoroughly frightening thought."
+      "definition": "Completely or fully; to a great extent.",
+      "example": "And that was a thoroughly frightening thought.",
+      "exampleStart": 374,
+      "exampleEnd": 420,
+      "matchedForm": "thoroughly"
     },
     {
       "word": "thoughtfully",
@@ -471,30 +600,54 @@
       "pos": "adverb",
       "wordKey": "thoughtfully_adverb",
       "level": "B2",
-      "ipa": "ˈθɔːtfʊli",
+      "ipa": "ˈθɔːtfəli",
       "translations": {
+        "de": {
+          "translation": "nachdenklich"
+        },
+        "es": {
+          "translation": "pensativamente"
+        },
         "ru": {
-          "translation": "задумчиво, внимательно"
+          "translation": "вдумчиво"
+        },
+        "uk": {
+          "translation": "задумливо"
         }
       },
-      "definition": "In a way that shows careful thinking or consideration.",
-      "example": "Miss Hodge thoughtfully squared off another stack of books."
+      "definition": "In a way that shows careful consideration.",
+      "example": "Miss Hodge thoughtfully squared off another stack of books, until she was sure Mr.",
+      "exampleStart": 2176,
+      "exampleEnd": 2258,
+      "matchedForm": "thoughtfully"
     },
     {
-      "word": "wrestle",
+      "word": "wrestled",
       "lemma": "wrestle",
       "lemmaId": "wrestle",
       "pos": "verb",
       "wordKey": "wrestle_verb",
       "level": "C1",
-      "ipa": "ˈrɛsl",
+      "ipa": "ˈrɛsəl",
       "translations": {
+        "de": {
+          "translation": "ringen"
+        },
+        "es": {
+          "translation": "luchar"
+        },
         "ru": {
-          "translation": "бороться, бороться с проблемой"
+          "translation": "бороться"
+        },
+        "uk": {
+          "translation": "боротися"
         }
       },
-      "definition": "To struggle or fight with a difficult problem or challenge.",
-      "example": "Mr. Wentworth wrestled with schedules and other problems."
+      "definition": "Struggle to deal with or overcome a difficulty or problem.",
+      "example": "Wentworth, as deputy head, had a study where he wrestled with the schedules and various other problems Miss Cadwallader gave him.",
+      "exampleStart": 2366,
+      "exampleEnd": 2495,
+      "matchedForm": "wrestled"
     }
   ]
 }

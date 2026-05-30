@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 7,
     "sectionTitle": "Chapter 4",
     "fragmentIndex": 5,
@@ -21,457 +20,818 @@
       "wordCount": 635,
       "uniqueWordCount": 341,
       "paragraphCount": 18,
-      "vocabularyCount": 25,
+      "vocabularyCount": 35,
       "levelDistribution": {
         "A1": 0,
-        "A2": 0,
-        "B1": 0,
-        "B2": 8,
-        "C1": 13,
-        "C2": 4
+        "A2": 2,
+        "B1": 8,
+        "B2": 21,
+        "C1": 3,
+        "C2": 1
       }
     }
   },
   "vocabulary": [
     {
-      "word": "alternate hands",
-      "lemma": "alternate hands",
-      "lemmaId": "alternate_hands",
+      "word": "all over",
+      "lemma": "all over",
+      "lemmaId": "all_over",
       "pos": "phrase",
-      "wordKey": "alternate_hands_phrase",
-      "level": "C1",
-      "ipa": "ˈɔːltəneɪt hændz",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "all_over_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "чередующиеся руки"
+          "translation": "Всё кончено"
         }
       },
-      "definition": "Using one hand and then the other, switching between them.",
-      "example": "Does it amuse you to write with alternate hands?",
+      "example": "Cat was still writing all over again about Canute when Mary came in with a tray of milk and biscuits and a cup of coffee for Mr.",
+      "exampleStart": 1813,
+      "exampleEnd": 1941,
       "phraseMatch": {
-        "text": "alternate hands",
-        "startInExample": 32,
-        "endInExample": 47
-      }
+        "text": "all over",
+        "startInExample": 22,
+        "endInExample": 30
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "all that",
+      "lemma": "all that",
+      "lemmaId": "all_that",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "all_that_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "всё это"
+        }
+      },
+      "example": "“And let’s hope you haven’t forgotten all that too.",
+      "exampleStart": 2250,
+      "exampleEnd": 2301,
+      "phraseMatch": {
+        "text": "all that",
+        "startInExample": 38,
+        "endInExample": 46
+      },
+      "levelSource": "phrase_fallback"
     },
     {
       "word": "balustrade",
       "lemma": "balustrade",
       "lemmaId": "balustrade",
-      "pos": "noun",
-      "wordKey": "balustrade_noun",
-      "level": "C1",
-      "ipa": "ˈbæləstreɪd",
-      "translations": {
-        "ru": {
-          "translation": "балюстрада, перила"
-        }
-      },
-      "definition": "A railing supported by balusters, especially on a balcony, bridge, or terrace.",
-      "example": "Chrestomanci was behind a curly marble balustrade.",
-      "matchedForm": "balustrade"
-    },
-    {
-      "word": "deserve",
-      "lemma": "deserve",
-      "lemmaId": "deserve",
       "pos": "verb",
-      "wordKey": "deserve_verb",
-      "level": "C1",
-      "ipa": "dɪˈzɜːv",
-      "translations": {
-        "ru": {
-          "translation": "заслуживать"
-        }
-      },
-      "definition": "To have earned or be entitled to something because of actions or qualities.",
-      "example": "Then they deserve to be tied up in knots and roasted!",
-      "matchedForm": "deserve"
-    },
-    {
-      "word": "dome",
-      "lemma": "dome",
-      "lemmaId": "dome",
-      "pos": "noun",
-      "wordKey": "dome_noun",
-      "level": "C1",
-      "ipa": "dəʊm",
-      "translations": {
-        "ru": {
-          "translation": "купол"
-        }
-      },
-      "definition": "A rounded vault forming the roof of a building or structure.",
-      "example": "The light came from an elegant dome in the roof.",
-      "matchedForm": "dome"
-    },
-    {
-      "word": "elegant",
-      "lemma": "elegant",
-      "lemmaId": "elegant",
-      "pos": "adjective",
-      "wordKey": "elegant_adjective",
+      "source": "word",
+      "wordKey": "balustrade_verb",
       "level": "B2",
-      "ipa": "ˈɛlɪɡənt",
       "translations": {
         "ru": {
-          "translation": "элегантный, изящный"
+          "translation": "балюстрада"
         }
       },
-      "definition": "Pleasingly graceful and stylish in appearance or manner.",
-      "example": "He looked even more elegant.",
-      "matchedForm": "elegant"
+      "example": "”\n\nBy a stroke of good fortune, Chrestomanci was coming along the gallery on the other side of the staircase, behind a curly marble balustrade.",
+      "exampleStart": 3023,
+      "exampleEnd": 3166,
+      "matchedForm": "balustrade",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "falter",
+      "word": "be up",
+      "lemma": "be up",
+      "lemmaId": "be_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "be_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "будь на ногах"
+        }
+      },
+      "example": "“Then they deserve to be tied up in knots and roasted!",
+      "exampleStart": 1270,
+      "exampleEnd": 1324,
+      "phraseMatch": {
+        "text": "be tied up",
+        "startInExample": 22,
+        "endInExample": 32
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "blinked",
+      "lemma": "blink",
+      "lemmaId": "blink",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "blink_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "моргать"
+        }
+      },
+      "example": "Chrestomanci blinked, and looked vaguely from her to Cat.",
+      "exampleStart": 3437,
+      "exampleEnd": 3494,
+      "matchedForm": "blinked",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.794286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "catch up with",
+      "lemma": "catch up with",
+      "lemmaId": "catch_up_with",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "catch_up_with_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Догнать"
+        }
+      },
+      "example": "Cat ran after her as hard as he could, but he did not catch up with her until they came to a much grander part of the Castle, where a big marble staircase curled away downward and the light came from an elegant dome in the roof.",
+      "exampleStart": 2510,
+      "exampleEnd": 2738,
+      "phraseMatch": {
+        "text": "catch up with",
+        "startInExample": 54,
+        "endInExample": 67
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "coming along",
+      "lemma": "come along",
+      "lemmaId": "come_along",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_along_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Иду"
+        }
+      },
+      "example": "”\n\nBy a stroke of good fortune, Chrestomanci was coming along the gallery on the other side of the staircase, behind a curly marble balustrade.",
+      "exampleStart": 3023,
+      "exampleEnd": 3166,
+      "phraseMatch": {
+        "text": "coming along",
+        "startInExample": 49,
+        "endInExample": 61
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "came in",
+      "lemma": "come in",
+      "lemmaId": "come_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Вошёл"
+        }
+      },
+      "example": "Cat was still writing all over again about Canute when Mary came in with a tray of milk and biscuits and a cup of coffee for Mr.",
+      "exampleStart": 1813,
+      "exampleEnd": 1941,
+      "phraseMatch": {
+        "text": "came in",
+        "startInExample": 60,
+        "endInExample": 67
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "came over",
+      "lemma": "come over",
+      "lemmaId": "come_over",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_over_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Пришёл"
+        }
+      },
+      "example": "Saunders said, and he came over and looked at the page Cat had written.",
+      "exampleStart": 505,
+      "exampleEnd": 576,
+      "phraseMatch": {
+        "text": "came over",
+        "startInExample": 22,
+        "endInExample": 31
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "curled",
+      "lemma": "curl",
+      "lemmaId": "curl",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "curl_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "локон"
+        }
+      },
+      "example": "Cat ran after her as hard as he could, but he did not catch up with her until they came to a much grander part of the Castle, where a big marble staircase curled away downward and the light came from an elegant dome in the roof.",
+      "exampleStart": 2510,
+      "exampleEnd": 2738,
+      "matchedForm": "curled",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.854286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "downward",
+      "lemma": "downward",
+      "lemmaId": "downward",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "downward_verb",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "вниз"
+        }
+      },
+      "example": "Cat ran after her as hard as he could, but he did not catch up with her until they came to a much grander part of the Castle, where a big marble staircase curled away downward and the light came from an elegant dome in the roof.",
+      "exampleStart": 2510,
+      "exampleEnd": 2738,
+      "matchedForm": "downward",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.8,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "faltered",
       "lemma": "falter",
       "lemmaId": "falter",
-      "pos": "verb",
-      "wordKey": "falter_verb",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "falter_adjective",
       "level": "C1",
-      "ipa": "ˈfɔːltər",
       "translations": {
         "ru": {
-          "translation": "спотыкаться, запинаться"
+          "translation": "колебаться"
         }
       },
-      "definition": "To speak hesitantly or with a loss of confidence.",
-      "example": "They—they punish me if I do,” Cat faltered.",
-      "matchedForm": "falter"
+      "example": "”\n\n“They—they punish me if I do,” Cat faltered, very shaken, and very perplexed to find Mr.",
+      "exampleStart": 1130,
+      "exampleEnd": 1221,
+      "matchedForm": "faltered",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "fiercely",
-      "lemma": "fiercely",
-      "lemmaId": "fiercely",
-      "pos": "adverb",
-      "wordKey": "fiercely_adverb",
+      "word": "went out of",
+      "lemma": "go out of",
+      "lemmaId": "go_out_of",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_out_of_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈfɪəsli",
       "translations": {
         "ru": {
-          "translation": "яростно, сильно"
+          "translation": "вышел из"
         }
       },
-      "definition": "In a powerful, aggressive, or intense manner.",
-      "example": "Gwendolen said fiercely.",
-      "matchedForm": "fiercely"
+      "example": "” As they went out of the schoolroom, he turned to Roger and Julia.",
+      "exampleStart": 2135,
+      "exampleEnd": 2202,
+      "phraseMatch": {
+        "text": "went out of",
+        "startInExample": 10,
+        "endInExample": 21
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "grand",
-      "lemma": "grand",
-      "lemmaId": "grand",
-      "pos": "adjective",
-      "wordKey": "grand_adjective",
+      "word": "grander",
+      "lemma": "grander",
+      "lemmaId": "grander",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "grander_verb",
       "level": "B2",
-      "ipa": "ɡrænd",
       "translations": {
         "ru": {
-          "translation": "великолепный, величественный"
+          "translation": "грандиозный"
         }
       },
-      "definition": "Magnificent and imposing in appearance.",
-      "example": "They came to a much grander part of the Castle.",
-      "matchedForm": "grand"
+      "example": "Cat ran after her as hard as he could, but he did not catch up with her until they came to a much grander part of the Castle, where a big marble staircase curled away downward and the light came from an elegant dome in the roof.",
+      "exampleStart": 2510,
+      "exampleEnd": 2738,
+      "matchedForm": "grander",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "imperial",
-      "lemma": "imperial",
-      "lemmaId": "imperial",
-      "pos": "adjective",
-      "wordKey": "imperial_adjective",
-      "level": "C2",
-      "ipa": "ɪmˈpɪərɪəl",
+      "word": "hand down",
+      "lemma": "hand down",
+      "lemmaId": "hand_down",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "hand_down_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "императорский, царственный"
+          "translation": "Рука вниз"
         }
       },
-      "definition": "Relating to an empire or emperor; grand and majestic.",
-      "example": "Instead of the imperial dressing gown.",
-      "matchedForm": "imperial"
+      "example": "He slammed his big, knobby hand down on Cat’s desk so that Cat jumped and the inkwell jumped too, sending ink splashing over Mr.",
+      "exampleStart": 861,
+      "exampleEnd": 989,
+      "phraseMatch": {
+        "text": "hand down",
+        "startInExample": 27,
+        "endInExample": 36
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "hand in",
+      "lemma": "hand in",
+      "lemmaId": "hand_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "hand_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Рука в руках"
+        }
+      },
+      "example": "If I catch you writing with your right hand again, you’ll be in really serious trouble!",
+      "exampleStart": 1422,
+      "exampleEnd": 1509,
+      "phraseMatch": {
+        "text": "hand again, you’ll be in",
+        "startInExample": 39,
+        "endInExample": 63
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "innocently",
       "lemma": "innocently",
       "lemmaId": "innocently",
-      "pos": "adverb",
-      "wordKey": "innocently_adverb",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "innocently_adjective",
       "level": "C1",
-      "ipa": "ˈɪnəsntli",
       "translations": {
         "ru": {
           "translation": "невинно"
         }
       },
-      "definition": "In a manner showing lack of guilt or wrongdoing.",
-      "example": "Cat said innocently.",
-      "matchedForm": "innocently"
-    },
-    {
-      "word": "knobby",
-      "lemma": "knobby",
-      "lemmaId": "knobby",
-      "pos": "adjective",
-      "wordKey": "knobby_adjective",
-      "level": "C2",
-      "ipa": "ˈnɒbi",
-      "translations": {
-        "ru": {
-          "translation": "узловатый, с наростами"
-        }
-      },
-      "definition": "Having knobs or rounded lumps.",
-      "example": "His big, knobby hand slammed down on Cat’s desk.",
-      "matchedForm": "knobby"
-    },
-    {
-      "word": "knots",
-      "lemma": "knots",
-      "lemmaId": "knots",
-      "pos": "noun",
-      "wordKey": "knots_noun",
-      "level": "C1",
-      "ipa": "nɒts",
-      "translations": {
-        "ru": {
-          "translation": "узлы (в переносном смысле)"
-        }
-      },
-      "definition": "Used figuratively to mean complicated or difficult situations, or tied tightly.",
-      "example": "Deserve to be tied up in knots.",
-      "matchedForm": "knots"
+      "example": "”\n\n“An essay on King Canute,” Cat said innocently.",
+      "exampleStart": 193,
+      "exampleEnd": 243,
+      "matchedForm": "innocently",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "levitate",
       "lemma": "levitate",
       "lemmaId": "levitate",
       "pos": "verb",
+      "source": "word",
       "wordKey": "levitate_verb",
       "level": "C2",
-      "ipa": "ˈlɛvɪteɪt",
       "translations": {
         "ru": {
-          "translation": "подниматься в воздух, левитировать"
+          "translation": "левитировать"
         }
       },
-      "definition": "To rise or cause to rise and float in the air, typically by means of supernatural powers.",
-      "example": "It took two of them just to levitate a jug of cocoa.",
-      "matchedForm": "levitate"
+      "example": "It took two of them just to levitate a jug of cocoa!",
+      "exampleStart": 2947,
+      "exampleEnd": 2999,
+      "matchedForm": "levitate",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "marble",
-      "lemma": "marble",
-      "lemmaId": "marble",
-      "pos": "noun",
-      "wordKey": "marble_noun",
+      "word": "looked at",
+      "lemma": "look at",
+      "lemmaId": "look_at",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_at_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈmɑːbl",
       "translations": {
         "ru": {
-          "translation": "мрамор"
+          "translation": "смотрел"
         }
       },
-      "definition": "A hard crystalline metamorphic form of limestone, typically white and polished for use in sculpture or architecture.",
-      "example": "A big marble staircase curled away downward.",
-      "matchedForm": "marble"
-    },
-    {
-      "word": "mournfully",
-      "lemma": "mournfully",
-      "lemmaId": "mournfully",
-      "pos": "adverb",
-      "wordKey": "mournfully_adverb",
-      "level": "C1",
-      "ipa": "ˈmɔːnflɪ",
-      "translations": {
-        "ru": {
-          "translation": "печально"
-        }
+      "example": "”\n\nGwendolen stopped in the doorway and looked at him.",
+      "exampleStart": 2301,
+      "exampleEnd": 2355,
+      "phraseMatch": {
+        "text": "looked at",
+        "startInExample": 40,
+        "endInExample": 49
       },
-      "definition": "In a way that expresses sadness or sorrow.",
-      "example": "He looked mournfully at his ink-splashed essay.",
-      "matchedForm": "mournfully"
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "obeying",
-      "lemma": "obeying",
-      "lemmaId": "obeying",
-      "pos": "verb",
-      "wordKey": "obeying_verb",
+      "word": "look on",
+      "lemma": "look on",
+      "lemmaId": "look_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_on_phrasal_verb",
       "level": "B2",
-      "ipa": "əˈbeɪɪŋ",
       "translations": {
         "ru": {
-          "translation": "подчиняться"
+          "translation": "Смотри"
         }
       },
-      "definition": "To follow commands, rules, or instructions.",
-      "example": "You’re doing yourself harm by obeying them.",
-      "matchedForm": "obeying"
+      "example": "By the look on his face, his thoughts were miles away.",
+      "exampleStart": 3293,
+      "exampleEnd": 3347,
+      "phraseMatch": {
+        "text": "look on",
+        "startInExample": 7,
+        "endInExample": 14
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "pant",
+      "word": "on the other side of",
+      "lemma": "on the other side of",
+      "lemmaId": "on_the_other_side_of",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "on_the_other_side_of_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "по другую сторону"
+        }
+      },
+      "example": "”\n\nBy a stroke of good fortune, Chrestomanci was coming along the gallery on the other side of the staircase, behind a curly marble balustrade.",
+      "exampleStart": 3023,
+      "exampleEnd": 3166,
+      "phraseMatch": {
+        "text": "on the other side of",
+        "startInExample": 74,
+        "endInExample": 94
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "or something",
+      "lemma": "or something",
+      "lemmaId": "or_something",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "or_something_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "или что-то в этом роде"
+        }
+      },
+      "example": "“Does it amuse you to write with alternate hands, or something?",
+      "exampleStart": 666,
+      "exampleEnd": 729,
+      "phraseMatch": {
+        "text": "or something",
+        "startInExample": 50,
+        "endInExample": 62
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "panted",
       "lemma": "pant",
       "lemmaId": "pant",
-      "pos": "verb",
-      "wordKey": "pant_verb",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "pant_adjective",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "брюки"
+        }
+      },
+      "example": "“This isn’t the right way,” Cat panted.",
+      "exampleStart": 2740,
+      "exampleEnd": 2779,
+      "matchedForm": "panted",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.951429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "pen in",
+      "lemma": "pen in",
+      "lemmaId": "pen_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "pen_in_phrasal_verb",
       "level": "B2",
-      "ipa": "pænt",
       "translations": {
         "ru": {
-          "translation": "запыхаться"
+          "translation": "Вставь"
         }
       },
-      "definition": "To breathe quickly and heavily, typically after exertion.",
-      "example": "Cat panted as he said, 'This isn’t the right way.'",
-      "matchedForm": "pant"
-    },
-    {
-      "word": "peculiar",
-      "lemma": "peculiar",
-      "lemmaId": "peculiar",
-      "pos": "adjective",
-      "wordKey": "peculiar_adjective",
-      "level": "C1",
-      "ipa": "pɪˈkjuːliər",
-      "translations": {
-        "ru": {
-          "translation": "странный, особенный"
-        }
+      "example": "He held up his right hand with the pen in it.",
+      "exampleStart": 420,
+      "exampleEnd": 465,
+      "phraseMatch": {
+        "text": "pen in",
+        "startInExample": 35,
+        "endInExample": 41
       },
-      "definition": "Strange or odd; unusual.",
-      "example": "He was angry for such a peculiar reason.",
-      "matchedForm": "peculiar"
-    },
-    {
-      "word": "perplexed",
-      "lemma": "perplexed",
-      "lemmaId": "perplexed",
-      "pos": "adjective",
-      "wordKey": "perplexed_adjective",
-      "level": "C1",
-      "ipa": "pəˈplekst",
-      "translations": {
-        "ru": {
-          "translation": "озадаченный, озадаченный"
-        }
-      },
-      "definition": "Completely baffled; very puzzled.",
-      "example": "Cat was perplexed to find Mr. Saunders angry for such a peculiar reason.",
-      "matchedForm": "perplexed"
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "roared",
-      "lemma": "roared",
-      "lemmaId": "roared",
-      "pos": "verb",
-      "wordKey": "roared_verb",
-      "level": "B2",
-      "ipa": "rɔːd",
+      "lemma": "roar",
+      "lemmaId": "roar",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "roar_adjective",
+      "level": "A2",
       "translations": {
         "ru": {
-          "translation": "реветь, громко кричать"
+          "translation": "рев"
         }
       },
-      "definition": "To shout loudly and forcefully.",
-      "example": "Left-handed!” he roared.",
-      "matchedForm": "roared"
+      "example": "” he roared.",
+      "exampleStart": 1046,
+      "exampleEnd": 1058,
+      "matchedForm": "roared",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.802857,
+      "difficultySource": "zipf"
     },
     {
-      "word": "stroke of good fortune",
-      "lemma": "stroke of good fortune",
-      "lemmaId": "stroke_of_good_fortune",
-      "pos": "phrase",
-      "wordKey": "stroke_of_good_fortune_phrase",
-      "level": "C1",
-      "ipa": "frāz",
+      "word": "ran after",
+      "lemma": "run after",
+      "lemmaId": "run_after",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "run_after_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "удачный случай, счастливая случайность"
+          "translation": "Бегал после"
         }
       },
-      "definition": "An unexpected piece of good luck.",
-      "example": "By a stroke of good fortune, Chrestomanci was coming along.",
+      "example": "Cat ran after her as hard as he could, but he did not catch up with her until they came to a much grander part of the Castle, where a big marble staircase curled away downward and the light came from an elegant dome in the roof.",
+      "exampleStart": 2510,
+      "exampleEnd": 2738,
       "phraseMatch": {
-        "text": "stroke of good fortune",
-        "startInExample": 5,
-        "endInExample": 27
-      }
+        "text": "ran after",
+        "startInExample": 4,
+        "endInExample": 13
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "ran around",
+      "lemma": "run around",
+      "lemmaId": "run_around",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "run_around_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "бегал"
+        }
+      },
+      "example": "Gwendolen ran around the head of the marble staircase and stood herself in front of him.",
+      "exampleStart": 3348,
+      "exampleEnd": 3436,
+      "phraseMatch": {
+        "text": "ran around",
+        "startInExample": 10,
+        "endInExample": 20
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "ran away",
+      "lemma": "run away",
+      "lemmaId": "run_away",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "run_away_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "сбежал"
+        }
+      },
+      "example": "”\n\nGwendolen whirled around and ran away, through the shabby playroom and down the corridor beyond.",
+      "exampleStart": 2410,
+      "exampleEnd": 2509,
+      "phraseMatch": {
+        "text": "ran away",
+        "startInExample": 32,
+        "endInExample": 40
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "stopped in",
+      "lemma": "stop in",
+      "lemmaId": "stop_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "stop_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Заглянул"
+        }
+      },
+      "example": "”\n\nGwendolen stopped in the doorway and looked at him.",
+      "exampleStart": 2301,
+      "exampleEnd": 2355,
+      "phraseMatch": {
+        "text": "stopped in",
+        "startInExample": 13,
+        "endInExample": 23
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "tore out",
-      "lemma": "tore out",
-      "lemmaId": "tore_out",
-      "pos": "phrase",
-      "wordKey": "tore_out_phrase",
-      "level": "C1",
-      "ipa": "tɔː(r) aʊt",
-      "translations": {
-        "ru": {
-          "translation": "вырвал, оторвал"
-        }
-      },
-      "definition": "To remove something by pulling it forcefully.",
-      "example": "Mr. Saunders took the book and tore the page right out."
-    },
-    {
-      "word": "towering rage",
-      "lemma": "towering rage",
-      "lemmaId": "towering_rage",
-      "pos": "phrase",
-      "wordKey": "towering_rage_phrase",
-      "level": "C1",
-      "ipa": "ˈtaʊərɪŋ reɪdʒ",
-      "translations": {
-        "ru": {
-          "translation": "вспышка ярости"
-        }
-      },
-      "definition": "An intense, very strong feeling of anger.",
-      "example": "Mr. Saunders flew into a towering rage.",
-      "phraseMatch": {
-        "text": "towering rage",
-        "startInExample": 25,
-        "endInExample": 38
-      }
-    },
-    {
-      "word": "untold harm",
-      "lemma": "untold harm",
-      "lemmaId": "untold_harm",
-      "pos": "phrase",
-      "wordKey": "untold_harm_phrase",
-      "level": "C2",
-      "ipa": "ʌnˈtəʊld hɑːm",
-      "translations": {
-        "ru": {
-          "translation": "неисчислимый вред"
-        }
-      },
-      "definition": "Considerable or incalculable damage or injury.",
-      "example": "You’re doing yourself untold harm by obeying them.",
-      "phraseMatch": {
-        "text": "untold harm",
-        "startInExample": 22,
-        "endInExample": 33
-      }
-    },
-    {
-      "word": "vaguely",
-      "lemma": "vaguely",
-      "lemmaId": "vaguely",
-      "pos": "adverb",
-      "wordKey": "vaguely_adverb",
+      "lemma": "tear out",
+      "lemmaId": "tear_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "tear_out_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈveɪɡli",
       "translations": {
         "ru": {
-          "translation": "неясно, смутно"
+          "translation": "вырваны"
         }
       },
-      "definition": "In a way that is uncertain, unclear, or not clearly expressed.",
-      "example": "Chrestomanci looked vaguely from her to Cat.",
-      "matchedForm": "vaguely"
+      "example": "Saunders took the book and tore the page right out.",
+      "exampleStart": 1682,
+      "exampleEnd": 1733,
+      "phraseMatch": {
+        "text": "tore the page right out",
+        "startInExample": 27,
+        "endInExample": 50
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "turn around",
+      "lemma": "turn around",
+      "lemmaId": "turn_around",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "turn_around_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Повернись"
+        }
+      },
+      "example": "Saunders did turn around, but by that time the paper was straight and the pen in Cat’s right hand.",
+      "exampleStart": 254,
+      "exampleEnd": 352,
+      "phraseMatch": {
+        "text": "turn around",
+        "startInExample": 13,
+        "endInExample": 24
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "turned to",
+      "lemma": "turn to",
+      "lemmaId": "turn_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "turn_to_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "повернулся к"
+        }
+      },
+      "example": "” As they went out of the schoolroom, he turned to Roger and Julia.",
+      "exampleStart": 2135,
+      "exampleEnd": 2202,
+      "phraseMatch": {
+        "text": "turned to",
+        "startInExample": 41,
+        "endInExample": 50
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "untold",
+      "lemma": "untold",
+      "lemmaId": "untold",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "untold_verb",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "несказанный"
+        }
+      },
+      "example": "You’re doing yourself untold harm by obeying them, boy!",
+      "exampleStart": 1366,
+      "exampleEnd": 1421,
+      "matchedForm": "untold",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.911429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "used to",
+      "lemma": "used to",
+      "lemmaId": "used_to",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "used_to_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "раньше"
+        }
+      },
+      "example": "Cat was used to this.",
+      "exampleStart": 398,
+      "exampleEnd": 419,
+      "phraseMatch": {
+        "text": "used to",
+        "startInExample": 8,
+        "endInExample": 15
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "work out",
+      "lemma": "work out",
+      "lemmaId": "work_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "work_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Тренировка"
+        }
+      },
+      "example": "Saunders took the book and tore the page right out.",
+      "matchedForm": "out",
+      "levelSource": "dictionary_phrase"
     }
   ]
 }

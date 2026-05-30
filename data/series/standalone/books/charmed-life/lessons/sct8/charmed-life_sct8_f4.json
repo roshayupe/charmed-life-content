@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 8,
     "sectionTitle": "Chapter 5",
     "fragmentIndex": 4,
@@ -21,444 +20,674 @@
       "wordCount": 638,
       "uniqueWordCount": 349,
       "paragraphCount": 20,
-      "vocabularyCount": 25,
+      "vocabularyCount": 29,
       "levelDistribution": {
         "A1": 0,
         "A2": 1,
-        "B1": 0,
-        "B2": 18,
-        "C1": 3,
-        "C2": 3
+        "B1": 9,
+        "B2": 16,
+        "C1": 2,
+        "C2": 1
       }
     }
   },
   "vocabulary": [
     {
-      "word": "account",
-      "lemma": "account",
-      "lemmaId": "account",
-      "pos": "noun",
-      "wordKey": "account_noun",
-      "level": "B2",
-      "ipa": "əˈkaʊnt",
+      "word": "as soon as",
+      "lemma": "as soon as",
+      "lemmaId": "as_soon_as",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "as_soon_as_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "счёт, учётная запись"
+          "translation": "как только"
         }
       },
-      "definition": "An arrangement to pay later or keep a record of transactions.",
-      "example": "You can take the rest of the five shillings on account.",
-      "matchedForm": "account"
-    },
-    {
-      "word": "agent",
-      "lemma": "agent",
-      "lemmaId": "agent",
-      "pos": "noun",
-      "wordKey": "agent_noun",
-      "level": "B2",
-      "ipa": "ˈeɪdʒənt",
-      "translations": {
-        "ru": {
-          "translation": "агент, посредник"
-        }
+      "example": "Millie beckoned to them as soon as they did.",
+      "exampleStart": 2349,
+      "exampleEnd": 2393,
+      "phraseMatch": {
+        "text": "as soon as",
+        "startInExample": 24,
+        "endInExample": 34
       },
-      "definition": "A person who acts on behalf of another or represents a business.",
-      "example": "I knew you were a good agent.",
-      "matchedForm": "agent"
+      "levelSource": "phrase_fallback"
     },
     {
       "word": "beckoned",
-      "lemma": "beckoned",
-      "lemmaId": "beckoned",
-      "pos": "verb",
-      "wordKey": "beckoned_verb",
-      "level": "B2",
-      "ipa": "ˈbɛkənd",
-      "translations": {
-        "ru": {
-          "translation": "позвала жестом"
-        }
-      },
-      "definition": "Made a gesture to encourage someone to come nearer or follow.",
-      "example": "Millie beckoned to them as soon as they did.",
-      "matchedForm": "beckoned"
-    },
-    {
-      "word": "clergyman",
-      "lemma": "clergyman",
-      "lemmaId": "clergyman",
-      "pos": "noun",
-      "wordKey": "clergyman_noun",
-      "level": "B2",
-      "ipa": "ˈklɜːdʒɪmən",
-      "translations": {
-        "ru": {
-          "translation": "духовное лицо, священник"
-        }
-      },
-      "definition": "A male priest or minister in a Christian church.",
-      "example": "A lady was talking to a clergyman.",
-      "matchedForm": "clergyman"
-    },
-    {
-      "word": "connections",
-      "lemma": "connections",
-      "lemmaId": "connections",
-      "pos": "noun",
-      "wordKey": "connections_noun",
-      "level": "B2",
-      "ipa": "kəˈnɛkʃənz",
-      "translations": {
-        "ru": {
-          "translation": "связи, контакты"
-        }
-      },
-      "definition": "People who can provide help or influence.",
-      "example": "He must have awfully good connections there.",
-      "matchedForm": "connections"
-    },
-    {
-      "word": "costly",
-      "lemma": "costly",
-      "lemmaId": "costly",
+      "lemma": "beckon",
+      "lemmaId": "beckon",
       "pos": "adjective",
-      "wordKey": "costly_adjective",
-      "level": "B2",
-      "ipa": "ˈkɒstli",
+      "source": "word",
+      "wordKey": "beckon_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "дорогой, затратный"
+          "translation": "манить"
         }
       },
-      "definition": "Involving great expense or loss.",
-      "example": "It’s costly stuff.",
-      "matchedForm": "costly"
+      "example": "Millie beckoned to them as soon as they did.",
+      "exampleStart": 2349,
+      "exampleEnd": 2393,
+      "matchedForm": "beckoned",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "come again",
+      "lemma": "come again",
+      "lemmaId": "come_again",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "come_again_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Приходи ещё"
+        }
+      },
+      "example": "Come again, any time.",
+      "exampleStart": 906,
+      "exampleEnd": 927,
+      "phraseMatch": {
+        "text": "Come again",
+        "startInExample": 0,
+        "endInExample": 10
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "come on",
+      "lemma": "come on",
+      "lemmaId": "come_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Давай"
+        }
+      },
+      "example": "“Come on, my dears.",
+      "exampleStart": 2625,
+      "exampleEnd": 2644,
+      "phraseMatch": {
+        "text": "Come on",
+        "startInExample": 1,
+        "endInExample": 8
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "come out of",
+      "lemma": "come out of",
+      "lemmaId": "come_out_of",
+      "pos": "prepositional_verb",
+      "type": "prepositional_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_out_of_prepositional_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "выходи из"
+        }
+      },
+      "example": "But Cat could not think of anything else to buy, so they had to come out of the shop.",
+      "exampleStart": 2262,
+      "exampleEnd": 2347,
+      "phraseMatch": {
+        "text": "come out of",
+        "startInExample": 64,
+        "endInExample": 75
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "doorstep",
+      "lemma": "doorstep",
+      "lemmaId": "doorstep",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "doorstep_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "дверь"
+        }
+      },
+      "example": "” Gwendolen asked him on the doorstep.",
+      "exampleStart": 969,
+      "exampleEnd": 1007,
+      "matchedForm": "doorstep",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.86,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "even then",
+      "lemma": "even then",
+      "lemmaId": "even_then",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "even_then_phrase",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Даже тогда"
+        }
+      },
+      "example": "Millie was still talking to the clergyman even then, so he bought Gwendolen a pen wiper and himself a postcard of the Castle.",
+      "exampleStart": 2112,
+      "exampleEnd": 2237,
+      "phraseMatch": {
+        "text": "even then",
+        "startInExample": 42,
+        "endInExample": 51
+      },
+      "levelSource": "head_verb_index"
+    },
+    {
+      "word": "get into",
+      "lemma": "get into",
+      "lemmaId": "get_into",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "get_into_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Входи"
+        }
+      },
+      "example": "Get into that sweet shop.",
+      "exampleStart": 1755,
+      "exampleEnd": 1780,
+      "phraseMatch": {
+        "text": "Get into",
+        "startInExample": 0,
+        "endInExample": 8
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "get it",
+      "lemma": "get it",
+      "lemmaId": "get_it",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "get_it_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Возьми"
+        }
+      },
+      "example": "Where do you get it from so quickly?",
+      "exampleStart": 1111,
+      "exampleEnd": 1147,
+      "phraseMatch": {
+        "text": "get it",
+        "startInExample": 13,
+        "endInExample": 19
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "getting on",
+      "lemma": "get on",
+      "lemmaId": "get_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "get_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Поехать"
+        }
+      },
+      "example": "I haven’t had a moment to see how you were getting on.",
+      "exampleStart": 3038,
+      "exampleEnd": 3092,
+      "phraseMatch": {
+        "text": "getting on",
+        "startInExample": 43,
+        "endInExample": 53
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "glowed",
+      "lemma": "glow",
+      "lemmaId": "glow",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "glow_adjective",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "свечение"
+        }
+      },
+      "example": "”\n\nGwendolen’s face glowed.",
+      "exampleStart": 1041,
+      "exampleEnd": 1068,
+      "matchedForm": "glowed",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.742857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "went back",
+      "lemma": "go back",
+      "lemmaId": "go_back",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_back_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "вернулся"
+        }
+      },
+      "example": "”\n\nGwendolen was jubilant as they went back along the alley.",
+      "exampleStart": 1289,
+      "exampleEnd": 1349,
+      "phraseMatch": {
+        "text": "went back",
+        "startInExample": 34,
+        "endInExample": 43
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "graciously",
       "lemma": "graciously",
       "lemmaId": "graciously",
-      "pos": "adverb",
-      "wordKey": "graciously_adverb",
-      "level": "C2",
-      "ipa": "ˈɡreɪʃəsli",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "graciously_adjective",
+      "level": "C1",
       "translations": {
         "ru": {
-          "translation": "учтиво, любезно"
+          "translation": "милостиво"
         }
       },
-      "definition": "In a kind, courteous, and pleasant manner.",
-      "example": "Gwendolen smiled graciously.",
-      "matchedForm": "graciously"
+      "example": "Gwendolen smiled graciously and got up to go.",
+      "exampleStart": 565,
+      "exampleEnd": 610,
+      "matchedForm": "graciously",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.991429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "i’ve out",
+      "lemma": "have out",
+      "lemmaId": "have_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "have_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Я вышел"
+        }
+      },
+      "example": "”\n\n“When will you have the dragons’ blood?",
+      "matchedForm": "have",
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "hesitate",
       "lemma": "hesitate",
       "lemmaId": "hesitate",
-      "pos": "verb",
-      "wordKey": "hesitate_verb",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "hesitate_adjective",
       "level": "B2",
-      "ipa": "ˈhɛzɪteɪt",
       "translations": {
         "ru": {
-          "translation": "колебаться, сомневаться"
+          "translation": "колебаться"
         }
       },
-      "definition": "To pause before saying or doing something, often due to uncertainty.",
-      "example": "Don’t hesitate to use the toys in the playroom.",
-      "matchedForm": "hesitate"
+      "example": "And don’t hesitate to use the toys in the playroom if you want.",
+      "exampleStart": 3286,
+      "exampleEnd": 3349,
+      "matchedForm": "hesitate",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.777143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "how are you",
+      "lemma": "how are you",
+      "lemmaId": "how_are_you",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "how_are_you_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Как ты"
+        }
+      },
+      "example": "How are you liking your rooms?",
+      "exampleStart": 3408,
+      "exampleEnd": 3438,
+      "phraseMatch": {
+        "text": "How are you",
+        "startInExample": 0,
+        "endInExample": 11
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "i’m sure",
+      "lemma": "i’m sure",
+      "lemmaId": "im_sure",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "im_sure_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Я уверен"
+        }
+      },
+      "example": "“I’m sure you’ll soon find your way around.",
+      "exampleStart": 3242,
+      "exampleEnd": 3285,
+      "phraseMatch": {
+        "text": "I’m sure",
+        "startInExample": 1,
+        "endInExample": 9
+      },
+      "levelSource": "phrase_fallback"
     },
     {
       "word": "installments",
-      "lemma": "installments",
-      "lemmaId": "installments",
+      "lemma": "installment",
+      "lemmaId": "installment",
       "pos": "noun",
-      "wordKey": "installments_noun",
-      "level": "C1",
-      "ipa": "ɪnˈstɔːlmənts",
-      "translations": {
-        "ru": {
-          "translation": "взносы, платежи в рассрочку"
-        }
-      },
-      "definition": "Partial payments of a total sum over time.",
-      "example": "I’ll pay in installments.",
-      "matchedForm": "installments"
-    },
-    {
-      "word": "jubilant",
-      "lemma": "jubilant",
-      "lemmaId": "jubilant",
-      "pos": "adjective",
-      "wordKey": "jubilant_adjective",
-      "level": "C1",
-      "ipa": "ˈdʒuːbɪlənt",
-      "translations": {
-        "ru": {
-          "translation": "ликующий, радостный"
-        }
-      },
-      "definition": "Feeling or expressing great happiness and triumph.",
-      "example": "Gwendolen was jubilant as they went back along the alley.",
-      "matchedForm": "jubilant"
-    },
-    {
-      "word": "licorice",
-      "lemma": "licorice",
-      "lemmaId": "licorice",
-      "pos": "noun",
-      "wordKey": "licorice_noun",
-      "level": "B2",
-      "ipa": "ˈlɪkərɪʃ",
-      "translations": {
-        "ru": {
-          "translation": "лакрица (сладость)"
-        }
-      },
-      "definition": "A sweet black candy flavoured with extract from licorice root.",
-      "example": "He bought some licorice too.",
-      "matchedForm": "licorice"
-    },
-    {
-      "word": "necromancy",
-      "lemma": "necromancy",
-      "lemmaId": "necromancy",
-      "pos": "noun",
-      "wordKey": "necromancy_noun",
+      "source": "word",
+      "wordKey": "installment_noun",
       "level": "C2",
-      "ipa": "ˈnekrəʊmənsi",
       "translations": {
         "ru": {
-          "translation": "некромантия, чёрная магия"
+          "translation": "рассрочка"
         }
       },
-      "definition": "The practice of communicating with the dead, especially to predict the future.",
-      "example": "Are you going to try your hand at a bit of necromancy?",
-      "matchedForm": "necromancy"
+      "example": "“I’ll pay in installments.",
+      "exampleStart": 297,
+      "exampleEnd": 323,
+      "matchedForm": "installments",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.837143,
+      "difficultySource": "zipf"
     },
     {
-      "word": "parasol",
-      "lemma": "parasol",
-      "lemmaId": "parasol",
-      "pos": "noun",
-      "wordKey": "parasol_noun",
+      "word": "looked at",
+      "lemma": "look at",
+      "lemmaId": "look_at",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_at_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈpærəsɒl",
       "translations": {
         "ru": {
-          "translation": "парасоль от солнца"
+          "translation": "смотрел"
         }
       },
-      "definition": "A light umbrella used to give shade from the sun.",
-      "example": "A lady carrying a parasol was talking to a clergyman.",
-      "matchedForm": "parasol"
-    },
-    {
-      "word": "playroom",
-      "lemma": "playroom",
-      "lemmaId": "playroom",
-      "pos": "noun",
-      "wordKey": "playroom_noun",
-      "level": "B2",
-      "ipa": "ˈpleɪruːm",
-      "translations": {
-        "ru": {
-          "translation": "игровая комната"
-        }
+      "example": "The way he looked at the crown piece Gwendolen handed to him made Cat see vividly a long row of frothing pints of beer.",
+      "exampleStart": 420,
+      "exampleEnd": 539,
+      "phraseMatch": {
+        "text": "looked at",
+        "startInExample": 11,
+        "endInExample": 20
       },
-      "definition": "A room used especially by children for playing.",
-      "example": "Use the toys in the playroom if you want.",
-      "matchedForm": "playroom"
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "postcard",
-      "lemma": "postcard",
-      "lemmaId": "postcard",
+      "word": "mustn’t",
+      "lemma": "mustn't",
+      "lemmaId": "mustnt",
       "pos": "noun",
-      "wordKey": "postcard_noun",
+      "source": "word",
+      "wordKey": "mustnt_noun",
       "level": "A2",
-      "ipa": "ˈpəʊstkɑːd",
       "translations": {
         "ru": {
-          "translation": "открытка"
+          "translation": "не должен"
         }
       },
-      "definition": "A card for sending messages by post without an envelope.",
-      "example": "He bought a postcard of the Castle.",
-      "matchedForm": "postcard"
+      "example": "She mustn’t know where I’ve been.",
+      "exampleStart": 1781,
+      "exampleEnd": 1814,
+      "matchedForm": "mustn’t",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "private",
-      "lemma": "private",
-      "lemmaId": "private",
-      "pos": "adjective",
-      "wordKey": "private_adjective",
+      "word": "pay for",
+      "lemma": "pay for",
+      "lemmaId": "pay_for",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "pay_for_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈprɪvɪt",
       "translations": {
         "ru": {
-          "translation": "личный, частный"
+          "translation": "оплатить"
         }
       },
-      "definition": "Belonging to a particular person rather than shared.",
-      "example": "Private toys are in one’s own room.",
-      "matchedForm": "Private"
+      "example": "There’s the risk to pay for, you see.",
+      "exampleStart": 200,
+      "exampleEnd": 237,
+      "phraseMatch": {
+        "text": "pay for",
+        "startInExample": 20,
+        "endInExample": 27
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "resist",
-      "lemma": "resist",
-      "lemmaId": "resist",
-      "pos": "verb",
-      "wordKey": "resist_verb",
+      "word": "pay in",
+      "lemma": "pay in",
+      "lemmaId": "pay_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "pay_in_phrasal_verb",
       "level": "B2",
-      "ipa": "rɪˈzɪst",
       "translations": {
         "ru": {
-          "translation": "сопротивляться, удерживаться"
+          "translation": "платить"
         }
       },
-      "definition": "To withstand the action or effect of something.",
-      "example": "Mr. Baslam was unable to resist this.",
-      "matchedForm": "resist"
+      "example": "“I’ll pay in installments.",
+      "exampleStart": 297,
+      "exampleEnd": 323,
+      "phraseMatch": {
+        "text": "pay in",
+        "startInExample": 6,
+        "endInExample": 12
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "risk",
-      "lemma": "risk",
-      "lemmaId": "risk",
+      "word": "quickest",
+      "lemma": "quickest",
+      "lemmaId": "quickest",
       "pos": "noun",
-      "wordKey": "risk_noun",
-      "level": "B2",
-      "ipa": "rɪsk",
+      "source": "word",
+      "wordKey": "quickest_noun",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "риск"
+          "translation": "быстрый"
         }
       },
-      "definition": "The possibility of something bad happening.",
-      "example": "There’s the risk to pay for.",
-      "matchedForm": "risk"
+      "example": "“That’s the quickest I’ve ever heard.",
+      "exampleStart": 1370,
+      "exampleEnd": 1407,
+      "matchedForm": "quickest",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.882857,
+      "difficultySource": "zipf"
     },
     {
       "word": "shakily",
       "lemma": "shakily",
       "lemmaId": "shakily",
-      "pos": "adverb",
-      "wordKey": "shakily_adverb",
-      "level": "B2",
-      "ipa": "ˈʃeɪkɪli",
-      "translations": {
-        "ru": {
-          "translation": "неуверенно, дрожащим голосом"
-        }
-      },
-      "definition": "In an unsteady or trembling manner.",
-      "example": "The vicar shakily shook hands with them.",
-      "matchedForm": "shakily"
-    },
-    {
-      "word": "shopkeeper",
-      "lemma": "shopkeeper",
-      "lemmaId": "shopkeeper",
-      "pos": "noun",
-      "wordKey": "shopkeeper_noun",
-      "level": "B2",
-      "ipa": "ˈʃɒpˌkiːpə",
-      "translations": {
-        "ru": {
-          "translation": "владелец магазина"
-        }
-      },
-      "definition": "A person who owns or manages a shop.",
-      "example": "She mustn’t know where I’ve been."
-    },
-    {
-      "word": "smuggled in",
-      "lemma": "smuggled in",
-      "lemmaId": "smuggled_in",
-      "pos": "phrase",
-      "wordKey": "smuggled_in_phrase",
-      "level": "C1",
-      "ipa": "ˈsmʌɡəld ɪn",
-      "translations": {
-        "ru": {
-          "translation": "провезён контрабандой"
-        }
-      },
-      "definition": "Brought into a place secretly and illegally.",
-      "example": "It has to be smuggled in from this other world.",
-      "phraseMatch": {
-        "text": "smuggled in",
-        "startInExample": 13,
-        "endInExample": 24
-      }
-    },
-    {
-      "word": "strange",
-      "lemma": "strange",
-      "lemmaId": "strange",
       "pos": "adjective",
-      "wordKey": "strange_adjective",
+      "source": "word",
+      "wordKey": "shakily_adjective",
       "level": "B2",
-      "ipa": "streɪndʒ",
       "translations": {
         "ru": {
-          "translation": "странный, необычный"
+          "translation": "шатко"
         }
       },
-      "definition": "Unusual or surprising in a way that is unsettling or hard to understand.",
-      "example": "Are you finding it very strange?",
-      "matchedForm": "strange"
+      "example": "”\n\nThe vicar, who was old, with a weak and wandering look, shakily shook hands with them and said he would see them on Sunday.",
+      "exampleStart": 2424,
+      "exampleEnd": 2550,
+      "matchedForm": "shakily",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "toffee",
-      "lemma": "toffee",
-      "lemmaId": "toffee",
-      "pos": "noun",
-      "wordKey": "toffee_noun",
+      "word": "talk to",
+      "lemma": "talk to",
+      "lemmaId": "talk_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "talk_to_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈtɒfi",
       "translations": {
         "ru": {
-          "translation": "карамель"
+          "translation": "Поговорить с"
         }
       },
-      "definition": "A sweet made by boiling sugar and butter.",
-      "example": "Cat bought them a bag of toffee each.",
-      "matchedForm": "toffee"
+      "example": "But what Millie said was, “I am glad of a chance to talk to you, my loves.",
+      "exampleStart": 2963,
+      "exampleEnd": 3037,
+      "phraseMatch": {
+        "text": "talk to",
+        "startInExample": 52,
+        "endInExample": 59
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "vicər",
-      "lemma": "vicər",
-      "lemmaId": "vicər",
-      "pos": "noun",
-      "wordKey": "vicər_noun",
+      "word": "wandering",
+      "lemma": "wander",
+      "lemmaId": "wander",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "wander_adjective",
       "level": "B2",
-      "ipa": "ˈvɪkə",
       "translations": {
         "ru": {
-          "translation": "викарий, приходской священник"
+          "translation": "странствовать"
         }
       },
-      "definition": "A representative or deputy of a bishop, or a parish priest.",
-      "example": "Come and meet the dear vicar."
+      "example": "”\n\nThe vicar, who was old, with a weak and wandering look, shakily shook hands with them and said he would see them on Sunday.",
+      "exampleStart": 2424,
+      "exampleEnd": 2550,
+      "matchedForm": "wandering",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.811429,
+      "difficultySource": "zipf"
     },
     {
-      "word": "wheedlingly",
-      "lemma": "wheedlingly",
-      "lemmaId": "wheedlingly",
-      "pos": "adverb",
-      "wordKey": "wheedlingly_adverb",
-      "level": "C2",
-      "ipa": "ˈwiːdlɪŋli",
+      "word": "want in",
+      "lemma": "want in",
+      "lemmaId": "want_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "want_in_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "льстиво, угодливо"
+          "translation": "хочешь присоединиться"
         }
       },
-      "definition": "In a coaxing or flattering manner to persuade someone.",
-      "example": "Mr. Baslam asked wheedlingly.",
-      "matchedForm": "wheedlingly"
+      "example": "And I want dragons’ blood in case I need it.",
+      "exampleStart": 91,
+      "exampleEnd": 135,
+      "phraseMatch": {
+        "text": "want dragons’ blood in",
+        "startInExample": 6,
+        "endInExample": 28
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "wiper",
+      "lemma": "wiper",
+      "lemmaId": "wiper",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "wiper_verb",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "стеклоочиститель"
+        }
+      },
+      "example": "Millie was still talking to the clergyman even then, so he bought Gwendolen a pen wiper and himself a postcard of the Castle.",
+      "exampleStart": 2112,
+      "exampleEnd": 2237,
+      "matchedForm": "wiper",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "you all",
+      "lemma": "you all",
+      "lemmaId": "you_all",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "you_all_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Вы все"
+        }
+      },
+      "example": "Are you all right?",
+      "exampleStart": 3093,
+      "exampleEnd": 3111,
+      "phraseMatch": {
+        "text": "you all",
+        "startInExample": 4,
+        "endInExample": 11
+      },
+      "levelSource": "phrase_fallback"
     }
   ]
 }

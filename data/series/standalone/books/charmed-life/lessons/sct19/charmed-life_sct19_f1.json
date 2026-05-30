@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 19,
     "sectionTitle": "Chapter 16",
     "fragmentIndex": 1,
@@ -21,689 +20,776 @@
       "wordCount": 689,
       "uniqueWordCount": 343,
       "paragraphCount": 21,
-      "vocabularyCount": 24,
+      "vocabularyCount": 33,
       "levelDistribution": {
         "A1": 0,
         "A2": 0,
-        "B1": 0,
-        "B2": 11,
-        "C1": 13,
+        "B1": 12,
+        "B2": 20,
+        "C1": 1,
         "C2": 0
       }
     }
   },
   "vocabulary": [
     {
-      "word": "arguing",
-      "lemma": "argue",
-      "lemmaId": "argue",
-      "pos": "verb",
-      "wordKey": "argue_verb",
-      "level": "B2",
-      "ipa": "ˈɑːrɡjuːɪŋ",
+      "word": "a great deal",
+      "lemma": "a great deal",
+      "lemmaId": "a_great_deal",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "a_great_deal_phrase",
+      "level": "B1",
       "translations": {
-        "de": {
-          "translation": "argumentieren"
-        },
-        "es": {
-          "translation": "discutir"
-        },
         "ru": {
-          "translation": "спорить"
-        },
-        "uk": {
-          "translation": "сперечатися"
+          "translation": "Очень много"
         }
       },
-      "definition": "to give reasons or cite evidence in support of an idea or opinion.",
-      "example": "arguing with the witch in the flower",
-      "exampleStart": 3009,
-      "exampleEnd": 3045,
-      "matchedForm": "arguing"
+      "example": "”\n\nThe rope was a great deal looser.",
+      "exampleStart": 2672,
+      "exampleEnd": 2708,
+      "phraseMatch": {
+        "text": "a great deal",
+        "startInExample": 16,
+        "endInExample": 28
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "backwards and forwards",
+      "lemma": "backwards and forwards",
+      "lemmaId": "backwards_and_forwards",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "backwards_and_forwards_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Вперёд и вперёд"
+        }
+      },
+      "example": "”\n\n“Backwards and forwards,” Cat said, trying.",
+      "exampleStart": 1694,
+      "exampleEnd": 1740,
+      "phraseMatch": {
+        "text": "Backwards and forwards",
+        "startInExample": 4,
+        "endInExample": 26
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "blurred",
+      "lemma": "blur",
+      "lemmaId": "blur",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "blur_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "размыть"
+        }
+      },
+      "example": "Every so often it went blurred.",
+      "exampleStart": 187,
+      "exampleEnd": 218,
+      "matchedForm": "blurred",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.845714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "clatters",
+      "lemma": "clatter",
+      "lemmaId": "clatter",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "clatter_noun",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "шум"
+        }
+      },
+      "example": "Cat fought his way out of it with a series of clatters and thumps—he was not sure quite what he had turned it into—and knelt up on the stone.",
+      "exampleStart": 2709,
+      "exampleEnd": 2850,
+      "matchedForm": "clatters",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "clink",
       "lemma": "clink",
       "lemmaId": "clink",
       "pos": "verb",
+      "source": "word",
       "wordKey": "clink_verb",
       "level": "B2",
-      "ipa": "klɪŋk",
       "translations": {
-        "de": {
-          "translation": "klirren"
-        },
-        "es": {
-          "translation": "chocar"
-        },
         "ru": {
-          "translation": "звонить"
-        },
-        "uk": {
-          "translation": "дзвеніти"
+          "translation": "звенеть"
         }
       },
-      "definition": "to make a short sharp ringing sound.",
       "example": "Clink.",
       "exampleStart": 2501,
       "exampleEnd": 2507,
-      "matchedForm": "Clink"
+      "matchedForm": "Clink",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "desperate",
-      "lemma": "desperate",
-      "lemmaId": "desperate",
-      "pos": "adjective",
-      "wordKey": "desperate_adjective",
-      "level": "C1",
-      "ipa": "ˈdɛspərɪt",
+      "word": "didn’t up",
+      "lemma": "do up",
+      "lemmaId": "do_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "do_up_phrasal_verb",
+      "level": "B2",
       "translations": {
-        "de": {
-          "translation": "verzweifelt"
-        },
-        "es": {
-          "translation": "desesperado"
-        },
         "ru": {
-          "translation": "отчаянный"
-        },
-        "uk": {
-          "translation": "відчайдушний"
+          "translation": "Не встал"
         }
       },
-      "definition": "feeling or showing a hopeless sense that a situation is so bad as to be impossible to deal with.",
-      "example": "He sounded almost as desperate as Fiddle.",
-      "exampleStart": 667,
-      "exampleEnd": 708,
-      "matchedForm": "desperate"
+      "example": "”\n\n“Then why didn’t it get up then?",
+      "exampleStart": 3156,
+      "exampleEnd": 3191,
+      "phraseMatch": {
+        "text": "didn’t it get up",
+        "startInExample": 13,
+        "endInExample": 29
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "earnest",
-      "lemma": "earnest",
-      "lemmaId": "earnest",
-      "pos": "adjective",
-      "wordKey": "earnest_adjective",
-      "level": "C1",
-      "ipa": "ˈɜrnɪst",
+      "word": "fell on",
+      "lemma": "fall on",
+      "lemmaId": "fall_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "fall_on_phrasal_verb",
+      "level": "B2",
       "translations": {
-        "de": {
-          "translation": "ernst"
-        },
-        "es": {
-          "translation": "serio"
-        },
         "ru": {
-          "translation": "серьёзный"
-        },
-        "uk": {
-          "translation": "серйозний"
+          "translation": "упал"
         }
       },
-      "definition": "showing sincere and intense conviction.",
-      "example": "and pale and very much in earnest",
-      "exampleStart": 2157,
-      "exampleEnd": 2190,
-      "matchedForm": "earnest"
-    },
-    {
-      "word": "enchanter",
-      "lemma": "enchanter",
-      "lemmaId": "enchanter",
-      "pos": "noun",
-      "wordKey": "enchanter_noun",
-      "level": "C1",
-      "ipa": "ɪnˈtʃæntər",
-      "translations": {
-        "de": {
-          "translation": "Zauberer"
-        },
-        "es": {
-          "translation": "hechicero"
-        },
-        "ru": {
-          "translation": "колдун"
-        },
-        "uk": {
-          "translation": "чарівник"
-        }
+      "example": "The left handcuff took off savagely as ordered, but the right half was still a silver handcuff and it fell on the grass.",
+      "exampleStart": 3522,
+      "exampleEnd": 3642,
+      "phraseMatch": {
+        "text": "fell on",
+        "startInExample": 102,
+        "endInExample": 109
       },
-      "definition": "a person who uses magic or has magical powers.",
-      "example": "But you are an enchanter.",
-      "exampleStart": 804,
-      "exampleEnd": 829,
-      "matchedForm": "enchanter"
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "ferocious",
       "lemma": "ferocious",
       "lemmaId": "ferocious",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "ferocious_adjective",
       "level": "C1",
-      "ipa": "fəˈroʊʃəs",
       "translations": {
-        "de": {
-          "translation": "wild"
-        },
-        "es": {
-          "translation": "feroz"
-        },
         "ru": {
           "translation": "свирепый"
-        },
-        "uk": {
-          "translation": "жорстокий"
         }
       },
-      "definition": "savagely fierce, cruel, or violent.",
-      "example": "and told them to be ferocious eagles",
-      "exampleStart": 3449,
-      "exampleEnd": 3485,
-      "matchedForm": "ferocious"
+      "example": "He took the handcuffs in two and told them to be ferocious eagles.",
+      "exampleStart": 3420,
+      "exampleEnd": 3486,
+      "matchedForm": "ferocious",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.942857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "find out",
+      "lemma": "find out",
+      "lemmaId": "find_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "find_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Узнайте"
+        }
+      },
+      "example": "We hoped you wouldn’t find out about Gwendolen for years yet.",
+      "exampleStart": 742,
+      "exampleEnd": 803,
+      "phraseMatch": {
+        "text": "find out",
+        "startInExample": 22,
+        "endInExample": 30
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "frightened",
       "lemma": "frighten",
       "lemmaId": "frighten",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "frighten_adjective",
       "level": "B2",
-      "ipa": "ˈfraɪtnd",
       "translations": {
-        "de": {
-          "translation": "verängstigt"
-        },
-        "es": {
-          "translation": "asustado"
-        },
         "ru": {
-          "translation": "испуганный"
-        },
-        "uk": {
-          "translation": "наляканий"
+          "translation": "пугать"
         }
       },
-      "definition": "afraid or anxious.",
-      "example": "Fiddle furious and frightened",
-      "exampleStart": 548,
-      "exampleEnd": 577,
-      "matchedForm": "frightened"
+      "example": "From time to time, he had an odd feeling that he was Fiddle himself—Fiddle furious and frightened, lashing out and scratching a huge fat witch in a flower hat.",
+      "exampleStart": 480,
+      "exampleEnd": 639,
+      "matchedForm": "frightened",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.98,
+      "difficultySource": "zipf"
     },
     {
-      "word": "furious",
-      "lemma": "furious",
-      "lemmaId": "furious",
-      "pos": "adjective",
-      "wordKey": "furious_adjective",
+      "word": "from time to time",
+      "lemma": "from time to time",
+      "lemmaId": "from_time_to_time",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "from_time_to_time_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Время от времени"
+        }
+      },
+      "example": "From time to time, he had an odd feeling that he was Fiddle himself—Fiddle furious and frightened, lashing out and scratching a huge fat witch in a flower hat.",
+      "exampleStart": 480,
+      "exampleEnd": 639,
+      "phraseMatch": {
+        "text": "From time to time",
+        "startInExample": 0,
+        "endInExample": 17
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "get after",
+      "lemma": "get after",
+      "lemmaId": "get_after",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "get_after_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈfjʊəriəs",
       "translations": {
-        "de": {
-          "translation": "wütend"
-        },
-        "es": {
-          "translation": "furioso"
-        },
         "ru": {
-          "translation": "яростный"
-        },
-        "uk": {
-          "translation": "лютний"
+          "translation": "Гоняйся"
         }
       },
-      "definition": "extremely angry.",
-      "example": "Fiddle furious and frightened",
-      "exampleStart": 548,
-      "exampleEnd": 577,
-      "matchedForm": "furious"
+      "example": "“Get after the Nostrums,” he said.",
+      "exampleStart": 3487,
+      "exampleEnd": 3521,
+      "phraseMatch": {
+        "text": "Get after",
+        "startInExample": 1,
+        "endInExample": 10
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "imagine",
-      "lemma": "imagine",
-      "lemmaId": "imagine",
-      "pos": "verb",
-      "wordKey": "imagine_verb",
+      "word": "get it",
+      "lemma": "get it",
+      "lemmaId": "get_it",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "get_it_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Возьми"
+        }
+      },
+      "example": "Cat lifted his hand as far as he could get it and brought the edge of it down on the silver rope.",
+      "exampleStart": 2402,
+      "exampleEnd": 2499,
+      "phraseMatch": {
+        "text": "get it",
+        "startInExample": 39,
+        "endInExample": 45
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "get out of",
+      "lemma": "get out of",
+      "lemmaId": "get_out_of",
+      "pos": "prepositional_verb",
+      "type": "prepositional_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "get_out_of_prepositional_verb",
       "level": "B2",
-      "ipa": "ɪˈmædʒɪn",
       "translations": {
-        "de": {
-          "translation": "vorstellen"
-        },
-        "es": {
-          "translation": "imaginar"
-        },
         "ru": {
-          "translation": "представлять"
-        },
-        "uk": {
-          "translation": "уявляти"
+          "translation": "Убирайся отсюда"
         }
       },
-      "definition": "to form a mental image or concept of something.",
-      "example": "time to waste trying to imagine things",
-      "exampleStart": 3220,
-      "exampleEnd": 3258,
-      "matchedForm": "imagine"
+      "example": "“I can’t get it out of the rope though.",
+      "exampleStart": 1741,
+      "exampleEnd": 1780,
+      "phraseMatch": {
+        "text": "get it out of",
+        "startInExample": 9,
+        "endInExample": 22
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "immensely",
-      "lemma": "immensely",
-      "lemmaId": "immensely",
-      "pos": "adverb",
-      "wordKey": "immensely_adverb",
-      "level": "C1",
-      "ipa": "ɪˈmɛnsli",
+      "word": "help out",
+      "lemma": "help out",
+      "lemmaId": "help_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "help_out_phrasal_verb",
+      "level": "B2",
       "translations": {
-        "de": {
-          "translation": "extrem"
-        },
-        "es": {
-          "translation": "enormemente"
-        },
         "ru": {
-          "translation": "чрезвычайно"
-        },
-        "uk": {
-          "translation": "надзвичайно"
+          "translation": "Помогите"
         }
       },
-      "definition": "to a great extent; extremely.",
-      "example": "from somewhere immensely high.",
-      "exampleStart": 1349,
-      "exampleEnd": 1379,
-      "matchedForm": "immensely"
+      "example": "Just to help me get out of this wretched silver, so that I can summon the rest of my power.",
+      "exampleStart": 1013,
+      "exampleEnd": 1104,
+      "phraseMatch": {
+        "text": "help me get out",
+        "startInExample": 8,
+        "endInExample": 23
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "i tell you",
+      "lemma": "i tell you",
+      "lemmaId": "i_tell_you",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "i_tell_you_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Говорю тебе"
+        }
+      },
+      "example": "“I tell you the cat’s dead.",
+      "exampleStart": 3052,
+      "exampleEnd": 3079,
+      "phraseMatch": {
+        "text": "I tell you",
+        "startInExample": 1,
+        "endInExample": 11
+      },
+      "levelSource": "phrase_fallback"
     },
     {
       "word": "jingle",
       "lemma": "jingle",
       "lemmaId": "jingle",
       "pos": "verb",
+      "source": "word",
       "wordKey": "jingle_verb",
       "level": "B2",
-      "ipa": "ˈdʒɪŋɡəl",
       "translations": {
-        "de": {
-          "translation": "Klingeln"
-        },
-        "es": {
-          "translation": "tintineo"
-        },
         "ru": {
-          "translation": "звон"
-        },
-        "uk": {
-          "translation": "дзвін"
+          "translation": "звенящий"
         }
       },
-      "definition": "a light ringing sound like that of metal objects being shaken.",
       "example": "Jingle.",
       "exampleStart": 2508,
       "exampleEnd": 2515,
-      "matchedForm": "Jingle"
+      "matchedForm": "Jingle",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.942857,
+      "difficultySource": "zipf"
     },
     {
-      "word": "knelt",
-      "lemma": "knelt",
-      "lemmaId": "knelt",
-      "pos": "verb",
-      "wordKey": "knelt_verb",
+      "word": "lashing out",
+      "lemma": "lash out",
+      "lemmaId": "lash_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "lash_out_phrasal_verb",
       "level": "B2",
-      "ipa": "nɛlt",
       "translations": {
-        "de": {
-          "translation": "knien"
-        },
-        "es": {
-          "translation": "arrodillarse"
-        },
         "ru": {
-          "translation": "стать на колени"
-        },
-        "uk": {
-          "translation": "стати на коліна"
+          "translation": "Вспышки"
         }
       },
-      "definition": "to go down into or remain in a position where one or both knees are on the ground.",
-      "example": "and knelt up on the stone.",
-      "exampleStart": 2824,
-      "exampleEnd": 2850,
-      "matchedForm": "knelt"
+      "example": "From time to time, he had an odd feeling that he was Fiddle himself—Fiddle furious and frightened, lashing out and scratching a huge fat witch in a flower hat.",
+      "exampleStart": 480,
+      "exampleEnd": 639,
+      "phraseMatch": {
+        "text": "lashing out",
+        "startInExample": 99,
+        "endInExample": 110
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "lash out",
-      "lemma": "lashout",
-      "lemmaId": "lashout",
-      "pos": "noun",
-      "wordKey": "lashout_noun",
-      "level": "C1",
-      "ipa": "læʃ aʊt",
+      "word": "left off",
+      "lemma": "leave off",
+      "lemmaId": "leave_off",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "leave_off_phrasal_verb",
+      "level": "B2",
       "translations": {
-        "de": {
-          "translation": "ausholen (mit der Peitsche)"
-        },
-        "es": {
-          "translation": "arremeter"
-        },
         "ru": {
-          "translation": "наносить удар"
-        },
-        "uk": {
-          "translation": "розлютитися, розкритикувати жорстко"
+          "translation": "оставлен"
         }
       },
-      "definition": "to suddenly attack someone or something physically or criticize them angrily.",
-      "example": "can’t get it out of the rope",
-      "exampleStart": 1744,
-      "exampleEnd": 1772,
-      "matchedForm": "out"
+      "example": "The left handcuff took off savagely as ordered, but the right half was still a silver handcuff and it fell on the grass.",
+      "exampleStart": 3522,
+      "exampleEnd": 3642,
+      "phraseMatch": {
+        "text": "left handcuff took off",
+        "startInExample": 4,
+        "endInExample": 26
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "looked at",
+      "lemma": "look at",
+      "lemmaId": "look_at",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_at_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "смотрел"
+        }
+      },
+      "example": "”\n\nCat tipped his head back and looked at Chrestomanci unbelievingly.",
+      "exampleStart": 2063,
+      "exampleEnd": 2132,
+      "phraseMatch": {
+        "text": "looked at",
+        "startInExample": 32,
+        "endInExample": 41
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "looking up",
+      "lemma": "look up",
+      "lemmaId": "look_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Смотрю вверх"
+        }
+      },
+      "example": "He was lying looking up at the blue sky through the leaves of the apple tree.",
+      "exampleStart": 109,
+      "exampleEnd": 186,
+      "phraseMatch": {
+        "text": "looking up",
+        "startInExample": 13,
+        "endInExample": 23
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "looser",
+      "lemma": "looser",
+      "lemmaId": "looser",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "looser_verb",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "свободный"
+        }
+      },
+      "example": "”\n\nThe rope was a great deal looser.",
+      "exampleStart": 2672,
+      "exampleEnd": 2708,
+      "matchedForm": "looser",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "newfound",
       "lemma": "newfound",
       "lemmaId": "newfound",
-      "pos": "adjective",
-      "wordKey": "newfound_adjective",
-      "level": "C1",
-      "ipa": "ˈnjuːfaʊnd",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "newfound_noun",
+      "level": "B1",
       "translations": {
-        "de": {
-          "translation": "neu entdeckt"
-        },
-        "es": {
-          "translation": "reciente"
-        },
         "ru": {
-          "translation": "новый"
-        },
-        "uk": {
-          "translation": "нововиявлений"
+          "translation": "новообретенный"
         }
       },
-      "definition": "recently discovered or attained.",
-      "example": "suddenly very pleased with his newfound talent",
-      "exampleStart": 3372,
-      "exampleEnd": 3418,
-      "matchedForm": "newfound"
+      "example": "Cat was suddenly very pleased with his newfound talent.",
+      "exampleStart": 3364,
+      "exampleEnd": 3419,
+      "matchedForm": "newfound",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.962857,
+      "difficultySource": "zipf"
     },
     {
-      "word": "part",
-      "lemma": "part",
-      "lemmaId": "part",
-      "pos": "verb",
-      "wordKey": "part_verb",
-      "level": "B2",
-      "ipa": "pɑrt",
+      "word": "no time",
+      "lemma": "no time",
+      "lemmaId": "no_time",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "no_time_phrase",
+      "level": "B1",
       "translations": {
-        "de": {
-          "translation": "teilen"
-        },
-        "es": {
-          "translation": "dividir"
-        },
         "ru": {
-          "translation": "разделять"
-        },
-        "uk": {
-          "translation": "розділяти"
+          "translation": "Нет времени"
         }
       },
-      "definition": "to divide or separate into pieces or sections.",
-      "example": "The rope parted.",
-      "exampleStart": 2516,
-      "exampleEnd": 2532,
-      "matchedForm": "parted"
+      "example": "”\n\nCat realized there was no time to waste trying to imagine things.",
+      "exampleStart": 3191,
+      "exampleEnd": 3259,
+      "phraseMatch": {
+        "text": "no time",
+        "startInExample": 26,
+        "endInExample": 33
+      },
+      "levelSource": "phrase_fallback"
     },
     {
-      "word": "rope",
-      "lemma": "rope",
-      "lemmaId": "rope",
-      "pos": "verb",
-      "wordKey": "rope_verb",
+      "word": "pick up",
+      "lemma": "pick up",
+      "lemmaId": "pick_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "pick_up_phrasal_verb",
       "level": "B2",
-      "ipa": "roʊp",
       "translations": {
-        "de": {
-          "translation": "Seil"
-        },
-        "es": {
-          "translation": "cuerda"
-        },
         "ru": {
-          "translation": "верёвка"
-        },
-        "uk": {
-          "translation": "мотузка"
+          "translation": "Подними"
         }
       },
-      "definition": "a length of strong cord made by twisting together strands of natural fibers or synthetic material.",
-      "example": "The rope parted.",
-      "exampleStart": 2516,
-      "exampleEnd": 2532,
-      "matchedForm": "rope"
+      "example": "Cat had to pick it up in his left hand before it would do as it was told.",
+      "exampleStart": 3643,
+      "exampleEnd": 3716,
+      "phraseMatch": {
+        "text": "pick it up",
+        "startInExample": 11,
+        "endInExample": 21
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "savagely",
       "lemma": "savagely",
       "lemmaId": "savagely",
-      "pos": "adverb",
-      "wordKey": "savagely_adverb",
-      "level": "C1",
-      "ipa": "ˈsævɪʤli",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "savagely_adjective",
+      "level": "B2",
       "translations": {
-        "de": {
-          "translation": "wild"
-        },
-        "es": {
-          "translation": "salvajemente"
-        },
         "ru": {
-          "translation": "жестоко"
-        },
-        "uk": {
-          "translation": "жорстоко"
+          "translation": "дико"
         }
       },
-      "definition": "in a fierce, violent, and uncontrolled manner.",
-      "example": "left handcuff took off savagely as ordered",
-      "exampleStart": 3526,
-      "exampleEnd": 3568,
-      "matchedForm": "savagely"
+      "example": "The left handcuff took off savagely as ordered, but the right half was still a silver handcuff and it fell on the grass.",
+      "exampleStart": 3522,
+      "exampleEnd": 3642,
+      "matchedForm": "savagely",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "saw at",
+      "lemma": "saw at",
+      "lemmaId": "saw_at",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "saw_at_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "видел в"
+        }
+      },
+      "example": "Just saw at the rope with your left hand and presume that the rope is made of silver.",
+      "exampleStart": 1978,
+      "exampleEnd": 2063,
+      "phraseMatch": {
+        "text": "saw at",
+        "startInExample": 5,
+        "endInExample": 11
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "sickening",
       "lemma": "sicken",
       "lemmaId": "sicken",
-      "pos": "verb",
-      "wordKey": "sicken_verb",
-      "level": "C1",
-      "ipa": "ˈsɪkənɪŋ",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "sicken_adjective",
+      "level": "B1",
       "translations": {
-        "de": {
-          "translation": "ekelhaft"
-        },
-        "es": {
-          "translation": "repugnante"
-        },
         "ru": {
-          "translation": "отвратительный"
-        },
-        "uk": {
-          "translation": "мерзенний"
+          "translation": "больной"
         }
       },
-      "definition": "causing a feeling of nausea or disgust.",
-      "example": "was such a sickening jump that Cat",
-      "exampleStart": 1383,
-      "exampleEnd": 1417,
-      "matchedForm": "sickening"
+      "example": "It was such a sickening jump that Cat opened his eyes.",
+      "exampleStart": 1380,
+      "exampleEnd": 1434,
+      "matchedForm": "sickening",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "spell",
-      "lemma": "spell",
-      "lemmaId": "spell",
-      "pos": "verb",
-      "wordKey": "spell_verb",
-      "level": "C1",
-      "ipa": "spɛl",
-      "translations": {
-        "de": {
-          "translation": "Zauber"
-        },
-        "es": {
-          "translation": "hechizo"
-        },
-        "ru": {
-          "translation": "заклинание"
-        },
-        "uk": {
-          "translation": "чари, закляття"
-        }
-      },
-      "definition": "a form of words used as a magical charm or incantation.",
-      "example": "a very firm spell on these handcuffs",
-      "exampleStart": 2616,
-      "exampleEnd": 2652,
-      "matchedForm": "spell"
-    },
-    {
-      "word": "strain",
-      "lemma": "strain",
-      "lemmaId": "strain",
-      "pos": "verb",
-      "wordKey": "strain_verb",
-      "level": "C1",
-      "ipa": "streɪn",
-      "translations": {
-        "de": {
-          "translation": "Anstrengung"
-        },
-        "es": {
-          "translation": "esfuerzo"
-        },
-        "ru": {
-          "translation": "напряжение"
-        },
-        "uk": {
-          "translation": "навантаження, напруга"
-        }
-      },
-      "definition": "a force causing deformation or stress; effort to do something difficult.",
-      "example": "But sawing was rather a strain.",
-      "exampleStart": 2370,
-      "exampleEnd": 2401,
-      "matchedForm": "strain"
-    },
-    {
-      "word": "summon",
-      "lemma": "summon",
-      "lemmaId": "summon",
-      "pos": "verb",
-      "wordKey": "summon_verb",
+      "word": "spilled out",
+      "lemma": "spill out",
+      "lemmaId": "spill_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "spill_out_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈsʌmən",
       "translations": {
-        "de": {
-          "translation": "herbeirufen"
-        },
-        "es": {
-          "translation": "convocar"
-        },
         "ru": {
-          "translation": "призывать"
-        },
-        "uk": {
-          "translation": "скликати, закликати"
+          "translation": "вылились"
         }
       },
-      "definition": "to call upon to do something or to be present.",
-      "example": "that I can summon the rest of",
-      "exampleStart": 1065,
-      "exampleEnd": 1094,
-      "matchedForm": "summon"
+      "example": "At the same time, the Willing Warlock spilled out of the trees, arguing with the witch in the flower hat.",
+      "exampleStart": 2945,
+      "exampleEnd": 3050,
+      "phraseMatch": {
+        "text": "spilled out",
+        "startInExample": 38,
+        "endInExample": 49
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "talent",
-      "lemma": "talent",
-      "lemmaId": "talent",
-      "pos": "noun",
-      "wordKey": "talent_noun",
+      "word": "took in",
+      "lemma": "take in",
+      "lemmaId": "take_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "take_in_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈtælɪnt",
       "translations": {
-        "de": {
-          "translation": "Talent"
-        },
-        "es": {
-          "translation": "talento"
-        },
         "ru": {
-          "translation": "талант"
-        },
-        "uk": {
-          "translation": "талант"
+          "translation": "принял"
         }
       },
-      "definition": "a natural aptitude or skill.",
-      "example": "suddenly very pleased with his newfound talent",
-      "exampleStart": 3372,
-      "exampleEnd": 3418,
-      "matchedForm": "talent"
+      "example": "He took the handcuffs in two and told them to be ferocious eagles.",
+      "exampleStart": 3420,
+      "exampleEnd": 3486,
+      "phraseMatch": {
+        "text": "took the handcuffs in",
+        "startInExample": 3,
+        "endInExample": 24
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "unbelievingly",
-      "lemma": "unbelievingly",
-      "lemmaId": "unbelievingly",
-      "pos": "adverb",
-      "wordKey": "unbelievingly_adverb",
-      "level": "C1",
-      "ipa": "ˌʌnbɪˈliːvɪŋli",
+      "word": "tears out",
+      "lemma": "tear out",
+      "lemmaId": "tear_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "tear_out_phrasal_verb",
+      "level": "B2",
       "translations": {
-        "de": {
-          "translation": "ungläubig"
-        },
-        "es": {
-          "translation": "increíblemente"
-        },
         "ru": {
-          "translation": "неверующе"
-        },
-        "uk": {
-          "translation": "невіруючи"
+          "translation": "Слёзы напускают"
         }
       },
-      "definition": "in a way that shows doubt or disbelief.",
-      "example": "head back and looked at Chrestomanci unbelievingly",
-      "exampleStart": 2081,
-      "exampleEnd": 2131,
-      "matchedForm": "unbelievingly"
+      "example": "Then Cat shut his eyes and tears ran out across both his ears.",
+      "exampleStart": 219,
+      "exampleEnd": 281,
+      "phraseMatch": {
+        "text": "tears ran out",
+        "startInExample": 27,
+        "endInExample": 40
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "wretched",
-      "lemma": "wretched",
-      "lemmaId": "wretched",
-      "pos": "verb",
-      "wordKey": "wretched_verb",
-      "level": "C1",
-      "ipa": "ˈrɛtʃɪd",
+      "word": "up on",
+      "lemma": "up on",
+      "lemmaId": "up_on",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "up_on_phrase",
+      "level": "B1",
       "translations": {
-        "de": {
-          "translation": "erbärmlich"
-        },
-        "es": {
-          "translation": "miserable"
-        },
         "ru": {
-          "translation": "жалкий"
-        },
-        "uk": {
-          "translation": "жалюгідний"
+          "translation": "Вверх"
         }
       },
-      "definition": "in a very bad or unpleasant state.",
-      "example": "me get out of this wretched silver",
-      "exampleStart": 1026,
-      "exampleEnd": 1060,
-      "matchedForm": "wretched"
+      "example": "Cat fought his way out of it with a series of clatters and thumps—he was not sure quite what he had turned it into—and knelt up on the stone.",
+      "exampleStart": 2709,
+      "exampleEnd": 2850,
+      "phraseMatch": {
+        "text": "up on",
+        "startInExample": 125,
+        "endInExample": 130
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "wrenched",
+      "lemma": "wrench",
+      "lemmaId": "wrench",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "wrench_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "гаечный ключ"
+        }
+      },
+      "example": "He put both hands to the handcuffs and wrenched.",
+      "exampleStart": 3260,
+      "exampleEnd": 3308,
+      "matchedForm": "wrenched",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.897143,
+      "difficultySource": "zipf"
     }
   ]
 }

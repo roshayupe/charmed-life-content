@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 7,
     "sectionTitle": "Chapter 4",
     "fragmentIndex": 3,
@@ -21,498 +20,863 @@
       "wordCount": 721,
       "uniqueWordCount": 381,
       "paragraphCount": 18,
-      "vocabularyCount": 27,
+      "vocabularyCount": 37,
       "levelDistribution": {
         "A1": 0,
-        "A2": 0,
-        "B1": 0,
-        "B2": 8,
-        "C1": 16,
-        "C2": 3
+        "A2": 2,
+        "B1": 12,
+        "B2": 20,
+        "C1": 3,
+        "C2": 0
       }
     }
   },
   "vocabulary": [
     {
-      "word": "absolute rule",
-      "lemma": "absolute rule",
-      "lemmaId": "absolute_rule",
+      "word": "as soon as",
+      "lemma": "as soon as",
+      "lemmaId": "as_soon_as",
       "pos": "phrase",
-      "wordKey": "absolute_rule_phrase",
-      "level": "C1",
-      "ipa": "ˈæbsəluːt ruːl",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "as_soon_as_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "абсолютное правило"
+          "translation": "как только"
         }
       },
-      "definition": "A rule that is fixed, unconditional and must be strictly observed.",
-      "example": "There’s one absolute rule in this Castle.",
+      "example": "” Gwendolen said to Roger, as soon as the door had shut.",
+      "exampleStart": 1781,
+      "exampleEnd": 1837,
       "phraseMatch": {
-        "text": "absolute rule",
-        "startInExample": 12,
-        "endInExample": 25
-      }
+        "text": "as soon as",
+        "startInExample": 27,
+        "endInExample": 37
+      },
+      "levelSource": "phrase_fallback"
     },
     {
       "word": "battered",
-      "lemma": "battered",
-      "lemmaId": "battered",
+      "lemma": "batter",
+      "lemmaId": "batter",
       "pos": "adjective",
-      "wordKey": "battered_adjective",
-      "level": "B2",
-      "ipa": "ˈbætəd",
+      "source": "word",
+      "wordKey": "batter_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "изношенный, потрёпанный"
+          "translation": "удар"
         }
       },
-      "definition": "Worn down by hard use or age; damaged.",
-      "example": "The battered gray-green and dark blue books.",
-      "matchedForm": "battered"
+      "example": "There was that kind of glass-fronted bookcase without which no schoolroom is complete, and the battered gray-green and dark blue books without which no schoolroom bookcase is complete.",
+      "exampleStart": 3099,
+      "exampleEnd": 3283,
+      "matchedForm": "battered",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.842857,
+      "difficultySource": "zipf"
     },
     {
-      "word": "billowed out",
-      "lemma": "billowed out",
-      "lemmaId": "billowed_out",
-      "pos": "phrase",
-      "wordKey": "billowed_out_phrase",
-      "level": "C1",
-      "ipa": "ˈbɪləʊd aʊt",
+      "word": "bewitched",
+      "lemma": "bewitch",
+      "lemmaId": "bewitch",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "bewitch_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "расправляться, развеваться"
+          "translation": "колдунья"
         }
       },
-      "definition": "To swell or puff out like a sail or cloud.",
-      "example": "His tweed jacket billowed out from his back.",
+      "example": "It never bothered him to eat or drink things that had been bewitched, and he was thirsty.",
+      "exampleStart": 2318,
+      "exampleEnd": 2407,
+      "matchedForm": "bewitched",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "billowed",
+      "lemma": "billow",
+      "lemmaId": "billow",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "billow_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "луга"
+        }
+      },
+      "example": "His tweed jacket billowed out from his back, just as his coat had done in the wind.",
+      "exampleStart": 3700,
+      "exampleEnd": 3783,
+      "matchedForm": "billowed",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "coming in",
+      "lemma": "come in",
+      "lemmaId": "come_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Входит"
+        }
+      },
+      "example": "“Well, I was coming in to say good morning,” Chrestomanci said.",
+      "exampleStart": 276,
+      "exampleEnd": 339,
       "phraseMatch": {
-        "text": "billowed out",
-        "startInExample": 17,
-        "endInExample": 29
-      }
-    },
-    {
-      "word": "cheerfully",
-      "lemma": "cheerfully",
-      "lemmaId": "cheerfully",
-      "pos": "adverb",
-      "wordKey": "cheerfully_adverb",
-      "level": "C1",
-      "ipa": "ˈʧɪəfəli",
-      "translations": {
-        "ru": {
-          "translation": "жизнерадостно, весело"
-        }
+        "text": "coming in",
+        "startInExample": 13,
+        "endInExample": 22
       },
-      "definition": "In a happy and optimistic way.",
-      "example": "Mr. Saunders said cheerfully.",
-      "matchedForm": "cheerfully"
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "clenched",
-      "lemma": "clenched",
-      "lemmaId": "clenched",
-      "pos": "adjective",
-      "wordKey": "clenched_adjective",
+      "word": "come on",
+      "lemma": "come on",
+      "lemmaId": "come_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_on_phrasal_verb",
       "level": "B2",
-      "ipa": "klɛnʧt",
       "translations": {
         "ru": {
-          "translation": "сжатый, сжимающийся"
+          "translation": "Давай"
         }
       },
-      "definition": "Tightly closed or squeezed especially with anger or determination.",
-      "example": "She clenched her hands but was still shaking with rage.",
-      "matchedForm": "clenched"
+      "example": "Come on through and see how you stand up to some grilling.",
+      "exampleStart": 2790,
+      "exampleEnd": 2848,
+      "phraseMatch": {
+        "text": "Come on",
+        "startInExample": 0,
+        "endInExample": 7
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "end of",
+      "lemma": "end of",
+      "lemmaId": "end_of",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "end_of_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Конец"
+        }
+      },
+      "example": "Chrestomanci came to the end of the table and stood looking down on them, with his hands in the pockets of his noble robe.",
+      "exampleStart": 715,
+      "exampleEnd": 837,
+      "phraseMatch": {
+        "text": "end of",
+        "startInExample": 25,
+        "endInExample": 31
+      },
+      "levelSource": "phrase_fallback"
     },
     {
       "word": "flounced",
-      "lemma": "flounced",
-      "lemmaId": "flounced",
-      "pos": "verb",
-      "wordKey": "flounced_verb",
-      "level": "C2",
-      "ipa": "flaʊnst",
-      "translations": {
-        "ru": {
-          "translation": "мятежно вышвырнуть, раздражённо кидаться"
-        }
-      },
-      "definition": "To move in an exaggeratedly impatient or angry manner.",
-      "example": "She flounced around in her chair.",
-      "matchedForm": "flounced"
-    },
-    {
-      "word": "gawkily",
-      "lemma": "gawkily",
-      "lemmaId": "gawkily",
-      "pos": "adverb",
-      "wordKey": "gawkily_adverb",
-      "level": "C2",
-      "ipa": "ˈgɔːkɪli",
-      "translations": {
-        "ru": {
-          "translation": "неловко, неуклюже"
-        }
-      },
-      "definition": "In a clumsy or awkward manner.",
-      "example": "Mr. Saunders strode gawkily up and down.",
-      "matchedForm": "gawkily"
-    },
-    {
-      "word": "genuine",
-      "lemma": "genuine",
-      "lemmaId": "genuine",
+      "lemma": "flounce",
+      "lemmaId": "flounce",
       "pos": "adjective",
-      "wordKey": "genuine_adjective",
+      "source": "word",
+      "wordKey": "flounce_adjective",
       "level": "B2",
-      "ipa": "ˈʤɛnjuɪn",
       "translations": {
         "ru": {
-          "translation": "подлинный, настоящий"
+          "translation": "флеш"
         }
       },
-      "definition": "Truly what something is said to be; authentic.",
-      "example": "It was a real, genuine schoolroom.",
-      "matchedForm": "genuine"
+      "example": "She flounced around in her chair and stayed haughtily looking at the wall until Mr.",
+      "exampleStart": 2588,
+      "exampleEnd": 2671,
+      "matchedForm": "flounced",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "glass-fronted",
-      "lemma": "glass-fronted",
-      "lemmaId": "glass_fronted",
+      "word": "for dear life",
+      "lemma": "for dear life",
+      "lemmaId": "for_dear_life",
       "pos": "phrase",
-      "wordKey": "glass_fronted_phrase",
-      "level": "C1",
-      "ipa": "glɑːs ˈfrʌntɪd",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "for_dear_life_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "со стеклянной дверцей (например, книжный шкаф)"
+          "translation": "Ради дорогой жизни"
         }
       },
-      "definition": "Having a front made of glass, as in a bookcase with glass doors.",
-      "example": "The glass-fronted bookcase.",
-      "matchedForm": "glass-fronted"
+      "example": "Julia unknotted her handkerchief as if for dear life.",
+      "exampleStart": 221,
+      "exampleEnd": 274,
+      "phraseMatch": {
+        "text": "for dear life",
+        "startInExample": 39,
+        "endInExample": 52
+      },
+      "levelSource": "phrase_fallback"
     },
     {
-      "word": "globe",
-      "lemma": "globe",
-      "lemmaId": "globe",
-      "pos": "noun",
-      "wordKey": "globe_noun",
+      "word": "goes for",
+      "lemma": "go for",
+      "lemmaId": "go_for",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_for_phrasal_verb",
       "level": "B2",
-      "ipa": "ɡləʊb",
       "translations": {
         "ru": {
-          "translation": "глобус"
+          "translation": "Идёт"
         }
       },
-      "definition": "A spherical model representing the Earth.",
-      "example": "There was a globe in the schoolroom.",
-      "matchedForm": "globe"
+      "example": "And the same goes for all four of you.",
+      "exampleStart": 519,
+      "exampleEnd": 557,
+      "phraseMatch": {
+        "text": "goes for",
+        "startInExample": 13,
+        "endInExample": 21
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "grilling",
-      "lemma": "grilling",
-      "lemmaId": "grilling",
-      "pos": "noun",
-      "wordKey": "grilling_noun",
-      "level": "C1",
-      "ipa": "ˈɡrɪlɪŋ",
+      "word": "hands in",
+      "lemma": "hand in",
+      "lemmaId": "hand_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "hand_in_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "допрос, расспрос"
+          "translation": "Руки в руках"
         }
       },
-      "definition": "A thorough questioning or interrogation.",
-      "example": "See how you stand up to some grilling.",
-      "matchedForm": "grilling"
+      "example": "Chrestomanci came to the end of the table and stood looking down on them, with his hands in the pockets of his noble robe.",
+      "exampleStart": 715,
+      "exampleEnd": 837,
+      "phraseMatch": {
+        "text": "hands in",
+        "startInExample": 83,
+        "endInExample": 91
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "haughtily",
       "lemma": "haughtily",
       "lemmaId": "haughtily",
-      "pos": "adverb",
-      "wordKey": "haughtily_adverb",
-      "level": "C1",
-      "ipa": "ˈhɔːtɪli",
-      "translations": {
-        "ru": {
-          "translation": "надменно"
-        }
-      },
-      "definition": "In an arrogantly superior and disdainful manner.",
-      "example": "She stayed haughtily looking at the wall.",
-      "matchedForm": "haughtily"
-    },
-    {
-      "word": "keen",
-      "lemma": "keen",
-      "lemmaId": "keen",
       "pos": "adjective",
-      "wordKey": "keen_adjective",
-      "level": "B2",
-      "ipa": "kiːn",
-      "translations": {
-        "ru": {
-          "translation": "острый, проницательный"
-        }
-      },
-      "definition": "Having or showing eagerness or enthusiasm; sharply perceptive.",
-      "example": "Mr. Saunders asking keen questions.",
-      "matchedForm": "keen"
-    },
-    {
-      "word": "marmalade-glistening",
-      "lemma": "marmalade-glistening",
-      "lemmaId": "marmalade_glistening",
-      "pos": "phrase",
-      "wordKey": "marmalade_glistening_phrase",
-      "level": "C1",
-      "ipa": "ˈmɑːməleɪd ˈɡlɪsnɪŋ",
-      "translations": {
-        "ru": {
-          "translation": "блестящий, покрытый джемом"
-        }
-      },
-      "definition": "Shining or sparkling as though coated with marmalade.",
-      "example": "Julia’s marmalade-glistening cheeks.",
-      "matchedForm": "marmalade-glistening"
-    },
-    {
-      "word": "mock",
-      "lemma": "mock",
-      "lemmaId": "mock",
-      "pos": "verb",
-      "wordKey": "mock_verb",
+      "source": "word",
+      "wordKey": "haughtily_adjective",
       "level": "C1",
       "translations": {
         "ru": {
-          "translation": "притворяться, делать вид"
+          "translation": "высокомерно"
         }
       },
-      "definition": "To pretend or feign (not in the text but contextually relevant).",
-      "example": "Gwendolen pretended not to hear."
+      "example": "She flounced around in her chair and stayed haughtily looking at the wall until Mr.",
+      "exampleStart": 2588,
+      "exampleEnd": 2671,
+      "matchedForm": "haughtily",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "noble robe",
-      "lemma": "noble robe",
-      "lemmaId": "noble_robe",
-      "pos": "phrase",
-      "wordKey": "noble_robe_phrase",
-      "level": "C1",
-      "ipa": "ˈnəʊbəl rəʊb",
-      "translations": {
-        "ru": {
-          "translation": "благородная мантия"
-        }
-      },
-      "definition": "A ceremonial or dignified garment associated with nobility.",
-      "example": "with his hands in the pockets of his noble robe.",
-      "phraseMatch": {
-        "text": "noble robe",
-        "startInExample": 37,
-        "endInExample": 47
-      }
-    },
-    {
-      "word": "pitted",
-      "lemma": "pitted",
-      "lemmaId": "pitted",
+      "word": "inherited",
+      "lemma": "inherit",
+      "lemmaId": "inherit",
       "pos": "adjective",
-      "wordKey": "pitted_adjective",
-      "level": "C1",
-      "ipa": "ˈpɪtɪd",
+      "source": "word",
+      "wordKey": "inherit_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "испещрённый вмятинами, испещрённый"
+          "translation": "наследовать"
         }
       },
-      "definition": "Marked with many small indentations or holes.",
-      "example": "The pitted school floor.",
-      "matchedForm": "pitted"
+      "example": "“And we’ve both inherited it,” said Julia.",
+      "exampleStart": 2014,
+      "exampleEnd": 2056,
+      "matchedForm": "inherited",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.854286,
+      "difficultySource": "zipf"
     },
     {
-      "word": "rage",
-      "lemma": "rage",
-      "lemmaId": "rage",
-      "pos": "noun",
-      "wordKey": "rage_noun",
-      "level": "C1",
-      "ipa": "reɪʤ",
-      "translations": {
-        "ru": {
-          "translation": "ярость, гнев"
-        }
-      },
-      "definition": "Intense, violent anger.",
-      "example": "She was still shaking with rage.",
-      "matchedForm": "rage"
-    },
-    {
-      "word": "silly rule",
-      "lemma": "silly rule",
-      "lemmaId": "silly_rule",
+      "word": "kind of",
+      "lemma": "kind of",
+      "lemmaId": "kind_of",
       "pos": "phrase",
-      "wordKey": "silly_rule_phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "kind_of_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "В некотором роде"
+        }
+      },
+      "example": "There was that kind of glass-fronted bookcase without which no schoolroom is complete, and the battered gray-green and dark blue books without which no schoolroom bookcase is complete.",
+      "exampleStart": 3099,
+      "exampleEnd": 3283,
+      "phraseMatch": {
+        "text": "kind of",
+        "startInExample": 15,
+        "endInExample": 22
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "left over",
+      "lemma": "leave over",
+      "lemmaId": "leave_over",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "leave_over_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈsɪli ruːl",
       "translations": {
         "ru": {
-          "translation": "глупое правило"
+          "translation": "остатки"
         }
       },
-      "definition": "A rule considered foolish or lacking good sense.",
-      "example": "I refuse to keep such a silly rule!",
+      "example": "” She picked up three slices of bread to keep her going while she did so, and left the room, calling over her shoulder, “Tell Michael I won’t be long, Roger.",
+      "exampleStart": 2077,
+      "exampleEnd": 2234,
       "phraseMatch": {
-        "text": "silly rule",
-        "startInExample": 24,
-        "endInExample": 34
-      }
+        "text": "left the room, calling over",
+        "startInExample": 78,
+        "endInExample": 105
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "slopped out",
-      "lemma": "slopped out",
-      "lemmaId": "slopped_out",
+      "word": "like that",
+      "lemma": "like that",
+      "lemmaId": "like_that",
       "pos": "phrase",
-      "wordKey": "slopped_out_phrase",
-      "level": "C1",
-      "ipa": "slɒpt aʊt",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "like_that_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "вылиться, пролиться"
+          "translation": "Вот так"
         }
       },
-      "definition": "To spill over or out liquid carelessly or messily.",
-      "example": "Cocoa slopped out of it onto Gwendolen’s dress.",
+      "example": "He looked so tall like that that Cat was surprised that his head was still under the ceiling.",
+      "exampleStart": 838,
+      "exampleEnd": 931,
       "phraseMatch": {
-        "text": "slopped out",
-        "startInExample": 6,
+        "text": "like that",
+        "startInExample": 18,
+        "endInExample": 27
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "long arm",
+      "lemma": "long arm",
+      "lemmaId": "long_arm",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "long_arm_phrase",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Длинная рука"
+        }
+      },
+      "example": "The long arm shot out, and a foot of bony wrist with a keen finger on the end of it pointed at Cat.",
+      "exampleStart": 3883,
+      "exampleEnd": 3982,
+      "phraseMatch": {
+        "text": "long arm",
+        "startInExample": 4,
+        "endInExample": 12
+      },
+      "levelSource": "head_verb_index"
+    },
+    {
+      "word": "looking at",
+      "lemma": "look at",
+      "lemmaId": "look_at",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_at_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "смотря на"
+        }
+      },
+      "example": "She flounced around in her chair and stayed haughtily looking at the wall until Mr.",
+      "exampleStart": 2588,
+      "exampleEnd": 2671,
+      "phraseMatch": {
+        "text": "looking at",
+        "startInExample": 54,
+        "endInExample": 64
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "looking down on",
+      "lemma": "look down on",
+      "lemmaId": "look_down_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_down_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Смотря свысока"
+        }
+      },
+      "example": "Chrestomanci came to the end of the table and stood looking down on them, with his hands in the pockets of his noble robe.",
+      "exampleStart": 715,
+      "exampleEnd": 837,
+      "phraseMatch": {
+        "text": "looking down on",
+        "startInExample": 52,
+        "endInExample": 67
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "not in the least",
+      "lemma": "not in the least",
+      "lemmaId": "not_in_the_least",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "not_in_the_least_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Ни в коем случае"
+        }
+      },
+      "example": "”\n\nRoger smiled sleepily, not in the least disturbed.",
+      "exampleStart": 1917,
+      "exampleEnd": 1970,
+      "phraseMatch": {
+        "text": "not in the least",
+        "startInExample": 26,
+        "endInExample": 42
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "picking up",
+      "lemma": "pick up",
+      "lemmaId": "pick_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "pick_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Подбор"
+        }
+      },
+      "example": "” Roger said politely, picking up the jug.",
+      "exampleStart": 2249,
+      "exampleEnd": 2291,
+      "phraseMatch": {
+        "text": "picking up",
+        "startInExample": 23,
+        "endInExample": 33
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "play at",
+      "lemma": "play at",
+      "lemmaId": "play_at",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "play_at_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Играйте на"
+        }
+      },
+      "example": "Two could play at that game.",
+      "exampleStart": 1652,
+      "exampleEnd": 1680,
+      "phraseMatch": {
+        "text": "play at",
+        "startInExample": 10,
         "endInExample": 17
-      }
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "statues",
-      "lemma": "statues",
-      "lemmaId": "statues",
-      "pos": "noun",
-      "wordKey": "statues_noun",
+      "word": "rule in",
+      "lemma": "rule in",
+      "lemmaId": "rule_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "rule_in_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈstætjuːz",
       "translations": {
         "ru": {
-          "translation": "статуи"
+          "translation": "Правило в"
         }
       },
-      "definition": "Three-dimensional representations of people or animals, typically sculpted in stone or metal.",
-      "example": "Big pictures of the statues Mr. Saunders had found interesting.",
-      "matchedForm": "statues"
+      "example": "“There’s one absolute rule in this Castle,” he said, “which it will pay you all to remember.",
+      "exampleStart": 932,
+      "exampleEnd": 1024,
+      "phraseMatch": {
+        "text": "rule in",
+        "startInExample": 22,
+        "endInExample": 29
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "stricken",
-      "lemma": "stricken",
-      "lemmaId": "stricken",
-      "pos": "adjective",
-      "wordKey": "stricken_adjective",
-      "level": "C1",
-      "ipa": "ˈstrɪkən",
+      "word": "runs in",
+      "lemma": "run in",
+      "lemmaId": "run_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "run_in_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "поражённый, охваченный"
+          "translation": "Пробеги в"
         }
       },
-      "definition": "Deeply affected by an unpleasant feeling or condition.",
-      "example": "Julia and Roger both looked stricken.",
-      "matchedForm": "stricken"
+      "example": "“Witchcraft runs in our family,” he said.",
+      "exampleStart": 1971,
+      "exampleEnd": 2012,
+      "phraseMatch": {
+        "text": "runs in",
+        "startInExample": 12,
+        "endInExample": 19
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "shining",
+      "lemma": "shin",
+      "lemmaId": "shin",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "shin_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "голень"
+        }
+      },
+      "example": "Julia hurried in, with her face shining from soap, and sat in the old desk beside Roger’s, and the grilling began.",
+      "exampleStart": 3494,
+      "exampleEnd": 3608,
+      "matchedForm": "shining",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.805714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "sleepily",
+      "lemma": "sleepily",
+      "lemmaId": "sleepily",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "sleepily_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "сонливый"
+        }
+      },
+      "example": "”\n\nRoger smiled sleepily, not in the least disturbed.",
+      "exampleStart": 1917,
+      "exampleEnd": 1970,
+      "matchedForm": "sleepily",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "slopped",
+      "lemma": "slop",
+      "lemmaId": "slop",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "slop_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "наклон"
+        }
+      },
+      "example": "It fled back to the table at the sight of him, so quickly that cocoa slopped out of it onto Gwendolen’s dress—which may or may not have been an accident.",
+      "exampleStart": 29,
+      "exampleEnd": 182,
+      "matchedForm": "slopped",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "speak of",
+      "lemma": "speak of",
+      "lemmaId": "speak_of",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "speak_of_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "говорю о"
+        }
+      },
+      "example": "”\n\n“I wasn’t doing anything wrong,” Gwendolen said, as if butter—not to speak of marmalade—would not have melted in her mouth.",
+      "exampleStart": 557,
+      "exampleEnd": 683,
+      "phraseMatch": {
+        "text": "speak of",
+        "startInExample": 72,
+        "endInExample": 80
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "stand up to",
+      "lemma": "stand up to",
+      "lemmaId": "stand_up_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "stand_up_to_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Встаньте"
+        }
+      },
+      "example": "Come on through and see how you stand up to some grilling.",
+      "exampleStart": 2790,
+      "exampleEnd": 2848,
+      "phraseMatch": {
+        "text": "stand up to",
+        "startInExample": 32,
+        "endInExample": 43
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "supervise",
       "lemma": "supervise",
       "lemmaId": "supervise",
       "pos": "verb",
+      "source": "word",
       "wordKey": "supervise_verb",
       "level": "C1",
-      "ipa": "ˈsuːpəvaɪz",
       "translations": {
         "ru": {
-          "translation": "контролировать, наблюдать"
+          "translation": "надзор"
         }
       },
-      "definition": "To observe and direct the execution of a task or activity.",
-      "example": "Michael Saunders is here to supervise you.",
-      "matchedForm": "supervise"
+      "example": "No witchcraft of any kind is to be practiced by children, unless Michael Saunders is here to supervise you.",
+      "exampleStart": 1025,
+      "exampleEnd": 1132,
+      "matchedForm": "supervise",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.911429,
+      "difficultySource": "zipf"
     },
     {
-      "word": "unknotted",
-      "lemma": "unknotted",
-      "lemmaId": "unknotted",
-      "pos": "verb",
-      "wordKey": "unknotted_verb",
-      "level": "B2",
-      "ipa": "ʌnˈnɒtɪd",
+      "word": "to speak of",
+      "lemma": "to speak of",
+      "lemmaId": "to_speak_of",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "to_speak_of_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "развязывать"
+          "translation": "К тому же"
         }
       },
-      "definition": "To undo a knot or tangled part.",
-      "example": "Julia unknotted her handkerchief as if for dear life.",
-      "matchedForm": "unknotted"
+      "example": "”\n\n“I wasn’t doing anything wrong,” Gwendolen said, as if butter—not to speak of marmalade—would not have melted in her mouth.",
+      "exampleStart": 557,
+      "exampleEnd": 683,
+      "phraseMatch": {
+        "text": "to speak of",
+        "startInExample": 69,
+        "endInExample": 80
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "turned to",
+      "lemma": "turn to",
+      "lemmaId": "turn_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "turn_to_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "повернулся к"
+        }
+      },
+      "example": "He turned to Cat.",
+      "exampleStart": 1387,
+      "exampleEnd": 1404,
+      "phraseMatch": {
+        "text": "turned to",
+        "startInExample": 3,
+        "endInExample": 12
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "up and down",
+      "lemma": "up and down",
+      "lemmaId": "up_and_down",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "up_and_down_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Вверх и вниз"
+        }
+      },
+      "example": "Saunders strode gawkily up and down in front of the blackboard, asking keen questions.",
+      "exampleStart": 3613,
+      "exampleEnd": 3699,
+      "phraseMatch": {
+        "text": "up and down",
+        "startInExample": 24,
+        "endInExample": 35
+      },
+      "levelSource": "phrase_fallback"
     },
     {
       "word": "vanish",
       "lemma": "vanish",
       "lemmaId": "vanish",
       "pos": "verb",
+      "source": "word",
       "wordKey": "vanish_verb",
       "level": "C1",
-      "ipa": "ˈvænɪʃ",
       "translations": {
         "ru": {
           "translation": "исчезать"
         }
       },
-      "definition": "To disappear suddenly and completely.",
       "example": "The jug tried to vanish too.",
-      "matchedForm": "vanish"
+      "exampleStart": 0,
+      "exampleEnd": 28,
+      "matchedForm": "vanish",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.891429,
+      "difficultySource": "zipf"
     },
     {
-      "word": "wars of the Roses",
-      "lemma": "wars of the Roses",
-      "lemmaId": "wars_of_the_roses",
-      "pos": "phrase",
-      "wordKey": "wars_of_the_roses_phrase",
-      "level": "C1",
-      "ipa": "wɔːz əv ðə ˈrəʊzɪz",
-      "translations": {
-        "ru": {
-          "translation": "Войны роз"
-        }
-      },
-      "definition": "A series of English civil wars for control of the throne fought between the Houses of Lancaster and York.",
-      "example": "What part did witchcraft play in the Wars of the Roses?",
-      "phraseMatch": {
-        "text": "Wars of the Roses",
-        "startInExample": 37,
-        "endInExample": 54
-      }
-    },
-    {
-      "word": "witchcraft",
-      "lemma": "witchcraft",
-      "lemmaId": "witchcraft",
+      "word": "varnish",
+      "lemma": "varnish",
+      "lemmaId": "varnish",
       "pos": "noun",
-      "wordKey": "witchcraft_noun",
-      "level": "C2",
-      "ipa": "ˈwɪʧkrɑːft",
+      "source": "word",
+      "wordKey": "varnish_noun",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "колдовство, ведьмовство"
+          "translation": "лак"
         }
       },
-      "definition": "The use of magic, especially black magic, practiced by witches.",
-      "example": "No witchcraft of any kind is to be practiced by children.",
-      "matchedForm": "witchcraft"
+      "example": "Two were new and yellow with varnish.",
+      "exampleStart": 3407,
+      "exampleEnd": 3444,
+      "matchedForm": "varnish",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.994286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "wash up",
+      "lemma": "wash up",
+      "lemmaId": "wash_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "wash_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Помойся"
+        }
+      },
+      "example": "“I must go and wash.",
+      "matchedForm": "wash",
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "you all",
+      "lemma": "you all",
+      "lemmaId": "you_all",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "you_all_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Вы все"
+        }
+      },
+      "example": "“There’s one absolute rule in this Castle,” he said, “which it will pay you all to remember.",
+      "exampleStart": 932,
+      "exampleEnd": 1024,
+      "phraseMatch": {
+        "text": "you all",
+        "startInExample": 72,
+        "endInExample": 79
+      },
+      "levelSource": "phrase_fallback"
     }
   ]
 }

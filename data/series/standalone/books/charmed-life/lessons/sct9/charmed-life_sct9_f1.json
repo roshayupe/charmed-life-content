@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 9,
     "sectionTitle": "Chapter 6",
     "fragmentIndex": 1,
@@ -21,412 +20,704 @@
       "wordCount": 563,
       "uniqueWordCount": 328,
       "paragraphCount": 15,
-      "vocabularyCount": 23,
+      "vocabularyCount": 30,
       "levelDistribution": {
         "A1": 0,
-        "A2": 0,
-        "B1": 0,
-        "B2": 9,
-        "C1": 13,
+        "A2": 1,
+        "B1": 6,
+        "B2": 18,
+        "C1": 4,
         "C2": 1
       }
     }
   },
   "vocabulary": [
     {
-      "word": "apparition",
-      "lemma": "apparition",
-      "lemmaId": "apparition",
-      "pos": "noun",
-      "wordKey": "apparition_noun",
-      "level": "C2",
-      "ipa": "ˌæp.əˈrɪʃ.ən",
+      "word": "and all",
+      "lemma": "and all",
+      "lemmaId": "and_all",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "and_all_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "привидение, видение"
+          "translation": "и все"
         }
       },
-      "definition": "a ghost or ghostlike image of a person",
-      "example": "It was to give Chrestomanci a shock, a lovely apparition.",
-      "matchedForm": "apparition"
+      "example": "Here the walls were whitewashed stone and all the windows went in nearly three feet before there was any glass.",
+      "exampleStart": 2858,
+      "exampleEnd": 2969,
+      "phraseMatch": {
+        "text": "and all",
+        "startInExample": 38,
+        "endInExample": 45
+      },
+      "levelSource": "phrase_fallback"
     },
     {
-      "word": "bawl",
+      "word": "bawled",
       "lemma": "bawl",
       "lemmaId": "bawl",
-      "pos": "verb",
-      "wordKey": "bawl_verb",
-      "level": "C1",
-      "ipa": "bɔːl",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "bawl_adjective",
+      "level": "A2",
       "translations": {
         "ru": {
-          "translation": "вопить, громко кричать"
+          "translation": "ворчать"
         }
       },
-      "definition": "to shout or cry out noisily and unrestrainedly",
-      "example": "“I hate this place!” she bawled.",
-      "matchedForm": "bawl"
-    },
-    {
-      "word": "campaign",
-      "lemma": "campaign",
-      "lemmaId": "campaign",
-      "pos": "noun",
-      "wordKey": "campaign_noun",
-      "level": "B2",
-      "ipa": "kæmˈpeɪn",
-      "translations": {
-        "ru": {
-          "translation": "кампания, акция"
-        }
-      },
-      "definition": "a series of organized activities aimed at achieving a particular goal",
-      "example": "She had pledged herself to a campaign against Chrestomanci.",
-      "matchedForm": "campaign"
-    },
-    {
-      "word": "cautiously",
-      "lemma": "cautiously",
-      "lemmaId": "cautiously",
-      "pos": "adverb",
-      "wordKey": "cautiously_adverb",
-      "level": "C1",
-      "ipa": "ˈkɔː.ʃəs.li",
-      "translations": {
-        "ru": {
-          "translation": "осторожно"
-        }
-      },
-      "definition": "in a careful way to avoid potential problems or danger",
-      "example": "Cat went cautiously up the staircase.",
-      "matchedForm": "cautiously"
+      "example": "” she bawled.",
+      "exampleStart": 319,
+      "exampleEnd": 332,
+      "matchedForm": "bawled",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "conjure up",
       "lemma": "conjure up",
       "lemmaId": "conjure_up",
-      "pos": "phrase",
-      "wordKey": "conjure_up_phrase",
-      "level": "C1",
-      "ipa": "ˈkʌn.dʒər ʌp",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "conjure_up_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "вызывать в уме, наводить (образ)"
+          "translation": "Призвать"
         }
       },
-      "definition": "to bring a memory, idea, or image to mind",
-      "example": "I conjure up a lovely apparition.",
+      "example": "I conjure up a lovely apparition, and they have the curtains drawn.",
+      "exampleStart": 644,
+      "exampleEnd": 711,
       "phraseMatch": {
         "text": "conjure up",
         "startInExample": 2,
         "endInExample": 12
-      }
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "daring",
-      "lemma": "daring",
-      "lemmaId": "daring",
+      "word": "cover up",
+      "lemma": "cover up",
+      "lemmaId": "cover_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "cover_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Сокрытие"
+        }
+      },
+      "example": "“They try to cover everything up in soft, sweet niceness.",
+      "exampleStart": 333,
+      "exampleEnd": 390,
+      "phraseMatch": {
+        "text": "cover everything up",
+        "startInExample": 13,
+        "endInExample": 32
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "dim",
+      "lemma": "dim",
+      "lemmaId": "dim",
       "pos": "adjective",
-      "wordKey": "daring_adjective",
-      "level": "C1",
-      "ipa": "ˈdeə.rɪŋ",
+      "source": "word",
+      "wordKey": "dim_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "смелый, отважный"
+          "translation": "тусклый"
         }
       },
-      "definition": "adventurous and unafraid to take risks",
-      "example": "Feeling rather daring, he set off to explore the Castle.",
-      "matchedForm": "daring"
+      "example": "There were dim little electric lights at regular intervals.",
+      "exampleStart": 2327,
+      "exampleEnd": 2386,
+      "matchedForm": "dim",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.825714,
+      "difficultySource": "zipf"
     },
     {
-      "word": "disturb",
-      "lemma": "disturb",
-      "lemmaId": "disturb",
-      "pos": "verb",
-      "wordKey": "disturb_verb",
-      "level": "C1",
-      "ipa": "dɪˈstɜːb",
-      "translations": {
-        "ru": {
-          "translation": "беспокоить"
-        }
-      },
-      "definition": "to interrupt the normal arrangement or functioning of something",
-      "example": "He did not dare disturb Gwendolen in her present mood.",
-      "matchedForm": "disturb"
-    },
-    {
-      "word": "fury",
-      "lemma": "fury",
-      "lemmaId": "fury",
+      "word": "eiderdown",
+      "lemma": "eiderdown",
+      "lemmaId": "eiderdown",
       "pos": "noun",
-      "wordKey": "fury_noun",
-      "level": "C1",
-      "ipa": "ˈfjʊə.ri",
-      "translations": {
-        "ru": {
-          "translation": "ярость"
-        }
-      },
-      "definition": "intense, often violent anger",
-      "example": "Gwendolen gave vent to her fury in her room after dinner.",
-      "matchedForm": "fury"
-    },
-    {
-      "word": "glow",
-      "lemma": "glow",
-      "lemmaId": "glow",
-      "pos": "verb",
-      "wordKey": "glow_verb",
+      "source": "word",
+      "wordKey": "eiderdown_noun",
       "level": "B2",
-      "ipa": "ɡləʊ",
       "translations": {
         "ru": {
-          "translation": "светиться, пылать"
+          "translation": "спуск"
         }
       },
-      "definition": "to produce a steady light, often without flame",
-      "example": "The green carpet glowed gently.",
-      "matchedForm": "glow"
+      "example": "“It’s an eiderdown of hideous niceness!",
+      "exampleStart": 563,
+      "exampleEnd": 602,
+      "matchedForm": "eiderdown",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "guiltily",
-      "lemma": "guiltily",
-      "lemmaId": "guiltily",
-      "pos": "adverb",
-      "wordKey": "guiltily_adverb",
-      "level": "C1",
-      "ipa": "ˈɡɪltɪli",
-      "translations": {
-        "ru": {
-          "translation": "с чувством вины"
-        }
-      },
-      "definition": "in a way that shows or suggests that one feels responsible for a wrongdoing",
-      "example": "Roger and Julia turned around guiltily.",
-      "matchedForm": "guiltily"
-    },
-    {
-      "word": "hastily",
-      "lemma": "hastily",
-      "lemmaId": "hastily",
-      "pos": "adverb",
-      "wordKey": "hastily_adverb",
+      "word": "went along",
+      "lemma": "go along",
+      "lemmaId": "go_along",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_along_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈheɪ.stɪ.li",
       "translations": {
         "ru": {
-          "translation": "поспешно"
+          "translation": "Пошёл"
         }
       },
-      "definition": "done with excessive speed or urgency; hurriedly",
-      "example": "Cat said hastily that he wouldn't join in the game.",
-      "matchedForm": "hastily"
+      "example": "Remembering what Millie had said, he went along to the playroom.",
+      "exampleStart": 1479,
+      "exampleEnd": 1543,
+      "phraseMatch": {
+        "text": "went along",
+        "startInExample": 37,
+        "endInExample": 47
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "idiot",
-      "lemma": "idiot",
-      "lemmaId": "idiot",
+      "word": "went in",
+      "lemma": "go in",
+      "lemmaId": "go_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Вошёл"
+        }
+      },
+      "example": "Here the walls were whitewashed stone and all the windows went in nearly three feet before there was any glass.",
+      "exampleStart": 2858,
+      "exampleEnd": 2969,
+      "phraseMatch": {
+        "text": "went in",
+        "startInExample": 58,
+        "endInExample": 65
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "went on",
+      "lemma": "go on",
+      "lemmaId": "go_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "продолжил"
+        }
+      },
+      "example": "He went on and on.",
+      "exampleStart": 2753,
+      "exampleEnd": 2771,
+      "phraseMatch": {
+        "text": "went on",
+        "startInExample": 3,
+        "endInExample": 10
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "grenadiers",
+      "lemma": "grenadier",
+      "lemmaId": "grenadier",
       "pos": "noun",
-      "wordKey": "idiot_noun",
+      "source": "word",
+      "wordKey": "grenadier_noun",
       "level": "B2",
-      "ipa": "ˈɪd.i.ət",
       "translations": {
         "ru": {
-          "translation": "идиот"
+          "translation": "гренадер"
         }
       },
-      "definition": "a stupid person (informal)",
-      "example": "“You idiot,” said Gwendolen.",
-      "matchedForm": "idiot"
+      "example": "The little tin grenadiers were marching about.",
+      "exampleStart": 1621,
+      "exampleEnd": 1667,
+      "matchedForm": "grenadiers",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "interval",
+      "word": "hideous",
+      "lemma": "hideous",
+      "lemmaId": "hideous",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "hideous_adjective",
+      "level": "C2",
+      "translations": {
+        "ru": {
+          "translation": "отвратительный"
+        }
+      },
+      "example": "“It’s an eiderdown of hideous niceness!",
+      "exampleStart": 563,
+      "exampleEnd": 602,
+      "matchedForm": "hideous",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.874286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "intervals",
       "lemma": "interval",
       "lemmaId": "interval",
-      "pos": "noun",
-      "wordKey": "interval_noun",
-      "level": "C1",
-      "ipa": "ˈɪn.tə.vəl",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "interval_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "интервал, промежуток"
+          "translation": "интервал"
         }
       },
-      "definition": "a space of time or distance between events or objects",
       "example": "There were dim little electric lights at regular intervals.",
-      "matchedForm": "interval"
+      "exampleStart": 2327,
+      "exampleEnd": 2386,
+      "matchedForm": "intervals",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.782857,
+      "difficultySource": "zipf"
     },
     {
-      "word": "mournfully",
-      "lemma": "mournfully",
-      "lemmaId": "mournfully",
-      "pos": "adverb",
-      "wordKey": "mournfully_adverb",
-      "level": "C1",
-      "ipa": "ˈmɔːn.fəl.i",
+      "word": "join in",
+      "lemma": "join in",
+      "lemmaId": "join_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "join_in_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "печально, траурно"
+          "translation": "Присоединяйтесь"
         }
       },
-      "definition": "expressing or feeling sadness or sorrow",
-      "example": "Cat was mournfully on his own.",
-      "matchedForm": "mournfully"
+      "example": "He knew he could never join in this kind of game unless Gwendolen helped him.",
+      "exampleStart": 1972,
+      "exampleEnd": 2049,
+      "phraseMatch": {
+        "text": "join in",
+        "startInExample": 23,
+        "endInExample": 30
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "muffle",
+      "word": "jumped on",
+      "lemma": "jump on",
+      "lemmaId": "jump_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "jump_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Запрыгнул"
+        }
+      },
+      "example": "She jumped on her bed and threw cushions about, screaming.",
+      "exampleStart": 76,
+      "exampleEnd": 134,
+      "phraseMatch": {
+        "text": "jumped on",
+        "startInExample": 4,
+        "endInExample": 13
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "kind of",
+      "lemma": "kind of",
+      "lemmaId": "kind_of",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "kind_of_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "В некотором роде"
+        }
+      },
+      "example": "He knew he could never join in this kind of game unless Gwendolen helped him.",
+      "exampleStart": 1972,
+      "exampleEnd": 2049,
+      "phraseMatch": {
+        "text": "kind of",
+        "startInExample": 36,
+        "endInExample": 43
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "last thing",
+      "lemma": "last thing",
+      "lemmaId": "last_thing",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "last_thing_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Последнее, что"
+        }
+      },
+      "example": "Anyway,” she shouted, as Cat was going to the door, “he’s going to be interested, if it’s the last thing I do!",
+      "exampleStart": 1269,
+      "exampleEnd": 1379,
+      "phraseMatch": {
+        "text": "last thing",
+        "startInExample": 94,
+        "endInExample": 104
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "muffled",
       "lemma": "muffle",
       "lemmaId": "muffle",
-      "pos": "verb",
-      "wordKey": "muffle_verb",
-      "level": "C1",
-      "ipa": "ˈmʌf.əl",
-      "translations": {
-        "ru": {
-          "translation": "придушить, приглушить звук"
-        }
-      },
-      "definition": "to make a sound quieter or less distinct",
-      "example": "Her voice was muffled among the velvets of her room.",
-      "matchedForm": "muffle"
-    },
-    {
-      "word": "opposite",
-      "lemma": "opposite",
-      "lemmaId": "opposite",
       "pos": "adjective",
-      "wordKey": "opposite_adjective",
-      "level": "B2",
-      "ipa": "ˈɒp.ə.zɪt",
+      "source": "word",
+      "wordKey": "muffle_adjective",
+      "level": "C1",
       "translations": {
         "ru": {
-          "translation": "противоположный"
+          "translation": "глушить"
         }
       },
-      "definition": "completely different or contrary in position, direction, or meaning",
-      "example": "The staircase twisted in the opposite direction.",
-      "matchedForm": "opposite"
+      "example": "” Her voice was muffled among the velvets of her room and swallowed up in the prevailing softness of the Castle.",
+      "exampleStart": 412,
+      "exampleEnd": 524,
+      "matchedForm": "muffled",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "pledge",
-      "lemma": "pledge",
-      "lemmaId": "pledge",
+      "word": "niceness",
+      "lemma": "niceness",
+      "lemmaId": "niceness",
       "pos": "verb",
-      "wordKey": "pledge_verb",
+      "source": "word",
+      "wordKey": "niceness_verb",
       "level": "C1",
-      "ipa": "plɛdʒ",
       "translations": {
         "ru": {
-          "translation": "давать клятву, обещать"
+          "translation": "милость"
         }
       },
-      "definition": "to promise or commit solemnly",
-      "example": "She had pledged herself to a campaign against Chrestomanci.",
-      "matchedForm": "pledge"
+      "example": "“They try to cover everything up in soft, sweet niceness.",
+      "exampleStart": 333,
+      "exampleEnd": 390,
+      "matchedForm": "niceness",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "not quite",
+      "lemma": "not quite",
+      "lemmaId": "not_quite",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "not_quite_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Не совсем"
+        }
+      },
+      "example": "He had not quite the courage to open any of them.",
+      "exampleStart": 2703,
+      "exampleEnd": 2752,
+      "phraseMatch": {
+        "text": "not quite",
+        "startInExample": 7,
+        "endInExample": 16
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "once again",
+      "lemma": "once again",
+      "lemmaId": "once_again",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "once_again_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Снова"
+        }
+      },
+      "example": "”\n\nOnce again, Cat was mournfully on his own.",
+      "exampleStart": 1433,
+      "exampleEnd": 1478,
+      "phraseMatch": {
+        "text": "Once again",
+        "startInExample": 3,
+        "endInExample": 13
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "playing with",
+      "lemma": "play with",
+      "lemmaId": "play_with",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "play_with_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "играя с"
+        }
+      },
+      "example": "But Roger and Julia were there, playing with soldiers on the stained carpet.",
+      "exampleStart": 1544,
+      "exampleEnd": 1620,
+      "phraseMatch": {
+        "text": "playing with",
+        "startInExample": 32,
+        "endInExample": 44
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "poke about",
+      "lemma": "poke about",
+      "lemmaId": "poke_about",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "poke_about_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Покопаться"
+        }
+      },
+      "example": "Then he remembered that Millie had obviously expected him to poke about the Castle more than he had done.",
+      "exampleStart": 2135,
+      "exampleEnd": 2240,
+      "phraseMatch": {
+        "text": "poke about",
+        "startInExample": 61,
+        "endInExample": 71
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "prevailing",
-      "lemma": "prevailing",
-      "lemmaId": "prevailing",
+      "lemma": "prevail",
+      "lemmaId": "prevail",
       "pos": "adjective",
-      "wordKey": "prevailing_adjective",
-      "level": "C1",
-      "ipa": "prɪˈveɪ.lɪŋ",
+      "source": "word",
+      "wordKey": "prevail_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "преобладающий"
+          "translation": "преобладать"
         }
       },
-      "definition": "existing at a particular time; current; most frequent or common",
-      "example": "Swallowed up in the prevailing softness of the Castle.",
-      "matchedForm": "prevailing"
+      "example": "” Her voice was muffled among the velvets of her room and swallowed up in the prevailing softness of the Castle.",
+      "exampleStart": 412,
+      "exampleEnd": 524,
+      "matchedForm": "prevailing",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.845714,
+      "difficultySource": "zipf"
     },
     {
-      "word": "prudent",
-      "lemma": "prudent",
-      "lemmaId": "prudent",
+      "word": "prudently",
+      "lemma": "prudently",
+      "lemmaId": "prudently",
       "pos": "adjective",
-      "wordKey": "prudent_adjective",
+      "source": "word",
+      "wordKey": "prudently_adjective",
       "level": "C1",
-      "ipa": "ˈpruː.dənt",
       "translations": {
         "ru": {
-          "translation": "благоразумный"
+          "translation": "благоразумно"
         }
       },
-      "definition": "acting with or showing care and thought for the future",
       "example": "Cat stood prudently back against the wall waiting for her to finish.",
-      "matchedForm": "prudent"
+      "exampleStart": 135,
+      "exampleEnd": 203,
+      "matchedForm": "prudently",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "reflect",
-      "lemma": "reflect",
-      "lemmaId": "reflect",
-      "pos": "verb",
-      "wordKey": "reflect_verb",
+      "word": "set off",
+      "lemma": "set off",
+      "lemmaId": "set_off",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "set_off_phrasal_verb",
       "level": "B2",
-      "ipa": "rɪˈflɛkt",
       "translations": {
         "ru": {
-          "translation": "отражать"
+          "translation": "В путь"
         }
       },
-      "definition": "to throw back heat, light, or sound from a surface",
-      "example": "Things were reflected in the polished floor and walls.",
-      "matchedForm": "reflect"
+      "example": "So he set off to explore, feeling rather daring.",
+      "exampleStart": 2241,
+      "exampleEnd": 2289,
+      "phraseMatch": {
+        "text": "set off",
+        "startInExample": 6,
+        "endInExample": 13
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "shiver",
-      "lemma": "shiver",
-      "lemmaId": "shiver",
-      "pos": "verb",
-      "wordKey": "shiver_verb",
+      "word": "soldiers on",
+      "lemma": "soldier on",
+      "lemmaId": "soldier_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "soldier_on_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈʃɪv.ər",
       "translations": {
         "ru": {
-          "translation": "дрожать"
+          "translation": "солдаты вперёд"
         }
       },
-      "definition": "to shake slightly because of cold, fear, or excitement",
-      "example": "Cat said, shivering.",
-      "matchedForm": "shiver"
+      "example": "But Roger and Julia were there, playing with soldiers on the stained carpet.",
+      "exampleStart": 1544,
+      "exampleEnd": 1620,
+      "phraseMatch": {
+        "text": "soldiers on",
+        "startInExample": 45,
+        "endInExample": 56
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "struck",
-      "lemma": "struck",
-      "lemmaId": "struck",
-      "pos": "verb",
-      "wordKey": "struck_verb",
+      "word": "swallowed up",
+      "lemma": "swallow up",
+      "lemmaId": "swallow_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "swallow_up_phrasal_verb",
       "level": "B2",
-      "ipa": "strʌk",
       "translations": {
         "ru": {
-          "translation": "быть поражённым"
+          "translation": "поглощённым"
         }
       },
-      "definition": "to cause to have a feeling or idea",
-      "example": "Gwendolen was rather struck by this.",
-      "matchedForm": "struck"
+      "example": "” Her voice was muffled among the velvets of her room and swallowed up in the prevailing softness of the Castle.",
+      "exampleStart": 412,
+      "exampleEnd": 524,
+      "phraseMatch": {
+        "text": "swallowed up",
+        "startInExample": 58,
+        "endInExample": 70
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "twist",
-      "lemma": "twist",
-      "lemmaId": "twist",
-      "pos": "verb",
-      "wordKey": "twist_verb",
+      "word": "turned around",
+      "lemma": "turn around",
+      "lemmaId": "turn_around",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "turn_around_phrasal_verb",
       "level": "B2",
-      "ipa": "twɪst",
       "translations": {
         "ru": {
-          "translation": "крутить, извиваться"
+          "translation": "повернулся"
         }
       },
-      "definition": "to turn something, especially repeatedly or forcibly",
-      "example": "The staircase twisted up to his room.",
-      "matchedForm": "twist"
+      "example": "Roger and Julia turned around guiltily.",
+      "exampleStart": 1785,
+      "exampleEnd": 1824,
+      "phraseMatch": {
+        "text": "turned around",
+        "startInExample": 16,
+        "endInExample": 29
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "whitewashed",
+      "lemma": "whitewash",
+      "lemmaId": "whitewash",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "whitewash_adjective",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "белье"
+        }
+      },
+      "example": "Here the walls were whitewashed stone and all the windows went in nearly three feet before there was any glass.",
+      "exampleStart": 2858,
+      "exampleEnd": 2969,
+      "matchedForm": "whitewashed",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "worked around to",
+      "lemma": "work around to",
+      "lemmaId": "work_around_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "work_around_to_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "обходили"
+        }
+      },
+      "example": "After a while he found he had somehow worked around to the older part of the Castle.",
+      "exampleStart": 2773,
+      "exampleEnd": 2857,
+      "phraseMatch": {
+        "text": "worked around to",
+        "startInExample": 38,
+        "endInExample": 54
+      },
+      "levelSource": "dictionary_phrase"
     }
   ]
 }

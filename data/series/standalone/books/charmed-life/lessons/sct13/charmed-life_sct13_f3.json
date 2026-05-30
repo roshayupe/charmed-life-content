@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 13,
     "sectionTitle": "Chapter 10",
     "fragmentIndex": 3,
@@ -21,503 +20,851 @@
       "wordCount": 653,
       "uniqueWordCount": 346,
       "paragraphCount": 18,
-      "vocabularyCount": 28,
+      "vocabularyCount": 37,
       "levelDistribution": {
         "A1": 0,
-        "A2": 0,
-        "B1": 0,
-        "B2": 8,
-        "C1": 16,
-        "C2": 4
+        "A2": 3,
+        "B1": 5,
+        "B2": 25,
+        "C1": 3,
+        "C2": 1
       }
     }
   },
   "vocabulary": [
     {
-      "word": "astonishment",
-      "lemma": "astonishment",
-      "lemmaId": "astonishment",
-      "pos": "noun",
-      "wordKey": "astonishment_noun",
-      "level": "C1",
-      "ipa": "[əsˈtɒnɪʃmənt]",
+      "word": "all very well",
+      "lemma": "all very well",
+      "lemmaId": "all_very_well",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "all_very_well_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "изумление, удивление"
+          "translation": "Всё очень хорошо"
         }
       },
-      "definition": "Great surprise or wonder.",
-      "example": "But, to his astonishment, Euphemia did.",
-      "matchedForm": "astonishment"
+      "example": "“Well, you must undo the spell at once,” said Chrestomanci.",
+      "matchedForm": "Well",
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "back off",
+      "lemma": "back off",
+      "lemmaId": "back_off",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "back_off_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Отойди"
+        }
+      },
+      "example": "When Euphemia saw him coming, she showed her opinion of the matter by taking a frantic leap off the edge of the table.",
+      "matchedForm": "off",
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "baffled",
-      "lemma": "baffled",
-      "lemmaId": "baffled",
+      "lemma": "baffle",
+      "lemmaId": "baffle",
       "pos": "adjective",
-      "wordKey": "baffled_adjective",
-      "level": "C1",
-      "ipa": "[ˈbæfld]",
+      "source": "word",
+      "wordKey": "baffle_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "сбитый с толку, озадаченный"
+          "translation": "путать"
         }
       },
-      "definition": "Completely confused or puzzled.",
-      "example": "Mr. Saunders went from looking puzzled to looking baffled.",
-      "matchedForm": "baffled"
+      "example": "Saunders went from looking puzzled to looking baffled.",
+      "exampleStart": 744,
+      "exampleEnd": 798,
+      "matchedForm": "baffled",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "brought in",
+      "lemma": "bring in",
+      "lemmaId": "bring_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "bring_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Привели"
+        }
+      },
+      "example": "I thought I was going to die when she brought in that frog.",
+      "exampleStart": 3442,
+      "exampleEnd": 3501,
+      "phraseMatch": {
+        "text": "brought in",
+        "startInExample": 38,
+        "endInExample": 48
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "burst into",
+      "lemma": "burst into",
+      "lemmaId": "burst_into",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "burst_into_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "врываться в"
+        }
+      },
+      "example": "The frog turned warm under his fingers and burst into growth.",
+      "exampleStart": 1882,
+      "exampleEnd": 1943,
+      "phraseMatch": {
+        "text": "burst into",
+        "startInExample": 43,
+        "endInExample": 53
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "clammy",
       "lemma": "clammy",
       "lemmaId": "clammy",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "clammy_adjective",
       "level": "C1",
-      "ipa": "[ˈklæmi]",
       "translations": {
         "ru": {
-          "translation": "влажный, липкий, холодный и влажный"
+          "translation": "липкий"
         }
       },
-      "definition": "Unpleasantly damp and sticky or slimy to touch.",
-      "example": "Cat’s left hand on Euphemia’s clammy back.",
-      "matchedForm": "clammy"
+      "example": "Saunders took Cat by his left wrist and planted Cat’s left hand on Euphemia’s clammy back.",
+      "exampleStart": 1530,
+      "exampleEnd": 1620,
+      "matchedForm": "clammy",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "clean up",
+      "lemma": "clean up",
+      "lemmaId": "clean_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "clean_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Уборка"
+        }
+      },
+      "example": "“Clean it up,” said Mr.",
+      "exampleStart": 2934,
+      "exampleEnd": 2957,
+      "phraseMatch": {
+        "text": "Clean it up",
+        "startInExample": 1,
+        "endInExample": 12
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "cling to",
       "lemma": "cling to",
       "lemmaId": "cling_to",
-      "pos": "phrase",
-      "wordKey": "cling_to_phrase",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "cling_to_phrasal_verb",
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "цепляться за, держаться за"
+          "translation": "Цепляйтесь"
         }
       },
-      "definition": "Hold on tightly to something or someone.",
-      "example": "I cling to you like a limpet all the time we’re awake.",
+      "example": "“Cat,” said Janet, “you’re going to be very annoyed with me, but it’s absolutely essential that I cling to you like a limpet all the time we’re awake, until I know how to behave.",
+      "exampleStart": 3224,
+      "exampleEnd": 3402,
       "phraseMatch": {
         "text": "cling to",
-        "startInExample": 2,
-        "endInExample": 10
-      }
+        "startInExample": 98,
+        "endInExample": 106
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "come back",
+      "lemma": "come back",
+      "lemmaId": "come_back",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_back_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Вернись"
+        }
+      },
+      "example": "His stomach had not yet come back from the cellars.",
+      "exampleStart": 2627,
+      "exampleEnd": 2678,
+      "phraseMatch": {
+        "text": "come back",
+        "startInExample": 24,
+        "endInExample": 33
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "came out",
+      "lemma": "come out",
+      "lemmaId": "come_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "вышел"
+        }
+      },
+      "example": "Her handkerchief came out and was knotted.",
+      "exampleStart": 2807,
+      "exampleEnd": 2849,
+      "phraseMatch": {
+        "text": "came out",
+        "startInExample": 17,
+        "endInExample": 25
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "came up",
+      "lemma": "come up",
+      "lemmaId": "come_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Всплыл"
+        }
+      },
+      "example": "Chrestomanci came up and put his arm around her.",
+      "exampleStart": 2347,
+      "exampleEnd": 2395,
+      "phraseMatch": {
+        "text": "came up",
+        "startInExample": 13,
+        "endInExample": 20
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "croaked",
+      "lemma": "croak",
+      "lemmaId": "croak",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "croak_verb",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "квак"
+        }
+      },
+      "example": "Euphemia croaked agitatedly.",
+      "exampleStart": 435,
+      "exampleEnd": 463,
+      "matchedForm": "croaked",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "crumpled",
-      "lemma": "crumpled",
-      "lemmaId": "crumpled",
+      "lemma": "crumple",
+      "lemmaId": "crumple",
       "pos": "adjective",
-      "wordKey": "crumpled_adjective",
+      "source": "word",
+      "wordKey": "crumple_adjective",
       "level": "C1",
-      "ipa": "[ˈkrʌmpəld]",
       "translations": {
         "ru": {
-          "translation": "смятый, помятый"
+          "translation": "мята"
         }
       },
-      "definition": "Wrinkled or crushed into a messy or creased shape.",
-      "example": "Her clothes were a little crumpled and brown.",
-      "matchedForm": "crumpled"
+      "example": "Her clothes were a little crumpled and brown, but there was nothing else froggish about her.",
+      "exampleStart": 2159,
+      "exampleEnd": 2251,
+      "matchedForm": "crumpled",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "essential",
-      "lemma": "essential",
-      "lemmaId": "essential",
-      "pos": "adjective",
-      "wordKey": "essential_adjective",
-      "level": "C1",
-      "ipa": "[ɪˈsɛnʃəl]",
+      "word": "do over",
+      "lemma": "do over",
+      "lemmaId": "do_over",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "do_over_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "существенный, необходимый"
+          "translation": "Повторяйте"
         }
       },
-      "definition": "Absolutely necessary; extremely important.",
-      "example": "It’s absolutely essential that I cling to you like a limpet.",
-      "matchedForm": "essential"
+      "example": "“Well, it doesn’t respond to anything I can do,” said Mr.",
+      "matchedForm": "do",
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "fattening",
-      "lemma": "fattening",
-      "lemmaId": "fattening",
+      "lemma": "fatten",
+      "lemmaId": "fatten",
       "pos": "adjective",
-      "wordKey": "fattening_adjective",
+      "source": "word",
+      "wordKey": "fatten_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "откормленный"
+        }
+      },
+      "example": "“I think the food here is awfully fattening,” she said unwisely.",
+      "exampleStart": 2704,
+      "exampleEnd": 2768,
+      "matchedForm": "fattening",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "get out",
+      "lemma": "get out",
+      "lemmaId": "get_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "get_out_phrasal_verb",
       "level": "B2",
-      "ipa": "[ˈfætənɪŋ]",
       "translations": {
         "ru": {
-          "translation": "калящее, калорийное (о еде)"
+          "translation": "Выйти"
         }
       },
-      "definition": "Causing weight gain; high in calories.",
-      "example": "I think the food here is awfully fattening.",
-      "matchedForm": "fattening"
+      "example": "Julia and Roger, get out magic textbooks, please.",
+      "exampleStart": 3029,
+      "exampleEnd": 3078,
+      "phraseMatch": {
+        "text": "get out",
+        "startInExample": 17,
+        "endInExample": 24
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "frantic",
-      "lemma": "frantic",
-      "lemmaId": "frantic",
-      "pos": "adjective",
-      "wordKey": "frantic_adjective",
-      "level": "C1",
-      "ipa": "[ˈfræntɪk]",
+      "word": "hands around",
+      "lemma": "hand around",
+      "lemmaId": "hand_around",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "hand_around_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "безумный, неистовый"
+          "translation": "Руки вокруг"
         }
       },
-      "definition": "Wild or distraught with fear, anxiety, or other emotion.",
-      "example": "She showed her opinion of the matter by taking a frantic leap off the edge of the table.",
-      "matchedForm": "frantic"
+      "example": "He held his hands cupped around her.",
+      "exampleStart": 515,
+      "exampleEnd": 551,
+      "phraseMatch": {
+        "text": "hands cupped around",
+        "startInExample": 12,
+        "endInExample": 31
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "froggish",
-      "lemma": "froggish",
-      "lemmaId": "froggish",
-      "pos": "adjective",
-      "wordKey": "froggish_adjective",
-      "level": "C2",
-      "ipa": "[ˈfrɒgɪʃ]",
+      "word": "handed out",
+      "lemma": "hand out",
+      "lemmaId": "hand_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "hand_out_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "лягушачий, напоминающий лягушку"
+          "translation": "Раздано"
         }
       },
-      "definition": "Having qualities or characteristics like a frog.",
-      "example": "There was nothing else froggish about her.",
-      "matchedForm": "froggish"
-    },
-    {
-      "word": "furiously",
-      "lemma": "furiously",
-      "lemmaId": "furiously",
-      "pos": "adverb",
-      "wordKey": "furiously_adverb",
-      "level": "C1",
-      "ipa": "[ˈfjʊərɪəslɪ]",
-      "translations": {
-        "ru": {
-          "translation": "яростно, свирепо"
-        }
-      },
-      "definition": "In an extremely angry, fast, or intense manner.",
-      "example": "The brown lump grew furiously larger and larger.",
-      "matchedForm": "furiously"
-    },
-    {
-      "word": "grimly",
-      "lemma": "grimly",
-      "lemmaId": "grimly",
-      "pos": "adverb",
-      "wordKey": "grimly_adverb",
-      "level": "C2",
-      "ipa": "[ˈgrɪmli]",
-      "translations": {
-        "ru": {
-          "translation": "мрачно, строго"
-        }
-      },
-      "definition": "In a forbidding or uninviting manner; seriously or sternly.",
       "example": "Mary grimly handed out the milk and biscuits.",
-      "matchedForm": "grimly"
-    },
-    {
-      "word": "helplessly",
-      "lemma": "helplessly",
-      "lemmaId": "helplessly",
-      "pos": "adverb",
-      "wordKey": "helplessly_adverb",
-      "level": "C1",
-      "ipa": "[ˈhɛlpləsli]",
-      "translations": {
-        "ru": {
-          "translation": "беспомощно"
-        }
-      },
-      "definition": "In a manner showing an inability to act or resist.",
-      "example": "Cat looked helplessly at Chrestomanci.",
-      "matchedForm": "helplessly"
-    },
-    {
-      "word": "knotted",
-      "lemma": "knotted",
-      "lemmaId": "knotted",
-      "pos": "adjective",
-      "wordKey": "knotted_adjective",
-      "level": "B2",
-      "ipa": "[ˈnɒtɪd]",
-      "translations": {
-        "ru": {
-          "translation": "завязанный узлом, скомканный"
-        }
-      },
-      "definition": "Tied or formed into a knot, or twisted tightly.",
-      "example": "Her handkerchief came out and was knotted.",
-      "matchedForm": "knotted"
-    },
-    {
-      "word": "limp",
-      "lemma": "limp",
-      "lemmaId": "limp",
-      "pos": "adjective",
-      "wordKey": "limp_adjective",
-      "level": "B2",
-      "ipa": "[lɪmp]",
-      "translations": {
-        "ru": {
-          "translation": "вялый, бессильный"
-        }
-      },
-      "definition": "Weak or lacking strength or firmness.",
-      "example": "They wandered across the lawn, both rather limp after the morning’s experiences.",
-      "matchedForm": "limp"
-    },
-    {
-      "word": "oblige",
-      "lemma": "oblige",
-      "lemmaId": "oblige",
-      "pos": "verb",
-      "wordKey": "oblige_verb",
-      "level": "C1",
-      "ipa": "[əˈblaɪdʒ]",
-      "translations": {
-        "ru": {
-          "translation": "оказать услугу, выполнить просьбу"
-        }
-      },
-      "definition": "Do as someone asks or desires in order to help or please them.",
-      "example": "Michael, perhaps you could oblige?",
-      "matchedForm": "oblige"
-    },
-    {
-      "word": "personal insult",
-      "lemma": "personal insult",
-      "lemmaId": "personal_insult",
-      "pos": "phrase",
-      "wordKey": "personal_insult_phrase",
-      "level": "C1",
-      "translations": {
-        "ru": {
-          "translation": "личное оскорбление"
-        }
-      },
-      "definition": "A remark or action perceived as offensive or disrespectful to oneself.",
-      "example": "Julia took that as a personal insult.",
+      "exampleStart": 2559,
+      "exampleEnd": 2604,
       "phraseMatch": {
-        "text": "personal insult",
-        "startInExample": 21,
-        "endInExample": 36
-      }
+        "text": "handed out",
+        "startInExample": 12,
+        "endInExample": 22
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "pitted",
-      "lemma": "pitted",
-      "lemmaId": "pitted",
-      "pos": "adjective",
-      "wordKey": "pitted_adjective",
-      "level": "C1",
-      "ipa": "[ˈpɪtɪd]",
+      "word": "left on",
+      "lemma": "leave on",
+      "lemmaId": "leave_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "leave_on_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "вырезанный ямками, изъеденный"
+          "translation": "Оставил включённым"
         }
       },
-      "definition": "Marked with many small holes or indentations.",
+      "example": "Saunders took Cat by his left wrist and planted Cat’s left hand on Euphemia’s clammy back.",
+      "exampleStart": 1530,
+      "exampleEnd": 1620,
+      "phraseMatch": {
+        "text": "left hand on",
+        "startInExample": 54,
+        "endInExample": 66
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "lie down",
+      "lemma": "lie down",
+      "lemmaId": "lie_down",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "lie_down_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Ложись"
+        }
+      },
+      "example": "I think you need to go and lie down.",
+      "exampleStart": 2461,
+      "exampleEnd": 2497,
+      "phraseMatch": {
+        "text": "lie down",
+        "startInExample": 27,
+        "endInExample": 35
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "limpet",
+      "lemma": "limpet",
+      "lemmaId": "limpet",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "limpet_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "коврик"
+        }
+      },
+      "example": "“Cat,” said Janet, “you’re going to be very annoyed with me, but it’s absolutely essential that I cling to you like a limpet all the time we’re awake, until I know how to behave.",
+      "exampleStart": 3224,
+      "exampleEnd": 3402,
+      "matchedForm": "limpet",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "look at",
+      "lemma": "look at",
+      "lemmaId": "look_at",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_at_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Посмотри"
+        }
+      },
+      "example": "Cat shot a look at Mr.",
+      "exampleStart": 1944,
+      "exampleEnd": 1966,
+      "phraseMatch": {
+        "text": "look at",
+        "startInExample": 11,
+        "endInExample": 18
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "mortis",
+      "lemma": "mortis",
+      "lemmaId": "mortis",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "mortis_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "мортис"
+        }
+      },
+      "example": "Rigor mortis was setting in, and then you turned her back again!",
+      "exampleStart": 3502,
+      "exampleEnd": 3566,
+      "matchedForm": "mortis",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "mutter",
+      "lemma": "mutter",
+      "lemmaId": "mutter",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "mutter_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "бормотать"
+        }
+      },
+      "example": "Saunders began to mutter things.",
+      "exampleStart": 600,
+      "exampleEnd": 632,
+      "matchedForm": "mutter",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "phew",
+      "lemma": "phew",
+      "lemmaId": "phew",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "phew_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "плеть"
+        }
+      },
+      "example": "“Phew!",
+      "exampleStart": 2538,
+      "exampleEnd": 2544,
+      "matchedForm": "Phew",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.962857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "put around",
+      "lemma": "put around",
+      "lemmaId": "put_around",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "put_around_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Расставьте"
+        }
+      },
+      "example": "Chrestomanci came up and put his arm around her.",
+      "exampleStart": 2347,
+      "exampleEnd": 2395,
+      "phraseMatch": {
+        "text": "put his arm around",
+        "startInExample": 25,
+        "endInExample": 43
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "put back",
+      "lemma": "put back",
+      "lemmaId": "put_back",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "put_back_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Положи обратно"
+        }
+      },
+      "example": "Saunders caught her in midair and put her back.",
+      "exampleStart": 1404,
+      "exampleEnd": 1451,
+      "phraseMatch": {
+        "text": "put her back",
+        "startInExample": 34,
+        "endInExample": 46
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "rigor",
+      "lemma": "rigor",
+      "lemmaId": "rigor",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "rigor_verb",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "строгость"
+        }
+      },
+      "example": "Rigor mortis was setting in, and then you turned her back again!",
+      "exampleStart": 3502,
+      "exampleEnd": 3566,
+      "matchedForm": "Rigor",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.982857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "setting in",
+      "lemma": "set in",
+      "lemmaId": "set_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "set_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Место действия в"
+        }
+      },
+      "example": "Rigor mortis was setting in, and then you turned her back again!",
+      "exampleStart": 3502,
+      "exampleEnd": 3566,
+      "phraseMatch": {
+        "text": "setting in",
+        "startInExample": 17,
+        "endInExample": 27
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "sitting on",
+      "lemma": "sit on",
+      "lemmaId": "sit_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "sit_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "сидя на"
+        }
+      },
+      "example": "The next second, Euphemia was sitting on the edge of the table.",
+      "exampleStart": 2095,
+      "exampleEnd": 2158,
+      "phraseMatch": {
+        "text": "sitting on",
+        "startInExample": 30,
+        "endInExample": 40
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "slipped through",
+      "lemma": "slip through",
+      "lemmaId": "slip_through",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "slip_through_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "проскользнул"
+        }
+      },
       "example": "Janet’s glass of milk slipped through her fingers and smashed on the pitted floor.",
-      "matchedForm": "pitted"
-    },
-    {
-      "word": "puzzled",
-      "lemma": "puzzled",
-      "lemmaId": "puzzled",
-      "pos": "adjective",
-      "wordKey": "puzzled_adjective",
-      "level": "B2",
-      "ipa": "[ˈpʌzəld]",
-      "translations": {
-        "ru": {
-          "translation": "озадаченный"
-        }
-      },
-      "definition": "Unable to understand; perplexed.",
-      "example": "Looking a little puzzled, Mr. Saunders began to mutter things.",
-      "matchedForm": "puzzled"
-    },
-    {
-      "word": "respond",
-      "lemma": "respond",
-      "lemmaId": "respond",
-      "pos": "verb",
-      "wordKey": "respond_verb",
-      "level": "B2",
-      "ipa": "[rɪˈspɒnd]",
-      "translations": {
-        "ru": {
-          "translation": "откликаться, реагировать"
-        }
-      },
-      "definition": "React positively or effectively to something.",
-      "example": "It doesn’t respond to anything I can do.",
-      "matchedForm": "respond"
-    },
-    {
-      "word": "rigor mortis",
-      "lemma": "rigor mortis",
-      "lemmaId": "rigor_mortis",
-      "pos": "phrase",
-      "wordKey": "rigor_mortis_phrase",
-      "level": "C2",
-      "ipa": "[ˈrɪɡə ˈmɔːtɪs]",
-      "translations": {
-        "ru": {
-          "translation": "трупное окоченение"
-        }
-      },
-      "definition": "Stiffening of the muscles after death.",
-      "example": "Rigor mortis was setting in.",
+      "exampleStart": 2850,
+      "exampleEnd": 2932,
       "phraseMatch": {
-        "text": "Rigor mortis",
-        "startInExample": 0,
-        "endInExample": 12
-      }
-    },
-    {
-      "word": "scathing",
-      "lemma": "scathing",
-      "lemmaId": "scathing",
-      "pos": "adjective",
-      "wordKey": "scathing_adjective",
-      "level": "C2",
-      "ipa": "[ˈskeɪðɪŋ]",
-      "translations": {
-        "ru": {
-          "translation": "язвительный, резкий"
-        }
+        "text": "slipped through",
+        "startInExample": 22,
+        "endInExample": 37
       },
-      "definition": "Witheringly scornful; severely critical.",
-      "example": "Chrestomanci treated him to another look so polite, so scathing, and so unbelieving.",
-      "matchedForm": "scathing"
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "slunk",
       "lemma": "slunk",
       "lemmaId": "slunk",
       "pos": "verb",
+      "source": "word",
       "wordKey": "slunk_verb",
       "level": "C1",
-      "ipa": "[slʌŋk]",
       "translations": {
         "ru": {
-          "translation": "красться, подкрадываться"
+          "translation": "пьяный"
         }
       },
-      "definition": "Move smoothly and quietly with gliding steps, in a stealthy or timid manner.",
       "example": "He slunk towards the table.",
-      "matchedForm": "slunk"
+      "exampleStart": 1253,
+      "exampleEnd": 1280,
+      "matchedForm": "slunk",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "soothingly",
-      "lemma": "soothingly",
-      "lemmaId": "soothingly",
-      "pos": "adverb",
-      "wordKey": "soothingly_adverb",
-      "level": "C1",
-      "ipa": "[ˈsuːðɪŋli]",
-      "translations": {
-        "ru": {
-          "translation": "успокаивающе"
-        }
-      },
-      "definition": "In a way that has a calming or comforting effect.",
-      "example": "Mr. Saunders said soothingly.",
-      "matchedForm": "soothingly"
-    },
-    {
-      "word": "terrible",
-      "lemma": "terrible",
-      "lemmaId": "terrible",
-      "pos": "adjective",
-      "wordKey": "terrible_adjective",
-      "level": "C1",
-      "ipa": "[ˈtɛrɪbəl]",
-      "translations": {
-        "ru": {
-          "translation": "ужасный, страшный"
-        }
-      },
-      "definition": "Extremely bad or serious.",
-      "example": "It must have been a terrible experience.",
-      "matchedForm": "terrible"
-    },
-    {
-      "word": "thick",
-      "lemma": "thick",
-      "lemmaId": "thick",
-      "pos": "adjective",
-      "wordKey": "thick_adjective",
+      "word": "took out",
+      "lemma": "take out",
+      "lemmaId": "take_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "take_out_phrasal_verb",
       "level": "B2",
-      "ipa": "[θɪk]",
       "translations": {
         "ru": {
-          "translation": "плотный, слабый (о ногах)"
+          "translation": "Убрали"
         }
       },
-      "definition": "In this context, weak or unsteady; heavy and difficult to move.",
-      "example": "His legs had gone thick and weak.",
-      "matchedForm": "thick"
-    },
-    {
-      "word": "warlock",
-      "lemma": "warlock",
-      "lemmaId": "warlock",
-      "pos": "noun",
-      "wordKey": "warlock_noun",
-      "level": "C1",
-      "ipa": "[ˈwɔːlɒk]",
-      "translations": {
-        "ru": {
-          "translation": "колдун, чародей"
-        }
+      "example": "”\n\nCat took Janet out into the gardens.",
+      "exampleStart": 3078,
+      "exampleEnd": 3117,
+      "phraseMatch": {
+        "text": "took Janet out",
+        "startInExample": 7,
+        "endInExample": 21
       },
-      "definition": "A man who practices magic; a male witch or sorcerer.",
-      "example": "No, it’s a warlock, isn’t it?",
-      "matchedForm": "warlock"
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "witch",
-      "lemma": "witch",
-      "lemmaId": "witch",
-      "pos": "noun",
-      "wordKey": "witch_noun",
-      "level": "C1",
-      "ipa": "[wɪʧ]",
-      "translations": {
-        "ru": {
-          "translation": "ведьма"
-        }
-      },
-      "definition": "A person, especially a woman, believed to have magical powers.",
-      "example": "I didn’t realize you were a witch too.",
-      "matchedForm": "witch"
-    },
-    {
-      "word": "wizard",
-      "lemma": "wizard",
-      "lemmaId": "wizard",
-      "pos": "noun",
-      "wordKey": "wizard_noun",
+      "word": "taken up",
+      "lemma": "take up",
+      "lemmaId": "take_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "take_up_phrasal_verb",
       "level": "B2",
-      "ipa": "[ˈwɪzəd]",
       "translations": {
         "ru": {
-          "translation": "волшебник"
+          "translation": "Принято"
         }
       },
-      "definition": "A man with magical powers who appears in stories and legends.",
-      "example": "Or are you a wizard?",
-      "matchedForm": "wizard"
+      "example": "His legs had gone thick and weak, and his stomach seemed to have taken up permanent quarters in the Castle cellars.",
+      "exampleStart": 1137,
+      "exampleEnd": 1252,
+      "phraseMatch": {
+        "text": "taken up",
+        "startInExample": 65,
+        "endInExample": 73
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "turned back",
+      "lemma": "turn back",
+      "lemmaId": "turn_back",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "turn_back_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Повернулся обратно"
+        }
+      },
+      "example": "Rigor mortis was setting in, and then you turned her back again!",
+      "exampleStart": 3502,
+      "exampleEnd": 3566,
+      "phraseMatch": {
+        "text": "turned her back",
+        "startInExample": 42,
+        "endInExample": 57
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "turn into",
+      "lemma": "turn into",
+      "lemmaId": "turn_into",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "turn_into_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Превратиться в"
+        }
+      },
+      "example": "“Stop being a frog and turn into Euphemia again,” he said, and wondered miserably what they would do to him when Euphemia didn’t.",
+      "exampleStart": 1711,
+      "exampleEnd": 1840,
+      "phraseMatch": {
+        "text": "turn into",
+        "startInExample": 23,
+        "endInExample": 32
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "unbelieving",
+      "lemma": "unbelieving",
+      "lemmaId": "unbelieving",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "unbelieving_adjective",
+      "level": "C2",
+      "translations": {
+        "ru": {
+          "translation": "неверующий"
+        }
+      },
+      "example": "”\n\nChrestomanci treated him to another look so polite, so scathing, and so unbelieving, that Cat would gladly have crawled under his desk had he been able to move at all.",
+      "exampleStart": 106,
+      "exampleEnd": 276,
+      "matchedForm": "unbelieving",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     }
   ]
 }

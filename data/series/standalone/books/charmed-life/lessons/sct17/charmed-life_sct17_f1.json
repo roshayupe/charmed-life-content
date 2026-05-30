@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 17,
     "sectionTitle": "Chapter 14",
     "fragmentIndex": 1,
@@ -21,615 +20,767 @@
       "wordCount": 665,
       "uniqueWordCount": 324,
       "paragraphCount": 14,
-      "vocabularyCount": 23,
+      "vocabularyCount": 33,
       "levelDistribution": {
         "A1": 0,
-        "A2": 0,
-        "B1": 0,
-        "B2": 9,
-        "C1": 12,
-        "C2": 2
+        "A2": 5,
+        "B1": 4,
+        "B2": 23,
+        "C1": 1,
+        "C2": 0
       }
     }
   },
   "vocabulary": [
     {
-      "word": "bundle",
-      "lemma": "bundle",
-      "lemmaId": "bundle",
-      "pos": "noun",
-      "wordKey": "bundle_noun",
-      "level": "B2",
-      "ipa": "ˈbʌndl",
+      "word": "all over",
+      "lemma": "all over",
+      "lemmaId": "all_over",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "all_over_phrase",
+      "level": "B1",
       "translations": {
-        "de": {
-          "translation": "Bündel"
-        },
-        "es": {
-          "translation": "paquete"
-        },
         "ru": {
-          "translation": "связка"
-        },
-        "uk": {
-          "translation": "пучок"
+          "translation": "Всё кончено"
         }
       },
-      "definition": "a collection of things tied or wrapped together",
-      "example": "He took one look at the flaming bundle on the floor and said “Good God!",
-      "matchedForm": "bundle"
-    },
-    {
-      "word": "burst",
-      "lemma": "burst",
-      "lemmaId": "burst",
-      "pos": "verb",
-      "wordKey": "burst_verb",
-      "level": "B2",
-      "ipa": "bɜːrst",
-      "translations": {
-        "de": {
-          "translation": "ausbrechen"
-        },
-        "es": {
-          "translation": "estallar"
-        },
-        "ru": {
-          "translation": "врываться"
-        },
-        "uk": {
-          "translation": "вибухати"
-        }
-      },
-      "definition": "to break open or apart suddenly and violently",
       "example": "Flames burst out of him all over.",
-      "matchedForm": "burst"
+      "exampleStart": 33,
+      "exampleEnd": 66,
+      "phraseMatch": {
+        "text": "all over",
+        "startInExample": 24,
+        "endInExample": 32
+      },
+      "levelSource": "phrase_fallback"
     },
     {
-      "word": "clasp",
+      "word": "burst into",
+      "lemma": "burst into",
+      "lemmaId": "burst_into",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "burst_into_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "врываться в"
+        }
+      },
+      "example": "” Chrestomanci was so angry that Janet burst into tears.",
+      "exampleStart": 2204,
+      "exampleEnd": 2260,
+      "phraseMatch": {
+        "text": "burst into",
+        "startInExample": 39,
+        "endInExample": 49
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "burst out",
+      "lemma": "burst out",
+      "lemmaId": "burst_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "burst_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Взрыв"
+        }
+      },
+      "example": "They burst out through his clothes, and his shoes, his hair, across his face, so that, in seconds, he was wrapped in pale flame from head to foot.",
+      "exampleStart": 197,
+      "exampleEnd": 343,
+      "phraseMatch": {
+        "text": "burst out",
+        "startInExample": 5,
+        "endInExample": 14
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "clasped",
       "lemma": "clasp",
       "lemmaId": "clasp",
-      "pos": "verb",
-      "wordKey": "clasp_verb",
-      "level": "C1",
-      "ipa": "klæsp",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "clasp_adjective",
+      "level": "B1",
       "translations": {
-        "de": {
-          "translation": "umklammern"
-        },
-        "es": {
-          "translation": "abrazar"
-        },
         "ru": {
-          "translation": "сжимать"
-        },
-        "uk": {
-          "translation": "зхопити"
+          "translation": "зажим"
         }
       },
-      "definition": "to hold something tightly in one's hand",
       "example": "It was tightly clasped in Cat’s right hand.",
-      "matchedForm": "clasped"
+      "exampleStart": 2529,
+      "exampleEnd": 2572,
+      "matchedForm": "clasped",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.974286,
+      "difficultySource": "zipf"
     },
     {
-      "word": "coils",
-      "lemma": "coil",
-      "lemmaId": "coil",
-      "pos": "noun",
-      "wordKey": "coil_noun",
-      "level": "C2",
-      "ipa": "kɔɪl",
+      "word": "came down",
+      "lemma": "come down",
+      "lemmaId": "come_down",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_down_phrasal_verb",
+      "level": "B2",
       "translations": {
-        "de": {
-          "translation": "Spiralen"
-        },
-        "es": {
-          "translation": "bobinas"
-        },
         "ru": {
-          "translation": "спирали"
-        },
-        "uk": {
-          "translation": "петлі"
+          "translation": "спустился"
         }
       },
-      "definition": "long lengths of something wound in a series of loops",
-      "example": "Coils of smoke drifted up from the bath, smelling thick and sweet.",
-      "matchedForm": "Coils"
+      "example": "It came down like a beam of light.",
+      "exampleStart": 3130,
+      "exampleEnd": 3164,
+      "phraseMatch": {
+        "text": "came down",
+        "startInExample": 3,
+        "endInExample": 12
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "dive into",
+      "word": "came through",
+      "lemma": "come through",
+      "lemmaId": "come_through",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_through_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Прошёл"
+        }
+      },
+      "example": "But no matter how much carpet she wrapped around Cat, the flames still came through, and Cat went on blazing and screaming.",
+      "exampleStart": 886,
+      "exampleEnd": 1009,
+      "phraseMatch": {
+        "text": "came through",
+        "startInExample": 71,
+        "endInExample": 83
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "dived into",
       "lemma": "dive into",
       "lemmaId": "dive_into",
-      "pos": "phrase",
-      "wordKey": "dive_into_phrase",
-      "level": "C1",
-      "ipa": "daɪv ˈɪntuː",
-      "translations": {
-        "de": {
-          "translation": "eintauchen in"
-        },
-        "es": {
-          "translation": "sumergirse en"
-        },
-        "ru": {
-          "translation": "нырять в"
-        },
-        "uk": {
-          "translation": "занурюватися у"
-        }
-      },
-      "definition": "to enter quickly and energetically into something",
-      "example": "He boiled it into golden bubbles.",
-      "matchedForm": "into"
-    },
-    {
-      "word": "elegant",
-      "lemma": "elegant",
-      "lemmaId": "elegant",
-      "pos": "adjective",
-      "wordKey": "elegant_adjective",
-      "level": "C1",
-      "ipa": "ˈɛlɪɡənt",
-      "translations": {
-        "de": {
-          "translation": "elegant"
-        },
-        "es": {
-          "translation": "elegante"
-        },
-        "ru": {
-          "translation": "элегантный"
-        },
-        "uk": {
-          "translation": "елегантний"
-        }
-      },
-      "definition": "pleasingly graceful and stylish in appearance or manner",
-      "example": "” Then he was down on his elegant knees unwrapping the carpet as frantically as Janet had wrapped it.",
-      "matchedForm": "elegant"
-    },
-    {
-      "word": "flame",
-      "lemma": "flame",
-      "lemmaId": "flame",
-      "pos": "noun",
-      "wordKey": "flame_noun",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "dive_into_phrasal_verb",
       "level": "B2",
-      "ipa": "fleɪm",
       "translations": {
-        "de": {
-          "translation": "Flamme"
-        },
-        "es": {
-          "translation": "llama"
-        },
         "ru": {
-          "translation": "пламя"
-        },
-        "uk": {
-          "translation": "полум'я"
+          "translation": "Погрузились в"
         }
       },
-      "definition": "the hot, glowing gas that is produced by something on fire",
-      "example": "Flames burst out of him all over.",
-      "matchedForm": "Flames"
+      "example": "Chrestomanci dived into the heart of the flames and found the book of matches.",
+      "exampleStart": 2450,
+      "exampleEnd": 2528,
+      "phraseMatch": {
+        "text": "dived into",
+        "startInExample": 13,
+        "endInExample": 23
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "frantically",
-      "lemma": "frantically",
-      "lemmaId": "frantically",
-      "pos": "adverb",
-      "wordKey": "frantically_adverb",
-      "level": "C1",
-      "ipa": "ˈfræntɪkli",
+      "word": "didn’t in",
+      "lemma": "do in",
+      "lemmaId": "do_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "do_in_phrasal_verb",
+      "level": "B2",
       "translations": {
-        "de": {
-          "translation": "verzweifelt"
-        },
-        "es": {
-          "translation": "frenéticamente"
-        },
         "ru": {
-          "translation": "безумно"
-        },
-        "uk": {
-          "translation": "безумно"
+          "translation": "не пришёл"
         }
       },
-      "definition": "in a hurried, excited, or disorganized manner due to strong emotion or stress",
-      "example": "” Then he was down on his elegant knees unwrapping the carpet as frantically as Janet had wrapped it.",
-      "matchedForm": "frantically"
+      "example": "“Thank God he didn’t have it in the left one,” he said.",
+      "exampleStart": 2573,
+      "exampleEnd": 2628,
+      "phraseMatch": {
+        "text": "didn’t have it in",
+        "startInExample": 14,
+        "endInExample": 31
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "frantically roll",
-      "lemma": "frantically roll",
-      "lemmaId": "frantically_roll",
-      "pos": "phrase",
-      "wordKey": "frantically_roll_phrase",
-      "level": "C1",
-      "ipa": "ˈfræntɪkli roʊl",
+      "word": "dragged up",
+      "lemma": "drag up",
+      "lemmaId": "drag_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "drag_up_phrasal_verb",
+      "level": "B2",
       "translations": {
-        "de": {
-          "translation": "verzweifelt rollen"
-        },
-        "es": {
-          "translation": "rodar frenéticamente"
-        },
         "ru": {
-          "translation": "бешено катать"
-        },
-        "uk": {
-          "translation": "божевільно котити"
+          "translation": "Затащил вверх"
         }
       },
-      "definition": "to roll in a hurried and disorganized way caused by distress",
+      "example": "She dragged up the nearest corner of the carpet and threw it over Cat.",
+      "exampleStart": 444,
+      "exampleEnd": 514,
+      "phraseMatch": {
+        "text": "dragged up",
+        "startInExample": 4,
+        "endInExample": 14
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "fell on",
+      "lemma": "fall on",
+      "lemmaId": "fall_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "fall_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "упал"
+        }
+      },
       "example": "He fell on the floor, still screaming, and rolled there, blazing.",
-      "matchedForm": "rolled"
+      "exampleStart": 344,
+      "exampleEnd": 409,
+      "phraseMatch": {
+        "text": "fell on",
+        "startInExample": 3,
+        "endInExample": 10
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "frantically wrap",
-      "lemma": "frantically wrap",
-      "lemmaId": "frantically_wrap",
-      "pos": "phrase",
-      "wordKey": "frantically_wrap_phrase",
-      "level": "C1",
-      "ipa": "ˈfræntɪkli ræp",
+      "word": "fill up",
+      "lemma": "fill up",
+      "lemmaId": "fill_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "fill_up_phrasal_verb",
+      "level": "B2",
       "translations": {
-        "de": {
-          "translation": "verzweifelt einwickeln"
-        },
-        "es": {
-          "translation": "envolver frenéticamente"
-        },
         "ru": {
-          "translation": "бешено заворачивать"
-        },
-        "uk": {
-          "translation": "божевільно загортати"
+          "translation": "Заправляй."
         }
       },
-      "definition": "to wrap something hurriedly and in a disorganized way due to stress or urgency",
-      "example": "” Then he was down on his elegant knees unwrapping the carpet as frantically as Janet had wrapped it.",
-      "matchedForm": "frantically"
+      "example": "And, as the bath began to fill up, Cat seemed to be turning and threshing in a pool of sunshine.",
+      "exampleStart": 3165,
+      "exampleEnd": 3261,
+      "phraseMatch": {
+        "text": "fill up",
+        "startInExample": 26,
+        "endInExample": 33
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "glimmer",
+      "word": "flames out",
+      "lemma": "flame out",
+      "lemmaId": "flame_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "flame_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Пламя гаснет"
+        }
+      },
+      "example": "Flames burst out of him all over.",
+      "matchedForm": "Flames",
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "glimmered",
       "lemma": "glimmer",
       "lemmaId": "glimmer",
-      "pos": "verb",
-      "wordKey": "glimmer_verb",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "glimmer_adjective",
       "level": "B2",
-      "ipa": "ˈɡlɪmər",
       "translations": {
-        "de": {
-          "translation": "schimmern"
-        },
-        "es": {
-          "translation": "brillar débilmente"
-        },
         "ru": {
-          "translation": "мерцать"
-        },
-        "uk": {
-          "translation": "блимати"
+          "translation": "проблеск"
         }
       },
-      "definition": "to shine faintly or unsteadily",
       "example": "She remembered when she saw Chrestomanci’s lace ruffles, and his black velvet suit which glimmered all over like an opal, blue, crimson, yellow, and green.",
-      "matchedForm": "glimmered"
+      "exampleStart": 1546,
+      "exampleEnd": 1701,
+      "matchedForm": "glimmered",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.971429,
+      "difficultySource": "zipf"
     },
     {
-      "word": "hiss",
+      "word": "went on",
+      "lemma": "go on",
+      "lemmaId": "go_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "продолжил"
+        }
+      },
+      "example": "But no matter how much carpet she wrapped around Cat, the flames still came through, and Cat went on blazing and screaming.",
+      "exampleStart": 886,
+      "exampleEnd": 1009,
+      "phraseMatch": {
+        "text": "went on",
+        "startInExample": 93,
+        "endInExample": 100
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "good god",
+      "lemma": "good god",
+      "lemmaId": "good_god",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "good_god_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Боже мой."
+        }
+      },
+      "example": "He took one look at the flaming bundle on the floor and said “Good God!",
+      "exampleStart": 1755,
+      "exampleEnd": 1826,
+      "phraseMatch": {
+        "text": "Good God",
+        "startInExample": 62,
+        "endInExample": 70
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "hissing",
       "lemma": "hiss",
       "lemmaId": "hiss",
-      "pos": "verb",
-      "wordKey": "hiss_verb",
-      "level": "B2",
-      "ipa": "hɪs",
-      "translations": {
-        "de": {
-          "translation": "zischen"
-        },
-        "es": {
-          "translation": "sisear"
-        },
-        "ru": {
-          "translation": "шипеть"
-        },
-        "uk": {
-          "translation": "шипіти"
-        }
-      },
-      "definition": "to make a sharp sibilant sound",
-      "example": "Cat steamed and hissed.",
-      "matchedForm": "hissed"
-    },
-    {
-      "word": "horror",
-      "lemma": "horror",
-      "lemmaId": "horror",
-      "pos": "noun",
-      "wordKey": "horror_noun",
-      "level": "B2",
-      "ipa": "ˈhɒrər",
-      "translations": {
-        "de": {
-          "translation": "Entsetzen"
-        },
-        "es": {
-          "translation": "horror"
-        },
-        "ru": {
-          "translation": "ужас"
-        },
-        "uk": {
-          "translation": "жах"
-        }
-      },
-      "definition": "an intense feeling of fear, shock, or disgust",
-      "example": "To Janet’s horror, the pale, ghostly flames came straight through the carpet as if it was not there, and played on the black underside of it more fiercely than ever.",
-      "matchedForm": "horror"
-    },
-    {
-      "word": "presence of mind",
-      "lemma": "presence of mind",
-      "lemmaId": "presence_of_mind",
-      "pos": "phrase",
-      "wordKey": "presence_of_mind_phrase",
-      "level": "C1",
-      "ipa": "ˈprɛzəns əv maɪnd",
-      "translations": {
-        "de": {
-          "translation": "Geistesgegenwart"
-        },
-        "es": {
-          "translation": "presencia de ánimo"
-        },
-        "ru": {
-          "translation": "способность сохранять спокойствие"
-        },
-        "uk": {
-          "translation": "холоднокровність"
-        }
-      },
-      "definition": "the ability to remain calm and take quick decisions in a difficult situation",
-      "example": "”\n\n“Of course.",
-      "matchedForm": "Of"
-    },
-    {
-      "word": "roaring",
-      "lemma": "roaring",
-      "lemmaId": "roaring",
       "pos": "adjective",
-      "wordKey": "roaring_adjective",
-      "level": "C1",
-      "ipa": "ˈrɔːrɪŋ",
+      "source": "word",
+      "wordKey": "hiss_adjective",
+      "level": "B2",
       "translations": {
-        "de": {
-          "translation": "tobend"
-        },
-        "es": {
-          "translation": "rugiente"
-        },
         "ru": {
-          "translation": "ревущий"
-        },
-        "uk": {
-          "translation": "ревучий"
+          "translation": "шипение"
         }
       },
-      "definition": "making a loud, deep, prolonged sound",
       "example": "She fumbled with the taps and had just got a strong spray of cold water hissing into the sunken blue bath as Chrestomanci hurried in carrying Cat, in a ball of roaring flame.",
-      "matchedForm": "roaring"
+      "exampleStart": 2726,
+      "exampleEnd": 2900,
+      "matchedForm": "hissing",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.988571,
+      "difficultySource": "zipf"
     },
     {
-      "word": "smother",
+      "word": "jumped up",
+      "lemma": "jump up",
+      "lemmaId": "jump_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "jump_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Вскочил"
+        }
+      },
+      "example": "She jumped up and screamed herself.",
+      "exampleStart": 1208,
+      "exampleEnd": 1243,
+      "phraseMatch": {
+        "text": "jumped up",
+        "startInExample": 4,
+        "endInExample": 13
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "look at",
+      "lemma": "look at",
+      "lemmaId": "look_at",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_at_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Посмотри"
+        }
+      },
+      "example": "He took one look at the flaming bundle on the floor and said “Good God!",
+      "exampleStart": 1755,
+      "exampleEnd": 1826,
+      "phraseMatch": {
+        "text": "look at",
+        "startInExample": 12,
+        "endInExample": 19
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "lugged",
+      "lemma": "lug",
+      "lemmaId": "lug",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "lug_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "приманка"
+        }
+      },
+      "example": "He lugged at the last of the carpet and Cat rolled free, flaming like a straw faggot.",
+      "exampleStart": 2261,
+      "exampleEnd": 2346,
+      "matchedForm": "lugged",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.977143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "opal",
+      "lemma": "opal",
+      "lemmaId": "opal",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "opal_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "опал"
+        }
+      },
+      "example": "She remembered when she saw Chrestomanci’s lace ruffles, and his black velvet suit which glimmered all over like an opal, blue, crimson, yellow, and green.",
+      "exampleStart": 1546,
+      "exampleEnd": 1701,
+      "matchedForm": "opal",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.945714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "played on",
+      "lemma": "play on",
+      "lemmaId": "play_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "play_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Игра продолжается"
+        }
+      },
+      "example": "To Janet’s horror, the pale, ghostly flames came straight through the carpet as if it was not there, and played on the black underside of it more fiercely than ever.",
+      "exampleStart": 587,
+      "exampleEnd": 752,
+      "phraseMatch": {
+        "text": "played on",
+        "startInExample": 105,
+        "endInExample": 114
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "rolling over",
+      "lemma": "roll over",
+      "lemmaId": "roll_over",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "roll_over_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Переворачиваться"
+        }
+      },
+      "example": "“It ought to have done,” said Chrestomanci, rolling Cat over, with flames whirling through, over, and along his velvet arms.",
+      "exampleStart": 1995,
+      "exampleEnd": 2119,
+      "phraseMatch": {
+        "text": "rolling Cat over",
+        "startInExample": 44,
+        "endInExample": 60
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "see out",
+      "lemma": "see out",
+      "lemmaId": "see_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "see_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Выйди из дома"
+        }
+      },
+      "example": "She could see it sticking out from the edge of the door as he flung it open.",
+      "exampleStart": 1418,
+      "exampleEnd": 1494,
+      "phraseMatch": {
+        "text": "see it sticking out",
+        "startInExample": 10,
+        "endInExample": 29
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "see through",
+      "lemma": "see through",
+      "lemmaId": "see_through",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "see_through_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Прозрачная"
+        }
+      },
+      "example": "As far as she could see through the smoke, Cat seemed to be turning black in the golden pool.",
+      "exampleStart": 3487,
+      "exampleEnd": 3580,
+      "phraseMatch": {
+        "text": "see through",
+        "startInExample": 20,
+        "endInExample": 31
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "sheaf",
+      "lemma": "sheaf",
+      "lemmaId": "sheaf",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "sheaf_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "сноп"
+        }
+      },
+      "example": "His head was half outside the flaming bundle she had made of him, and it was a sheaf of flames.",
+      "exampleStart": 1010,
+      "exampleEnd": 1105,
+      "matchedForm": "sheaf",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "shimmering",
+      "lemma": "shimmer",
+      "lemmaId": "shimmer",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "shimmer_adjective",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "мерцать"
+        }
+      },
+      "example": "They were pale, shimmering, transparent flames.",
+      "exampleStart": 149,
+      "exampleEnd": 196,
+      "matchedForm": "shimmering",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "smothered",
       "lemma": "smother",
       "lemmaId": "smother",
-      "pos": "verb",
-      "wordKey": "smother_verb",
-      "level": "C1",
-      "ipa": "ˈsmʌðər",
-      "translations": {
-        "de": {
-          "translation": "ersticken"
-        },
-        "es": {
-          "translation": "sofocar"
-        },
-        "ru": {
-          "translation": "задыхаться"
-        },
-        "uk": {
-          "translation": "задихатися"
-        }
-      },
-      "definition": "to cover someone or something entirely, preventing breathing or movement",
-      "example": "But it did not smother these.",
-      "matchedForm": "smother"
-    },
-    {
-      "word": "sobbing",
-      "lemma": "sob",
-      "lemmaId": "sob",
-      "pos": "verb",
-      "wordKey": "sob_verb",
-      "level": "B2",
-      "ipa": "ˈsɒbɪŋ",
-      "translations": {
-        "de": {
-          "translation": "schluchzen"
-        },
-        "es": {
-          "translation": "sollozar"
-        },
-        "ru": {
-          "translation": "рыдать"
-        },
-        "uk": {
-          "translation": "ри́дати"
-        }
-      },
-      "definition": "to cry noisily while taking in short breaths",
-      "example": "Of course,” Janet sobbed, and raced to do it.",
-      "matchedForm": "sobbed"
-    },
-    {
-      "word": "spray",
-      "lemma": "spray",
-      "lemmaId": "spray",
-      "pos": "noun",
-      "wordKey": "spray_noun",
-      "level": "B2",
-      "ipa": "spreɪ",
-      "translations": {
-        "de": {
-          "translation": "Sprühstrahl"
-        },
-        "es": {
-          "translation": "aspersión"
-        },
-        "ru": {
-          "translation": "распыление"
-        },
-        "uk": {
-          "translation": "розпил"
-        }
-      },
-      "definition": "a liquid that is blown or driven through the air in small drops",
-      "example": "She fumbled with the taps and had just got a strong spray of cold water hissing into the sunken blue bath as Chrestomanci hurried in carrying Cat, in a ball of roaring flame.",
-      "matchedForm": "spray"
-    },
-    {
-      "word": "steam",
-      "lemma": "steam",
-      "lemmaId": "steam",
-      "pos": "noun",
-      "wordKey": "steam_noun",
-      "level": "B2",
-      "ipa": "stiːm",
-      "translations": {
-        "de": {
-          "translation": "Dampf"
-        },
-        "es": {
-          "translation": "vapor"
-        },
-        "ru": {
-          "translation": "пар"
-        },
-        "uk": {
-          "translation": "пара"
-        }
-      },
-      "definition": "the vapor into which water is converted when heated",
-      "example": "Cat steamed and hissed.",
-      "matchedForm": "steamed"
-    },
-    {
-      "word": "thresh",
-      "lemma": "thresh",
-      "lemmaId": "thresh",
-      "pos": "verb",
-      "wordKey": "thresh_verb",
-      "level": "C2",
-      "ipa": "θrɛʃ",
-      "translations": {
-        "de": {
-          "translation": "dreschen"
-        },
-        "es": {
-          "translation": "trillar"
-        },
-        "ru": {
-          "translation": "молоть"
-        },
-        "uk": {
-          "translation": "молотити"
-        }
-      },
-      "definition": "to move or stir violently",
-      "example": "And, as the bath began to fill up, Cat seemed to be turning and threshing in a pool of sunshine.",
-      "matchedForm": "threshing"
-    },
-    {
-      "word": "transparent",
-      "lemma": "transparent",
-      "lemmaId": "transparent",
       "pos": "adjective",
-      "wordKey": "transparent_adjective",
-      "level": "C1",
-      "ipa": "trænsˈpærənt",
+      "source": "word",
+      "wordKey": "smother_adjective",
+      "level": "B2",
       "translations": {
-        "de": {
-          "translation": "transparent"
-        },
-        "es": {
-          "translation": "transparente"
-        },
         "ru": {
-          "translation": "прозрачный"
-        },
-        "uk": {
-          "translation": "прозорий"
+          "translation": "удушающий"
         }
       },
-      "definition": "allowing light to pass through so that objects behind can be seen clearly",
-      "example": "They were pale, shimmering, transparent flames.",
-      "matchedForm": "transparent"
+      "example": "She had heard that this smothered flames.",
+      "exampleStart": 515,
+      "exampleEnd": 556,
+      "matchedForm": "smothered",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "whirl",
-      "lemma": "whirl",
-      "lemmaId": "whirl",
-      "pos": "verb",
-      "wordKey": "whirl_verb",
-      "level": "C1",
-      "ipa": "wɜːrl",
+      "word": "stammered",
+      "lemma": "stammer",
+      "lemmaId": "stammer",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "stammer_adjective",
+      "level": "B2",
       "translations": {
-        "de": {
-          "translation": "wirbeln"
-        },
-        "es": {
-          "translation": "girar rápidamente"
-        },
         "ru": {
-          "translation": "кружиться"
-        },
-        "uk": {
-          "translation": "крутитися"
+          "translation": "заикание"
         }
       },
-      "definition": "to move or cause to move rapidly around and around",
-      "example": "“It ought to have done,” said Chrestomanci, rolling Cat over, with flames whirling through, over, and along his velvet arms.",
-      "matchedForm": "whirling"
+      "example": "I thought that would help,” Janet stammered.",
+      "exampleStart": 1949,
+      "exampleEnd": 1993,
+      "matchedForm": "stammered",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "wrapped in",
-      "lemma": "wrap in",
-      "lemmaId": "wrap_in",
-      "pos": "phrase",
-      "wordKey": "wrap_in_phrase",
-      "level": "C1",
-      "ipa": "ræpt ɪn",
+      "word": "sunken",
+      "lemma": "sunken",
+      "lemmaId": "sunken",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "sunken_noun",
+      "level": "A2",
       "translations": {
-        "de": {
-          "translation": "eingehüllt in"
-        },
-        "es": {
-          "translation": "envuelto en"
-        },
         "ru": {
-          "translation": "завёрнутый в"
-        },
-        "uk": {
-          "translation": "загорнутий у"
+          "translation": "затонувший"
         }
       },
-      "definition": "to cover or enclose something tightly with some material",
-      "example": "It was tightly clasped in Cat’s right hand.",
-      "matchedForm": "in"
+      "example": "She fumbled with the taps and had just got a strong spray of cold water hissing into the sunken blue bath as Chrestomanci hurried in carrying Cat, in a ball of roaring flame.",
+      "exampleStart": 2726,
+      "exampleEnd": 2900,
+      "matchedForm": "sunken",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.928571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "turn on",
+      "lemma": "turn on",
+      "lemmaId": "turn_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "turn_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "включи"
+        }
+      },
+      "example": "“Go and turn your shower on.",
+      "exampleStart": 2629,
+      "exampleEnd": 2657,
+      "phraseMatch": {
+        "text": "turn your shower on",
+        "startInExample": 8,
+        "endInExample": 27
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "underside",
+      "lemma": "underside",
+      "lemmaId": "underside",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "underside_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "сбоку"
+        }
+      },
+      "example": "To Janet’s horror, the pale, ghostly flames came straight through the carpet as if it was not there, and played on the black underside of it more fiercely than ever.",
+      "exampleStart": 587,
+      "exampleEnd": 752,
+      "matchedForm": "underside",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.934286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "unwrapping",
+      "lemma": "unwrap",
+      "lemmaId": "unwrap",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "unwrap_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "раскручивать"
+        }
+      },
+      "example": "” Then he was down on his elegant knees unwrapping the carpet as frantically as Janet had wrapped it.",
+      "exampleStart": 1826,
+      "exampleEnd": 1927,
+      "matchedForm": "unwrapping",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "wrapped around",
+      "lemma": "wrap around",
+      "lemmaId": "wrap_around",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "wrap_around_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Обвёрнутый вокруг"
+        }
+      },
+      "example": "But no matter how much carpet she wrapped around Cat, the flames still came through, and Cat went on blazing and screaming.",
+      "exampleStart": 886,
+      "exampleEnd": 1009,
+      "phraseMatch": {
+        "text": "wrapped around",
+        "startInExample": 34,
+        "endInExample": 48
+      },
+      "levelSource": "dictionary_phrase"
     }
   ]
 }

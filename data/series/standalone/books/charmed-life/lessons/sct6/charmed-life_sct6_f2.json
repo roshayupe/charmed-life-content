@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 6,
     "sectionTitle": "Chapter 3",
     "fragmentIndex": 2,
@@ -23,416 +22,579 @@
       "paragraphCount": 13,
       "vocabularyCount": 25,
       "levelDistribution": {
-        "A1": 0,
-        "A2": 0,
-        "B1": 0,
-        "B2": 18,
-        "C1": 7,
+        "A1": 2,
+        "A2": 3,
+        "B1": 3,
+        "B2": 14,
+        "C1": 3,
         "C2": 0
       }
     }
   },
   "vocabulary": [
     {
-      "word": "awe-inspiring",
-      "lemma": "awe-inspiring",
-      "lemmaId": "awe_inspiring",
-      "pos": "adjective",
-      "wordKey": "awe_inspiring_adjective",
-      "level": "C1",
-      "ipa": "ˈɔːɪnˌspaɪərɪŋ",
+      "word": "all the same",
+      "lemma": "all the same",
+      "lemmaId": "all_the_same",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "all_the_same_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "внушающий благоговение"
+          "translation": "Всё равно"
         }
       },
-      "definition": "Eliciting feelings of reverence, admiration, or fear.",
-      "example": "Describes Miss Bessemer as greatly impressive."
+      "example": "But I expect you’d like some tea all the same.",
+      "exampleStart": 1621,
+      "exampleEnd": 1667,
+      "phraseMatch": {
+        "text": "all the same",
+        "startInExample": 33,
+        "endInExample": 45
+      },
+      "levelSource": "phrase_fallback"
     },
     {
-      "word": "awe",
-      "lemma": "awe",
-      "lemmaId": "awe",
-      "pos": "noun",
-      "wordKey": "awe_noun",
-      "level": "C1",
-      "ipa": "ɔː",
+      "word": "as soon as",
+      "lemma": "as soon as",
+      "lemmaId": "as_soon_as",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "as_soon_as_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "благоговение, трепет"
+          "translation": "как только"
         }
       },
-      "definition": "A feeling of reverential respect mixed with fear or wonder.",
-      "example": "Expresses strong emotional reaction."
-    },
-    {
-      "word": "carpet",
-      "lemma": "carpet",
-      "lemmaId": "carpet",
-      "pos": "noun",
-      "wordKey": "carpet_noun",
-      "level": "B2",
-      "ipa": "ˈkɑːpɪt",
-      "translations": {
-        "ru": {
-          "translation": "ковёр"
-        }
+      "example": "As soon as Miss Bessemer had gone, he hastened along to have a look at it.",
+      "exampleStart": 2878,
+      "exampleEnd": 2952,
+      "phraseMatch": {
+        "text": "As soon as",
+        "startInExample": 0,
+        "endInExample": 10
       },
-      "definition": "A floor covering made from thick woven fabric.",
-      "example": "Mention of home interior details."
+      "levelSource": "phrase_fallback"
     },
     {
       "word": "carsick",
       "lemma": "carsick",
       "lemmaId": "carsick",
-      "pos": "adjective",
-      "wordKey": "carsick_adjective",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "carsick_verb",
       "level": "B2",
-      "ipa": "ˈkɑːrsɪk",
       "translations": {
         "ru": {
-          "translation": "плохо переносящий поездку на машине"
+          "translation": "легкомысленный"
         }
       },
-      "definition": "Feeling ill because of the movement of a car, causing nausea.",
-      "example": "Describes Eric's physical reaction to travelling by car."
+      "example": "Eric’s a bit carsick, I’m afraid.",
+      "exampleStart": 97,
+      "exampleEnd": 130,
+      "matchedForm": "carsick",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "castle",
-      "lemma": "castle",
-      "lemmaId": "castle",
-      "pos": "noun",
-      "wordKey": "castle_noun",
-      "level": "B2",
-      "ipa": "ˈkɑːsl",
-      "translations": {
-        "ru": {
-          "translation": "замок"
-        }
-      },
-      "definition": "A large building formerly occupied by a noble, fortified against attack.",
-      "example": "Setting feature."
-    },
-    {
-      "word": "damp",
-      "lemma": "damp",
-      "lemmaId": "damp",
+      "word": "dewy",
+      "lemma": "dewy",
+      "lemmaId": "dewy",
       "pos": "adjective",
-      "wordKey": "damp_adjective",
-      "level": "B2",
-      "ipa": "dæmp",
+      "source": "word",
+      "wordKey": "dewy_adjective",
+      "level": "A2",
       "translations": {
         "ru": {
-          "translation": "влажный, сырой"
+          "translation": "росистый"
         }
       },
-      "definition": "Slightly wet, often in an unpleasant way.",
-      "example": "Describes Cat’s physical state."
+      "example": "There was carpet the whole way—a soft green carpet, like grass in the dewy morning—and the floor at the sides was polished so that it reflected the carpet and the clean white walls and the pictures hung on the walls.",
+      "exampleStart": 845,
+      "exampleEnd": 1061,
+      "matchedForm": "dewy",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "dines",
-      "lemma": "dines",
-      "lemmaId": "dines",
-      "pos": "verb",
-      "wordKey": "dines_verb",
-      "level": "C1",
-      "ipa": "daɪnz",
-      "translations": {
-        "ru": {
-          "translation": "обедать, ужинать"
-        }
-      },
-      "definition": "To eat dinner.",
-      "example": "Narrative about family habits."
-    },
-    {
-      "word": "drawback",
-      "lemma": "drawback",
-      "lemmaId": "drawback",
+      "lemma": "dine",
+      "lemmaId": "dine",
       "pos": "noun",
-      "wordKey": "drawback_noun",
-      "level": "B2",
-      "ipa": "ˈdrɔːbæk",
+      "source": "word",
+      "wordKey": "dine_noun",
+      "level": "A1",
       "translations": {
         "ru": {
-          "translation": "недостаток, препятствие"
+          "translation": "обедать"
         }
       },
-      "definition": "A disadvantage or problem with a situation.",
-      "example": "Indicates a perceived negative aspect."
+      "example": "Miss Bessemer said, “The Family dines early when there are no visitors so that they can eat with the children.",
+      "exampleStart": 1510,
+      "exampleEnd": 1620,
+      "matchedForm": "dines",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.862857,
+      "difficultySource": "zipf"
     },
     {
-      "word": "embarrassed",
-      "lemma": "embarrassed",
-      "lemmaId": "embarrassed",
-      "pos": "adjective",
-      "wordKey": "embarrassed_adjective",
+      "word": "dress up",
+      "lemma": "dress up",
+      "lemmaId": "dress_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "dress_up_phrasal_verb",
       "level": "B2",
-      "ipa": "ɪmˈbærəst",
       "translations": {
         "ru": {
-          "translation": "смущённый"
+          "translation": "Переодеться"
         }
       },
-      "definition": "Feeling self-conscious or ashamed about something.",
-      "example": "Expresses Cat’s feeling upon realizing others know about his condition."
+      "example": "”\n\nThey followed the narrow purple triangle of her dress up some stairs, along corridors, and up more stairs.",
+      "exampleStart": 693,
+      "exampleEnd": 802,
+      "phraseMatch": {
+        "text": "dress up",
+        "startInExample": 51,
+        "endInExample": 59
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "experimenting",
-      "lemma": "experimenting",
-      "lemmaId": "experimenting",
-      "pos": "verb",
-      "wordKey": "experimenting_verb",
+      "word": "empress",
+      "lemma": "empress",
+      "lemmaId": "empress",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "empress_noun",
       "level": "B2",
-      "ipa": "ɪkˈspɛrɪmɛntɪŋ",
       "translations": {
         "ru": {
-          "translation": "экспериментируя"
+          "translation": "императрица"
         }
       },
-      "definition": "Trying out new ideas or activities to learn or discover something.",
-      "example": "Shows playful exploration."
+      "example": "Miss Bessemer shook hands like an Empress.",
+      "exampleStart": 311,
+      "exampleEnd": 353,
+      "matchedForm": "Empress",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.874286,
+      "difficultySource": "zipf"
     },
     {
       "word": "glowing",
-      "lemma": "glowing",
-      "lemmaId": "glowing",
+      "lemma": "glow",
+      "lemmaId": "glow",
       "pos": "adjective",
-      "wordKey": "glowing_adjective",
-      "level": "B2",
-      "ipa": "ˈɡləʊɪŋ",
-      "translations": {
-        "ru": {
-          "translation": "сияющий, светящийся"
-        }
-      },
-      "definition": "Giving out a steady light or colour.",
-      "example": "Visual imagery enhancing atmosphere."
-    },
-    {
-      "word": "housekeeper",
-      "lemma": "housekeeper",
-      "lemmaId": "housekeeper",
-      "pos": "noun",
-      "wordKey": "housekeeper_noun",
+      "source": "word",
+      "wordKey": "glow_adjective",
       "level": "C1",
-      "ipa": "ˈhaʊskiːpə",
       "translations": {
         "ru": {
-          "translation": "хозяйка дома"
+          "translation": "свечение"
         }
       },
-      "definition": "A person employed to manage a household or an establishment's domestic affairs.",
-      "example": "Context introduces the role of 'housekeeper' managing the household.",
-      "matchedForm": "housekeeper"
+      "example": "Cat could not resist racing across the glowing carpet to scramble on one of the deep window seats and look out.",
+      "exampleStart": 2138,
+      "exampleEnd": 2249,
+      "matchedForm": "glowing",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.742857,
+      "difficultySource": "zipf"
     },
     {
-      "word": "luxurious",
-      "lemma": "luxurious",
-      "lemmaId": "luxurious",
-      "pos": "adjective",
-      "wordKey": "luxurious_adjective",
-      "level": "C1",
-      "ipa": "lʌɡˈʒʊəriəs",
+      "word": "gone along",
+      "lemma": "go along",
+      "lemmaId": "go_along",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_along_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "роскошный"
+          "translation": "Пошёл"
         }
       },
-      "definition": "Extremely comfortable, elegant, or enjoyable, especially in a way that involves great expense.",
-      "example": "Describing the opulence of the environment."
+      "example": "As soon as Miss Bessemer had gone, he hastened along to have a look at it.",
+      "exampleStart": 2878,
+      "exampleEnd": 2952,
+      "phraseMatch": {
+        "text": "gone, he hastened along",
+        "startInExample": 29,
+        "endInExample": 52
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "maid",
-      "lemma": "maid",
-      "lemmaId": "maid",
+      "word": "went back to",
+      "lemma": "go back to",
+      "lemmaId": "go_back_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_back_to_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "вернулся к"
+        }
+      },
+      "example": "He went back to his room, a little damp himself.",
+      "exampleStart": 3237,
+      "exampleEnd": 3285,
+      "phraseMatch": {
+        "text": "went back to",
+        "startInExample": 3,
+        "endInExample": 15
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "going down",
+      "lemma": "go down",
+      "lemmaId": "go_down",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_down_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Спускаемся вниз"
+        }
+      },
+      "example": "He found he could see across the flat tops of the cedars to a great lawn like a sheet of green velvet, with flower gardens going down the hillside in steps beyond it.",
+      "exampleStart": 2250,
+      "exampleEnd": 2416,
+      "phraseMatch": {
+        "text": "going down",
+        "startInExample": 123,
+        "endInExample": 133
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "hand out",
+      "lemma": "hand out",
+      "lemmaId": "hand_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "hand_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Раздавай"
+        }
+      },
+      "example": "Gwendolen, who was very annoyed to be met by a mere housekeeper, held her hand out coldly to Miss Bessemer.",
+      "exampleStart": 202,
+      "exampleEnd": 309,
+      "phraseMatch": {
+        "text": "hand out",
+        "startInExample": 74,
+        "endInExample": 82
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "looked around",
+      "lemma": "look around",
+      "lemmaId": "look_around",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_around_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Оглядываясь"
+        }
+      },
+      "example": "Then he looked around the room itself.",
+      "exampleStart": 2417,
+      "exampleEnd": 2455,
+      "phraseMatch": {
+        "text": "looked around",
+        "startInExample": 8,
+        "endInExample": 21
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "look at",
+      "lemma": "look at",
+      "lemmaId": "look_at",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_at_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Посмотри"
+        }
+      },
+      "example": "As soon as Miss Bessemer had gone, he hastened along to have a look at it.",
+      "exampleStart": 2878,
+      "exampleEnd": 2952,
+      "phraseMatch": {
+        "text": "look at",
+        "startInExample": 63,
+        "endInExample": 70
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "looking in",
+      "lemma": "look in",
+      "lemmaId": "look_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Заглядывая внутрь"
+        }
+      },
+      "example": "There was a table, a chest-of-drawers, and a bookcase with interesting-looking books in it.",
+      "exampleStart": 2560,
+      "exampleEnd": 2651,
+      "phraseMatch": {
+        "text": "looking books in",
+        "startInExample": 71,
+        "endInExample": 87
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "look out",
+      "lemma": "look out",
+      "lemmaId": "look_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Берегись."
+        }
+      },
+      "example": "Cat could not resist racing across the glowing carpet to scramble on one of the deep window seats and look out.",
+      "exampleStart": 2138,
+      "exampleEnd": 2249,
+      "phraseMatch": {
+        "text": "look out",
+        "startInExample": 102,
+        "endInExample": 110
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "melon",
+      "lemma": "melon",
+      "lemmaId": "melon",
       "pos": "noun",
-      "wordKey": "maid_noun",
-      "level": "B2",
-      "ipa": "meɪd",
+      "source": "word",
+      "wordKey": "melon_noun",
+      "level": "A1",
       "translations": {
         "ru": {
-          "translation": "служанка, горничная"
+          "translation": "дыня"
         }
       },
-      "definition": "A female domestic worker.",
-      "example": "Identifies household staff."
+      "example": "To his awe, there were three sizes of red towel and a sponge as big as a melon.",
+      "exampleStart": 2953,
+      "exampleEnd": 3032,
+      "matchedForm": "melon",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.911429,
+      "difficultySource": "zipf"
     },
     {
-      "word": "patchwork quilt",
-      "lemma": "patchwork quilt",
-      "lemmaId": "patchwork_quilt",
-      "pos": "phrase",
-      "wordKey": "patchwork_quilt_phrase",
-      "level": "C1",
-      "ipa": "ˈpætʃwɜːk kwɪlt",
-      "translations": {
-        "ru": {
-          "translation": "лоскутное одеяло"
-        }
-      },
-      "definition": "A blanket made by joining pieces of fabric to form a pattern.",
-      "example": "Describes bed covering."
-    },
-    {
-      "word": "pleasant",
-      "lemma": "pleasant",
-      "lemmaId": "pleasant",
-      "pos": "adjective",
-      "wordKey": "pleasant_adjective",
-      "level": "B2",
-      "ipa": "ˈplɛznt",
-      "translations": {
-        "ru": {
-          "translation": "приятный, любезный"
-        }
-      },
-      "definition": "Giving a sense of happy satisfaction or enjoyment; friendly and agreeable.",
-      "example": "Describes the maid's demeanor."
-    },
-    {
-      "word": "polished",
-      "lemma": "polished",
-      "lemmaId": "polished",
-      "pos": "adjective",
-      "wordKey": "polished_adjective",
-      "level": "B2",
-      "ipa": "ˈpɒlɪʃt",
-      "translations": {
-        "ru": {
-          "translation": "отполированный, блестящий"
-        }
-      },
-      "definition": "Made smooth and shiny by rubbing; refined and elegant.",
-      "example": "Describes the floor’s reflective surface enhancing elegance."
-    },
-    {
-      "word": "possession",
-      "lemma": "possession",
-      "lemmaId": "possession",
+      "word": "patchwork",
+      "lemma": "patchwork",
+      "lemmaId": "patchwork",
       "pos": "noun",
-      "wordKey": "possession_noun",
-      "level": "B2",
-      "ipa": "pəˈzɛʃən",
+      "source": "word",
+      "wordKey": "patchwork_noun",
+      "level": "C1",
       "translations": {
         "ru": {
-          "translation": "обладать, владение"
+          "translation": "лоскутный"
         }
       },
-      "definition": "The state of having, owning, or controlling something.",
-      "example": "Refers to accepting ownership or control of a room."
+      "example": "The bed had a patchwork quilt on it.",
+      "exampleStart": 2523,
+      "exampleEnd": 2559,
+      "matchedForm": "patchwork",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.974286,
+      "difficultySource": "zipf"
     },
     {
-      "word": "private",
-      "lemma": "private",
-      "lemmaId": "private",
+      "word": "peeped",
+      "lemma": "peep",
+      "lemmaId": "peep",
       "pos": "adjective",
-      "wordKey": "private_adjective",
-      "level": "B2",
-      "ipa": "ˈpraɪvɪt",
+      "source": "word",
+      "wordKey": "peep_adjective",
+      "level": "A2",
       "translations": {
         "ru": {
-          "translation": "частный, личный"
+          "translation": "подглядывать"
         }
       },
-      "definition": "Restricted to a particular person or group; not public.",
-      "example": "Emphasizes exclusivity or personal use."
+      "example": "Cat peeped past Miss Bessemer and saw the room was very big, with a rich, soft Turkey carpet covering most of the floor.",
+      "exampleStart": 1388,
+      "exampleEnd": 1508,
+      "matchedForm": "peeped",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.891429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "putting in",
+      "lemma": "put in",
+      "lemmaId": "put_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "put_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Вставляя"
+        }
+      },
+      "example": "She told Cat her name was Mary and wanted to know if she was putting things in the right places.",
+      "exampleStart": 3374,
+      "exampleEnd": 3470,
+      "phraseMatch": {
+        "text": "putting things in",
+        "startInExample": 61,
+        "endInExample": 78
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "rustle",
       "lemma": "rustle",
       "lemmaId": "rustle",
-      "pos": "noun",
-      "wordKey": "rustle_noun",
-      "level": "B2",
-      "ipa": "ˈrʌsl",
-      "translations": {
-        "ru": {
-          "translation": "шелест"
-        }
-      },
-      "definition": "A soft, muffled crackling sound like that made by the movement of dry leaves or paper.",
-      "example": "Auditory description adding atmosphere."
-    },
-    {
-      "word": "scramble",
-      "lemma": "scramble",
-      "lemmaId": "scramble",
       "pos": "verb",
-      "wordKey": "scramble_verb",
+      "source": "word",
+      "wordKey": "rustle_verb",
       "level": "B2",
-      "ipa": "ˈskræmbl",
       "translations": {
         "ru": {
-          "translation": "карабкаться, взбираться"
+          "translation": "шорох"
         }
       },
-      "definition": "To move quickly or awkwardly, often using hands and feet.",
-      "example": "Describes Cat’s eager reaction."
+      "example": "They heard nothing the whole way, except their own feet and Miss Bessemer’s purple rustle.",
+      "exampleStart": 1089,
+      "exampleEnd": 1179,
+      "matchedForm": "rustle",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "settled",
-      "lemma": "settled",
-      "lemmaId": "settled",
-      "pos": "adjective",
-      "wordKey": "settled_adjective",
-      "level": "B2",
-      "ipa": "ˈsɛtld",
+      "word": "triangle",
+      "lemma": "triangle",
+      "lemmaId": "triangle",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "triangle_noun",
+      "level": "A2",
       "translations": {
         "ru": {
-          "translation": "решённый, улаженный"
+          "translation": "треугольник"
         }
       },
-      "definition": "Resolved or decided.",
-      "example": "Indicates a decision has been made about tea arrangements."
+      "example": "”\n\nThey followed the narrow purple triangle of her dress up some stairs, along corridors, and up more stairs.",
+      "exampleStart": 693,
+      "exampleEnd": 802,
+      "matchedForm": "triangle",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.737143,
+      "difficultySource": "zipf"
     },
     {
-      "word": "shy",
-      "lemma": "shy",
-      "lemmaId": "shy",
-      "pos": "adjective",
-      "wordKey": "shy_adjective",
+      "word": "turned to",
+      "lemma": "turn to",
+      "lemmaId": "turn_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "turn_to_phrasal_verb",
       "level": "B2",
-      "ipa": "ʃaɪ",
       "translations": {
         "ru": {
-          "translation": "застенчивый"
+          "translation": "повернулся к"
         }
       },
-      "definition": "Nervous or timid in the company of others.",
-      "example": "Expresses Cat's social hesitation."
+      "example": "Cat was just thinking she was the most awe-inspiring lady he had ever met when she turned to him with a very kind smile.",
+      "exampleStart": 354,
+      "exampleEnd": 474,
+      "phraseMatch": {
+        "text": "turned to",
+        "startInExample": 83,
+        "endInExample": 92
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "twisting",
-      "lemma": "twisting",
-      "lemmaId": "twisting",
+      "word": "unpacking",
+      "lemma": "unpack",
+      "lemmaId": "unpack",
       "pos": "adjective",
-      "wordKey": "twisting_adjective",
-      "level": "B2",
-      "ipa": "ˈtwɪstɪŋ",
+      "source": "word",
+      "wordKey": "unpack_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "извилистый, закрученный"
+          "translation": "распаковать"
         }
       },
-      "definition": "Having a shape that curves and turns.",
-      "example": "Describes architectural feature."
+      "example": "His trunk and box were there by this time, and a maid with red hair was unpacking them.",
+      "exampleStart": 3286,
+      "exampleEnd": 3373,
+      "matchedForm": "unpacking",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.991429,
+      "difficultySource": "zipf"
     },
     {
       "word": "whitewashed",
-      "lemma": "whitewashed",
-      "lemmaId": "whitewashed",
+      "lemma": "whitewash",
+      "lemmaId": "whitewash",
       "pos": "adjective",
-      "wordKey": "whitewashed_adjective",
+      "source": "word",
+      "wordKey": "whitewash_adjective",
       "level": "C1",
-      "ipa": "ˈwaɪtwɒʃt",
       "translations": {
         "ru": {
-          "translation": "побелённый известью"
+          "translation": "белье"
         }
       },
-      "definition": "Covered with a white paint-like substance.",
-      "example": "Describes appearance of walls."
+      "example": "The curved walls were whitewashed, and so was the thick fireplace.",
+      "exampleStart": 2456,
+      "exampleEnd": 2522,
+      "matchedForm": "whitewashed",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     }
   ]
 }

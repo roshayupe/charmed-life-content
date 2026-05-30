@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 18,
     "sectionTitle": "Chapter 15",
     "fragmentIndex": 7,
@@ -21,549 +20,593 @@
       "wordCount": 651,
       "uniqueWordCount": 351,
       "paragraphCount": 13,
-      "vocabularyCount": 28,
+      "vocabularyCount": 26,
       "levelDistribution": {
         "A1": 0,
-        "A2": 0,
-        "B1": 0,
-        "B2": 16,
-        "C1": 6,
-        "C2": 6
+        "A2": 1,
+        "B1": 4,
+        "B2": 18,
+        "C1": 2,
+        "C2": 1
       }
     }
   },
   "vocabulary": [
     {
-      "word": "archway",
-      "lemma": "archway",
-      "lemmaId": "archway",
-      "pos": "noun",
-      "wordKey": "archway_noun",
+      "word": "amounted to",
+      "lemma": "amount to",
+      "lemmaId": "amount_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "amount_to_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈɑrtʃˌweɪ",
       "translations": {
         "ru": {
-          "translation": "арка, проход под аркой"
+          "translation": "в итоге"
         }
       },
-      "definition": "A passage or entrance with an arched roof.",
-      "example": "just in front of the ruined archway",
-      "exampleStart": 939,
-      "exampleEnd": 974,
-      "matchedForm": "archway"
+      "example": "She had on what must have amounted to underclothes in her new world.",
+      "exampleStart": 2937,
+      "exampleEnd": 3005,
+      "phraseMatch": {
+        "text": "amounted to",
+        "startInExample": 26,
+        "endInExample": 37
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "astonished",
       "lemma": "astonish",
       "lemmaId": "astonish",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "astonish_adjective",
       "level": "B2",
-      "ipa": "əˈstɑːnɪʃt",
       "translations": {
         "ru": {
-          "translation": "изумленный"
+          "translation": "изумительный"
         }
       },
-      "definition": "Very surprised or amazed.",
-      "example": "To his astonishment",
-      "exampleStart": 2221,
-      "exampleEnd": 2240,
-      "matchedForm": "astonishment"
+      "example": "Everyone there was quite as astonished as Cat.",
+      "exampleStart": 2400,
+      "exampleEnd": 2446,
+      "matchedForm": "astonished",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "bustled",
-      "lemma": "bustle",
-      "lemmaId": "bustle",
-      "pos": "verb",
-      "wordKey": "bustle_verb",
-      "level": "C1",
-      "ipa": "ˈbʌsl",
-      "translations": {
-        "ru": {
-          "translation": "спешить, суетиться"
-        }
-      },
-      "definition": "Move in an energetic or noisy manner.",
-      "example": "William Nostrum bustled up",
-      "exampleStart": 212,
-      "exampleEnd": 238,
-      "matchedForm": "bustled"
-    },
-    {
-      "word": "cast a spell",
-      "lemma": "cast a spell",
-      "lemmaId": "cast_a_spell",
+      "word": "cut it",
+      "lemma": "cut it",
+      "lemmaId": "cut_it",
       "pos": "phrase",
-      "wordKey": "cast_a_spell_phrase",
-      "level": "B2",
-      "ipa": "kæst ə spɛl",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "cut_it_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "наложить заклинание"
+          "translation": "Стоп"
         }
       },
-      "definition": "To perform a magical incantation intended to produce a specific effect.",
-      "example": "Just a moment.",
-      "exampleStart": 3370,
-      "exampleEnd": 3384,
-      "matchedForm": "a"
-    },
-    {
-      "word": "clockwork",
-      "lemma": "clockwork",
-      "lemmaId": "clockwork",
-      "pos": "noun",
-      "wordKey": "clockwork_noun",
-      "level": "C2",
-      "ipa": "ˈklɑkˌwɜrk",
-      "translations": {
-        "ru": {
-          "translation": "механизм с часовым заводом"
-        }
+      "example": "But he hoped his throat would heal after they cut it.",
+      "exampleStart": 2043,
+      "exampleEnd": 2096,
+      "phraseMatch": {
+        "text": "cut it",
+        "startInExample": 46,
+        "endInExample": 52
       },
-      "definition": "A mechanism of springs and gears that operates like a clock.",
-      "example": "like a clockwork toy running down.",
-      "exampleStart": 824,
-      "exampleEnd": 858,
-      "matchedForm": "clockwork"
-    },
-    {
-      "word": "coiled",
-      "lemma": "coil",
-      "lemmaId": "coil",
-      "pos": "verb",
-      "wordKey": "coil_verb",
-      "level": "C2",
-      "ipa": "kɔɪld",
-      "translations": {
-        "ru": {
-          "translation": "витой, закрученный"
-        }
-      },
-      "definition": "To wind into continuous, regularly spaced rings or spirals.",
-      "example": "smell of magic coiled around the meadow",
-      "exampleStart": 667,
-      "exampleEnd": 706,
-      "matchedForm": "coiled"
+      "levelSource": "phrase_fallback"
     },
     {
       "word": "disenchanted",
       "lemma": "disenchant",
       "lemmaId": "disenchant",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "disenchant_adjective",
       "level": "C2",
-      "ipa": "ˌdɪsɪnˈtʃæntɪd",
       "translations": {
         "ru": {
-          "translation": "разочарованный, лишенный очарования"
+          "translation": "разочарованный"
         }
       },
-      "definition": "Freed from illusion or enchantment; when magical effects are removed.",
-      "example": "has to be disenchanted by cutting the",
-      "exampleStart": 1368,
-      "exampleEnd": 1405,
-      "matchedForm": "disenchanted"
+      "example": "I explained to you most carefully that the garden has to be disenchanted by cutting the throat of an innocent child on that slab of stone there.",
+      "exampleStart": 1318,
+      "exampleEnd": 1462,
+      "matchedForm": "disenchanted",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "dressing gown",
-      "lemma": "dressing gown",
-      "lemmaId": "dressing_gown",
-      "pos": "noun",
-      "wordKey": "dressing_gown_noun",
+      "word": "doubled up",
+      "lemma": "double up",
+      "lemmaId": "double_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "double_up_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈdrɛsɪŋ ɡaʊn",
       "translations": {
         "ru": {
-          "translation": "халат"
+          "translation": "Удвоили"
         }
       },
-      "definition": "A loose robe worn before or after dressing.",
-      "example": "magnificent than any of Chrestomanci’s dressing gowns",
-      "exampleStart": 3021,
-      "exampleEnd": 3074,
-      "matchedForm": "dressing"
-    },
-    {
-      "word": "gleefully",
-      "lemma": "gleefully",
-      "lemmaId": "gleefully",
-      "pos": "adverb",
-      "wordKey": "gleefully_adverb",
-      "level": "C1",
-      "ipa": "ˈɡliːfəli",
-      "translations": {
-        "ru": {
-          "translation": "весело, ликующе"
-        }
+      "example": "He doubled up.",
+      "exampleStart": 3579,
+      "exampleEnd": 3593,
+      "phraseMatch": {
+        "text": "doubled up",
+        "startInExample": 3,
+        "endInExample": 13
       },
-      "definition": "In a joyful and exuberant manner.",
-      "example": "” Henry Nostrum said gleefully.",
-      "exampleStart": 28,
-      "exampleEnd": 59,
-      "matchedForm": "gleefully"
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "headdress",
-      "lemma": "headdress",
-      "lemmaId": "headdress",
-      "pos": "noun",
-      "wordKey": "headdress_noun",
+      "word": "dusting off",
+      "lemma": "dust off",
+      "lemmaId": "dust_off",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "dust_off_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈhɛd.drɛs",
       "translations": {
         "ru": {
-          "translation": "головной убор"
+          "translation": "Отрывание пыли"
         }
       },
-      "definition": "An ornamental covering for the head, worn especially on ceremonial occasions.",
-      "example": "her hair up in that strange headdress",
-      "exampleStart": 2850,
-      "exampleEnd": 2887,
-      "matchedForm": "headdress"
+      "example": "Gwendolen came from between the pillars, dusting off the dragons’ blood from her fingers with one of Cat’s school essays.",
+      "exampleStart": 2557,
+      "exampleEnd": 2678,
+      "phraseMatch": {
+        "text": "dusting off",
+        "startInExample": 41,
+        "endInExample": 52
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "helpless",
-      "lemma": "helpless",
-      "lemmaId": "helpless",
+      "word": "exclaimed",
+      "lemma": "exclaim",
+      "lemmaId": "exclaim",
       "pos": "adjective",
-      "wordKey": "helpless_adjective",
+      "source": "word",
+      "wordKey": "exclaim_adjective",
       "level": "B2",
-      "ipa": "ˈhɛlpləs",
       "translations": {
         "ru": {
-          "translation": "беспомощный"
+          "translation": "восклицать"
         }
       },
-      "definition": "Unable to defend oneself or act without help.",
-      "example": "put an arm around the helpless Cat",
-      "exampleStart": 104,
-      "exampleEnd": 138,
-      "matchedForm": "helpless"
+      "example": "” exclaimed Henry Nostrum.",
+      "exampleStart": 3088,
+      "exampleEnd": 3114,
+      "matchedForm": "exclaimed",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "eyes up",
+      "lemma": "eye up",
+      "lemmaId": "eye_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "eye_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Глаза вверх"
+        }
+      },
+      "example": "He turned his eyes up to Janet, meaning to give her a reassuring look.",
+      "exampleStart": 2149,
+      "exampleEnd": 2219,
+      "phraseMatch": {
+        "text": "eyes up",
+        "startInExample": 14,
+        "endInExample": 21
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "frightened",
+      "lemma": "frighten",
+      "lemmaId": "frighten",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "frighten_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "пугать"
+        }
+      },
+      "example": "Apart from that, Cat was not as frightened as he might have been.",
+      "exampleStart": 1924,
+      "exampleEnd": 1989,
+      "matchedForm": "frightened",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.98,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "went on",
+      "lemma": "go on",
+      "lemmaId": "go_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "продолжил"
+        }
+      },
+      "example": "”\n\nJanet stared at him, and went on staring as all the implications struck her.",
+      "exampleStart": 1613,
+      "exampleEnd": 1692,
+      "phraseMatch": {
+        "text": "went on",
+        "startInExample": 28,
+        "endInExample": 35
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "implications",
       "lemma": "implication",
       "lemmaId": "implication",
       "pos": "noun",
+      "source": "word",
       "wordKey": "implication_noun",
       "level": "C1",
-      "ipa": "ˌɪmplɪˈkeɪʃənz",
       "translations": {
         "ru": {
-          "translation": "последствия, подтексты"
+          "translation": "подразумевать"
         }
       },
-      "definition": "The possible effects or results of an action or decision.",
-      "example": "staring as all the implications struck her",
-      "exampleStart": 1649,
-      "exampleEnd": 1691,
-      "matchedForm": "implications"
+      "example": "”\n\nJanet stared at him, and went on staring as all the implications struck her.",
+      "exampleStart": 1613,
+      "exampleEnd": 1692,
+      "matchedForm": "implications",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.842857,
+      "difficultySource": "zipf"
     },
     {
-      "word": "innocent",
-      "lemma": "innocent",
-      "lemmaId": "innocent",
-      "pos": "adjective",
-      "wordKey": "innocent_adjective",
+      "word": "look to",
+      "lemma": "look to",
+      "lemmaId": "look_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_to_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈɪnəsənt",
       "translations": {
         "ru": {
-          "translation": "невинный"
+          "translation": "Смотри"
         }
       },
-      "definition": "Not guilty of a crime or offense.",
-      "example": "throat of an innocent child on that",
-      "exampleStart": 1406,
-      "exampleEnd": 1441,
-      "matchedForm": "innocent"
+      "example": "“It’s young Cat who has to go on there.",
+      "matchedForm": "to",
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "limply",
-      "lemma": "limp",
-      "lemmaId": "limp",
-      "pos": "adverb",
-      "wordKey": "limp_adverb",
-      "level": "C1",
-      "ipa": "ˈlɪmpli",
+      "word": "other side",
+      "lemma": "other side",
+      "lemmaId": "other_side",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "other_side_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "вялым образом"
+          "translation": "Другая сторона"
         }
       },
-      "definition": "In a way that is weak or lacking firmness.",
-      "example": "She noticed Chrestomanci limply tied to the",
-      "exampleStart": 3287,
-      "exampleEnd": 3330,
-      "matchedForm": "limply"
+      "example": "” Gwendolen said, from the other side of the stone.",
+      "exampleStart": 2458,
+      "exampleEnd": 2509,
+      "phraseMatch": {
+        "text": "other side",
+        "startInExample": 27,
+        "endInExample": 37
+      },
+      "levelSource": "phrase_fallback"
     },
     {
-      "word": "magnificent",
-      "lemma": "magnificent",
-      "lemmaId": "magnificent",
-      "pos": "adjective",
-      "wordKey": "magnificent_adjective",
+      "word": "pointed to",
+      "lemma": "point to",
+      "lemmaId": "point_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "point_to_phrasal_verb",
       "level": "B2",
-      "ipa": "mæɡˈnɪfəsənt",
       "translations": {
         "ru": {
-          "translation": "великолепный, великолепный"
+          "translation": "указал на"
         }
       },
-      "definition": "Extremely beautiful, elaborate, or impressive.",
-      "example": "They were more magnificent than any of",
-      "exampleStart": 3006,
-      "exampleEnd": 3044,
-      "matchedForm": "magnificent"
-    },
-    {
-      "word": "massive",
-      "lemma": "massive",
-      "lemmaId": "massive",
-      "pos": "adjective",
-      "wordKey": "massive_adjective",
-      "level": "B2",
-      "ipa": "ˈmæsɪv",
-      "translations": {
-        "ru": {
-          "translation": "масштабный, массивный"
-        }
-      },
-      "definition": "Large and heavy or solid.",
-      "example": "had taken off the massive golden robes",
-      "exampleStart": 2897,
-      "exampleEnd": 2935,
-      "matchedForm": "massive"
-    },
-    {
-      "word": "necromancer",
-      "lemma": "necromancer",
-      "lemmaId": "necromancer",
-      "pos": "noun",
-      "wordKey": "necromancer_noun",
-      "level": "C2",
-      "ipa": "ˈnɛkrəˌmæn.sɚ",
-      "translations": {
-        "ru": {
-          "translation": "некромант"
-        }
-      },
-      "definition": "A person who claims to communicate with the dead to predict the future or perform magic.",
-      "example": "necromancer",
-      "exampleStart": 603,
-      "exampleEnd": 614,
-      "matchedForm": "necromancer"
-    },
-    {
-      "word": "perplexed",
-      "lemma": "perplexed",
-      "lemmaId": "perplexed",
-      "pos": "adjective",
-      "wordKey": "perplexed_adjective",
-      "level": "C1",
-      "ipa": "pərˈplɛkst",
-      "translations": {
-        "ru": {
-          "translation": "озадаченный, озадаченный"
-        }
-      },
-      "definition": "Completely baffled; very puzzled.",
-      "example": "rather perplexed.",
-      "exampleStart": 1274,
-      "exampleEnd": 1291,
-      "matchedForm": "perplexed"
-    },
-    {
-      "word": "pointed",
-      "lemma": "pointed",
-      "lemmaId": "pointed",
-      "pos": "adjective",
-      "wordKey": "pointed_adjective",
-      "level": "B2",
-      "ipa": "ˈpɔɪntɪd",
-      "translations": {
-        "ru": {
-          "translation": "заостренный"
-        }
-      },
-      "definition": "Having a tapered, sharp end.",
-      "example": "He pointed to the space Janet had",
+      "example": "He pointed to the space Janet had vanished from.",
       "exampleStart": 3115,
-      "exampleEnd": 3148,
-      "matchedForm": "pointed"
+      "exampleEnd": 3163,
+      "phraseMatch": {
+        "text": "pointed to",
+        "startInExample": 3,
+        "endInExample": 13
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "replacement",
-      "lemma": "replacement",
-      "lemmaId": "replacement",
-      "pos": "noun",
-      "wordKey": "replacement_noun",
+      "word": "put around",
+      "lemma": "put around",
+      "lemmaId": "put_around",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "put_around_phrasal_verb",
       "level": "B2",
-      "ipa": "rɪˈpleɪsmənt",
       "translations": {
         "ru": {
-          "translation": "замена"
+          "translation": "Расставьте"
         }
       },
-      "definition": "A person or thing that takes the place of another.",
-      "example": "”\n\n“Just a replacement",
-      "exampleStart": 3175,
-      "exampleEnd": 3197,
-      "matchedForm": "replacement"
+      "example": "” He put an arm around the helpless Cat, plucked him off the ground, and carried him towards the block of stone.",
+      "exampleStart": 99,
+      "exampleEnd": 211,
+      "phraseMatch": {
+        "text": "put an arm around",
+        "startInExample": 5,
+        "endInExample": 22
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "resentfully",
       "lemma": "resentfully",
       "lemmaId": "resentfully",
       "pos": "adverb",
+      "source": "word",
       "wordKey": "resentfully_adverb",
-      "level": "C2",
-      "ipa": "rɪˈzɛntfəli",
+      "level": "C1",
       "translations": {
         "ru": {
-          "translation": "обиженно, с возмущением"
+          "translation": "обиженно"
         }
       },
-      "definition": "With bitterness or indignation.",
       "example": "Cat stared resentfully at the Willing Warlock.",
       "exampleStart": 1843,
       "exampleEnd": 1889,
-      "matchedForm": "resentfully"
+      "matchedForm": "resentfully",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "ruined",
-      "lemma": "ruin",
-      "lemmaId": "ruin",
+      "word": "rumbled",
+      "lemma": "rumble",
+      "lemmaId": "rumble",
       "pos": "adjective",
-      "wordKey": "ruin_adjective",
-      "level": "B2",
-      "ipa": "ˈruːɪnd",
+      "source": "word",
+      "wordKey": "rumble_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "разрушенный"
+          "translation": "грохот"
         }
       },
-      "definition": "Destroyed or spoiled.",
-      "example": "just in front of the ruined archway",
-      "exampleStart": 939,
-      "exampleEnd": 974,
-      "matchedForm": "ruined"
+      "example": "And the same yell rumbled around the meadow.",
+      "exampleStart": 2355,
+      "exampleEnd": 2399,
+      "matchedForm": "rumbled",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.88,
+      "difficultySource": "zipf"
     },
     {
-      "word": "slab",
-      "lemma": "slab",
-      "lemmaId": "slab",
-      "pos": "noun",
-      "wordKey": "slab_noun",
+      "word": "running down",
+      "lemma": "run down",
+      "lemmaId": "run_down",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "run_down_phrasal_verb",
       "level": "B2",
-      "ipa": "slæb",
       "translations": {
         "ru": {
-          "translation": "плита"
+          "translation": "Бег вниз"
         }
       },
-      "definition": "A large, thick, flat piece of stone or other hard material.",
-      "example": "child on that slab of stone there",
-      "exampleStart": 1428,
-      "exampleEnd": 1461,
-      "matchedForm": "slab"
+      "example": "He felt himself running in slow motion, slower and slower, like a clockwork toy running down.",
+      "exampleStart": 765,
+      "exampleEnd": 858,
+      "phraseMatch": {
+        "text": "running down",
+        "startInExample": 80,
+        "endInExample": 92
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "shins",
+      "lemma": "shin",
+      "lemmaId": "shin",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "shin_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "голень"
+        }
+      },
+      "example": "” She marched over to Chrestomanci and held up her golden underclothes in order to kick him hard on both shins.",
+      "exampleStart": 3384,
+      "exampleEnd": 3495,
+      "matchedForm": "shins",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.805714,
+      "difficultySource": "zipf"
     },
     {
       "word": "snatched",
       "lemma": "snatch",
       "lemmaId": "snatch",
-      "pos": "verb",
-      "wordKey": "snatch_verb",
-      "level": "C1",
-      "ipa": "snætʃt",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "snatch_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "схватила, выхватила"
+          "translation": "похищать"
         }
       },
-      "definition": "Suddenly seize or grab.",
-      "example": "Janet was snatched away backwards into nothingness.",
-      "exampleStart": 2242,
+      "example": "To his astonishment, Janet was snatched away backwards into nothingness.",
+      "exampleStart": 2221,
       "exampleEnd": 2293,
-      "matchedForm": "snatched"
+      "matchedForm": "snatched",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.851429,
+      "difficultySource": "zipf"
     },
     {
-      "word": "stiff",
-      "lemma": "stiff",
-      "lemmaId": "stiff",
-      "pos": "adjective",
-      "wordKey": "stiff_adjective",
+      "word": "spell out",
+      "lemma": "spell out",
+      "lemmaId": "spell_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "spell_out_phrasal_verb",
       "level": "B2",
-      "ipa": "stɪf",
       "translations": {
         "ru": {
-          "translation": "жесткий, неподвижный"
+          "translation": "Формулировка"
         }
       },
-      "definition": "Not easily bent or changed in shape; rigid.",
-      "example": "and he was stiff as a board.",
-      "exampleStart": 976,
-      "exampleEnd": 1004,
-      "matchedForm": "stiff"
+      "example": "Cat was so terrified that he managed somehow to break the spell.",
+      "matchedForm": "spell",
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "steps to",
+      "lemma": "step to",
+      "lemmaId": "step_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "step_to_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Шаги к"
+        }
+      },
+      "example": "It was only a few steps to run.",
+      "exampleStart": 535,
+      "exampleEnd": 566,
+      "phraseMatch": {
+        "text": "steps to",
+        "startInExample": 18,
+        "endInExample": 26
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "taken off",
+      "lemma": "take off",
+      "lemmaId": "take_off",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "take_off_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Снят"
+        }
+      },
+      "example": "Gwendolen still had her hair up in that strange headdress, but she had taken off the massive golden robes.",
+      "exampleStart": 2830,
+      "exampleEnd": 2936,
+      "phraseMatch": {
+        "text": "taken off",
+        "startInExample": 71,
+        "endInExample": 80
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "terrified",
       "lemma": "terrify",
       "lemmaId": "terrify",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "terrify_adjective",
       "level": "B2",
-      "ipa": "ˈtɛrəˌfaɪd",
       "translations": {
         "ru": {
-          "translation": "испуганный"
+          "translation": "ужасать"
         }
       },
-      "definition": "Extremely frightened.",
-      "example": "Cat was so terrified that he managed",
+      "example": "Cat was so terrified that he managed somehow to break the spell.",
       "exampleStart": 327,
-      "exampleEnd": 363,
-      "matchedForm": "terrified"
+      "exampleEnd": 391,
+      "matchedForm": "terrified",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "uncoiling",
       "lemma": "uncoil",
       "lemmaId": "uncoil",
-      "pos": "verb",
-      "wordKey": "uncoil_verb",
-      "level": "C2",
-      "ipa": "ʌnˈkɔɪl",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "uncoil_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "развивать, раскручивать"
+          "translation": "откатывать"
         }
       },
-      "definition": "To unwind or straighten from a coiled or twisted form.",
-      "example": "beaming and uncoiling his rope.",
-      "exampleStart": 240,
+      "example": "William Nostrum bustled up, beaming and uncoiling his rope.",
+      "exampleStart": 212,
       "exampleEnd": 271,
-      "matchedForm": "uncoiling"
+      "matchedForm": "uncoiling",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "underclothes",
-      "lemma": "underclothes",
-      "lemmaId": "underclothes",
-      "pos": "noun",
-      "wordKey": "underclothes_noun",
+      "word": "willingly",
+      "lemma": "willingly",
+      "lemmaId": "willingly",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "willingly_adverb",
       "level": "B2",
-      "ipa": "ˈʌndərkloʊðz",
       "translations": {
         "ru": {
-          "translation": "нижнее белье"
+          "translation": "добровольно"
         }
       },
-      "definition": "Clothing worn underneath outer clothes, typically underwear.",
-      "example": "up her golden underclothes in order to",
-      "exampleStart": 3428,
-      "exampleEnd": 3466,
-      "matchedForm": "underclothes"
+      "example": "The Willing Warlock bounced up willingly to help too.",
+      "exampleStart": 272,
+      "exampleEnd": 325,
+      "matchedForm": "willingly",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.837143,
+      "difficultySource": "zipf"
     }
   ]
 }

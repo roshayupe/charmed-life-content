@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 16,
     "sectionTitle": "Chapter 13",
     "fragmentIndex": 4,
@@ -21,642 +20,797 @@
       "wordCount": 694,
       "uniqueWordCount": 375,
       "paragraphCount": 12,
-      "vocabularyCount": 24,
+      "vocabularyCount": 34,
       "levelDistribution": {
         "A1": 0,
-        "A2": 0,
-        "B1": 2,
-        "B2": 8,
-        "C1": 11,
-        "C2": 3
+        "A2": 1,
+        "B1": 10,
+        "B2": 18,
+        "C1": 3,
+        "C2": 2
       }
     }
   },
   "vocabulary": [
     {
+      "word": "all over",
+      "lemma": "all over",
+      "lemmaId": "all_over",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "all_over_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Всё кончено"
+        }
+      },
+      "example": "“I’m nerves all over,” said Mrs.",
+      "exampleStart": 2918,
+      "exampleEnd": 2950,
+      "phraseMatch": {
+        "text": "all over",
+        "startInExample": 12,
+        "endInExample": 20
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "be there",
+      "lemma": "be there",
+      "lemmaId": "be_there",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "be_there_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Будь там"
+        }
+      },
+      "example": "Tea will be there for you.",
+      "exampleStart": 1615,
+      "exampleEnd": 1641,
+      "phraseMatch": {
+        "text": "be there",
+        "startInExample": 9,
+        "endInExample": 17
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "brought up",
+      "lemma": "bring up",
+      "lemmaId": "bring_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "bring_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Подняли"
+        }
+      },
+      "example": "Cat thought she had convinced herself she had brought him up from a baby.",
+      "exampleStart": 3544,
+      "exampleEnd": 3617,
+      "phraseMatch": {
+        "text": "brought him up",
+        "startInExample": 46,
+        "endInExample": 60
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "cared for",
+      "lemma": "care for",
+      "lemmaId": "care_for",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "care_for_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "заботился"
+        }
+      },
+      "example": "But I wish I cared for it in this Castle.",
+      "exampleStart": 2767,
+      "exampleEnd": 2808,
+      "phraseMatch": {
+        "text": "cared for",
+        "startInExample": 13,
+        "endInExample": 22
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
       "word": "ceremoniously",
       "lemma": "ceremoniously",
       "lemmaId": "ceremoniously",
-      "pos": "adverb",
-      "wordKey": "ceremoniously_adverb",
-      "level": "C1",
-      "ipa": "ˌsɛrəˈməʊniəsli",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "ceremoniously_adjective",
+      "level": "C2",
       "translations": {
-        "de": {
-          "translation": "feierlich"
-        },
-        "es": {
-          "translation": "ceremoniosamente"
-        },
         "ru": {
-          "translation": "церемонно"
-        },
-        "uk": {
-          "translation": "церемоніально"
+          "translation": "торжественно"
         }
       },
-      "definition": "In a formal or dignified manner, often with emphasis on tradition or ritual.",
-      "example": "The butler ceremoniously took Janet’s leaking hat away from her.",
-      "matchedForm": "ceremoniously"
+      "example": "The butler, furthermore, ceremoniously took Janet’s leaking hat away from her.",
+      "exampleStart": 1292,
+      "exampleEnd": 1370,
+      "matchedForm": "ceremoniously",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "chatter",
+      "word": "chattered",
       "lemma": "chatter",
       "lemmaId": "chatter",
       "pos": "verb",
+      "source": "word",
       "wordKey": "chatter_verb",
       "level": "B2",
-      "ipa": "verb",
       "translations": {
-        "de": {
-          "translation": "plaudern"
-        },
-        "es": {
-          "translation": "charlar"
-        },
         "ru": {
-          "translation": "болтать"
-        },
-        "uk": {
-          "translation": "балакати"
+          "translation": "болтовня"
         }
       },
-      "definition": "To talk rapidly or incessantly about trivial matters.",
       "example": "They chattered joyfully the whole way.",
-      "matchedForm": "chatter"
+      "exampleStart": 811,
+      "exampleEnd": 849,
+      "matchedForm": "chattered",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.894286,
+      "difficultySource": "zipf"
     },
     {
-      "word": "contacts",
-      "lemma": "contacts",
-      "lemmaId": "contacts",
-      "pos": "noun",
-      "wordKey": "contacts_noun",
-      "level": "C1",
-      "ipa": "ˈkɒntækts",
+      "word": "come back",
+      "lemma": "come back",
+      "lemmaId": "come_back",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_back_phrasal_verb",
+      "level": "B2",
       "translations": {
-        "de": {
-          "translation": "Beziehungen"
-        },
-        "es": {
-          "translation": "contactos"
-        },
         "ru": {
-          "translation": "контакты"
-        },
-        "uk": {
-          "translation": "контакти"
+          "translation": "Вернись"
         }
       },
-      "definition": "People who can provide information, support, or help, especially in a professional context.",
-      "example": "My contacts and other things have been paying nicely.",
-      "matchedForm": "contacts"
-    },
-    {
-      "word": "drawer room",
-      "lemma": "drawer room",
-      "lemmaId": "drawer_room",
-      "pos": "phrase",
-      "wordKey": "drawer_room_phrase",
-      "level": "C1",
-      "ipa": "noun",
-      "translations": {
-        "de": {
-          "translation": "Salon, Aufenthaltsraum"
-        },
-        "es": {
-          "translation": "sala de estar"
-        },
-        "ru": {
-          "translation": "приёмная комната"
-        },
-        "uk": {
-          "translation": "вітальня"
-        }
-      },
-      "definition": "A room where guests are entertained, often synonymous with drawing room.",
-      "example": "The Little Drawing Room where they hurried."
-    },
-    {
-      "word": "drawing room",
-      "lemma": "drawing room",
-      "lemmaId": "drawing_room",
-      "pos": "noun",
-      "wordKey": "drawing_room_noun",
-      "level": "C1",
-      "ipa": "ˈdrɔː.ɪŋ ˌruːm",
-      "translations": {
-        "de": {
-          "translation": "Salon"
-        },
-        "es": {
-          "translation": "salón"
-        },
-        "ru": {
-          "translation": "приёмная комната"
-        },
-        "uk": {
-          "translation": "вітальня"
-        }
-      },
-      "definition": "A room in a house where guests may be entertained.",
-      "example": "They hurried to the Little Drawing Room.",
+      "example": "Now, please, please come back.",
+      "exampleStart": 282,
+      "exampleEnd": 312,
       "phraseMatch": {
-        "text": "Drawing Room",
-        "startInExample": 27,
-        "endInExample": 39
-      }
+        "text": "come back",
+        "startInExample": 20,
+        "endInExample": 29
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "enchantment",
-      "lemma": "enchantment",
-      "lemmaId": "enchantment",
-      "pos": "noun",
-      "wordKey": "enchantment_noun",
-      "level": "C2",
-      "ipa": "ɪnˈtʃɑːntmənt",
+      "word": "came up",
+      "lemma": "come up",
+      "lemmaId": "come_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_up_phrasal_verb",
+      "level": "B2",
       "translations": {
-        "de": {
-          "translation": "Verzauberung"
-        },
-        "es": {
-          "translation": "encantamiento"
-        },
         "ru": {
-          "translation": "заклинание"
-        },
-        "uk": {
-          "translation": "зачарування"
+          "translation": "Всплыл"
         }
       },
-      "definition": "A magical spell or charm.",
-      "example": "It’s an enchantment, a terrible strong one too, against us witches.",
-      "matchedForm": "enchantment"
+      "example": "“Yes, we came up on the train yesterday, Mr.",
+      "exampleStart": 2437,
+      "exampleEnd": 2481,
+      "phraseMatch": {
+        "text": "came up",
+        "startInExample": 9,
+        "endInExample": 16
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "driven back",
+      "lemma": "drive back",
+      "lemmaId": "drive_back",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "drive_back_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Оттеснили назад"
+        }
+      },
+      "example": "”\n\nThere was nothing Cat and Janet could do but climb into the back of the car and be driven back to the Castle.",
+      "exampleStart": 363,
+      "exampleEnd": 475,
+      "phraseMatch": {
+        "text": "driven back",
+        "startInExample": 86,
+        "endInExample": 97
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "fatter",
       "lemma": "fatter",
       "lemmaId": "fatter",
-      "pos": "phrase",
-      "wordKey": "fatter_phrase",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "fatter_verb",
       "level": "B1",
-      "ipa": "adjective",
       "translations": {
-        "de": {
-          "translation": "dicker"
-        },
-        "es": {
-          "translation": "más gordo"
-        },
         "ru": {
           "translation": "толще"
-        },
-        "uk": {
-          "translation": "товщий"
         }
       },
-      "definition": "Having more fat than before or than another person or thing.",
       "example": "You’re fatter, Cat.",
-      "matchedForm": "fatter"
+      "exampleStart": 2110,
+      "exampleEnd": 2129,
+      "matchedForm": "fatter",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.985714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "felt for",
+      "lemma": "feel for",
+      "lemmaId": "feel_for",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "feel_for_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "чувствовала"
+        }
+      },
+      "example": "’ and I felt for you, Gwendolen.",
+      "exampleStart": 3326,
+      "exampleEnd": 3358,
+      "phraseMatch": {
+        "text": "felt for",
+        "startInExample": 8,
+        "endInExample": 16
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "gilded",
-      "lemma": "gilded",
-      "lemmaId": "gilded",
+      "lemma": "gild",
+      "lemmaId": "gild",
       "pos": "adjective",
-      "wordKey": "gilded_adjective",
-      "level": "C2",
-      "ipa": "ˈɡɪldɪd",
+      "source": "word",
+      "wordKey": "gild_adjective",
+      "level": "C1",
       "translations": {
-        "de": {
-          "translation": "vergoldet"
-        },
-        "es": {
-          "translation": "dorada"
-        },
         "ru": {
           "translation": "позолоченный"
-        },
-        "uk": {
-          "translation": "позолочений"
         }
       },
-      "definition": "Covered thinly with gold leaf or gold paint.",
-      "example": "She was sitting nervously on the edge of a gilded chair.",
-      "matchedForm": "gilded"
+      "example": "In the middle of the big, square room, a wispy, skinny woman in beaded black clothes was sitting nervously on the edge of a gilded chair.",
+      "exampleStart": 1658,
+      "exampleEnd": 1795,
+      "matchedForm": "gilded",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "gossip",
-      "lemma": "gossip",
-      "lemmaId": "gossip",
-      "pos": "noun",
-      "wordKey": "gossip_noun",
+      "word": "went in",
+      "lemma": "go in",
+      "lemmaId": "go_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_in_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈɡɒsɪp",
       "translations": {
-        "de": {
-          "translation": "Klatsch"
-        },
-        "es": {
-          "translation": "chisme"
-        },
         "ru": {
-          "translation": "сплетни"
-        },
-        "uk": {
-          "translation": "плітки"
+          "translation": "Вошёл"
         }
       },
-      "definition": "Casual or unconstrained conversation or reports about other people, typically involving details that are not confirmed as true.",
-      "example": "Mrs. Sharp settled down to eat and gossip hard.",
-      "matchedForm": "gossip"
-    },
-    {
-      "word": "greedy",
-      "lemma": "greedy",
-      "lemmaId": "greedy",
-      "pos": "adjective",
-      "wordKey": "greedy_adjective",
-      "level": "C1",
-      "ipa": "ˈɡriːdi",
-      "translations": {
-        "de": {
-          "translation": "gierig"
-        },
-        "es": {
-          "translation": "codicioso"
-        },
-        "ru": {
-          "translation": "жадный"
-        },
-        "uk": {
-          "translation": "жадний"
-        }
+      "example": "”\n\nThey went in.",
+      "exampleStart": 1641,
+      "exampleEnd": 1657,
+      "phraseMatch": {
+        "text": "went in",
+        "startInExample": 8,
+        "endInExample": 15
       },
-      "definition": "Having an intense and selfish desire for something, especially wealth or food.",
-      "example": "Mrs. Sharp, in her old greedy way.",
-      "matchedForm": "greedy"
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "impression",
-      "lemma": "impression",
-      "lemmaId": "impression",
-      "pos": "noun",
-      "wordKey": "impression_noun",
-      "level": "B2",
-      "ipa": "ɪmˈprɛʃ.ən",
-      "translations": {
-        "de": {
-          "translation": "Eindruck"
-        },
-        "es": {
-          "translation": "impresión"
-        },
-        "ru": {
-          "translation": "впечатление"
-        },
-        "uk": {
-          "translation": "враження"
-        }
-      },
-      "definition": "An idea, feeling, or opinion about something or someone formed without conscious thought.",
-      "example": "Cat got the impression that they were glad to have found Janet and Cat.",
-      "matchedForm": "impression"
-    },
-    {
-      "word": "jump around",
-      "lemma": "jump around",
-      "lemmaId": "jump_around",
+      "word": "i wish",
+      "lemma": "i wish",
+      "lemmaId": "i_wish",
       "pos": "phrase",
-      "wordKey": "jump_around_phrase",
-      "level": "C1",
-      "ipa": "phrasal verb",
-      "translations": {
-        "de": {
-          "translation": "herumspringen"
-        },
-        "es": {
-          "translation": "brincar"
-        },
-        "ru": {
-          "translation": "прыгать вокруг"
-        },
-        "uk": {
-          "translation": "стрибає навколо"
-        }
-      },
-      "definition": "To move quickly and energetically in different directions, often because of excitement or nervousness.",
-      "example": "She jumped around when the door opened."
-    },
-    {
-      "word": "leaking",
-      "lemma": "leaking",
-      "lemmaId": "leaking",
-      "pos": "adjective",
-      "wordKey": "leaking_adjective",
-      "level": "B2",
-      "ipa": "adjective",
-      "translations": {
-        "de": {
-          "translation": "undicht"
-        },
-        "es": {
-          "translation": "que pierde"
-        },
-        "ru": {
-          "translation": "протекающий"
-        },
-        "uk": {
-          "translation": "протікаючий"
-        }
-      },
-      "definition": "Allowing liquid or gas to escape through a hole or crack.",
-      "example": "The butler took Janet’s leaking hat away from her.",
-      "matchedForm": "leaking"
-    },
-    {
-      "word": "miserable",
-      "lemma": "miserable",
-      "lemmaId": "miserable",
-      "pos": "adjective",
-      "wordKey": "miserable_adjective",
-      "level": "C1",
-      "ipa": "ˈmɪz.ər.ə.bəl",
-      "translations": {
-        "de": {
-          "translation": "unglücklich"
-        },
-        "es": {
-          "translation": "infeliz"
-        },
-        "ru": {
-          "translation": "несчастный"
-        },
-        "uk": {
-          "translation": "нещасний"
-        }
-      },
-      "definition": "Very unhappy or uncomfortable.",
-      "example": "They were miserable.",
-      "matchedForm": "miserable"
-    },
-    {
-      "word": "muster",
-      "lemma": "muster",
-      "lemmaId": "muster",
-      "pos": "noun",
-      "wordKey": "muster_noun",
-      "level": "C1",
-      "ipa": "ˈmʌs.tər",
-      "translations": {
-        "de": {
-          "translation": "Überprüfung; Maßstab"
-        },
-        "es": {
-          "translation": "inspección"
-        },
-        "ru": {
-          "translation": "проверка; степень"
-        },
-        "uk": {
-          "translation": "перевірка; міра"
-        }
-      },
-      "definition": "An assemblage or gathering, or the quality required to meet a standard.",
-      "example": "Her dress would just pass muster.",
-      "matchedForm": "muster"
-    },
-    {
-      "word": "nervousness",
-      "lemma": "nervousness",
-      "lemmaId": "nervousness",
-      "pos": "noun",
-      "wordKey": "nervousness_noun",
-      "level": "B2",
-      "ipa": "ˈnɜːvəsnəs",
-      "translations": {
-        "de": {
-          "translation": "Nervosität"
-        },
-        "es": {
-          "translation": "nerviosismo"
-        },
-        "ru": {
-          "translation": "нервозность"
-        },
-        "uk": {
-          "translation": "нервозність"
-        }
-      },
-      "definition": "The state of being anxious or worried.",
-      "example": "She was sitting nervously on the edge of a gilded chair."
-    },
-    {
-      "word": "relieved",
-      "lemma": "relieved",
-      "lemmaId": "relieved",
-      "pos": "adjective",
-      "wordKey": "relieved_adjective",
-      "level": "B2",
-      "ipa": "rɪˈliːvd",
-      "translations": {
-        "de": {
-          "translation": "erleichtert"
-        },
-        "es": {
-          "translation": "aliviado"
-        },
-        "ru": {
-          "translation": "облегчённый"
-        },
-        "uk": {
-          "translation": "полегшений"
-        }
-      },
-      "definition": "No longer feeling anxious or distressed.",
-      "example": "Millie, Roger, and Julia were very relieved to have found them.",
-      "matchedForm": "relieved"
-    },
-    {
-      "word": "royalty",
-      "lemma": "royalty",
-      "lemmaId": "royalty",
-      "pos": "noun",
-      "wordKey": "royalty_noun",
-      "level": "C1",
-      "ipa": "ˈrɔɪəlti",
-      "translations": {
-        "de": {
-          "translation": "Königshaus"
-        },
-        "es": {
-          "translation": "realeza"
-        },
-        "ru": {
-          "translation": "королевская семья"
-        },
-        "uk": {
-          "translation": "королівська родина"
-        }
-      },
-      "definition": "Members of a royal family; formal honour or treatment as if from a royal person.",
-      "example": "They treated me like royalty when I turned up here.",
-      "matchedForm": "royalty"
-    },
-    {
-      "word": "skinny",
-      "lemma": "skinny",
-      "lemmaId": "skinny",
-      "pos": "phrase",
-      "wordKey": "skinny_phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "i_wish_phrase",
       "level": "B1",
-      "ipa": "adjective",
       "translations": {
-        "de": {
-          "translation": "dünn"
-        },
-        "es": {
-          "translation": "delgado"
-        },
         "ru": {
-          "translation": "тощий"
-        },
-        "uk": {
-          "translation": "худий"
+          "translation": "Хотелось бы"
         }
       },
-      "definition": "Very thin, sometimes in an unattractive way.",
-      "example": "A wispy, skinny woman in beaded black clothes.",
-      "matchedForm": "skinny"
+      "example": "But I wish I cared for it in this Castle.",
+      "exampleStart": 2767,
+      "exampleEnd": 2808,
+      "phraseMatch": {
+        "text": "I wish",
+        "startInExample": 4,
+        "endInExample": 10
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "i’ll tell you",
+      "lemma": "i’ll tell you",
+      "lemmaId": "ill_tell_you",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "ill_tell_you_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Я расскажу тебе"
+        }
+      },
+      "example": "“I feel weak and jumpy as a kitten—and that reminds me, Cat, but I’ll tell you later.",
+      "exampleStart": 2958,
+      "exampleEnd": 3043,
+      "phraseMatch": {
+        "text": "I’ll tell you",
+        "startInExample": 65,
+        "endInExample": 78
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "in spite of",
+      "lemma": "in spite of",
+      "lemmaId": "in_spite_of",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "in_spite_of_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "несмотря на"
+        }
+      },
+      "example": "Sharp was overjoyed, in spite of her nervousness.",
+      "exampleStart": 1914,
+      "exampleEnd": 1963,
+      "phraseMatch": {
+        "text": "in spite of",
+        "startInExample": 21,
+        "endInExample": 32
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "jumpy",
+      "lemma": "jumpy",
+      "lemmaId": "jumpy",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "jumpy_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "прыгающий"
+        }
+      },
+      "example": "“I feel weak and jumpy as a kitten—and that reminds me, Cat, but I’ll tell you later.",
+      "exampleStart": 2958,
+      "exampleEnd": 3043,
+      "matchedForm": "jumpy",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "long time",
+      "lemma": "long time",
+      "lemmaId": "long_time",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "long_time_phrase",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Давно"
+        }
+      },
+      "example": "I kept trying to think what it was before you came—and you were a long time, my loves—and at last it came to me.",
+      "exampleStart": 3064,
+      "exampleEnd": 3176,
+      "phraseMatch": {
+        "text": "long time",
+        "startInExample": 66,
+        "endInExample": 75
+      },
+      "levelSource": "head_verb_index"
+    },
+    {
+      "word": "look at",
+      "lemma": "look at",
+      "lemmaId": "look_at",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_at_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Посмотри"
+        }
+      },
+      "example": "After I got your postcard, Cat, I couldn’t rest till I’d had a look at you both, and seeing as how my contacts and other things have been paying nicely, I felt I owed it to myself.",
+      "exampleStart": 2498,
+      "exampleEnd": 2678,
+      "phraseMatch": {
+        "text": "look at",
+        "startInExample": 63,
+        "endInExample": 70
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "marvelous",
+      "lemma": "marvelous",
+      "lemmaId": "marvelous",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "marvelous_adjective",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "дивный"
+        }
+      },
+      "example": "”\n\nIt was a marvelous tea, even better than the tea on the lawn.",
+      "exampleStart": 2275,
+      "exampleEnd": 2339,
+      "matchedForm": "marvelous",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.851429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "my word",
+      "lemma": "my word",
+      "lemmaId": "my_word",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "my_word_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Боже"
+        }
+      },
+      "example": "My word, you do wear fine clothes to go playing about in!",
+      "exampleStart": 2052,
+      "exampleEnd": 2109,
+      "phraseMatch": {
+        "text": "My word",
+        "startInExample": 0,
+        "endInExample": 7
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "pass muster",
+      "lemma": "pass muster",
+      "lemmaId": "pass_muster",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "pass_muster_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Проходит сбор"
+        }
+      },
+      "example": "Millie told Janet that her dress would just pass muster and hurried them to what was called the Little Drawing Room.",
+      "exampleStart": 1416,
+      "exampleEnd": 1532,
+      "phraseMatch": {
+        "text": "pass muster",
+        "startInExample": 44,
+        "endInExample": 55
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "playing about",
+      "lemma": "play about",
+      "lemmaId": "play_about",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "play_about_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Играя вокруг."
+        }
+      },
+      "example": "My word, you do wear fine clothes to go playing about in!",
+      "exampleStart": 2052,
+      "exampleEnd": 2109,
+      "phraseMatch": {
+        "text": "playing about",
+        "startInExample": 40,
+        "endInExample": 53
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "ran to",
+      "lemma": "run to",
+      "lemmaId": "run_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "run_to_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "побежал"
+        }
+      },
+      "example": "” he shouted, and ran to hug her.",
+      "exampleStart": 1874,
+      "exampleEnd": 1907,
+      "phraseMatch": {
+        "text": "ran to",
+        "startInExample": 18,
+        "endInExample": 24
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "settled down",
+      "lemma": "settle down",
+      "lemmaId": "settle_down",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "settle_down_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Успокойтесь"
+        }
+      },
+      "example": "Sharp, in her old greedy way, settled down to eat as much as she could, and to gossip hard.",
+      "exampleStart": 2345,
+      "exampleEnd": 2436,
+      "phraseMatch": {
+        "text": "settled down",
+        "startInExample": 30,
+        "endInExample": 42
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "seventy",
+      "lemma": "seventy",
+      "lemmaId": "seventy",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "seventy_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "семьдесят"
+        }
+      },
+      "example": "“Which means, of course, that it’s a mere seventy feet square,” she said.",
+      "exampleStart": 1533,
+      "exampleEnd": 1606,
+      "matchedForm": "seventy",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.78,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "sickness",
+      "lemma": "sickness",
+      "lemmaId": "sickness",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "sickness_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "болезнь"
+        }
+      },
+      "example": "Through his sickness, Cat got the impression that, although none of them said so, what they were particularly glad about was to have found Janet and Cat before Chrestomanci came to hear they were gone.",
+      "exampleStart": 850,
+      "exampleEnd": 1051,
+      "matchedForm": "sickness",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.765714,
+      "difficultySource": "zipf"
     },
     {
       "word": "squashy",
       "lemma": "squashy",
       "lemmaId": "squashy",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "squashy_adjective",
       "level": "C1",
-      "ipa": "adjective",
       "translations": {
-        "de": {
-          "translation": "matschig"
-        },
-        "es": {
-          "translation": "blando"
-        },
         "ru": {
-          "translation": "мягкий, сплющенный"
-        },
-        "uk": {
-          "translation": "м'який, роздавлений"
+          "translation": "мягкий"
         }
       },
-      "definition": "Soft and easily crushed or flattened.",
-      "example": "The smell of blackberry coming from Janet’s squashy hat.",
-      "matchedForm": "squashy"
+      "example": "The smell of blackberry coming from Janet’s squashy hat made him feel worse.",
+      "exampleStart": 669,
+      "exampleEnd": 745,
+      "matchedForm": "squashy",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "surprise",
-      "lemma": "surprise",
-      "lemmaId": "surprise",
-      "pos": "noun",
-      "wordKey": "surprise_noun",
+      "word": "stand back",
+      "lemma": "stand back",
+      "lemmaId": "stand_back",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "stand_back_phrasal_verb",
       "level": "B2",
-      "ipa": "səˈpraɪz",
       "translations": {
-        "de": {
-          "translation": "Überraschung"
-        },
-        "es": {
-          "translation": "sorpresa"
-        },
         "ru": {
-          "translation": "сюрприз"
-        },
-        "uk": {
-          "translation": "сюрприз"
+          "translation": "Отойдите."
         }
       },
-      "definition": "An unexpected event or fact that causes wonder or astonishment.",
-      "example": "I’ve got a surprise waiting for you at the Castle.",
-      "matchedForm": "surprise"
+      "example": "Here, stand back, let me look at you, and you too, Gwendolen, love.",
+      "exampleStart": 1984,
+      "exampleEnd": 2051,
+      "phraseMatch": {
+        "text": "stand back",
+        "startInExample": 6,
+        "endInExample": 16
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "took away",
+      "lemma": "take away",
+      "lemmaId": "take_away",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "take_away_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "забрали"
+        }
+      },
+      "example": "The butler, furthermore, ceremoniously took Janet’s leaking hat away from her.",
+      "exampleStart": 1292,
+      "exampleEnd": 1370,
+      "phraseMatch": {
+        "text": "took Janet’s leaking hat away",
+        "startInExample": 39,
+        "endInExample": 68
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "turned up",
+      "lemma": "turn up",
+      "lemmaId": "turn_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "turn_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "появился"
+        }
+      },
+      "example": "They treated me like royalty when I turned up here at the door too.",
+      "exampleStart": 2679,
+      "exampleEnd": 2746,
+      "phraseMatch": {
+        "text": "turned up",
+        "startInExample": 36,
+        "endInExample": 45
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "vexed",
-      "lemma": "vexed",
-      "lemmaId": "vexed",
+      "lemma": "vex",
+      "lemmaId": "vex",
       "pos": "adjective",
-      "wordKey": "vexed_adjective",
-      "level": "C1",
-      "ipa": "vɛkst",
+      "source": "word",
+      "wordKey": "vex_adjective",
+      "level": "A2",
       "translations": {
-        "de": {
-          "translation": "verärgert"
-        },
-        "es": {
-          "translation": "molesto"
-        },
         "ru": {
-          "translation": "раздражённый"
-        },
-        "uk": {
-          "translation": "роздратований"
+          "translation": "раздражение"
         }
       },
-      "definition": "Annoyed, frustrated, or worried.",
       "example": "I’m extremely vexed with her.",
-      "matchedForm": "vexed"
+      "exampleStart": 188,
+      "exampleEnd": 217,
+      "matchedForm": "vexed",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "whispered",
+      "lemma": "whisper",
+      "lemmaId": "whisper",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "whisper_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "шепотом"
+        }
+      },
+      "example": "In five minutes, the car had whispered up the avenue and stopped at the main door of the Castle.",
+      "exampleStart": 1108,
+      "exampleEnd": 1204,
+      "matchedForm": "whispered",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.791429,
+      "difficultySource": "zipf"
     },
     {
       "word": "wispy",
       "lemma": "wispy",
       "lemmaId": "wispy",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "wispy_adjective",
       "level": "C2",
-      "ipa": "ˈwɪspi",
       "translations": {
-        "de": {
-          "translation": "dünn; schütter"
-        },
-        "es": {
-          "translation": "delgado"
-        },
         "ru": {
-          "translation": "тонкий, легкий"
-        },
-        "uk": {
-          "translation": "тонкий, легкий"
+          "translation": "хитрый"
         }
       },
-      "definition": "Fine, thin, or slight in appearance.",
-      "example": "A wispy, skinny woman in beaded black clothes.",
-      "matchedForm": "wispy"
-    },
-    {
-      "word": "witch",
-      "lemma": "witch",
-      "lemmaId": "witch",
-      "pos": "noun",
-      "wordKey": "witch_noun",
-      "level": "B2",
-      "ipa": "wɪtʃ",
-      "translations": {
-        "de": {
-          "translation": "Hexe"
-        },
-        "es": {
-          "translation": "bruja"
-        },
-        "ru": {
-          "translation": "ведьма"
-        },
-        "uk": {
-          "translation": "відьма"
-        }
-      },
-      "definition": "A woman thought to have magic powers, especially evil ones.",
-      "example": "This Castle does not love witches.",
-      "matchedForm": "witch"
+      "example": "In the middle of the big, square room, a wispy, skinny woman in beaded black clothes was sitting nervously on the edge of a gilded chair.",
+      "exampleStart": 1658,
+      "exampleEnd": 1795,
+      "matchedForm": "wispy",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     }
   ]
 }

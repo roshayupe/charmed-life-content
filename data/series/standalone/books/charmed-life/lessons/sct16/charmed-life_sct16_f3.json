@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 16,
     "sectionTitle": "Chapter 13",
     "fragmentIndex": 3,
@@ -21,588 +20,560 @@
       "wordCount": 710,
       "uniqueWordCount": 397,
       "paragraphCount": 19,
-      "vocabularyCount": 22,
+      "vocabularyCount": 24,
       "levelDistribution": {
-        "A1": 0,
-        "A2": 0,
-        "B1": 0,
-        "B2": 9,
-        "C1": 10,
-        "C2": 3
+        "A1": 1,
+        "A2": 1,
+        "B1": 6,
+        "B2": 12,
+        "C1": 4,
+        "C2": 0
       }
     }
   },
   "vocabulary": [
     {
+      "word": "a good deal",
+      "lemma": "a good deal",
+      "lemmaId": "a_good_deal",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "a_good_deal_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "много, значительно"
+        }
+      },
+      "example": "He and Janet picked the nuts, which were just ripe enough to eat, and laughed a good deal over cracking them.",
+      "exampleStart": 2413,
+      "exampleEnd": 2522,
+      "phraseMatch": {
+        "text": "a good deal",
+        "startInExample": 78,
+        "endInExample": 89
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
       "word": "agitated",
-      "lemma": "agitated",
-      "lemmaId": "agitated",
+      "lemma": "agitate",
+      "lemmaId": "agitate",
       "pos": "adjective",
-      "wordKey": "agitated_adjective",
-      "level": "C1",
-      "ipa": "ˈædʒɪteɪtɪd",
+      "source": "word",
+      "wordKey": "agitate_adjective",
+      "level": "B2",
       "translations": {
-        "de": {
-          "translation": "aufgeregt"
-        },
-        "es": {
-          "translation": "agitado"
-        },
         "ru": {
-          "translation": "взволнованный"
-        },
-        "uk": {
-          "translation": "збуджений"
+          "translation": "агитировать"
         }
       },
-      "definition": "Feeling or appearing troubled or nervous.",
       "example": "Julia was pale and agitated.",
-      "matchedForm": "agitated"
+      "exampleStart": 3264,
+      "exampleEnd": 3292,
+      "matchedForm": "agitated",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "agreed",
-      "lemma": "agreed",
-      "lemmaId": "agreed",
-      "pos": "verb",
-      "wordKey": "agreed_verb",
+      "word": "agree with",
+      "lemma": "agree with",
+      "lemmaId": "agree_with",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "agree_with_phrasal_verb",
       "level": "B2",
-      "ipa": "əˈɡriːd",
       "translations": {
-        "de": {
-          "translation": "stimmte zu"
-        },
-        "es": {
-          "translation": "estuvo de acuerdo"
-        },
         "ru": {
-          "translation": "согласился"
-        },
-        "uk": {
-          "translation": "погодився"
+          "translation": "Согласен с"
         }
       },
-      "definition": "To have the same opinion or accept a suggestion or proposal.",
-      "example": "Cat agreed that hitchhiking would save walking.",
-      "matchedForm": "agreed"
-    },
-    {
-      "word": "bawled",
-      "lemma": "bawled",
-      "lemmaId": "bawled",
-      "pos": "verb",
-      "wordKey": "bawled_verb",
-      "level": "C1",
-      "ipa": "bɔːld",
-      "translations": {
-        "de": {
-          "translation": "brüllen"
-        },
-        "es": {
-          "translation": "gritar"
-        },
-        "ru": {
-          "translation": "вопить"
-        },
-        "uk": {
-          "translation": "кричати"
-        }
+      "example": "Gloomy and homesick as he was, he was not anxious to agree with anything Janet said.",
+      "exampleStart": 1666,
+      "exampleEnd": 1750,
+      "phraseMatch": {
+        "text": "agree with",
+        "startInExample": 53,
+        "endInExample": 63
       },
-      "definition": "To shout or call out noisily and unrestrainedly.",
-      "example": "Janet bawled, 'Quiet!'",
-      "matchedForm": "bawled"
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "contacts",
-      "lemma": "contacts",
-      "lemmaId": "contacts",
-      "pos": "noun",
-      "wordKey": "contacts_noun",
-      "level": "C1",
-      "ipa": "ˈkɒntækts",
-      "translations": {
-        "de": {
-          "translation": "Kontakte"
-        },
-        "es": {
-          "translation": "contactos"
-        },
-        "ru": {
-          "translation": "связи"
-        },
-        "uk": {
-          "translation": "контакти"
-        }
-      },
-      "definition": "People one knows who can provide help or information.",
-      "example": "Mrs. Sharp had grand contacts in London.",
-      "matchedForm": "contacts"
-    },
-    {
-      "word": "crack",
-      "lemma": "crack",
-      "lemmaId": "crack",
-      "pos": "verb",
-      "wordKey": "crack_verb",
-      "level": "B2",
-      "ipa": "kræk",
-      "translations": {
-        "de": {
-          "translation": "knacken"
-        },
-        "es": {
-          "translation": "romper"
-        },
-        "ru": {
-          "translation": "раскалывать"
-        },
-        "uk": {
-          "translation": "тріскати"
-        }
-      },
-      "definition": "To break something open or into pieces, often with a sharp noise.",
-      "example": "They laughed a good deal over cracking the nuts.",
-      "matchedForm": "crack"
-    },
-    {
-      "word": "crisp",
-      "lemma": "crisp",
-      "lemmaId": "crisp",
+      "word": "bryony",
+      "lemma": "bryony",
+      "lemmaId": "bryony",
       "pos": "adjective",
-      "wordKey": "crisp_adjective",
+      "source": "word",
+      "wordKey": "bryony_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "бриони"
+        }
+      },
+      "example": "The road he had chosen shortly turned into a very country lane, rutted and grassy and lined with high hedges hung with red bryony berries.",
+      "exampleStart": 931,
+      "exampleEnd": 1069,
+      "matchedForm": "bryony",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "came around",
+      "lemma": "come around",
+      "lemmaId": "come_around",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_around_phrasal_verb",
       "level": "B2",
-      "ipa": "krɪsp",
       "translations": {
-        "de": {
-          "translation": "frisch, klar"
-        },
-        "es": {
-          "translation": "fresco"
-        },
         "ru": {
-          "translation": "прохладный и свежий"
-        },
-        "uk": {
-          "translation": "прохолодний і свіжий"
+          "translation": "пришёл"
         }
       },
-      "definition": "Cool, fresh, and invigorating (usually relating to weather).",
-      "example": "It was a crisp, warm afternoon.",
-      "matchedForm": "crisp"
+      "example": "Millie came hurrying around the long bonnet of the car.",
+      "exampleStart": 3585,
+      "exampleEnd": 3640,
+      "phraseMatch": {
+        "text": "came hurrying around",
+        "startInExample": 7,
+        "endInExample": 27
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "enchanter",
-      "lemma": "enchanter",
-      "lemmaId": "enchanter",
-      "pos": "noun",
-      "wordKey": "enchanter_noun",
-      "level": "C2",
-      "ipa": "ɪnˈtʃɑːntər",
+      "word": "come back",
+      "lemma": "come back",
+      "lemmaId": "come_back",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_back_phrasal_verb",
+      "level": "B2",
       "translations": {
-        "de": {
-          "translation": "Zauberer"
-        },
-        "es": {
-          "translation": "hechicero"
-        },
         "ru": {
-          "translation": "волшебник"
-        },
-        "uk": {
-          "translation": "чаклун"
+          "translation": "Вернись"
         }
       },
-      "definition": "A person who uses magic or sorcery.",
-      "example": "He’s an enchanter and he comes when you call him.",
-      "matchedForm": "enchanter"
+      "example": "Do come back.",
+      "exampleStart": 3523,
+      "exampleEnd": 3536,
+      "phraseMatch": {
+        "text": "come back",
+        "startInExample": 3,
+        "endInExample": 12
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "furiously",
-      "lemma": "furiously",
-      "lemmaId": "furiously",
-      "pos": "adverb",
-      "wordKey": "furiously_adverb",
+      "word": "dreadfully",
+      "lemma": "dreadfully",
+      "lemmaId": "dreadfully",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "dreadfully_adjective",
       "level": "C1",
-      "ipa": "ˈfjʊərɪəsli",
       "translations": {
-        "de": {
-          "translation": "wütend"
-        },
-        "es": {
-          "translation": "furiosamente"
-        },
         "ru": {
-          "translation": "яростно"
-        },
-        "uk": {
-          "translation": "люто"
+          "translation": "ужасно"
         }
       },
-      "definition": "In an extremely angry or intense manner.",
-      "example": "They waved furiously at the big black car.",
-      "matchedForm": "furiously"
+      "example": "He missed her dreadfully.",
+      "exampleStart": 513,
+      "exampleEnd": 538,
+      "matchedForm": "dreadfully",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "ghoul",
+      "word": "fell over",
+      "lemma": "fall over",
+      "lemmaId": "fall_over",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "fall_over_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "упал"
+        }
+      },
+      "example": "When she reached Janet and Cat, she flung an arm around each of them and hugged them so hard and thankfully that Cat nearly fell over.",
+      "exampleStart": 3805,
+      "exampleEnd": 3939,
+      "phraseMatch": {
+        "text": "fell over",
+        "startInExample": 124,
+        "endInExample": 133
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "flitterings",
+      "lemma": "flittering",
+      "lemmaId": "flittering",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "flittering_adjective",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "дрожащий"
+        }
+      },
+      "example": "“Flitterings and squeakings.",
+      "exampleStart": 2851,
+      "exampleEnd": 2879,
+      "matchedForm": "Flitterings",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "ghouls",
       "lemma": "ghoul",
       "lemmaId": "ghoul",
-      "pos": "noun",
-      "wordKey": "ghoul_noun",
-      "level": "C2",
-      "ipa": "ɡuːl",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "ghoul_verb",
+      "level": "B1",
       "translations": {
-        "de": {
-          "translation": "Ghul"
-        },
-        "es": {
-          "translation": "ghoul"
-        },
         "ru": {
           "translation": "упырь"
-        },
-        "uk": {
-          "translation": "гуль"
         }
       },
-      "definition": "An evil spirit or phantom, especially one supposed to rob graves and feed on dead bodies.",
       "example": "Are there ghouls and goblins in this wor—?",
-      "matchedForm": "ghoul"
+      "exampleStart": 2880,
+      "exampleEnd": 2922,
+      "matchedForm": "ghouls",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "goblin",
-      "lemma": "goblin",
-      "lemmaId": "goblin",
-      "pos": "noun",
-      "wordKey": "goblin_noun",
-      "level": "C1",
-      "ipa": "ˈɡɒblɪn",
+      "word": "head out",
+      "lemma": "head out",
+      "lemmaId": "head_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "head_out_phrasal_verb",
+      "level": "B2",
       "translations": {
-        "de": {
-          "translation": "Kobold"
-        },
-        "es": {
-          "translation": "duende"
-        },
         "ru": {
-          "translation": "гоблин"
-        },
-        "uk": {
-          "translation": "гоблін"
+          "translation": "Вперёд"
         }
       },
-      "definition": "A mischievous evil spirit or creature from folklore.",
-      "example": "Are there ghouls and goblins in this wor—?",
-      "matchedForm": "goblin"
+      "example": "”\n\nRoger put his head out of the back window.",
+      "exampleStart": 3408,
+      "exampleEnd": 3453,
+      "phraseMatch": {
+        "text": "head out",
+        "startInExample": 17,
+        "endInExample": 25
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "hitchhike",
       "lemma": "hitchhike",
       "lemmaId": "hitchhike",
       "pos": "verb",
+      "source": "word",
       "wordKey": "hitchhike_verb",
       "level": "B2",
-      "ipa": "ˈhɪtʃhaɪk",
       "translations": {
-        "de": {
-          "translation": "per Anhalter fahren"
-        },
-        "es": {
-          "translation": "viajar haciendo autoestop"
-        },
         "ru": {
-          "translation": "путешествовать автостопом"
-        },
-        "uk": {
-          "translation": "зловити попутку"
+          "translation": "автостоп"
         }
       },
-      "definition": "To travel by getting free rides from passing vehicles, usually by standing at the roadside and signalling.",
-      "example": "How do we get to Wolvercote? Hitchhike?",
-      "matchedForm": "Hitchhike"
+      "example": "Hitchhike?",
+      "exampleStart": 776,
+      "exampleEnd": 786,
+      "matchedForm": "Hitchhike",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "homesick",
-      "lemma": "homesick",
-      "lemmaId": "homesick",
-      "pos": "adjective",
-      "wordKey": "homesick_adjective",
-      "level": "B2",
-      "ipa": "ˈhəʊmsɪk",
-      "translations": {
-        "de": {
-          "translation": "Heimweh habend"
-        },
-        "es": {
-          "translation": "nostálgico"
-        },
-        "ru": {
-          "translation": "тоскующий по дому"
-        },
-        "uk": {
-          "translation": "той, що сумує за домом"
-        }
-      },
-      "definition": "Experiencing a longing for one's home during a period of absence.",
-      "example": "He made himself very homesick by talking of Mrs. Sharp.",
-      "matchedForm": "homesick"
-    },
-    {
-      "word": "intently",
-      "lemma": "intently",
-      "lemmaId": "intently",
-      "pos": "adverb",
-      "wordKey": "intently_adverb",
-      "level": "C1",
-      "ipa": "ɪnˈtɛntli",
-      "translations": {
-        "de": {
-          "translation": "aufmerksam"
-        },
-        "es": {
-          "translation": "intensamente"
-        },
-        "ru": {
-          "translation": "внимательно"
-        },
-        "uk": {
-          "translation": "уважно"
-        }
-      },
-      "definition": "With earnest and eager attention.",
-      "example": "He listened intently to the conversation.",
-      "matchedForm": "intently"
-    },
-    {
-      "word": "looped",
-      "lemma": "looped",
-      "lemmaId": "looped",
-      "pos": "verb",
-      "wordKey": "looped_verb",
-      "level": "C1",
-      "ipa": "luːpt",
-      "translations": {
-        "de": {
-          "translation": "hochgekrempelt"
-        },
-        "es": {
-          "translation": "remangado"
-        },
-        "ru": {
-          "translation": "завёрнутый"
-        },
-        "uk": {
-          "translation": "підвернений"
-        }
-      },
-      "definition": "Folded or twisted into a loop; here, to roll or fold up clothing.",
-      "example": "Her skirts were looped up for driving.",
-      "matchedForm": "looped"
-    },
-    {
-      "word": "objection",
-      "lemma": "objection",
-      "lemmaId": "objection",
+      "word": "mustn’t",
+      "lemma": "mustn't",
+      "lemmaId": "mustnt",
       "pos": "noun",
-      "wordKey": "objection_noun",
+      "source": "word",
+      "wordKey": "mustnt_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "не должен"
+        }
+      },
+      "example": "“I do mean him, and you mustn’t say it.",
+      "exampleStart": 1469,
+      "exampleEnd": 1508,
+      "matchedForm": "mustn’t",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "old hat",
+      "lemma": "old hat",
+      "lemmaId": "old_hat",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "old_hat_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "старая шляпа"
+        }
+      },
+      "example": "She looked much more homely than usual, because her skirts were looped up for driving and she was wearing stout shoes and an old hat.",
+      "exampleStart": 3641,
+      "exampleEnd": 3774,
+      "phraseMatch": {
+        "text": "old hat",
+        "startInExample": 125,
+        "endInExample": 132
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "oozed",
+      "lemma": "ooze",
+      "lemmaId": "ooze",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "ooze_adjective",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "слизь"
+        }
+      },
+      "example": "They laughed when the juice oozed through the hat and dripped down Janet’s dress.",
+      "exampleStart": 2653,
+      "exampleEnd": 2734,
+      "matchedForm": "oozed",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "point out",
+      "lemma": "point out",
+      "lemmaId": "point_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "point_out_phrasal_verb",
       "level": "B2",
-      "ipa": "əbˈdʒɛkʃən",
       "translations": {
-        "de": {
-          "translation": "Einwand"
-        },
-        "es": {
-          "translation": "objeción"
-        },
         "ru": {
-          "translation": "возражение"
-        },
-        "uk": {
-          "translation": "заперечення"
+          "translation": "Обратитесь"
         }
       },
-      "definition": "An expression of disapproval or opposition.",
-      "example": "Janet was making objections to the chosen route.",
-      "matchedForm": "objection"
-    },
-    {
-      "word": "resentful",
-      "lemma": "resentful",
-      "lemmaId": "resentful",
-      "pos": "adjective",
-      "wordKey": "resentful_adjective",
-      "level": "C1",
-      "ipa": "rɪˈzɛntfʊl",
-      "translations": {
-        "de": {
-          "translation": "nachtragend"
-        },
-        "es": {
-          "translation": "resentido"
-        },
-        "ru": {
-          "translation": "обиженный"
-        },
-        "uk": {
-          "translation": "образливий"
-        }
+      "example": "Janet managed not to point this out.",
+      "exampleStart": 1105,
+      "exampleEnd": 1141,
+      "phraseMatch": {
+        "text": "point this out",
+        "startInExample": 21,
+        "endInExample": 35
       },
-      "definition": "Feeling or expressing bitterness or indignation at having been treated unfairly.",
-      "example": "He was resenting the situation."
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "rude",
-      "lemma": "rude",
-      "lemmaId": "rude",
-      "pos": "adjective",
-      "wordKey": "rude_adjective",
-      "level": "C1",
-      "ipa": "ruːd",
-      "translations": {
-        "de": {
-          "translation": "unhöflich"
-        },
-        "es": {
-          "translation": "grosero"
-        },
-        "ru": {
-          "translation": "грубый"
-        },
-        "uk": {
-          "translation": "грубий"
-        }
-      },
-      "definition": "Offensively impolite or ill-mannered.",
-      "example": "They got a very rude shock when Julia appeared.",
-      "matchedForm": "rude"
-    },
-    {
-      "word": "rutted",
-      "lemma": "rutted",
-      "lemmaId": "rutted",
-      "pos": "adjective",
-      "wordKey": "rutted_adjective",
-      "level": "C1",
-      "ipa": "ˈrʌtɪd",
-      "translations": {
-        "de": {
-          "translation": "mit Fahrspuren versehen"
-        },
-        "es": {
-          "translation": "con surcos"
-        },
-        "ru": {
-          "translation": "изрытый колеями"
-        },
-        "uk": {
-          "translation": "у слідах від коліс"
-        }
-      },
-      "definition": "Marked by deep grooves or tracks, typically in a path or road.",
-      "example": "The lane was rutted and grassy.",
-      "matchedForm": "rutted"
-    },
-    {
-      "word": "sigh",
-      "lemma": "sigh",
-      "lemmaId": "sigh",
-      "pos": "verb",
-      "wordKey": "sigh_verb",
+      "word": "rolled down",
+      "lemma": "roll down",
+      "lemmaId": "roll_down",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "roll_down_phrasal_verb",
       "level": "B2",
-      "ipa": "saɪ",
       "translations": {
-        "de": {
-          "translation": "seufzen"
-        },
-        "es": {
-          "translation": "suspirar"
-        },
         "ru": {
-          "translation": "вздыхать"
-        },
-        "uk": {
-          "translation": "зітхати"
+          "translation": "катился вниз"
         }
       },
-      "definition": "To emit a long, deep breath expressing sadness, relief, or tiredness.",
-      "example": "The car sighed to a stop.",
-      "matchedForm": "sigh"
+      "example": "The nearest window rolled down.",
+      "exampleStart": 3169,
+      "exampleEnd": 3200,
+      "phraseMatch": {
+        "text": "rolled down",
+        "startInExample": 19,
+        "endInExample": 30
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "smuggle",
-      "lemma": "smuggle",
-      "lemmaId": "smuggle",
-      "pos": "verb",
-      "wordKey": "smuggle_verb",
-      "level": "C2",
-      "ipa": "ˈsmʌɡəl",
+      "word": "ran away",
+      "lemma": "run away",
+      "lemmaId": "run_away",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "run_away_phrasal_verb",
+      "level": "B2",
       "translations": {
-        "de": {
-          "translation": "schmuggeln"
-        },
-        "es": {
-          "translation": "contrabandear"
-        },
         "ru": {
-          "translation": "провозить контрабандой"
-        },
-        "uk": {
-          "translation": "контрабандою перевозити"
+          "translation": "сбежал"
         }
       },
-      "definition": "To move goods or people illegally and secretly into or out of a place.",
-      "example": "Mrs. Sharp would smuggle them away.",
-      "matchedForm": "smuggle"
+      "example": "“I know you ran away because of me, and I’m sorry !",
+      "exampleStart": 3326,
+      "exampleEnd": 3377,
+      "phraseMatch": {
+        "text": "ran away",
+        "startInExample": 12,
+        "endInExample": 20
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "squeakings",
+      "lemma": "squeaking",
+      "lemmaId": "squeaking",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "squeaking_adjective",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "скрип"
+        }
+      },
+      "example": "“Flitterings and squeakings.",
+      "exampleStart": 2851,
+      "exampleEnd": 2879,
+      "matchedForm": "squeakings",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "took off",
+      "lemma": "take off",
+      "lemmaId": "take_off",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "take_off_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "взлетели"
+        }
+      },
+      "example": "Janet took her hat off—as she told Cat repeatedly, she hated hats—and they filled the crown of it with blackberries for later on.",
+      "exampleStart": 2523,
+      "exampleEnd": 2652,
+      "phraseMatch": {
+        "text": "took her hat off",
+        "startInExample": 6,
+        "endInExample": 22
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "trudged",
-      "lemma": "trudged",
-      "lemmaId": "trudged",
-      "pos": "verb",
-      "wordKey": "trudged_verb",
-      "level": "B2",
-      "ipa": "trʌdʒd",
+      "lemma": "trudge",
+      "lemmaId": "trudge",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "trudge_adjective",
+      "level": "B1",
       "translations": {
-        "de": {
-          "translation": "schleppte sich"
-        },
-        "es": {
-          "translation": "avanzó penosamente"
-        },
         "ru": {
-          "translation": "утомлённо плёлся"
-        },
-        "uk": {
-          "translation": "утомлено іти"
+          "translation": "упрямство"
         }
       },
-      "definition": "To walk slowly and with heavy steps, typically due to exhaustion or harsh conditions.",
-      "example": "He trudged along the country road.",
-      "matchedForm": "trudged"
+      "example": "He trudged along the country road, wishing it was Coven Street and wishing Janet was not walking beside him making objections.",
+      "exampleStart": 539,
+      "exampleEnd": 665,
+      "matchedForm": "trudged",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "wander",
-      "lemma": "wander",
-      "lemmaId": "wander",
-      "pos": "verb",
-      "wordKey": "wander_verb",
+      "word": "turned into",
+      "lemma": "turn into",
+      "lemmaId": "turn_into",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "turn_into_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈwɒndər",
       "translations": {
-        "de": {
-          "translation": "umherschweifen"
-        },
-        "es": {
-          "translation": "vagar"
-        },
         "ru": {
-          "translation": "бродить"
-        },
-        "uk": {
-          "translation": "блукати"
+          "translation": "превратился в"
         }
       },
-      "definition": "To move around without a fixed course, aim, or purpose.",
-      "example": "They walked without a clear destination, just wandering.",
-      "matchedForm": "wander"
+      "example": "The road he had chosen shortly turned into a very country lane, rutted and grassy and lined with high hedges hung with red bryony berries.",
+      "exampleStart": 931,
+      "exampleEnd": 1069,
+      "phraseMatch": {
+        "text": "turned into",
+        "startInExample": 31,
+        "endInExample": 42
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "up for",
+      "lemma": "up for",
+      "lemmaId": "up_for",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "up_for_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "готов к"
+        }
+      },
+      "example": "She looked much more homely than usual, because her skirts were looped up for driving and she was wearing stout shoes and an old hat.",
+      "exampleStart": 3641,
+      "exampleEnd": 3774,
+      "phraseMatch": {
+        "text": "up for",
+        "startInExample": 71,
+        "endInExample": 77
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "wor",
+      "lemma": "wor",
+      "lemmaId": "wor",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "wor_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "вор"
+        }
+      },
+      "example": "Are there ghouls and goblins in this wor—?",
+      "exampleStart": 2880,
+      "exampleEnd": 2922,
+      "matchedForm": "wor",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     }
   ]
 }

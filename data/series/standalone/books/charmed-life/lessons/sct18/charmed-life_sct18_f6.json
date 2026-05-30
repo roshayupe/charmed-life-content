@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 18,
     "sectionTitle": "Chapter 15",
     "fragmentIndex": 6,
@@ -21,454 +20,701 @@
       "wordCount": 607,
       "uniqueWordCount": 336,
       "paragraphCount": 9,
-      "vocabularyCount": 23,
+      "vocabularyCount": 30,
       "levelDistribution": {
         "A1": 0,
-        "A2": 0,
-        "B1": 0,
-        "B2": 11,
-        "C1": 6,
-        "C2": 6
+        "A2": 2,
+        "B1": 6,
+        "B2": 20,
+        "C1": 2,
+        "C2": 0
       }
     }
   },
   "vocabulary": [
     {
+      "word": "a good deal",
+      "lemma": "a good deal",
+      "lemmaId": "a_good_deal",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "a_good_deal_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "много, значительно"
+        }
+      },
+      "example": "It’s a good deal stronger than I am.",
+      "exampleStart": 2832,
+      "exampleEnd": 2868,
+      "phraseMatch": {
+        "text": "a good deal",
+        "startInExample": 5,
+        "endInExample": 16
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "all over",
+      "lemma": "all over",
+      "lemmaId": "all_over",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "all_over_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Всё кончено"
+        }
+      },
+      "example": "His hair hung over his face, his tie was under his left ear, and there was green from the bark of the tree all over his dove-gray coat.",
+      "exampleStart": 1278,
+      "exampleEnd": 1413,
+      "phraseMatch": {
+        "text": "all over",
+        "startInExample": 107,
+        "endInExample": 115
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
       "word": "ample",
       "lemma": "ample",
       "lemmaId": "ample",
-      "pos": "adjective",
-      "wordKey": "ample_adjective",
-      "level": "C1",
-      "ipa": "ˈæm.pəl",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "ample_noun",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "обильный, достаточный"
+          "translation": "достаточный"
         }
       },
-      "definition": "More than enough in size or capacity.",
-      "example": "from two such ample brothers were more",
-      "exampleStart": 1002,
-      "exampleEnd": 1040,
-      "matchedForm": "ample"
+      "example": "Two silver watch-chains from two such ample brothers were more than enough to tie Chrestomanci to the tree.",
+      "exampleStart": 978,
+      "exampleEnd": 1085,
+      "matchedForm": "ample",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.8,
+      "difficultySource": "zipf"
     },
     {
-      "word": "annoy",
-      "lemma": "annoy",
-      "lemmaId": "annoy",
-      "pos": "verb",
-      "wordKey": "annoy_verb",
+      "word": "answer for",
+      "lemma": "answer for",
+      "lemmaId": "answer_for",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "answer_for_phrasal_verb",
       "level": "B2",
-      "ipa": "əˈnɔɪ",
       "translations": {
         "ru": {
-          "translation": "раздражать"
+          "translation": "ответьте на"
         }
       },
-      "definition": "To make someone a little angry or irritated.",
-      "example": "which annoyed her very much.",
-      "exampleStart": 3415,
-      "exampleEnd": 3443,
-      "matchedForm": "annoyed"
+      "example": "”\n\n“You might find the answer for yourself, if you thought,” Chrestomanci suggested.",
+      "exampleStart": 1906,
+      "exampleEnd": 1990,
+      "phraseMatch": {
+        "text": "answer for",
+        "startInExample": 23,
+        "endInExample": 33
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "assembled",
       "lemma": "assemble",
       "lemmaId": "assemble",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "assemble_adjective",
       "level": "B2",
-      "ipa": "əˈsɛm.bəld",
       "translations": {
         "ru": {
-          "translation": "собранный (группа)"
+          "translation": "собирать"
         }
       },
-      "definition": "Gathered together in one place.",
-      "example": "yelling from the assembled witches and necromancers",
-      "exampleStart": 2024,
-      "exampleEnd": 2075,
-      "matchedForm": "assembled"
+      "example": "But his voice was drowned in the yelling from the assembled witches and necromancers.",
+      "exampleStart": 1991,
+      "exampleEnd": 2076,
+      "matchedForm": "assembled",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.82,
+      "difficultySource": "zipf"
     },
     {
-      "word": "charmed",
-      "lemma": "charmed",
-      "lemmaId": "charmed",
+      "word": "bulging",
+      "lemma": "bulge",
+      "lemmaId": "bulge",
       "pos": "adjective",
-      "wordKey": "charmed_adjective",
-      "level": "C2",
-      "ipa": "tʃɑːmd",
+      "source": "word",
+      "wordKey": "bulge_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "заколдованный"
+          "translation": "выпуклость"
         }
       },
-      "definition": "Under a magic spell or enchantment.",
-      "example": "ends into two charmed knots and stood",
-      "exampleStart": 1122,
-      "exampleEnd": 1159,
-      "matchedForm": "charmed"
+      "example": "William Nostrum hurried over to his brother and pulled the watch-chain off Henry’s bulging waistcoat.",
+      "exampleStart": 876,
+      "exampleEnd": 977,
+      "matchedForm": "bulging",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.934286,
+      "difficultySource": "zipf"
     },
     {
-      "word": "cock-a-hoop",
-      "lemma": "cock-a-hoop",
-      "lemmaId": "cock_a_hoop",
+      "word": "clapped",
+      "lemma": "clap",
+      "lemmaId": "clap",
       "pos": "adjective",
-      "wordKey": "cock_a_hoop_adjective",
-      "level": "C2",
-      "ipa": "ˌkɒk.əˈhuːp",
+      "source": "word",
+      "wordKey": "clap_adjective",
+      "level": "A2",
       "translations": {
         "ru": {
-          "translation": "в приподнятом настроении, довольный"
+          "translation": "хлопать"
         }
       },
-      "definition": "Elated or very pleased with oneself.",
-      "example": "cock-a-hoop with pleasure.",
-      "exampleStart": 2293,
-      "exampleEnd": 2319,
-      "matchedForm": "cock-a-hoop"
+      "example": "The audience screamed eldritch laughter and clapped.",
+      "exampleStart": 1184,
+      "exampleEnd": 1236,
+      "matchedForm": "clapped",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.848571,
+      "difficultySource": "zipf"
     },
     {
       "word": "composed",
-      "lemma": "composed",
-      "lemmaId": "composed",
+      "lemma": "compose",
+      "lemmaId": "compose",
       "pos": "adjective",
-      "wordKey": "composed_adjective",
+      "source": "word",
+      "wordKey": "compose_adjective",
       "level": "B2",
-      "ipa": "kəmˈpəʊzd",
       "translations": {
         "ru": {
-          "translation": "спокойный, собранный"
+          "translation": "составлять"
         }
       },
-      "definition": "Calm and self-controlled.",
       "example": "But Chrestomanci seemed quite composed.",
       "exampleStart": 1469,
       "exampleEnd": 1508,
-      "matchedForm": "composed"
+      "matchedForm": "composed",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.871429,
+      "difficultySource": "zipf"
     },
     {
-      "word": "conquers",
-      "lemma": "conquer",
-      "lemmaId": "conquer",
-      "pos": "verb",
-      "wordKey": "conquer_verb",
+      "word": "dragged out",
+      "lemma": "drag out",
+      "lemmaId": "drag_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "drag_out_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈkɒŋ.kər",
       "translations": {
         "ru": {
-          "translation": "покорять"
+          "translation": "Вытащили"
         }
       },
-      "definition": "To gain control over by force; to overcome.",
-      "example": "we go out and conquer other worlds",
-      "exampleStart": 1771,
-      "exampleEnd": 1805,
-      "matchedForm": "conquer"
+      "example": "Chrestomanci, even more disheveled than the Willing Warlock, was dragged out from between the pillars.",
+      "exampleStart": 138,
+      "exampleEnd": 240,
+      "phraseMatch": {
+        "text": "dragged out",
+        "startInExample": 65,
+        "endInExample": 76
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "disheveled",
-      "lemma": "disheveled",
-      "lemmaId": "disheveled",
-      "pos": "adjective",
-      "wordKey": "disheveled_adjective",
-      "level": "C1",
-      "ipa": "dɪˈʃɛv.əld",
+      "word": "drowned in",
+      "lemma": "drown in",
+      "lemmaId": "drown_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "drown_in_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "растрёпанный, взъерошенный"
+          "translation": "утонул в этом"
         }
       },
-      "definition": "Untidy or disordered in appearance.",
-      "example": "even more disheveled than the Willing Warlock",
-      "exampleStart": 152,
-      "exampleEnd": 197,
-      "matchedForm": "disheveled"
+      "example": "But his voice was drowned in the yelling from the assembled witches and necromancers.",
+      "exampleStart": 1991,
+      "exampleEnd": 2076,
+      "phraseMatch": {
+        "text": "drowned in",
+        "startInExample": 18,
+        "endInExample": 28
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "eldritch",
       "lemma": "eldritch",
       "lemmaId": "eldritch",
-      "pos": "adjective",
-      "wordKey": "eldritch_adjective",
-      "level": "C2",
-      "ipa": "ˈɛldrɪtʃ",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "eldritch_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "жуткий, потусторонний"
+          "translation": "Элдрич"
         }
       },
-      "definition": "Weird and sinister or ghostly.",
       "example": "The audience screamed eldritch laughter and clapped.",
       "exampleStart": 1184,
       "exampleEnd": 1236,
-      "matchedForm": "eldritch"
+      "matchedForm": "eldritch",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "helpless",
-      "lemma": "helpless",
-      "lemmaId": "helpless",
+      "word": "free hand",
+      "lemma": "free hand",
+      "lemmaId": "free_hand",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "free_hand_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Свободная рука"
+        }
+      },
+      "example": "” He lifted his free hand and clapped Cat on the other shoulder with it.",
+      "exampleStart": 3121,
+      "exampleEnd": 3193,
+      "phraseMatch": {
+        "text": "free hand",
+        "startInExample": 16,
+        "endInExample": 25
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "get out",
+      "lemma": "get out",
+      "lemmaId": "get_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "get_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Выйти"
+        }
+      },
+      "example": "Cat tried to get out from under Henry Nostrum’s hand while he did it.",
+      "exampleStart": 347,
+      "exampleEnd": 416,
+      "phraseMatch": {
+        "text": "get out",
+        "startInExample": 13,
+        "endInExample": 20
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "glared",
+      "lemma": "glare",
+      "lemmaId": "glare",
       "pos": "adjective",
-      "wordKey": "helpless_adjective",
+      "source": "word",
+      "wordKey": "glare_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "блики"
+        }
+      },
+      "example": "She glared around the circle of Sunday bonnets and hats.",
+      "exampleStart": 3444,
+      "exampleEnd": 3500,
+      "matchedForm": "glared",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.9,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "go out",
+      "lemma": "go out",
+      "lemmaId": "go_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_out_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈhɛlpləs",
       "translations": {
         "ru": {
-          "translation": "беспомощный"
+          "translation": "Выходи"
         }
       },
-      "definition": "Unable to defend oneself or to act effectively.",
-      "example": "he was as helpless as Chrestomanci seemed",
-      "exampleStart": 536,
-      "exampleEnd": 577,
-      "matchedForm": "helpless"
-    },
-    {
-      "word": "imposing",
-      "lemma": "impose",
-      "lemmaId": "impose",
-      "pos": "verb",
-      "wordKey": "impose_verb",
-      "level": "C1",
-      "ipa": "ɪmˈpəʊz",
-      "translations": {
-        "ru": {
-          "translation": "налагать, навязывать"
-        }
+      "example": "Why shouldn’t we go out and conquer other worlds?",
+      "exampleStart": 1757,
+      "exampleEnd": 1806,
+      "phraseMatch": {
+        "text": "go out",
+        "startInExample": 17,
+        "endInExample": 23
       },
-      "definition": "To forcibly place a burden or duty on someone.",
-      "example": "sick of you imposing restraints on us",
-      "exampleStart": 1709,
-      "exampleEnd": 1746,
-      "matchedForm": "imposing"
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "necromancer",
-      "lemma": "necromancer",
-      "lemmaId": "necromancer",
-      "pos": "noun",
-      "wordKey": "necromancer_noun",
-      "level": "C2",
-      "ipa": "ˈnɛkrəˌmæn.sər",
-      "translations": {
-        "ru": {
-          "translation": "некромант, колдун"
-        }
-      },
-      "definition": "One who practices necromancy; a sorcerer who communicates with the dead.",
-      "example": "yelling from the assembled witches and necromancers",
-      "exampleStart": 2024,
-      "exampleEnd": 2075,
-      "matchedForm": "necromancers"
-    },
-    {
-      "word": "nuisance",
-      "lemma": "nuisance",
-      "lemmaId": "nuisance",
-      "pos": "noun",
-      "wordKey": "nuisance_noun",
-      "level": "C1",
-      "ipa": "ˈnjuː.səns",
-      "translations": {
-        "ru": {
-          "translation": "неприятность, неудобство"
-        }
-      },
-      "definition": "A person, thing, or circumstance causing inconvenience or annoyance.",
-      "example": "Isn’t it a nuisance?",
-      "exampleStart": 775,
-      "exampleEnd": 795,
-      "matchedForm": "nuisance"
-    },
-    {
-      "word": "pillar",
-      "lemma": "pillar",
-      "lemmaId": "pillar",
-      "pos": "noun",
-      "wordKey": "pillar_noun",
+      "word": "going out to",
+      "lemma": "go out to",
+      "lemmaId": "go_out_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_out_to_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈpɪl.ər",
       "translations": {
         "ru": {
-          "translation": "столб, колонна"
+          "translation": "Выход"
         }
       },
-      "definition": "A tall vertical structure of stone, wood, or metal supporting a building.",
-      "example": "was dragged out from between the pillars.",
-      "exampleStart": 199,
-      "exampleEnd": 240,
-      "matchedForm": "pillars"
+      "example": "Come Halloween, dear sir, we shall be going out to conquer every other world we know.",
+      "exampleStart": 2420,
+      "exampleEnd": 2505,
+      "phraseMatch": {
+        "text": "going out to",
+        "startInExample": 38,
+        "endInExample": 50
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "propose",
-      "lemma": "propose",
-      "lemmaId": "propose",
-      "pos": "verb",
-      "wordKey": "propose_verb",
-      "level": "B2",
-      "ipa": "prəˈpəʊz",
+      "word": "gray hat",
+      "lemma": "gray hat",
+      "lemmaId": "gray_hat",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "gray_hat_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "предлагать"
+          "translation": "Серая шляпа"
         }
       },
-      "definition": "To suggest a plan or action for consideration.",
-      "example": "what do you propose doing?",
-      "exampleStart": 1551,
-      "exampleEnd": 1577,
-      "matchedForm": "propose"
-    },
-    {
-      "word": "restraint",
-      "lemma": "restraint",
-      "lemmaId": "restraint",
-      "pos": "noun",
-      "wordKey": "restraint_noun",
-      "level": "C1",
-      "ipa": "rɪˈstreɪnt",
-      "translations": {
-        "ru": {
-          "translation": "ограничение, сдерживание"
-        }
-      },
-      "definition": "A measure or condition that keeps someone or something under control.",
-      "example": "sick of you imposing restraints on us",
-      "exampleStart": 1709,
-      "exampleEnd": 1746,
-      "matchedForm": "restraints"
-    },
-    {
-      "word": "satisfaction",
-      "lemma": "satisfaction",
-      "lemmaId": "satisfaction",
-      "pos": "noun",
-      "wordKey": "satisfaction_noun",
-      "level": "B2",
-      "ipa": "ˌsæt.ɪsˈfæk.ʃən",
-      "translations": {
-        "ru": {
-          "translation": "удовлетворение"
-        }
-      },
-      "definition": "Fulfillment of one's wishes, expectations, or needs.",
-      "example": "with the greatest satisfaction.",
-      "exampleStart": 315,
+      "example": "His tall gray hat rolled near Cat’s feet and Henry Nostrum stamped on it, with the greatest satisfaction.",
+      "exampleStart": 241,
       "exampleEnd": 346,
-      "matchedForm": "satisfaction"
+      "phraseMatch": {
+        "text": "gray hat",
+        "startInExample": 9,
+        "endInExample": 17
+      },
+      "levelSource": "phrase_fallback"
     },
     {
-      "word": "stumble",
+      "word": "hand on",
+      "lemma": "hand on",
+      "lemmaId": "hand_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "hand_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Рука"
+        }
+      },
+      "example": "She supposed Cat dared not move with Henry Nostrum’s hand on his shoulder, and she felt someone ought to do something.",
+      "exampleStart": 2142,
+      "exampleEnd": 2260,
+      "phraseMatch": {
+        "text": "hand on",
+        "startInExample": 53,
+        "endInExample": 60
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "imposing on",
+      "lemma": "impose on",
+      "lemmaId": "impose_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "impose_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "навязывая"
+        }
+      },
+      "example": "We’re sick of you imposing restraints on us, you see.",
+      "exampleStart": 1703,
+      "exampleEnd": 1756,
+      "phraseMatch": {
+        "text": "imposing restraints on",
+        "startInExample": 18,
+        "endInExample": 40
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "lay in",
+      "lemma": "lay in",
+      "lemmaId": "lay_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "lay_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Ложись."
+        }
+      },
+      "example": "”\n\nJanet, at that moment, stumbled over the block of stone that lay in the grass near the apple tree.",
+      "exampleStart": 3214,
+      "exampleEnd": 3315,
+      "phraseMatch": {
+        "text": "lay in",
+        "startInExample": 64,
+        "endInExample": 70
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "look at",
+      "lemma": "look at",
+      "lemmaId": "look_at",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_at_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Посмотри"
+        }
+      },
+      "example": "Cat felt somehow ashamed to look at him in that state.",
+      "exampleStart": 1414,
+      "exampleEnd": 1468,
+      "phraseMatch": {
+        "text": "look at",
+        "startInExample": 28,
+        "endInExample": 35
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "pulled off",
+      "lemma": "pull off",
+      "lemmaId": "pull_off",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "pull_off_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "связанный"
+        }
+      },
+      "example": "William Nostrum hurried over to his brother and pulled the watch-chain off Henry’s bulging waistcoat.",
+      "exampleStart": 876,
+      "exampleEnd": 977,
+      "phraseMatch": {
+        "text": "pulled the watch-chain off",
+        "startInExample": 48,
+        "endInExample": 74
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "remarked",
+      "lemma": "remark",
+      "lemmaId": "remark",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "remark_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "замечание"
+        }
+      },
+      "example": "” Chrestomanci remarked.",
+      "exampleStart": 795,
+      "exampleEnd": 819,
+      "matchedForm": "remarked",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.814286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "sagged",
+      "lemma": "sag",
+      "lemmaId": "sag",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "sag_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "провисать"
+        }
+      },
+      "example": "Chrestomanci sagged as if he were tired.",
+      "exampleStart": 1237,
+      "exampleEnd": 1277,
+      "matchedForm": "sagged",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.931429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "stamped on",
+      "lemma": "stamp on",
+      "lemmaId": "stamp_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "stamp_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Запечатлено"
+        }
+      },
+      "example": "His tall gray hat rolled near Cat’s feet and Henry Nostrum stamped on it, with the greatest satisfaction.",
+      "exampleStart": 241,
+      "exampleEnd": 346,
+      "phraseMatch": {
+        "text": "stamped on",
+        "startInExample": 59,
+        "endInExample": 69
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "striking at",
+      "lemma": "strike at",
+      "lemmaId": "strike_at",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "strike_at_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Удар по"
+        }
+      },
+      "example": "You’d be striking at the roots of witchcraft—and you’d find it shockingly hard to destroy.",
+      "exampleStart": 2869,
+      "exampleEnd": 2959,
+      "phraseMatch": {
+        "text": "striking at",
+        "startInExample": 9,
+        "endInExample": 20
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "stumbled",
       "lemma": "stumble",
       "lemmaId": "stumble",
-      "pos": "verb",
-      "wordKey": "stumble_verb",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "stumble_adjective",
       "level": "B2",
-      "ipa": "ˈstʌm.bəl",
       "translations": {
         "ru": {
           "translation": "спотыкаться"
         }
       },
-      "definition": "To trip or momentarily lose balance while walking.",
-      "example": "stumbled over the block of stone that",
-      "exampleStart": 3240,
-      "exampleEnd": 3277,
-      "matchedForm": "stumbled"
+      "example": "”\n\nJanet, at that moment, stumbled over the block of stone that lay in the grass near the apple tree.",
+      "exampleStart": 3214,
+      "exampleEnd": 3315,
+      "matchedForm": "stumbled",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.882857,
+      "difficultySource": "zipf"
     },
     {
-      "word": "triumph",
-      "lemma": "triumph",
-      "lemmaId": "triumph",
-      "pos": "noun",
-      "wordKey": "triumph_noun",
+      "word": "swirled",
+      "lemma": "swirl",
+      "lemmaId": "swirl",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "swirl_verb",
       "level": "C1",
-      "ipa": "ˈtraɪʌmf",
       "translations": {
         "ru": {
-          "translation": "торжество"
+          "translation": "вихрь"
         }
       },
-      "definition": "A great victory or achievement.",
-      "example": "a scream of triumph from under the",
-      "exampleStart": 10,
-      "exampleEnd": 44,
-      "matchedForm": "triumph"
+      "example": "William Nostrum’s eyes swirled joyfully about.",
+      "exampleStart": 1589,
+      "exampleEnd": 1635,
+      "matchedForm": "swirled",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.957143,
+      "difficultySource": "zipf"
     },
     {
-      "word": "waistcoat",
-      "lemma": "waistcoat",
-      "lemmaId": "waistcoat",
-      "pos": "noun",
-      "wordKey": "waistcoat_noun",
+      "word": "tied up",
+      "lemma": "tie up",
+      "lemmaId": "tie_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "tie_up_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈweɪskəʊt",
       "translations": {
         "ru": {
-          "translation": "жилет (мужской)"
+          "translation": "Связан"
         }
       },
-      "definition": "A sleeveless garment worn on the upper body under a jacket.",
-      "example": "pulled the watch-chain off Henry’s bulging waistcoat",
-      "exampleStart": 924,
-      "exampleEnd": 976,
-      "matchedForm": "waistcoat"
+      "example": "“Now you’ve got me all tied up in silver, what do you propose doing?",
+      "exampleStart": 1509,
+      "exampleEnd": 1577,
+      "phraseMatch": {
+        "text": "tied up",
+        "startInExample": 23,
+        "endInExample": 30
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "wicked",
-      "lemma": "wicked",
-      "lemmaId": "wicked",
-      "pos": "adjective",
-      "wordKey": "wicked_adjective",
-      "level": "B2",
-      "ipa": "ˈwɪkɪd",
+      "word": "tremble",
+      "lemma": "tremble",
+      "lemmaId": "tremble",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "tremble_verb",
+      "level": "C1",
       "translations": {
         "ru": {
-          "translation": "злой, безнравственный"
+          "translation": "дрожь"
         }
       },
-      "definition": "Evil or morally wrong.",
-      "example": "we be as wicked as we want",
-      "exampleStart": 1858,
-      "exampleEnd": 1884,
-      "matchedForm": "wicked"
-    },
-    {
-      "word": "wily",
-      "lemma": "wily",
-      "lemmaId": "wily",
-      "pos": "adjective",
-      "wordKey": "wily_adjective",
-      "level": "C2",
-      "ipa": "ˈwaɪli",
-      "translations": {
-        "ru": {
-          "translation": "хитрый, коварный"
-        }
-      },
-      "definition": "Skilled at gaining an advantage, especially deceitfully.",
-      "example": "my wily sir.",
-      "exampleStart": 3052,
-      "exampleEnd": 3064,
-      "matchedForm": "wily"
-    },
-    {
-      "word": "witchcraft",
-      "lemma": "witchcraft",
-      "lemmaId": "witchcraft",
-      "pos": "noun",
-      "wordKey": "witchcraft_noun",
-      "level": "C2",
-      "ipa": "ˈwɪtʃ.kræft",
-      "translations": {
-        "ru": {
-          "translation": "колдовство"
-        }
-      },
-      "definition": "The practice of magic, especially black magic.",
-      "example": "the scream of true witchcraft",
-      "exampleStart": 74,
-      "exampleEnd": 103,
-      "matchedForm": "witchcraft"
+      "example": "There was a scream of triumph from under the nodding hats of the audience—the scream of true witchcraft, which made the sunlight tremble.",
+      "exampleStart": 0,
+      "exampleEnd": 137,
+      "matchedForm": "tremble",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.991429,
+      "difficultySource": "zipf"
     }
   ]
 }

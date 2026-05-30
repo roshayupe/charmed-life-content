@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 10,
     "sectionTitle": "Chapter 7",
     "fragmentIndex": 1,
@@ -21,14 +20,14 @@
       "wordCount": 597,
       "uniqueWordCount": 324,
       "paragraphCount": 22,
-      "vocabularyCount": 25,
+      "vocabularyCount": 34,
       "levelDistribution": {
-        "A1": 0,
-        "A2": 0,
-        "B1": 0,
-        "B2": 15,
-        "C1": 7,
-        "C2": 3
+        "A1": 1,
+        "A2": 1,
+        "B1": 10,
+        "B2": 19,
+        "C1": 1,
+        "C2": 2
       }
     }
   },
@@ -37,426 +36,781 @@
       "word": "amiably",
       "lemma": "amiably",
       "lemmaId": "amiably",
-      "pos": "adverb",
-      "wordKey": "amiably_adverb",
-      "level": "C2",
-      "ipa": "ˈeɪmiəbli",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "amiably_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "дружелюбно, любезно"
+          "translation": "приветливо"
         }
       },
-      "definition": "in a friendly and pleasant manner",
-      "example": "He chatted amiably with the guests.",
-      "matchedForm": "amiably"
+      "example": "”\n\n“If you do, I’ll turn your underpants to ice,” Julia said amiably.",
+      "exampleStart": 1638,
+      "exampleEnd": 1707,
+      "matchedForm": "amiably",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "battalions",
-      "lemma": "battalions",
-      "lemmaId": "battalions",
-      "pos": "noun",
-      "wordKey": "battalions_noun",
-      "level": "C1",
-      "ipa": "bəˈtælɪənz",
+      "word": "as soon as",
+      "lemma": "as soon as",
+      "lemmaId": "as_soon_as",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "as_soon_as_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "батальоны"
+          "translation": "как только"
         }
       },
-      "definition": "large bodies of troops ready for battle",
-      "example": "The soldiers fell in battalions.",
-      "matchedForm": "battalions"
+      "example": "No matter how cunningly Cat deployed his lifeless tin army, as soon as Roger’s soldiers began to march, Cat’s men fell over like ninepins.",
+      "exampleStart": 561,
+      "exampleEnd": 699,
+      "phraseMatch": {
+        "text": "as soon as",
+        "startInExample": 60,
+        "endInExample": 70
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "book in",
+      "lemma": "book in",
+      "lemmaId": "book_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "book_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Забронируйте"
+        }
+      },
+      "example": "She was curled in the shabbiest armchair, managing to suck a lollipop, to read a book called In the Hands of the Lamas , and to knit, all at the same time.",
+      "exampleStart": 1087,
+      "exampleEnd": 1242,
+      "phraseMatch": {
+        "text": "book called In",
+        "startInExample": 81,
+        "endInExample": 95
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "braver",
       "lemma": "braver",
       "lemmaId": "braver",
-      "pos": "adjective",
-      "wordKey": "braver_adjective",
-      "level": "B2",
-      "ipa": "ˈbreɪvə",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "braver_verb",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "смелей"
+          "translation": "храбрец"
         }
       },
-      "definition": "more courageous or courageous in a difficult situation",
-      "example": "He became braver after training.",
-      "matchedForm": "braver"
+      "example": "”\n\n“Well, make them a bit braver,” said Roger.",
+      "exampleStart": 3111,
+      "exampleEnd": 3157,
+      "matchedForm": "braver",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "consternation",
-      "lemma": "consternation",
-      "lemmaId": "consternation",
-      "pos": "noun",
-      "wordKey": "consternation_noun",
-      "level": "C2",
-      "ipa": "ˌkɒnstəˈneɪʃən",
+      "word": "came out of",
+      "lemma": "come out of",
+      "lemmaId": "come_out_of",
+      "pos": "prepositional_verb",
+      "type": "prepositional_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_out_of_prepositional_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "встревоженность, испуг"
+          "translation": "вышел из"
         }
       },
-      "definition": "feelings of anxiety or dismay, typically at something unexpected",
-      "example": "To her consternation, the meeting was cancelled.",
-      "matchedForm": "consternation"
+      "example": "Cat was hanging about at the foot of his stairs, wondering what to do now, when Roger came out of the playroom and saw him.",
+      "exampleStart": 272,
+      "exampleEnd": 395,
+      "phraseMatch": {
+        "text": "came out of",
+        "startInExample": 86,
+        "endInExample": 97
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "cutting down",
-      "lemma": "cutting down",
-      "lemmaId": "cutting_down",
-      "pos": "phrase",
-      "wordKey": "cutting_down_phrase",
+      "lemma": "cut down",
+      "lemmaId": "cut_down",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "cut_down_phrasal_verb",
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "зачищать, уничтожать"
+          "translation": "Сокращение"
         }
       },
-      "definition": "to kill or eliminate in large numbers",
-      "example": "The fire cut down large areas of forest."
+      "example": "In three seconds, they were all trying to hide in the toy cupboard, and Roger’s soldiers were cutting them down in swathes.",
+      "exampleStart": 2776,
+      "exampleEnd": 2899,
+      "phraseMatch": {
+        "text": "cutting them down",
+        "startInExample": 94,
+        "endInExample": 111
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "deployed",
-      "lemma": "deployed",
-      "lemmaId": "deployed",
-      "pos": "verb",
-      "wordKey": "deployed_verb",
-      "level": "C1",
-      "ipa": "dɪˈplɔɪd",
+      "word": "end with",
+      "lemma": "end with",
+      "lemmaId": "end_with",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "end_with_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "развернутый, размещённый"
+          "translation": "конец на"
         }
       },
-      "definition": "to position or arrange strategically",
-      "example": "Cat cunningly deployed his lifeless tin army.",
-      "matchedForm": "deployed"
-    },
-    {
-      "word": "droves",
-      "lemma": "droves",
-      "lemmaId": "droves",
-      "pos": "noun",
-      "wordKey": "droves_noun",
-      "level": "C2",
-      "ipa": "drəʊvz",
-      "translations": {
-        "ru": {
-          "translation": "толпы, стада"
-        }
+      "example": "But he got them positioned in the end—with great cunning, he thought.",
+      "exampleStart": 2349,
+      "exampleEnd": 2418,
+      "phraseMatch": {
+        "text": "end—with",
+        "startInExample": 34,
+        "endInExample": 42
       },
-      "definition": "large groups or masses",
-      "example": "People came in droves to the festival.",
-      "matchedForm": "droves"
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "exasperated",
-      "lemma": "exasperated",
-      "lemmaId": "exasperated",
+      "lemma": "exasperate",
+      "lemmaId": "exasperate",
       "pos": "adjective",
-      "wordKey": "exasperated_adjective",
-      "level": "C1",
-      "ipa": "ɪɡˈzɑːspəreɪtɪd",
+      "source": "word",
+      "wordKey": "exasperate_adjective",
+      "level": "C2",
       "translations": {
         "ru": {
-          "translation": "раздражённый, выведенный из себя"
+          "translation": "раздражать"
         }
       },
-      "definition": "intensely irritated or frustrated",
-      "example": "She was exasperated by the long delay.",
-      "matchedForm": "exasperated"
+      "example": "Roger was exasperated.",
+      "exampleStart": 2901,
+      "exampleEnd": 2923,
+      "matchedForm": "exasperated",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "fainted",
-      "lemma": "fainted",
-      "lemmaId": "fainted",
-      "pos": "verb",
-      "wordKey": "fainted_verb",
+      "word": "fell in",
+      "lemma": "fall in",
+      "lemmaId": "fall_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "fall_in_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈfeɪntɪd",
       "translations": {
         "ru": {
-          "translation": "потерять сознание"
+          "translation": "попал"
         }
       },
-      "definition": "to lose consciousness briefly",
-      "example": "She fainted from the heat.",
-      "matchedForm": "fainted"
+      "example": "They fell in batches and droves and in battalions.",
+      "exampleStart": 700,
+      "exampleEnd": 750,
+      "phraseMatch": {
+        "text": "fell in",
+        "startInExample": 5,
+        "endInExample": 12
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "fall on",
+      "lemma": "fall on",
+      "lemmaId": "fall_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "fall_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Падай"
+        }
+      },
+      "example": "Cat had a company in reserve behind a cushion and, when the battle was at its fiercest, he shooed them out to fall on Roger’s right wing.",
+      "exampleStart": 2497,
+      "exampleEnd": 2634,
+      "phraseMatch": {
+        "text": "fall on",
+        "startInExample": 110,
+        "endInExample": 117
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "fell over",
+      "lemma": "fall over",
+      "lemmaId": "fall_over",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "fall_over_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "упал"
+        }
+      },
+      "example": "No matter how cunningly Cat deployed his lifeless tin army, as soon as Roger’s soldiers began to march, Cat’s men fell over like ninepins.",
+      "exampleStart": 561,
+      "exampleEnd": 699,
+      "phraseMatch": {
+        "text": "fell over",
+        "startInExample": 114,
+        "endInExample": 123
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "fiercest",
       "lemma": "fiercest",
       "lemmaId": "fiercest",
-      "pos": "adjective",
-      "wordKey": "fiercest_adjective",
-      "level": "B2",
-      "ipa": "ˈfɪəsɪst",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "fiercest_noun",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "самый жестокий, яростный"
+          "translation": "свирепый"
         }
       },
-      "definition": "most intense or violent",
-      "example": "The fiercest storm of the year hit the coast.",
-      "matchedForm": "fiercest"
+      "example": "Cat had a company in reserve behind a cushion and, when the battle was at its fiercest, he shooed them out to fall on Roger’s right wing.",
+      "exampleStart": 2497,
+      "exampleEnd": 2634,
+      "matchedForm": "fiercest",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "fumbled",
-      "lemma": "fumbled",
-      "lemmaId": "fumbled",
-      "pos": "verb",
-      "wordKey": "fumbled_verb",
-      "level": "B2",
-      "ipa": "ˈfʌmbəld",
+      "lemma": "fumble",
+      "lemmaId": "fumble",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "fumble_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "нерешительно или неуклюже работать (с предметом)"
+          "translation": "спотыкаться"
         }
       },
-      "definition": "to handle or use clumsily or awkwardly",
-      "example": "He fumbled with the keys in his pocket.",
-      "matchedForm": "fumbled"
+      "example": "” Without taking her eyes off her book or the lollipop out of her mouth, she fumbled out her handkerchief and tied a knot in it.",
+      "exampleStart": 1719,
+      "exampleEnd": 1847,
+      "matchedForm": "fumbled",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.9,
+      "difficultySource": "zipf"
     },
     {
-      "word": "furiously",
-      "lemma": "furiously",
-      "lemmaId": "furiously",
-      "pos": "adverb",
-      "wordKey": "furiously_adverb",
-      "level": "C1",
-      "ipa": "ˈfjʊərɪəslɪ",
-      "translations": {
-        "ru": {
-          "translation": "яростно, бешено"
-        }
-      },
-      "definition": "in an extremely angry or intense manner",
-      "example": "He furiously moved the soldiers.",
-      "matchedForm": "furiously"
-    },
-    {
-      "word": "handfuls",
-      "lemma": "handfuls",
-      "lemmaId": "handfuls",
+      "word": "giraffe",
+      "lemma": "giraffe",
+      "lemmaId": "giraffe",
       "pos": "noun",
-      "wordKey": "handfuls_noun",
-      "level": "B2",
-      "ipa": "ˈhændfʊlz",
+      "source": "word",
+      "wordKey": "giraffe_noun",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "пригоршни"
+          "translation": "жираф"
         }
       },
-      "definition": "small amounts that can be held in one hand",
-      "example": "She threw handfuls of sand into the air.",
-      "matchedForm": "handfuls"
+      "example": "Her knitting, hardly surprisingly, looked like a vest for a giraffe which had been dipped in six shades of gray dye.",
+      "exampleStart": 1243,
+      "exampleEnd": 1359,
+      "matchedForm": "giraffe",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.911429,
+      "difficultySource": "zipf"
     },
     {
-      "word": "hide",
-      "lemma": "hide",
-      "lemmaId": "hide",
-      "pos": "verb",
-      "wordKey": "hide_verb",
+      "word": "went on",
+      "lemma": "go on",
+      "lemmaId": "go_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_on_phrasal_verb",
       "level": "B2",
-      "ipa": "haɪd",
       "translations": {
         "ru": {
-          "translation": "прятаться"
+          "translation": "продолжил"
         }
       },
-      "definition": "to conceal oneself or something",
-      "example": "He hid behind the curtain."
+      "example": "She laid the knotted handkerchief on the arm of her chair and went on knitting.",
+      "exampleStart": 1848,
+      "exampleEnd": 1927,
+      "phraseMatch": {
+        "text": "went on",
+        "startInExample": 62,
+        "endInExample": 69
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "knit",
+      "word": "go out",
+      "lemma": "go out",
+      "lemmaId": "go_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Выходи"
+        }
+      },
+      "example": "Sharp on the back of his postcard of the Castle, but that only took ten minutes, and it was too wet to go out and mail it.",
+      "exampleStart": 149,
+      "exampleEnd": 271,
+      "phraseMatch": {
+        "text": "go out",
+        "startInExample": 103,
+        "endInExample": 109
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "hanging about",
+      "lemma": "hang about",
+      "lemmaId": "hang_about",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "hang_about_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Болтаюсь"
+        }
+      },
+      "example": "Cat was hanging about at the foot of his stairs, wondering what to do now, when Roger came out of the playroom and saw him.",
+      "exampleStart": 272,
+      "exampleEnd": 395,
+      "phraseMatch": {
+        "text": "hanging about",
+        "startInExample": 8,
+        "endInExample": 21
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "i would",
+      "lemma": "i would",
+      "lemmaId": "i_would",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "i_would_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Я бы"
+        }
+      },
+      "example": "”\n\n“Because that’s just what I would do,” Julia said, putting out a knitting needle to mark her place in her book.",
+      "exampleStart": 2958,
+      "exampleEnd": 3072,
+      "phraseMatch": {
+        "text": "I would",
+        "startInExample": 29,
+        "endInExample": 36
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "i’ll tell you",
+      "lemma": "i’ll tell you",
+      "lemmaId": "ill_tell_you",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "ill_tell_you_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Я расскажу тебе"
+        }
+      },
+      "example": "“I’ll tell you whether he did perish, if you don’t.",
+      "exampleStart": 1587,
+      "exampleEnd": 1638,
+      "phraseMatch": {
+        "text": "I’ll tell you",
+        "startInExample": 1,
+        "endInExample": 14
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "knitting",
       "lemma": "knit",
       "lemmaId": "knit",
-      "pos": "verb",
-      "wordKey": "knit_verb",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "knit_adjective",
       "level": "B2",
-      "ipa": "nɪt",
       "translations": {
         "ru": {
-          "translation": "вязать (на спицах)"
+          "translation": "вязать"
         }
       },
-      "definition": "to make fabric by interlocking loops of yarn using needles",
-      "example": "She learnt to knit scarves and hats.",
-      "matchedForm": "knit"
+      "example": "She was curled in the shabbiest armchair, managing to suck a lollipop, to read a book called In the Hands of the Lamas , and to knit, all at the same time.",
+      "exampleStart": 1087,
+      "exampleEnd": 1242,
+      "matchedForm": "knit",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.814286,
+      "difficultySource": "zipf"
     },
     {
-      "word": "lollipop",
-      "lemma": "lollipop",
-      "lemmaId": "lollipop",
+      "word": "lamas",
+      "lemma": "lama",
+      "lemmaId": "lama",
       "pos": "noun",
-      "wordKey": "lollipop_noun",
+      "source": "word",
+      "wordKey": "lama_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "лама"
+        }
+      },
+      "example": "She was curled in the shabbiest armchair, managing to suck a lollipop, to read a book called In the Hands of the Lamas , and to knit, all at the same time.",
+      "exampleStart": 1087,
+      "exampleEnd": 1242,
+      "matchedForm": "Lamas",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.865714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "looked up",
+      "lemma": "look up",
+      "lemmaId": "look_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_up_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈlɒlipɒp",
       "translations": {
         "ru": {
-          "translation": "леденец на палочке"
+          "translation": "Посмотрел вверх"
         }
       },
-      "definition": "a hard sweet on a stick",
-      "example": "The child enjoyed a red lollipop.",
-      "matchedForm": "lollipop"
-    },
-    {
-      "word": "mail",
-      "lemma": "mail",
-      "lemmaId": "mail",
-      "pos": "verb",
-      "wordKey": "mail_verb",
-      "level": "B2",
-      "ipa": "meɪl",
-      "translations": {
-        "ru": {
-          "translation": "отправлять почтой"
-        }
-      },
-      "definition": "to send something by post",
-      "example": "She mailed the letter yesterday.",
-      "matchedForm": "mail"
-    },
-    {
-      "word": "mournfully",
-      "lemma": "mournfully",
-      "lemmaId": "mournfully",
-      "pos": "adverb",
-      "wordKey": "mournfully_adverb",
-      "level": "C1",
-      "ipa": "ˈmɔːn.fəl.i",
-      "translations": {
-        "ru": {
-          "translation": "печально"
-        }
-      },
-      "definition": "in a way that shows sadness or sorrow",
-      "example": "She looked mournfully at the broken toy.",
-      "matchedForm": "mournfully"
-    },
-    {
-      "word": "multi-word expression",
-      "lemma": "multi-word expression",
-      "lemmaId": "multi_word_expression",
-      "pos": "phrase",
-      "wordKey": "multi_word_expression_phrase",
-      "level": "C1",
-      "translations": {
-        "ru": {
-          "translation": "многословное выражение"
-        }
-      },
-      "definition": "meaningful fixed phrases combining several words",
-      "example": "Expressions like 'make the soldiers move' and 'turn your underpants to ice' are multi-word expressions.",
+      "example": "They looked up at the great flapping hands above them in the greatest consternation.",
+      "exampleStart": 2226,
+      "exampleEnd": 2310,
       "phraseMatch": {
-        "text": "multi-word expression",
-        "startInExample": 80,
-        "endInExample": 101
-      }
+        "text": "looked up",
+        "startInExample": 5,
+        "endInExample": 14
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "playroom",
-      "lemma": "playroom",
-      "lemmaId": "playroom",
-      "pos": "noun",
-      "wordKey": "playroom_noun",
-      "level": "B2",
-      "ipa": "ˈpleɪruːm",
+      "word": "on the back of",
+      "lemma": "on the back of",
+      "lemmaId": "on_the_back_of",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "on_the_back_of_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "игровая комната"
+          "translation": "на обратной стороне"
         }
       },
-      "definition": "a room where children play",
-      "example": "The toys were scattered across the playroom.",
-      "matchedForm": "playroom"
+      "example": "Sharp on the back of his postcard of the Castle, but that only took ten minutes, and it was too wet to go out and mail it.",
+      "exampleStart": 149,
+      "exampleEnd": 271,
+      "phraseMatch": {
+        "text": "on the back of",
+        "startInExample": 6,
+        "endInExample": 20
+      },
+      "levelSource": "phrase_fallback"
     },
     {
-      "word": "reserve",
-      "lemma": "reserve",
-      "lemmaId": "reserve",
-      "pos": "noun",
-      "wordKey": "reserve_noun",
-      "level": "B2",
-      "ipa": "rɪˈzɜːv",
+      "word": "once again",
+      "lemma": "once again",
+      "lemmaId": "once_again",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "once_again_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "резерв"
+          "translation": "Снова"
         }
       },
-      "definition": "a group kept back for future use or for emergencies",
-      "example": "They kept a reserve of soldiers ready.",
-      "matchedForm": "reserve"
+      "example": "Gwendolen shut herself into her room and, once again, Cat did not know what to do.",
+      "exampleStart": 49,
+      "exampleEnd": 131,
+      "phraseMatch": {
+        "text": "once again",
+        "startInExample": 42,
+        "endInExample": 52
+      },
+      "levelSource": "phrase_fallback"
     },
     {
-      "word": "retreat",
-      "lemma": "retreat",
-      "lemmaId": "retreat",
-      "pos": "noun",
-      "wordKey": "retreat_noun",
+      "word": "picked up",
+      "lemma": "pick up",
+      "lemmaId": "pick_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "pick_up_phrasal_verb",
       "level": "B2",
-      "ipa": "rɪˈtriːt",
       "translations": {
         "ru": {
-          "translation": "отступление"
+          "translation": "Подобрали"
         }
       },
-      "definition": "the act of withdrawing or going back",
-      "example": "The army began a slow retreat.",
-      "matchedForm": "retreat"
+      "example": "Cat’s fallen soldiers picked themselves up from the floor and straightened their tin tunics.",
+      "exampleStart": 1929,
+      "exampleEnd": 2021,
+      "phraseMatch": {
+        "text": "picked themselves up",
+        "startInExample": 22,
+        "endInExample": 42
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "scooping",
-      "lemma": "scooping",
-      "lemmaId": "scooping",
+      "word": "putting out",
+      "lemma": "put out",
+      "lemmaId": "put_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "put_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Выпуск"
+        }
+      },
+      "example": "”\n\n“Because that’s just what I would do,” Julia said, putting out a knitting needle to mark her place in her book.",
+      "exampleStart": 2958,
+      "exampleEnd": 3072,
+      "phraseMatch": {
+        "text": "putting out",
+        "startInExample": 54,
+        "endInExample": 65
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "reduced to",
+      "lemma": "reduce to",
+      "lemmaId": "reduce_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "reduce_to_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "сокращено до"
+        }
+      },
+      "example": "In five minutes he was reduced to three soldiers hidden behind a cushion.",
+      "exampleStart": 898,
+      "exampleEnd": 971,
+      "phraseMatch": {
+        "text": "reduced to",
+        "startInExample": 23,
+        "endInExample": 33
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "run away",
+      "lemma": "run away",
+      "lemmaId": "run_away",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "run_away_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Беги"
+        }
+      },
+      "example": "“Julia’s soldiers always run away!",
+      "exampleStart": 2924,
+      "exampleEnd": 2958,
+      "phraseMatch": {
+        "text": "run away",
+        "startInExample": 25,
+        "endInExample": 33
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "shoo",
+      "lemma": "shoo",
+      "lemmaId": "shoo",
       "pos": "verb",
-      "wordKey": "scooping_verb",
-      "level": "B2",
-      "ipa": "ˈskuːpɪŋ",
+      "source": "word",
+      "wordKey": "shoo_verb",
+      "level": "A2",
       "translations": {
         "ru": {
-          "translation": "захват, черпание"
+          "translation": "су"
         }
       },
-      "definition": "lifting or gathering using a curved shape or motion",
-      "example": "They were scooping water from the well.",
-      "matchedForm": "scooping"
+      "example": "He had to shoo them into position with his hands.",
+      "exampleStart": 2143,
+      "exampleEnd": 2192,
+      "matchedForm": "shoo",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "shabby",
-      "lemma": "shabby",
-      "lemmaId": "shabby",
+      "word": "straightened",
+      "lemma": "straighten",
+      "lemmaId": "straighten",
       "pos": "adjective",
-      "wordKey": "shabby_adjective",
-      "level": "B2",
-      "ipa": "ˈʃæbi",
-      "translations": {
-        "ru": {
-          "translation": "поношенный, видавший виды"
-        }
-      },
-      "definition": "worn out or dilapidated",
-      "example": "He wore a shabby old coat.",
-      "matchedForm": "shabby"
-    },
-    {
-      "word": "thrilling",
-      "lemma": "thrilling",
-      "lemmaId": "thrilling",
-      "pos": "adjective",
-      "wordKey": "thrilling_adjective",
+      "source": "word",
+      "wordKey": "straighten_adjective",
       "level": "C1",
-      "ipa": "ˈθrɪlɪŋ",
       "translations": {
         "ru": {
-          "translation": "захватывающий, волнующий"
+          "translation": "выпрямлять"
         }
       },
-      "definition": "causing excitement or pleasure",
-      "example": "It was a thrilling adventure story.",
-      "matchedForm": "thrilling"
+      "example": "Cat’s fallen soldiers picked themselves up from the floor and straightened their tin tunics.",
+      "exampleStart": 1929,
+      "exampleEnd": 2021,
+      "matchedForm": "straightened",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.925714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "swathes",
+      "lemma": "swathe",
+      "lemmaId": "swathe",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "swathe_noun",
+      "level": "C2",
+      "translations": {
+        "ru": {
+          "translation": "смахивать"
+        }
+      },
+      "example": "In three seconds, they were all trying to hide in the toy cupboard, and Roger’s soldiers were cutting them down in swathes.",
+      "exampleStart": 2776,
+      "exampleEnd": 2899,
+      "matchedForm": "swathes",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "taking off",
+      "lemma": "take off",
+      "lemmaId": "take_off",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "take_off_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "взлёт"
+        }
+      },
+      "example": "” Without taking her eyes off her book or the lollipop out of her mouth, she fumbled out her handkerchief and tied a knot in it.",
+      "exampleStart": 1719,
+      "exampleEnd": 1847,
+      "phraseMatch": {
+        "text": "taking her eyes off",
+        "startInExample": 10,
+        "endInExample": 29
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "tied in",
+      "lemma": "tie in",
+      "lemmaId": "tie_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "tie_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Связан"
+        }
+      },
+      "example": "” Without taking her eyes off her book or the lollipop out of her mouth, she fumbled out her handkerchief and tied a knot in it.",
+      "exampleStart": 1719,
+      "exampleEnd": 1847,
+      "phraseMatch": {
+        "text": "tied a knot in",
+        "startInExample": 110,
+        "endInExample": 124
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "tunics",
+      "lemma": "tunic",
+      "lemmaId": "tunic",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "tunic_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "туника"
+        }
+      },
+      "example": "Cat’s fallen soldiers picked themselves up from the floor and straightened their tin tunics.",
+      "exampleStart": 1929,
+      "exampleEnd": 2021,
+      "matchedForm": "tunics",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.98,
+      "difficultySource": "zipf"
     }
   ]
 }

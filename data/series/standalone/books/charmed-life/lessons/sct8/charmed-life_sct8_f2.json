@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 8,
     "sectionTitle": "Chapter 5",
     "fragmentIndex": 2,
@@ -21,439 +20,905 @@
       "wordCount": 645,
       "uniqueWordCount": 363,
       "paragraphCount": 19,
-      "vocabularyCount": 24,
+      "vocabularyCount": 39,
       "levelDistribution": {
         "A1": 0,
         "A2": 0,
-        "B1": 0,
-        "B2": 16,
-        "C1": 6,
-        "C2": 2
+        "B1": 11,
+        "B2": 25,
+        "C1": 3,
+        "C2": 0
       }
     }
   },
   "vocabulary": [
     {
-      "word": "admiring",
-      "lemma": "admiring",
-      "lemmaId": "admiring",
-      "pos": "adjective",
-      "wordKey": "admiring_adjective",
-      "level": "B2",
-      "ipa": "ədˈmaɪərɪŋ",
+      "word": "a great deal",
+      "lemma": "a great deal",
+      "lemmaId": "a_great_deal",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "a_great_deal_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "восхищённый"
+          "translation": "Очень много"
         }
       },
-      "definition": "Showing respect and warm approval.",
-      "example": "She pretended to be admiring the Castle.",
-      "matchedForm": "admiring"
+      "example": "Saunders was taking his afternoon off in a deck chair under one of the cedars, reading a yellow paperback book which seemed to amuse him a great deal.",
+      "exampleStart": 205,
+      "exampleEnd": 355,
+      "phraseMatch": {
+        "text": "a great deal",
+        "startInExample": 137,
+        "endInExample": 149
+      },
+      "levelSource": "phrase_fallback"
     },
     {
-      "word": "alley",
-      "lemma": "alley",
-      "lemmaId": "alley",
-      "pos": "noun",
-      "wordKey": "alley_noun",
+      "word": "added to",
+      "lemma": "add to",
+      "lemmaId": "add_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "add_to_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈæli",
       "translations": {
         "ru": {
-          "translation": "переулок"
+          "translation": "добавлено"
         }
       },
-      "definition": "A narrow passage or lane between or behind buildings.",
-      "example": "At the end of that alley.",
-      "matchedForm": "alley"
+      "example": "Saunders added to his amazement by saying, “You’ll get that every Wednesday.",
+      "exampleStart": 1546,
+      "exampleEnd": 1622,
+      "phraseMatch": {
+        "text": "added to",
+        "startInExample": 9,
+        "endInExample": 17
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "amaze",
-      "lemma": "amaze",
-      "lemmaId": "amaze",
-      "pos": "verb",
-      "wordKey": "amaze_verb",
-      "level": "B2",
-      "ipa": "əˈmeɪz",
+      "word": "all the same",
+      "lemma": "all the same",
+      "lemmaId": "all_the_same",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "all_the_same_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "изумлять"
+          "translation": "Всё равно"
         }
       },
-      "definition": "To surprise someone greatly.",
-      "example": "He added to his amazement.",
-      "matchedForm": "amaze"
+      "example": "“All the same,” he argued, “they could be specialists—garden warlocks.",
+      "exampleStart": 2655,
+      "exampleEnd": 2725,
+      "phraseMatch": {
+        "text": "All the same",
+        "startInExample": 1,
+        "endInExample": 13
+      },
+      "levelSource": "phrase_fallback"
     },
     {
       "word": "apprehensive",
       "lemma": "apprehensive",
       "lemmaId": "apprehensive",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "apprehensive_adjective",
       "level": "C1",
-      "ipa": "ˌæprɪˈhɛnsɪv",
       "translations": {
         "ru": {
-          "translation": "обеспокоенный, тревожный"
+          "translation": "тревожный"
         }
       },
-      "definition": "Anxious or fearful that something bad or unpleasant will happen.",
-      "example": "Gwendolen looked more apprehensive.",
-      "matchedForm": "apprehensive"
+      "example": "Gwendolen looked, for a second, more apprehensive than Cat had ever seen her.",
+      "exampleStart": 872,
+      "exampleEnd": 949,
+      "matchedForm": "apprehensive",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.994286,
+      "difficultySource": "zipf"
     },
     {
-      "word": "avenue of trees",
-      "lemma": "avenue of trees",
-      "lemmaId": "avenue_of_trees",
+      "word": "as soon as",
+      "lemma": "as soon as",
+      "lemmaId": "as_soon_as",
       "pos": "phrase",
-      "wordKey": "avenue_of_trees_phrase",
-      "level": "B2",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "as_soon_as_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "аллея деревьев"
+          "translation": "как только"
         }
       },
-      "definition": "A straight path or road lined with trees on both sides.",
-      "example": "Avenue of trees.",
+      "example": "“I expect Chrestomanci will send for me as soon as he realizes it was me,” she said as they walked down the avenue of trees.",
+      "exampleStart": 2030,
+      "exampleEnd": 2154,
       "phraseMatch": {
-        "text": "Avenue of trees",
-        "startInExample": 0,
-        "endInExample": 15
-      }
+        "text": "as soon as",
+        "startInExample": 40,
+        "endInExample": 50
+      },
+      "levelSource": "phrase_fallback"
     },
     {
-      "word": "blow (money)",
-      "lemma": "blow (money)",
-      "lemmaId": "blow_money",
-      "pos": "phrase",
-      "wordKey": "blow_money_phrase",
+      "word": "book in",
+      "lemma": "book in",
+      "lemmaId": "book_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "book_in_phrasal_verb",
       "level": "B2",
-      "ipa": "bləʊ",
       "translations": {
         "ru": {
-          "translation": "транжирить"
+          "translation": "Забронируйте"
         }
       },
-      "definition": "To spend money carelessly or extravagantly.",
-      "example": "Blow it all on sweets."
+      "example": "Cat saw that the yellow book was in French.",
+      "exampleStart": 1026,
+      "exampleEnd": 1069,
+      "phraseMatch": {
+        "text": "book was in",
+        "startInExample": 24,
+        "endInExample": 35
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "book on",
+      "lemma": "book on",
+      "lemmaId": "book_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "book_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "книга о"
+        }
+      },
+      "example": "Saunders laid the book facedown on the once-more-beautiful grass and smiled up at them.",
+      "exampleStart": 1190,
+      "exampleEnd": 1277,
+      "phraseMatch": {
+        "text": "book facedown on",
+        "startInExample": 18,
+        "endInExample": 34
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "carted in",
+      "lemma": "cart in",
+      "lemmaId": "cart_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "cart_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Завезли"
+        }
+      },
+      "example": "”\n\n“They must have carted in new turf while we were having lessons,” Cat suggested.",
+      "exampleStart": 663,
+      "exampleEnd": 746,
+      "phraseMatch": {
+        "text": "carted in",
+        "startInExample": 19,
+        "endInExample": 28
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "casually",
       "lemma": "casually",
       "lemmaId": "casually",
-      "pos": "adverb",
-      "wordKey": "casually_adverb",
-      "level": "B2",
-      "ipa": "ˈkæʒʊəli",
-      "translations": {
-        "ru": {
-          "translation": "непринуждённо, случайно"
-        }
-      },
-      "definition": "In a relaxed and informal way.",
-      "example": "She led the way casually.",
-      "matchedForm": "casually"
-    },
-    {
-      "word": "cautious about",
-      "lemma": "cautious about",
-      "lemmaId": "cautious_about",
-      "pos": "phrase",
-      "wordKey": "cautious_about_phrase",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "casually_adjective",
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "осторожный в отношении"
+          "translation": "случайно"
         }
       },
-      "definition": "Being careful regarding something to avoid harm.",
-      "example": "Cautious about it.",
-      "phraseMatch": {
-        "text": "Cautious about",
-        "startInExample": 0,
-        "endInExample": 14
-      }
+      "example": "But she hid it fairly well and led the way casually over to the deck chair.",
+      "exampleStart": 950,
+      "exampleEnd": 1025,
+      "matchedForm": "casually",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.814286,
+      "difficultySource": "zipf"
     },
     {
       "word": "cautious",
       "lemma": "cautious",
       "lemmaId": "cautious",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "cautious_adjective",
       "level": "B2",
-      "ipa": "ˈkɔːʃəs",
       "translations": {
         "ru": {
           "translation": "осторожный"
         }
       },
-      "definition": "Careful to avoid potential problems or dangers.",
-      "example": "They had to be fairly cautious about it.",
-      "matchedForm": "cautious"
+      "example": "They had to be fairly cautious about it because Mr.",
+      "exampleStart": 153,
+      "exampleEnd": 204,
+      "matchedForm": "cautious",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.777143,
+      "difficultySource": "zipf"
     },
     {
-      "word": "deck chair",
-      "lemma": "deck chair",
-      "lemmaId": "deck_chair",
-      "pos": "phrase",
-      "wordKey": "deck_chair_phrase",
+      "word": "coming over",
+      "lemma": "come over",
+      "lemmaId": "come_over",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_over_phrasal_verb",
       "level": "B2",
-      "ipa": "dɛk tʃɛə",
       "translations": {
         "ru": {
-          "translation": "шезлонг"
+          "translation": "Иду"
         }
       },
-      "definition": "A folding chair with a fabric seat for relaxing outdoors.",
-      "example": "In a deck chair.",
+      "example": "She was divided between a defiant desire to stay at the Castle and face whatever trouble was coming over the moles and relief at an excuse to get away.",
+      "exampleStart": 1878,
+      "exampleEnd": 2029,
       "phraseMatch": {
-        "text": "deck chair",
-        "startInExample": 5,
-        "endInExample": 15
-      }
+        "text": "coming over",
+        "startInExample": 93,
+        "endInExample": 104
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "defiant",
-      "lemma": "defiant",
-      "lemmaId": "defiant",
-      "pos": "adjective",
-      "wordKey": "defiant_adjective",
-      "level": "C1",
-      "ipa": "dɪˈfaɪənt",
+      "word": "deal out",
+      "lemma": "deal out",
+      "lemmaId": "deal_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "deal_out_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "вызывающий, дерзкий"
+          "translation": "Раздача"
         }
       },
-      "definition": "Showing resistance or disobedience.",
-      "example": "A defiant desire to stay.",
-      "matchedForm": "defiant"
+      "example": "”\n\nThey went out and looked after lunch.",
+      "matchedForm": "out",
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "dubiously",
-      "lemma": "dubiously",
-      "lemmaId": "dubiously",
-      "pos": "adverb",
-      "wordKey": "dubiously_adverb",
-      "level": "C2",
-      "ipa": "ˈdjuːbiəsli",
+      "word": "dish out",
+      "lemma": "dish out",
+      "lemmaId": "dish_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "dish_out_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "сомнительно, с недоверием"
+          "translation": "Раздайте"
         }
       },
-      "definition": "In a doubtful or questionable manner.",
-      "example": "Cat did, a little dubiously.",
-      "matchedForm": "dubiously"
+      "example": "“You two went away so quickly that you never gave me time to dish you out your pocket money.",
+      "exampleStart": 1278,
+      "exampleEnd": 1370,
+      "phraseMatch": {
+        "text": "dish you out",
+        "startInExample": 61,
+        "endInExample": 73
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "frown",
+      "word": "end of",
+      "lemma": "end of",
+      "lemmaId": "end_of",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "end_of_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Конец"
+        }
+      },
+      "example": "Down there, at the end of that alley, if you really want to know.",
+      "exampleStart": 3385,
+      "exampleEnd": 3450,
+      "phraseMatch": {
+        "text": "end of",
+        "startInExample": 19,
+        "endInExample": 25
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "feel out",
+      "lemma": "feel out",
+      "lemmaId": "feel_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "feel_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Пощупай"
+        }
+      },
+      "example": "They’re trying to make me feel small.",
+      "matchedForm": "feel",
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "forbid",
+      "lemma": "forbid",
+      "lemmaId": "forbid",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "forbid_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "запрещать"
+        }
+      },
+      "example": "They did turn up awfully quickly to forbid us things.",
+      "exampleStart": 2354,
+      "exampleEnd": 2407,
+      "matchedForm": "forbid",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.814286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "frowned",
       "lemma": "frown",
       "lemmaId": "frown",
-      "pos": "verb",
-      "wordKey": "frown_verb",
-      "level": "B2",
-      "ipa": "fraʊn",
-      "translations": {
-        "ru": {
-          "translation": "хмуриться"
-        }
-      },
-      "definition": "To make a facial expression showing disapproval or concentration.",
-      "example": "Gwendolen frowned.",
-      "matchedForm": "frown"
-    },
-    {
-      "word": "gifted",
-      "lemma": "gifted",
-      "lemmaId": "gifted",
       "pos": "adjective",
-      "wordKey": "gifted_adjective",
-      "level": "B2",
-      "ipa": "ˈɡɪftɪd",
+      "source": "word",
+      "wordKey": "frown_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "одарённый"
+          "translation": "хмурый"
         }
       },
-      "definition": "Having exceptional talent or natural ability.",
-      "example": "Willing Warlock was not gifted.",
-      "matchedForm": "gifted"
+      "example": "Gwendolen frowned.",
+      "exampleStart": 2227,
+      "exampleEnd": 2245,
+      "matchedForm": "frowned",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.928571,
+      "difficultySource": "zipf"
     },
     {
-      "word": "illusion",
-      "lemma": "illusion",
-      "lemmaId": "illusion",
-      "pos": "noun",
-      "wordKey": "illusion_noun",
-      "level": "C1",
-      "ipa": "ɪˈluːʒən",
-      "translations": {
-        "ru": {
-          "translation": "иллюзия"
-        }
-      },
-      "definition": "Something that appears to be real but is false or deceptive.",
-      "example": "It must be an illusion.",
-      "matchedForm": "illusion"
-    },
-    {
-      "word": "junk shop",
-      "lemma": "junk shop",
-      "lemmaId": "junk_shop",
-      "pos": "phrase",
-      "wordKey": "junk_shop_phrase",
+      "word": "get away",
+      "lemma": "get away",
+      "lemmaId": "get_away",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "get_away_phrasal_verb",
       "level": "B2",
-      "ipa": "dʒʌŋk ʃɒp",
       "translations": {
         "ru": {
-          "translation": "магазин хлама"
+          "translation": "Отойди"
         }
       },
-      "definition": "A shop selling second-hand or old items of little value.",
-      "example": "A junk shop.",
+      "example": "She was divided between a defiant desire to stay at the Castle and face whatever trouble was coming over the moles and relief at an excuse to get away.",
+      "exampleStart": 1878,
+      "exampleEnd": 2029,
       "phraseMatch": {
-        "text": "junk shop",
-        "startInExample": 2,
-        "endInExample": 11
-      }
-    },
-    {
-      "word": "loiter",
-      "lemma": "loiter",
-      "lemmaId": "loiter",
-      "pos": "verb",
-      "wordKey": "loiter_verb",
-      "level": "C1",
-      "ipa": "ˈlɔɪtə",
-      "translations": {
-        "ru": {
-          "translation": "слоняться, бездельничать"
-        }
+        "text": "get away",
+        "startInExample": 142,
+        "endInExample": 150
       },
-      "definition": "To stand or wait around without apparent purpose.",
-      "example": "Boy was loitering near.",
-      "matchedForm": "loiter"
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "pocket money",
-      "lemma": "pocket money",
-      "lemmaId": "pocket_money",
-      "pos": "phrase",
-      "wordKey": "pocket_money_phrase",
+      "word": "went away",
+      "lemma": "go away",
+      "lemmaId": "go_away",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_away_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈpɒkɪt ˌmʌni",
       "translations": {
         "ru": {
-          "translation": "карманные деньги"
+          "translation": "ушёл"
         }
       },
-      "definition": "Small amount of money given regularly to a child by their parents.",
-      "example": "Pocket money.",
+      "example": "“You two went away so quickly that you never gave me time to dish you out your pocket money.",
+      "exampleStart": 1278,
+      "exampleEnd": 1370,
       "phraseMatch": {
-        "text": "Pocket money",
+        "text": "went away",
+        "startInExample": 9,
+        "endInExample": 18
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "go down to",
+      "lemma": "go down to",
+      "lemmaId": "go_down_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_down_to_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Спуститься вниз"
+        }
+      },
+      "example": "Shall we go down to the village, Gwendolen?",
+      "exampleStart": 1796,
+      "exampleEnd": 1839,
+      "phraseMatch": {
+        "text": "go down to",
+        "startInExample": 9,
+        "endInExample": 19
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "going into",
+      "lemma": "go into",
+      "lemmaId": "go_into",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_into_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Переход"
+        }
+      },
+      "example": "Cat did not mind going into that either.",
+      "exampleStart": 3105,
+      "exampleEnd": 3145,
+      "phraseMatch": {
+        "text": "going into",
+        "startInExample": 17,
+        "endInExample": 27
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "here you are",
+      "lemma": "here you are",
+      "lemmaId": "here_you_are",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "here_you_are_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Вот, держи"
+        }
+      },
+      "example": "Here you are.",
+      "exampleStart": 1371,
+      "exampleEnd": 1384,
+      "phraseMatch": {
+        "text": "Here you are",
         "startInExample": 0,
         "endInExample": 12
-      }
+      },
+      "levelSource": "phrase_fallback"
     },
     {
-      "word": "pretend",
-      "lemma": "pretend",
-      "lemmaId": "pretend",
+      "word": "laugh at",
+      "lemma": "laugh at",
+      "lemmaId": "laugh_at",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "laugh_at_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "смеяться над"
+        }
+      },
+      "example": "Fancy being able to laugh at something in French!",
+      "exampleStart": 1070,
+      "exampleEnd": 1119,
+      "phraseMatch": {
+        "text": "laugh at",
+        "startInExample": 20,
+        "endInExample": 28
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "loitering",
+      "lemma": "loiter",
+      "lemmaId": "loiter",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "loiter_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "шлюха"
+        }
+      },
+      "example": "But Gwendolen shook her head irritably and stopped a village boy who was loitering near it.",
+      "exampleStart": 3169,
+      "exampleEnd": 3260,
+      "matchedForm": "loitering",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "looked after",
+      "lemma": "look after",
+      "lemmaId": "look_after",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_after_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "О них заботятся"
+        }
+      },
+      "example": "”\n\nThey went out and looked after lunch.",
+      "exampleStart": 112,
+      "exampleEnd": 152,
+      "phraseMatch": {
+        "text": "looked after",
+        "startInExample": 21,
+        "endInExample": 33
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "looking at",
+      "lemma": "look at",
+      "lemmaId": "look_at",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_at_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "смотря на"
+        }
+      },
+      "example": "” And he stood looking at them, with the air of someone who has earned sixpence for his pains.",
+      "exampleStart": 3450,
+      "exampleEnd": 3544,
+      "phraseMatch": {
+        "text": "looking at",
+        "startInExample": 15,
+        "endInExample": 25
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "looked for",
+      "lemma": "look for",
+      "lemmaId": "look_for",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_for_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Искали"
+        }
+      },
+      "example": "Gwendolen looked, for a second, more apprehensive than Cat had ever seen her.",
+      "exampleStart": 872,
+      "exampleEnd": 949,
+      "phraseMatch": {
+        "text": "looked, for",
+        "startInExample": 10,
+        "endInExample": 21
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "may as well",
+      "lemma": "may as well",
+      "lemmaId": "may_as_well",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "may_as_well_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Почему бы и"
+        }
+      },
+      "example": "”\n\n“We may as well,” Gwendolen agreed.",
+      "exampleStart": 1839,
+      "exampleEnd": 1877,
+      "phraseMatch": {
+        "text": "may as well",
+        "startInExample": 7,
+        "endInExample": 18
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "paperback",
+      "lemma": "paperback",
+      "lemmaId": "paperback",
       "pos": "verb",
-      "wordKey": "pretend_verb",
-      "level": "B2",
-      "ipa": "prɪˈtɛnd",
+      "source": "word",
+      "wordKey": "paperback_verb",
+      "level": "C1",
       "translations": {
         "ru": {
-          "translation": "притворяться"
+          "translation": "бумага"
         }
       },
-      "definition": "To act as if something is true when it is not.",
-      "example": "She pretended to tie her bootlace.",
-      "matchedForm": "pretend"
+      "example": "Saunders was taking his afternoon off in a deck chair under one of the cedars, reading a yellow paperback book which seemed to amuse him a great deal.",
+      "exampleStart": 205,
+      "exampleEnd": 355,
+      "matchedForm": "paperback",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.825714,
+      "difficultySource": "zipf"
     },
     {
-      "word": "relief",
-      "lemma": "relief",
-      "lemmaId": "relief",
-      "pos": "noun",
-      "wordKey": "relief_noun",
-      "level": "B2",
-      "ipa": "rɪˈliːf",
+      "word": "prodded",
+      "lemma": "prod",
+      "lemmaId": "prod",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "prod_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "облегчение"
+          "translation": "толкать"
         }
       },
-      "definition": "Feeling of reassurance and comfort after stress or worry.",
-      "example": "Relief at an excuse to get away.",
-      "matchedForm": "Relief"
+      "example": "She pretended to tie her bootlace and prodded the turf with her fingers.",
+      "exampleStart": 449,
+      "exampleEnd": 521,
+      "matchedForm": "prodded",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.931429,
+      "difficultySource": "zipf"
     },
     {
-      "word": "saunter",
+      "word": "sauntered",
       "lemma": "saunter",
       "lemmaId": "saunter",
-      "pos": "verb",
-      "wordKey": "saunter_verb",
-      "level": "C1",
-      "ipa": "ˈsɔːntə",
-      "translations": {
-        "ru": {
-          "translation": "прогуливаться, идти неторопливо"
-        }
-      },
-      "definition": "To walk in a slow, relaxed manner, without hurry or effort.",
-      "example": "Gwendolen sauntered out into the middle of the lawn.",
-      "matchedForm": "saunter"
-    },
-    {
-      "word": "scarcastically",
-      "lemma": "scarcastically",
-      "lemmaId": "scarcastically",
       "pos": "adjective",
-      "wordKey": "scarcastically_adjective",
-      "level": "C2",
+      "source": "word",
+      "wordKey": "saunter_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "саркастически"
+          "translation": "шутник"
         }
       },
-      "definition": "Using irony to mock or convey contempt."
+      "example": "Gwendolen sauntered out into the middle of the lawn and pretended to be admiring the Castle.",
+      "exampleStart": 356,
+      "exampleEnd": 448,
+      "matchedForm": "sauntered",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "scornfully",
       "lemma": "scornfully",
       "lemmaId": "scornfully",
-      "pos": "adverb",
-      "wordKey": "scornfully_adverb",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "scornfully_adjective",
       "level": "C1",
-      "ipa": "ˈskɔːnfʊli",
       "translations": {
         "ru": {
           "translation": "презрительно"
         }
       },
-      "definition": "In a way that shows disdain or contempt.",
-      "example": "Gwendolen laughed scornfully.",
-      "matchedForm": "scornfully"
+      "example": "”\n\nGwendolen laughed scornfully.",
+      "exampleStart": 2407,
+      "exampleEnd": 2439,
+      "matchedForm": "scornfully",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "specialist",
-      "lemma": "specialist",
-      "lemmaId": "specialist",
-      "pos": "noun",
-      "wordKey": "specialist_noun",
+      "word": "send for",
+      "lemma": "send for",
+      "lemmaId": "send_for",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "send_for_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈspɛʃəlɪst",
       "translations": {
         "ru": {
-          "translation": "специалист"
+          "translation": "отправить"
         }
       },
-      "definition": "A person who concentrates primarily on a particular subject or activity.",
-      "example": "Specialists—garden warlocks.",
-      "matchedForm": "Specialist"
+      "example": "“I expect Chrestomanci will send for me as soon as he realizes it was me,” she said as they walked down the avenue of trees.",
+      "exampleStart": 2030,
+      "exampleEnd": 2154,
+      "phraseMatch": {
+        "text": "send for",
+        "startInExample": 28,
+        "endInExample": 36
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "sixpence",
+      "lemma": "sixpence",
+      "lemmaId": "sixpence",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "sixpence_noun",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "шесть пенсов"
+        }
+      },
+      "example": "” And he stood looking at them, with the air of someone who has earned sixpence for his pains.",
+      "exampleStart": 3450,
+      "exampleEnd": 3544,
+      "matchedForm": "sixpence",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "spenders",
+      "lemma": "spender",
+      "lemmaId": "spender",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "spender_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "покупатель"
+        }
+      },
+      "example": "I don’t know whether you’re savers or spenders.",
+      "exampleStart": 1623,
+      "exampleEnd": 1670,
+      "matchedForm": "spenders",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "taking off",
+      "lemma": "take off",
+      "lemmaId": "take_off",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "take_off_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "взлёт"
+        }
+      },
+      "example": "Saunders was taking his afternoon off in a deck chair under one of the cedars, reading a yellow paperback book which seemed to amuse him a great deal.",
+      "exampleStart": 205,
+      "exampleEnd": 355,
+      "phraseMatch": {
+        "text": "taking his afternoon off",
+        "startInExample": 13,
+        "endInExample": 37
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "turn up",
+      "lemma": "turn up",
+      "lemmaId": "turn_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "turn_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Включить"
+        }
+      },
+      "example": "They did turn up awfully quickly to forbid us things.",
+      "exampleStart": 2354,
+      "exampleEnd": 2407,
+      "phraseMatch": {
+        "text": "turn up",
+        "startInExample": 9,
+        "endInExample": 16
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "want to know",
+      "lemma": "want to know",
+      "lemmaId": "want_to_know",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "want_to_know_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Хочу знать"
+        }
+      },
+      "example": "Down there, at the end of that alley, if you really want to know.",
+      "exampleStart": 3385,
+      "exampleEnd": 3450,
+      "phraseMatch": {
+        "text": "want to know",
+        "startInExample": 52,
+        "endInExample": 64
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "you think",
+      "lemma": "you think",
+      "lemmaId": "you_think",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "you_think_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Ты думаешь"
+        }
+      },
+      "example": "“Do you think it was Mr.",
+      "exampleStart": 2156,
+      "exampleEnd": 2180,
+      "phraseMatch": {
+        "text": "you think",
+        "startInExample": 4,
+        "endInExample": 13
+      },
+      "levelSource": "phrase_fallback"
     }
   ]
 }

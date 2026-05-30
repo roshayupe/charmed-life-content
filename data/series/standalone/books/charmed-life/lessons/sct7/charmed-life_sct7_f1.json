@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 7,
     "sectionTitle": "Chapter 4",
     "fragmentIndex": 1,
@@ -21,442 +20,767 @@
       "wordCount": 633,
       "uniqueWordCount": 338,
       "paragraphCount": 20,
-      "vocabularyCount": 25,
+      "vocabularyCount": 33,
       "levelDistribution": {
-        "A1": 0,
-        "A2": 0,
-        "B1": 0,
-        "B2": 14,
-        "C1": 11,
-        "C2": 0
+        "A1": 1,
+        "A2": 2,
+        "B1": 8,
+        "B2": 20,
+        "C1": 1,
+        "C2": 1
       }
     }
   },
   "vocabulary": [
     {
-      "word": "airy",
-      "lemma": "airy",
-      "lemmaId": "airy",
+      "word": "all there",
+      "lemma": "all there",
+      "lemmaId": "all_there",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "all_there_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Все там"
+        }
+      },
+      "example": "“Is this all there is?",
+      "exampleStart": 2702,
+      "exampleEnd": 2724,
+      "phraseMatch": {
+        "text": "all there",
+        "startInExample": 9,
+        "endInExample": 18
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "bread and butter",
+      "lemma": "bread and butter",
+      "lemmaId": "bread_and_butter",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "bread_and_butter_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "хлеб с маслом"
+        }
+      },
+      "example": "Mary opened the lift and fetched out a large plate of bread and butter and a steaming brown jug of cocoa.",
+      "exampleStart": 2455,
+      "exampleEnd": 2560,
+      "phraseMatch": {
+        "text": "bread and butter",
+        "startInExample": 54,
+        "endInExample": 70
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "brought over",
+      "lemma": "bring over",
+      "lemmaId": "bring_over",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "bring_over_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Привели"
+        }
+      },
+      "example": "She brought these over to the table and Euphemia poured each child a mug of the cocoa.",
+      "exampleStart": 2561,
+      "exampleEnd": 2647,
+      "phraseMatch": {
+        "text": "brought these over",
+        "startInExample": 4,
+        "endInExample": 22
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "bulged",
+      "lemma": "bulge",
+      "lemmaId": "bulge",
       "pos": "adjective",
-      "wordKey": "airy_adjective",
-      "level": "C1",
-      "ipa": "ˈeəri",
-      "translations": {
-        "ru": {
-          "translation": "просторный, проветриваемый"
-        }
-      },
-      "definition": "Spacious, well ventilated, and light.",
-      "example": "It was a square, airy room with a row of big windows.",
-      "matchedForm": "airy"
-    },
-    {
-      "word": "anxiously",
-      "lemma": "anxiously",
-      "lemmaId": "anxiously",
-      "pos": "adverb",
-      "wordKey": "anxiously_adverb",
+      "source": "word",
+      "wordKey": "bulge_adjective",
       "level": "B2",
-      "ipa": "ˈæŋkʃəsli",
       "translations": {
         "ru": {
-          "translation": "с тревогой"
+          "translation": "выпуклость"
         }
       },
-      "definition": "In a manner resulting from or revealing anxiety.",
-      "example": "He asked her anxiously where to go for breakfast.",
-      "matchedForm": "anxiously"
+      "example": "Things like clockwork trains and tennis rackets bulged out.",
+      "exampleStart": 2150,
+      "exampleEnd": 2209,
+      "matchedForm": "bulged",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.934286,
+      "difficultySource": "zipf"
     },
     {
-      "word": "battered",
-      "lemma": "battered",
-      "lemmaId": "battered",
+      "word": "combing",
+      "lemma": "comb",
+      "lemmaId": "comb",
       "pos": "adjective",
-      "wordKey": "battered_adjective",
-      "level": "C1",
-      "ipa": "ˈbætəd",
+      "source": "word",
+      "wordKey": "comb_adjective",
+      "level": "A1",
       "translations": {
         "ru": {
-          "translation": "потрёпанный, поношенный"
+          "translation": "гребень"
         }
       },
-      "definition": "Damaged by age, use, or hard treatment.",
-      "example": "The leather chairs were battered.",
-      "matchedForm": "battered"
+      "example": "She was sitting on her blue velvet stool in front of her garlanded mirror, crossly combing her golden hair.",
+      "exampleStart": 1329,
+      "exampleEnd": 1436,
+      "matchedForm": "combing",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.854286,
+      "difficultySource": "zipf"
     },
     {
-      "word": "briskly",
-      "lemma": "briskly",
-      "lemmaId": "briskly",
-      "pos": "adverb",
-      "wordKey": "briskly_adverb",
-      "level": "C1",
-      "ipa": "ˈbrɪskli",
-      "translations": {
-        "ru": {
-          "translation": "энергично, живо"
-        }
-      },
-      "definition": "In an active, quick, or energetic way.",
-      "example": "Euphemia said briskly as she followed him into the room.",
-      "matchedForm": "briskly"
-    },
-    {
-      "word": "clank",
-      "lemma": "clank",
-      "lemmaId": "clank",
-      "pos": "noun",
-      "wordKey": "clank_noun",
-      "level": "C1",
-      "ipa": "klæŋk",
-      "translations": {
-        "ru": {
-          "translation": "грохот, лязг"
-        }
-      },
-      "definition": "A loud, sharp sound, typically metallic.",
-      "example": "There was a clank as Mary opened the lift.",
-      "matchedForm": "clank"
-    },
-    {
-      "word": "crossly",
-      "lemma": "crossly",
-      "lemmaId": "crossly",
-      "pos": "adverb",
-      "wordKey": "crossly_adverb",
-      "level": "C1",
-      "ipa": "ˈkrɒsli",
-      "translations": {
-        "ru": {
-          "translation": "с раздражением"
-        }
-      },
-      "definition": "In an annoyed or irritated manner.",
-      "example": "Gwendolen was sitting crossly combing her hair.",
-      "matchedForm": "crossly"
-    },
-    {
-      "word": "cupboard",
-      "lemma": "cupboard",
-      "lemmaId": "cupboard",
-      "pos": "noun",
-      "wordKey": "cupboard_noun",
+      "word": "come on",
+      "lemma": "come on",
+      "lemmaId": "come_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_on_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈkʌbəd",
       "translations": {
         "ru": {
-          "translation": "шкаф"
+          "translation": "Давай"
         }
       },
-      "definition": "A cabinet or closet with shelves used for storage.",
-      "example": "Mary began to work an interesting lift in a cupboard.",
-      "matchedForm": "cupboard"
+      "example": "Come on.",
+      "exampleStart": 1801,
+      "exampleEnd": 1809,
+      "phraseMatch": {
+        "text": "Come on",
+        "startInExample": 0,
+        "endInExample": 7
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "express",
-      "lemma": "express",
-      "lemmaId": "express",
-      "pos": "verb",
-      "wordKey": "express_verb",
+      "word": "dashed down",
+      "lemma": "dash down",
+      "lemmaId": "dash_down",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "dash_down_phrasal_verb",
       "level": "B2",
-      "ipa": "ɪkˈspres",
       "translations": {
         "ru": {
-          "translation": "выражать"
+          "translation": "спешил вниз"
         }
       },
-      "definition": "Convey (a thought or feeling) in words or by gestures and conduct.",
-      "example": "Gwendolen could not find words to express what she wanted.",
-      "matchedForm": "express"
+      "example": "Then he dashed down the twisting stairs to find Gwendolen.",
+      "exampleStart": 1164,
+      "exampleEnd": 1222,
+      "phraseMatch": {
+        "text": "dashed down",
+        "startInExample": 8,
+        "endInExample": 19
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "don’t up",
+      "lemma": "do up",
+      "lemmaId": "do_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "do_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Не вставай"
+        }
+      },
+      "example": "Chapter Four\n\n4\n\nT\n HE SAME SOFTNESS and silence were there when the red-haired Mary woke Cat the next morning and told him it was time to get up.",
+      "matchedForm": "up",
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "expressively",
       "lemma": "expressively",
       "lemmaId": "expressively",
-      "pos": "adverb",
-      "wordKey": "expressively_adverb",
-      "level": "C1",
-      "ipa": "ɪkˈspresɪvli",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "expressively_adjective",
+      "level": "C2",
       "translations": {
         "ru": {
           "translation": "выразительно"
         }
       },
-      "definition": "In a way that effectively conveys meaning or feeling.",
-      "example": "She hurled her comb down expressively.",
-      "matchedForm": "expressively"
-    },
-    {
-      "word": "fetch",
-      "lemma": "fetch",
-      "lemmaId": "fetch",
-      "pos": "verb",
-      "wordKey": "fetch_verb",
-      "level": "B2",
-      "ipa": "fetʃ",
-      "translations": {
-        "ru": {
-          "translation": "принести"
-        }
-      },
-      "definition": "Go for and then bring back (someone or something).",
-      "example": "Mary fetched out a large plate of bread and butter.",
-      "matchedForm": "fetch"
+      "example": "”\n\nGwendolen hurled her comb down expressively and they followed Euphemia to a room just along the corridor.",
+      "exampleStart": 1809,
+      "exampleEnd": 1917,
+      "matchedForm": "expressively",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "garlanded",
-      "lemma": "garlanded",
-      "lemmaId": "garlanded",
+      "lemma": "garland",
+      "lemmaId": "garland",
       "pos": "adjective",
-      "wordKey": "garlanded_adjective",
-      "level": "C1",
-      "ipa": "ˈɡɑːləndɪd",
+      "source": "word",
+      "wordKey": "garland_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "украшенный гирляндами"
+          "translation": "гирлянда"
         }
       },
-      "definition": "Decorated with a decorative wreath or chain of flowers or leaves.",
-      "example": "She sat in front of her garlanded mirror.",
-      "matchedForm": "garlanded"
+      "example": "She was sitting on her blue velvet stool in front of her garlanded mirror, crossly combing her golden hair.",
+      "exampleStart": 1329,
+      "exampleEnd": 1436,
+      "matchedForm": "garlanded",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.871429,
+      "difficultySource": "zipf"
     },
     {
-      "word": "grassy",
-      "lemma": "grassy",
-      "lemmaId": "grassy",
-      "pos": "adjective",
-      "wordKey": "grassy_adjective",
+      "word": "get up",
+      "lemma": "get up",
+      "lemmaId": "get_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "get_up_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈɡrɑːsi",
       "translations": {
         "ru": {
-          "translation": "покрытый травой"
+          "translation": "Вставай"
         }
       },
-      "definition": "Covered with grass.",
-      "example": "The grassy carpet had stains on it.",
-      "matchedForm": "grassy"
+      "example": "“You really must get up, Eric,” Mary said, shaking him.",
+      "exampleStart": 525,
+      "exampleEnd": 580,
+      "phraseMatch": {
+        "text": "get up",
+        "startInExample": 17,
+        "endInExample": 23
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "went along",
+      "lemma": "go along",
+      "lemmaId": "go_along",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_along_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Пошёл"
+        }
+      },
+      "example": "When he was dressed, he went along to the bathroom and let the hot water out of the bath.",
+      "exampleStart": 1074,
+      "exampleEnd": 1163,
+      "phraseMatch": {
+        "text": "went along",
+        "startInExample": 24,
+        "endInExample": 34
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "go for",
+      "lemma": "go for",
+      "lemmaId": "go_for",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_for_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Давай"
+        }
+      },
+      "example": "“Where do we go for breakfast?",
+      "exampleStart": 1224,
+      "exampleEnd": 1254,
+      "phraseMatch": {
+        "text": "go for",
+        "startInExample": 13,
+        "endInExample": 19
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "went on",
+      "lemma": "go on",
+      "lemmaId": "go_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "продолжил"
+        }
+      },
+      "example": "Porridge, bacon and eggs, grapefruit, toast and kippers all occurred to her at once, and she went on staring.",
+      "exampleStart": 2828,
+      "exampleEnd": 2937,
+      "phraseMatch": {
+        "text": "went on",
+        "startInExample": 93,
+        "endInExample": 100
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "grapefruit",
+      "lemma": "grapefruit",
+      "lemmaId": "grapefruit",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "grapefruit_verb",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "грейпфрут"
+        }
+      },
+      "example": "Porridge, bacon and eggs, grapefruit, toast and kippers all occurred to her at once, and she went on staring.",
+      "exampleStart": 2828,
+      "exampleEnd": 2937,
+      "matchedForm": "grapefruit",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.954286,
+      "difficultySource": "zipf"
     },
     {
       "word": "haste",
       "lemma": "haste",
       "lemmaId": "haste",
-      "pos": "noun",
-      "wordKey": "haste_noun",
-      "level": "B2",
-      "ipa": "heɪst",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "haste_verb",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "спешка"
         }
       },
-      "definition": "Excessive speed or urgency of movement or action; hurry.",
       "example": "Make haste, or you won’t have time for breakfast.",
-      "matchedForm": "haste"
+      "exampleStart": 634,
+      "exampleEnd": 683,
+      "matchedForm": "haste",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.897143,
+      "difficultySource": "zipf"
     },
     {
       "word": "hurled",
-      "lemma": "hurled",
-      "lemmaId": "hurled",
-      "pos": "verb",
-      "wordKey": "hurled_verb",
-      "level": "C1",
-      "ipa": "hɜːld",
-      "translations": {
-        "ru": {
-          "translation": "бросила силой"
-        }
-      },
-      "definition": "To throw something with great force.",
-      "example": "Gwendolen hurled her comb down expressively.",
-      "matchedForm": "hurled"
-    },
-    {
-      "word": "lift",
-      "lemma": "lift",
-      "lemmaId": "lift",
-      "pos": "noun",
-      "wordKey": "lift_noun",
-      "level": "B2",
-      "ipa": "lɪft",
-      "translations": {
-        "ru": {
-          "translation": "лифтовая шахта, подъёмник"
-        }
-      },
-      "definition": "A device or mechanism for moving things or people vertically, such as an elevator or dumbwaiter.",
-      "example": "Mary opened the lift and fetched out a plate of bread and butter.",
-      "matchedForm": "lift"
-    },
-    {
-      "word": "marmalade",
-      "lemma": "marmalade",
-      "lemmaId": "marmalade",
-      "pos": "noun",
-      "wordKey": "marmalade_noun",
-      "level": "B2",
-      "ipa": "ˈmɑːməleɪd",
-      "translations": {
-        "ru": {
-          "translation": "мармелад, апельсиновый джем"
-        }
-      },
-      "definition": "A preserve made from citrus fruit, especially oranges, boiled with sugar and water.",
-      "example": "Gwendolen asked if there was any marmalade.",
-      "matchedForm": "marmalade"
-    },
-    {
-      "word": "mug",
-      "lemma": "mug",
-      "lemmaId": "mug",
-      "pos": "noun",
-      "wordKey": "mug_noun",
-      "level": "B2",
-      "ipa": "mʌɡ",
-      "translations": {
-        "ru": {
-          "translation": "кружка"
-        }
-      },
-      "definition": "A large cup with a handle, used for drinking hot drinks.",
-      "example": "Euphemia poured each child a mug of the cocoa.",
-      "matchedForm": "mug"
-    },
-    {
-      "word": "pleased",
-      "lemma": "pleased",
-      "lemmaId": "pleased",
+      "lemma": "hurl",
+      "lemmaId": "hurl",
       "pos": "adjective",
-      "wordKey": "pleased_adjective",
-      "level": "B2",
-      "ipa": "pliːzd",
+      "source": "word",
+      "wordKey": "hurl_adjective",
+      "level": "A2",
       "translations": {
         "ru": {
-          "translation": "довольный"
+          "translation": "бросать"
         }
       },
-      "definition": "Feeling happy or satisfied.",
-      "example": "The idea made him feel so pleased and so warm that he went to sleep again.",
-      "matchedForm": "pleased"
+      "example": "”\n\nGwendolen hurled her comb down expressively and they followed Euphemia to a room just along the corridor.",
+      "exampleStart": 1809,
+      "exampleEnd": 1917,
+      "matchedForm": "hurled",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "kippers",
+      "lemma": "kipper",
+      "lemmaId": "kipper",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "kipper_verb",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "киппер"
+        }
+      },
+      "example": "Porridge, bacon and eggs, grapefruit, toast and kippers all occurred to her at once, and she went on staring.",
+      "exampleStart": 2828,
+      "exampleEnd": 2937,
+      "matchedForm": "kippers",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "let out",
+      "lemma": "let out",
+      "lemmaId": "let_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "let_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Выпусти"
+        }
+      },
+      "example": "When he was dressed, he went along to the bathroom and let the hot water out of the bath.",
+      "exampleStart": 1074,
+      "exampleEnd": 1163,
+      "phraseMatch": {
+        "text": "let the hot water out",
+        "startInExample": 55,
+        "endInExample": 76
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "looked at",
+      "lemma": "look at",
+      "lemmaId": "look_at",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_at_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "смотрел"
+        }
+      },
+      "example": "Euphemia and Mary looked at one another.",
+      "exampleStart": 3077,
+      "exampleEnd": 3117,
+      "phraseMatch": {
+        "text": "looked at",
+        "startInExample": 18,
+        "endInExample": 27
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "looked out",
+      "lemma": "look out",
+      "lemmaId": "look_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Осторожно"
+        }
+      },
+      "example": "He looked out of the windows, and there were green lawns and flowers, and rooks circling the green trees, as if there had been some mistake.",
+      "exampleStart": 819,
+      "exampleEnd": 959,
+      "phraseMatch": {
+        "text": "looked out",
+        "startInExample": 3,
+        "endInExample": 13
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "make up",
+      "lemma": "make up",
+      "lemmaId": "make_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "make_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Грим"
+        }
+      },
+      "example": "“Make up your mind,” Euphemia said at last.",
+      "exampleStart": 2939,
+      "exampleEnd": 2982,
+      "phraseMatch": {
+        "text": "Make up",
+        "startInExample": 1,
+        "endInExample": 8
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "no way",
+      "lemma": "no way",
+      "lemmaId": "no_way",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "no_way_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Ни за что"
+        }
+      },
+      "example": "“Now that’s no way to speak,” said the maid called Euphemia, briskly following Cat into the room.",
+      "exampleStart": 1554,
+      "exampleEnd": 1651,
+      "phraseMatch": {
+        "text": "no way",
+        "startInExample": 12,
+        "endInExample": 18
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "not at all",
+      "lemma": "not at all",
+      "lemmaId": "not_at_all",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "not_at_all_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Совсем нет"
+        }
+      },
+      "example": "Cat was glad, because he was not at all sure he liked her, and he was afraid of missing breakfast.",
+      "exampleStart": 975,
+      "exampleEnd": 1073,
+      "phraseMatch": {
+        "text": "not at all",
+        "startInExample": 29,
+        "endInExample": 39
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "occurred to",
+      "lemma": "occur to",
+      "lemmaId": "occur_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "occur_to_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "пришло в голову"
+        }
+      },
+      "example": "Porridge, bacon and eggs, grapefruit, toast and kippers all occurred to her at once, and she went on staring.",
+      "exampleStart": 2828,
+      "exampleEnd": 2937,
+      "phraseMatch": {
+        "text": "occurred to",
+        "startInExample": 60,
+        "endInExample": 71
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "porridge",
+      "lemma": "porridge",
+      "lemmaId": "porridge",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "porridge_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "каша"
+        }
+      },
+      "example": "Porridge, bacon and eggs, grapefruit, toast and kippers all occurred to her at once, and she went on staring.",
+      "exampleStart": 2828,
+      "exampleEnd": 2937,
+      "matchedForm": "Porridge",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.971429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "put in",
+      "lemma": "put in",
+      "lemmaId": "put_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "put_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Вставить"
+        }
+      },
+      "example": "Mary brought it and put it in front of Gwendolen.",
+      "exampleStart": 3370,
+      "exampleEnd": 3419,
+      "phraseMatch": {
+        "text": "put it in",
+        "startInExample": 20,
+        "endInExample": 29
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "rackets",
+      "lemma": "racket",
+      "lemmaId": "racket",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "racket_verb",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "ракетка"
+        }
+      },
+      "example": "Things like clockwork trains and tennis rackets bulged out.",
+      "exampleStart": 2150,
+      "exampleEnd": 2209,
+      "matchedForm": "rackets",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.908571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "rooks",
+      "lemma": "rook",
+      "lemmaId": "rook",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "rook_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "ладья"
+        }
+      },
+      "example": "He looked out of the windows, and there were green lawns and flowers, and rooks circling the green trees, as if there had been some mistake.",
+      "exampleStart": 819,
+      "exampleEnd": 959,
+      "matchedForm": "rooks",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.974286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "room in",
+      "lemma": "room in",
+      "lemmaId": "room_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "room_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "комната в комнате"
+        }
+      },
+      "example": "He had so strong a feeling that it had snowed in the night that he was quite surprised to find his room warm in the sun.",
+      "exampleStart": 698,
+      "exampleEnd": 818,
+      "phraseMatch": {
+        "text": "room warm in",
+        "startInExample": 99,
+        "endInExample": 111
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "rumbling",
-      "lemma": "rumbling",
-      "lemmaId": "rumbling",
-      "pos": "noun",
-      "wordKey": "rumbling_noun",
-      "level": "C1",
-      "ipa": "ˈrʌmblɪŋ",
+      "lemma": "rumble",
+      "lemmaId": "rumble",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "rumble_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "грохот"
         }
       },
-      "definition": "A continuous deep, resonant sound like distant thunder or heavy machinery.",
-      "example": "After much rumbling and another clank, a pot of marmalade arrived.",
-      "matchedForm": "rumbling"
+      "example": "”\n\nMary went to a speaking tube by the lift and, after much rumbling and another clank, a pot of marmalade arrived.",
+      "exampleStart": 3254,
+      "exampleEnd": 3369,
+      "matchedForm": "rumbling",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.88,
+      "difficultySource": "zipf"
     },
     {
-      "word": "shabby",
-      "lemma": "shabby",
-      "lemmaId": "shabby",
-      "pos": "adjective",
-      "wordKey": "shabby_adjective",
+      "word": "sitting on",
+      "lemma": "sit on",
+      "lemmaId": "sit_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "sit_on_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈʃæbi",
       "translations": {
         "ru": {
-          "translation": "потрёпанный, убогий"
+          "translation": "сидя на"
         }
       },
-      "definition": "In poor condition through long use or lack of care.",
-      "example": "The room was rather shabby compared with the rest of the Castle.",
-      "matchedForm": "shabby"
+      "example": "She was sitting on her blue velvet stool in front of her garlanded mirror, crossly combing her golden hair.",
+      "exampleStart": 1329,
+      "exampleEnd": 1436,
+      "phraseMatch": {
+        "text": "sitting on",
+        "startInExample": 8,
+        "endInExample": 18
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "stain",
-      "lemma": "stain",
-      "lemmaId": "stain",
-      "pos": "noun",
-      "wordKey": "stain_noun",
+      "word": "work in",
+      "lemma": "work in",
+      "lemmaId": "work_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "work_in_phrasal_verb",
       "level": "B2",
-      "ipa": "steɪn",
       "translations": {
         "ru": {
-          "translation": "пятно"
+          "translation": "Работа в"
         }
       },
-      "definition": "A mark or spot that is difficult to remove.",
-      "example": "The grassy carpet had stains on it.",
-      "matchedForm": "stain"
-    },
-    {
-      "word": "stare",
-      "lemma": "stare",
-      "lemmaId": "stare",
-      "pos": "verb",
-      "wordKey": "stare_verb",
-      "level": "B2",
-      "ipa": "steə",
-      "translations": {
-        "ru": {
-          "translation": "пристально смотреть"
-        }
+      "example": "” and began to work an interesting lift in a cupboard by the fireplace.",
+      "exampleStart": 2364,
+      "exampleEnd": 2435,
+      "phraseMatch": {
+        "text": "work an interesting lift in",
+        "startInExample": 15,
+        "endInExample": 42
       },
-      "definition": "Look fixedly or vacantly at someone or something with wide open eyes.",
-      "example": "Gwendolen stared from her mug to the plate of bread.",
-      "matchedForm": "stare"
-    },
-    {
-      "word": "steaming",
-      "lemma": "steaming",
-      "lemmaId": "steaming",
-      "pos": "adjective",
-      "wordKey": "steaming_adjective",
-      "level": "C1",
-      "ipa": "ˈstiːmɪŋ",
-      "translations": {
-        "ru": {
-          "translation": "парящий, горячий"
-        }
-      },
-      "definition": "Producing steam; very hot.",
-      "example": "A steaming brown jug of cocoa was brought to the table.",
-      "matchedForm": "steaming"
-    },
-    {
-      "word": "surprised",
-      "lemma": "surprised",
-      "lemmaId": "surprised",
-      "pos": "adjective",
-      "wordKey": "surprised_adjective",
-      "level": "B2",
-      "ipa": "səˈpraɪzd",
-      "translations": {
-        "ru": {
-          "translation": "удивлённый"
-        }
-      },
-      "definition": "Feeling or showing surprise because something unexpected has happened.",
-      "example": "He was quite surprised to find his room warm in the sun.",
-      "matchedForm": "surprised"
-    },
-    {
-      "word": "twisting",
-      "lemma": "twisting",
-      "lemmaId": "twisting",
-      "pos": "adjective",
-      "wordKey": "twisting_adjective",
-      "level": "C1",
-      "ipa": "ˈtwɪstɪŋ",
-      "translations": {
-        "ru": {
-          "translation": "извилистый"
-        }
-      },
-      "definition": "Turning in a spiral or crookedly.",
-      "example": "He dashed down the twisting stairs to find Gwendolen.",
-      "matchedForm": "twisting"
+      "levelSource": "dictionary_phrase"
     }
   ]
 }

@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 16,
     "sectionTitle": "Chapter 13",
     "fragmentIndex": 6,
@@ -21,14 +20,14 @@
       "wordCount": 643,
       "uniqueWordCount": 356,
       "paragraphCount": 17,
-      "vocabularyCount": 25,
+      "vocabularyCount": 29,
       "levelDistribution": {
         "A1": 0,
-        "A2": 0,
-        "B1": 0,
-        "B2": 9,
-        "C1": 12,
-        "C2": 4
+        "A2": 4,
+        "B1": 11,
+        "B2": 12,
+        "C1": 1,
+        "C2": 1
       }
     }
   },
@@ -37,647 +36,655 @@
       "word": "aloft",
       "lemma": "aloft",
       "lemmaId": "aloft",
-      "pos": "adverb",
-      "wordKey": "aloft_adverb",
-      "level": "C1",
-      "ipa": "əˈlɒft",
-      "translations": {
-        "de": {
-          "translation": "hoch oben"
-        },
-        "es": {
-          "translation": "en el aire"
-        },
-        "ru": {
-          "translation": "в воздухе"
-        },
-        "uk": {
-          "translation": "у повітрі"
-        }
-      },
-      "definition": "Up in or into the air; overhead.",
-      "example": "all four aloft",
-      "matchedForm": "aloft"
-    },
-    {
-      "word": "cedar",
-      "lemma": "cedar",
-      "lemmaId": "cedar",
       "pos": "noun",
-      "wordKey": "cedar_noun",
-      "level": "C1",
-      "ipa": "ˈsiː.dər",
+      "source": "word",
+      "wordKey": "aloft_noun",
+      "level": "B2",
       "translations": {
-        "de": {
-          "translation": "Zeder"
-        },
-        "es": {
-          "translation": "cedro"
-        },
         "ru": {
-          "translation": "кедр"
-        },
-        "uk": {
-          "translation": "кедр"
+          "translation": "подниматься"
         }
       },
-      "definition": "A type of large coniferous tree with fragrant wood.",
-      "example": "They’re cedars",
-      "matchedForm": "cedar"
+      "example": "Julia took a firm little reef in that handkerchief of hers and sent all four aloft in the playroom.",
+      "exampleStart": 1114,
+      "exampleEnd": 1213,
+      "matchedForm": "aloft",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.98,
+      "difficultySource": "zipf"
     },
     {
-      "word": "clasp",
+      "word": "bistro",
+      "lemma": "bistro",
+      "lemmaId": "bistro",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "bistro_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "бистро"
+        }
+      },
+      "example": "Bistro, so if she thinks you oughtn’t to do it, it must be bad.",
+      "exampleStart": 2717,
+      "exampleEnd": 2780,
+      "matchedForm": "Bistro",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.988571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "clasped",
       "lemma": "clasp",
       "lemmaId": "clasp",
-      "pos": "verb",
-      "wordKey": "clasp_verb",
-      "level": "B2",
-      "ipa": "klɑːsp",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "clasp_adjective",
+      "level": "B1",
       "translations": {
-        "de": {
-          "translation": "umschließen"
-        },
-        "es": {
-          "translation": "agarrar"
-        },
         "ru": {
-          "translation": "сжимать"
-        },
-        "uk": {
-          "translation": "стискати"
+          "translation": "зажим"
         }
       },
-      "definition": "To hold tightly with one's hand.",
-      "example": "clasped her hands",
-      "matchedForm": "clasp"
+      "example": "” She clasped her hands behind her back and marched up and down with her head bent.",
+      "exampleStart": 2368,
+      "exampleEnd": 2451,
+      "matchedForm": "clasped",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.974286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "come back",
+      "lemma": "come back",
+      "lemmaId": "come_back",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_back_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Вернись"
+        }
+      },
+      "example": "”\n\n“We’ll come back when I’ve said it,” said Janet.",
+      "exampleStart": 2040,
+      "exampleEnd": 2091,
+      "phraseMatch": {
+        "text": "come back",
+        "startInExample": 10,
+        "endInExample": 19
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "come in",
+      "lemma": "come in",
+      "lemmaId": "come_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Входите"
+        }
+      },
+      "example": "They hurried along to her room, and Janet locked the door in case Euphemia tried to come in.",
+      "exampleStart": 2093,
+      "exampleEnd": 2185,
+      "phraseMatch": {
+        "text": "come in",
+        "startInExample": 84,
+        "endInExample": 91
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "contrite",
       "lemma": "contrite",
       "lemmaId": "contrite",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "contrite_adjective",
       "level": "C2",
-      "ipa": "kənˈtraɪt",
       "translations": {
-        "de": {
-          "translation": "reumütig"
-        },
-        "es": {
-          "translation": "contrito"
-        },
         "ru": {
-          "translation": "раскаявшийся"
-        },
-        "uk": {
-          "translation": "розкаянний"
+          "translation": "сокрушаться"
         }
       },
-      "definition": "Feeling or expressing remorse or penitence; affected by guilt.",
-      "example": "Julia was so contrite",
-      "matchedForm": "contrite"
+      "example": "Julia was so contrite and trying so hard to be friendly that neither Janet nor Cat had the heart to go off on their own.",
+      "exampleStart": 846,
+      "exampleEnd": 966,
+      "matchedForm": "contrite",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "contrive",
-      "lemma": "contrive",
-      "lemmaId": "contrive",
+      "word": "do what",
+      "lemma": "do what",
+      "lemmaId": "do_what",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "do_what_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Что делать"
+        }
+      },
+      "example": "Sharp said I wasn’t on any account to do what Mr.",
+      "exampleStart": 2193,
+      "exampleEnd": 2242,
+      "phraseMatch": {
+        "text": "do what",
+        "startInExample": 38,
+        "endInExample": 45
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "drat",
+      "lemma": "drat",
+      "lemmaId": "drat",
       "pos": "verb",
-      "wordKey": "contrive_verb",
-      "level": "C2",
-      "ipa": "kənˈtraɪv",
+      "source": "word",
+      "wordKey": "drat_verb",
+      "level": "A2",
       "translations": {
-        "de": {
-          "translation": "aushecken"
-        },
-        "es": {
-          "translation": "idear"
-        },
         "ru": {
-          "translation": "задумать, изобрести"
-        },
-        "uk": {
-          "translation": "винаходити, задумувати"
+          "translation": "дрянь"
         }
       },
-      "definition": "To deliberately create or bring about (an object or situation) by skill or scheme.",
-      "example": "(not explicitly in text, but contextually related)"
-    },
-    {
-      "word": "deserve",
-      "lemma": "deserve",
-      "lemmaId": "deserve",
-      "pos": "verb",
-      "wordKey": "deserve_verb",
-      "level": "B2",
-      "ipa": "dɪˈzɜːv",
-      "translations": {
-        "de": {
-          "translation": "verdienen"
-        },
-        "es": {
-          "translation": "merecer"
-        },
-        "ru": {
-          "translation": "заслуживать"
-        },
-        "uk": {
-          "translation": "заслуговувати"
-        }
-      },
-      "definition": "To do something or have qualities worthy of (reward or punishment).",
-      "example": "doesn't deserve",
-      "matchedForm": "deserve"
-    },
-    {
-      "word": "despair",
-      "lemma": "despair",
-      "lemmaId": "despair",
-      "pos": "noun",
-      "wordKey": "despair_noun",
-      "level": "C1",
-      "ipa": "dɪˈspɛər",
-      "translations": {
-        "de": {
-          "translation": "Verzweiflung"
-        },
-        "es": {
-          "translation": "desesperación"
-        },
-        "ru": {
-          "translation": "отчаяние"
-        },
-        "uk": {
-          "translation": "відчай"
-        }
-      },
-      "definition": "The complete loss or absence of hope.",
-      "example": "in such despair",
-      "matchedForm": "despair"
-    },
-    {
-      "word": "dishonest",
-      "lemma": "dishonest",
-      "lemmaId": "dishonest",
-      "pos": "adjective",
-      "wordKey": "dishonest_adjective",
-      "level": "B2",
-      "ipa": "dɪsˈɒn.ɪst",
-      "translations": {
-        "de": {
-          "translation": "unehrlich"
-        },
-        "es": {
-          "translation": "deshonesto"
-        },
-        "ru": {
-          "translation": "нечестный"
-        },
-        "uk": {
-          "translation": "нечесний"
-        }
-      },
-      "definition": "Behaving in an untrustworthy or deceitful way.",
-      "example": "highly dishonest person",
-      "matchedForm": "dishonest"
-    },
-    {
-      "word": "dispel",
-      "lemma": "dispel",
-      "lemmaId": "dispel",
-      "pos": "verb",
-      "wordKey": "dispel_verb",
-      "level": "C2",
-      "ipa": "dɪˈspɛl",
-      "translations": {
-        "de": {
-          "translation": "vertreiben"
-        },
-        "es": {
-          "translation": "disipar"
-        },
-        "ru": {
-          "translation": "рассеять"
-        },
-        "uk": {
-          "translation": "розвіяти"
-        }
-      },
-      "definition": "To make a doubt, feeling, or belief disappear.",
-      "example": "Janet wanted to dispel doubts about their plan.",
-      "matchedForm": "dispel"
-    },
-    {
-      "word": "dubiously",
-      "lemma": "dubiously",
-      "lemmaId": "dubiously",
-      "pos": "adverb",
-      "wordKey": "dubiously_adverb",
-      "level": "C2",
-      "ipa": "ˈdjuː.bi.əs.li",
-      "translations": {
-        "de": {
-          "translation": "zweifelhaft"
-        },
-        "es": {
-          "translation": "dudoso"
-        },
-        "ru": {
-          "translation": "сомнительно"
-        },
-        "uk": {
-          "translation": "сумнівно"
-        }
-      },
-      "definition": "In a doubtful or questionable manner.",
-      "example": "Cat said dubiously",
-      "matchedForm": "dubiously"
+      "example": "“Oh—oh—oh drat !",
+      "exampleStart": 2352,
+      "exampleEnd": 2368,
+      "matchedForm": "drat",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "enchanting",
-      "lemma": "enchanting",
-      "lemmaId": "enchanting",
+      "lemma": "enchant",
+      "lemmaId": "enchant",
       "pos": "adjective",
-      "wordKey": "enchanting_adjective",
+      "source": "word",
+      "wordKey": "enchant_adjective",
       "level": "C1",
-      "ipa": "ɪnˈtʃɑːn.tɪŋ",
       "translations": {
-        "de": {
-          "translation": "bezaubernd"
-        },
-        "es": {
-          "translation": "encantador"
-        },
         "ru": {
-          "translation": "очаровательный"
-        },
-        "uk": {
-          "translation": "чарівний"
+          "translation": "очаровывать"
         }
       },
-      "definition": "Delightfully charming or attractive.",
-      "example": "enchanting property",
-      "matchedForm": "enchanting"
+      "example": "It’s a mean, wicked trick, enchanting property, I always think.",
+      "exampleStart": 181,
+      "exampleEnd": 244,
+      "matchedForm": "enchanting",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "entertain",
-      "lemma": "entertain",
-      "lemmaId": "entertain",
-      "pos": "verb",
-      "wordKey": "entertain_verb",
-      "level": "C1",
-      "ipa": "ɪnˈteː.tən",
-      "translations": {
-        "de": {
-          "translation": "unterhalten"
-        },
-        "es": {
-          "translation": "entretener"
-        },
-        "ru": {
-          "translation": "развлекать"
-        },
-        "uk": {
-          "translation": "розважати"
-        }
-      },
-      "definition": "To host or provide amusement or hospitality to guests.",
-      "example": "They always entertain a lot",
-      "matchedForm": "entertain"
-    },
-    {
-      "word": "fond",
-      "lemma": "fond",
-      "lemmaId": "fond",
-      "pos": "adjective",
-      "wordKey": "fond_adjective",
+      "word": "go back to",
+      "lemma": "go back to",
+      "lemmaId": "go_back_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_back_to_phrasal_verb",
       "level": "B2",
-      "ipa": "fɒnd",
       "translations": {
-        "de": {
-          "translation": "lieb"
-        },
-        "es": {
-          "translation": "aficionado"
-        },
+        "ru": {
+          "translation": "Вернуться к"
+        }
+      },
+      "example": "You see, if that garden is a way to go to other worlds, you and I could go back to my world, and you could live there with me.",
+      "exampleStart": 3101,
+      "exampleEnd": 3227,
+      "phraseMatch": {
+        "text": "go back to",
+        "startInExample": 72,
+        "endInExample": 82
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "go off",
+      "lemma": "go off",
+      "lemmaId": "go_off",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_off_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Убирайся"
+        }
+      },
+      "example": "Julia was so contrite and trying so hard to be friendly that neither Janet nor Cat had the heart to go off on their own.",
+      "exampleStart": 846,
+      "exampleEnd": 966,
+      "phraseMatch": {
+        "text": "go off",
+        "startInExample": 100,
+        "endInExample": 106
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "go through",
+      "lemma": "go through",
+      "lemmaId": "go_through",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_through_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Проходите"
+        }
+      },
+      "example": "I must be going now.",
+      "matchedForm": "going",
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "hands back",
+      "lemma": "hand back",
+      "lemmaId": "hand_back",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "hand_back_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Руки назад"
+        }
+      },
+      "example": "” She clasped her hands behind her back and marched up and down with her head bent.",
+      "exampleStart": 2368,
+      "exampleEnd": 2451,
+      "phraseMatch": {
+        "text": "hands behind her back",
+        "startInExample": 18,
+        "endInExample": 39
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "hatful",
+      "lemma": "hatful",
+      "lemmaId": "hatful",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "hatful_adjective",
+      "level": "B1",
+      "translations": {
         "ru": {
           "translation": "любящий"
-        },
-        "uk": {
-          "translation": "люблячий"
         }
       },
-      "definition": "Having an affection or liking for someone or something.",
-      "example": "She’s fond of you",
-      "matchedForm": "fond"
+      "example": "“They always entertain a lot in the month before Halloween,” Julia said as they finished the blackberry tart Cook had made specially out of Janet’s hatful.",
+      "exampleStart": 1542,
+      "exampleEnd": 1697,
+      "matchedForm": "hatful",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "frantic",
-      "lemma": "frantic",
-      "lemmaId": "frantic",
-      "pos": "adjective",
-      "wordKey": "frantic_adjective",
+      "word": "hurried along",
+      "lemma": "hurry along",
+      "lemmaId": "hurry_along",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "hurry_along_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈfræn.tɪk",
       "translations": {
-        "de": {
-          "translation": "verzweifelt"
-        },
-        "es": {
-          "translation": "frenético"
-        },
         "ru": {
-          "translation": "безумный"
-        },
-        "uk": {
-          "translation": "божевільний"
+          "translation": "поспешил"
         }
       },
-      "definition": "Wild or distraught with fear, anxiety, or other emotion.",
-      "example": "(common narrative adjective useful in this context)"
+      "example": "They hurried along to her room, and Janet locked the door in case Euphemia tried to come in.",
+      "exampleStart": 2093,
+      "exampleEnd": 2185,
+      "phraseMatch": {
+        "text": "hurried along",
+        "startInExample": 5,
+        "endInExample": 18
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "highly",
-      "lemma": "highly",
-      "lemmaId": "highly",
-      "pos": "adverb",
-      "wordKey": "highly_adverb",
-      "level": "C1",
-      "ipa": "ˈhaɪ.li",
+      "word": "i’m sure",
+      "lemma": "i’m sure",
+      "lemmaId": "im_sure",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "im_sure_phrase",
+      "level": "B1",
       "translations": {
-        "de": {
-          "translation": "hochgradig"
-        },
-        "es": {
-          "translation": "altamente"
-        },
         "ru": {
-          "translation": "в высшей степени"
-        },
-        "uk": {
-          "translation": "дуже"
+          "translation": "Я уверен"
         }
       },
-      "definition": "To a high degree or level; very.",
-      "example": "highly dishonest person",
-      "matchedForm": "highly"
+      "example": "Baalamb, and I’m sure Will Suggins couldn’t turn you into a frog there, either, could he?",
+      "exampleStart": 3306,
+      "exampleEnd": 3395,
+      "phraseMatch": {
+        "text": "I’m sure",
+        "startInExample": 13,
+        "endInExample": 21
+      },
+      "levelSource": "phrase_fallback"
     },
     {
-      "word": "ideal",
-      "lemma": "ideal",
-      "lemmaId": "ideal",
+      "word": "interrupted",
+      "lemma": "interrupt",
+      "lemmaId": "interrupt",
       "pos": "adjective",
-      "wordKey": "ideal_adjective",
-      "level": "C1",
-      "ipa": "aɪˈdɪəl",
+      "source": "word",
+      "wordKey": "interrupt_adjective",
+      "level": "B1",
       "translations": {
-        "de": {
-          "translation": "ideal"
-        },
-        "es": {
-          "translation": "ideal"
-        },
         "ru": {
-          "translation": "идеальный"
-        },
-        "uk": {
-          "translation": "ідеальний"
+          "translation": "прерывание"
         }
       },
-      "definition": "Satisfying one's conception of what is perfect; most suitable.",
-      "example": "ideal way out",
-      "matchedForm": "ideal"
+      "example": "She was wanting to say more, but they were interrupted by Roger and Julia.",
+      "exampleStart": 771,
+      "exampleEnd": 845,
+      "matchedForm": "interrupted",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.828571,
+      "difficultySource": "zipf"
     },
     {
-      "word": "knowing",
-      "lemma": "knowing",
-      "lemmaId": "knowing",
-      "pos": "adjective",
-      "wordKey": "knowing_adjective",
-      "level": "C1",
-      "ipa": "ˈnəʊ.ɪŋ",
+      "word": "kind of",
+      "lemma": "kind of",
+      "lemmaId": "kind_of",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "kind_of_phrase",
+      "level": "B1",
       "translations": {
-        "de": {
-          "translation": "einschlägig"
-        },
-        "es": {
-          "translation": "consciente"
-        },
         "ru": {
-          "translation": "знающий"
-        },
-        "uk": {
-          "translation": "знаючий"
+          "translation": "В некотором роде"
         }
       },
-      "definition": "Showing knowledge and awareness, especially of things not openly expressed.",
-      "example": "(implied in characters’ understanding)"
+      "example": "After I saw she wasn’t any good for any kind of help, I was in such despair that I suddenly saw the ideal way out—and she’s stopped it.",
+      "exampleStart": 2965,
+      "exampleEnd": 3100,
+      "phraseMatch": {
+        "text": "kind of",
+        "startInExample": 40,
+        "endInExample": 47
+      },
+      "levelSource": "phrase_fallback"
     },
     {
-      "word": "march",
-      "lemma": "march",
-      "lemmaId": "march",
+      "word": "oughtn’t",
+      "lemma": "oughtn't",
+      "lemmaId": "oughtnt",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "oughtnt_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "не должен"
+        }
+      },
+      "example": "Bistro, so if she thinks you oughtn’t to do it, it must be bad.",
+      "exampleStart": 2717,
+      "exampleEnd": 2780,
+      "matchedForm": "oughtn’t",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "played with",
+      "lemma": "play with",
+      "lemmaId": "play_with",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "play_with_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "играл с"
+        }
+      },
+      "example": "They played with hand mirrors instead.",
+      "exampleStart": 967,
+      "exampleEnd": 1005,
+      "phraseMatch": {
+        "text": "played with",
+        "startInExample": 5,
+        "endInExample": 16
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "running away",
+      "lemma": "run away",
+      "lemmaId": "run_away",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "run_away_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Бегство"
+        }
+      },
+      "example": "Cat, it would have been no good running away to her, I’m afraid.",
+      "exampleStart": 649,
+      "exampleEnd": 713,
+      "phraseMatch": {
+        "text": "running away",
+        "startInExample": 32,
+        "endInExample": 44
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "speak of",
+      "lemma": "speak of",
+      "lemmaId": "speak_of",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "speak_of_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "говорю о"
+        }
+      },
+      "example": "Until supper, they had great fun whizzing around the playroom, not to speak of up and down the passage outside.",
+      "exampleStart": 1214,
+      "exampleEnd": 1325,
+      "phraseMatch": {
+        "text": "speak of",
+        "startInExample": 70,
+        "endInExample": 78
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "talk about",
+      "lemma": "talk about",
+      "lemmaId": "talk_about",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "talk_about_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Поговорить о"
+        }
+      },
+      "example": "We’ve got to talk about something Mrs.",
+      "exampleStart": 1856,
+      "exampleEnd": 1894,
+      "phraseMatch": {
+        "text": "talk about",
+        "startInExample": 13,
+        "endInExample": 23
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "tart",
+      "lemma": "tart",
+      "lemmaId": "tart",
       "pos": "verb",
-      "wordKey": "march_verb",
-      "level": "B2",
-      "ipa": "mɑːtʃ",
+      "source": "word",
+      "wordKey": "tart_verb",
+      "level": "A2",
       "translations": {
-        "de": {
-          "translation": "marschieren"
-        },
-        "es": {
-          "translation": "marchar"
-        },
         "ru": {
-          "translation": "маршировать"
-        },
-        "uk": {
-          "translation": "марширувати"
+          "translation": "терпкий"
         }
       },
-      "definition": "To walk with regular steps as a group or in a deliberate manner.",
-      "example": "marched up and down",
-      "matchedForm": "march"
-    },
-    {
-      "word": "mean",
-      "lemma": "mean",
-      "lemmaId": "mean",
-      "pos": "adjective",
-      "wordKey": "mean_adjective",
-      "level": "C1",
-      "ipa": "miːn",
-      "translations": {
-        "de": {
-          "translation": "böse"
-        },
-        "es": {
-          "translation": "malo"
-        },
-        "ru": {
-          "translation": "злой"
-        },
-        "uk": {
-          "translation": "підлий"
-        }
-      },
-      "definition": "Unkind or unpleasant; spiteful.",
-      "example": "mean, wicked trick",
-      "matchedForm": "mean"
-    },
-    {
-      "word": "miserable",
-      "lemma": "miserable",
-      "lemmaId": "miserable",
-      "pos": "adjective",
-      "wordKey": "miserable_adjective",
-      "level": "C1",
-      "ipa": "ˈmɪz.ər.ə.bəl",
-      "translations": {
-        "de": {
-          "translation": "elend"
-        },
-        "es": {
-          "translation": "miserable"
-        },
-        "ru": {
-          "translation": "несчастный, жалкий"
-        },
-        "uk": {
-          "translation": "сумний, нещасний"
-        }
-      },
-      "definition": "Very unhappy or unpleasant.",
-      "example": "everything else wasn’t so miserable",
-      "matchedForm": "miserable"
-    },
-    {
-      "word": "refuse",
-      "lemma": "refuse",
-      "lemmaId": "refuse",
-      "pos": "verb",
-      "wordKey": "refuse_verb",
-      "level": "B2",
-      "ipa": "rɪˈfjuːz",
-      "translations": {
-        "de": {
-          "translation": "ablehnen"
-        },
-        "es": {
-          "translation": "rechazar"
-        },
-        "ru": {
-          "translation": "отказываться"
-        },
-        "uk": {
-          "translation": "відмовлятися"
-        }
-      },
-      "definition": "To indicate or show that one is not willing to do something.",
-      "example": "had to refuse",
-      "matchedForm": "refuse"
-    },
-    {
-      "word": "signalling",
-      "lemma": "signalling",
-      "lemmaId": "signalling",
-      "pos": "verb",
-      "wordKey": "signalling_verb",
-      "level": "B2",
-      "ipa": "ˈsɪɡ.nəl.ɪŋ",
-      "translations": {
-        "de": {
-          "translation": "signalisieren"
-        },
-        "es": {
-          "translation": "señalando"
-        },
-        "ru": {
-          "translation": "давая знак"
-        },
-        "uk": {
-          "translation": "подаючи сигнал"
-        }
-      },
-      "definition": "To make a gesture or sound to convey information or instructions.",
-      "example": "signaling so hard"
+      "example": "“They always entertain a lot in the month before Halloween,” Julia said as they finished the blackberry tart Cook had made specially out of Janet’s hatful.",
+      "exampleStart": 1542,
+      "exampleEnd": 1697,
+      "matchedForm": "tart",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.897143,
+      "difficultySource": "zipf"
     },
     {
       "word": "tethered",
-      "lemma": "tethered",
-      "lemmaId": "tethered",
+      "lemma": "tether",
+      "lemmaId": "tether",
       "pos": "adjective",
-      "wordKey": "tethered_adjective",
-      "level": "C1",
-      "ipa": "ˈtɛðəd",
+      "source": "word",
+      "wordKey": "tether_adjective",
+      "level": "B1",
       "translations": {
-        "de": {
-          "translation": "an einem Seil befestigt"
-        },
-        "es": {
-          "translation": "atado"
-        },
         "ru": {
-          "translation": "привязанный"
-        },
-        "uk": {
-          "translation": "прив’язаний"
+          "translation": "привязка"
         }
       },
-      "definition": "Fastened or confined with a rope or chain.",
-      "example": "mirror tethered to Cat’s bookcase",
-      "matchedForm": "tethered"
+      "example": "Roger fetched the mirror tethered to Cat’s bookcase, and collected his own and Julia’s and Gwendolen’s too.",
+      "exampleStart": 1006,
+      "exampleEnd": 1113,
+      "matchedForm": "tethered",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "urgent",
-      "lemma": "urgent",
-      "lemmaId": "urgent",
-      "pos": "adjective",
-      "wordKey": "urgent_adjective",
-      "level": "B2",
-      "ipa": "ˈɜː.dʒənt",
+      "word": "to speak of",
+      "lemma": "to speak of",
+      "lemmaId": "to_speak_of",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "to_speak_of_phrase",
+      "level": "B1",
       "translations": {
-        "de": {
-          "translation": "dringend"
-        },
-        "es": {
-          "translation": "urgente"
-        },
         "ru": {
-          "translation": "срочный"
-        },
-        "uk": {
-          "translation": "нагальний"
+          "translation": "К тому же"
         }
       },
-      "definition": "Requiring immediate action or attention.",
-      "example": "something urgent",
-      "matchedForm": "urgent"
+      "example": "Until supper, they had great fun whizzing around the playroom, not to speak of up and down the passage outside.",
+      "exampleStart": 1214,
+      "exampleEnd": 1325,
+      "phraseMatch": {
+        "text": "to speak of",
+        "startInExample": 67,
+        "endInExample": 78
+      },
+      "levelSource": "phrase_fallback"
     },
     {
-      "word": "wicked",
-      "lemma": "wicked",
-      "lemmaId": "wicked",
-      "pos": "adjective",
-      "wordKey": "wicked_adjective",
-      "level": "C1",
-      "ipa": "ˈwɪk.ɪd",
+      "word": "up and down",
+      "lemma": "up and down",
+      "lemmaId": "up_and_down",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "up_and_down_phrase",
+      "level": "B1",
       "translations": {
-        "de": {
-          "translation": "boshaft"
-        },
-        "es": {
-          "translation": "malvado"
-        },
         "ru": {
-          "translation": "злой, порочный"
-        },
-        "uk": {
-          "translation": "злий, злочинний"
+          "translation": "Вверх и вниз"
         }
       },
-      "definition": "Evil or morally wrong; very bad or unpleasant.",
-      "example": "mean, wicked trick",
-      "matchedForm": "wicked"
+      "example": "Until supper, they had great fun whizzing around the playroom, not to speak of up and down the passage outside.",
+      "exampleStart": 1214,
+      "exampleEnd": 1325,
+      "phraseMatch": {
+        "text": "up and down",
+        "startInExample": 79,
+        "endInExample": 90
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "whizzing",
+      "lemma": "whiz",
+      "lemmaId": "whiz",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "whiz_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "свист"
+        }
+      },
+      "example": "Until supper, they had great fun whizzing around the playroom, not to speak of up and down the passage outside.",
+      "exampleStart": 1214,
+      "exampleEnd": 1325,
+      "matchedForm": "whizzing",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "you think",
+      "lemma": "you think",
+      "lemmaId": "you_think",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "you_think_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Ты думаешь"
+        }
+      },
+      "example": "Don’t you think that was a good idea?",
+      "exampleStart": 3228,
+      "exampleEnd": 3265,
+      "phraseMatch": {
+        "text": "you think",
+        "startInExample": 6,
+        "endInExample": 15
+      },
+      "levelSource": "phrase_fallback"
     }
   ]
 }

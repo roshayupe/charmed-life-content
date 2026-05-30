@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 5,
     "sectionTitle": "Chapter 2",
     "fragmentIndex": 3,
@@ -21,417 +20,528 @@
       "wordCount": 660,
       "uniqueWordCount": 376,
       "paragraphCount": 21,
-      "vocabularyCount": 25,
+      "vocabularyCount": 23,
       "levelDistribution": {
         "A1": 0,
-        "A2": 0,
-        "B1": 0,
-        "B2": 14,
-        "C1": 9,
-        "C2": 2
+        "A2": 3,
+        "B1": 4,
+        "B2": 13,
+        "C1": 2,
+        "C2": 1
       }
     }
   },
   "vocabulary": [
     {
-      "word": "alarm",
-      "lemma": "alarm",
-      "lemmaId": "alarm",
-      "pos": "noun",
-      "wordKey": "alarm_noun",
+      "word": "be off",
+      "lemma": "be off",
+      "lemmaId": "be_off",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "be_off_phrasal_verb",
       "level": "B2",
-      "ipa": "əˈlɑːm",
       "translations": {
         "ru": {
-          "translation": "тревога, беспокойство"
+          "translation": "Уходи"
         }
       },
-      "definition": "A sudden fear or distressing suspense caused by an awareness of danger.",
-      "example": "He looked worried or frightened."
+      "example": "Cat was afraid he might be going off into a trance, like Miss Larkins.",
+      "exampleStart": 931,
+      "exampleEnd": 1001,
+      "phraseMatch": {
+        "text": "be going off",
+        "startInExample": 24,
+        "endInExample": 36
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "catch",
-      "lemma": "catch",
-      "lemmaId": "catch",
+      "word": "every time",
+      "lemma": "every time",
+      "lemmaId": "every_time",
       "pos": "phrase",
-      "wordKey": "catch_phrase",
-      "level": "B2",
-      "ipa": "verb",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "every_time_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "поймать"
+          "translation": "Каждый раз"
         }
       },
-      "definition": "Intercept or seize something that is moving.",
-      "example": "To seize or capture."
-    },
-    {
-      "word": "collocation: “took care to”",
-      "lemma": "collocation: “took care to”",
-      "lemmaId": "collocation_took_care_to",
-      "pos": "phrase",
-      "wordKey": "collocation_took_care_to_phrase",
-      "level": "B2",
-      "ipa": "tʊk keər tə",
-      "translations": {
-        "ru": {
-          "translation": "позаботился о том, чтобы"
-        }
+      "example": "”\n\n“I know,” said Cat, and for the next two days he carefully turned right every time he left the house.",
+      "exampleStart": 2607,
+      "exampleEnd": 2711,
+      "phraseMatch": {
+        "text": "every time",
+        "startInExample": 75,
+        "endInExample": 85
       },
-      "definition": "Made sure to do something carefully or deliberately.",
-      "example": "Deliberately ensured to do something."
-    },
-    {
-      "word": "disgust",
-      "lemma": "disgust",
-      "lemmaId": "disgust",
-      "pos": "noun",
-      "wordKey": "disgust_noun",
-      "level": "C1",
-      "ipa": "dɪsˈɡʌst",
-      "translations": {
-        "ru": {
-          "translation": "отвращение"
-        }
-      },
-      "definition": "A strong feeling of dislike or disapproval.",
-      "example": "A strong negative emotion."
-    },
-    {
-      "word": "exulting",
-      "lemma": "exulting",
-      "lemmaId": "exulting",
-      "pos": "adjective",
-      "wordKey": "exulting_adjective",
-      "level": "C2",
-      "ipa": "ɪɡˈzʌltɪŋ",
-      "translations": {
-        "ru": {
-          "translation": "ликующий, торжествующий"
-        }
-      },
-      "definition": "Showing or feeling triumphant elation or jubilation.",
-      "example": "She looked very joyful and triumphant."
-    },
-    {
-      "word": "exultingly",
-      "lemma": "exultingly",
-      "lemmaId": "exultingly",
-      "pos": "adverb",
-      "wordKey": "exultingly_adverb",
-      "level": "C2",
-      "ipa": "ɪɡˈzʌltɪŋli",
-      "translations": {
-        "ru": {
-          "translation": "ликующе"
-        }
-      },
-      "definition": "In a manner showing triumphant joy or jubilation.",
-      "example": "She spoke very joyfully."
+      "levelSource": "phrase_fallback"
     },
     {
       "word": "feebly",
       "lemma": "feebly",
       "lemmaId": "feebly",
-      "pos": "adverb",
-      "wordKey": "feebly_adverb",
-      "level": "C1",
-      "ipa": "ˈfiːbli",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "feebly_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "слабо, робко"
+          "translation": "слабо"
         }
       },
-      "definition": "In a way that is lacking strength or force; weakly.",
-      "example": "Weak or without energy."
+      "example": "They simply lay, feebly waving their arms, and Cat never had the heart to eat them.",
+      "exampleStart": 3560,
+      "exampleEnd": 3643,
+      "matchedForm": "feebly",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "furious",
       "lemma": "furious",
       "lemmaId": "furious",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "furious_adjective",
       "level": "B2",
-      "ipa": "ˈfjʊəriəs",
       "translations": {
         "ru": {
-          "translation": "яростный, бешеный"
+          "translation": "яростный"
         }
       },
-      "definition": "Extremely angry.",
-      "example": "Very angry gardener."
+      "example": "Then a furious gardener chased them with a rake.",
+      "exampleStart": 3081,
+      "exampleEnd": 3129,
+      "matchedForm": "furious",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.722857,
+      "difficultySource": "zipf"
     },
     {
-      "word": "gingerbread men",
-      "lemma": "gingerbread men",
-      "lemmaId": "gingerbread_men",
-      "pos": "phrase",
-      "wordKey": "gingerbread_men_phrase",
+      "word": "get away",
+      "lemma": "get away",
+      "lemmaId": "get_away",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "get_away_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈdʒɪndʒəbrɛd mɛn",
       "translations": {
         "ru": {
-          "translation": "пряничные человечки"
+          "translation": "Отойди"
         }
       },
-      "definition": "Cookies shaped like little men made from gingerbread dough.",
-      "example": "Decorated gingerbread biscuits shaped like patients."
+      "example": "Cat wanted to get away.",
+      "exampleStart": 513,
+      "exampleEnd": 536,
+      "phraseMatch": {
+        "text": "get away",
+        "startInExample": 14,
+        "endInExample": 22
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "gloomily",
       "lemma": "gloomily",
       "lemmaId": "gloomily",
       "pos": "adverb",
+      "source": "word",
       "wordKey": "gloomily_adverb",
       "level": "B2",
-      "ipa": "ˈɡluːmɪli",
       "translations": {
         "ru": {
-          "translation": "мрачно, уныло"
+          "translation": "мрачно"
         }
       },
-      "definition": "In a way that shows sadness or darkness, depressing.",
-      "example": "He looked in a very unhappy or dark way."
+      "example": "Nostrum, his odd eye traveling away, while his brother managed to stare gloomily at the pavement and the rooftops at once.",
+      "exampleStart": 46,
+      "exampleEnd": 168,
+      "matchedForm": "gloomily",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "going off",
+      "lemma": "go off",
+      "lemmaId": "go_off",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_off_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Выйдет"
+        }
+      },
+      "example": "Cat was afraid he might be going off into a trance, like Miss Larkins.",
+      "exampleStart": 931,
+      "exampleEnd": 1001,
+      "matchedForm": "going",
+      "phraseMatch": {
+        "text": "going off",
+        "startInExample": 27,
+        "endInExample": 36
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "go out of",
+      "lemma": "go out of",
+      "lemmaId": "go_out_of",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_out_of_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Выйди"
+        }
+      },
+      "example": "When he went out that afternoon, he took care to turn right and go out of Coven Street past the Willing Warlock’s house.",
+      "exampleStart": 1290,
+      "exampleEnd": 1410,
+      "phraseMatch": {
+        "text": "go out of",
+        "startInExample": 64,
+        "endInExample": 73
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "went out",
+      "lemma": "go out",
+      "lemmaId": "go_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "вышел"
+        }
+      },
+      "example": "Cat and his friends went out along the river.",
+      "exampleStart": 2797,
+      "exampleEnd": 2842,
+      "phraseMatch": {
+        "text": "went out",
+        "startInExample": 20,
+        "endInExample": 28
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "hush",
+      "lemma": "hush",
+      "lemmaId": "hush",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "hush_verb",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "молчать"
+        }
+      },
+      "example": "Chres—”\n\n“Hush!",
+      "exampleStart": 696,
+      "exampleEnd": 711,
+      "matchedForm": "Hush",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.868571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "i wish",
+      "lemma": "i wish",
+      "lemmaId": "i_wish",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "i_wish_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Хотелось бы"
+        }
+      },
+      "example": "” Since this had brought what happened that morning into his mind, which still made him almost wish the Autumn term had started, he said, “I wish the horse chestnuts were ripe.",
+      "exampleStart": 2300,
+      "exampleEnd": 2476,
+      "phraseMatch": {
+        "text": "I wish",
+        "startInExample": 139,
+        "endInExample": 145
+      },
+      "levelSource": "phrase_fallback"
     },
     {
       "word": "justified",
-      "lemma": "justified",
-      "lemmaId": "justified",
+      "lemma": "justify",
+      "lemmaId": "justify",
       "pos": "adjective",
-      "wordKey": "justified_adjective",
-      "level": "C1",
-      "ipa": "ˈdʒʌstɪfaɪd",
+      "source": "word",
+      "wordKey": "justify_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "оправданный"
+          "translation": "оправдывать"
         }
       },
-      "definition": "Having shown to be right or reasonable; warranted.",
-      "example": "Feeling that actions were right or acceptable."
+      "example": "They leaped up off the plate and ran when you tried to eat them, so that when you finally caught them you felt quite justified in eating them.",
+      "exampleStart": 3328,
+      "exampleEnd": 3470,
+      "matchedForm": "justified",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.677143,
+      "difficultySource": "zipf"
     },
     {
       "word": "knobby",
       "lemma": "knobby",
       "lemmaId": "knobby",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "knobby_adjective",
-      "level": "B2",
-      "ipa": "ˈnɒbi",
+      "level": "C2",
       "translations": {
         "ru": {
-          "translation": "с узелками, шишковатый"
+          "translation": "кнобби"
         }
       },
-      "definition": "Having knots or lumps on the surface.",
-      "example": "Having rounded lumps or bumps."
+      "example": "Cat was very happy as he carried his full, knobby hat home.",
+      "exampleStart": 3140,
+      "exampleEnd": 3199,
+      "matchedForm": "knobby",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "loaded with",
-      "lemma": "loaded with",
-      "lemmaId": "loaded_with",
-      "pos": "phrase",
-      "wordKey": "loaded_with_phrase",
-      "level": "B2",
-      "ipa": "ˈləʊdɪd wɪð",
-      "translations": {
-        "ru": {
-          "translation": "нагруженный, полный"
-        }
-      },
-      "definition": "Full of or carrying a large amount of something.",
-      "example": "Very full or heavy with something."
-    },
-    {
-      "word": "lovely",
-      "lemma": "lovely",
-      "lemmaId": "lovely",
+      "word": "leaped",
+      "lemma": "leap",
+      "lemmaId": "leap",
       "pos": "adjective",
-      "wordKey": "lovely_adjective",
-      "level": "B2",
-      "ipa": "ˈlʌvli",
+      "source": "word",
+      "wordKey": "leap_adjective",
+      "level": "A2",
       "translations": {
         "ru": {
-          "translation": "прекрасный"
+          "translation": "прыжок"
         }
       },
-      "definition": "Delightful or attractive.",
-      "example": "Beautiful or pleasant days."
+      "example": "They leaped up off the plate and ran when you tried to eat them, so that when you finally caught them you felt quite justified in eating them.",
+      "exampleStart": 3328,
+      "exampleEnd": 3470,
+      "matchedForm": "leaped",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.734286,
+      "difficultySource": "zipf"
     },
     {
-      "word": "maiden name",
-      "lemma": "maiden name",
-      "lemmaId": "maiden_name",
-      "pos": "phrase",
-      "wordKey": "maiden_name_phrase",
+      "word": "looking at",
+      "lemma": "look at",
+      "lemmaId": "look_at",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_at_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈmeɪdən neɪm",
       "translations": {
         "ru": {
-          "translation": "девичья фамилия"
+          "translation": "смотря на"
         }
       },
-      "definition": "The surname that a woman had before she married.",
-      "example": "The surname of a woman before marriage."
+      "example": "“August Personage, I mean,” Cat said, looking at Mr.",
+      "exampleStart": 800,
+      "exampleEnd": 852,
+      "phraseMatch": {
+        "text": "looking at",
+        "startInExample": 38,
+        "endInExample": 48
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "nuisance",
-      "lemma": "nuisance",
-      "lemmaId": "nuisance",
+      "word": "maiden",
+      "lemma": "maiden",
+      "lemmaId": "maiden",
       "pos": "noun",
-      "wordKey": "nuisance_noun",
-      "level": "B2",
-      "ipa": "ˈnjuːsns",
+      "source": "word",
+      "wordKey": "maiden_noun",
+      "level": "A2",
       "translations": {
         "ru": {
-          "translation": "неприятность, помеха"
+          "translation": "девушка"
         }
       },
-      "definition": "A person, thing, or circumstance causing inconvenience or annoyance.",
-      "example": "Something causing inconvenience or trouble."
+      "example": "“I doubt if he would be able to tell us his dear mother’s maiden name.",
+      "exampleStart": 237,
+      "exampleEnd": 307,
+      "matchedForm": "maiden",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.768571,
+      "difficultySource": "zipf"
     },
     {
-      "word": "peculiarly",
-      "lemma": "peculiarly",
-      "lemmaId": "peculiarly",
-      "pos": "adverb",
-      "wordKey": "peculiarly_adverb",
-      "level": "C1",
-      "ipa": "pɪˈkjuːliəli",
+      "word": "mind you",
+      "lemma": "mind you",
+      "lemmaId": "mind_you",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "mind_you_phrase",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "особенно, странно"
+          "translation": "Заметь"
         }
       },
-      "definition": "In a strange or odd way.",
-      "example": "Unhelpful in a distinctive or unusual way."
+      "example": "“What a low mind you have!",
+      "exampleStart": 2539,
+      "exampleEnd": 2565,
+      "phraseMatch": {
+        "text": "mind you",
+        "startInExample": 12,
+        "endInExample": 20
+      },
+      "levelSource": "head_verb_index"
     },
     {
       "word": "persisted",
-      "lemma": "persisted",
-      "lemmaId": "persisted",
+      "lemma": "persist",
+      "lemmaId": "persist",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "persist_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "сохранять"
+        }
+      },
+      "example": "” persisted Mr.",
+      "exampleStart": 30,
+      "exampleEnd": 45,
+      "matchedForm": "persisted",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.851429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "personage",
+      "lemma": "personage",
+      "lemmaId": "personage",
       "pos": "verb",
-      "wordKey": "persisted_verb",
+      "source": "word",
+      "wordKey": "personage_verb",
       "level": "C1",
-      "ipa": "pəˈsɪstɪd",
       "translations": {
         "ru": {
-          "translation": "упорно продолжал"
+          "translation": "персонаж"
         }
       },
-      "definition": "Continued firmly or obstinately in an opinion or course of action in spite of difficulty or opposition.",
-      "example": "He kept asking about the mother, showing persistence."
+      "example": "“August Personage, I mean,” Cat said, looking at Mr.",
+      "exampleStart": 800,
+      "exampleEnd": 852,
+      "matchedForm": "Personage",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "reward",
-      "lemma": "reward",
-      "lemmaId": "reward",
-      "pos": "phrase",
-      "wordKey": "reward_phrase",
-      "level": "B2",
-      "ipa": "verb",
-      "translations": {
-        "ru": {
-          "translation": "награждать"
-        }
-      },
-      "definition": "To give something in recognition of service, effort, or achievement.",
-      "example": "To give as a positive return."
-    },
-    {
-      "word": "ripe",
-      "lemma": "ripe",
-      "lemmaId": "ripe",
-      "pos": "adjective",
-      "wordKey": "ripe_adjective",
-      "level": "B2",
-      "ipa": "raɪp",
-      "translations": {
-        "ru": {
-          "translation": "зрелый"
-        }
-      },
-      "definition": "Fully matured and developed, especially of fruit.",
-      "example": "Ready to be picked."
-    },
-    {
-      "word": "secretive",
-      "lemma": "secretive",
-      "lemmaId": "secretive",
-      "pos": "adjective",
-      "wordKey": "secretive_adjective",
-      "level": "C1",
-      "ipa": "ˈsiːkrətɪv",
-      "translations": {
-        "ru": {
-          "translation": "скрытный, секретный"
-        }
-      },
-      "definition": "Inclined to conceal feelings and intentions or not openly reveal information.",
-      "example": "She appeared to be hiding information."
-    },
-    {
-      "word": "signature",
-      "lemma": "signature",
-      "lemmaId": "signature",
+      "word": "rake",
+      "lemma": "rake",
+      "lemmaId": "rake",
       "pos": "noun",
-      "wordKey": "signature_noun",
+      "source": "word",
+      "wordKey": "rake_noun",
       "level": "B2",
-      "ipa": "ˈsɪgnətʃər",
       "translations": {
         "ru": {
-          "translation": "подпись"
+          "translation": "рейк"
         }
       },
-      "definition": "A person's name written in a distinctive way as a form of identification.",
-      "example": "The written form of one’s name."
+      "example": "Then a furious gardener chased them with a rake.",
+      "exampleStart": 3081,
+      "exampleEnd": 3129,
+      "matchedForm": "rake",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.894286,
+      "difficultySource": "zipf"
     },
     {
-      "word": "swirling",
-      "lemma": "swirling",
-      "lemmaId": "swirling",
-      "pos": "phrase",
-      "wordKey": "swirling_phrase",
-      "level": "C1",
-      "ipa": "ˈswɜːrlɪŋ",
-      "translations": {
-        "ru": {
-          "translation": "кружась, вихрем вращаясь"
-        }
-      },
-      "definition": "Moving in a twisting or spiraling pattern.",
-      "example": "His eye moved in a twisting or revolving way."
-    },
-    {
-      "word": "triumph",
-      "lemma": "triumph",
-      "lemmaId": "triumph",
+      "word": "ripen",
+      "lemma": "ripen",
+      "lemmaId": "ripen",
       "pos": "noun",
-      "wordKey": "triumph_noun",
-      "level": "C1",
-      "ipa": "ˈtraɪʌmf",
+      "source": "word",
+      "wordKey": "ripen_noun",
+      "level": "A2",
       "translations": {
         "ru": {
-          "translation": "триумф, победа"
+          "translation": "созревать"
         }
       },
-      "definition": "A great victory or achievement.",
-      "example": "He showed great joy in succeeding."
+      "example": "There was an orchard beyond, and here they were lucky enough to discover a tree loaded with sweet white apples—the kind that ripen early.",
+      "exampleStart": 2896,
+      "exampleEnd": 3033,
+      "matchedForm": "ripen",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "violent(ly)",
-      "lemma": "violent(ly)",
-      "lemmaId": "violently",
-      "pos": "adverb",
-      "wordKey": "violently_adverb",
-      "level": "C1",
-      "ipa": "ˈvaɪələnt(ly)",
+      "word": "serve out",
+      "lemma": "serve out",
+      "lemmaId": "serve_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "serve_out_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "яростно, сильно"
+          "translation": "Подай"
         }
       },
-      "definition": "In a forceful, intense, or aggressive way.",
-      "example": "He spoke with strong intensity or force."
+      "example": "“It will serve, Henry, it will serve!",
+      "matchedForm": "serve",
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "want to know",
+      "lemma": "want to know",
+      "lemmaId": "want_to_know",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "want_to_know_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Хочу знать"
+        }
+      },
+      "example": "“Well, if you want to know that badly,” he said, “why don’t you write and ask Mr.",
+      "exampleStart": 607,
+      "exampleEnd": 688,
+      "phraseMatch": {
+        "text": "want to know",
+        "startInExample": 14,
+        "endInExample": 26
+      },
+      "levelSource": "phrase_fallback"
     }
   ]
 }

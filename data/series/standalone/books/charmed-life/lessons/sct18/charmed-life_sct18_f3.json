@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 18,
     "sectionTitle": "Chapter 15",
     "fragmentIndex": 3,
@@ -25,469 +24,553 @@
       "levelDistribution": {
         "A1": 0,
         "A2": 0,
-        "B1": 0,
-        "B2": 17,
-        "C1": 7,
+        "B1": 8,
+        "B2": 13,
+        "C1": 3,
         "C2": 0
       }
     }
   },
   "vocabulary": [
     {
-      "word": "archway",
-      "lemma": "archway",
-      "lemmaId": "archway",
+      "word": "agitated",
+      "lemma": "agitate",
+      "lemmaId": "agitate",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "agitate_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "агитировать"
+        }
+      },
+      "example": "They were all trailing about, this way and that, looking important and agitated.",
+      "exampleStart": 2417,
+      "exampleEnd": 2497,
+      "matchedForm": "agitated",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "blooms",
+      "lemma": "bloom",
+      "lemmaId": "bloom",
       "pos": "noun",
-      "wordKey": "archway_noun",
+      "source": "word",
+      "wordKey": "bloom_noun",
       "level": "B2",
-      "ipa": "ˈɑːrtʃweɪ",
       "translations": {
         "ru": {
-          "translation": "арка"
+          "translation": "цветение"
         }
       },
-      "definition": "A passage or entrance with an arch above it.",
-      "example": "were two sides of a broken archway",
-      "exampleStart": 866,
-      "exampleEnd": 900,
-      "matchedForm": "archway"
+      "example": "“They say it blooms at Christmas.",
+      "exampleStart": 134,
+      "exampleEnd": 167,
+      "matchedForm": "blooms",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.737143,
+      "difficultySource": "zipf"
     },
     {
-      "word": "awed",
-      "lemma": "awed",
-      "lemmaId": "awed",
-      "pos": "adjective",
-      "wordKey": "awed_adjective",
-      "level": "C1",
-      "ipa": "ɔːd",
+      "word": "bubbled up",
+      "lemma": "bubble up",
+      "lemmaId": "bubble_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "bubble_up_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "в изумлении"
+          "translation": "Пузырьки всплыли"
         }
       },
-      "definition": "Filled with reverence, fear, or wonder.",
-      "example": "” Janet agreed in an awed",
-      "exampleStart": 1134,
-      "exampleEnd": 1159,
-      "matchedForm": "awed"
-    },
-    {
-      "word": "awful",
-      "lemma": "awful",
-      "lemmaId": "awful",
-      "pos": "adjective",
-      "wordKey": "awful_adjective",
-      "level": "B2",
-      "ipa": "ˈɔːfəl",
-      "translations": {
-        "ru": {
-          "translation": "ужасный"
-        }
+      "example": "As Janet and Cat passed quietly towards this place, they found a little spring of water near the roots of the apple tree, which bubbled up from nowhere, and bubbled away again into the earth almost at once.",
+      "exampleStart": 514,
+      "exampleEnd": 720,
+      "phraseMatch": {
+        "text": "bubbled up",
+        "startInExample": 128,
+        "endInExample": 138
       },
-      "definition": "Extremely bad or unpleasant.",
-      "example": "” Janet agreed in an awed",
-      "exampleStart": 1134,
-      "exampleEnd": 1159,
-      "matchedForm": "awed"
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "bowl",
-      "lemma": "bowl",
-      "lemmaId": "bowl",
-      "pos": "noun",
-      "wordKey": "bowl_noun",
+      "word": "bulkier",
+      "lemma": "bulkier",
+      "lemmaId": "bulkier",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "bulkier_verb",
       "level": "B2",
-      "ipa": "boʊl",
-      "translations": {
-        "ru": {
-          "translation": "котловина, углубление"
-        }
-      },
-      "definition": "A round, deep basin or hollow.",
-      "example": "were in a small bowl of meadowland",
-      "exampleStart": 227,
-      "exampleEnd": 261,
-      "matchedForm": "bowl"
-    },
-    {
-      "word": "bulky",
-      "lemma": "bulky",
-      "lemmaId": "bulky",
-      "pos": "adjective",
-      "wordKey": "bulky_adjective",
-      "level": "B2",
-      "ipa": "ˈbʌlki",
       "translations": {
         "ru": {
           "translation": "громоздкий"
         }
       },
-      "definition": "Taking up much space; large and unwieldy.",
-      "example": "bulky clothes in flat",
-      "exampleStart": 2379,
-      "exampleEnd": 2400,
-      "matchedForm": "bulky"
+      "example": "Gwendolen was dressed in even bulkier clothes than the rest, that were white and gold, and her hair was done up into a high golden headdress which may have been a crown.",
+      "exampleStart": 2940,
+      "exampleEnd": 3109,
+      "matchedForm": "bulkier",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "carpet",
-      "lemma": "carpet",
-      "lemmaId": "carpet",
-      "pos": "noun",
-      "wordKey": "carpet_noun",
+      "word": "do what",
+      "lemma": "do what",
+      "lemmaId": "do_what",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "do_what_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Что делать"
+        }
+      },
+      "example": "By this time, the golden bed was right beside the archway, and the space was a turmoil of people racing to do what Gwendolen wanted.",
+      "exampleStart": 3551,
+      "exampleEnd": 3683,
+      "phraseMatch": {
+        "text": "do what",
+        "startInExample": 107,
+        "endInExample": 114
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "fell on",
+      "lemma": "fall on",
+      "lemmaId": "fall_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "fall_on_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈkɑːrpɪt",
       "translations": {
         "ru": {
-          "translation": "ковер"
+          "translation": "упал"
         }
       },
-      "definition": "A floor covering made from thick woven fabric.",
-      "example": "covered in a carpet of a rather",
-      "exampleStart": 2183,
-      "exampleEnd": 2214,
-      "matchedForm": "carpet"
-    },
-    {
-      "word": "crown",
-      "lemma": "crown",
-      "lemmaId": "crown",
-      "pos": "noun",
-      "wordKey": "crown_noun",
-      "level": "B2",
-      "ipa": "kraʊn",
-      "translations": {
-        "ru": {
-          "translation": "корона"
-        }
+      "example": "She made a sign at another person and he fell on his knees, begging for mercy.",
+      "exampleStart": 3375,
+      "exampleEnd": 3453,
+      "phraseMatch": {
+        "text": "fell on",
+        "startInExample": 41,
+        "endInExample": 48
       },
-      "definition": "An ornamental circular headdress worn by a monarch as a symbol of authority.",
-      "example": "headdress which may have been a crown",
-      "exampleStart": 3071,
-      "exampleEnd": 3108,
-      "matchedForm": "crown"
-    },
-    {
-      "word": "crucible",
-      "lemma": "crucible",
-      "lemmaId": "crucible",
-      "pos": "noun",
-      "wordKey": "crucible_noun",
-      "level": "C1",
-      "ipa": "ˈkruːsɪbəl",
-      "translations": {
-        "ru": {
-          "translation": "тигель, плавильный тигель"
-        }
-      },
-      "definition": "A container used for melting substances at high temperatures; a severe test or trial.",
-      "example": "fumbled out the crucible wrapped in his",
-      "exampleStart": 1336,
-      "exampleEnd": 1375,
-      "matchedForm": "crucible"
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "feverish",
       "lemma": "feverish",
       "lemmaId": "feverish",
-      "pos": "adjective",
-      "wordKey": "feverish_adjective",
-      "level": "C1",
-      "ipa": "ˈfiːvərɪʃ",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "feverish_noun",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "лихорадочный, пылкий"
+          "translation": "лихорадочный"
         }
       },
-      "definition": "Displaying intense agitation or excitement.",
-      "example": "and listened with feverish intelligence to what",
-      "exampleStart": 3258,
-      "exampleEnd": 3305,
-      "matchedForm": "feverish"
+      "example": "She nodded to some of the important people and they leaped eagerly to the side of her bed and listened with feverish intelligence to what she was saying.",
+      "exampleStart": 3168,
+      "exampleEnd": 3321,
+      "matchedForm": "feverish",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "fumble",
-      "lemma": "fumble",
-      "lemmaId": "fumble",
-      "pos": "verb",
-      "wordKey": "fumble_verb",
+      "word": "get into",
+      "lemma": "get into",
+      "lemmaId": "get_into",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "get_into_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈfʌmbəl",
       "translations": {
         "ru": {
-          "translation": "шарить, неуклюже обращаться"
+          "translation": "Входи"
         }
       },
-      "definition": "To handle something clumsily or without skill.",
-      "example": "He fumbled out the crucible wrapped in",
-      "exampleStart": 1333,
-      "exampleEnd": 1371,
-      "matchedForm": "fumbled"
+      "example": "The air between them and the garden was still quivering and, somehow, Cat knew they would not be able to get into the huge room.",
+      "exampleStart": 2498,
+      "exampleEnd": 2626,
+      "phraseMatch": {
+        "text": "get into",
+        "startInExample": 105,
+        "endInExample": 113
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "handholds",
+      "lemma": "handhold",
+      "lemmaId": "handhold",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "handhold_noun",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "рукоять"
+        }
+      },
+      "example": "She was being carried by, quite near, on a sort of bed with handholds.",
+      "exampleStart": 2755,
+      "exampleEnd": 2825,
+      "matchedForm": "handholds",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "headdress",
       "lemma": "headdress",
       "lemmaId": "headdress",
-      "pos": "noun",
-      "wordKey": "headdress_noun",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "headdress_verb",
       "level": "C1",
-      "ipa": "ˈhɛddrɛs",
       "translations": {
         "ru": {
           "translation": "головной убор"
         }
       },
-      "definition": "A decoration or covering for the head, especially a ceremonial one.",
-      "example": "a high golden headdress which may have",
-      "exampleStart": 3057,
-      "exampleEnd": 3095,
-      "matchedForm": "headdress"
+      "example": "Gwendolen was dressed in even bulkier clothes than the rest, that were white and gold, and her hair was done up into a high golden headdress which may have been a crown.",
+      "exampleStart": 2940,
+      "exampleEnd": 3109,
+      "matchedForm": "headdress",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "intelligence",
-      "lemma": "intelligence",
-      "lemmaId": "intelligence",
+      "word": "just about",
+      "lemma": "just about",
+      "lemmaId": "just_about",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "just_about_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Почти"
+        }
+      },
+      "example": "”\n\nCat was just about to say that he did not know either, when he saw Gwendolen.",
+      "exampleStart": 2674,
+      "exampleEnd": 2754,
+      "phraseMatch": {
+        "text": "just about",
+        "startInExample": 11,
+        "endInExample": 21
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "looked up",
+      "lemma": "look up",
+      "lemmaId": "look_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Посмотрел вверх"
+        }
+      },
+      "example": "As it took them in under its dark hood, Janet looked up into its black twistings.",
+      "exampleStart": 0,
+      "exampleEnd": 81,
+      "phraseMatch": {
+        "text": "looked up",
+        "startInExample": 46,
+        "endInExample": 55
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "meadowland",
+      "lemma": "meadowland",
+      "lemmaId": "meadowland",
       "pos": "noun",
-      "wordKey": "intelligence_noun",
+      "source": "word",
+      "wordKey": "meadowland_noun",
       "level": "B2",
-      "ipa": "ɪnˈtɛlɪdʒəns",
       "translations": {
         "ru": {
-          "translation": "ум, интеллект"
+          "translation": "луговая земля"
         }
       },
-      "definition": "The ability to acquire and apply knowledge and skills.",
-      "example": "listened with feverish intelligence to what she",
-      "exampleStart": 3262,
-      "exampleEnd": 3309,
-      "matchedForm": "intelligence"
+      "example": "They were in a small bowl of meadowland.",
+      "exampleStart": 222,
+      "exampleEnd": 262,
+      "matchedForm": "meadowland",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "leap",
-      "lemma": "leap",
-      "lemmaId": "leap",
-      "pos": "verb",
-      "wordKey": "leap_verb",
-      "level": "B2",
-      "ipa": "liːp",
-      "translations": {
-        "ru": {
-          "translation": "прыгать, вскочить"
-        }
-      },
-      "definition": "To jump or spring a long way, to or over something.",
-      "example": "people and they leaped eagerly to the",
-      "exampleStart": 3204,
-      "exampleEnd": 3241,
-      "matchedForm": "leaped"
-    },
-    {
-      "word": "miserable",
-      "lemma": "miserable",
-      "lemmaId": "miserable",
+      "word": "muffled",
+      "lemma": "muffle",
+      "lemmaId": "muffle",
       "pos": "adjective",
-      "wordKey": "miserable_adjective",
-      "level": "B2",
-      "ipa": "ˈmɪzərəbəl",
+      "source": "word",
+      "wordKey": "muffle_adjective",
+      "level": "C1",
       "translations": {
         "ru": {
-          "translation": "несчастный, жалкий"
+          "translation": "глушить"
         }
       },
-      "definition": "Very unhappy or uncomfortable.",
-      "example": "feel a bit miserable to be going",
-      "exampleStart": 1179,
-      "exampleEnd": 1211,
-      "matchedForm": "miserable"
+      "example": "“I think it is too,” Janet agreed in an awed, muffled voice.",
+      "exampleStart": 1115,
+      "exampleEnd": 1175,
+      "matchedForm": "muffled",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "misty",
-      "lemma": "misty",
-      "lemmaId": "misty",
-      "pos": "adjective",
-      "wordKey": "misty_adjective",
-      "level": "B2",
-      "ipa": "ˈmɪsti",
+      "word": "not quite",
+      "lemma": "not quite",
+      "lemmaId": "not_quite",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "not_quite_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "туманный"
+          "translation": "Не совсем"
         }
       },
-      "definition": "Full of mist; foggy or unclear.",
-      "example": "meadow they could see beyond grew misty",
-      "exampleStart": 1961,
-      "exampleEnd": 2000,
-      "matchedForm": "misty"
+      "example": "It stood leaning over the center of the meadow, not quite overshadowing the queer ruin there.",
+      "exampleStart": 420,
+      "exampleEnd": 513,
+      "phraseMatch": {
+        "text": "not quite",
+        "startInExample": 48,
+        "endInExample": 57
+      },
+      "levelSource": "phrase_fallback"
     },
     {
-      "word": "overshadow",
+      "word": "overshadowing",
       "lemma": "overshadow",
       "lemmaId": "overshadow",
-      "pos": "verb",
-      "wordKey": "overshadow_verb",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "overshadow_adjective",
       "level": "C1",
-      "ipa": "ˌoʊvərˈʃædoʊ",
       "translations": {
         "ru": {
-          "translation": "затмевать"
+          "translation": "затмение"
         }
       },
-      "definition": "To appear more prominent or important than something else, thus making it seem less significant.",
-      "example": "not quite overshadowing the queer ruin there.",
-      "exampleStart": 468,
+      "example": "It stood leaning over the center of the meadow, not quite overshadowing the queer ruin there.",
+      "exampleStart": 420,
       "exampleEnd": 513,
-      "matchedForm": "overshadowing"
+      "matchedForm": "overshadowing",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "pinch",
-      "lemma": "pinch",
-      "lemmaId": "pinch",
-      "pos": "noun",
-      "wordKey": "pinch_noun",
-      "level": "B2",
-      "ipa": "pɪntʃ",
-      "translations": {
-        "ru": {
-          "translation": "щепотка"
-        }
-      },
-      "definition": "A small amount squeezed between finger and thumb.",
-      "example": "carefully took a pinch of the smelly",
-      "exampleStart": 1640,
-      "exampleEnd": 1676,
-      "matchedForm": "pinch"
-    },
-    {
-      "word": "quiver",
+      "word": "quivered",
       "lemma": "quiver",
       "lemmaId": "quiver",
-      "pos": "verb",
-      "wordKey": "quiver_verb",
-      "level": "C1",
-      "ipa": "ˈkwɪvər",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "quiver_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "дрожать, трепетать"
+          "translation": "колчан"
         }
       },
-      "definition": "To shake with a slight rapid motion.",
-      "example": "and the garden was still quivering and",
-      "exampleStart": 2519,
-      "exampleEnd": 2557,
-      "matchedForm": "quivering"
+      "example": "The air between the pillars quivered like air that is hot.",
+      "exampleStart": 1883,
+      "exampleEnd": 1941,
+      "matchedForm": "quivered",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "ripen",
+      "word": "ripening",
       "lemma": "ripen",
       "lemmaId": "ripen",
-      "pos": "verb",
-      "wordKey": "ripen_verb",
-      "level": "B2",
-      "ipa": "ˈraɪpən",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "ripen_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "созревать"
         }
       },
-      "definition": "To become fully developed or matured, especially fruit.",
-      "example": "apples were just ripening on that one",
-      "exampleStart": 376,
-      "exampleEnd": 413,
-      "matchedForm": "ripening"
+      "example": "And here it seemed the right season of the year, because the apples were just ripening on that one tree.",
+      "exampleStart": 315,
+      "exampleEnd": 419,
+      "matchedForm": "ripening",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "ruin",
-      "lemma": "ruin",
-      "lemmaId": "ruin",
-      "pos": "noun",
-      "wordKey": "ruin_noun",
+      "word": "ran to",
+      "lemma": "run to",
+      "lemmaId": "run_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "run_to_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈruːɪn",
       "translations": {
         "ru": {
-          "translation": "разрушение, руина"
+          "translation": "побежал"
         }
       },
-      "definition": "The remains of a building that has been destroyed or fallen into disrepair.",
-      "example": "The ruins were two sides of a",
-      "exampleStart": 856,
-      "exampleEnd": 885,
-      "matchedForm": "ruins"
+      "example": "She waved to some others, and they ran to do things.",
+      "exampleStart": 3322,
+      "exampleEnd": 3374,
+      "phraseMatch": {
+        "text": "ran to",
+        "startInExample": 35,
+        "endInExample": 41
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "season",
-      "lemma": "season",
-      "lemmaId": "season",
-      "pos": "noun",
-      "wordKey": "season_noun",
+      "word": "see into",
+      "lemma": "see into",
+      "lemmaId": "see_into",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "see_into_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈsiːzən",
       "translations": {
         "ru": {
-          "translation": "сезон, время года"
+          "translation": "Посмотри в"
         }
       },
-      "definition": "One of the four periods of the year characterized by particular weather conditions.",
-      "example": "seemed the right season of the year",
-      "exampleStart": 327,
-      "exampleEnd": 362,
-      "matchedForm": "season"
+      "example": "The darkness cleared slowly, away into the corners of the space, and they found they could see into a huge room.",
+      "exampleStart": 2030,
+      "exampleEnd": 2142,
+      "phraseMatch": {
+        "text": "see into",
+        "startInExample": 91,
+        "endInExample": 99
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "sprinkle",
+      "word": "sort of",
+      "lemma": "sort of",
+      "lemmaId": "sort_of",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "sort_of_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Вроде"
+        }
+      },
+      "example": "All of it was covered in a carpet of a rather ugly playing-card sort of design in red, blue, and yellow.",
+      "exampleStart": 2169,
+      "exampleEnd": 2273,
+      "phraseMatch": {
+        "text": "sort of",
+        "startInExample": 64,
+        "endInExample": 71
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "sprinkling",
       "lemma": "sprinkle",
       "lemmaId": "sprinkle",
-      "pos": "verb",
-      "wordKey": "sprinkle_verb",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "sprinkle_adjective",
       "level": "B2",
-      "ipa": "ˈsprɪŋkəl",
       "translations": {
         "ru": {
-          "translation": "посыпать, брызгать"
+          "translation": "посыпать"
         }
       },
-      "definition": "To scatter drops or small particles over something.",
-      "example": "going to try sprinkling a pinch of",
-      "exampleStart": 1255,
-      "exampleEnd": 1289,
-      "matchedForm": "sprinkling"
+      "example": "”\n\n“I’m going to try sprinkling a pinch of dragons’ blood in the archway,” said Cat.",
+      "exampleStart": 1247,
+      "exampleEnd": 1331,
+      "matchedForm": "sprinkling",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.891429,
+      "difficultySource": "zipf"
     },
     {
-      "word": "trailed",
-      "lemma": "trail",
-      "lemmaId": "trail",
-      "pos": "verb",
-      "wordKey": "trail_verb",
+      "word": "took in",
+      "lemma": "take in",
+      "lemmaId": "take_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "take_in_phrasal_verb",
       "level": "B2",
-      "ipa": "treɪl",
       "translations": {
         "ru": {
-          "translation": "тянуться, волочиться"
+          "translation": "принял"
         }
       },
-      "definition": "To move or be pulled along behind someone or something.",
-      "example": "They were all trailing about",
-      "exampleStart": 2417,
-      "exampleEnd": 2445,
-      "matchedForm": "trailing"
+      "example": "As it took them in under its dark hood, Janet looked up into its black twistings.",
+      "exampleStart": 0,
+      "exampleEnd": 81,
+      "phraseMatch": {
+        "text": "took them in",
+        "startInExample": 6,
+        "endInExample": 18
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "turmoil",
-      "lemma": "turmoil",
-      "lemmaId": "turmoil",
-      "pos": "noun",
-      "wordKey": "turmoil_noun",
-      "level": "C1",
-      "ipa": "ˈtɜːrmɔɪl",
+      "word": "the finger",
+      "lemma": "the finger",
+      "lemmaId": "the_finger",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "the_finger_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "смятение, беспорядок"
+          "translation": "Палец"
         }
       },
-      "definition": "A state of great disturbance, confusion, or uncertainty.",
-      "example": "space was a turmoil of people racing",
-      "exampleStart": 3618,
-      "exampleEnd": 3654,
-      "matchedForm": "turmoil"
+      "example": "But, since he did not know what else to do, Cat carefully took a pinch of the smelly brown powder between the finger and thumb of his right hand, wrapped the crucible away again with his left hand, and then, carefully and guiltily, sprinkled the powder between the pillars of broken stone.",
+      "exampleStart": 1592,
+      "exampleEnd": 1881,
+      "phraseMatch": {
+        "text": "the finger",
+        "startInExample": 106,
+        "endInExample": 116
+      },
+      "levelSource": "phrase_fallback"
     }
   ]
 }

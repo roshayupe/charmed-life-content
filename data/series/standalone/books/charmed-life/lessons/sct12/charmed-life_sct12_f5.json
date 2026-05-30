@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 12,
     "sectionTitle": "Chapter 9",
     "fragmentIndex": 5,
@@ -21,14 +20,14 @@
       "wordCount": 955,
       "uniqueWordCount": 493,
       "paragraphCount": 36,
-      "vocabularyCount": 27,
+      "vocabularyCount": 39,
       "levelDistribution": {
-        "A1": 0,
-        "A2": 0,
-        "B1": 0,
-        "B2": 15,
-        "C1": 10,
-        "C2": 2
+        "A1": 1,
+        "A2": 1,
+        "B1": 10,
+        "B2": 22,
+        "C1": 4,
+        "C2": 1
       }
     }
   },
@@ -38,457 +37,901 @@
       "lemma": "accusingly",
       "lemmaId": "accusingly",
       "pos": "adverb",
+      "source": "word",
       "wordKey": "accusingly_adverb",
       "level": "C1",
-      "ipa": "əˈkjuːzɪŋli",
       "translations": {
         "ru": {
           "translation": "обвинительно"
         }
       },
-      "definition": "In a way that shows you believe someone has done something wrong.",
-      "example": "Euphemia continued to stare accusingly at Janet.",
-      "matchedForm": "accusingly"
+      "example": "Euphemia scrambled around in it and continued to stare accusingly at Janet.",
+      "exampleStart": 46,
+      "exampleEnd": 121,
+      "matchedForm": "accusingly",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "as soon as",
+      "lemma": "as soon as",
+      "lemmaId": "as_soon_as",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "as_soon_as_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "как только"
+        }
+      },
+      "example": "“I’ll get you changed back as soon as I can, so stop making that fuss, please!",
+      "exampleStart": 1659,
+      "exampleEnd": 1737,
+      "phraseMatch": {
+        "text": "as soon as",
+        "startInExample": 27,
+        "endInExample": 37
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "been up for",
+      "lemma": "be up for",
+      "lemmaId": "be_up_for",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "be_up_for_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "был готов"
+        }
+      },
+      "example": "”\n\n“Eric’s been up for hours,” said Mary, hovering about.",
+      "exampleStart": 2321,
+      "exampleEnd": 2378,
+      "phraseMatch": {
+        "text": "been up for",
+        "startInExample": 11,
+        "endInExample": 22
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "being up",
+      "lemma": "be up",
+      "lemmaId": "be_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "be_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Быть всплывшим"
+        }
+      },
+      "example": "When he had finished, it looked all right, but Janet had an odd air of being dressed up, rather than dressed.",
+      "exampleStart": 1253,
+      "exampleEnd": 1362,
+      "phraseMatch": {
+        "text": "being dressed up",
+        "startInExample": 71,
+        "endInExample": 87
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "been up to",
+      "lemma": "be up to",
+      "lemmaId": "be_up_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "be_up_to_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "занимался"
+        }
+      },
+      "example": "“So I don’t know what you’ve both been up to.",
+      "exampleStart": 2379,
+      "exampleEnd": 2424,
+      "phraseMatch": {
+        "text": "been up to",
+        "startInExample": 34,
+        "endInExample": 44
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "bloomers",
-      "lemma": "bloomers",
-      "lemmaId": "bloomers",
+      "lemma": "bloomer",
+      "lemmaId": "bloomer",
       "pos": "noun",
-      "wordKey": "bloomers_noun",
-      "level": "C1",
-      "ipa": "ˈbluːməz",
+      "source": "word",
+      "wordKey": "bloomer_noun",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "блумеры (женские брюки)"
+          "translation": "цветущий"
         }
       },
-      "definition": "Loose-fitting women's trousers gathered at the knee or ankle.",
-      "example": "Her bloomers were also among the clothes he found.",
-      "matchedForm": "bloomers"
+      "example": "Gwendolen seemed to have taken her best things with her, but he found her older boots, her green stockings and the garters to match, her second-best petticoats, her green cashmere dress with the smocking and—with some embarrassment—her bloomers.",
+      "exampleStart": 604,
+      "exampleEnd": 849,
+      "matchedForm": "bloomers",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "button up",
+      "lemma": "button up",
+      "lemmaId": "button_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "button_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Застёгивание на пуговица"
+        }
+      },
+      "example": "He had to put her petticoats on her, button her up the back, tie her garters, fasten her boots, and put her dress on a second time, right way around, and tie its sash for her.",
+      "exampleStart": 1077,
+      "exampleEnd": 1252,
+      "phraseMatch": {
+        "text": "button her up",
+        "startInExample": 37,
+        "endInExample": 50
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "cashmere",
       "lemma": "cashmere",
       "lemmaId": "cashmere",
-      "pos": "noun",
-      "wordKey": "cashmere_noun",
-      "level": "C1",
-      "ipa": "ˈkæʃmɪə",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "cashmere_verb",
+      "level": "A2",
       "translations": {
         "ru": {
-          "translation": "кашмир"
+          "translation": "кашемир"
         }
       },
-      "definition": "A fine soft wool from the cashmere goat.",
-      "example": "Her green cashmere dress with the smocking and bloomers.",
-      "matchedForm": "cashmere"
+      "example": "Gwendolen seemed to have taken her best things with her, but he found her older boots, her green stockings and the garters to match, her second-best petticoats, her green cashmere dress with the smocking and—with some embarrassment—her bloomers.",
+      "exampleStart": 604,
+      "exampleEnd": 849,
+      "matchedForm": "cashmere",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.968571,
+      "difficultySource": "zipf"
     },
     {
-      "word": "compulsory",
-      "lemma": "compulsory",
-      "lemmaId": "compulsory",
-      "pos": "adjective",
-      "wordKey": "compulsory_adjective",
+      "word": "changed back",
+      "lemma": "change back",
+      "lemmaId": "change_back",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "change_back_phrasal_verb",
       "level": "B2",
-      "ipa": "kəmˈpʌlsəri",
       "translations": {
         "ru": {
-          "translation": "обязательный"
+          "translation": "Вернулся обратно"
         }
       },
-      "definition": "Required by law or a rule; mandatory.",
-      "example": "Cocoa was not compulsory after all.",
-      "matchedForm": "compulsory"
+      "example": "“I’ll get you changed back as soon as I can, so stop making that fuss, please!",
+      "exampleStart": 1659,
+      "exampleEnd": 1737,
+      "phraseMatch": {
+        "text": "changed back",
+        "startInExample": 14,
+        "endInExample": 26
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "critically",
-      "lemma": "critically",
-      "lemmaId": "critically",
-      "pos": "adverb",
-      "wordKey": "critically_adverb",
-      "level": "C1",
-      "ipa": "ˈkrɪtɪkli",
+      "word": "change of heart",
+      "lemma": "change of heart",
+      "lemmaId": "change_of_heart",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "change_of_heart_phrase",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "критически"
+          "translation": "Изменение сердца"
         }
       },
-      "definition": "In a way that involves careful judgment or disapproval.",
-      "example": "She looked at herself critically in the mirror.",
-      "matchedForm": "critically"
+      "example": "“I’ve had a complete change of heart.",
+      "exampleStart": 3305,
+      "exampleEnd": 3342,
+      "phraseMatch": {
+        "text": "change of heart",
+        "startInExample": 21,
+        "endInExample": 36
+      },
+      "levelSource": "head_verb_index"
+    },
+    {
+      "word": "come on",
+      "lemma": "come on",
+      "lemmaId": "come_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Давай"
+        }
+      },
+      "example": "”\n\n“Come on,” said Cat.",
+      "exampleStart": 1503,
+      "exampleEnd": 1526,
+      "phraseMatch": {
+        "text": "Come on",
+        "startInExample": 4,
+        "endInExample": 11
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "came over",
+      "lemma": "come over",
+      "lemmaId": "come_over",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_over_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Пришёл"
+        }
+      },
+      "example": "”\n\nA look of panic came over Janet’s face.",
+      "exampleStart": 304,
+      "exampleEnd": 346,
+      "phraseMatch": {
+        "text": "came over",
+        "startInExample": 19,
+        "endInExample": 28
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "croaking",
-      "lemma": "croaking",
-      "lemmaId": "croaking",
+      "lemma": "croak",
+      "lemmaId": "croak",
       "pos": "verb",
-      "wordKey": "croaking_verb",
-      "level": "B2",
-      "ipa": "ˈkrəʊkɪŋ",
+      "source": "word",
+      "wordKey": "croak_verb",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "кваканье, карканье"
+          "translation": "квак"
         }
       },
-      "definition": "Making a low, hoarse sound like a frog or crow.",
-      "example": "He carried Euphemia, croaking furiously, to the wardrobe.",
-      "matchedForm": "croaking"
+      "example": "” He carried Euphemia, croaking furiously, to the wardrobe and wrapped her firmly in the towel.",
+      "exampleStart": 1538,
+      "exampleEnd": 1633,
+      "matchedForm": "croaking",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "embarrassment",
-      "lemma": "embarrassment",
-      "lemmaId": "embarrassment",
+      "word": "edwardian",
+      "lemma": "edwardian",
+      "lemmaId": "edwardian",
       "pos": "noun",
-      "wordKey": "embarrassment_noun",
+      "source": "word",
+      "wordKey": "edwardian_noun",
       "level": "B2",
-      "ipa": "ɪmˈbærəsmənt",
       "translations": {
         "ru": {
-          "translation": "смущение"
+          "translation": "эдвардианский"
         }
       },
-      "definition": "A feeling of self-consciousness or shame.",
-      "example": "He found her dress—with some embarrassment—her bloomers.",
-      "matchedForm": "embarrassment"
+      "example": "I look rather like an Edwardian child.",
+      "exampleStart": 1437,
+      "exampleEnd": 1475,
+      "matchedForm": "Edwardian",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "fasten",
       "lemma": "fasten",
       "lemmaId": "fasten",
       "pos": "verb",
+      "source": "word",
       "wordKey": "fasten_verb",
       "level": "B2",
-      "ipa": "ˈfɑːsn",
       "translations": {
         "ru": {
-          "translation": "застёгивать"
+          "translation": "крепить"
         }
       },
-      "definition": "To close or join securely (e.g., buttons, straps).",
-      "example": "He had to fasten her boots.",
-      "matchedForm": "fasten"
+      "example": "He had to put her petticoats on her, button her up the back, tie her garters, fasten her boots, and put her dress on a second time, right way around, and tie its sash for her.",
+      "exampleStart": 1077,
+      "exampleEnd": 1252,
+      "matchedForm": "fasten",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "fervently",
-      "lemma": "fervently",
-      "lemmaId": "fervently",
-      "pos": "adverb",
-      "wordKey": "fervently_adverb",
-      "level": "C2",
-      "ipa": "ˈfɜːvəntli",
+      "word": "felt up",
+      "lemma": "feel up",
+      "lemmaId": "feel_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "feel_up_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "страстно, пылко"
+          "translation": "почувствовал"
         }
       },
-      "definition": "With intense emotion or passion.",
-      "example": "Janet said fervently she was sorry.",
-      "matchedForm": "fervently"
+      "example": "”\n\nCat felt his problems mounting up.",
+      "exampleStart": 543,
+      "exampleEnd": 580,
+      "phraseMatch": {
+        "text": "felt his problems mounting up",
+        "startInExample": 7,
+        "endInExample": 36
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "flounced",
-      "lemma": "flounced",
-      "lemmaId": "flounced",
+      "lemma": "flounce",
+      "lemmaId": "flounce",
       "pos": "verb",
-      "wordKey": "flounced_verb",
-      "level": "B2",
-      "ipa": "flaʊnst",
-      "translations": {
-        "ru": {
-          "translation": "рассердился и ушёл"
-        }
-      },
-      "definition": "To move angrily or impatiently.",
-      "example": "Mary flounced crossly to the speaking tube.",
-      "matchedForm": "flounced"
-    },
-    {
-      "word": "garters",
-      "lemma": "garters",
-      "lemmaId": "garters",
-      "pos": "noun",
-      "wordKey": "garters_noun",
+      "source": "word",
+      "wordKey": "flounce_verb",
       "level": "C1",
-      "ipa": "ˈɡɑːtəz",
       "translations": {
         "ru": {
-          "translation": "подвязки"
+          "translation": "флеш"
         }
       },
-      "definition": "Bands worn around the leg to hold up stockings.",
-      "example": "He tied her garters, fastened her boots.",
-      "matchedForm": "garters"
+      "example": "Mary flounced crossly to the speaking tube and ordered a pot of coffee and a pot of tea.",
+      "exampleStart": 4399,
+      "exampleEnd": 4487,
+      "matchedForm": "flounced",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "hovering",
-      "lemma": "hovering",
-      "lemmaId": "hovering",
-      "pos": "verb",
-      "wordKey": "hovering_verb",
+      "word": "get around",
+      "lemma": "get around",
+      "lemmaId": "get_around",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "get_around_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈhʌvərɪŋ",
       "translations": {
         "ru": {
-          "translation": "парить, мотаться неподалеку"
+          "translation": "Передвигайся"
         }
       },
-      "definition": "Remaining in one place close by.",
-      "example": "Mary was hovering about.",
-      "matchedForm": "hovering"
+      "example": "” she asked, trying to get the stare around Cat to Janet again.",
+      "exampleStart": 3164,
+      "exampleEnd": 3227,
+      "phraseMatch": {
+        "text": "get the stare around",
+        "startInExample": 23,
+        "endInExample": 43
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "lowered",
-      "lemma": "lowered",
-      "lemmaId": "lowered",
-      "pos": "verb",
-      "wordKey": "lowered_verb",
+      "word": "get up",
+      "lemma": "get up",
+      "lemmaId": "get_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "get_up_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈləʊərd",
       "translations": {
         "ru": {
-          "translation": "опустила"
+          "translation": "Вставай"
         }
       },
-      "definition": "To move something down to a lower position.",
-      "example": "Janet lowered Euphemia gently onto the towel.",
-      "matchedForm": "lowered"
+      "example": "“Don’t you two ever get up till the last minute?",
+      "exampleStart": 2215,
+      "exampleEnd": 2263,
+      "phraseMatch": {
+        "text": "get up",
+        "startInExample": 20,
+        "endInExample": 26
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "meaningful",
-      "lemma": "meaningful",
-      "lemmaId": "meaningful",
-      "pos": "adjective",
-      "wordKey": "meaningful_adjective",
+      "word": "get used",
+      "lemma": "get used",
+      "lemmaId": "get_used",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "get_used_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Привыкни"
+        }
+      },
+      "example": "It was only the second piece of witchcraft she had seen and she did not find it easy to get used to.",
+      "exampleStart": 2601,
+      "exampleEnd": 2701,
+      "phraseMatch": {
+        "text": "get used",
+        "startInExample": 88,
+        "endInExample": 96
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "if anything",
+      "lemma": "if anything",
+      "lemmaId": "if_anything",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "if_anything_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "если уж на то пошло."
+        }
+      },
+      "example": "”\n\nAs they started breakfast, Cat thought that this, if anything, made the situation more difficult than ever.",
+      "exampleStart": 5215,
+      "exampleEnd": 5325,
+      "phraseMatch": {
+        "text": "if anything",
+        "startInExample": 53,
+        "endInExample": 64
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "kind of",
+      "lemma": "kind of",
+      "lemmaId": "kind_of",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "kind_of_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "В некотором роде"
+        }
+      },
+      "example": "“You’re some kind of cousin of ours,” said Roger.",
+      "exampleStart": 5090,
+      "exampleEnd": 5139,
+      "phraseMatch": {
+        "text": "kind of",
+        "startInExample": 13,
+        "endInExample": 20
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "last minute",
+      "lemma": "last minute",
+      "lemmaId": "last_minute",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "last_minute_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "В последний момент"
+        }
+      },
+      "example": "“Don’t you two ever get up till the last minute?",
+      "exampleStart": 2215,
+      "exampleEnd": 2263,
+      "phraseMatch": {
+        "text": "last minute",
+        "startInExample": 36,
+        "endInExample": 47
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "left off",
+      "lemma": "leave off",
+      "lemmaId": "leave_off",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "leave_off_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈmiːnɪŋfʊl",
       "translations": {
         "ru": {
-          "translation": "значимый"
+          "translation": "оставлен"
         }
       },
-      "definition": "Having a serious, important, or useful quality or purpose.",
-      "example": "Julia gave Janet one of those meaning stares."
+      "example": "But she left off staring in order to watch Mary bringing the usual bread, the marmalade, and the jug of cocoa.",
+      "exampleStart": 3392,
+      "exampleEnd": 3502,
+      "phraseMatch": {
+        "text": "left off",
+        "startInExample": 8,
+        "endInExample": 16
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "panic",
-      "lemma": "panic",
-      "lemmaId": "panic",
+      "word": "leaves on",
+      "lemma": "leave on",
+      "lemmaId": "leave_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "leave_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Оставляет"
+        }
+      },
+      "example": "”\n\n“But you waited to say so until Euphemia goes missing and leaves me all on my own!",
+      "exampleStart": 4220,
+      "exampleEnd": 4305,
+      "phraseMatch": {
+        "text": "leaves me all on",
+        "startInExample": 61,
+        "endInExample": 77
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "let down",
+      "lemma": "let down",
+      "lemmaId": "let_down",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "let_down_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Разочарование"
+        }
+      },
+      "example": "” Mary demanded as she let down the lift.",
+      "exampleStart": 4786,
+      "exampleEnd": 4827,
+      "phraseMatch": {
+        "text": "let down",
+        "startInExample": 23,
+        "endInExample": 31
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "like that",
+      "lemma": "like that",
+      "lemmaId": "like_that",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "like_that_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Вот так"
+        }
+      },
+      "example": "“Don’t look like that.",
+      "exampleStart": 122,
+      "exampleEnd": 144,
+      "phraseMatch": {
+        "text": "like that",
+        "startInExample": 12,
+        "endInExample": 21
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "looked at",
+      "lemma": "look at",
+      "lemmaId": "look_at",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_at_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "смотрел"
+        }
+      },
+      "example": "She looked at herself critically in the mirror.",
+      "exampleStart": 1363,
+      "exampleEnd": 1410,
+      "phraseMatch": {
+        "text": "looked at",
+        "startInExample": 4,
+        "endInExample": 13
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "nibs",
+      "lemma": "nib",
+      "lemmaId": "nib",
       "pos": "noun",
-      "wordKey": "panic_noun",
+      "source": "word",
+      "wordKey": "nib_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "кусочек"
+        }
+      },
+      "example": "“For Her Highness and His Nibs,” she said to it.",
+      "exampleStart": 4488,
+      "exampleEnd": 4536,
+      "matchedForm": "Nibs",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.985714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "or something",
+      "lemma": "or something",
+      "lemmaId": "or_something",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "or_something_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "или что-то в этом роде"
+        }
+      },
+      "example": "Under the carpet or something?",
+      "exampleStart": 3924,
+      "exampleEnd": 3954,
+      "phraseMatch": {
+        "text": "or something",
+        "startInExample": 17,
+        "endInExample": 29
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "put in",
+      "lemma": "put in",
+      "lemmaId": "put_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "put_in_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈpænɪk",
       "translations": {
         "ru": {
-          "translation": "паника"
+          "translation": "Вставить"
         }
       },
-      "definition": "Sudden uncontrollable fear or anxiety.",
-      "example": "A look of panic came over Janet’s face.",
-      "matchedForm": "panic"
-    },
-    {
-      "word": "petticoats",
-      "lemma": "petticoats",
-      "lemmaId": "petticoats",
-      "pos": "noun",
-      "wordKey": "petticoats_noun",
-      "level": "C1",
-      "ipa": "ˈpɛtɪkəʊts",
-      "translations": {
-        "ru": {
-          "translation": "юбочные петтикоаты"
-        }
+      "example": "Julia’s pushed Janet backward across the room, until Cat put himself in the way of it.",
+      "exampleStart": 3002,
+      "exampleEnd": 3088,
+      "phraseMatch": {
+        "text": "put himself in",
+        "startInExample": 57,
+        "endInExample": 71
       },
-      "definition": "A woman's undergarment worn beneath a skirt or dress.",
-      "example": "The usual things—petticoats, stockings, dress, boots—you know.",
-      "matchedForm": "petticoats"
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "protested",
-      "lemma": "protested",
-      "lemmaId": "protested",
-      "pos": "verb",
-      "wordKey": "protested_verb",
+      "word": "put on",
+      "lemma": "put on",
+      "lemmaId": "put_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "put_on_phrasal_verb",
       "level": "B2",
-      "ipa": "prəˈtɛstɪd",
       "translations": {
         "ru": {
-          "translation": "возражали"
+          "translation": "Надень"
         }
       },
-      "definition": "Expressed disagreement or objection.",
-      "example": "Janet and Cat protested in unison.",
-      "matchedForm": "protested"
+      "example": "He had to put her petticoats on her, button her up the back, tie her garters, fasten her boots, and put her dress on a second time, right way around, and tie its sash for her.",
+      "exampleStart": 1077,
+      "exampleEnd": 1252,
+      "phraseMatch": {
+        "text": "put her dress on",
+        "startInExample": 100,
+        "endInExample": 116
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "put-upon",
-      "lemma": "put-upon",
-      "lemmaId": "put_upon",
+      "word": "put out",
+      "lemma": "put out",
+      "lemmaId": "put_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "put_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Потушить"
+        }
+      },
+      "example": "Janet was very put-out.",
+      "exampleStart": 2799,
+      "exampleEnd": 2822,
+      "matchedForm": "put-out",
+      "phraseMatch": {
+        "text": "put-out",
+        "startInExample": 15,
+        "endInExample": 22
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "questioningly",
+      "lemma": "questioningly",
+      "lemmaId": "questioningly",
       "pos": "adjective",
-      "wordKey": "put_upon_adjective",
-      "level": "C1",
-      "ipa": "ˈpʊtʌpɒn",
-      "translations": {
-        "ru": {
-          "translation": "обиженный, использованный"
-        }
-      },
-      "definition": "Treated unfairly or exploited.",
-      "example": "Mary was getting very put-upon.",
-      "matchedForm": "put-upon"
-    },
-    {
-      "word": "resisting",
-      "lemma": "resisting",
-      "lemmaId": "resisting",
-      "pos": "adjective",
-      "wordKey": "resisting_adjective",
-      "level": "B2",
-      "ipa": "rɪˈzɪstɪŋ",
-      "translations": {
-        "ru": {
-          "translation": "сопротивляющийся"
-        }
-      },
-      "definition": "Opposing or trying to avoid something.",
-      "example": "He took Janet’s resisting elbow and towed her along.",
-      "matchedForm": "resisting"
-    },
-    {
-      "word": "revoking",
-      "lemma": "revoking",
-      "lemmaId": "revoking",
-      "pos": "verb",
-      "wordKey": "revoking_verb",
+      "source": "word",
+      "wordKey": "questioningly_adjective",
       "level": "C2",
-      "ipa": "rɪˈvəʊkɪŋ",
       "translations": {
         "ru": {
-          "translation": "отзыв, отмена (в контексте 'taste buds are revolting' — вызывают отвращение)"
+          "translation": "вопросительно"
         }
       },
-      "definition": "In the text used as 'revolting' meaning disgusting or offensive.",
-      "example": "I’ll tell them your taste buds are revolting."
+      "example": "”\n\nJanet looked questioningly at Cat, but Cat was as puzzled as she was.",
+      "exampleStart": 4906,
+      "exampleEnd": 4978,
+      "matchedForm": "questioningly",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "revulsion",
       "lemma": "revulsion",
       "lemmaId": "revulsion",
       "pos": "noun",
+      "source": "word",
       "wordKey": "revulsion_noun",
       "level": "C1",
-      "ipa": "rɪˈvʌlʃən",
       "translations": {
         "ru": {
           "translation": "отвращение"
         }
       },
-      "definition": "A strong feeling of disgust or dislike.",
-      "example": "I’ve had a revulsion of feeling.",
-      "matchedForm": "revulsion"
+      "example": "”\n\n“I—I’ve had a revulsion of feeling,” Janet invented.",
+      "exampleStart": 3759,
+      "exampleEnd": 3814,
+      "matchedForm": "revulsion",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "sash",
       "lemma": "sash",
       "lemmaId": "sash",
       "pos": "noun",
+      "source": "word",
       "wordKey": "sash_noun",
       "level": "C1",
-      "ipa": "sæʃ",
       "translations": {
         "ru": {
-          "translation": "пояс (лента)"
+          "translation": "саш"
         }
       },
-      "definition": "A long strip of cloth worn around the waist or over the shoulder.",
-      "example": "He tied its sash for her.",
-      "matchedForm": "sash"
+      "example": "He had to put her petticoats on her, button her up the back, tie her garters, fasten her boots, and put her dress on a second time, right way around, and tie its sash for her.",
+      "exampleStart": 1077,
+      "exampleEnd": 1252,
+      "matchedForm": "sash",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.937143,
+      "difficultySource": "zipf"
     },
     {
-      "word": "scrambled",
-      "lemma": "scrambled",
-      "lemmaId": "scrambled",
-      "pos": "verb",
-      "wordKey": "scrambled_verb",
+      "word": "set on",
+      "lemma": "set on",
+      "lemmaId": "set_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "set_on_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈskræmbld",
       "translations": {
         "ru": {
-          "translation": "сопротивлялась, путалась"
+          "translation": "Поставьте на"
         }
       },
-      "definition": "To move quickly and awkwardly.",
-      "example": "Euphemia scrambled around in it and continued to stare accusingly at Janet.",
-      "matchedForm": "scrambled"
+      "example": "He knew Mary would recognize her as soon as she set eyes on her.",
+      "exampleStart": 2080,
+      "exampleEnd": 2144,
+      "phraseMatch": {
+        "text": "set eyes on",
+        "startInExample": 48,
+        "endInExample": 59
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "stare",
-      "lemma": "stare",
-      "lemmaId": "stare",
-      "pos": "noun",
-      "wordKey": "stare_noun",
+      "word": "smocking",
+      "lemma": "smock",
+      "lemmaId": "smock",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "smock_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "удар"
+        }
+      },
+      "example": "Gwendolen seemed to have taken her best things with her, but he found her older boots, her green stockings and the garters to match, her second-best petticoats, her green cashmere dress with the smocking and—with some embarrassment—her bloomers.",
+      "exampleStart": 604,
+      "exampleEnd": 849,
+      "matchedForm": "smocking",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "stay out",
+      "lemma": "stay out",
+      "lemmaId": "stay_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "stay_out_phrasal_verb",
       "level": "B2",
-      "ipa": "steə",
       "translations": {
         "ru": {
-          "translation": "пристальный взгляд"
+          "translation": "Не подходи"
         }
       },
-      "definition": "A fixed look with eyes wide open.",
-      "example": "A meaning stare from a witch is worse than a meaning stare from an ordinary person.",
-      "matchedForm": "stare"
-    },
-    {
-      "word": "stockings",
-      "lemma": "stockings",
-      "lemmaId": "stockings",
-      "pos": "noun",
-      "wordKey": "stockings_noun",
-      "level": "B2",
-      "ipa": "ˈstɒkɪŋz",
-      "translations": {
-        "ru": {
-          "translation": "чулки"
-        }
+      "example": "“Can’t she stay out in the room?",
+      "exampleStart": 1971,
+      "exampleEnd": 2003,
+      "phraseMatch": {
+        "text": "stay out",
+        "startInExample": 11,
+        "endInExample": 19
       },
-      "definition": "Close-fitting coverings for the feet and legs, usually worn by women.",
-      "example": "He found her older boots, her green stockings and the garters to match.",
-      "matchedForm": "stockings"
-    },
-    {
-      "word": "wedged",
-      "lemma": "wedged",
-      "lemmaId": "wedged",
-      "pos": "verb",
-      "wordKey": "wedged_verb",
-      "level": "B2",
-      "ipa": "wɛdʒt",
-      "translations": {
-        "ru": {
-          "translation": "закрыл, зажал"
-        }
-      },
-      "definition": "To force or fix tightly into a narrow space.",
-      "example": "He wedged the door with a page of Gwendolen’s notes.",
-      "matchedForm": "wedged"
-    },
-    {
-      "word": "witchcraft",
-      "lemma": "witchcraft",
-      "lemmaId": "witchcraft",
-      "pos": "noun",
-      "wordKey": "witchcraft_noun",
-      "level": "C1",
-      "ipa": "ˈwɪtʃkrɑːft",
-      "translations": {
-        "ru": {
-          "translation": "колдовство"
-        }
-      },
-      "definition": "The practice of magic or sorcery.",
-      "example": "It was only the second piece of witchcraft she had seen.",
-      "matchedForm": "witchcraft"
+      "levelSource": "dictionary_phrase"
     }
   ]
 }

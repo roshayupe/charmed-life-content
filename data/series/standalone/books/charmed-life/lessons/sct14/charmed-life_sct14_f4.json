@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 14,
     "sectionTitle": "Chapter 11",
     "fragmentIndex": 4,
@@ -24,478 +23,623 @@
       "vocabularyCount": 27,
       "levelDistribution": {
         "A1": 0,
-        "A2": 0,
-        "B1": 1,
-        "B2": 10,
-        "C1": 13,
-        "C2": 3
+        "A2": 2,
+        "B1": 6,
+        "B2": 15,
+        "C1": 4,
+        "C2": 0
       }
     }
   },
   "vocabulary": [
     {
       "word": "amounts to",
-      "lemma": "amounts to",
-      "lemmaId": "amounts_to",
-      "pos": "phrase",
-      "wordKey": "amounts_to_phrase",
+      "lemma": "amount to",
+      "lemmaId": "amount_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "amount_to_phrasal_verb",
       "level": "B2",
-      "ipa": "əˈmaʊnts tuː",
       "translations": {
         "ru": {
-          "translation": "являться, означать"
+          "translation": "В составе"
         }
       },
-      "definition": "To be equivalent to or to have the same effect as something else.",
-      "example": "I know it amounts to stealing, but I don’t care.",
+      "example": "I know it amounts to stealing, but I get so desperate when I think of that horrible Mr.",
+      "exampleStart": 1134,
+      "exampleEnd": 1221,
       "phraseMatch": {
         "text": "amounts to",
         "startInExample": 10,
         "endInExample": 20
-      }
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "antimacassar",
-      "lemma": "antimacassar",
-      "lemmaId": "antimacassar",
+      "word": "bawling",
+      "lemma": "bawl",
+      "lemmaId": "bawl",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "bawl_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "ворчать"
+        }
+      },
+      "example": "They turned around and ran for the door again, with the forty voices bawling in their ears.",
+      "exampleStart": 2783,
+      "exampleEnd": 2874,
+      "matchedForm": "bawling",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "bedside",
+      "lemma": "bedside",
+      "lemmaId": "bedside",
       "pos": "noun",
-      "wordKey": "antimacassar_noun",
-      "level": "C2",
-      "ipa": "ˌæntimækəˈsɑː",
+      "source": "word",
+      "wordKey": "bedside_noun",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "накидка на спинку кресла"
+          "translation": "кровать"
         }
       },
-      "definition": "A small cloth placed over the back of a chair to protect it from hair oil or dirt.",
-      "example": "Creeping antimacassars!",
-      "matchedForm": "antimacassar"
+      "example": "Inside the room, Janet was feverishly collecting things: Gwendolen’s spell books, the ornaments on the mantelpiece, the gold-backed brush and hand mirror off the dressing table, the jar on the bedside table, and half the towels from the bathroom.",
+      "exampleStart": 732,
+      "exampleEnd": 978,
+      "matchedForm": "bedside",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.902857,
+      "difficultySource": "zipf"
     },
     {
-      "word": "awkwardly",
-      "lemma": "awkwardly",
-      "lemmaId": "awkwardly",
-      "pos": "adverb",
-      "wordKey": "awkwardly_adverb",
+      "word": "belong to",
+      "lemma": "belong to",
+      "lemmaId": "belong_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "belong_to_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈɔːkwədli",
       "translations": {
         "ru": {
-          "translation": "неловко"
+          "translation": "принадлежать"
         }
       },
-      "definition": "In a clumsy or uncomfortable manner.",
-      "example": "He moved awkwardly in the tight space.",
-      "matchedForm": "awkwardly"
+      "example": "We belong to Chrestomanci Castle!",
+      "exampleStart": 2509,
+      "exampleEnd": 2542,
+      "phraseMatch": {
+        "text": "belong to",
+        "startInExample": 3,
+        "endInExample": 12
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "bundles",
-      "lemma": "bundles",
-      "lemmaId": "bundles",
-      "pos": "noun",
-      "wordKey": "bundles_noun",
-      "level": "B2",
-      "ipa": "ˈbʌndlz",
+      "word": "bisto",
+      "lemma": "bisto",
+      "lemmaId": "bisto",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "bisto_verb",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "свёртки, тюки"
+          "translation": "бисто"
         }
       },
-      "definition": "Objects tied or wrapped up together.",
-      "example": "They put their bundles on the floor.",
-      "matchedForm": "bundles"
+      "example": "Bisto going to Chrestomanci that I don’t care anymore.",
+      "exampleStart": 1222,
+      "exampleEnd": 1276,
+      "matchedForm": "Bisto",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "books on",
+      "lemma": "book on",
+      "lemmaId": "book_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "book_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Книги о"
+        }
+      },
+      "example": "Inside the room, Janet was feverishly collecting things: Gwendolen’s spell books, the ornaments on the mantelpiece, the gold-backed brush and hand mirror off the dressing table, the jar on the bedside table, and half the towels from the bathroom.",
+      "exampleStart": 732,
+      "exampleEnd": 978,
+      "phraseMatch": {
+        "text": "books, the ornaments on",
+        "startInExample": 75,
+        "endInExample": 98
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "burst into",
+      "lemma": "burst into",
+      "lemmaId": "burst_into",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "burst_into_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "врываться в"
+        }
+      },
+      "example": "They were three steps outside the door when a massed choir burst into song.",
+      "exampleStart": 2350,
+      "exampleEnd": 2425,
+      "phraseMatch": {
+        "text": "burst into",
+        "startInExample": 59,
+        "endInExample": 69
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "chinking",
-      "lemma": "chinking",
-      "lemmaId": "chinking",
+      "lemma": "chink",
+      "lemmaId": "chink",
       "pos": "adjective",
-      "wordKey": "chinking_adjective",
-      "level": "C2",
-      "ipa": "ˈtʃɪŋkɪŋ",
-      "translations": {
-        "ru": {
-          "translation": "звенящий, звяканье"
-        }
-      },
-      "definition": "Making a light ringing or clinking sound.",
-      "example": "Their chinking bundles made noise as they crept down stairs.",
-      "matchedForm": "chinking"
-    },
-    {
-      "word": "cloak",
-      "lemma": "cloak",
-      "lemmaId": "cloak",
-      "pos": "noun",
-      "wordKey": "cloak_noun",
-      "level": "B2",
-      "ipa": "kləʊk",
-      "translations": {
-        "ru": {
-          "translation": "плащ"
-        }
-      },
-      "definition": "An outer garment, typically sleeveless, worn over indoor clothing.",
-      "example": "A coat is an outerwear similar to a cloak.",
-      "matchedForm": "cloak"
-    },
-    {
-      "word": "collecting",
-      "lemma": "collecting",
-      "lemmaId": "collecting",
-      "pos": "verb",
-      "wordKey": "collecting_verb",
-      "level": "B2",
-      "ipa": "kəˈlɛktɪŋ",
-      "translations": {
-        "ru": {
-          "translation": "собирать"
-        }
-      },
-      "definition": "Gathering together objects or items.",
-      "example": "Janet was feverishly collecting things.",
-      "matchedForm": "collecting"
-    },
-    {
-      "word": "criminal",
-      "lemma": "criminal",
-      "lemmaId": "criminal",
-      "pos": "noun",
-      "wordKey": "criminal_noun",
-      "level": "B2",
-      "ipa": "ˈkrɪmɪnəl",
-      "translations": {
-        "ru": {
-          "translation": "преступник"
-        }
-      },
-      "definition": "A person who has committed a crime.",
-      "example": "He felt like a criminal while wrapping the towels.",
-      "matchedForm": "criminal"
-    },
-    {
-      "word": "desperately",
-      "lemma": "desperately",
-      "lemmaId": "desperately",
-      "pos": "adverb",
-      "wordKey": "desperately_adverb",
-      "level": "B2",
-      "ipa": "ˈdɛspərətli",
-      "translations": {
-        "ru": {
-          "translation": "отчаянно"
-        }
-      },
-      "definition": "In a way that shows a hopeless sense that a situation is impossible to deal with.",
-      "example": "She felt desperately anxious about the future.",
-      "matchedForm": "desperately"
-    },
-    {
-      "word": "drearily",
-      "lemma": "drearily",
-      "lemmaId": "drearily",
-      "pos": "adverb",
-      "wordKey": "drearily_adverb",
-      "level": "C1",
-      "ipa": "ˈdrɪəli",
-      "translations": {
-        "ru": {
-          "translation": "уныло, монотонно"
-        }
-      },
-      "definition": "In a boring or dull manner that makes one feel sad or tired.",
-      "example": "He spoke drearily about the weather.",
-      "matchedForm": "drearily"
-    },
-    {
-      "word": "dressing table",
-      "lemma": "dressing table",
-      "lemmaId": "dressing_table",
-      "pos": "noun",
-      "wordKey": "dressing_table_noun",
-      "level": "C1",
-      "ipa": "ˈdrɛsɪŋ ˌteɪbl",
-      "translations": {
-        "ru": {
-          "translation": "туалетный столик"
-        }
-      },
-      "definition": "A piece of bedroom furniture with a mirror used for putting on makeup or dressing.",
-      "example": "The hand mirror was on the dressing table.",
-      "phraseMatch": {
-        "text": "dressing table",
-        "startInExample": 27,
-        "endInExample": 41
-      }
-    },
-    {
-      "word": "feverishly",
-      "lemma": "feverishly",
-      "lemmaId": "feverishly",
-      "pos": "adverb",
-      "wordKey": "feverishly_adverb",
-      "level": "C2",
-      "ipa": "ˈfiːvərɪʃli",
-      "translations": {
-        "ru": {
-          "translation": "лихорадочно, неистово"
-        }
-      },
-      "definition": "In a way that shows intense excitement, activity, or anxiety.",
-      "example": "Janet was feverishly collecting things.",
-      "matchedForm": "feverishly"
-    },
-    {
-      "word": "guiltily",
-      "lemma": "guiltily",
-      "lemmaId": "guiltily",
-      "pos": "adverb",
-      "wordKey": "guiltily_adverb",
-      "level": "C1",
-      "ipa": "ˈɡɪltili",
-      "translations": {
-        "ru": {
-          "translation": "с чувством вины"
-        }
-      },
-      "definition": "In a way that shows a sense of guilt or remorse.",
-      "example": "They scuttled guiltily through the passage.",
-      "matchedForm": "guiltily"
-    },
-    {
-      "word": "hurry",
-      "lemma": "hurry",
-      "lemmaId": "hurry",
-      "pos": "verb",
-      "wordKey": "hurry_verb",
+      "source": "word",
+      "wordKey": "chink_adjective",
       "level": "B1",
-      "ipa": "ˈhʌri",
       "translations": {
         "ru": {
-          "translation": "спешить"
+          "translation": "ерунда"
         }
       },
-      "definition": "To move or act with speed.",
-      "example": "He hurried after Janet."
+      "example": "Janet and he wrapped their finds in two towels and crept downstairs with their chinking bundles, expecting someone to discover them any minute.",
+      "exampleStart": 1755,
+      "exampleEnd": 1898,
+      "matchedForm": "chinking",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "loot",
-      "lemma": "loot",
-      "lemmaId": "loot",
-      "pos": "noun",
-      "wordKey": "loot_noun",
+      "word": "close in",
+      "lemma": "close in",
+      "lemmaId": "close_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "close_in_phrasal_verb",
       "level": "B2",
-      "ipa": "luːt",
       "translations": {
         "ru": {
-          "translation": "добыча, награбленное"
+          "translation": "Близко"
         }
       },
-      "definition": "Goods or money obtained illegally or by force.",
-      "example": "They hid their loot behind the trees.",
-      "matchedForm": "loot"
-    },
-    {
-      "word": "mantelpiece",
-      "lemma": "mantelpiece",
-      "lemmaId": "mantelpiece",
-      "pos": "noun",
-      "wordKey": "mantelpiece_noun",
-      "level": "C1",
-      "ipa": "ˈmæntəlpiːs",
-      "translations": {
-        "ru": {
-          "translation": "каминная полка"
-        }
+      "example": "“Someone’s going to shine a searchlight any second, and then the police will close in.",
+      "exampleStart": 1954,
+      "exampleEnd": 2040,
+      "phraseMatch": {
+        "text": "close in",
+        "startInExample": 77,
+        "endInExample": 85
       },
-      "definition": "A structure of wood, marble, or stone above and around a fireplace.",
-      "example": "The ornaments stood on the mantelpiece.",
-      "matchedForm": "mantelpiece"
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "massed",
-      "lemma": "massed",
-      "lemmaId": "massed",
-      "pos": "adjective",
-      "wordKey": "massed_adjective",
-      "level": "C1",
-      "ipa": "mɑːst",
-      "translations": {
-        "ru": {
-          "translation": "сгруппированный, сосредоточенный"
-        }
-      },
-      "definition": "Gathered together in a large group.",
-      "example": "A massed choir burst into song.",
-      "matchedForm": "massed"
-    },
-    {
-      "word": "narrow",
-      "lemma": "narrow",
-      "lemmaId": "narrow",
-      "pos": "adjective",
-      "wordKey": "narrow_adjective",
-      "level": "C1",
-      "ipa": "ˈnærəʊ",
-      "translations": {
-        "ru": {
-          "translation": "узкий"
-        }
-      },
-      "definition": "Limited in width or extent.",
-      "example": "She stood tall and narrow and purple.",
-      "matchedForm": "narrow"
-    },
-    {
-      "word": "ornaments",
-      "lemma": "ornaments",
-      "lemmaId": "ornaments",
-      "pos": "noun",
-      "wordKey": "ornaments_noun",
-      "level": "C1",
-      "ipa": "ˈɔːnəmənts",
-      "translations": {
-        "ru": {
-          "translation": "украшения, декоративные предметы"
-        }
-      },
-      "definition": "Decorative objects used to adorn something.",
-      "example": "She took the ornaments off the mantelpiece.",
-      "matchedForm": "ornaments"
-    },
-    {
-      "word": "permission",
-      "lemma": "permission",
-      "lemmaId": "permission",
-      "pos": "noun",
-      "wordKey": "permission_noun",
+      "word": "come back",
+      "lemma": "come back",
+      "lemmaId": "come_back",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_back_phrasal_verb",
       "level": "B2",
-      "ipa": "pəˈmɪʃən",
       "translations": {
         "ru": {
-          "translation": "разрешение"
+          "translation": "Вернись"
         }
       },
-      "definition": "The act of allowing something to happen.",
-      "example": "“Only promise me to stay,” said Cat."
+      "example": "“I’ll go and see what I’ve got—only promise me to stay here until I come back.",
+      "exampleStart": 1450,
+      "exampleEnd": 1528,
+      "phraseMatch": {
+        "text": "come back",
+        "startInExample": 68,
+        "endInExample": 77
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "come through",
+      "lemma": "come through",
+      "lemmaId": "come_through",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_through_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Проходите"
+        }
+      },
+      "example": "She stood tall and narrow and purple, waiting for them to come through it.",
+      "exampleStart": 2907,
+      "exampleEnd": 2981,
+      "phraseMatch": {
+        "text": "come through",
+        "startInExample": 58,
+        "endInExample": 70
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "daren’t",
+      "lemma": "daren't",
+      "lemmaId": "darent",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "darent_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "не смел"
+        }
+      },
+      "example": "“I daren’t move widdout you, bwana.",
+      "exampleStart": 1556,
+      "exampleEnd": 1591,
+      "matchedForm": "daren’t",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "do up",
+      "lemma": "do up",
+      "lemmaId": "do_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "do_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Одеться"
+        }
+      },
+      "example": "“Do shut up.",
+      "exampleStart": 2083,
+      "exampleEnd": 2095,
+      "phraseMatch": {
+        "text": "Do shut up",
+        "startInExample": 1,
+        "endInExample": 11
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "empty out",
+      "lemma": "empty out",
+      "lemmaId": "empty_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "empty_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Опустошать"
+        }
+      },
+      "example": "The space by the rhododendrons was empty.",
+      "matchedForm": "empty",
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "hurry up",
+      "lemma": "hurry up",
+      "lemmaId": "hurry_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "hurry_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Поторопись"
+        }
+      },
+      "example": "But hurry up.",
+      "exampleStart": 1592,
+      "exampleEnd": 1605,
+      "phraseMatch": {
+        "text": "hurry up",
+        "startInExample": 4,
+        "endInExample": 12
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "jumped out",
+      "lemma": "jump out",
+      "lemmaId": "jump_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "jump_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "выпрыгнул"
+        }
+      },
+      "example": "Janet and Cat nearly jumped out of their skins.",
+      "exampleStart": 2426,
+      "exampleEnd": 2473,
+      "phraseMatch": {
+        "text": "jumped out",
+        "startInExample": 21,
+        "endInExample": 31
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "leave on",
+      "lemma": "leave on",
+      "lemmaId": "leave_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "leave_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Оставь"
+        }
+      },
+      "example": "Cat would have liked to, but he dared not leave Janet on her own.",
+      "exampleStart": 265,
+      "exampleEnd": 330,
+      "phraseMatch": {
+        "text": "leave Janet on",
+        "startInExample": 42,
+        "endInExample": 56
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "like that",
+      "lemma": "like that",
+      "lemmaId": "like_that",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "like_that_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Вот так"
+        }
+      },
+      "example": "“Don’t look like that.",
+      "exampleStart": 1111,
+      "exampleEnd": 1133,
+      "phraseMatch": {
+        "text": "like that",
+        "startInExample": 12,
+        "endInExample": 21
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "or something",
+      "lemma": "or something",
+      "lemmaId": "or_something",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "or_something_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "или что-то в этом роде"
+        }
+      },
+      "example": "“Anyone would think you were her left leg, or something.",
+      "exampleStart": 415,
+      "exampleEnd": 471,
+      "phraseMatch": {
+        "text": "or something",
+        "startInExample": 43,
+        "endInExample": 55
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "rattled",
+      "lemma": "rattle",
+      "lemmaId": "rattle",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "rattle_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "погремушка"
+        }
+      },
+      "example": "” She went to the wardrobe and rattled the clothes along the rail.",
+      "exampleStart": 1276,
+      "exampleEnd": 1342,
+      "matchedForm": "rattled",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.902857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "ran for",
+      "lemma": "run for",
+      "lemmaId": "run_for",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "run_for_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "побежал за"
+        }
+      },
+      "example": "They turned around and ran for the door again, with the forty voices bawling in their ears.",
+      "exampleStart": 2783,
+      "exampleEnd": 2874,
+      "phraseMatch": {
+        "text": "ran for",
+        "startInExample": 23,
+        "endInExample": 30
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "scuttle",
       "lemma": "scuttle",
       "lemmaId": "scuttle",
       "pos": "verb",
+      "source": "word",
       "wordKey": "scuttle_verb",
       "level": "C1",
-      "ipa": "ˈskʌtl",
       "translations": {
         "ru": {
-          "translation": "спешно бежать, поспешно уходить"
+          "translation": "погром"
         }
       },
-      "definition": "To move hurriedly with short quick steps.",
-      "example": "They scuttled guiltily past her.",
-      "matchedForm": "scuttle"
+      "example": "There was nothing Janet and Cat could do but scuttle guiltily past her into the passage, where they put their suddenly silent bundles down on the floor and steeled themselves for trouble.",
+      "exampleStart": 2982,
+      "exampleEnd": 3169,
+      "matchedForm": "scuttle",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "searchlight",
       "lemma": "searchlight",
       "lemmaId": "searchlight",
       "pos": "noun",
+      "source": "word",
       "wordKey": "searchlight_noun",
       "level": "C1",
-      "ipa": "ˈsɜːtʃlaɪt",
       "translations": {
         "ru": {
-          "translation": "прожектор, поисковый свет"
+          "translation": "прожектор"
         }
       },
-      "definition": "A very powerful light used to search for something in the dark.",
-      "example": "He feared a searchlight would expose them.",
-      "matchedForm": "searchlight"
+      "example": "“Someone’s going to shine a searchlight any second, and then the police will close in.",
+      "exampleStart": 1954,
+      "exampleEnd": 2040,
+      "matchedForm": "searchlight",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "shattering",
-      "lemma": "shattering",
-      "lemmaId": "shattering",
+      "lemma": "shatter",
+      "lemmaId": "shatter",
       "pos": "adjective",
-      "wordKey": "shattering_adjective",
-      "level": "C1",
-      "ipa": "ˈʃætərɪŋ",
+      "source": "word",
+      "wordKey": "shatter_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "потрясающий, сокрушительный"
+          "translation": "разрушать"
         }
       },
-      "definition": "Extremely shocking or upsetting; loud and overwhelming.",
       "example": "They made a shattering noise.",
-      "matchedForm": "shattering"
+      "exampleStart": 2626,
+      "exampleEnd": 2655,
+      "matchedForm": "shattering",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.94,
+      "difficultySource": "zipf"
     },
     {
       "word": "shrill",
       "lemma": "shrill",
       "lemmaId": "shrill",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "shrill_adjective",
       "level": "C1",
-      "ipa": "ʃrɪl",
       "translations": {
         "ru": {
-          "translation": "пронзительный, резкий"
+          "translation": "пронзительный"
         }
       },
-      "definition": "High-pitched and piercing in sound.",
-      "example": "Some were deep, some were shrill voices.",
-      "matchedForm": "shrill"
-    },
-    {
-      "word": "steeled",
-      "lemma": "steeled",
-      "lemmaId": "steeled",
-      "pos": "verb",
-      "wordKey": "steeled_verb",
-      "level": "C1",
-      "ipa": "stiːld",
-      "translations": {
-        "ru": {
-          "translation": "настраиваться, укреплять resolve"
-        }
-      },
-      "definition": "To mentally prepare oneself to face a difficult situation.",
-      "example": "They steeled themselves for trouble.",
-      "matchedForm": "steeled"
+      "example": "Some were deep, some were shrill, but all were very loud.",
+      "exampleStart": 2568,
+      "exampleEnd": 2625,
+      "matchedForm": "shrill",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "swag",
       "lemma": "swag",
       "lemmaId": "swag",
       "pos": "noun",
+      "source": "word",
       "wordKey": "swag_noun",
       "level": "C1",
-      "ipa": "swæg",
       "translations": {
         "ru": {
-          "translation": "ворованное имущество, добыча"
+          "translation": "мешок"
         }
       },
-      "definition": "Goods or valuables, often stolen.",
-      "example": "Janet whispered she felt like a thief with the swag.",
-      "matchedForm": "swag"
+      "example": "“I feel like a thief with the swag,” Janet whispered.",
+      "exampleStart": 1900,
+      "exampleEnd": 1953,
+      "matchedForm": "swag",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.948571,
+      "difficultySource": "zipf"
     },
     {
-      "word": "wrapping",
-      "lemma": "wrapping",
-      "lemmaId": "wrapping",
-      "pos": "noun",
-      "wordKey": "wrapping_noun",
+      "word": "turned around",
+      "lemma": "turn around",
+      "lemmaId": "turn_around",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "turn_around_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈræpɪŋ",
       "translations": {
         "ru": {
-          "translation": "упаковка, обёртка"
+          "translation": "повернулся"
         }
       },
-      "definition": "Material used to cover or enclose something.",
-      "example": "He wrapped their finds in towels."
+      "example": "They turned around and ran for the door again, with the forty voices bawling in their ears.",
+      "exampleStart": 2783,
+      "exampleEnd": 2874,
+      "phraseMatch": {
+        "text": "turned around",
+        "startInExample": 5,
+        "endInExample": 18
+      },
+      "levelSource": "dictionary_phrase"
     }
   ]
 }

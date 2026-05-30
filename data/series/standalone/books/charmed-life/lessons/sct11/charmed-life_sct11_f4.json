@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 11,
     "sectionTitle": "Chapter 8",
     "fragmentIndex": 4,
@@ -21,461 +20,743 @@
       "wordCount": 956,
       "uniqueWordCount": 474,
       "paragraphCount": 23,
-      "vocabularyCount": 26,
+      "vocabularyCount": 32,
       "levelDistribution": {
         "A1": 0,
-        "A2": 0,
-        "B1": 0,
-        "B2": 19,
-        "C1": 6,
-        "C2": 1
+        "A2": 3,
+        "B1": 7,
+        "B2": 20,
+        "C1": 2,
+        "C2": 0
       }
     }
   },
   "vocabulary": [
     {
+      "word": "and finally",
+      "lemma": "and finally",
+      "lemmaId": "and_finally",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "and_finally_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "и, наконец,"
+        }
+      },
+      "example": "Cat sweated and moaned and finally woke up, feeling wet and weak and rather too bony, the way you do when you have just had a bad illness or a fearsome dream.",
+      "exampleStart": 1964,
+      "exampleEnd": 2122,
+      "phraseMatch": {
+        "text": "and finally",
+        "startInExample": 23,
+        "endInExample": 34
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "as soon as",
+      "lemma": "as soon as",
+      "lemmaId": "as_soon_as",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "as_soon_as_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "как только"
+        }
+      },
+      "example": "As soon as she did, Cat knew that whatever was wrong, it was wrong with Gwendolen herself.",
+      "exampleStart": 3656,
+      "exampleEnd": 3746,
+      "phraseMatch": {
+        "text": "As soon as",
+        "startInExample": 0,
+        "endInExample": 10
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
       "word": "astonished",
-      "lemma": "astonished",
-      "lemmaId": "astonished",
+      "lemma": "astonish",
+      "lemmaId": "astonish",
       "pos": "adjective",
-      "wordKey": "astonished_adjective",
+      "source": "word",
+      "wordKey": "astonish_adjective",
       "level": "B2",
-      "ipa": "əˈstɒnɪʃt",
       "translations": {
         "ru": {
-          "translation": "удивлённый"
+          "translation": "изумительный"
         }
       },
-      "definition": "Very surprised or amazed.",
       "example": "She was astonished, and rather frightened.",
-      "matchedForm": "astonished"
-    },
-    {
-      "word": "astonishment",
-      "lemma": "astonishment",
-      "lemmaId": "astonishment",
-      "pos": "noun",
-      "wordKey": "astonishment_noun",
-      "level": "B2",
-      "ipa": "əˈstɒnɪʃmənt",
-      "translations": {
-        "ru": {
-          "translation": "изумление"
-        }
-      },
-      "definition": "Great surprise or amazement.",
-      "example": "My brother! she exclaimed, in the greatest astonishment.",
-      "matchedForm": "astonishment"
-    },
-    {
-      "word": "ceased",
-      "lemma": "ceased",
-      "lemmaId": "ceased",
-      "pos": "verb",
-      "wordKey": "ceased_verb",
-      "level": "B2",
-      "ipa": "siːst",
-      "translations": {
-        "ru": {
-          "translation": "прекратил"
-        }
-      },
-      "definition": "Brought or came to an end.",
-      "example": "Mr. Saunders ceased swatting, rather regretfully.",
-      "matchedForm": "ceased"
+      "exampleStart": 3975,
+      "exampleEnd": 4017,
+      "matchedForm": "astonished",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "charred",
-      "lemma": "charred",
-      "lemmaId": "charred",
+      "lemma": "char",
+      "lemmaId": "char",
       "pos": "adjective",
-      "wordKey": "charred_adjective",
-      "level": "C1",
-      "ipa": "tʃɑːd",
+      "source": "word",
+      "wordKey": "char_adjective",
+      "level": "A2",
       "translations": {
         "ru": {
-          "translation": "обожжённый"
+          "translation": "шар"
         }
       },
-      "definition": "Burned or blackened by fire or heat.",
-      "example": "She could smell the sweet, charred, heavy smell that went with witchcraft.",
-      "matchedForm": "charred"
+      "example": "When Cat opened the door of her room, he could smell the sweet, charred, heavy smell that went with witchcraft.",
+      "exampleStart": 3053,
+      "exampleEnd": 3164,
+      "matchedForm": "charred",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.868571,
+      "difficultySource": "zipf"
     },
     {
-      "word": "clutching",
-      "lemma": "clutching",
-      "lemmaId": "clutching",
-      "pos": "verb",
-      "wordKey": "clutching_verb",
+      "word": "cleared away",
+      "lemma": "clear away",
+      "lemmaId": "clear_away",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "clear_away_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈklʌtʃɪŋ",
       "translations": {
         "ru": {
-          "translation": "схватывая"
+          "translation": "очищено"
         }
       },
-      "definition": "Grasp or seize tightly or eagerly.",
-      "example": "Clutching both sides of his ringing face.",
-      "matchedForm": "Clutching"
+      "example": "The dead creatures and the burned bowl had been cleared away.",
+      "exampleStart": 3242,
+      "exampleEnd": 3303,
+      "phraseMatch": {
+        "text": "cleared away",
+        "startInExample": 48,
+        "endInExample": 60
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "dangle",
+      "word": "dangling",
       "lemma": "dangle",
       "lemmaId": "dangle",
-      "pos": "verb",
-      "wordKey": "dangle_verb",
-      "level": "B2",
-      "ipa": "ˈdæŋɡl",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "dangle_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "свисать"
+          "translation": "болтать"
         }
       },
-      "definition": "To hang or swing loosely.",
-      "example": "The ribbons which usually tied it at the back were dangling at the front."
+      "example": "The ribbons which usually tied it at the back were dangling at the front.",
+      "exampleStart": 3788,
+      "exampleEnd": 3861,
+      "matchedForm": "dangling",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "dared",
-      "lemma": "dared",
-      "lemmaId": "dared",
-      "pos": "verb",
-      "wordKey": "dared_verb",
+      "word": "exclaimed",
+      "lemma": "exclaim",
+      "lemmaId": "exclaim",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "exclaim_adjective",
       "level": "B2",
-      "ipa": "deəd",
       "translations": {
         "ru": {
-          "translation": "осмеливаться"
+          "translation": "восклицать"
         }
       },
-      "definition": "Had the courage to do something.",
-      "example": "How dare they treat me like this!"
+      "example": "” she exclaimed, in the greatest astonishment.",
+      "exampleStart": 4429,
+      "exampleEnd": 4475,
+      "matchedForm": "exclaimed",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "deserved",
-      "lemma": "deserved",
-      "lemmaId": "deserved",
-      "pos": "verb",
-      "wordKey": "deserved_verb",
+      "word": "frightened",
+      "lemma": "frighten",
+      "lemmaId": "frighten",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "frighten_adjective",
       "level": "B2",
-      "ipa": "dɪˈzɜːvd",
       "translations": {
         "ru": {
-          "translation": "заслуживал"
+          "translation": "пугать"
         }
       },
-      "definition": "Rightfully earned or worthy of something because of actions or qualities.",
-      "example": "You thoroughly deserved that spanking.",
-      "matchedForm": "deserved"
+      "example": "She was astonished, and rather frightened.",
+      "exampleStart": 3975,
+      "exampleEnd": 4017,
+      "matchedForm": "frightened",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.98,
+      "difficultySource": "zipf"
     },
     {
-      "word": "doubt",
-      "lemma": "doubt",
-      "lemmaId": "doubt",
-      "pos": "noun",
-      "wordKey": "doubt_noun",
+      "word": "go away",
+      "lemma": "go away",
+      "lemmaId": "go_away",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_away_phrasal_verb",
       "level": "B2",
-      "ipa": "daʊt",
       "translations": {
         "ru": {
-          "translation": "сомнение"
+          "translation": "Уходи"
         }
       },
-      "definition": "A feeling of uncertainty or lack of conviction.",
-      "example": "He had no idea what made him so sure — he thought he was probably imagining it."
+      "example": "”\n\n“Go away!",
+      "exampleStart": 1559,
+      "exampleEnd": 1571,
+      "phraseMatch": {
+        "text": "Go away",
+        "startInExample": 4,
+        "endInExample": 11
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "flopped",
-      "lemma": "flopped",
-      "lemmaId": "flopped",
-      "pos": "verb",
-      "wordKey": "flopped_verb",
+      "word": "went out",
+      "lemma": "go out",
+      "lemmaId": "go_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_out_phrasal_verb",
       "level": "B2",
-      "ipa": "flɒpt",
       "translations": {
         "ru": {
-          "translation": "валиться"
+          "translation": "вышел"
         }
       },
-      "definition": "To fall, lie, or sit down in a sudden or relaxed way.",
-      "example": "Gwendolen flopped forward on her face.",
-      "matchedForm": "flopped"
+      "example": "Saunders, and they both went out, Mr.",
+      "exampleStart": 1088,
+      "exampleEnd": 1125,
+      "phraseMatch": {
+        "text": "went out",
+        "startInExample": 24,
+        "endInExample": 32
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "went over",
+      "lemma": "go over",
+      "lemmaId": "go_over",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_over_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Пошёл"
+        }
+      },
+      "example": "Chrestomanci went over and poked at her with his shiny foot.",
+      "exampleStart": 503,
+      "exampleEnd": 563,
+      "phraseMatch": {
+        "text": "went over",
+        "startInExample": 13,
+        "endInExample": 22
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "went with",
+      "lemma": "go with",
+      "lemmaId": "go_with",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_with_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Пошёл"
+        }
+      },
+      "example": "When Cat opened the door of her room, he could smell the sweet, charred, heavy smell that went with witchcraft.",
+      "exampleStart": 3053,
+      "exampleEnd": 3164,
+      "phraseMatch": {
+        "text": "went with",
+        "startInExample": 90,
+        "endInExample": 99
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "hanging over",
+      "lemma": "hang over",
+      "lemmaId": "hang_over",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "hang_over_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Повешение"
+        }
+      },
+      "example": "The golden hair hanging over her shoulders was an inch longer than it had been last night.",
+      "exampleStart": 4984,
+      "exampleEnd": 5074,
+      "phraseMatch": {
+        "text": "hanging over",
+        "startInExample": 16,
+        "endInExample": 28
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "hump",
       "lemma": "hump",
       "lemmaId": "hump",
       "pos": "noun",
+      "source": "word",
       "wordKey": "hump_noun",
       "level": "B2",
-      "ipa": "hʌmp",
       "translations": {
         "ru": {
           "translation": "горб"
         }
       },
-      "definition": "A rounded raised part on the back of an animal or a shape resembling this.",
-      "example": "Gwendolen was a sleeping hump under the bedspread.",
-      "matchedForm": "hump"
+      "example": "Gwendolen was a sleeping hump under the blue velvet bedspread.",
+      "exampleStart": 3450,
+      "exampleEnd": 3512,
+      "matchedForm": "hump",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.9,
+      "difficultySource": "zipf"
     },
     {
-      "word": "indignantly",
-      "lemma": "indignantly",
-      "lemmaId": "indignantly",
-      "pos": "adverb",
-      "wordKey": "indignantly_adverb",
-      "level": "C1",
-      "ipa": "ɪnˈdɪɡnəntli",
-      "translations": {
-        "ru": {
-          "translation": "возмущённо"
-        }
-      },
-      "definition": "In a manner showing anger or annoyance at what is perceived as unfair treatment.",
-      "example": "Cat said indignantly, clutching both sides of his ringing face.",
-      "matchedForm": "indignantly"
-    },
-    {
-      "word": "laboring",
-      "lemma": "laboring",
-      "lemmaId": "laboring",
-      "pos": "verb",
-      "wordKey": "laboring_verb",
-      "level": "C1",
-      "ipa": "ˈleɪbərɪŋ",
-      "translations": {
-        "ru": {
-          "translation": "напрягаясь"
-        }
-      },
-      "definition": "Working hard or exerting oneself physically or mentally.",
-      "example": "...while Cat was gasping at the unfairness of this, he turned to the laboring Mr. Saunders.",
-      "matchedForm": "laboring"
-    },
-    {
-      "word": "memory",
-      "lemma": "memory",
-      "lemmaId": "memory",
-      "pos": "noun",
-      "wordKey": "memory_noun",
+      "word": "left over",
+      "lemma": "leave over",
+      "lemmaId": "leave_over",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "leave_over_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈmeməri",
       "translations": {
         "ru": {
-          "translation": "память"
+          "translation": "остатки"
         }
       },
-      "definition": "The faculty by which the mind stores and remembers information.",
-      "example": "When witches lost their witchcraft, they also lost their memories."
+      "example": "But that could have been left over from last night.",
+      "exampleStart": 3165,
+      "exampleEnd": 3216,
+      "phraseMatch": {
+        "text": "left over",
+        "startInExample": 25,
+        "endInExample": 34
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "mischief",
-      "lemma": "mischief",
-      "lemmaId": "mischief",
-      "pos": "noun",
-      "wordKey": "mischief_noun",
+      "word": "look at",
+      "lemma": "look at",
+      "lemmaId": "look_at",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_at_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈmɪstʃɪf",
       "translations": {
         "ru": {
-          "translation": "причинение вреда"
+          "translation": "Посмотри"
         }
       },
-      "definition": "Playful misbehavior or troublemaking, especially in children.",
-      "example": "Unless you can prove to both of us that you are not going to do mischief with it.",
-      "matchedForm": "mischief"
+      "example": "“I’m your brother, Eric,” he said patiently, and came across to the bed so that she could look at him.",
+      "exampleStart": 4282,
+      "exampleEnd": 4384,
+      "phraseMatch": {
+        "text": "look at",
+        "startInExample": 90,
+        "endInExample": 97
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "odd",
-      "lemma": "odd",
-      "lemmaId": "odd",
+      "word": "look on",
+      "lemma": "look on",
+      "lemmaId": "look_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Смотри"
+        }
+      },
+      "example": "Her face was the right pretty face, with the right blue eyes, but the downright look on it was not right.",
+      "exampleStart": 4878,
+      "exampleEnd": 4983,
+      "phraseMatch": {
+        "text": "look on",
+        "startInExample": 80,
+        "endInExample": 87
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "moaned",
+      "lemma": "moan",
+      "lemmaId": "moan",
       "pos": "adjective",
-      "wordKey": "odd_adjective",
-      "level": "B2",
-      "ipa": "ɒd",
+      "source": "word",
+      "wordKey": "moan_adjective",
+      "level": "A2",
       "translations": {
         "ru": {
-          "translation": "странный"
+          "translation": "стонать"
         }
       },
-      "definition": "Different from what is usual or expected; strange.",
-      "example": "There was something odd about the way Gwendolen was staring at him.",
-      "matchedForm": "odd"
+      "example": "Cat sweated and moaned and finally woke up, feeling wet and weak and rather too bony, the way you do when you have just had a bad illness or a fearsome dream.",
+      "exampleStart": 1964,
+      "exampleEnd": 2122,
+      "matchedForm": "moaned",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.897143,
+      "difficultySource": "zipf"
     },
     {
-      "word": "patient",
-      "lemma": "patient",
-      "lemmaId": "patient",
+      "word": "out of place",
+      "lemma": "out of place",
+      "lemmaId": "out_of_place",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "out_of_place_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "не на своём месте"
+        }
+      },
+      "example": "The only thing out of place was Gwendolen’s box, which had been pulled out of the painted wardrobe and stood with its lid half off near her bed.",
+      "exampleStart": 3304,
+      "exampleEnd": 3448,
+      "phraseMatch": {
+        "text": "out of place",
+        "startInExample": 15,
+        "endInExample": 27
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "piteously",
+      "lemma": "piteously",
+      "lemmaId": "piteously",
       "pos": "adjective",
-      "wordKey": "patient_adjective",
-      "level": "B2",
-      "ipa": "ˈpeɪʃənt",
-      "translations": {
-        "ru": {
-          "translation": "терпеливый"
-        }
-      },
-      "definition": "Able to accept or tolerate delays, problems, or suffering without becoming annoyed or anxious.",
-      "example": "He saw he would have to be very patient with Gwendolen.",
-      "matchedForm": "patient"
-    },
-    {
-      "word": "patiently",
-      "lemma": "patiently",
-      "lemmaId": "patiently",
-      "pos": "adverb",
-      "wordKey": "patiently_adverb",
-      "level": "B2",
-      "ipa": "ˈpeɪʃəntli",
-      "translations": {
-        "ru": {
-          "translation": "терпеливо"
-        }
-      },
-      "definition": "In a way showing tolerance of delays, problems, or suffering without becoming annoyed or anxious.",
-      "example": "He saw he would have to be very patient with Gwendolen."
-    },
-    {
-      "word": "pitiably",
-      "lemma": "pitiably",
-      "lemmaId": "pitiably",
-      "pos": "adverb",
-      "wordKey": "pitiably_adverb",
-      "level": "C2",
-      "ipa": "ˈpɪtɪəbli",
+      "source": "word",
+      "wordKey": "piteously_adjective",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "жалко"
         }
       },
-      "definition": "In a manner that arouses pity or compassion.",
-      "example": "Staring piteously and looking utterly wronged."
+      "example": "” And, when Gwendolen rose to her knees, staring piteously and looking utterly wronged, he said, “You thoroughly deserved that spanking.",
+      "exampleStart": 601,
+      "exampleEnd": 737,
+      "matchedForm": "piteously",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "regretfully",
-      "lemma": "regretfully",
-      "lemmaId": "regretfully",
-      "pos": "adverb",
-      "wordKey": "regretfully_adverb",
-      "level": "C1",
-      "ipa": "rɪˈɡretfəli",
-      "translations": {
-        "ru": {
-          "translation": "с сожалением"
-        }
-      },
-      "definition": "In a manner expressing sadness or disappointment about something that has happened or been done.",
-      "example": "Mr. Saunders ceased swatting, rather regretfully.",
-      "matchedForm": "regretfully"
-    },
-    {
-      "word": "spanking",
-      "lemma": "spanking",
-      "lemmaId": "spanking",
-      "pos": "noun",
-      "wordKey": "spanking_noun",
+      "word": "poked at",
+      "lemma": "poke at",
+      "lemmaId": "poke_at",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "poke_at_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈspæŋkɪŋ",
       "translations": {
         "ru": {
-          "translation": "шлёпок"
+          "translation": "Поддразнил"
         }
       },
-      "definition": "A punishment of hitting someone on their buttocks, typically with the hand.",
-      "example": "You thoroughly deserved that spanking.",
-      "matchedForm": "spanking"
-    },
-    {
-      "word": "squashing",
-      "lemma": "squashing",
-      "lemmaId": "squashing",
-      "pos": "verb",
-      "wordKey": "squashing_verb",
-      "level": "B2",
-      "ipa": "ˈskwɒʃɪŋ",
-      "translations": {
-        "ru": {
-          "translation": "раздавливание"
-        }
-      },
-      "definition": "Crushing something with force so that it becomes flat or deformed.",
-      "example": "Squashing the rest of the dead creatures as he hopped.",
-      "matchedForm": "Squashing"
-    },
-    {
-      "word": "stately home",
-      "lemma": "stately home",
-      "lemmaId": "stately_home",
-      "pos": "phrase",
-      "wordKey": "stately_home_phrase",
-      "level": "C1",
-      "ipa": "ˈsteɪtli həʊm",
-      "translations": {
-        "ru": {
-          "translation": "великолепное загородное поместье"
-        }
-      },
-      "definition": "A large and impressive country house, typically owned by the aristocracy.",
-      "example": "It’s a Stately Home of some kind, isn’t it?",
+      "example": "Chrestomanci went over and poked at her with his shiny foot.",
+      "exampleStart": 503,
+      "exampleEnd": 563,
       "phraseMatch": {
-        "text": "Stately Home",
-        "startInExample": 7,
-        "endInExample": 19
-      }
+        "text": "poked at",
+        "startInExample": 27,
+        "endInExample": 35
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "thoroughly",
-      "lemma": "thoroughly",
-      "lemmaId": "thoroughly",
-      "pos": "adverb",
-      "wordKey": "thoroughly_adverb",
-      "level": "B2",
-      "ipa": "ˈθʌrəli",
+      "word": "porous",
+      "lemma": "porous",
+      "lemmaId": "porous",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "porous_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "тщательно"
+          "translation": "пористый"
         }
       },
-      "definition": "Completely and absolutely.",
-      "example": "You thoroughly deserved that spanking.",
-      "matchedForm": "thoroughly"
+      "example": "They were terrible dreams, full of giant earthworms and great, slimy, porous frogs.",
+      "exampleStart": 1844,
+      "exampleEnd": 1927,
+      "matchedForm": "porous",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.897143,
+      "difficultySource": "zipf"
     },
     {
-      "word": "velvet",
-      "lemma": "velvet",
-      "lemmaId": "velvet",
+      "word": "pulled out",
+      "lemma": "pull out",
+      "lemmaId": "pull_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "pull_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "вытащил"
+        }
+      },
+      "example": "The only thing out of place was Gwendolen’s box, which had been pulled out of the painted wardrobe and stood with its lid half off near her bed.",
+      "exampleStart": 3304,
+      "exampleEnd": 3448,
+      "phraseMatch": {
+        "text": "pulled out",
+        "startInExample": 64,
+        "endInExample": 74
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "putting back",
+      "lemma": "put back",
+      "lemmaId": "put_back",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "put_back_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Возвращая обратно"
+        }
+      },
+      "example": "Saunders hopping because he was still putting his boot back on, and squashing the rest of the dead creatures as he hopped.",
+      "exampleStart": 1126,
+      "exampleEnd": 1248,
+      "phraseMatch": {
+        "text": "putting his boot back",
+        "startInExample": 38,
+        "endInExample": 59
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "snowy",
+      "lemma": "snowy",
+      "lemmaId": "snowy",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "snowy_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "снежный"
+        }
+      },
+      "example": "He opened his eyes on the snowy silence of the Castle and was suddenly convinced that Gwendolen had done something else.",
+      "exampleStart": 2262,
+      "exampleEnd": 2382,
+      "matchedForm": "snowy",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.871429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "sobbing",
+      "lemma": "sob",
+      "lemmaId": "sob",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "sob_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "рыдать"
+        }
+      },
+      "example": "Gwendolen slid to her knees on the floor, sobbing with pain, and making screams in between her sobs at being treated like this.",
+      "exampleStart": 374,
+      "exampleEnd": 501,
+      "matchedForm": "sobbing",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.925714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "stop up",
+      "lemma": "stop up",
+      "lemmaId": "stop_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "stop_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Стоп"
+        }
+      },
+      "example": "“You didn’t try to stop her, did you?",
+      "matchedForm": "stop",
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "taken away",
+      "lemma": "take away",
+      "lemmaId": "take_away",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "take_away_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "забрали"
+        }
+      },
+      "example": "Saunders had truly taken Gwendolen’s witchcraft away from her, she could not have done a thing.",
+      "exampleStart": 2469,
+      "exampleEnd": 2564,
+      "phraseMatch": {
+        "text": "taken Gwendolen’s witchcraft away",
+        "startInExample": 19,
+        "endInExample": 52
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "turned to",
+      "lemma": "turn to",
+      "lemmaId": "turn_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "turn_to_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "повернулся к"
+        }
+      },
+      "example": "” While Cat was gasping at the unfairness of this, he turned to the laboring Mr.",
+      "exampleStart": 197,
+      "exampleEnd": 277,
+      "phraseMatch": {
+        "text": "turned to",
+        "startInExample": 54,
+        "endInExample": 63
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "unfairness",
+      "lemma": "unfairness",
+      "lemmaId": "unfairness",
       "pos": "noun",
-      "wordKey": "velvet_noun",
-      "level": "B2",
-      "ipa": "ˈvelvɪt",
+      "source": "word",
+      "wordKey": "unfairness_noun",
+      "level": "C1",
       "translations": {
         "ru": {
-          "translation": "бархат"
+          "translation": "несправедливость"
         }
       },
-      "definition": "A closely woven fabric of silk, cotton, or nylon, with a thick short pile on one side.",
-      "example": "Gwendolen was a sleeping hump under the blue velvet bedspread.",
-      "matchedForm": "velvet"
+      "example": "” While Cat was gasping at the unfairness of this, he turned to the laboring Mr.",
+      "exampleStart": 197,
+      "exampleEnd": 277,
+      "matchedForm": "unfairness",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "winding up",
-      "lemma": "winding up",
-      "lemmaId": "winding_up",
-      "pos": "phrase",
-      "wordKey": "winding_up_phrase",
-      "level": "C1",
-      "ipa": "ˈwaɪndɪŋ ʌp",
+      "lemma": "wind up",
+      "lemmaId": "wind_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "wind_up_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "заводить (магическую силу)"
+          "translation": "Завершение"
         }
       },
-      "definition": "Causing to begin or intensify, often used figuratively for provoking or preparing something to function.",
-      "example": "Was what Mr. Saunders was winding up your witchcraft?",
+      "example": "Saunders was winding up your witchcraft?",
+      "exampleStart": 1519,
+      "exampleEnd": 1559,
       "phraseMatch": {
         "text": "winding up",
-        "startInExample": 26,
-        "endInExample": 36
-      }
+        "startInExample": 13,
+        "endInExample": 23
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "you all",
+      "lemma": "you all",
+      "lemmaId": "you_all",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "you_all_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Вы все"
+        }
+      },
+      "example": "I shall do a worse thing than this now, and serve you all right!",
+      "exampleStart": 1382,
+      "exampleEnd": 1446,
+      "phraseMatch": {
+        "text": "you all",
+        "startInExample": 50,
+        "endInExample": 57
+      },
+      "levelSource": "phrase_fallback"
     }
   ]
 }

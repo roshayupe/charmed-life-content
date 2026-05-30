@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 4,
     "sectionTitle": "Chapter 1",
     "fragmentIndex": 3,
@@ -21,447 +20,917 @@
       "wordCount": 638,
       "uniqueWordCount": 338,
       "paragraphCount": 22,
-      "vocabularyCount": 25,
+      "vocabularyCount": 39,
       "levelDistribution": {
         "A1": 0,
-        "A2": 0,
-        "B1": 0,
-        "B2": 14,
-        "C1": 10,
-        "C2": 1
+        "A2": 3,
+        "B1": 11,
+        "B2": 24,
+        "C1": 1,
+        "C2": 0
       }
     }
   },
   "vocabulary": [
     {
+      "word": "a great deal",
+      "lemma": "a great deal",
+      "lemmaId": "a_great_deal",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "a_great_deal_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Очень много"
+        }
+      },
+      "example": "Sharp’s broad mauve thumb whirring down a third bundle of letters, thought that being a witch must save a great deal of time.",
+      "exampleStart": 796,
+      "exampleEnd": 921,
+      "phraseMatch": {
+        "text": "a great deal",
+        "startInExample": 104,
+        "endInExample": 116
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "as soon as",
+      "lemma": "as soon as",
+      "lemmaId": "as_soon_as",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "as_soon_as_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "как только"
+        }
+      },
+      "example": "And, as soon as she said it, she clapped one hand over her mouth and mumbled behind it.",
+      "exampleStart": 1189,
+      "exampleEnd": 1276,
+      "phraseMatch": {
+        "text": "as soon as",
+        "startInExample": 5,
+        "endInExample": 15
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
       "word": "awestruck",
       "lemma": "awestruck",
       "lemmaId": "awestruck",
-      "pos": "adjective",
-      "wordKey": "awestruck_adjective",
-      "level": "C1",
-      "ipa": "ˈɔːstrʌk",
-      "translations": {
-        "ru": {
-          "translation": "полный благоговейного трепета"
-        }
-      },
-      "definition": "Filled with feelings of awe or wonder.",
-      "example": "Mrs. Sharp wondered, curious and awestruck.",
-      "matchedForm": "awestruck"
-    },
-    {
-      "word": "blazes",
-      "lemma": "blazes",
-      "lemmaId": "blazes",
-      "pos": "noun",
-      "wordKey": "blazes_noun",
-      "level": "C1",
-      "ipa": "ˈbleɪzɪz",
-      "translations": {
-        "ru": {
-          "translation": "ад, чёрт побери (разг.)"
-        }
-      },
-      "definition": "Used as an emphatic in phrases like 'go to blazes' meaning 'go away' or 'go to hell'.",
-      "example": "Go to blazes.",
-      "matchedForm": "blazes"
-    },
-    {
-      "word": "bundle",
-      "lemma": "bundle",
-      "lemmaId": "bundle",
-      "pos": "noun",
-      "wordKey": "bundle_noun",
-      "level": "B2",
-      "ipa": "ˈbʌndl",
-      "translations": {
-        "ru": {
-          "translation": "связка, пучок"
-        }
-      },
-      "definition": "A collection of things wrapped or tied together.",
-      "example": "She picked up a bundle of old letters.",
-      "matchedForm": "bundle"
-    },
-    {
-      "word": "charitable",
-      "lemma": "charitable",
-      "lemmaId": "charitable",
-      "pos": "adjective",
-      "wordKey": "charitable_adjective",
-      "level": "C1",
-      "ipa": "ˈtʃærɪtəbəl",
-      "translations": {
-        "ru": {
-          "translation": "благотворительный, милосердный"
-        }
-      },
-      "definition": "Relating to the assistance of those in need; benevolent.",
-      "example": "Nor is this a charitable institution.",
-      "matchedForm": "charitable"
-    },
-    {
-      "word": "claim",
-      "lemma": "claim",
-      "lemmaId": "claim",
-      "pos": "noun",
-      "wordKey": "claim_noun",
-      "level": "B2",
-      "ipa": "kleɪm",
-      "translations": {
-        "ru": {
-          "translation": "претензия, требование"
-        }
-      },
-      "definition": "A demand for something as rightful or due.",
-      "example": "I feel you have a claim on me.",
-      "matchedForm": "claim"
-    },
-    {
-      "word": "clapped one hand over her mouth",
-      "lemma": "clapped one hand over her mouth",
-      "lemmaId": "clapped_one_hand_over_her_mouth",
-      "pos": "phrase",
-      "wordKey": "clapped_one_hand_over_her_mouth_phrase",
-      "level": "C1",
-      "ipa": "multi-word expression",
-      "translations": {
-        "ru": {
-          "translation": "прикрыла рукой рот"
-        }
-      },
-      "definition": "Used to indicate an attempt to muffle a sound or a sudden reaction to surprise or shock.",
-      "example": "she clapped one hand over her mouth and mumbled behind it.",
-      "phraseMatch": {
-        "text": "clapped one hand over her mouth",
-        "startInExample": 4,
-        "endInExample": 35
-      }
-    },
-    {
-      "word": "coldly",
-      "lemma": "coldly",
-      "lemmaId": "coldly",
-      "pos": "adverb",
-      "wordKey": "coldly_adverb",
-      "level": "B2",
-      "ipa": "ˈkəʊldli",
-      "translations": {
-        "ru": {
-          "translation": "холодно, без эмоций"
-        }
-      },
-      "definition": "In an unemotional or unfriendly manner.",
-      "example": "Gwendolen said coldly.",
-      "matchedForm": "coldly"
-    },
-    {
-      "word": "dare",
-      "lemma": "dare",
-      "lemmaId": "dare",
       "pos": "verb",
-      "wordKey": "dare_verb",
-      "level": "B2",
-      "ipa": "deə",
+      "source": "word",
+      "wordKey": "awestruck_verb",
+      "level": "C1",
       "translations": {
         "ru": {
-          "translation": "сметь, осмелиться"
+          "translation": "пораженный"
         }
       },
-      "definition": "To have the courage to do something.",
-      "example": "Something not many people’d dare say.",
-      "matchedForm": "dare"
+      "example": "Sharp wondered, curious and awestruck.",
+      "exampleStart": 2590,
+      "exampleEnd": 2628,
+      "matchedForm": "awestruck",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "earrings",
-      "lemma": "earrings",
-      "lemmaId": "earrings",
-      "pos": "noun",
-      "wordKey": "earrings_noun",
+      "word": "back up",
+      "lemma": "back up",
+      "lemmaId": "back_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "back_up_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈɪərɪŋz",
       "translations": {
         "ru": {
-          "translation": "серьги"
+          "translation": "Обратитесь назад"
         }
       },
-      "definition": "Pieces of jewellery worn on the earlobes.",
-      "example": "She put the earrings away in the pocket of her black dress.",
-      "matchedForm": "earrings"
+      "example": "Her thumb paused, and went slowly back up the pile again.",
+      "exampleStart": 959,
+      "exampleEnd": 1016,
+      "phraseMatch": {
+        "text": "back up",
+        "startInExample": 34,
+        "endInExample": 41
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "clapped",
+      "lemma": "clap",
+      "lemmaId": "clap",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "clap_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "хлопать"
+        }
+      },
+      "example": "And, as soon as she said it, she clapped one hand over her mouth and mumbled behind it.",
+      "exampleStart": 1189,
+      "exampleEnd": 1276,
+      "matchedForm": "clapped",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.848571,
+      "difficultySource": "zipf"
     },
     {
       "word": "energetic",
       "lemma": "energetic",
       "lemmaId": "energetic",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "energetic_adjective",
       "level": "B2",
-      "ipa": "ˌɛnəˈʤɛtɪk",
       "translations": {
         "ru": {
           "translation": "энергичный"
         }
       },
-      "definition": "Showing or involving great activity or vitality.",
-      "example": "The energy of the signature on all three letters was striking."
+      "example": "The first thing that struck Cat was the energy of the signature on all three:\n\nThe next thing he saw was that two of the letters were written in the same energetic writing as the signature.",
+      "exampleStart": 1589,
+      "exampleEnd": 1778,
+      "matchedForm": "energetic",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.8,
+      "difficultySource": "zipf"
     },
     {
-      "word": "fierce",
-      "lemma": "fierce",
-      "lemmaId": "fierce",
+      "word": "exclaimed",
+      "lemma": "exclaim",
+      "lemmaId": "exclaim",
       "pos": "adjective",
-      "wordKey": "fierce_adjective",
-      "level": "C1",
-      "ipa": "fɪəs",
-      "translations": {
-        "ru": {
-          "translation": "яростный, свирепый"
-        }
-      },
-      "definition": "Having or displaying an intense or ferocious aggressiveness.",
-      "example": "There was a feeling of fierce invisible struggle.",
-      "matchedForm": "fierce"
-    },
-    {
-      "word": "genuine",
-      "lemma": "genuine",
-      "lemmaId": "genuine",
-      "pos": "adjective",
-      "wordKey": "genuine_adjective",
-      "level": "C1",
-      "ipa": "ˈʤɛnjʊɪn",
-      "translations": {
-        "ru": {
-          "translation": "подлинный, истинный"
-        }
-      },
-      "definition": "Truly what something is said to be; authentic.",
-      "example": "Three genuine signatures.",
-      "matchedForm": "genuine"
-    },
-    {
-      "word": "greedy",
-      "lemma": "greedy",
-      "lemmaId": "greedy",
-      "pos": "adjective",
-      "wordKey": "greedy_adjective",
-      "level": "C1",
-      "ipa": "ˈgriːdi",
-      "translations": {
-        "ru": {
-          "translation": "жадный"
-        }
-      },
-      "definition": "Having an intense desire for something, especially more than is needed.",
-      "example": "she was surprised, frightened, and greedy, all at the same time.",
-      "matchedForm": "greedy"
-    },
-    {
-      "word": "heather",
-      "lemma": "heather",
-      "lemmaId": "heather",
-      "pos": "noun",
-      "wordKey": "heather_noun",
-      "level": "C1",
-      "ipa": "ˈhɛðə",
-      "translations": {
-        "ru": {
-          "translation": "вереск"
-        }
-      },
-      "definition": "A low-growing shrub with small purple flowers, common on Scottish moorland.",
-      "example": "a spray of white heather",
-      "matchedForm": "heather"
-    },
-    {
-      "word": "institution",
-      "lemma": "institution",
-      "lemmaId": "institution",
-      "pos": "noun",
-      "wordKey": "institution_noun",
+      "source": "word",
+      "wordKey": "exclaim_adjective",
       "level": "B2",
-      "ipa": "ˌɪnstɪˈtjuːʃən",
       "translations": {
         "ru": {
-          "translation": "учреждение, институт"
+          "translation": "восклицать"
         }
       },
-      "definition": "An established organisation, especially one dedicated to public service.",
-      "example": "a charitable institution",
-      "matchedForm": "institution"
+      "example": "” she exclaimed.",
+      "exampleStart": 1172,
+      "exampleEnd": 1188,
+      "matchedForm": "exclaimed",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "invisible struggle",
-      "lemma": "invisible struggle",
-      "lemmaId": "invisible_struggle",
-      "pos": "phrase",
-      "wordKey": "invisible_struggle_phrase",
-      "level": "C1",
-      "ipa": "collocation",
+      "word": "frightened",
+      "lemma": "frighten",
+      "lemmaId": "frighten",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "frighten_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "невидимая борьба"
+          "translation": "пугать"
         }
       },
-      "definition": "A conflict or fight that cannot be seen, often metaphorical.",
-      "example": "There was a feeling of fierce invisible struggle.",
+      "example": "Cat could see she was surprised, frightened, and greedy, all at the same time.",
+      "exampleStart": 1295,
+      "exampleEnd": 1373,
+      "matchedForm": "frightened",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.98,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "get on",
+      "lemma": "get on",
+      "lemmaId": "get_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "get_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Садись"
+        }
+      },
+      "example": "It said:\n\nDear Frank,\n\nNow don’t get on your high horse.",
+      "exampleStart": 1858,
+      "exampleEnd": 1914,
       "phraseMatch": {
-        "text": "invisible struggle",
-        "startInExample": 30,
-        "endInExample": 48
-      }
+        "text": "get on",
+        "startInExample": 33,
+        "endInExample": 39
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "went back to",
+      "lemma": "go back to",
+      "lemmaId": "go_back_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_back_to_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "вернулся к"
+        }
+      },
+      "example": "” She went back to sorting the other things in the box.",
+      "exampleStart": 423,
+      "exampleEnd": 478,
+      "phraseMatch": {
+        "text": "went back to",
+        "startInExample": 6,
+        "endInExample": 18
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "hands in",
+      "lemma": "hand in",
+      "lemmaId": "hand_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "hand_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Руки в руках"
+        }
+      },
+      "example": "Both their hands stood still in the air.",
+      "exampleStart": 106,
+      "exampleEnd": 146,
+      "phraseMatch": {
+        "text": "hands stood still in",
+        "startInExample": 11,
+        "endInExample": 31
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "hands out",
+      "lemma": "hand out",
+      "lemmaId": "hand_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "hand_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Руки вперёд"
+        }
+      },
+      "example": "”\n\nGwendolen held her hands spread out above the letters, rather as if she was warming them at a fire.",
+      "exampleStart": 2661,
+      "exampleEnd": 2763,
+      "phraseMatch": {
+        "text": "hands spread out",
+        "startInExample": 22,
+        "endInExample": 38
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "hand over",
+      "lemma": "hand over",
+      "lemmaId": "hand_over",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "hand_over_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Передай"
+        }
+      },
+      "example": "And, as soon as she said it, she clapped one hand over her mouth and mumbled behind it.",
+      "exampleStart": 1189,
+      "exampleEnd": 1276,
+      "phraseMatch": {
+        "text": "hand over",
+        "startInExample": 45,
+        "endInExample": 54
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "have on",
+      "lemma": "have on",
+      "lemmaId": "have_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "have_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Давай"
+        }
+      },
+      "example": "I feel you have a claim on me.",
+      "exampleStart": 2034,
+      "exampleEnd": 2064,
+      "phraseMatch": {
+        "text": "have a claim on",
+        "startInExample": 11,
+        "endInExample": 26
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "high horse",
+      "lemma": "high horse",
+      "lemmaId": "high_horse",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "high_horse_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "высокомерие"
+        }
+      },
+      "example": "It said:\n\nDear Frank,\n\nNow don’t get on your high horse.",
+      "exampleStart": 1858,
+      "exampleEnd": 1914,
+      "phraseMatch": {
+        "text": "high horse",
+        "startInExample": 45,
+        "endInExample": 55
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "i wish",
+      "lemma": "i wish",
+      "lemmaId": "i_wish",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "i_wish_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Хотелось бы"
+        }
+      },
+      "example": "I wish I knew what your pa had said.",
+      "exampleStart": 3194,
+      "exampleEnd": 3230,
+      "phraseMatch": {
+        "text": "I wish",
+        "startInExample": 0,
+        "endInExample": 6
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "looking at",
+      "lemma": "look at",
+      "lemmaId": "look_at",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_at_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "смотря на"
+        }
+      },
+      "example": "” She put the bundle down without looking at it and picked up another.",
+      "exampleStart": 683,
+      "exampleEnd": 753,
+      "phraseMatch": {
+        "text": "looking at",
+        "startInExample": 34,
+        "endInExample": 44
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "look in",
+      "lemma": "look in",
+      "lemmaId": "look_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Смотри"
+        }
+      },
+      "example": "And look what he got in return!",
+      "exampleStart": 3289,
+      "exampleEnd": 3320,
+      "phraseMatch": {
+        "text": "look what he got in",
+        "startInExample": 4,
+        "endInExample": 23
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "mauve",
+      "lemma": "mauve",
+      "lemmaId": "mauve",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "mauve_verb",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "мав"
+        }
+      },
+      "example": "Sharp’s broad mauve thumb whirring down a third bundle of letters, thought that being a witch must save a great deal of time.",
+      "exampleStart": 796,
+      "exampleEnd": 921,
+      "matchedForm": "mauve",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "menus",
+      "lemma": "menus",
+      "lemmaId": "menus",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "menus_verb",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "меню"
+        }
+      },
+      "example": "She turned over an old pipe, ribbons, a spray of white heather, menus, concert tickets, and picked up a bundle of old letters.",
+      "exampleStart": 479,
+      "exampleEnd": 605,
+      "matchedForm": "menus",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.877143,
+      "difficultySource": "zipf"
     },
     {
       "word": "mumbled",
-      "lemma": "mumbled",
-      "lemmaId": "mumbled",
-      "pos": "verb",
-      "wordKey": "mumbled_verb",
-      "level": "B2",
-      "ipa": "ˈmʌmbld",
+      "lemma": "mumble",
+      "lemmaId": "mumble",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "mumble_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "бормотал"
+          "translation": "бормотание"
         }
       },
-      "definition": "To speak quietly and indistinctly, making it difficult to hear.",
-      "example": "she clapped one hand over her mouth and mumbled behind it.",
-      "matchedForm": "mumbled"
+      "example": "And, as soon as she said it, she clapped one hand over her mouth and mumbled behind it.",
+      "exampleStart": 1189,
+      "exampleEnd": 1276,
+      "matchedForm": "mumbled",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "naming pronunciation",
-      "lemma": "naming pronunciation",
-      "lemmaId": "naming_pronunciation",
+      "word": "never you mind",
+      "lemma": "never you mind",
+      "lemmaId": "never_you_mind",
       "pos": "phrase",
-      "wordKey": "naming_pronunciation_phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "never_you_mind_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Не обращай на тебя внимания"
+        }
+      },
+      "example": "”\n\n“Yes, that’s right—and never you mind who he is, my love,” said Mrs.",
+      "exampleStart": 3070,
+      "exampleEnd": 3141,
+      "phraseMatch": {
+        "text": "never you mind",
+        "startInExample": 26,
+        "endInExample": 40
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "people’d",
+      "lemma": "people'd",
+      "lemmaId": "peopled",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "peopled_noun",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "люди"
+        }
+      },
+      "example": "Something not many people’d dare say, by the sound of it.",
+      "exampleStart": 3231,
+      "exampleEnd": 3288,
+      "matchedForm": "people’d",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "picked up",
+      "lemma": "pick up",
+      "lemmaId": "pick_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "pick_up_phrasal_verb",
       "level": "B2",
-      "ipa": "ˌnɪˈmeɪɪŋ ˌprəʊnʌnsiˈeɪʃən",
       "translations": {
         "ru": {
-          "translation": "произношение имени"
+          "translation": "Подобрали"
         }
       },
-      "definition": "The correct way to pronounce a proper name.",
-      "example": "He said it in pieces, trying to remember the way Mrs. Sharp had said it: KREST—OH—MAN—SEE."
-    },
-    {
-      "word": "necromancer",
-      "lemma": "necromancer",
-      "lemmaId": "necromancer",
-      "pos": "noun",
-      "wordKey": "necromancer_noun",
-      "level": "C2",
-      "ipa": "ˈnɛkrəˌmɑːnsə",
-      "translations": {
-        "ru": {
-          "translation": "некромант, чародей"
-        }
+      "example": "” She put the bundle down without looking at it and picked up another.",
+      "exampleStart": 683,
+      "exampleEnd": 753,
+      "phraseMatch": {
+        "text": "picked up",
+        "startInExample": 52,
+        "endInExample": 61
       },
-      "definition": "A person who practices necromancy; a sorcerer who communicates with the dead.",
-      "example": "So would any necromancer in the country.",
-      "matchedForm": "necromancer"
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "ribbons",
-      "lemma": "ribbons",
-      "lemmaId": "ribbons",
-      "pos": "noun",
-      "wordKey": "ribbons_noun",
+      "word": "put away",
+      "lemma": "put away",
+      "lemmaId": "put_away",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "put_away_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈrɪb(ə)nz",
       "translations": {
         "ru": {
-          "translation": "ленты, ленты"
+          "translation": "Убери"
         }
       },
-      "definition": "Long narrow strips of fabric used for tying or decoration.",
-      "example": "She turned over an old pipe, ribbons, a spray of white heather, menus, concert tickets.",
-      "matchedForm": "ribbons"
-    },
-    {
-      "word": "signature",
-      "lemma": "signature",
-      "lemmaId": "signature",
-      "pos": "noun",
-      "wordKey": "signature_noun",
-      "level": "C1",
-      "ipa": "ˈsɪgnətʃə",
-      "translations": {
-        "ru": {
-          "translation": "подпись"
-        }
+      "example": "“Thank you,” Gwendolen said coldly, and put the earrings away in the pocket of her black dress.",
+      "exampleStart": 233,
+      "exampleEnd": 328,
+      "phraseMatch": {
+        "text": "put the earrings away",
+        "startInExample": 40,
+        "endInExample": 61
       },
-      "definition": "A person's name written in a distinctive way as a form of identification.",
-      "example": "the energy of the signature on all three",
-      "matchedForm": "signature"
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "sorting",
-      "lemma": "sorting",
-      "lemmaId": "sorting",
-      "pos": "noun",
-      "wordKey": "sorting_noun",
+      "word": "put down",
+      "lemma": "put down",
+      "lemmaId": "put_down",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "put_down_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈsɔːtɪŋ",
       "translations": {
         "ru": {
-          "translation": "сортировка, раскладывание"
+          "translation": "Положи"
         }
       },
-      "definition": "The action of arranging items into groups or categories.",
-      "example": "She went back to sorting the other things in the box.",
-      "matchedForm": "sorting"
+      "example": "” She put the bundle down without looking at it and picked up another.",
+      "exampleStart": 683,
+      "exampleEnd": 753,
+      "phraseMatch": {
+        "text": "put the bundle down",
+        "startInExample": 6,
+        "endInExample": 25
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "put out",
+      "lemma": "put out",
+      "lemmaId": "put_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "put_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Потушить"
+        }
+      },
+      "example": "Gwendolen put out her hand for them at the same moment.",
+      "exampleStart": 0,
+      "exampleEnd": 55,
+      "phraseMatch": {
+        "text": "put out",
+        "startInExample": 10,
+        "endInExample": 17
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "ran down",
+      "lemma": "run down",
+      "lemmaId": "run_down",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "run_down_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Потрёпан"
+        }
+      },
+      "example": "She ran her thumb down the edge of it.",
+      "exampleStart": 606,
+      "exampleEnd": 644,
+      "phraseMatch": {
+        "text": "ran her thumb down",
+        "startInExample": 4,
+        "endInExample": 22
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "something like",
+      "lemma": "something like",
+      "lemmaId": "something_like",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "something_like_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "что-то вроде"
+        }
+      },
+      "example": "Sir,\n\nYou were warned six years ago that something like what you relate might come to pass, and you made it quite clear that you wished for no help from this quarter.",
+      "exampleStart": 2294,
+      "exampleEnd": 2460,
+      "phraseMatch": {
+        "text": "something like",
+        "startInExample": 41,
+        "endInExample": 55
+      },
+      "levelSource": "phrase_fallback"
     },
     {
       "word": "spread out",
       "lemma": "spread out",
       "lemmaId": "spread_out",
-      "pos": "phrase",
-      "wordKey": "spread_out_phrase",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "spread_out_phrasal_verb",
       "level": "B2",
-      "ipa": "multi-word expression",
       "translations": {
         "ru": {
-          "translation": "разложить, раскладывать"
+          "translation": "Рассредоточьтесь"
         }
       },
-      "definition": "To arrange something over a surface so it covers it.",
-      "example": "Mrs. Sharp spread the three letters out on the kitchen table."
+      "example": "Sharp spread the three letters out on the kitchen table, and Gwendolen and Cat bent over them.",
+      "exampleStart": 1494,
+      "exampleEnd": 1588,
+      "phraseMatch": {
+        "text": "spread the three letters out",
+        "startInExample": 6,
+        "endInExample": 34
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "talent",
-      "lemma": "talent",
-      "lemmaId": "talent",
-      "pos": "noun",
-      "wordKey": "talent_noun",
+      "word": "took away",
+      "lemma": "take away",
+      "lemmaId": "take_away",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "take_away_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈtalənt",
       "translations": {
         "ru": {
-          "translation": "талант"
+          "translation": "забрали"
         }
       },
-      "definition": "A natural aptitude or skill.",
-      "example": "You have real talent, dearie!",
-      "matchedForm": "talent"
+      "example": "Sharp took her hand away.",
+      "exampleStart": 207,
+      "exampleEnd": 232,
+      "phraseMatch": {
+        "text": "took her hand away",
+        "startInExample": 6,
+        "endInExample": 24
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "twitch",
+      "word": "took out",
+      "lemma": "take out",
+      "lemmaId": "take_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "take_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Убрали"
+        }
+      },
+      "example": "She untied the pink tape from around the bundle and carefully took out three letters.",
+      "exampleStart": 1052,
+      "exampleEnd": 1137,
+      "phraseMatch": {
+        "text": "took out",
+        "startInExample": 62,
+        "endInExample": 70
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "turned over",
+      "lemma": "turn over",
+      "lemmaId": "turn_over",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "turn_over_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "перевернут"
+        }
+      },
+      "example": "She turned over an old pipe, ribbons, a spray of white heather, menus, concert tickets, and picked up a bundle of old letters.",
+      "exampleStart": 479,
+      "exampleEnd": 605,
+      "phraseMatch": {
+        "text": "turned over",
+        "startInExample": 4,
+        "endInExample": 15
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "twitched",
       "lemma": "twitch",
       "lemmaId": "twitch",
-      "pos": "verb",
-      "wordKey": "twitch_verb",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "twitch_adjective",
       "level": "B2",
-      "ipa": "twɪʧ",
       "translations": {
         "ru": {
-          "translation": "подрагивать, дергаться"
+          "translation": "дергаться"
         }
       },
-      "definition": "To make a small, sudden jerking movement.",
       "example": "Both her little fingers twitched.",
-      "matchedForm": "twitch"
+      "exampleStart": 2764,
+      "exampleEnd": 2797,
+      "matchedForm": "twitched",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.785714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "whirring",
+      "lemma": "whir",
+      "lemmaId": "whir",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "whir_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "кружиться"
+        }
+      },
+      "example": "Sharp’s broad mauve thumb whirring down a third bundle of letters, thought that being a witch must save a great deal of time.",
+      "exampleStart": 796,
+      "exampleEnd": 921,
+      "matchedForm": "whirring",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "wished for",
+      "lemma": "wish for",
+      "lemmaId": "wish_for",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "wish_for_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "желал"
+        }
+      },
+      "example": "Sir,\n\nYou were warned six years ago that something like what you relate might come to pass, and you made it quite clear that you wished for no help from this quarter.",
+      "exampleStart": 2294,
+      "exampleEnd": 2460,
+      "phraseMatch": {
+        "text": "wished for",
+        "startInExample": 129,
+        "endInExample": 139
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "written in",
+      "lemma": "write in",
+      "lemmaId": "write_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "write_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "написано в"
+        }
+      },
+      "example": "The first thing that struck Cat was the energy of the signature on all three:\n\nThe next thing he saw was that two of the letters were written in the same energetic writing as the signature.",
+      "exampleStart": 1589,
+      "exampleEnd": 1778,
+      "phraseMatch": {
+        "text": "written in",
+        "startInExample": 134,
+        "endInExample": 144
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "you think",
+      "lemma": "you think",
+      "lemmaId": "you_think",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "you_think_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Ты думаешь"
+        }
+      },
+      "example": "“Well—what do you think, dearie?",
+      "exampleStart": 2629,
+      "exampleEnd": 2661,
+      "phraseMatch": {
+        "text": "you think",
+        "startInExample": 14,
+        "endInExample": 23
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "yrs",
+      "lemma": "yr",
+      "lemmaId": "yr",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "yr_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "год"
+        }
+      },
+      "example": "Yrs ever,\n\nChrestomanci\n\nThe second letter was shorter:\n\nDear Chant,\n\nThe same to you.",
+      "exampleStart": 2066,
+      "exampleEnd": 2152,
+      "matchedForm": "Yrs",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.777143,
+      "difficultySource": "zipf"
     }
   ]
 }

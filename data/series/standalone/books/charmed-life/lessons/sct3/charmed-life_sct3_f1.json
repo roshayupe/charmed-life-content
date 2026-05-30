@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 3,
     "sectionTitle": "Note",
     "fragmentIndex": 1,
@@ -21,405 +20,272 @@
       "wordCount": 163,
       "uniqueWordCount": 113,
       "paragraphCount": 6,
-      "vocabularyCount": 23,
+      "vocabularyCount": 12,
       "levelDistribution": {
         "A1": 0,
-        "A2": 1,
-        "B1": 0,
-        "B2": 10,
-        "C1": 4,
-        "C2": 8
+        "A2": 0,
+        "B1": 3,
+        "B2": 6,
+        "C1": 2,
+        "C2": 1
       }
     }
   },
   "vocabulary": [
     {
       "word": "appoints",
-      "lemma": "appoints",
-      "lemmaId": "appoints",
+      "lemma": "appoint",
+      "lemmaId": "appoint",
       "pos": "verb",
-      "wordKey": "appoints_verb",
-      "level": "B2",
-      "ipa": "əˈpɔɪnts",
+      "source": "word",
+      "wordKey": "appoint_verb",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "назначать"
         }
       },
-      "definition": "To officially assign a job or role to someone.",
-      "example": "So the government appoints the very strongest enchanter there is...",
-      "matchedForm": "appoints"
+      "example": "So the government appoints the very strongest enchanter there is to make sure no one misuses magic.",
+      "exampleStart": 699,
+      "exampleEnd": 798,
+      "matchedForm": "appoints",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.802857,
+      "difficultySource": "zipf"
     },
     {
       "word": "certified",
-      "lemma": "certified",
-      "lemmaId": "certified",
+      "lemma": "certify",
+      "lemmaId": "certify",
       "pos": "adjective",
-      "wordKey": "certified_adjective",
-      "level": "C1",
-      "ipa": "ˈsɜːtɪfaɪd",
-      "translations": {
-        "ru": {
-          "translation": "сертифицированный, подтверждённый"
-        }
-      },
-      "definition": "Having official recognition or qualification.",
-      "example": "...from the lowest Certified witch right up to the most powerful of enchanters.",
-      "matchedForm": "Certified"
-    },
-    {
-      "word": "chrestomanci",
-      "lemma": "chrestomanci",
-      "lemmaId": "chrestomanci",
-      "pos": "noun",
-      "wordKey": "chrestomanci_noun",
-      "level": "C2",
-      "ipa": "krɛstəˈmænti",
-      "translations": {
-        "ru": {
-          "translation": "Хрестоманси (имя собственное, но также ключевой термин во фрагменте)"
-        }
-      },
-      "definition": "A unique title referring to the powerful enchanter controlling magic use in the fictional world.",
-      "example": "The difference here is that magic is as common as music is with us."
-    },
-    {
-      "word": "common",
-      "lemma": "common",
-      "lemmaId": "common",
-      "pos": "adjective",
-      "wordKey": "common_adjective",
+      "source": "word",
+      "wordKey": "certify_adjective",
       "level": "B2",
-      "ipa": "ˈkɒmən",
       "translations": {
         "ru": {
-          "translation": "общий, распространённый"
+          "translation": "удостоверять"
         }
       },
-      "definition": "Frequently encountered or usual.",
-      "example": "Magic is as common as music is with us.",
-      "matchedForm": "common"
+      "example": "It is full of people working magic—warlocks, witches, thaumaturges, sorcerers, fakirs, conjurors, hexers, magicians, mages, shamans, diviners and many more—from the lowest Certified witch right up to the most powerful of enchanters.",
+      "exampleStart": 207,
+      "exampleEnd": 439,
+      "matchedForm": "Certified",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.98,
+      "difficultySource": "zipf"
     },
     {
       "word": "conjurors",
-      "lemma": "conjurors",
-      "lemmaId": "conjurors",
-      "pos": "noun",
-      "wordKey": "conjurors_noun",
-      "level": "C2",
-      "ipa": "ˈkɒndʒərəz",
+      "lemma": "conjuror",
+      "lemmaId": "conjuror",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "conjuror_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "фокусники, колдуны"
+          "translation": "заклинатель"
         }
       },
-      "definition": "Persons who perform magic tricks or summon supernatural forces.",
-      "example": "...sorcerers, fakirs, conjurors, hexers, magicians...",
-      "matchedForm": "conjurors"
+      "example": "It is full of people working magic—warlocks, witches, thaumaturges, sorcerers, fakirs, conjurors, hexers, magicians, mages, shamans, diviners and many more—from the lowest Certified witch right up to the most powerful of enchanters.",
+      "exampleStart": 207,
+      "exampleEnd": 439,
+      "matchedForm": "conjurors",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "diviners",
-      "lemma": "diviners",
-      "lemmaId": "diviners",
-      "pos": "noun",
-      "wordKey": "diviners_noun",
-      "level": "C2",
-      "ipa": "dɪˈvaɪnəz",
-      "translations": {
-        "ru": {
-          "translation": "предсказатели"
-        }
-      },
-      "definition": "People who practice divination or see the future through supernatural means.",
-      "example": "...shamans, diviners and many more—from the lowest Certified witch...",
-      "matchedForm": "diviners"
-    },
-    {
-      "word": "enchanters",
-      "lemma": "enchanters",
-      "lemmaId": "enchanters",
-      "pos": "noun",
-      "wordKey": "enchanters_noun",
-      "level": "C1",
-      "ipa": "ɪnˈtʃɑːntəz",
-      "translations": {
-        "ru": {
-          "translation": "чародеи"
-        }
-      },
-      "definition": "People who possess powerful magical abilities and can cast spells.",
-      "example": "Their magic is different and stronger and many of them have more than one life."
-    },
-    {
-      "word": "government",
-      "lemma": "government",
-      "lemmaId": "government",
-      "pos": "noun",
-      "wordKey": "government_noun",
+      "lemma": "diviner",
+      "lemmaId": "diviner",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "diviner_verb",
       "level": "B2",
-      "ipa": "ˈɡʌvənmənt",
       "translations": {
         "ru": {
-          "translation": "правительство"
+          "translation": "прорицатель"
         }
       },
-      "definition": "The group of people with the authority to govern a country or state.",
-      "example": "So the government appoints the very strongest enchanter...",
-      "matchedForm": "government"
+      "example": "It is full of people working magic—warlocks, witches, thaumaturges, sorcerers, fakirs, conjurors, hexers, magicians, mages, shamans, diviners and many more—from the lowest Certified witch right up to the most powerful of enchanters.",
+      "exampleStart": 207,
+      "exampleEnd": 439,
+      "matchedForm": "diviners",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "end up",
+      "lemma": "end up",
+      "lemmaId": "end_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "end_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "в итоге"
+        }
+      },
+      "example": "Now, if someone did not control all these busy magic-users, ordinary people would have a horrible time and probably end up as slaves.",
+      "exampleStart": 565,
+      "exampleEnd": 698,
+      "phraseMatch": {
+        "text": "end up",
+        "startInExample": 116,
+        "endInExample": 122
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "fakirs",
+      "lemma": "fakir",
+      "lemmaId": "fakir",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "fakir_verb",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "факир"
+        }
+      },
+      "example": "It is full of people working magic—warlocks, witches, thaumaturges, sorcerers, fakirs, conjurors, hexers, magicians, mages, shamans, diviners and many more—from the lowest Certified witch right up to the most powerful of enchanters.",
+      "exampleStart": 207,
+      "exampleEnd": 439,
+      "matchedForm": "fakirs",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "hexers",
-      "lemma": "hexers",
-      "lemmaId": "hexers",
-      "pos": "noun",
-      "wordKey": "hexers_noun",
-      "level": "C2",
-      "ipa": "ˈhɛksəz",
+      "lemma": "hexer",
+      "lemmaId": "hexer",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "hexer_verb",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "заклинатели, колдуны"
+          "translation": "гексер"
         }
       },
-      "definition": "Magic users who cast spells or curses.",
-      "example": "...fakirs, conjurors, hexers, magicians, mages...",
-      "matchedForm": "hexers"
-    },
-    {
-      "word": "horrible",
-      "lemma": "horrible",
-      "lemmaId": "horrible",
-      "pos": "adjective",
-      "wordKey": "horrible_adjective",
-      "level": "B2",
-      "ipa": "ˈhɒrəbl",
-      "translations": {
-        "ru": {
-          "translation": "ужасный"
-        }
-      },
-      "definition": "Very unpleasant or bad.",
-      "example": "Ordinary people would have a horrible time...",
-      "matchedForm": "horrible"
-    },
-    {
-      "word": "lives",
-      "lemma": "lives",
-      "lemmaId": "lives",
-      "pos": "noun",
-      "wordKey": "lives_noun",
-      "level": "B2",
-      "ipa": "laɪvz",
-      "translations": {
-        "ru": {
-          "translation": "жизни"
-        }
-      },
-      "definition": "Conditions or modes of existence; in this context, refers to multiple lives the enchanters have.",
-      "example": "Many of them have more than one life."
+      "example": "It is full of people working magic—warlocks, witches, thaumaturges, sorcerers, fakirs, conjurors, hexers, magicians, mages, shamans, diviners and many more—from the lowest Certified witch right up to the most powerful of enchanters.",
+      "exampleStart": 207,
+      "exampleEnd": 439,
+      "matchedForm": "hexers",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "mages",
-      "lemma": "mages",
-      "lemmaId": "mages",
-      "pos": "noun",
-      "wordKey": "mages_noun",
-      "level": "C2",
-      "ipa": "meɪdʒɪz",
-      "translations": {
-        "ru": {
-          "translation": "маги"
-        }
-      },
-      "definition": "Powerful magic users or wizards.",
-      "example": "...magicians, mages, shamans, diviners...",
-      "matchedForm": "mages"
-    },
-    {
-      "word": "magic-users",
-      "lemma": "magic-users",
-      "lemmaId": "magic_users",
-      "pos": "noun",
-      "wordKey": "magic_users_noun",
+      "lemma": "mage",
+      "lemmaId": "mage",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "mage_verb",
       "level": "B2",
-      "ipa": "ˈmædʒɪkˌjuːzəz",
       "translations": {
         "ru": {
-          "translation": "пользователи магии"
+          "translation": "маг"
         }
       },
-      "definition": "People who use magic.",
-      "example": "If someone did not control all these busy magic-users...",
-      "matchedForm": "magic-users"
+      "example": "It is full of people working magic—warlocks, witches, thaumaturges, sorcerers, fakirs, conjurors, hexers, magicians, mages, shamans, diviners and many more—from the lowest Certified witch right up to the most powerful of enchanters.",
+      "exampleStart": 207,
+      "exampleEnd": 439,
+      "matchedForm": "mages",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.985714,
+      "difficultySource": "zipf"
     },
     {
       "word": "misuses",
-      "lemma": "misuses",
-      "lemmaId": "misuses",
+      "lemma": "misuse",
+      "lemmaId": "misuse",
       "pos": "verb",
-      "wordKey": "misuses_verb",
-      "level": "B2",
-      "ipa": "mɪsˈjuːzɪz",
-      "translations": {
-        "ru": {
-          "translation": "злоупотреблять, неправильно использовать"
-        }
-      },
-      "definition": "To use something in an incorrect or inappropriate way.",
-      "example": "So the government appoints the very strongest enchanter to make sure no one misuses magic.",
-      "matchedForm": "misuses"
-    },
-    {
-      "word": "ordinary",
-      "lemma": "ordinary",
-      "lemmaId": "ordinary",
-      "pos": "adjective",
-      "wordKey": "ordinary_adjective",
-      "level": "B2",
-      "ipa": "ˈɔːdnri",
-      "translations": {
-        "ru": {
-          "translation": "обычный"
-        }
-      },
-      "definition": "Normal, not special or different.",
-      "example": "Ordinary people would have a horrible time and probably end up as slaves.",
-      "matchedForm": "Ordinary"
-    },
-    {
-      "word": "personality",
-      "lemma": "personality",
-      "lemmaId": "personality",
-      "pos": "noun",
-      "wordKey": "personality_noun",
+      "source": "word",
+      "wordKey": "misuse_verb",
       "level": "C1",
-      "ipa": "ˌpɜːsəˈnælɪti",
       "translations": {
         "ru": {
-          "translation": "личность, характер"
+          "translation": "злоупотреблять"
         }
       },
-      "definition": "The combination of characteristics or qualities that form an individual's character.",
-      "example": "He has to have a strong personality as well as strong magic.",
-      "matchedForm": "personality"
-    },
-    {
-      "word": "powerful",
-      "lemma": "powerful",
-      "lemmaId": "powerful",
-      "pos": "adjective",
-      "wordKey": "powerful_adjective",
-      "level": "B2",
-      "ipa": "ˈpaʊəfʊl",
-      "translations": {
-        "ru": {
-          "translation": "мощный, сильный"
-        }
-      },
-      "definition": "Having a lot of strength or influence.",
-      "example": "...right up to the most powerful of enchanters.",
-      "matchedForm": "powerful"
-    },
-    {
-      "word": "probably",
-      "lemma": "probably",
-      "lemmaId": "probably",
-      "pos": "adverb",
-      "wordKey": "probably_adverb",
-      "level": "B2",
-      "ipa": "ˈprɒbəbli",
-      "translations": {
-        "ru": {
-          "translation": "вероятно"
-        }
-      },
-      "definition": "Almost certainly; as far as one knows or can tell.",
-      "example": "...ordinary people would have a horrible time and probably end up as slaves.",
-      "matchedForm": "probably"
+      "example": "So the government appoints the very strongest enchanter there is to make sure no one misuses magic.",
+      "exampleStart": 699,
+      "exampleEnd": 798,
+      "matchedForm": "misuses",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.848571,
+      "difficultySource": "zipf"
     },
     {
       "word": "shamans",
-      "lemma": "shamans",
-      "lemmaId": "shamans",
+      "lemma": "shaman",
+      "lemmaId": "shaman",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "shaman_verb",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "шаман"
+        }
+      },
+      "example": "It is full of people working magic—warlocks, witches, thaumaturges, sorcerers, fakirs, conjurors, hexers, magicians, mages, shamans, diviners and many more—from the lowest Certified witch right up to the most powerful of enchanters.",
+      "exampleStart": 207,
+      "exampleEnd": 439,
+      "matchedForm": "shamans",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.94,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "strongest",
+      "lemma": "strongest",
+      "lemmaId": "strongest",
       "pos": "noun",
-      "wordKey": "shamans_noun",
-      "level": "C2",
-      "ipa": "ˈʃɑːmənz",
+      "source": "word",
+      "wordKey": "strongest_noun",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "шаманы"
+          "translation": "сильнейший"
         }
       },
-      "definition": "Traditional spiritual healers or magic practitioners who mediate between the natural and spirit worlds.",
-      "example": "...mages, shamans, diviners and many more...",
-      "matchedForm": "shamans"
-    },
-    {
-      "word": "strange",
-      "lemma": "strange",
-      "lemmaId": "strange",
-      "pos": "adjective",
-      "wordKey": "strange_adjective",
-      "level": "C1",
-      "ipa": "streɪndʒ",
-      "translations": {
-        "ru": {
-          "translation": "странный"
-        }
-      },
-      "definition": "Unusual or surprising in a way that is unsettling or hard to understand.",
-      "example": "Enchanters are strange as well as powerful.",
-      "matchedForm": "strange"
-    },
-    {
-      "word": "strong",
-      "lemma": "strong",
-      "lemmaId": "strong",
-      "pos": "adjective",
-      "wordKey": "strong_adjective",
-      "level": "A2",
-      "ipa": "strɒŋ",
-      "translations": {
-        "ru": {
-          "translation": "сильный"
-        }
-      },
-      "definition": "Having great physical power or intensity.",
-      "example": "He has to have a strong personality as well as strong magic.",
-      "matchedForm": "strong"
+      "example": "So the government appoints the very strongest enchanter there is to make sure no one misuses magic.",
+      "exampleStart": 699,
+      "exampleEnd": 798,
+      "matchedForm": "strongest",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.682857,
+      "difficultySource": "zipf"
     },
     {
       "word": "thaumaturges",
-      "lemma": "thaumaturges",
-      "lemmaId": "thaumaturges",
-      "pos": "noun",
-      "wordKey": "thaumaturges_noun",
+      "lemma": "thaumaturge",
+      "lemmaId": "thaumaturge",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "thaumaturge_verb",
       "level": "C2",
-      "ipa": "θɔːˈmætɜːdʒɪz",
       "translations": {
         "ru": {
-          "translation": "чудотворцы, маги"
+          "translation": "тауматург"
         }
       },
-      "definition": "Practitioners of magic, especially those believed to perform miracles or magic acts.",
-      "example": "It is full of people working magic—warlocks, witches, thaumaturges, sorcerers...",
-      "matchedForm": "thaumaturges"
-    },
-    {
-      "word": "warlocks",
-      "lemma": "warlocks",
-      "lemmaId": "warlocks",
-      "pos": "noun",
-      "wordKey": "warlocks_noun",
-      "level": "C2",
-      "ipa": "ˈwɔːlɒks",
-      "translations": {
-        "ru": {
-          "translation": "колдуны, чародеи (мужчины)"
-        }
-      },
-      "definition": "Male magic users, often associated with witchcraft.",
-      "example": "It is full of people working magic—warlocks, witches, thaumaturges...",
-      "matchedForm": "warlocks"
+      "example": "It is full of people working magic—warlocks, witches, thaumaturges, sorcerers, fakirs, conjurors, hexers, magicians, mages, shamans, diviners and many more—from the lowest Certified witch right up to the most powerful of enchanters.",
+      "exampleStart": 207,
+      "exampleEnd": 439,
+      "matchedForm": "thaumaturges",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     }
   ]
 }

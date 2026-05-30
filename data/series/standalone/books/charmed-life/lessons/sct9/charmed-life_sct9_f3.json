@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 9,
     "sectionTitle": "Chapter 6",
     "fragmentIndex": 3,
@@ -21,14 +20,14 @@
       "wordCount": 554,
       "uniqueWordCount": 330,
       "paragraphCount": 18,
-      "vocabularyCount": 24,
+      "vocabularyCount": 30,
       "levelDistribution": {
         "A1": 0,
-        "A2": 0,
-        "B1": 1,
-        "B2": 12,
-        "C1": 9,
-        "C2": 2
+        "A2": 3,
+        "B1": 7,
+        "B2": 16,
+        "C1": 3,
+        "C2": 1
       }
     }
   },
@@ -38,411 +37,678 @@
       "lemma": "absentminded",
       "lemmaId": "absentminded",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "absentminded_adjective",
       "level": "C1",
-      "ipa": "ˌæb.səntˈmaɪn.dɪd",
       "translations": {
         "ru": {
           "translation": "рассеянный"
         }
       },
-      "definition": "showing forgetfulness or inattentiveness",
-      "example": "He gave it an absentminded flick.",
-      "matchedForm": "absentminded"
+      "example": "He wandered up to the mummified dragon—or whatever—and gave it an absentminded flick.",
+      "exampleStart": 640,
+      "exampleEnd": 725,
+      "matchedForm": "absentminded",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "apparition",
-      "lemma": "apparition",
-      "lemmaId": "apparition",
-      "pos": "noun",
-      "wordKey": "apparition_noun",
-      "level": "C2",
-      "ipa": "ˌæp.əˈrɪʃ.ən",
+      "word": "all over",
+      "lemma": "all over",
+      "lemmaId": "all_over",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "all_over_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "привидение"
+          "translation": "Всё кончено"
         }
       },
-      "definition": "a ghost or ghostlike image of a person",
-      "example": "Chrestomanci had been interested in her apparition.",
-      "matchedForm": "apparition"
+      "example": "To Cat’s disgust, the thing twitched all over.",
+      "exampleStart": 726,
+      "exampleEnd": 772,
+      "phraseMatch": {
+        "text": "all over",
+        "startInExample": 37,
+        "endInExample": 45
+      },
+      "levelSource": "phrase_fallback"
     },
     {
-      "word": "bawl",
+      "word": "bawled",
       "lemma": "bawl",
       "lemmaId": "bawl",
-      "pos": "verb",
-      "wordKey": "bawl_verb",
-      "level": "C1",
-      "ipa": "bɔːl",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "bawl_adjective",
+      "level": "A2",
       "translations": {
         "ru": {
-          "translation": "громко кричать"
+          "translation": "ворчать"
         }
       },
-      "definition": "to shout or cry out noisily",
-      "example": "Gwendolen bawled Chrestomanci’s name.",
-      "matchedForm": "bawl"
+      "example": "” bawled Gwendolen, thin and small and unechoing.",
+      "exampleStart": 2652,
+      "exampleEnd": 2701,
+      "matchedForm": "bawled",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "disgust",
-      "lemma": "disgust",
-      "lemmaId": "disgust",
-      "pos": "noun",
-      "wordKey": "disgust_noun",
-      "level": "C1",
-      "ipa": "dɪsˈɡʌst",
-      "translations": {
-        "ru": {
-          "translation": "отвращение"
-        }
-      },
-      "definition": "a strong feeling of dislike or revulsion",
-      "example": "To Cat’s disgust, the thing twitched all over.",
-      "matchedForm": "disgust"
-    },
-    {
-      "word": "dressing gown",
-      "lemma": "dressing gown",
-      "lemmaId": "dressing_gown",
-      "pos": "noun",
-      "wordKey": "dressing_gown_noun",
+      "word": "catch up with",
+      "lemma": "catch up with",
+      "lemmaId": "catch_up_with",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "catch_up_with_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈdrɛsɪŋ ˌɡaʊn",
       "translations": {
         "ru": {
-          "translation": "халат"
+          "translation": "Догнать"
         }
       },
-      "definition": "a loose robe worn before dressing or in the house",
-      "example": "He wore a bright pink dressing gown.",
+      "example": "Cat panted behind her and, once again, did not catch up with her until they were beside the marble staircase.",
+      "exampleStart": 2528,
+      "exampleEnd": 2637,
       "phraseMatch": {
-        "text": "dressing gown",
-        "startInExample": 22,
-        "endInExample": 35
-      }
+        "text": "catch up with",
+        "startInExample": 47,
+        "endInExample": 60
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "envelope",
-      "lemma": "envelope",
-      "lemmaId": "envelope",
+      "word": "came in",
+      "lemma": "come in",
+      "lemmaId": "come_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Вошёл"
+        }
+      },
+      "example": "But before he had a chance to speak to Gwendolen, Euphemia came in, carrying a letter.",
+      "exampleStart": 1591,
+      "exampleEnd": 1677,
+      "phraseMatch": {
+        "text": "came in",
+        "startInExample": 59,
+        "endInExample": 66
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "come on",
+      "lemma": "come on",
+      "lemmaId": "come_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Давай"
+        }
+      },
+      "example": "“Come on, Cat!",
+      "exampleStart": 2433,
+      "exampleEnd": 2447,
+      "phraseMatch": {
+        "text": "Come on",
+        "startInExample": 1,
+        "endInExample": 8
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "coming up",
+      "lemma": "come up",
+      "lemmaId": "come_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Сейчас"
+        }
+      },
+      "example": "Chrestomanci was coming up the marble staircase in a wide, flowing dressing gown that was partly orange and partly bright pink.",
+      "exampleStart": 2703,
+      "exampleEnd": 2830,
+      "phraseMatch": {
+        "text": "coming up",
+        "startInExample": 17,
+        "endInExample": 26
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "filmy",
+      "lemma": "filmy",
+      "lemmaId": "filmy",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "filmy_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "кинофильм"
+        }
+      },
+      "example": "Filmy wings jerked and spread on its back.",
+      "exampleStart": 773,
+      "exampleEnd": 815,
+      "matchedForm": "Filmy",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "flick",
+      "lemma": "flick",
+      "lemmaId": "flick",
       "pos": "noun",
-      "wordKey": "envelope_noun",
-      "level": "B2",
-      "ipa": "ˈɛn.vələʊp",
+      "source": "word",
+      "wordKey": "flick_noun",
+      "level": "A2",
       "translations": {
         "ru": {
-          "translation": "конверт"
+          "translation": "щелчок"
         }
       },
-      "definition": "a flat paper container used to enclose a letter",
-      "example": "The envelope had been neatly cut open along the top.",
-      "matchedForm": "envelope"
+      "example": "He wandered up to the mummified dragon—or whatever—and gave it an absentminded flick.",
+      "exampleStart": 640,
+      "exampleEnd": 725,
+      "matchedForm": "flick",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.822857,
+      "difficultySource": "zipf"
     },
     {
-      "word": "flowing",
-      "lemma": "flowing",
-      "lemmaId": "flowing",
-      "pos": "adjective",
-      "wordKey": "flowing_adjective",
+      "word": "went about",
+      "lemma": "go about",
+      "lemmaId": "go_about",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_about_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈfləʊ.ɪŋ",
       "translations": {
         "ru": {
-          "translation": "текущий, струящийся"
+          "translation": "пошёл"
         }
       },
-      "definition": "moving smoothly and continuously",
-      "example": "He was wearing a wide, flowing dressing gown.",
-      "matchedForm": "flowing"
+      "example": "“I went about it every way I could think,” Cat said, backing.",
+      "exampleStart": 1057,
+      "exampleEnd": 1118,
+      "phraseMatch": {
+        "text": "went about",
+        "startInExample": 3,
+        "endInExample": 13
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "frog-faced",
-      "lemma": "frog-faced",
-      "lemmaId": "frog_faced",
-      "pos": "adjective",
-      "wordKey": "frog_faced_adjective",
+      "word": "go in",
+      "lemma": "go in",
+      "lemmaId": "go_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_in_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈfrɒɡˌfeɪst",
       "translations": {
         "ru": {
-          "translation": "с лицом лягушки (оскорбление)"
+          "translation": "Входи"
         }
       },
-      "definition": "having a face resembling a frog's; used derogatorily",
-      "example": "You stupid frog-faced girl!",
-      "matchedForm": "frog-faced"
+      "example": "”\n\n“Well, I had at least two other things in mind besides witchcraft,” Mr.",
+      "matchedForm": "in",
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "went up",
+      "lemma": "go up",
+      "lemmaId": "go_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "поднялся"
+        }
+      },
+      "example": "” Chrestomanci’s face turned upwards and his eyebrows went up.",
+      "exampleStart": 3005,
+      "exampleEnd": 3067,
+      "phraseMatch": {
+        "text": "went up",
+        "startInExample": 54,
+        "endInExample": 61
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "goggling",
-      "lemma": "goggling",
-      "lemmaId": "goggling",
+      "lemma": "goggle",
+      "lemmaId": "goggle",
       "pos": "adjective",
-      "wordKey": "goggling_adjective",
-      "level": "C2",
-      "ipa": "ˈɡɒɡ.lɪŋ",
+      "source": "word",
+      "wordKey": "goggle_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "вытаращенные (глаза)"
+          "translation": "очка"
         }
       },
-      "definition": "staring with eyes wide open in surprise or amazement",
       "example": "Euphemia, though she did have rather goggling eyes, was actually quite pretty.",
-      "matchedForm": "goggling"
+      "exampleStart": 2354,
+      "exampleEnd": 2432,
+      "matchedForm": "goggling",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "lifeless",
-      "lemma": "lifeless",
-      "lemmaId": "lifeless",
+      "word": "jagged",
+      "lemma": "jag",
+      "lemmaId": "jag",
       "pos": "adjective",
-      "wordKey": "lifeless_adjective",
+      "source": "word",
+      "wordKey": "jag_adjective",
       "level": "C1",
-      "ipa": "ˈlaɪf.ləs",
       "translations": {
         "ru": {
-          "translation": "безжизненный"
+          "translation": "джег"
         }
       },
-      "definition": "without life; appearing dead or inert",
-      "example": "Then it went lifeless again.",
-      "matchedForm": "lifeless"
+      "example": "Nostrum’s jagged writing on the envelope.",
+      "exampleStart": 1745,
+      "exampleEnd": 1786,
+      "matchedForm": "jagged",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.988571,
+      "difficultySource": "zipf"
     },
     {
-      "word": "lock",
-      "lemma": "lock",
-      "lemmaId": "lock",
-      "pos": "verb",
-      "wordKey": "lock_verb",
-      "level": "B2",
-      "ipa": "lɒk",
+      "word": "like that",
+      "lemma": "like that",
+      "lemmaId": "like_that",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "like_that_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "запирать"
+          "translation": "Вот так"
         }
       },
-      "definition": "to fasten or secure with a lock",
-      "example": "Gwendolen had locked her door.",
-      "matchedForm": "lock"
+      "example": "“And don’t look at me like that.",
+      "exampleStart": 1971,
+      "exampleEnd": 2003,
+      "phraseMatch": {
+        "text": "like that",
+        "startInExample": 22,
+        "endInExample": 31
+      },
+      "levelSource": "phrase_fallback"
     },
     {
-      "word": "marble",
-      "lemma": "marble",
-      "lemmaId": "marble",
-      "pos": "noun",
-      "wordKey": "marble_noun",
+      "word": "look at",
+      "lemma": "look at",
+      "lemmaId": "look_at",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_at_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈmɑː.bəl",
       "translations": {
         "ru": {
-          "translation": "мрамор"
+          "translation": "Посмотри"
         }
       },
-      "definition": "a hard crystalline metamorphic form of limestone, typically white and used in sculpture and architecture",
-      "example": "They were beside the marble staircase.",
-      "matchedForm": "marble"
+      "example": "“And don’t look at me like that.",
+      "exampleStart": 1971,
+      "exampleEnd": 2003,
+      "phraseMatch": {
+        "text": "look at",
+        "startInExample": 11,
+        "endInExample": 18
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "look on",
+      "lemma": "look on",
+      "lemmaId": "look_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Смотри"
+        }
+      },
+      "example": "By the suave, vague look on his face, he had not noticed Gwendolen and Cat.",
+      "exampleStart": 2867,
+      "exampleEnd": 2942,
+      "phraseMatch": {
+        "text": "look on",
+        "startInExample": 20,
+        "endInExample": 27
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "mummified",
-      "lemma": "mummified",
-      "lemmaId": "mummified",
+      "lemma": "mummify",
+      "lemmaId": "mummify",
       "pos": "adjective",
-      "wordKey": "mummified_adjective",
-      "level": "C1",
-      "ipa": "ˈmʌm.ɪ.faɪd",
+      "source": "word",
+      "wordKey": "mummify_adjective",
+      "level": "C2",
       "translations": {
         "ru": {
-          "translation": "замумиифицированный, мумифицированный"
+          "translation": "мумифицировать"
         }
       },
-      "definition": "preserved as a mummy, typically by drying or embalming",
-      "example": "He wandered up to the mummified dragon.",
-      "matchedForm": "mummified"
+      "example": "He wandered up to the mummified dragon—or whatever—and gave it an absentminded flick.",
+      "exampleStart": 640,
+      "exampleEnd": 725,
+      "matchedForm": "mummified",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "once again",
+      "lemma": "once again",
+      "lemmaId": "once_again",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "once_again_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Снова"
+        }
+      },
+      "example": "Cat panted behind her and, once again, did not catch up with her until they were beside the marble staircase.",
+      "exampleStart": 2528,
+      "exampleEnd": 2637,
+      "phraseMatch": {
+        "text": "once again",
+        "startInExample": 27,
+        "endInExample": 37
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "panted",
+      "lemma": "pant",
+      "lemmaId": "pant",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "pant_adjective",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "брюки"
+        }
+      },
+      "example": "Cat panted behind her and, once again, did not catch up with her until they were beside the marble staircase.",
+      "exampleStart": 2528,
+      "exampleEnd": 2637,
+      "matchedForm": "panted",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.951429,
+      "difficultySource": "zipf"
     },
     {
       "word": "postmark",
       "lemma": "postmark",
       "lemmaId": "postmark",
       "pos": "noun",
+      "source": "word",
       "wordKey": "postmark_noun",
       "level": "B2",
-      "ipa": "ˈpəʊstˌmɑːk",
       "translations": {
         "ru": {
-          "translation": "почтовый штемпель"
+          "translation": "почтовая марка"
         }
       },
-      "definition": "an official mark stamped on a letter or parcel indicating the date and place of sending",
-      "example": "This morning, by the postmark.",
-      "matchedForm": "postmark"
+      "example": "“This morning, by the postmark,” said Euphemia.",
+      "exampleStart": 1923,
+      "exampleEnd": 1970,
+      "matchedForm": "postmark",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "raging",
-      "lemma": "raging",
-      "lemmaId": "raging",
-      "pos": "adjective",
-      "wordKey": "raging_adjective",
-      "level": "C1",
-      "ipa": "ˈreɪ.dʒɪŋ",
-      "translations": {
-        "ru": {
-          "translation": "в ярости"
-        }
-      },
-      "definition": "extremely angry or violent",
-      "example": "Gwendolen was raging again.",
-      "matchedForm": "raging"
-    },
-    {
-      "word": "regret",
-      "lemma": "regret",
-      "lemmaId": "regret",
-      "pos": "verb",
-      "wordKey": "regret_verb",
+      "word": "ran away",
+      "lemma": "run away",
+      "lemmaId": "run_away",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "run_away_phrasal_verb",
       "level": "B2",
-      "ipa": "rɪˈɡrɛt",
       "translations": {
         "ru": {
-          "translation": "сожалеть"
+          "translation": "сбежал"
         }
       },
-      "definition": "to feel sad or disappointed about something that has happened or been done",
-      "example": "You’ll regret it if you do.",
-      "matchedForm": "regret"
+      "example": "” Gwendolen shouted at him, and she ran away along the corridor with her letter.",
+      "exampleStart": 2447,
+      "exampleEnd": 2527,
+      "phraseMatch": {
+        "text": "ran away",
+        "startInExample": 36,
+        "endInExample": 44
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "relief",
-      "lemma": "relief",
-      "lemmaId": "relief",
-      "pos": "noun",
-      "wordKey": "relief_noun",
+      "word": "ran through",
+      "lemma": "run through",
+      "lemmaId": "run_through",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "run_through_phrasal_verb",
       "level": "B2",
-      "ipa": "rɪˈliːf",
       "translations": {
         "ru": {
-          "translation": "облегчение"
+          "translation": "пробежал сквозь"
         }
       },
-      "definition": "a feeling of reassurance and relaxation following release from anxiety or distress",
-      "example": "Cat fled, in great relief.",
-      "matchedForm": "relief"
+      "example": "As he ran through the strange corridors, he thought he ought to let Gwendolen know that Chrestomanci had, after all, been interested in her apparition, and even angry.",
+      "exampleStart": 1315,
+      "exampleEnd": 1482,
+      "phraseMatch": {
+        "text": "ran through",
+        "startInExample": 6,
+        "endInExample": 17
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "snatch",
-      "lemma": "snatch",
-      "lemmaId": "snatch",
-      "pos": "verb",
-      "wordKey": "snatch_verb",
+      "word": "shut up",
+      "lemma": "shut up",
+      "lemmaId": "shut_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "shut_up_phrasal_verb",
       "level": "B2",
-      "ipa": "snætʃ",
       "translations": {
         "ru": {
-          "translation": "вырвать"
+          "translation": "Заткнись"
         }
       },
-      "definition": "to quickly seize something in a rude or eager way",
-      "example": "Gwendolen snatched it eagerly from Euphemia.",
-      "matchedForm": "snatch"
+      "example": "“Oh, shut up, you stupid frog-faced girl!",
+      "exampleStart": 2273,
+      "exampleEnd": 2314,
+      "phraseMatch": {
+        "text": "shut up",
+        "startInExample": 5,
+        "endInExample": 12
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "stupid",
-      "lemma": "stupid",
-      "lemmaId": "stupid",
-      "pos": "adjective",
-      "wordKey": "stupid_adjective",
-      "level": "B1",
-      "ipa": "ˈstjuː.pɪd",
+      "word": "speak to",
+      "lemma": "speak to",
+      "lemmaId": "speak_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "speak_to_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "глупый"
+          "translation": "поговорить"
         }
       },
-      "definition": "lacking intelligence or common sense",
-      "example": "You stupid frog-faced girl!",
-      "matchedForm": "stupid"
+      "example": "But before he had a chance to speak to Gwendolen, Euphemia came in, carrying a letter.",
+      "exampleStart": 1591,
+      "exampleEnd": 1677,
+      "phraseMatch": {
+        "text": "speak to",
+        "startInExample": 30,
+        "endInExample": 38
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "suave",
       "lemma": "suave",
       "lemmaId": "suave",
-      "pos": "adjective",
-      "wordKey": "suave_adjective",
-      "level": "C1",
-      "ipa": "swɑːv",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "suave_noun",
+      "level": "A2",
       "translations": {
         "ru": {
-          "translation": "учтивый, вежливый, обходительный"
+          "translation": "умный"
         }
       },
-      "definition": "charming, confident, and elegant",
-      "example": "By the suave, vague look on his face, he had not noticed them.",
-      "matchedForm": "suave"
-    },
-    {
-      "word": "swift",
-      "lemma": "swift",
-      "lemmaId": "swift",
-      "pos": "adjective",
-      "wordKey": "swift_adjective",
-      "level": "C1",
-      "ipa": "swɪft",
-      "translations": {
-        "ru": {
-          "translation": "быстрый"
-        }
-      },
-      "definition": "happening quickly or immediately",
-      "example": "She ran away along the corridor with her letter."
+      "example": "By the suave, vague look on his face, he had not noticed Gwendolen and Cat.",
+      "exampleStart": 2867,
+      "exampleEnd": 2942,
+      "matchedForm": "suave",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "taxpayer",
       "lemma": "taxpayer",
       "lemmaId": "taxpayer",
       "pos": "noun",
+      "source": "word",
       "wordKey": "taxpayer_noun",
       "level": "B2",
-      "ipa": "ˈtæk.speɪ.ər",
       "translations": {
         "ru": {
-          "translation": "налогоплательщик"
+          "translation": "плательщик налога"
         }
       },
-      "definition": "a person who pays tax to the government",
-      "example": "The taxpayer pays, fortunately.",
-      "matchedForm": "taxpayer"
+      "example": "“The taxpayer pays, fortunately,” said Mr.",
+      "exampleStart": 167,
+      "exampleEnd": 209,
+      "matchedForm": "taxpayer",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.757143,
+      "difficultySource": "zipf"
     },
     {
-      "word": "twitch",
-      "lemma": "twitch",
-      "lemmaId": "twitch",
-      "pos": "verb",
-      "wordKey": "twitch_verb",
+      "word": "turned around",
+      "lemma": "turn around",
+      "lemmaId": "turn_around",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "turn_around_phrasal_verb",
       "level": "B2",
-      "ipa": "twɪtʃ",
       "translations": {
         "ru": {
-          "translation": "дёргать(ся)"
+          "translation": "повернулся"
         }
       },
-      "definition": "to make a sudden, small movement",
-      "example": "The thing twitched all over.",
-      "matchedForm": "twitch"
+      "example": "Cat turned around and found that Chrestomanci had gone.",
+      "exampleStart": 41,
+      "exampleEnd": 96,
+      "phraseMatch": {
+        "text": "turned around",
+        "startInExample": 4,
+        "endInExample": 17
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "witchcraft",
-      "lemma": "witchcraft",
-      "lemmaId": "witchcraft",
-      "pos": "noun",
-      "wordKey": "witchcraft_noun",
-      "level": "C1",
-      "ipa": "ˈwɪtʃ.krɑːft",
+      "word": "whirled",
+      "lemma": "whirl",
+      "lemmaId": "whirl",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "whirl_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "колдовство"
+          "translation": "вихрь"
         }
       },
-      "definition": "the practice of magic or sorcery, especially black magic",
-      "example": "You mean, learn witchcraft?",
-      "matchedForm": "witchcraft"
+      "example": "Gwendolen whirled around on her.",
+      "exampleStart": 2240,
+      "exampleEnd": 2272,
+      "matchedForm": "whirled",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "you think",
+      "lemma": "you think",
+      "lemmaId": "you_think",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "you_think_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Ты думаешь"
+        }
+      },
+      "example": "“But what makes you think you’d be no good?",
+      "exampleStart": 447,
+      "exampleEnd": 490,
+      "phraseMatch": {
+        "text": "you think",
+        "startInExample": 16,
+        "endInExample": 25
+      },
+      "levelSource": "phrase_fallback"
     }
   ]
 }

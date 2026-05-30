@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 10,
     "sectionTitle": "Chapter 7",
     "fragmentIndex": 4,
@@ -21,492 +20,818 @@
       "wordCount": 619,
       "uniqueWordCount": 347,
       "paragraphCount": 16,
-      "vocabularyCount": 28,
+      "vocabularyCount": 35,
       "levelDistribution": {
         "A1": 0,
-        "A2": 0,
-        "B1": 0,
-        "B2": 9,
-        "C1": 12,
-        "C2": 7
+        "A2": 1,
+        "B1": 8,
+        "B2": 22,
+        "C1": 3,
+        "C2": 1
       }
     }
   },
   "vocabulary": [
     {
-      "word": "agitated",
-      "lemma": "agitated",
-      "lemmaId": "agitated",
-      "pos": "adjective",
-      "wordKey": "agitated_adjective",
-      "level": "C1",
-      "ipa": "ˈædʒɪteɪtɪd",
+      "word": "a great deal",
+      "lemma": "a great deal",
+      "lemmaId": "a_great_deal",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "a_great_deal_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "взволнованный, раздражённый"
+          "translation": "Очень много"
         }
       },
-      "definition": "Feeling or appearing troubled or nervous.",
-      "example": "Millie was sitting on the edge of her seat, looking agitated.",
-      "matchedForm": "agitated"
+      "example": "Chrestomanci did not say anything to Gwendolen, though he said a great deal, very soothingly, both to the vicar and to the curate.",
+      "exampleStart": 2547,
+      "exampleEnd": 2677,
+      "phraseMatch": {
+        "text": "a great deal",
+        "startInExample": 63,
+        "endInExample": 75
+      },
+      "levelSource": "phrase_fallback"
     },
     {
-      "word": "chastisement",
-      "lemma": "chastisement",
-      "lemmaId": "chastisement",
-      "pos": "noun",
-      "wordKey": "chastisement_noun",
-      "level": "C2",
-      "ipa": "ˈtʃæstɪzmənt",
+      "word": "agitated",
+      "lemma": "agitate",
+      "lemmaId": "agitate",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "agitate_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "наказание, порицание"
+          "translation": "агитировать"
         }
       },
-      "definition": "The act of scolding or punishing someone.",
-      "example": "Why doesn’t your father tell Gwendolen off?"
+      "example": "Millie was sitting on the edge of her seat, looking agitated.",
+      "exampleStart": 517,
+      "exampleEnd": 578,
+      "matchedForm": "agitated",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "as soon as",
+      "lemma": "as soon as",
+      "lemmaId": "as_soon_as",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "as_soon_as_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "как только"
+        }
+      },
+      "example": "But, as soon as the curate’s back was turned, he began to run again, and the free-for-all went on more riotously than before.",
+      "exampleStart": 1013,
+      "exampleEnd": 1138,
+      "phraseMatch": {
+        "text": "as soon as",
+        "startInExample": 5,
+        "endInExample": 15
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "at all events",
+      "lemma": "at all events",
+      "lemmaId": "at_all_events",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "at_all_events_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "во всех случаях"
+        }
+      },
+      "example": "At all events, when Cat woke up on Monday morning, it was dark.",
+      "exampleStart": 3392,
+      "exampleEnd": 3455,
+      "phraseMatch": {
+        "text": "At all events",
+        "startInExample": 0,
+        "endInExample": 13
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "attending to",
+      "lemma": "attend to",
+      "lemmaId": "attend_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "attend_to_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Заботится о"
+        }
+      },
+      "example": "For all he could tell, Chrestomanci was attending to the vicar’s every word and had not even noticed the windows.",
+      "exampleStart": 403,
+      "exampleEnd": 516,
+      "phraseMatch": {
+        "text": "attending to",
+        "startInExample": 40,
+        "endInExample": 52
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "back up",
+      "lemma": "back up",
+      "lemmaId": "back_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "back_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Обратитесь назад"
+        }
+      },
+      "example": "” Cat asked Roger as they walked back up the avenue.",
+      "exampleStart": 2723,
+      "exampleEnd": 2775,
+      "phraseMatch": {
+        "text": "back up",
+        "startInExample": 33,
+        "endInExample": 40
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "be up",
+      "lemma": "be up",
+      "lemmaId": "be_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "be_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "будь на ногах"
+        }
+      },
+      "example": "Saunders woke up, puzzled.",
+      "matchedForm": "up",
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "choirboy",
       "lemma": "choirboy",
       "lemmaId": "choirboy",
-      "pos": "noun",
-      "wordKey": "choirboy_noun",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "choirboy_adjective",
       "level": "B2",
-      "ipa": "ˈkwaɪə(r)bɔɪ",
       "translations": {
         "ru": {
-          "translation": "певчий (мальчик)"
+          "translation": "хоровод"
         }
       },
-      "definition": "A boy who sings in a choir, especially in a church.",
       "example": "Followed by a giggling choirboy swinging incense, he went from window to window murmuring exorcisms.",
-      "matchedForm": "choirboy"
+      "exampleStart": 769,
+      "exampleEnd": 869,
+      "matchedForm": "choirboy",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "comes down on",
+      "lemma": "come down on",
+      "lemmaId": "come_down_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_down_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "опускается на"
+        }
+      },
+      "example": "“He comes down on us hard enough if we use witchcraft.",
+      "exampleStart": 2853,
+      "exampleEnd": 2907,
+      "phraseMatch": {
+        "text": "comes down on",
+        "startInExample": 4,
+        "endInExample": 17
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "confounded",
-      "lemma": "confounded",
-      "lemmaId": "confounded",
+      "lemma": "confound",
+      "lemmaId": "confound",
       "pos": "adjective",
-      "wordKey": "confounded_adjective",
-      "level": "C2",
-      "ipa": "kənˈfaʊndɪd",
+      "source": "word",
+      "wordKey": "confound_adjective",
+      "level": "C1",
       "translations": {
         "ru": {
-          "translation": "озадаченный, сбитый с толку"
+          "translation": "путать"
         }
       },
-      "definition": "Confused or perplexed.",
       "example": "He stopped, confounded.",
-      "matchedForm": "confounded"
+      "exampleStart": 1658,
+      "exampleEnd": 1681,
+      "matchedForm": "confounded",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "congregation",
-      "lemma": "congregation",
-      "lemmaId": "congregation",
-      "pos": "noun",
-      "wordKey": "congregation_noun",
-      "level": "C1",
-      "ipa": "ˌkɒŋɡrɪˈɡeɪʃən",
-      "translations": {
-        "ru": {
-          "translation": "конгрегация, собор прихожан"
-        }
-      },
-      "definition": "A group of people assembled for religious worship.",
-      "example": "By this time, the whole congregation had seen.",
-      "matchedForm": "congregation"
-    },
-    {
-      "word": "craning",
-      "lemma": "craning",
-      "lemmaId": "craning",
+      "word": "exorcise",
+      "lemma": "exorcise",
+      "lemmaId": "exorcise",
       "pos": "verb",
-      "wordKey": "craning_verb",
+      "source": "word",
+      "wordKey": "exorcise_verb",
       "level": "B2",
-      "ipa": "ˈkreɪnɪŋ",
       "translations": {
         "ru": {
-          "translation": "вытягивать шею"
+          "translation": "изгонять"
         }
       },
-      "definition": "Stretching one's neck to see something.",
-      "example": "Everyone stared, or whispered, or leaned craning this way and that to watch the twinkling glass toes of the kingly saint.",
-      "matchedForm": "craning"
+      "example": "The curate hastened up and tried to exorcise the crusader.",
+      "exampleStart": 1683,
+      "exampleEnd": 1741,
+      "matchedForm": "exorcise",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "cross",
-      "lemma": "cross",
-      "lemmaId": "cross",
-      "pos": "adjective",
-      "wordKey": "cross_adjective",
+      "word": "get into",
+      "lemma": "get into",
+      "lemmaId": "get_into",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "get_into_phrasal_verb",
       "level": "B2",
-      "ipa": "krɒs",
       "translations": {
         "ru": {
-          "translation": "раздражённый, сердитый"
+          "translation": "Входи"
         }
       },
-      "definition": "Annoyed or angry.",
-      "example": "No. She’s cross with me for playing soldiers with you.",
-      "matchedForm": "cross"
-    },
-    {
-      "word": "demurely",
-      "lemma": "demurely",
-      "lemmaId": "demurely",
-      "pos": "adverb",
-      "wordKey": "demurely_adverb",
-      "level": "C1",
-      "ipa": "dɪˈmjʊəli",
-      "translations": {
-        "ru": {
-          "translation": "скромно, сдержанно"
-        }
+      "example": "“Let’s get into old clothes and build some more of the tree house.",
+      "exampleStart": 3166,
+      "exampleEnd": 3232,
+      "phraseMatch": {
+        "text": "get into",
+        "startInExample": 7,
+        "endInExample": 15
       },
-      "definition": "In a reserved, modest, and shy manner.",
-      "example": "She sat with her eyes demurely cast down, the picture of innocence.",
-      "matchedForm": "demurely"
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "disgraceful",
-      "lemma": "disgraceful",
-      "lemmaId": "disgraceful",
-      "pos": "adjective",
-      "wordKey": "disgraceful_adjective",
-      "level": "C1",
-      "ipa": "dɪsˈɡreɪsfl",
-      "translations": {
-        "ru": {
-          "translation": "позорный, бесчестный"
-        }
-      },
-      "definition": "Shameful or unacceptable behaviour.",
-      "example": "That was disgraceful, you ungodly child!",
-      "matchedForm": "disgraceful"
-    },
-    {
-      "word": "disturbance",
-      "lemma": "disturbance",
-      "lemmaId": "disturbance",
-      "pos": "noun",
-      "wordKey": "disturbance_noun",
+      "word": "went off with",
+      "lemma": "go off with",
+      "lemmaId": "go_off_with",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_off_with_phrasal_verb",
       "level": "B2",
-      "ipa": "dɪˈstɜːrbəns",
       "translations": {
         "ru": {
-          "translation": "нарушение, беспокойство"
+          "translation": "ушёл с"
         }
       },
-      "definition": "Interruption of a settled or peaceful condition.",
-      "example": "There was such a disturbance that Mr. Saunders woke up, puzzled.",
-      "matchedForm": "disturbance"
-    },
-    {
-      "word": "exorcisms",
-      "lemma": "exorcisms",
-      "lemmaId": "exorcisms",
-      "pos": "noun",
-      "wordKey": "exorcisms_noun",
-      "level": "C2",
-      "ipa": "ˈeksɔːsɪzəmz",
-      "translations": {
-        "ru": {
-          "translation": "экзорцизм, изгнание духов"
-        }
+      "example": "”\n\nGwendolen was angry when Cat went off with Roger again.",
+      "exampleStart": 3232,
+      "exampleEnd": 3290,
+      "phraseMatch": {
+        "text": "went off with",
+        "startInExample": 32,
+        "endInExample": 45
       },
-      "definition": "The act of driving out evil spirits by religious or magical means.",
-      "example": "Followed by a giggling choirboy swinging incense, he went from window to window murmuring exorcisms.",
-      "matchedForm": "exorcisms"
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "flicker",
-      "lemma": "flicker",
-      "lemmaId": "flicker",
-      "pos": "noun",
-      "wordKey": "flicker_noun",
+      "word": "went on",
+      "lemma": "go on",
+      "lemmaId": "go_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_on_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈflɪkə(r)",
       "translations": {
         "ru": {
-          "translation": "мерцание, вспышка"
+          "translation": "продолжил"
         }
       },
-      "definition": "A quick movement or light appearing and disappearing rapidly.",
-      "example": "There was a sort of flicker, which jolted Cat where he sat.",
-      "matchedForm": "flicker"
+      "example": "But, as soon as the curate’s back was turned, he began to run again, and the free-for-all went on more riotously than before.",
+      "exampleStart": 1013,
+      "exampleEnd": 1138,
+      "phraseMatch": {
+        "text": "went on",
+        "startInExample": 90,
+        "endInExample": 97
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "impervious",
       "lemma": "impervious",
       "lemmaId": "impervious",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "impervious_adjective",
       "level": "C2",
-      "ipa": "ɪmˈpɜːviəs",
       "translations": {
         "ru": {
-          "translation": "непроницаемый, нечувствительный"
+          "translation": "непроницаемый"
         }
       },
-      "definition": "Not affected or influenced by something.",
-      "example": "Gwendolen sauntered out among them, quite impervious to the shocked looks.",
-      "matchedForm": "impervious"
+      "example": "”\n\nWhen everyone straggled out of church, Gwendolen sauntered out among them, quite impervious to the shocked looks everyone gave her as she passed.",
+      "exampleStart": 2088,
+      "exampleEnd": 2236,
+      "matchedForm": "impervious",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "indignantly",
-      "lemma": "indignantly",
-      "lemmaId": "indignantly",
-      "pos": "adverb",
-      "wordKey": "indignantly_adverb",
-      "level": "C1",
-      "ipa": "ɪnˈdɪɡnəntli",
-      "translations": {
-        "ru": {
-          "translation": "возмущённо"
-        }
-      },
-      "definition": "In a manner showing anger or annoyance at unfair treatment.",
-      "example": "Gwendolen’s head came up indignantly.",
-      "matchedForm": "indignantly"
-    },
-    {
-      "word": "irritation",
-      "lemma": "irritation",
-      "lemmaId": "irritation",
-      "pos": "noun",
-      "wordKey": "irritation_noun",
-      "level": "C1",
-      "ipa": "ˌɪrɪˈteɪʃən",
-      "translations": {
-        "ru": {
-          "translation": "раздражение"
-        }
-      },
-      "definition": "The state of feeling annoyed or impatient.",
-      "example": "A look of irritation crossed the crusader’s face.",
-      "matchedForm": "irritation"
-    },
-    {
-      "word": "jolted",
-      "lemma": "jolted",
-      "lemmaId": "jolted",
-      "pos": "verb",
-      "wordKey": "jolted_verb",
-      "level": "C1",
-      "ipa": "dʒəʊltɪd",
-      "translations": {
-        "ru": {
-          "translation": "толкать, сотрясать"
-        }
-      },
-      "definition": "To give a sudden sharp shake or surprise.",
-      "example": "There was a sort of flicker, which jolted Cat where he sat.",
-      "matchedForm": "jolted"
-    },
-    {
-      "word": "obligingly",
-      "lemma": "obligingly",
-      "lemmaId": "obligingly",
-      "pos": "adverb",
-      "wordKey": "obligingly_adverb",
-      "level": "C2",
-      "ipa": "əˈblaɪdʒɪŋli",
-      "translations": {
-        "ru": {
-          "translation": "любезно, услужливо"
-        }
-      },
-      "definition": "Willingly doing a service or favour.",
-      "example": "Gwendolen obligingly stopped each saint in its tracks as he came to it.",
-      "matchedForm": "obligingly"
-    },
-    {
-      "word": "puzzled",
-      "lemma": "puzzled",
-      "lemmaId": "puzzled",
-      "pos": "adjective",
-      "wordKey": "puzzled_adjective",
+      "word": "lay down",
+      "lemma": "lay down",
+      "lemmaId": "lay_down",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "lay_down_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈpʌzld",
       "translations": {
         "ru": {
-          "translation": "озадаченный"
+          "translation": "Ложись"
         }
       },
-      "definition": "Feeling confused because something is difficult to understand.",
-      "example": "There was such a disturbance that Mr. Saunders woke up, puzzled.",
-      "matchedForm": "puzzled"
+      "example": "The crusader, looking even more irritated, lowered his sword and lay down again with a thump that shook the church.",
+      "exampleStart": 1864,
+      "exampleEnd": 1979,
+      "phraseMatch": {
+        "text": "lay down",
+        "startInExample": 65,
+        "endInExample": 73
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "looked at",
+      "lemma": "look at",
+      "lemmaId": "look_at",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_at_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "смотрел"
+        }
+      },
+      "example": "There was a sort of flicker, which jolted Cat where he sat and, when he looked at the windows, every saint was stand-ing stiff and glassy there, as they should be.",
+      "exampleStart": 1249,
+      "exampleEnd": 1412,
+      "phraseMatch": {
+        "text": "looked at",
+        "startInExample": 72,
+        "endInExample": 81
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "not quite",
+      "lemma": "not quite",
+      "lemmaId": "not_quite",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "not_quite_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Не совсем"
+        }
+      },
+      "example": "But not quite, it seemed.",
+      "exampleStart": 2521,
+      "exampleEnd": 2546,
+      "phraseMatch": {
+        "text": "not quite",
+        "startInExample": 4,
+        "endInExample": 13
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "put a stop to",
+      "lemma": "put a stop to",
+      "lemmaId": "put_a_stop_to",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "put_a_stop_to_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "положи конец"
+        }
+      },
+      "example": "The curate, however, felt he ought to put a stop to the unseemly behavior of the windows.",
+      "exampleStart": 646,
+      "exampleEnd": 735,
+      "phraseMatch": {
+        "text": "put a stop to",
+        "startInExample": 38,
+        "endInExample": 51
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "rambled on",
+      "lemma": "ramble on",
+      "lemmaId": "ramble_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "ramble_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Болтал"
+        }
+      },
+      "example": "And the vicar still rambled on, quite unconscious of the turmoil.",
+      "exampleStart": 579,
+      "exampleEnd": 644,
+      "phraseMatch": {
+        "text": "rambled on",
+        "startInExample": 20,
+        "endInExample": 30
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "rasping",
-      "lemma": "rasping",
-      "lemmaId": "rasping",
+      "lemma": "rasp",
+      "lemmaId": "rasp",
       "pos": "adjective",
-      "wordKey": "rasping_adjective",
-      "level": "C1",
-      "ipa": "ˈræspɪŋ",
+      "source": "word",
+      "wordKey": "rasp_adjective",
+      "level": "A2",
       "translations": {
         "ru": {
-          "translation": "скрежещущий, хриплый"
+          "translation": "рассыпать"
         }
       },
-      "definition": "Making a harsh, grating sound.",
-      "example": "And, with much rasping of stone, thumbed his nose at the vicar.",
-      "matchedForm": "rasping"
+      "example": "At the back of the church a great stone crusader sat up on his tomb and, with much rasping of stone, thumbed his nose at the vicar.",
+      "exampleStart": 1470,
+      "exampleEnd": 1601,
+      "matchedForm": "rasping",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "riotously",
       "lemma": "riotously",
       "lemmaId": "riotously",
-      "pos": "adverb",
-      "wordKey": "riotously_adverb",
-      "level": "C2",
-      "ipa": "ˈraɪətəsli",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "riotously_adjective",
+      "level": "C1",
       "translations": {
         "ru": {
-          "translation": "буйно, бурно"
+          "translation": "буйно"
         }
       },
-      "definition": "In a wild, uncontrolled, or disorderly manner.",
       "example": "But, as soon as the curate’s back was turned, he began to run again, and the free-for-all went on more riotously than before.",
-      "matchedForm": "riotously"
+      "exampleStart": 1013,
+      "exampleEnd": 1138,
+      "matchedForm": "riotously",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "sanctified",
-      "lemma": "sanctified",
-      "lemmaId": "sanctified",
+      "lemma": "sanctify",
+      "lemmaId": "sanctify",
       "pos": "adjective",
-      "wordKey": "sanctified_adjective",
-      "level": "C2",
-      "ipa": "ˈsæŋktɪfaɪd",
+      "source": "word",
+      "wordKey": "sanctify_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "освящённый, священный"
+          "translation": "освятить"
         }
       },
-      "definition": "Made holy or declared sacred.",
-      "example": "There are some in this congregation who are certainly not sanctified.",
-      "matchedForm": "sanctified"
+      "example": "“There are some in this congregation who are certainly not sanctified,” the vicar said sadly.",
+      "exampleStart": 1981,
+      "exampleEnd": 2074,
+      "matchedForm": "sanctified",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "sauntered",
-      "lemma": "sauntered",
-      "lemmaId": "sauntered",
-      "pos": "verb",
-      "wordKey": "sauntered_verb",
+      "lemma": "saunter",
+      "lemmaId": "saunter",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "saunter_adjective",
       "level": "B2",
-      "ipa": "ˈsɔːntəd",
       "translations": {
         "ru": {
-          "translation": "прогуливаться, идти неторопливо"
+          "translation": "шутник"
         }
       },
-      "definition": "To walk in a slow, relaxed manner.",
-      "example": "When everyone straggled out of church, Gwendolen sauntered out among them.",
-      "matchedForm": "sauntered"
+      "example": "”\n\nWhen everyone straggled out of church, Gwendolen sauntered out among them, quite impervious to the shocked looks everyone gave her as she passed.",
+      "exampleStart": 2088,
+      "exampleEnd": 2236,
+      "matchedForm": "sauntered",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "soothingly",
-      "lemma": "soothingly",
-      "lemmaId": "soothingly",
-      "pos": "adverb",
-      "wordKey": "soothingly_adverb",
-      "level": "C1",
-      "ipa": "ˈsuːðɪŋli",
+      "word": "sitting on",
+      "lemma": "sit on",
+      "lemmaId": "sit_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "sit_on_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "успокаивающе"
+          "translation": "сидя на"
         }
       },
-      "definition": "In a calming or relieving manner.",
-      "example": "Chrestomanci did not say anything to Gwendolen, though he said a great deal, very soothingly.",
-      "matchedForm": "soothingly"
+      "example": "Millie was sitting on the edge of her seat, looking agitated.",
+      "exampleStart": 517,
+      "exampleEnd": 578,
+      "phraseMatch": {
+        "text": "sitting on",
+        "startInExample": 11,
+        "endInExample": 21
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "sort of",
+      "lemma": "sort of",
+      "lemmaId": "sort_of",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "sort_of_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Вроде"
+        }
+      },
+      "example": "There was a sort of flicker, which jolted Cat where he sat and, when he looked at the windows, every saint was stand-ing stiff and glassy there, as they should be.",
+      "exampleStart": 1249,
+      "exampleEnd": 1412,
+      "phraseMatch": {
+        "text": "sort of",
+        "startInExample": 12,
+        "endInExample": 19
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "speak to",
+      "lemma": "speak to",
+      "lemmaId": "speak_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "speak_to_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "поговорить"
+        }
+      },
+      "example": "I don’t dare speak to the poor vicar.",
+      "exampleStart": 2347,
+      "exampleEnd": 2384,
+      "phraseMatch": {
+        "text": "speak to",
+        "startInExample": 13,
+        "endInExample": 21
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "stopped in",
+      "lemma": "stop in",
+      "lemmaId": "stop_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "stop_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Заглянул"
+        }
+      },
+      "example": "Gwendolen obligingly stopped each saint in its tracks as he came to it—which meant that the kingly saint was stranded halfway across the wall.",
+      "exampleStart": 870,
+      "exampleEnd": 1012,
+      "phraseMatch": {
+        "text": "stopped each saint in",
+        "startInExample": 21,
+        "endInExample": 42
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "straggled",
-      "lemma": "straggled",
-      "lemmaId": "straggled",
-      "pos": "verb",
-      "wordKey": "straggled_verb",
+      "lemma": "straggle",
+      "lemmaId": "straggle",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "straggle_adjective",
       "level": "B2",
-      "ipa": "ˈstræɡld",
       "translations": {
         "ru": {
-          "translation": "бродить, идти врассыпную"
+          "translation": "отставание"
         }
       },
-      "definition": "To move in a scattered or irregular way.",
-      "example": "When everyone straggled out of church, Gwendolen sauntered out among them.",
-      "matchedForm": "straggled"
+      "example": "”\n\nWhen everyone straggled out of church, Gwendolen sauntered out among them, quite impervious to the shocked looks everyone gave her as she passed.",
+      "exampleStart": 2088,
+      "exampleEnd": 2236,
+      "matchedForm": "straggled",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "stranded",
-      "lemma": "stranded",
-      "lemmaId": "stranded",
-      "pos": "adjective",
-      "wordKey": "stranded_adjective",
+      "word": "tell off",
+      "lemma": "tell off",
+      "lemmaId": "tell_off",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "tell_off_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈstrændɪd",
       "translations": {
         "ru": {
-          "translation": "застрявший, в затруднительном положении"
+          "translation": "Откажитесь"
         }
       },
-      "definition": "Left in a difficult or helpless position.",
-      "example": "Which meant that the kingly saint was stranded halfway across the wall.",
-      "matchedForm": "stranded"
+      "example": "“Why doesn’t your father tell Gwendolen off?",
+      "exampleStart": 2679,
+      "exampleEnd": 2723,
+      "phraseMatch": {
+        "text": "tell Gwendolen off",
+        "startInExample": 25,
+        "endInExample": 43
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "ungodly",
-      "lemma": "ungodly",
-      "lemmaId": "ungodly",
-      "pos": "adjective",
-      "wordKey": "ungodly_adjective",
-      "level": "C1",
-      "ipa": "ʌnˈɡɒdli",
+      "word": "tired of",
+      "lemma": "tire of",
+      "lemmaId": "tire_of",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "tire_of_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "недобрый, нечестивый"
+          "translation": "устал"
         }
       },
-      "definition": "Not devoted to God; wicked or impious.",
-      "example": "That was disgraceful, you ungodly child!",
-      "matchedForm": "ungodly"
+      "example": "Perhaps he thinks she’ll get tired of it.",
+      "exampleStart": 2908,
+      "exampleEnd": 2949,
+      "phraseMatch": {
+        "text": "tired of",
+        "startInExample": 29,
+        "endInExample": 37
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "turned over",
+      "lemma": "turn over",
+      "lemmaId": "turn_over",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "turn_over_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "перевернут"
+        }
+      },
+      "example": "So Cat turned over and went to sleep again.",
+      "exampleStart": 3500,
+      "exampleEnd": 3543,
+      "phraseMatch": {
+        "text": "turned over",
+        "startInExample": 7,
+        "endInExample": 18
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "unseemly",
       "lemma": "unseemly",
       "lemmaId": "unseemly",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "unseemly_adjective",
       "level": "C1",
-      "ipa": "ʌnˈsiːmli",
       "translations": {
         "ru": {
-          "translation": "неуместный, неподобающий"
+          "translation": "неприлично"
         }
       },
-      "definition": "Not proper or appropriate behaviour.",
       "example": "The curate, however, felt he ought to put a stop to the unseemly behavior of the windows.",
-      "matchedForm": "unseemly"
+      "exampleStart": 646,
+      "exampleEnd": 735,
+      "matchedForm": "unseemly",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "witchcraft",
-      "lemma": "witchcraft",
-      "lemmaId": "witchcraft",
-      "pos": "noun",
-      "wordKey": "witchcraft_noun",
-      "level": "C1",
-      "ipa": "ˈwɪtʃkrɑːft",
+      "word": "up on",
+      "lemma": "up on",
+      "lemmaId": "up_on",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "up_on_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "колдовство, магия"
+          "translation": "Вверх"
         }
       },
-      "definition": "The practice of magic, especially black magic.",
-      "example": "He comes down on us hard enough if we use witchcraft.",
-      "matchedForm": "witchcraft"
+      "example": "At the back of the church a great stone crusader sat up on his tomb and, with much rasping of stone, thumbed his nose at the vicar.",
+      "exampleStart": 1470,
+      "exampleEnd": 1601,
+      "phraseMatch": {
+        "text": "up on",
+        "startInExample": 53,
+        "endInExample": 58
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "you what",
+      "lemma": "you what",
+      "lemmaId": "you_what",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "you_what_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Ты что?"
+        }
+      },
+      "example": "Has she told you what she’s going to do tomorrow?",
+      "exampleStart": 2950,
+      "exampleEnd": 2999,
+      "phraseMatch": {
+        "text": "you what",
+        "startInExample": 13,
+        "endInExample": 21
+      },
+      "levelSource": "phrase_fallback"
     }
   ]
 }

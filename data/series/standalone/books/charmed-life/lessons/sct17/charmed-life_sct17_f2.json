@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 17,
     "sectionTitle": "Chapter 14",
     "fragmentIndex": 2,
@@ -21,693 +20,773 @@
       "wordCount": 600,
       "uniqueWordCount": 340,
       "paragraphCount": 17,
-      "vocabularyCount": 26,
+      "vocabularyCount": 33,
       "levelDistribution": {
-        "A1": 0,
-        "A2": 0,
-        "B1": 0,
-        "B2": 14,
-        "C1": 12,
-        "C2": 0
+        "A1": 1,
+        "A2": 1,
+        "B1": 8,
+        "B2": 19,
+        "C1": 1,
+        "C2": 3
       }
     }
   },
   "vocabulary": [
     {
-      "word": "accuse",
-      "lemma": "accuse",
-      "lemmaId": "accuse",
-      "pos": "verb",
-      "wordKey": "accuse_verb",
-      "level": "C1",
-      "ipa": "əˈkjuːz",
-      "translations": {
-        "de": {
-          "translation": "beschuldigen"
-        },
-        "es": {
-          "translation": "acusar"
-        },
-        "ru": {
-          "translation": "обвинять"
-        },
-        "uk": {
-          "translation": "звинувачувати"
-        }
-      },
-      "definition": "to charge someone with an offense or crime",
-      "example": "Janet was sure he was going to accuse her of not being Gwendolen, but what he said was, “You may as well hear this too, in order to prevent more accidents.",
-      "matchedForm": "accuse"
-    },
-    {
       "word": "appalling",
-      "lemma": "appalling",
-      "lemmaId": "appalling",
+      "lemma": "appal",
+      "lemmaId": "appal",
       "pos": "adjective",
-      "wordKey": "appalling_adjective",
-      "level": "C1",
-      "ipa": "əˈpɔːlɪŋ",
+      "source": "word",
+      "wordKey": "appal_adjective",
+      "level": "B1",
       "translations": {
-        "de": {
-          "translation": "entsetzlich"
-        },
-        "es": {
-          "translation": "aterrador"
-        },
         "ru": {
-          "translation": "ужасающий"
-        },
-        "uk": {
-          "translation": "жахливий"
+          "translation": "аппликационный"
         }
       },
-      "definition": "causing shock or dismay; horrific",
       "example": "You’ve given him the most appalling shock.",
-      "matchedForm": "appalling"
+      "exampleStart": 240,
+      "exampleEnd": 282,
+      "matchedForm": "appalling",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "brandied",
-      "lemma": "brandy",
-      "lemmaId": "brandy",
-      "pos": "noun",
-      "wordKey": "brandy_noun",
+      "word": "but then",
+      "lemma": "but then",
+      "lemmaId": "but_then",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "but_then_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "но потом"
+        }
+      },
+      "example": "“But then I didn’t know you straightaway when I saw you, either.",
+      "exampleStart": 1300,
+      "exampleEnd": 1364,
+      "phraseMatch": {
+        "text": "But then",
+        "startInExample": 1,
+        "endInExample": 9
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "came in",
+      "lemma": "come in",
+      "lemmaId": "come_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_in_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈbrændi",
       "translations": {
-        "de": {
-          "translation": "Branntwein"
-        },
-        "es": {
-          "translation": "brandy"
-        },
         "ru": {
-          "translation": "бренди"
-        },
-        "uk": {
-          "translation": "бренді"
+          "translation": "Вошёл"
         }
       },
-      "definition": "an alcoholic spirit distilled from wine or fermented fruit juice",
-      "example": "Run along to the speaking tube at the end of the corridor and tell them to send me some brandy and a pot of strong tea.",
-      "matchedForm": "brandy"
-    },
-    {
-      "word": "concentrated",
-      "lemma": "concentrate",
-      "lemmaId": "concentrate",
-      "pos": "adjective",
-      "wordKey": "concentrate_adjective",
-      "level": "C1",
-      "ipa": "ˈkɒnsntreɪtɪd",
-      "translations": {
-        "de": {
-          "translation": "konzentriert"
-        },
-        "es": {
-          "translation": "concentrado"
-        },
-        "ru": {
-          "translation": "концентрированный"
-        },
-        "uk": {
-          "translation": "концентрований"
-        }
+      "example": "”\n\nJanet came hurrying in, still tearful, but very thankful to be of use.",
+      "exampleStart": 2459,
+      "exampleEnd": 2532,
+      "phraseMatch": {
+        "text": "came hurrying in",
+        "startInExample": 9,
+        "endInExample": 25
       },
-      "definition": "gathered together in a dense or focused form",
-      "example": "Then the lives that would have been spread out over a whole set of worlds get concentrated in one person.",
-      "matchedForm": "concentrated"
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "corridor",
-      "lemma": "corridor",
-      "lemmaId": "corridor",
+      "word": "drips",
+      "lemma": "drip",
+      "lemmaId": "drip",
       "pos": "noun",
-      "wordKey": "corridor_noun",
+      "source": "word",
+      "wordKey": "drip_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "капать"
+        }
+      },
+      "example": "The usually smooth black hair was hanging over his forehead in wriggles, with drips on the ends.",
+      "exampleStart": 1100,
+      "exampleEnd": 1196,
+      "matchedForm": "drips",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.837143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "drying out",
+      "lemma": "dry out",
+      "lemmaId": "dry_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "dry_out_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈkɒrɪdɔːr",
       "translations": {
-        "de": {
-          "translation": "Flur"
-        },
-        "es": {
-          "translation": "pasillo"
-        },
         "ru": {
-          "translation": "коридор"
-        },
-        "uk": {
-          "translation": "коридор"
+          "translation": "Высыхание"
         }
       },
-      "definition": "a long passage in a building from which doors lead into rooms",
+      "example": "”\n\n“I’m drying out, thank you,” he said, smiling at her.",
+      "exampleStart": 2855,
+      "exampleEnd": 2911,
+      "phraseMatch": {
+        "text": "drying out",
+        "startInExample": 8,
+        "endInExample": 18
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "end of",
+      "lemma": "end of",
+      "lemmaId": "end_of",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "end_of_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Конец"
+        }
+      },
       "example": "Run along to the speaking tube at the end of the corridor and tell them to send me some brandy and a pot of strong tea.",
-      "matchedForm": "corridor"
-    },
-    {
-      "word": "counterparts",
-      "lemma": "counterpart",
-      "lemmaId": "counterpart",
-      "pos": "noun",
-      "wordKey": "counterpart_noun",
-      "level": "C1",
-      "ipa": "ˈkaʊntəpɑːrt",
-      "translations": {
-        "de": {
-          "translation": "Gegenstück"
-        },
-        "es": {
-          "translation": "equivalente"
-        },
-        "ru": {
-          "translation": "аналог"
-        },
-        "uk": {
-          "translation": "аналог"
-        }
+      "exampleStart": 435,
+      "exampleEnd": 554,
+      "phraseMatch": {
+        "text": "end of",
+        "startInExample": 38,
+        "endInExample": 44
       },
-      "definition": "a person or thing holding a similar position or function in a different place or situation",
-      "example": "They only happen when, for one reason or another, there are no counterparts of them living in any other world.",
-      "matchedForm": "counterparts"
-    },
-    {
-      "word": "enchantments",
-      "lemma": "enchantment",
-      "lemmaId": "enchantment",
-      "pos": "noun",
-      "wordKey": "enchantment_noun",
-      "level": "C1",
-      "ipa": "ɪnˈtʃɑːntmənt",
-      "translations": {
-        "de": {
-          "translation": "Zauber"
-        },
-        "es": {
-          "translation": "encantamiento"
-        },
-        "ru": {
-          "translation": "заклинание"
-        },
-        "uk": {
-          "translation": "чарівництво"
-        }
-      },
-      "definition": "a magic spell or charm",
-      "example": "In some manner and by someone, they were put into that book of matches, and that book I am now going to put in my secret safe, sealed with the strong-est enchantments I know.",
-      "matchedForm": "enchantments"
+      "levelSource": "phrase_fallback"
     },
     {
       "word": "enormously",
       "lemma": "enormously",
       "lemmaId": "enormously",
       "pos": "adverb",
+      "source": "word",
       "wordKey": "enormously_adverb",
-      "level": "C1",
-      "ipa": "ɪˈnɔːrməsli",
+      "level": "B2",
       "translations": {
-        "de": {
-          "translation": "enorm"
-        },
-        "es": {
-          "translation": "enormemente"
-        },
         "ru": {
           "translation": "чрезвычайно"
-        },
-        "uk": {
-          "translation": "надзвичайно"
         }
       },
-      "definition": "to a very great degree or extent",
       "example": "”\n\n“I’m truly enormously sorry,” Janet said, crying heavily.",
-      "matchedForm": "enormously"
+      "exampleStart": 282,
+      "exampleEnd": 342,
+      "matchedForm": "enormously",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.891429,
+      "difficultySource": "zipf"
     },
     {
-      "word": "folding",
-      "lemma": "fold",
-      "lemmaId": "fold",
-      "pos": "verb",
-      "wordKey": "fold_verb",
+      "word": "get in",
+      "lemma": "get in",
+      "lemmaId": "get_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "get_in_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈfəʊldɪŋ",
       "translations": {
-        "de": {
-          "translation": "falten"
-        },
-        "es": {
-          "translation": "doblar"
-        },
         "ru": {
-          "translation": "сгибать"
-        },
-        "uk": {
-          "translation": "складати"
+          "translation": "Садись"
         }
       },
-      "definition": "bend (something flexible) over upon itself",
-      "example": "Cat’s legs kept folding.",
-      "matchedForm": "folding"
+      "example": "Then the lives that would have been spread out over a whole set of worlds get concentrated in one person.",
+      "exampleStart": 3093,
+      "exampleEnd": 3198,
+      "phraseMatch": {
+        "text": "get concentrated in",
+        "startInExample": 74,
+        "endInExample": 93
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "get out of",
+      "lemma": "get out of",
+      "lemmaId": "get_out_of",
+      "pos": "prepositional_verb",
+      "type": "prepositional_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "get_out_of_prepositional_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Убирайся отсюда"
+        }
+      },
+      "example": "”\n\nCat was too weak to get out of the bath alone.",
+      "exampleStart": 1408,
+      "exampleEnd": 1457,
+      "phraseMatch": {
+        "text": "get out of",
+        "startInExample": 23,
+        "endInExample": 33
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "grumbled",
+      "lemma": "grumble",
+      "lemmaId": "grumble",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "grumble_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "ворчать"
+        }
+      },
+      "example": "“You told me I’d got five when you spoke to me through Miss Larkins,” he grumbled.",
+      "exampleStart": 852,
+      "exampleEnd": 934,
+      "matchedForm": "grumbled",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "hanging over",
+      "lemma": "hang over",
+      "lemmaId": "hang_over",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "hang_over_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Повешение"
+        }
+      },
+      "example": "The usually smooth black hair was hanging over his forehead in wriggles, with drips on the ends.",
+      "exampleStart": 1100,
+      "exampleEnd": 1196,
+      "phraseMatch": {
+        "text": "hanging over",
+        "startInExample": 34,
+        "endInExample": 46
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "have out",
+      "lemma": "have out",
+      "lemmaId": "have_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "have_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Выйди"
+        }
+      },
+      "example": "Then the lives that would have been spread out over a whole set of worlds get concentrated in one person.",
+      "exampleStart": 3093,
+      "exampleEnd": 3198,
+      "phraseMatch": {
+        "text": "have been spread out",
+        "startInExample": 26,
+        "endInExample": 46
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "heaved",
       "lemma": "heave",
       "lemmaId": "heave",
-      "pos": "verb",
-      "wordKey": "heave_verb",
-      "level": "C1",
-      "ipa": "hiːvd",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "heave_adjective",
+      "level": "C2",
       "translations": {
-        "de": {
-          "translation": "heben"
-        },
-        "es": {
-          "translation": "levantar"
-        },
         "ru": {
-          "translation": "поднимать"
-        },
-        "uk": {
-          "translation": "піднімати"
+          "translation": "подтягивать"
         }
       },
-      "definition": "to lift or pull with effort",
       "example": "” he said to Janet over his shoulder while he heaved at Cat to keep his head under the spray.",
-      "matchedForm": "heaved"
+      "exampleStart": 22,
+      "exampleEnd": 115,
+      "matchedForm": "heaved",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "humbly",
       "lemma": "humbly",
       "lemmaId": "humbly",
-      "pos": "adverb",
-      "wordKey": "humbly_adverb",
-      "level": "C1",
-      "ipa": "ˈhʌmbli",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "humbly_adjective",
+      "level": "B1",
       "translations": {
-        "de": {
-          "translation": "demütig"
-        },
-        "es": {
-          "translation": "humildemente"
-        },
         "ru": {
           "translation": "смиренно"
-        },
-        "uk": {
-          "translation": "покірно"
         }
       },
-      "definition": "in a modest or respectful manner",
       "example": "” Janet said humbly.",
-      "matchedForm": "humbly"
+      "exampleStart": 2819,
+      "exampleEnd": 2839,
+      "matchedForm": "humbly",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.954286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "in no time",
+      "lemma": "in no time",
+      "lemmaId": "in_no_time",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "in_no_time_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "В считанные мгновения"
+        }
+      },
+      "example": "But Chrestomanci heaved him out, stripped off his wet clothes, dried him and wrapped him in another towel in no time at all.",
+      "exampleStart": 1458,
+      "exampleEnd": 1582,
+      "phraseMatch": {
+        "text": "in no time",
+        "startInExample": 106,
+        "endInExample": 116
+      },
+      "levelSource": "phrase_fallback"
     },
     {
       "word": "insistently",
       "lemma": "insistently",
       "lemmaId": "insistently",
-      "pos": "adverb",
-      "wordKey": "insistently_adverb",
-      "level": "C1",
-      "ipa": "ɪnˈsɪstəntli",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "insistently_adjective",
+      "level": "C2",
       "translations": {
-        "de": {
-          "translation": "beharrlich"
-        },
-        "es": {
-          "translation": "insistentemente"
-        },
         "ru": {
           "translation": "настойчиво"
-        },
-        "uk": {
-          "translation": "настійно"
         }
       },
-      "definition": "in a persistent and demanding way",
       "example": "A voice said insistently in his ear, “Cat.",
-      "matchedForm": "insistently"
+      "exampleStart": 696,
+      "exampleEnd": 738,
+      "matchedForm": "insistently",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "listen",
-      "lemma": "listen",
-      "lemmaId": "listen",
-      "pos": "verb",
-      "wordKey": "listen_verb",
+      "word": "kept up",
+      "lemma": "keep up",
+      "lemmaId": "keep_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "keep_up_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈlɪsn",
       "translations": {
-        "de": {
-          "translation": "zuhören"
-        },
-        "es": {
-          "translation": "escuchar"
-        },
         "ru": {
-          "translation": "слушать"
-        },
-        "uk": {
-          "translation": "слухати"
+          "translation": "не отставал"
         }
       },
-      "definition": "to pay attention to sound or speech",
-      "example": "“Now listen.",
-      "matchedForm": "listen"
+      "example": "” he said to Janet over his shoulder while he heaved at Cat to keep his head under the spray.",
+      "matchedForm": "keep",
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "long time",
+      "lemma": "long time",
+      "lemmaId": "long_time",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "long_time_phrase",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Давно"
+        }
+      },
+      "example": "You took a long time recognizing me, didn’t you?",
+      "exampleStart": 1231,
+      "exampleEnd": 1279,
+      "phraseMatch": {
+        "text": "long time",
+        "startInExample": 11,
+        "endInExample": 20
+      },
+      "levelSource": "head_verb_index"
+    },
+    {
+      "word": "looked up",
+      "lemma": "look up",
+      "lemmaId": "look_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Посмотрел вверх"
+        }
+      },
+      "example": "Cat opened his eyes and looked up at him.",
+      "exampleStart": 1026,
+      "exampleEnd": 1067,
+      "phraseMatch": {
+        "text": "looked up",
+        "startInExample": 24,
+        "endInExample": 33
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "luxurious",
       "lemma": "luxurious",
       "lemmaId": "luxurious",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "luxurious_adjective",
       "level": "C1",
-      "ipa": "lʌɡˈʒʊəriəs",
       "translations": {
-        "de": {
-          "translation": "luxuriös"
-        },
-        "es": {
-          "translation": "lujoso"
-        },
         "ru": {
           "translation": "роскошный"
-        },
-        "uk": {
-          "translation": "розкішний"
         }
       },
-      "definition": "extremely comfortable or elegant",
       "example": "”\n\nCat lay back, limp but luxurious, and nodded.",
-      "matchedForm": "luxurious"
+      "exampleStart": 1728,
+      "exampleEnd": 1776,
+      "matchedForm": "luxurious",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.845714,
+      "difficultySource": "zipf"
     },
     {
-      "word": "manner",
-      "lemma": "manner",
-      "lemmaId": "manner",
-      "pos": "noun",
-      "wordKey": "manner_noun",
-      "level": "B2",
-      "ipa": "ˈmænər",
+      "word": "make the best of",
+      "lemma": "make the best of",
+      "lemmaId": "make_the_best_of",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "make_the_best_of_phrase",
+      "level": "B1",
       "translations": {
-        "de": {
-          "translation": "Art und Weise"
-        },
-        "es": {
-          "translation": "manera"
-        },
         "ru": {
-          "translation": "образ"
-        },
-        "uk": {
-          "translation": "спосіб"
+          "translation": "Сделай максимум из этого"
         }
       },
-      "definition": "a way in which something is done",
+      "example": "“We’ll just have to make the best of it,” said Chrestomanci.",
+      "exampleStart": 344,
+      "exampleEnd": 404,
+      "phraseMatch": {
+        "text": "make the best of",
+        "startInExample": 20,
+        "endInExample": 36
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "may as well",
+      "lemma": "may as well",
+      "lemmaId": "may_as_well",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "may_as_well_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Почему бы и"
+        }
+      },
+      "example": "Janet was sure he was going to accuse her of not being Gwendolen, but what he said was, “You may as well hear this too, in order to prevent more accidents.",
+      "exampleStart": 2632,
+      "exampleEnd": 2787,
+      "phraseMatch": {
+        "text": "may as well",
+        "startInExample": 93,
+        "endInExample": 104
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "nodded",
+      "lemma": "nod",
+      "lemmaId": "nod",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "nod_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "кивать"
+        }
+      },
+      "example": "”\n\nCat lay back, limp but luxurious, and nodded.",
+      "exampleStart": 1728,
+      "exampleEnd": 1776,
+      "matchedForm": "nodded",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.791429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "put in",
+      "lemma": "put in",
+      "lemmaId": "put_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "put_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Вставить"
+        }
+      },
       "example": "In some manner and by someone, they were put into that book of matches, and that book I am now going to put in my secret safe, sealed with the strong-est enchantments I know.",
-      "matchedForm": "manner"
+      "exampleStart": 2202,
+      "exampleEnd": 2376,
+      "phraseMatch": {
+        "text": "put in",
+        "startInExample": 104,
+        "endInExample": 110
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "raced",
-      "lemma": "race",
-      "lemmaId": "race",
-      "pos": "verb",
-      "wordKey": "race_verb",
+      "word": "put into",
+      "lemma": "put into",
+      "lemmaId": "put_into",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "put_into_phrasal_verb",
       "level": "B2",
-      "ipa": "reɪst",
       "translations": {
-        "de": {
-          "translation": "rennen"
-        },
-        "es": {
-          "translation": "correr"
-        },
         "ru": {
-          "translation": "мчаться"
-        },
-        "uk": {
-          "translation": "бігти"
+          "translation": "вложён в"
         }
       },
-      "definition": "to move swiftly or quickly",
+      "example": "In some manner and by someone, they were put into that book of matches, and that book I am now going to put in my secret safe, sealed with the strong-est enchantments I know.",
+      "exampleStart": 2202,
+      "exampleEnd": 2376,
+      "phraseMatch": {
+        "text": "put into",
+        "startInExample": 41,
+        "endInExample": 49
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "run along",
+      "lemma": "run along",
+      "lemmaId": "run_along",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "run_along_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Беги"
+        }
+      },
+      "example": "Run along to the speaking tube at the end of the corridor and tell them to send me some brandy and a pot of strong tea.",
+      "exampleStart": 435,
+      "exampleEnd": 554,
+      "phraseMatch": {
+        "text": "Run along",
+        "startInExample": 0,
+        "endInExample": 9
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "soaking wet",
+      "lemma": "soaking wet",
+      "lemmaId": "soaking_wet",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "soaking_wet_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Насквозь промокший"
+        }
+      },
       "example": "”\n\nAs Janet raced away, Cat found himself soaking wet, with water hissing down on him.",
-      "matchedForm": "raced"
-    },
-    {
-      "word": "recognizing",
-      "lemma": "recognize",
-      "lemmaId": "recognize",
-      "pos": "verb",
-      "wordKey": "recognize_verb",
-      "level": "C1",
-      "ipa": "ˈrɛkəɡnaɪz",
-      "translations": {
-        "de": {
-          "translation": "erkennen"
-        },
-        "es": {
-          "translation": "reconocer"
-        },
-        "ru": {
-          "translation": "узнавать"
-        },
-        "uk": {
-          "translation": "впізнавати"
-        }
+      "exampleStart": 554,
+      "exampleEnd": 640,
+      "phraseMatch": {
+        "text": "soaking wet",
+        "startInExample": 42,
+        "endInExample": 53
       },
-      "definition": "to identify someone or something seen before",
-      "example": "You took a long time recognizing me, didn’t you?",
-      "matchedForm": "recognizing"
+      "levelSource": "phrase_fallback"
     },
     {
-      "word": "serious",
-      "lemma": "serious",
-      "lemmaId": "serious",
+      "word": "straightaway",
+      "lemma": "straightaway",
+      "lemmaId": "straightaway",
       "pos": "adjective",
-      "wordKey": "serious_adjective",
-      "level": "B2",
-      "ipa": "ˈsɪəriəs",
+      "source": "word",
+      "wordKey": "straightaway_adjective",
+      "level": "C2",
       "translations": {
-        "de": {
-          "translation": "ernst"
-        },
-        "es": {
-          "translation": "serio"
-        },
         "ru": {
-          "translation": "серьёзный"
-        },
-        "uk": {
-          "translation": "серйозний"
+          "translation": "прямо"
         }
       },
-      "definition": "having a grave or thoughtful character",
-      "example": "” Chrestomanci sat beside the bed, looking very serious.",
-      "matchedForm": "serious"
+      "example": "“But then I didn’t know you straightaway when I saw you, either.",
+      "exampleStart": 1300,
+      "exampleEnd": 1364,
+      "matchedForm": "straightaway",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "shocked",
-      "lemma": "shock",
-      "lemmaId": "shock",
-      "pos": "adjective",
-      "wordKey": "shock_adjective",
+      "word": "stripped off",
+      "lemma": "strip off",
+      "lemmaId": "strip_off",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "strip_off_phrasal_verb",
       "level": "B2",
-      "ipa": "ʃɒkt",
       "translations": {
-        "de": {
-          "translation": "geschockt"
-        },
-        "es": {
-          "translation": "impactado"
-        },
         "ru": {
-          "translation": "потрясенный"
-        },
-        "uk": {
-          "translation": "шокований"
+          "translation": "Раздеты"
         }
       },
-      "definition": "affected by a sudden upsetting or surprising event",
-      "example": "You’ve given him the most appalling shock.",
-      "matchedForm": "shock"
-    },
-    {
-      "word": "soaking",
-      "lemma": "soak",
-      "lemmaId": "soak",
-      "pos": "adjective",
-      "wordKey": "soak_adjective",
-      "level": "B2",
-      "ipa": "ˈsəʊkɪŋ",
-      "translations": {
-        "de": {
-          "translation": "durchnässt"
-        },
-        "es": {
-          "translation": "empapado"
-        },
-        "ru": {
-          "translation": "промокший"
-        },
-        "uk": {
-          "translation": "мокрий"
-        }
-      },
-      "definition": "extremely wet",
-      "example": "”\n\nAs Janet raced away, Cat found himself soaking wet, with water hissing down on him.",
-      "matchedForm": "soaking"
-    },
-    {
-      "word": "spray",
-      "lemma": "spray",
-      "lemmaId": "spray",
-      "pos": "noun",
-      "wordKey": "spray_noun",
-      "level": "B2",
-      "ipa": "spreɪ",
-      "translations": {
-        "de": {
-          "translation": "Sprühnebel"
-        },
-        "es": {
-          "translation": "aspersión"
-        },
-        "ru": {
-          "translation": "брызги"
-        },
-        "uk": {
-          "translation": "пригин"
-        }
-      },
-      "definition": "fine droplets of liquid blown or scattered in the air",
-      "example": "” he said to Janet over his shoulder while he heaved at Cat to keep his head under the spray.",
-      "matchedForm": "spray"
-    },
-    {
-      "word": "strip",
-      "lemma": "strip",
-      "lemmaId": "strip",
-      "pos": "verb",
-      "wordKey": "strip_verb",
-      "level": "B2",
-      "ipa": "strɪp",
-      "translations": {
-        "de": {
-          "translation": "ausziehen"
-        },
-        "es": {
-          "translation": "quitarse"
-        },
-        "ru": {
-          "translation": "раздевать"
-        },
-        "uk": {
-          "translation": "роздягати"
-        }
-      },
-      "definition": "to remove clothes or covering from",
       "example": "But Chrestomanci heaved him out, stripped off his wet clothes, dried him and wrapped him in another towel in no time at all.",
-      "matchedForm": "stripped"
+      "exampleStart": 1458,
+      "exampleEnd": 1582,
+      "phraseMatch": {
+        "text": "stripped off",
+        "startInExample": 33,
+        "endInExample": 45
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "tearing",
-      "lemma": "tear",
-      "lemmaId": "tear",
-      "pos": "verb",
-      "wordKey": "tear_verb",
+      "word": "think out",
+      "lemma": "think out",
+      "lemmaId": "think_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "think_out_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈtɪərɪŋ",
       "translations": {
-        "de": {
-          "translation": "reißen"
-        },
-        "es": {
-          "translation": "romper"
-        },
         "ru": {
-          "translation": "рыдать"
-        },
-        "uk": {
-          "translation": "рвати"
+          "translation": "Подумай"
         }
       },
-      "definition": "to pull apart or into pieces by force",
-      "example": "”\n\nJanet came hurrying in, still tearful, but very thankful to be of use.",
-      "matchedForm": "tearful"
+      "example": "I think you can come out of this water now.",
+      "exampleStart": 1365,
+      "exampleEnd": 1408,
+      "phraseMatch": {
+        "text": "think you can come out",
+        "startInExample": 2,
+        "endInExample": 24
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "tell",
-      "lemma": "tell",
-      "lemmaId": "tell",
-      "pos": "verb",
-      "wordKey": "tell_verb",
+      "word": "tucked in",
+      "lemma": "tuck in",
+      "lemmaId": "tuck_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "tuck_in_phrasal_verb",
       "level": "B2",
-      "ipa": "tɛl",
       "translations": {
-        "de": {
-          "translation": "erzählen"
-        },
-        "es": {
-          "translation": "decir"
-        },
         "ru": {
-          "translation": "сказывать"
-        },
-        "uk": {
-          "translation": "казати"
+          "translation": "Заправлен"
         }
       },
-      "definition": "to inform or narrate",
-      "example": "“You shouldn’t go telling him things like this until the Castle has had time to work on him.",
-      "matchedForm": "telling"
-    },
-    {
-      "word": "tuck",
-      "lemma": "tuck",
-      "lemmaId": "tuck",
-      "pos": "verb",
-      "wordKey": "tuck_verb",
-      "level": "C1",
-      "ipa": "tʌk",
-      "translations": {
-        "de": {
-          "translation": "stecken"
-        },
-        "es": {
-          "translation": "meter"
-        },
-        "ru": {
-          "translation": "заправлять"
-        },
-        "uk": {
-          "translation": "заправляти"
-        }
-      },
-      "definition": "to push or fold clothes or fabric neatly into place",
       "example": "“Up you come,” said Chrestomanci, and carried him again, to the blue velvet bed, and tucked him in it.",
-      "matchedForm": "tucked"
+      "exampleStart": 1608,
+      "exampleEnd": 1710,
+      "phraseMatch": {
+        "text": "tucked him in",
+        "startInExample": 85,
+        "endInExample": 98
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "wriggles",
-      "lemma": "wriggle",
-      "lemmaId": "wriggle",
-      "pos": "verb",
-      "wordKey": "wriggle_verb",
+      "word": "water down",
+      "lemma": "water down",
+      "lemmaId": "water_down",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "water_down_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈrɪɡəl",
       "translations": {
-        "de": {
-          "translation": "zappeln"
-        },
-        "es": {
-          "translation": "retorcerse"
-        },
         "ru": {
-          "translation": "извиваться"
-        },
-        "uk": {
-          "translation": "крутитися"
+          "translation": "Разводить"
         }
       },
-      "definition": "twists and turns with quick movements",
-      "example": "The usually smooth black hair was hanging over his forehead in wriggles, with drips on the ends.",
-      "matchedForm": "wriggles"
+      "example": "”\n\nAs Janet raced away, Cat found himself soaking wet, with water hissing down on him.",
+      "exampleStart": 554,
+      "exampleEnd": 640,
+      "phraseMatch": {
+        "text": "water hissing down",
+        "startInExample": 60,
+        "endInExample": 78
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "work on",
+      "lemma": "work on",
+      "lemmaId": "work_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "work_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Работа над"
+        }
+      },
+      "example": "“You shouldn’t go telling him things like this until the Castle has had time to work on him.",
+      "exampleStart": 116,
+      "exampleEnd": 208,
+      "phraseMatch": {
+        "text": "work on",
+        "startInExample": 80,
+        "endInExample": 87
+      },
+      "levelSource": "dictionary_phrase"
     }
   ]
 }

@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 19,
     "sectionTitle": "Chapter 16",
     "fragmentIndex": 6,
@@ -21,857 +20,584 @@
       "wordCount": 680,
       "uniqueWordCount": 367,
       "paragraphCount": 16,
-      "vocabularyCount": 30,
+      "vocabularyCount": 25,
       "levelDistribution": {
         "A1": 0,
-        "A2": 1,
-        "B1": 0,
-        "B2": 18,
-        "C1": 9,
-        "C2": 2
+        "A2": 3,
+        "B1": 6,
+        "B2": 13,
+        "C1": 0,
+        "C2": 3
       }
     }
   },
   "vocabulary": [
     {
-      "word": "acute",
-      "lemma": "acute",
-      "lemmaId": "acute",
-      "pos": "adjective",
-      "wordKey": "acute_adjective",
-      "level": "C1",
-      "ipa": "əˈkjuːt",
+      "word": "a good deal",
+      "lemma": "a good deal",
+      "lemmaId": "a_good_deal",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "a_good_deal_phrase",
+      "level": "B1",
       "translations": {
-        "de": {
-          "translation": "akut"
-        },
-        "es": {
-          "translation": "agudo"
-        },
         "ru": {
-          "translation": "острый"
-        },
-        "uk": {
-          "translation": "гострий"
+          "translation": "много, значительно"
         }
       },
-      "definition": "experienced to a severe or intense degree",
-      "example": "the more acutely he was attending to",
-      "exampleStart": 2345,
-      "exampleEnd": 2381,
-      "matchedForm": "acutely"
+      "example": "We would have felt a good deal easier if Cat could have brought himself to tell someone what had happened.",
+      "exampleStart": 2459,
+      "exampleEnd": 2565,
+      "phraseMatch": {
+        "text": "a good deal",
+        "startInExample": 19,
+        "endInExample": 30
+      },
+      "levelSource": "phrase_fallback"
     },
     {
       "word": "acutely",
       "lemma": "acutely",
       "lemmaId": "acutely",
-      "pos": "adverb",
-      "wordKey": "acutely_adverb",
-      "level": "C1",
-      "ipa": "əˈkjuːtli",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "acutely_adjective",
+      "level": "B2",
       "translations": {
-        "de": {
-          "translation": "stark, scharf"
-        },
-        "es": {
-          "translation": "agudamente"
-        },
         "ru": {
           "translation": "остро"
-        },
-        "uk": {
-          "translation": "гостро"
         }
       },
-      "definition": "in a way that shows a perceptive understanding or intense degree of something",
-      "example": "the more acutely he was attending to",
-      "exampleStart": 2345,
-      "exampleEnd": 2381,
-      "matchedForm": "acutely"
+      "example": "Since Cat was fairly clear by now that the vaguer Chrestomanci seemed about something, the more acutely he was attending to it, he was not altogether surprised when Chrestomanci said, “Because of Cat.",
+      "exampleStart": 2258,
+      "exampleEnd": 2458,
+      "matchedForm": "acutely",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.965714,
+      "difficultySource": "zipf"
     },
     {
-      "word": "affair",
-      "lemma": "affair",
-      "lemmaId": "affair",
-      "pos": "noun",
-      "wordKey": "affair_noun",
-      "level": "C1",
-      "ipa": "əˈfeər",
-      "translations": {
-        "de": {
-          "translation": "Angelegenheit"
-        },
-        "es": {
-          "translation": "asunto"
-        },
-        "ru": {
-          "translation": "дело"
-        },
-        "uk": {
-          "translation": "справа"
-        }
-      },
-      "definition": "an event or sequence of events of a specified kind or that has previously been referred to",
-      "example": "during that unfortunate affair of the frog",
-      "exampleStart": 570,
-      "exampleEnd": 612,
-      "matchedForm": "affair"
-    },
-    {
-      "word": "agree",
-      "lemma": "agree",
-      "lemmaId": "agree",
-      "pos": "verb",
-      "wordKey": "agree_verb",
+      "word": "attending to",
+      "lemma": "attend to",
+      "lemmaId": "attend_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "attend_to_phrasal_verb",
       "level": "B2",
-      "ipa": "əˈɡriː",
       "translations": {
-        "de": {
-          "translation": "zustimmen"
-        },
-        "es": {
-          "translation": "estar de acuerdo"
-        },
         "ru": {
-          "translation": "соглашаться"
-        },
-        "uk": {
-          "translation": "погоджуватися"
+          "translation": "Заботится о"
         }
       },
-      "definition": "have the same opinion about something; concur",
-      "example": "” agreed Chrestomanci",
-      "exampleStart": 2985,
-      "exampleEnd": 3006,
-      "matchedForm": "agreed"
+      "example": "Since Cat was fairly clear by now that the vaguer Chrestomanci seemed about something, the more acutely he was attending to it, he was not altogether surprised when Chrestomanci said, “Because of Cat.",
+      "exampleStart": 2258,
+      "exampleEnd": 2458,
+      "phraseMatch": {
+        "text": "attending to",
+        "startInExample": 111,
+        "endInExample": 123
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "apologize",
-      "lemma": "apologize",
-      "lemmaId": "apologize",
-      "pos": "verb",
-      "wordKey": "apologize_verb",
+      "word": "came after",
+      "lemma": "come after",
+      "lemmaId": "come_after",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_after_phrasal_verb",
       "level": "B2",
-      "ipa": "əˈpɒləˌdʒaɪz",
       "translations": {
-        "de": {
-          "translation": "sich entschuldigen"
-        },
-        "es": {
-          "translation": "disculparse"
-        },
         "ru": {
-          "translation": "извиняться"
-        },
-        "uk": {
-          "translation": "вибачатися"
+          "translation": "пришёл после"
         }
       },
-      "definition": "express regret for something that one has done wrong",
-      "example": "“I apologize",
-      "exampleStart": 1463,
-      "exampleEnd": 1475,
-      "matchedForm": "apologize"
+      "example": "And Jennifer, who came after Romillia, is as tough as Gwendolen and has always wished she was an orphan; whereas Queen Caroline, whom Gwendolen displaced, was as miserable as Romillia, and had run away three times already.",
+      "exampleStart": 750,
+      "exampleEnd": 972,
+      "phraseMatch": {
+        "text": "came after",
+        "startInExample": 18,
+        "endInExample": 28
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "attending",
-      "lemma": "attend",
-      "lemmaId": "attend",
-      "pos": "verb",
-      "wordKey": "attend_verb",
+      "word": "came into",
+      "lemma": "come into",
+      "lemmaId": "come_into",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_into_phrasal_verb",
       "level": "B2",
-      "ipa": "əˈtɛndɪŋ",
       "translations": {
-        "de": {
-          "translation": "besuchen"
-        },
-        "es": {
-          "translation": "asistir"
-        },
         "ru": {
-          "translation": "посещать"
-        },
-        "uk": {
-          "translation": "присутній"
+          "translation": "вошёл"
         }
       },
-      "definition": "be present at an event, meeting, or function",
-      "example": "more acutely he was attending to it",
-      "exampleStart": 2349,
-      "exampleEnd": 2384,
-      "matchedForm": "attending"
-    },
-    {
-      "word": "banana",
-      "lemma": "banana",
-      "lemmaId": "banana",
-      "pos": "noun",
-      "wordKey": "banana_noun",
-      "level": "A2",
-      "ipa": "bəˈnɑːnə",
-      "translations": {
-        "de": {
-          "translation": "Banane"
-        },
-        "es": {
-          "translation": "banana"
-        },
-        "ru": {
-          "translation": "банан"
-        },
-        "uk": {
-          "translation": "банан"
-        }
+      "example": "We both got so frightened that we came into this garden and nearly got you and Cat killed.",
+      "exampleStart": 2861,
+      "exampleEnd": 2951,
+      "phraseMatch": {
+        "text": "came into",
+        "startInExample": 34,
+        "endInExample": 43
       },
-      "definition": "a long curved fruit which grows in clusters and has soft pulpy flesh and yellow skin when ripe",
-      "example": "and peeled a banana in a thoughtful",
-      "exampleStart": 3008,
-      "exampleEnd": 3043,
-      "matchedForm": "banana"
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "bone",
-      "lemma": "bone",
-      "lemmaId": "bone",
-      "pos": "verb",
-      "wordKey": "bone_verb",
+      "word": "dawned on",
+      "lemma": "dawn on",
+      "lemmaId": "dawn_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "dawn_on_phrasal_verb",
       "level": "B2",
-      "ipa": "bəʊn",
       "translations": {
-        "de": {
-          "translation": "Knochen"
-        },
-        "es": {
-          "translation": "hueso"
-        },
         "ru": {
-          "translation": "кость"
-        },
-        "uk": {
-          "translation": "кістка"
+          "translation": "Начало"
         }
       },
-      "definition": "any of the pieces of hard, whitish tissue making up the skeleton in humans and other vertebrates",
-      "example": "and threw his bone to the dragon",
-      "exampleStart": 3507,
-      "exampleEnd": 3539,
-      "matchedForm": "bone"
-    },
-    {
-      "word": "bought",
-      "lemma": "buy",
-      "lemmaId": "buy",
-      "pos": "verb",
-      "wordKey": "buy_verb",
-      "level": "B2",
-      "ipa": "bɔːt",
-      "translations": {
-        "de": {
-          "translation": "kaufen"
-        },
-        "es": {
-          "translation": "comprar"
-        },
-        "ru": {
-          "translation": "покупать"
-        },
-        "uk": {
-          "translation": "купувати"
-        }
+      "example": "The truth only dawned on me during that unfortunate affair of the frog, and then of course I took a look at once to see what had happened to Gwendolen and the seven other girls.",
+      "exampleStart": 542,
+      "exampleEnd": 719,
+      "phraseMatch": {
+        "text": "dawned on",
+        "startInExample": 15,
+        "endInExample": 24
       },
-      "definition": "obtain in exchange for payment",
-      "example": "Gwendolen bought some dragons’ blood from him",
-      "exampleStart": 1653,
-      "exampleEnd": 1698,
-      "matchedForm": "bought"
-    },
-    {
-      "word": "change",
-      "lemma": "change",
-      "lemmaId": "change",
-      "pos": "verb",
-      "wordKey": "change_verb",
-      "level": "B2",
-      "ipa": "tʃeɪndʒ",
-      "translations": {
-        "de": {
-          "translation": "Veränderung"
-        },
-        "es": {
-          "translation": "cambio"
-        },
-        "ru": {
-          "translation": "изменение"
-        },
-        "uk": {
-          "translation": "зміна"
-        }
-      },
-      "definition": "the act or process of becoming different",
-      "example": "she worked the change in her bathroom",
-      "exampleStart": 426,
-      "exampleEnd": 463,
-      "matchedForm": "change"
-    },
-    {
-      "word": "cheerful",
-      "lemma": "cheerful",
-      "lemmaId": "cheerful",
-      "pos": "adjective",
-      "wordKey": "cheerful_adjective",
-      "level": "B2",
-      "ipa": "ˈtʃɪərfʊl",
-      "translations": {
-        "de": {
-          "translation": "fröhlich"
-        },
-        "es": {
-          "translation": "alegre"
-        },
-        "ru": {
-          "translation": "весёлый"
-        },
-        "uk": {
-          "translation": "веселий"
-        }
-      },
-      "definition": "noticeably happy and optimistic",
-      "example": "was becoming thoroughly cheerful now she was",
-      "exampleStart": 2747,
-      "exampleEnd": 2791,
-      "matchedForm": "cheerful"
-    },
-    {
-      "word": "decision",
-      "lemma": "decision",
-      "lemmaId": "decision",
-      "pos": "noun",
-      "wordKey": "decision_noun",
-      "level": "B2",
-      "ipa": "dɪˈsɪʒən",
-      "translations": {
-        "de": {
-          "translation": "Entscheidung"
-        },
-        "es": {
-          "translation": "decisión"
-        },
-        "ru": {
-          "translation": "решение"
-        },
-        "uk": {
-          "translation": "рішення"
-        }
-      },
-      "definition": "a conclusion or resolution reached after consideration",
-      "example": "”\n\n“Why was it a troubling decision?",
-      "exampleStart": 1950,
-      "exampleEnd": 1986,
-      "matchedForm": "decision"
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "displaced",
       "lemma": "displace",
       "lemmaId": "displace",
-      "pos": "verb",
-      "wordKey": "displace_verb",
-      "level": "C1",
-      "ipa": "dɪsˈpleɪst",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "displace_adjective",
+      "level": "B1",
       "translations": {
-        "de": {
-          "translation": "verdrängen"
-        },
-        "es": {
-          "translation": "desplazar"
-        },
         "ru": {
           "translation": "вытеснять"
-        },
-        "uk": {
-          "translation": "витісняти"
         }
       },
-      "definition": "take over the place, position, or role of",
-      "example": "whom Gwendolen displaced",
-      "exampleStart": 879,
-      "exampleEnd": 903,
-      "matchedForm": "displaced"
+      "example": "And Jennifer, who came after Romillia, is as tough as Gwendolen and has always wished she was an orphan; whereas Queen Caroline, whom Gwendolen displaced, was as miserable as Romillia, and had run away three times already.",
+      "exampleStart": 750,
+      "exampleEnd": 972,
+      "matchedForm": "displaced",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "dragon",
-      "lemma": "dragon",
-      "lemmaId": "dragon",
-      "pos": "noun",
-      "wordKey": "dragon_noun",
+      "word": "found out",
+      "lemma": "find out",
+      "lemmaId": "find_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "find_out_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈdræɡən",
       "translations": {
-        "de": {
-          "translation": "Drache"
-        },
-        "es": {
-          "translation": "dragón"
-        },
         "ru": {
-          "translation": "дракон"
-        },
-        "uk": {
-          "translation": "дракон"
+          "translation": "Выяснил"
         }
       },
-      "definition": "a mythical monster like a giant reptile, usually breathing fire",
-      "example": "threw his bone to the dragon too",
-      "exampleStart": 3511,
-      "exampleEnd": 3543,
-      "matchedForm": "dragon"
+      "example": "Gwendolen had found out about the mirror, you see, and she worked the change in her bathroom.",
+      "exampleStart": 371,
+      "exampleEnd": 464,
+      "phraseMatch": {
+        "text": "found out",
+        "startInExample": 14,
+        "endInExample": 23
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "element",
-      "lemma": "element",
-      "lemmaId": "element",
-      "pos": "noun",
-      "wordKey": "element_noun",
+      "word": "frightened",
+      "lemma": "frighten",
+      "lemmaId": "frighten",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "frighten_adjective",
       "level": "B2",
-      "ipa": "ˈɛlɪmənt",
       "translations": {
-        "de": {
-          "translation": "Element"
-        },
-        "es": {
-          "translation": "elemento"
-        },
         "ru": {
-          "translation": "элемент"
-        },
-        "uk": {
-          "translation": "елемент"
+          "translation": "пугать"
         }
       },
-      "definition": "the environment or surrounding conditions in which a person or thing is most comfortable or effective",
-      "example": "Gwendolen was in her element.",
-      "exampleStart": 720,
-      "exampleEnd": 749,
-      "matchedForm": "element"
+      "example": "We both got so frightened that we came into this garden and nearly got you and Cat killed.",
+      "exampleStart": 2861,
+      "exampleEnd": 2951,
+      "matchedForm": "frightened",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.98,
+      "difficultySource": "zipf"
     },
     {
-      "word": "extent",
-      "lemma": "extent",
-      "lemmaId": "extent",
-      "pos": "noun",
-      "wordKey": "extent_noun",
-      "level": "C1",
-      "ipa": "ɪkˈstɛnt",
-      "translations": {
-        "de": {
-          "translation": "Ausmaß"
-        },
-        "es": {
-          "translation": "extensión"
-        },
-        "ru": {
-          "translation": "степень"
-        },
-        "uk": {
-          "translation": "ступінь"
-        }
-      },
-      "definition": "the degree to which something has spread; size or scale",
-      "example": "did know the extent of his powers",
-      "exampleStart": 2659,
-      "exampleEnd": 2692,
-      "matchedForm": "extent"
-    },
-    {
-      "word": "government",
-      "lemma": "government",
-      "lemmaId": "government",
-      "pos": "noun",
-      "wordKey": "government_noun",
+      "word": "get out",
+      "lemma": "get out",
+      "lemmaId": "get_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "get_out_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈɡʌvərnmənt",
       "translations": {
-        "de": {
-          "translation": "Regierung"
-        },
-        "es": {
-          "translation": "gobierno"
-        },
         "ru": {
-          "translation": "правительство"
-        },
-        "uk": {
-          "translation": "уряд"
+          "translation": "Выйти"
         }
       },
-      "definition": "the group of people with the authority to govern a country or state",
-      "example": "We’re all Government employees here.",
-      "exampleStart": 3558,
-      "exampleEnd": 3594,
-      "matchedForm": "Government"
+      "example": "And he has to make sure witches don’t get out into worlds where there isn’t so much magic and play havoc there.",
+      "exampleStart": 3711,
+      "exampleEnd": 3822,
+      "phraseMatch": {
+        "text": "get out",
+        "startInExample": 38,
+        "endInExample": 45
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "have a word",
+      "lemma": "have a word",
+      "lemmaId": "have_a_word",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "have_a_word_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Поговори"
+        }
+      },
+      "example": "”\n\n“I’ll go and have a word with him tomorrow,” Bernard said from his hammock.",
+      "exampleStart": 1799,
+      "exampleEnd": 1877,
+      "phraseMatch": {
+        "text": "have a word",
+        "startInExample": 16,
+        "endInExample": 27
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "i’ve on",
+      "lemma": "have on",
+      "lemmaId": "have_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "have_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Я в эфире"
+        }
+      },
+      "example": "He knows I’ve got my eye on him.",
+      "exampleStart": 1918,
+      "exampleEnd": 1950,
+      "phraseMatch": {
+        "text": "I’ve got my eye on",
+        "startInExample": 9,
+        "endInExample": 27
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "havoc",
+      "lemma": "havoc",
+      "lemmaId": "havoc",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "havoc_verb",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "хаос"
+        }
+      },
+      "example": "And he has to make sure witches don’t get out into worlds where there isn’t so much magic and play havoc there.",
+      "exampleStart": 3711,
+      "exampleEnd": 3822,
+      "matchedForm": "havoc",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.86,
+      "difficultySource": "zipf"
     },
     {
       "word": "hereditary",
       "lemma": "hereditary",
       "lemmaId": "hereditary",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "hereditary_adjective",
       "level": "C2",
-      "ipa": "həˈrɛdɪtəri",
       "translations": {
-        "de": {
-          "translation": "erblich"
-        },
-        "es": {
-          "translation": "hereditario"
-        },
         "ru": {
           "translation": "наследственный"
-        },
-        "uk": {
-          "translation": "спадковий"
         }
       },
-      "definition": "conferred by or based on inheritance",
       "example": "“Isn’t it a hereditary title then?",
       "exampleStart": 3448,
       "exampleEnd": 3482,
-      "matchedForm": "hereditary"
+      "matchedForm": "hereditary",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.862857,
+      "difficultySource": "zipf"
     },
     {
-      "word": "illegal",
-      "lemma": "illegal",
-      "lemmaId": "illegal",
-      "pos": "adjective",
-      "wordKey": "illegal_adjective",
+      "word": "looked at",
+      "lemma": "look at",
+      "lemmaId": "look_at",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_at_phrasal_verb",
       "level": "B2",
-      "ipa": "ɪˈliːɡəl",
       "translations": {
-        "de": {
-          "translation": "illegal"
-        },
-        "es": {
-          "translation": "ilegal"
-        },
         "ru": {
-          "translation": "незаконный"
-        },
-        "uk": {
-          "translation": "нелегальний"
+          "translation": "смотрел"
         }
       },
-      "definition": "contrary to or forbidden by law",
-      "example": "“And it is illegal",
-      "exampleStart": 1770,
-      "exampleEnd": 1788,
-      "matchedForm": "illegal"
+      "example": "”\n\nJanet took her face out of the handkerchief and looked at him in large indignation.",
+      "exampleStart": 1066,
+      "exampleEnd": 1152,
+      "phraseMatch": {
+        "text": "looked at",
+        "startInExample": 51,
+        "endInExample": 60
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "indignation",
-      "lemma": "indignation",
-      "lemmaId": "indignation",
+      "word": "needn’t",
+      "lemma": "needn't",
+      "lemmaId": "neednt",
       "pos": "noun",
-      "wordKey": "indignation_noun",
-      "level": "C1",
-      "ipa": "ˌɪndɪɡˈneɪʃən",
+      "source": "word",
+      "wordKey": "neednt_noun",
+      "level": "A2",
       "translations": {
-        "de": {
-          "translation": "Empörung"
-        },
-        "es": {
-          "translation": "indignación"
-        },
         "ru": {
-          "translation": "возмущение"
-        },
-        "uk": {
-          "translation": "обурення"
+          "translation": "необязательно"
         }
       },
-      "definition": "anger or annoyance provoked by what is perceived as unfair treatment",
-      "example": "and looked at him in large indignation",
-      "exampleStart": 1113,
-      "exampleEnd": 1151,
-      "matchedForm": "indignation"
+      "example": "And you needn’t laugh!",
+      "exampleStart": 1404,
+      "exampleEnd": 1426,
+      "matchedForm": "needn’t",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "match",
-      "lemma": "match",
-      "lemmaId": "match",
-      "pos": "verb",
-      "wordKey": "match_verb",
-      "level": "C1",
-      "ipa": "mætʃ",
+      "word": "nodded",
+      "lemma": "nod",
+      "lemmaId": "nod",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "nod_adjective",
+      "level": "A2",
       "translations": {
-        "de": {
-          "translation": "Gegenstück"
-        },
-        "es": {
-          "translation": "igual"
-        },
         "ru": {
-          "translation": "ровня"
-        },
-        "uk": {
-          "translation": "підхожий"
+          "translation": "кивать"
         }
       },
-      "definition": "a person or thing equal to another in quality or strength",
-      "example": "more than a match here for people",
-      "exampleStart": 3098,
-      "exampleEnd": 3131,
-      "matchedForm": "match"
-    },
-    {
-      "word": "mirror",
-      "lemma": "mirror",
-      "lemmaId": "mirror",
-      "pos": "verb",
-      "wordKey": "mirror_verb",
-      "level": "B2",
-      "ipa": "ˈmɪrə",
-      "translations": {
-        "de": {
-          "translation": "Spiegel"
-        },
-        "es": {
-          "translation": "espejo"
-        },
-        "ru": {
-          "translation": "зеркало"
-        },
-        "uk": {
-          "translation": "дзеркало"
-        }
-      },
-      "definition": "a reflective surface, typically of glass coated with a metal amalgam",
-      "example": "Gwendolen had found out about the mirror",
-      "exampleStart": 371,
-      "exampleEnd": 411,
-      "matchedForm": "mirror"
+      "example": "Janet nodded, quite firmly, though most of her face was still hidden in the handkerchief.",
+      "exampleStart": 160,
+      "exampleEnd": 249,
+      "matchedForm": "nodded",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.791429,
+      "difficultySource": "zipf"
     },
     {
       "word": "outrageously",
       "lemma": "outrageously",
       "lemmaId": "outrageously",
-      "pos": "adverb",
-      "wordKey": "outrageously_adverb",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "outrageously_adjective",
       "level": "C2",
-      "ipa": "aʊtˈreɪdʒəsli",
       "translations": {
-        "de": {
-          "translation": "skandalös"
-        },
-        "es": {
-          "translation": "escandalosamente"
-        },
         "ru": {
           "translation": "возмутительно"
-        },
-        "uk": {
-          "translation": "обурливо"
         }
       },
-      "definition": "in a shockingly bad or excessive manner",
-      "example": "”\n\n“He’s asking outrageously much",
+      "example": "”\n\n“He’s asking outrageously much,” said Millie.",
       "exampleStart": 1721,
-      "exampleEnd": 1754,
-      "matchedForm": "outrageously"
+      "exampleEnd": 1769,
+      "matchedForm": "outrageously",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "post",
-      "lemma": "post",
-      "lemmaId": "post",
-      "pos": "verb",
-      "wordKey": "post_verb",
+      "word": "run away",
+      "lemma": "run away",
+      "lemmaId": "run_away",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "run_away_phrasal_verb",
       "level": "B2",
-      "ipa": "pəʊst",
       "translations": {
-        "de": {
-          "translation": "Posten"
-        },
-        "es": {
-          "translation": "puesto"
-        },
         "ru": {
-          "translation": "должность"
-        },
-        "uk": {
-          "translation": "посада"
+          "translation": "Беги"
         }
       },
-      "definition": "a position of duty or employment",
-      "example": "”\n\n“Post?",
-      "exampleStart": 3425,
-      "exampleEnd": 3434,
-      "matchedForm": "Post"
+      "example": "And Jennifer, who came after Romillia, is as tough as Gwendolen and has always wished she was an orphan; whereas Queen Caroline, whom Gwendolen displaced, was as miserable as Romillia, and had run away three times already.",
+      "exampleStart": 750,
+      "exampleEnd": 972,
+      "phraseMatch": {
+        "text": "run away",
+        "startInExample": 193,
+        "endInExample": 201
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "powers",
-      "lemma": "power",
-      "lemmaId": "power",
-      "pos": "verb",
-      "wordKey": "power_verb",
-      "level": "C1",
-      "ipa": "ˈpaʊəz",
+      "word": "searchingly",
+      "lemma": "searchingly",
+      "lemmaId": "searchingly",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "searchingly_adverb",
+      "level": "C2",
       "translations": {
-        "de": {
-          "translation": "Kräfte"
-        },
-        "es": {
-          "translation": "poderes"
-        },
         "ru": {
-          "translation": "силы"
-        },
-        "uk": {
-          "translation": "сили"
+          "translation": "поисковый"
         }
       },
-      "definition": "the capacity or ability to do something or act in a particular way",
-      "example": "the extent of his powers after all",
-      "exampleStart": 2668,
-      "exampleEnd": 2702,
-      "matchedForm": "powers"
+      "example": "” Chrestomanci asked, looking searchingly at Janet over the chicken leg he was eating.",
+      "exampleStart": 72,
+      "exampleEnd": 158,
+      "matchedForm": "searchingly",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "staff",
-      "lemma": "staff",
-      "lemmaId": "staff",
-      "pos": "verb",
-      "wordKey": "staff_verb",
+      "word": "speak of",
+      "lemma": "speak of",
+      "lemmaId": "speak_of",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "speak_of_phrasal_verb",
       "level": "B2",
-      "ipa": "stɑːf",
       "translations": {
-        "de": {
-          "translation": "Personal"
-        },
-        "es": {
-          "translation": "personal"
-        },
         "ru": {
-          "translation": "персонал"
-        },
-        "uk": {
-          "translation": "персонал"
+          "translation": "говорю о"
         }
       },
-      "definition": "all the people employed by a particular organization",
-      "example": "And we’re the staff that helps him.",
-      "exampleStart": 3839,
-      "exampleEnd": 3874,
-      "matchedForm": "staff"
+      "example": "And you wouldn’t believe the troubles Cat got into because of it—not to speak of me owing Mr.",
+      "exampleStart": 1240,
+      "exampleEnd": 1333,
+      "phraseMatch": {
+        "text": "speak of",
+        "startInExample": 72,
+        "endInExample": 80
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "suit",
-      "lemma": "suit",
-      "lemmaId": "suit",
-      "pos": "verb",
-      "wordKey": "suit_verb",
+      "word": "to speak of",
+      "lemma": "to speak of",
+      "lemmaId": "to_speak_of",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "to_speak_of_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "К тому же"
+        }
+      },
+      "example": "And you wouldn’t believe the troubles Cat got into because of it—not to speak of me owing Mr.",
+      "exampleStart": 1240,
+      "exampleEnd": 1333,
+      "phraseMatch": {
+        "text": "to speak of",
+        "startInExample": 69,
+        "endInExample": 80
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "vaguer",
+      "lemma": "vaguer",
+      "lemmaId": "vaguer",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "vaguer_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "расплывчатый"
+        }
+      },
+      "example": "Since Cat was fairly clear by now that the vaguer Chrestomanci seemed about something, the more acutely he was attending to it, he was not altogether surprised when Chrestomanci said, “Because of Cat.",
+      "exampleStart": 2258,
+      "exampleEnd": 2458,
+      "matchedForm": "vaguer",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "vaguest",
+      "lemma": "vaguest",
+      "lemmaId": "vaguest",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "vaguest_noun",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "туманный"
+        }
+      },
+      "example": "This gave him an excuse to turn Cat’s way and stare, in his vaguest way, into the air above Cat’s head.",
+      "exampleStart": 2154,
+      "exampleEnd": 2257,
+      "matchedForm": "vaguest",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "worked in",
+      "lemma": "work in",
+      "lemmaId": "work_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "work_in_phrasal_verb",
       "level": "B2",
-      "ipa": "suːt",
       "translations": {
-        "de": {
-          "translation": "passen"
-        },
-        "es": {
-          "translation": "quedar bien"
-        },
         "ru": {
-          "translation": "подходить"
-        },
-        "uk": {
-          "translation": "підходити"
+          "translation": "работал в"
         }
       },
-      "definition": "be convenient or acceptable to",
-      "example": "They were all much better suited",
-      "exampleStart": 1014,
-      "exampleEnd": 1046,
-      "matchedForm": "suited"
-    },
-    {
-      "word": "tossed",
-      "lemma": "toss",
-      "lemmaId": "toss",
-      "pos": "verb",
-      "wordKey": "toss_verb",
-      "level": "B2",
-      "ipa": "tɒst",
-      "translations": {
-        "de": {
-          "translation": "werfen"
-        },
-        "es": {
-          "translation": "lanzar"
-        },
-        "ru": {
-          "translation": "бросать"
-        },
-        "uk": {
-          "translation": "кидати"
-        }
+      "example": "Gwendolen had found out about the mirror, you see, and she worked the change in her bathroom.",
+      "exampleStart": 371,
+      "exampleEnd": 464,
+      "phraseMatch": {
+        "text": "worked the change in",
+        "startInExample": 59,
+        "endInExample": 79
       },
-      "definition": "throw something lightly or casually",
-      "example": "Chrestomanci tossed his chicken bone to the",
-      "exampleStart": 2015,
-      "exampleEnd": 2058,
-      "matchedForm": "tossed"
-    },
-    {
-      "word": "troubling",
-      "lemma": "trouble",
-      "lemmaId": "trouble",
-      "pos": "verb",
-      "wordKey": "trouble_verb",
-      "level": "C1",
-      "ipa": "ˈtrʌblɪŋ",
-      "translations": {
-        "de": {
-          "translation": "beunruhigend"
-        },
-        "es": {
-          "translation": "preocupante"
-        },
-        "ru": {
-          "translation": "тревожный"
-        },
-        "uk": {
-          "translation": "турботливий"
-        }
-      },
-      "definition": "causing distress or worry",
-      "example": "”\n\n“Why was it a troubling decision?",
-      "exampleStart": 1950,
-      "exampleEnd": 1986,
-      "matchedForm": "troubling"
-    },
-    {
-      "word": "wiped",
-      "lemma": "wipe",
-      "lemmaId": "wipe",
-      "pos": "verb",
-      "wordKey": "wipe_verb",
-      "level": "B2",
-      "ipa": "waɪpt",
-      "translations": {
-        "de": {
-          "translation": "abwischen"
-        },
-        "es": {
-          "translation": "limpiar"
-        },
-        "ru": {
-          "translation": "вытирать"
-        },
-        "uk": {
-          "translation": "витирати"
-        }
-      },
-      "definition": "clean or dry (something) by rubbing its surface with a cloth or one's hand",
-      "example": "dragon and slowly wiped his fingers on",
-      "exampleStart": 2059,
-      "exampleEnd": 2097,
-      "matchedForm": "wiped"
+      "levelSource": "dictionary_phrase"
     }
   ]
 }

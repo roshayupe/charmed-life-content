@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 16,
     "sectionTitle": "Chapter 13",
     "fragmentIndex": 1,
@@ -24,752 +23,626 @@
       "vocabularyCount": 27,
       "levelDistribution": {
         "A1": 0,
-        "A2": 0,
-        "B1": 0,
-        "B2": 2,
-        "C1": 19,
-        "C2": 6
+        "A2": 3,
+        "B1": 8,
+        "B2": 10,
+        "C1": 4,
+        "C2": 2
       }
     }
   },
   "vocabulary": [
     {
-      "word": "banned",
-      "lemma": "banned",
-      "lemmaId": "banned",
-      "pos": "adjective",
-      "wordKey": "banned_adjective",
-      "level": "B2",
-      "ipa": "bænd",
+      "word": "broadest",
+      "lemma": "broadest",
+      "lemmaId": "broadest",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "broadest_noun",
+      "level": "B1",
       "translations": {
-        "de": {
-          "translation": "verboten"
-        },
-        "es": {
-          "translation": "prohibido"
-        },
         "ru": {
-          "translation": "запрещённый"
-        },
-        "uk": {
-          "translation": "заборонений"
+          "translation": "широкий"
         }
       },
-      "definition": "Officially or legally prohibited.",
-      "example": "You know that it is banned.",
-      "matchedForm": "banned"
+      "example": "The best and easiest way, the broadest Gateway to Elsewhere, if I may put it like that, is a certain enclosed garden in the grounds of this said Castle.",
+      "exampleStart": 3510,
+      "exampleEnd": 3662,
+      "matchedForm": "broadest",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "call it",
+      "lemma": "call it",
+      "lemmaId": "call_it",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "call_it_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Позовите"
+        }
+      },
+      "example": "You may call it prudent of him.",
+      "exampleStart": 991,
+      "exampleEnd": 1022,
+      "phraseMatch": {
+        "text": "call it",
+        "startInExample": 8,
+        "endInExample": 15
+      },
+      "levelSource": "phrase_fallback"
     },
     {
       "word": "clique",
       "lemma": "clique",
       "lemmaId": "clique",
       "pos": "noun",
+      "source": "word",
       "wordKey": "clique_noun",
       "level": "C1",
-      "ipa": "kliːk",
       "translations": {
-        "de": {
-          "translation": "Klientel"
-        },
-        "es": {
-          "translation": "clique"
-        },
         "ru": {
           "translation": "клика"
-        },
-        "uk": {
-          "translation": "кліка"
         }
       },
-      "definition": "A small exclusive group of people.",
-      "example": "There is a group, a clique, a collection of people.",
-      "matchedForm": "clique"
+      "example": "There is a group, a clique, a collection of people, headed by the Master of the Castle, who are behaving very selfishly in connection with witchcraft.",
+      "exampleStart": 2370,
+      "exampleEnd": 2520,
+      "matchedForm": "clique",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.96,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "come in",
+      "lemma": "come in",
+      "lemmaId": "come_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Входите"
+        }
+      },
+      "example": "And that is where you come in, Young Chant.",
+      "exampleStart": 3466,
+      "exampleEnd": 3509,
+      "phraseMatch": {
+        "text": "come in",
+        "startInExample": 22,
+        "endInExample": 29
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "crux",
       "lemma": "crux",
       "lemmaId": "crux",
       "pos": "noun",
+      "source": "word",
       "wordKey": "crux_noun",
       "level": "C2",
-      "ipa": "krʌks",
       "translations": {
-        "de": {
-          "translation": "Kernpunkt"
-        },
-        "es": {
-          "translation": "la esencia"
-        },
         "ru": {
-          "translation": "суть"
-        },
-        "uk": {
-          "translation": "суть"
+          "translation": "хрустящий"
         }
       },
-      "definition": "The most important or decisive point.",
-      "example": "That is the crux of the matter.",
-      "matchedForm": "crux"
+      "example": "That is the crux of the matter: the ways to other worlds.",
+      "exampleStart": 3361,
+      "exampleEnd": 3418,
+      "matchedForm": "crux",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.988571,
+      "difficultySource": "zipf"
     },
     {
       "word": "disdain",
       "lemma": "disdain",
       "lemmaId": "disdain",
-      "pos": "phrase",
-      "wordKey": "disdain_phrase",
-      "level": "C1",
-      "ipa": "dɪsˈdeɪn",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "disdain_noun",
+      "level": "B1",
       "translations": {
-        "de": {
-          "translation": "Verachtung"
-        },
-        "es": {
-          "translation": "desdén"
-        },
         "ru": {
-          "translation": "презрение"
-        },
-        "uk": {
-          "translation": "зневага"
+          "translation": "пренебрежение"
         }
       },
-      "definition": "The feeling that someone or something is unworthy of respect.",
-      "example": "Whose name I disdain to say.",
-      "matchedForm": "disdain"
+      "example": "The Person Who Inhabits That Castle Yonder, whose name I disdain to say, signs his name under unbreakable protections.",
+      "exampleStart": 872,
+      "exampleEnd": 990,
+      "matchedForm": "disdain",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.908571,
+      "difficultySource": "zipf"
     },
     {
-      "word": "exotic suppliers",
-      "lemma": "exotic suppliers",
-      "lemmaId": "exotic_suppliers",
-      "pos": "phrase",
-      "wordKey": "exotic_suppliers_phrase",
-      "level": "C2",
-      "ipa": "ɪɡˈzɒtɪk səˈplaɪəz",
+      "word": "endanger",
+      "lemma": "endanger",
+      "lemmaId": "endanger",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "endanger_verb",
+      "level": "B2",
       "translations": {
-        "de": {
-          "translation": "exotische Lieferanten"
-        },
-        "es": {
-          "translation": "proveedores exóticos"
-        },
         "ru": {
-          "translation": "экзотические поставщики"
-        },
-        "uk": {
-          "translation": "екзотичні постачальники"
+          "translation": "подвергать опасности"
         }
       },
-      "definition": "Suppliers that are unusual or foreign, often rare or highly sought after.",
-      "example": "Our exotic suppliers have to endanger themselves to get it for us.",
-      "phraseMatch": {
-        "text": "exotic suppliers",
-        "startInExample": 4,
-        "endInExample": 20
-      }
+      "example": "An ordinary necromancer like myself can only get it at great risk and expense, and our exotic suppliers have to endanger themselves to get it for us.",
+      "exampleStart": 2984,
+      "exampleEnd": 3133,
+      "matchedForm": "endanger",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.937143,
+      "difficultySource": "zipf"
     },
     {
-      "word": "forbidden to enter",
-      "lemma": "forbidden to enter",
-      "lemmaId": "forbidden_to_enter",
-      "pos": "phrase",
-      "wordKey": "forbidden_to_enter_phrase",
-      "level": "C1",
-      "ipa": "fəˈbɪdn tuː ˈɛntə",
+      "word": "find out",
+      "lemma": "find out",
+      "lemmaId": "find_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "find_out_phrasal_verb",
+      "level": "B2",
       "translations": {
-        "de": {
-          "translation": "verboten einzutreten"
-        },
-        "es": {
-          "translation": "prohibido entrar"
-        },
         "ru": {
-          "translation": "запрещено входить"
-        },
-        "uk": {
-          "translation": "заборонено входити"
+          "translation": "Узнайте"
         }
       },
-      "definition": "Not allowed to go into a place.",
-      "example": "You have been forbidden to enter it.",
+      "example": "”\n\nJanet had to try another way to find out what he was talking about.",
+      "exampleStart": 1456,
+      "exampleEnd": 1526,
       "phraseMatch": {
-        "text": "forbidden to enter",
-        "startInExample": 14,
-        "endInExample": 32
-      }
+        "text": "find out",
+        "startInExample": 35,
+        "endInExample": 43
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "frizzy",
       "lemma": "frizzy",
       "lemmaId": "frizzy",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "frizzy_adjective",
       "level": "C1",
-      "ipa": "ˈfrɪzi",
       "translations": {
-        "de": {
-          "translation": "kraus"
-        },
-        "es": {
-          "translation": "encrespado"
-        },
         "ru": {
-          "translation": "кудрявый"
-        },
-        "uk": {
-          "translation": "кудлатий"
+          "translation": "фризовый"
         }
       },
-      "definition": "Characterised by tightly curled hair.",
-      "example": "He thought, smoothing his frizzy wings of hair.",
-      "matchedForm": "frizzy"
+      "example": "” He thought, smoothing his frizzy wings of hair, as his habit was.",
+      "exampleStart": 1976,
+      "exampleEnd": 2043,
+      "matchedForm": "frizzy",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "gateway to elsewhere",
-      "lemma": "gateway to elsewhere",
-      "lemmaId": "gateway_to_elsewhere",
+      "word": "get it",
+      "lemma": "get it",
+      "lemmaId": "get_it",
       "pos": "phrase",
-      "wordKey": "gateway_to_elsewhere_phrase",
-      "level": "C2",
-      "ipa": "ˈɡeɪtweɪ tuː ɛlsˈwɛə",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "get_it_phrase",
+      "level": "B1",
       "translations": {
-        "de": {
-          "translation": "Tor zu einem anderen Ort"
-        },
-        "es": {
-          "translation": "puerta a otro lugar"
-        },
         "ru": {
-          "translation": "врата в другое место"
-        },
-        "uk": {
-          "translation": "ворота в інші світи"
+          "translation": "Возьми"
         }
       },
-      "definition": "A figurative or literal entrance to another place or realm.",
-      "example": "The broadest Gateway to Elsewhere.",
+      "example": "An ordinary necromancer like myself can only get it at great risk and expense, and our exotic suppliers have to endanger themselves to get it for us.",
+      "exampleStart": 2984,
+      "exampleEnd": 3133,
       "phraseMatch": {
-        "text": "Gateway to Elsewhere",
+        "text": "get it",
+        "startInExample": 45,
+        "endInExample": 51
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "go about",
+      "lemma": "go about",
+      "lemmaId": "go_about",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_about_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Иди"
+        }
+      },
+      "example": "Now—as to explaining to Young Chant—how shall I best go about it?",
+      "exampleStart": 1911,
+      "exampleEnd": 1976,
+      "phraseMatch": {
+        "text": "go about",
+        "startInExample": 53,
+        "endInExample": 61
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "goes for",
+      "lemma": "go for",
+      "lemmaId": "go_for",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_for_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Идёт"
+        }
+      },
+      "example": "And the same goes for almost any product from another world.",
+      "exampleStart": 3134,
+      "exampleEnd": 3194,
+      "phraseMatch": {
+        "text": "goes for",
         "startInExample": 13,
-        "endInExample": 33
-      }
+        "endInExample": 21
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "hear things about someone",
-      "lemma": "hear things about someone",
-      "lemmaId": "hear_things_about_someone",
-      "pos": "phrase",
-      "wordKey": "hear_things_about_someone_phrase",
-      "level": "C1",
-      "ipa": "ˈhɪə ˈθɪŋz əˈbaʊt ˈsʌmwʌn",
+      "word": "hands on",
+      "lemma": "hand on",
+      "lemmaId": "hand_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "hand_on_phrasal_verb",
+      "level": "B2",
       "translations": {
-        "de": {
-          "translation": "Gerüchte über jemanden hören"
-        },
-        "es": {
-          "translation": "escuchar cosas sobre alguien"
-        },
         "ru": {
-          "translation": "слышать что-то о ком-то"
-        },
-        "uk": {
-          "translation": "чути про когось"
+          "translation": "Практическая работа"
         }
       },
-      "definition": "To receive information or rumors about a person.",
-      "example": "I’ve been hearing things about you in the village."
-    },
-    {
-      "word": "looming disaster",
-      "lemma": "looming disaster",
-      "lemmaId": "looming_disaster",
-      "pos": "phrase",
-      "wordKey": "looming_disaster_phrase",
-      "level": "C1",
-      "ipa": "ˈluːmɪŋ dɪˈzɑːstə",
-      "translations": {
-        "de": {
-          "translation": "drohende Katastrophe"
-        },
-        "es": {
-          "translation": "desastre inminente"
-        },
-        "ru": {
-          "translation": "надвигающаяся катастрофа"
-        },
-        "uk": {
-          "translation": "нависаюча катастрофа"
-        }
-      },
-      "definition": "An impending or threatening catastrophe.",
-      "example": "A looming disaster to ordinary people.",
+      "example": "” He put his hands on Janet’s shoulders and kissed her.",
+      "exampleStart": 150,
+      "exampleEnd": 205,
       "phraseMatch": {
-        "text": "looming disaster",
-        "startInExample": 2,
-        "endInExample": 18
-      }
+        "text": "hands on",
+        "startInExample": 13,
+        "endInExample": 21
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "loose lips",
-      "lemma": "loose lips",
-      "lemmaId": "loose_lips",
+      "word": "i fear",
+      "lemma": "i fear",
+      "lemmaId": "i_fear",
       "pos": "phrase",
-      "wordKey": "loose_lips_phrase",
-      "level": "C1",
-      "ipa": "luːs lɪps",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "i_fear_phrase",
+      "level": "B1",
       "translations": {
-        "de": {
-          "translation": "verräterische Äußerungen"
-        },
-        "es": {
-          "translation": "boca floja"
-        },
         "ru": {
-          "translation": "разболтать"
-        },
-        "uk": {
-          "translation": "розпускати плітки"
+          "translation": "Я боюсь"
         }
       },
-      "definition": "Saying secrets or talking too much (idiomatic, context inferred).",
-      "example": "I’ve been hearing things about you in the village."
-    },
-    {
-      "word": "mark this well",
-      "lemma": "mark this well",
-      "lemmaId": "mark_this_well",
-      "pos": "phrase",
-      "wordKey": "mark_this_well_phrase",
-      "level": "C2",
-      "ipa": "mɑːk ðɪs wɛl",
-      "translations": {
-        "de": {
-          "translation": "merke dir das gut"
-        },
-        "es": {
-          "translation": "tenlo bien en cuenta"
-        },
-        "ru": {
-          "translation": "обрати на это внимание"
-        },
-        "uk": {
-          "translation": "запам'ятай це добре"
-        }
-      },
-      "definition": "Pay close attention to this point.",
-      "example": "Mark this well, Young Chant.",
+      "example": "But I fear it necessitates our using Plan Two.",
+      "exampleStart": 1023,
+      "exampleEnd": 1069,
       "phraseMatch": {
-        "text": "Mark this well",
-        "startInExample": 0,
-        "endInExample": 14
-      }
+        "text": "I fear",
+        "startInExample": 4,
+        "endInExample": 10
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "i’ll tell you",
+      "lemma": "i’ll tell you",
+      "lemmaId": "ill_tell_you",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "ill_tell_you_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Я расскажу тебе"
+        }
+      },
+      "example": "And I’ll tell you why not, young Eric.",
+      "exampleStart": 3244,
+      "exampleEnd": 3282,
+      "phraseMatch": {
+        "text": "I’ll tell you",
+        "startInExample": 4,
+        "endInExample": 17
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "knocking over",
+      "lemma": "knock over",
+      "lemmaId": "knock_over",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "knock_over_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Опрокидывание"
+        }
+      },
+      "example": "Janet started backwards, knocking her hat over one ear.",
+      "exampleStart": 206,
+      "exampleEnd": 261,
+      "phraseMatch": {
+        "text": "knocking her hat over",
+        "startInExample": 25,
+        "endInExample": 46
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "like that",
+      "lemma": "like that",
+      "lemmaId": "like_that",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "like_that_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Вот так"
+        }
+      },
+      "example": "The best and easiest way, the broadest Gateway to Elsewhere, if I may put it like that, is a certain enclosed garden in the grounds of this said Castle.",
+      "exampleStart": 3510,
+      "exampleEnd": 3662,
+      "phraseMatch": {
+        "text": "like that",
+        "startInExample": 77,
+        "endInExample": 86
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "looming",
+      "lemma": "loom",
+      "lemmaId": "loom",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "loom_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "ткацкий станок"
+        }
+      },
+      "example": "They are keeping all the best things to themselves, which of course makes them very dangerous—a threat to all witches, and a looming disaster to ordinary people.",
+      "exampleStart": 2521,
+      "exampleEnd": 2682,
+      "matchedForm": "looming",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.905714,
+      "difficultySource": "zipf"
     },
     {
       "word": "necessitates",
-      "lemma": "necessitates",
-      "lemmaId": "necessitates",
+      "lemma": "necessitate",
+      "lemmaId": "necessitate",
       "pos": "verb",
-      "wordKey": "necessitates_verb",
-      "level": "C1",
-      "ipa": "nɪˈsɛsɪteɪts",
+      "source": "word",
+      "wordKey": "necessitate_verb",
+      "level": "C2",
       "translations": {
-        "de": {
-          "translation": "erfordert"
-        },
-        "es": {
-          "translation": "requiere"
-        },
         "ru": {
-          "translation": "требует"
-        },
-        "uk": {
-          "translation": "передбачає"
+          "translation": "требовать"
         }
       },
-      "definition": "Makes something necessary.",
-      "example": "I fear it necessitates our using Plan Two.",
-      "matchedForm": "necessitates"
+      "example": "But I fear it necessitates our using Plan Two.",
+      "exampleStart": 1023,
+      "exampleEnd": 1069,
+      "matchedForm": "necessitates",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "pompous",
-      "lemma": "pompous",
-      "lemmaId": "pompous",
-      "pos": "adjective",
-      "wordKey": "pompous_adjective",
-      "level": "C1",
-      "ipa": "ˈpɒmpəs",
+      "word": "opened up",
+      "lemma": "open up",
+      "lemmaId": "open_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "open_up_phrasal_verb",
+      "level": "B2",
       "translations": {
-        "de": {
-          "translation": "pompös"
-        },
-        "es": {
-          "translation": "pomposo"
-        },
         "ru": {
-          "translation": "помпезный"
-        },
-        "uk": {
-          "translation": "помпезний"
+          "translation": "Открыли"
         }
       },
-      "definition": "Affectedly grand or self-important.",
-      "example": "Mr. Henry Nostrum rolled pompously to meet them.",
-      "matchedForm": "pompous"
+      "example": "We want them opened up, made free to everyone.",
+      "exampleStart": 3419,
+      "exampleEnd": 3465,
+      "phraseMatch": {
+        "text": "opened up",
+        "startInExample": 13,
+        "endInExample": 22
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "pompously",
       "lemma": "pompously",
       "lemmaId": "pompously",
       "pos": "adverb",
+      "source": "word",
       "wordKey": "pompously_adverb",
       "level": "C1",
-      "ipa": "ˈpɒmpəsli",
       "translations": {
-        "de": {
-          "translation": "pompös"
-        },
-        "es": {
-          "translation": "pomposamente"
-        },
         "ru": {
           "translation": "помпезно"
-        },
-        "uk": {
-          "translation": "помпезно"
         }
       },
-      "definition": "In a way that is grand, self-important, or overly formal.",
-      "example": "Mr. Henry Nostrum rolled pompously to meet them.",
-      "matchedForm": "pompously"
+      "example": "Henry Nostrum rolled pompously to meet them.",
+      "exampleStart": 81,
+      "exampleEnd": 125,
+      "matchedForm": "pompously",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "pompously to meet",
-      "lemma": "pompously to meet",
-      "lemmaId": "pompously_to_meet",
-      "pos": "phrase",
-      "wordKey": "pompously_to_meet_phrase",
-      "level": "C1",
-      "ipa": "ˈpɒmpəsli tuː miːt",
-      "translations": {
-        "de": {
-          "translation": "pompös treffen"
-        },
-        "es": {
-          "translation": "recibir pomposamente"
-        },
-        "ru": {
-          "translation": "помпезно встретить"
-        },
-        "uk": {
-          "translation": "помпезно зустріти"
-        }
-      },
-      "definition": "To greet someone in a grand or self-important manner.",
-      "example": "Mr. Henry Nostrum rolled pompously to meet them.",
-      "phraseMatch": {
-        "text": "pompously to meet",
-        "startInExample": 25,
-        "endInExample": 42
-      }
-    },
-    {
-      "word": "rendered",
-      "lemma": "rendered",
-      "lemmaId": "rendered",
-      "pos": "verb",
-      "wordKey": "rendered_verb",
-      "level": "C1",
-      "ipa": "ˈrɛndəd",
-      "translations": {
-        "de": {
-          "translation": "geleistet"
-        },
-        "es": {
-          "translation": "prestidado"
-        },
-        "ru": {
-          "translation": "оказаны"
-        },
-        "uk": {
-          "translation": "надано"
-        }
-      },
-      "definition": "Given or provided (usually services).",
-      "example": "Services rendered in the tuition line.",
-      "matchedForm": "rendered"
-    },
-    {
-      "word": "seedy",
-      "lemma": "seedy",
-      "lemmaId": "seedy",
-      "pos": "adjective",
-      "wordKey": "seedy_adjective",
-      "level": "C1",
-      "ipa": "ˈsiːdi",
-      "translations": {
-        "de": {
-          "translation": "schäbig"
-        },
-        "es": {
-          "translation": "desaliñado"
-        },
-        "ru": {
-          "translation": "убогий"
-        },
-        "uk": {
-          "translation": "помийний"
-        }
-      },
-      "definition": "Looking disreputable or shabby.",
-      "example": "Mr. Nostrum’s seedy, shabby look.",
-      "matchedForm": "seedy"
-    },
-    {
-      "word": "selfishly",
-      "lemma": "selfishly",
-      "lemmaId": "selfishly",
-      "pos": "adverb",
-      "wordKey": "selfishly_adverb",
-      "level": "C1",
-      "ipa": "ˈsɛlfɪʃli",
-      "translations": {
-        "de": {
-          "translation": "egoistisch"
-        },
-        "es": {
-          "translation": "egoístamente"
-        },
-        "ru": {
-          "translation": "эгоистично"
-        },
-        "uk": {
-          "translation": "егоїстично"
-        }
-      },
-      "definition": "In a way that shows concern only for oneself.",
-      "example": "Behaving very selfishly in connection with witchcraft.",
-      "matchedForm": "selfishly"
-    },
-    {
-      "word": "shabby",
-      "lemma": "shabby",
-      "lemmaId": "shabby",
-      "pos": "adjective",
-      "wordKey": "shabby_adjective",
-      "level": "C1",
-      "ipa": "ˈʃæbi",
-      "translations": {
-        "de": {
-          "translation": "abgenutzt"
-        },
-        "es": {
-          "translation": "desgastado"
-        },
-        "ru": {
-          "translation": "потрёпанный"
-        },
-        "uk": {
-          "translation": "потертий"
-        }
-      },
-      "definition": "In poor condition through long use or lack of care.",
-      "example": "Mr. Nostrum’s seedy, shabby look.",
-      "matchedForm": "shabby"
-    },
-    {
-      "word": "tight control",
-      "lemma": "tight control",
-      "lemmaId": "tight_control",
-      "pos": "phrase",
-      "wordKey": "tight_control_phrase",
-      "level": "C1",
-      "ipa": "taɪt kənˈtrəʊl",
-      "translations": {
-        "de": {
-          "translation": "strenge Kontrolle"
-        },
-        "es": {
-          "translation": "control estricto"
-        },
-        "ru": {
-          "translation": "жёсткий контроль"
-        },
-        "uk": {
-          "translation": "жорсткий контроль"
-        }
-      },
-      "definition": "Strict or firm regulation or management.",
-      "example": "They keep tight control of the ways to get to the worlds.",
-      "phraseMatch": {
-        "text": "tight control",
-        "startInExample": 10,
-        "endInExample": 23
-      }
-    },
-    {
-      "word": "to beat about the bush",
-      "lemma": "to beat about the bush",
-      "lemmaId": "to_beat_about_the_bush",
-      "pos": "phrase",
-      "wordKey": "to_beat_about_the_bush_phrase",
+      "word": "sit down",
+      "lemma": "sit down",
+      "lemmaId": "sit_down",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "sit_down_phrasal_verb",
       "level": "B2",
-      "ipa": "tuː biːt əˈbaʊt ðə bʊʃ",
       "translations": {
-        "de": {
-          "translation": "um den heißen Brei herumreden"
-        },
-        "es": {
-          "translation": "andar con rodeos"
-        },
         "ru": {
-          "translation": "ходить вокруг да около"
-        },
-        "uk": {
-          "translation": "ходити навкруги теми"
+          "translation": "Садись"
         }
       },
-      "definition": "To avoid talking about what is important.",
-      "example": "To come straight to the point and not to beat about the bush.",
+      "example": "“Sit down, sit down!",
+      "exampleStart": 386,
+      "exampleEnd": 406,
       "phraseMatch": {
-        "text": "to beat about the bush",
+        "text": "sit down",
+        "startInExample": 11,
+        "endInExample": 19
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "taken away",
+      "lemma": "take away",
+      "lemmaId": "take_away",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "take_away_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "забрали"
+        }
+      },
+      "example": "“He doesn’t know about it, and he may need to because—because most unfortunately they’ve taken my witchcraft away.",
+      "exampleStart": 1615,
+      "exampleEnd": 1729,
+      "phraseMatch": {
+        "text": "taken my witchcraft away",
+        "startInExample": 89,
+        "endInExample": 113
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "unbreakable",
+      "lemma": "unbreakable",
+      "lemmaId": "unbreakable",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "unbreakable_noun",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "неразрушимый"
+        }
+      },
+      "example": "The Person Who Inhabits That Castle Yonder, whose name I disdain to say, signs his name under unbreakable protections.",
+      "exampleStart": 872,
+      "exampleEnd": 990,
+      "matchedForm": "unbreakable",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.965714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "very well",
+      "lemma": "very well",
+      "lemmaId": "very_well",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "very_well_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Очень хорошо"
+        }
+      },
+      "example": "Perhaps his wandering eye did not see very well.",
+      "exampleStart": 1301,
+      "exampleEnd": 1349,
+      "phraseMatch": {
+        "text": "very well",
         "startInExample": 38,
-        "endInExample": 60
-      }
+        "endInExample": 47
+      },
+      "levelSource": "phrase_fallback"
     },
     {
-      "word": "tuition line",
-      "lemma": "tuition line",
-      "lemmaId": "tuition_line",
-      "pos": "phrase",
-      "wordKey": "tuition_line_phrase",
-      "level": "C1",
-      "ipa": "tjuːˈɪʃən laɪn",
+      "word": "wagged",
+      "lemma": "wag",
+      "lemmaId": "wag",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "wag_adjective",
+      "level": "A2",
       "translations": {
-        "de": {
-          "translation": "Nachhilfelinie"
-        },
-        "es": {
-          "translation": "línea de enseñanza"
-        },
         "ru": {
-          "translation": "сфера обучения"
-        },
-        "uk": {
-          "translation": "сфера навчання"
+          "translation": "вилять"
         }
       },
-      "definition": "The field or area related to teaching or tutoring.",
-      "example": "Services rendered in the tuition line.",
-      "phraseMatch": {
-        "text": "tuition line",
-        "startInExample": 25,
-        "endInExample": 37
-      }
+      "example": "Nostrum wagged a playful finger at her.",
+      "exampleStart": 1736,
+      "exampleEnd": 1775,
+      "matchedForm": "wagged",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.994286,
+      "difficultySource": "zipf"
     },
     {
-      "word": "unbreakable protections",
-      "lemma": "unbreakable protections",
-      "lemmaId": "unbreakable_protections",
-      "pos": "phrase",
-      "wordKey": "unbreakable_protections_phrase",
-      "level": "C2",
-      "ipa": "ʌnˈbreɪkəbl prəˈtɛkʃənz",
-      "translations": {
-        "de": {
-          "translation": "unbrechbare Schutzmaßnahmen"
-        },
-        "es": {
-          "translation": "protecciones irrompibles"
-        },
-        "ru": {
-          "translation": "непробиваемая защита"
-        },
-        "uk": {
-          "translation": "незламний захист"
-        }
-      },
-      "definition": "Strong safeguards that cannot be bypassed or broken.",
-      "example": "His name signs under unbreakable protections.",
-      "phraseMatch": {
-        "text": "unbreakable protections",
-        "startInExample": 21,
-        "endInExample": 44
-      }
-    },
-    {
-      "word": "ushered",
-      "lemma": "ushered",
-      "lemmaId": "ushered",
+      "word": "whit",
+      "lemma": "whit",
+      "lemmaId": "whit",
       "pos": "verb",
-      "wordKey": "ushered_verb",
-      "level": "C1",
-      "ipa": "ˈʌʃəd",
+      "source": "word",
+      "wordKey": "whit_verb",
+      "level": "A2",
       "translations": {
-        "de": {
-          "translation": "geleitet"
-        },
-        "es": {
-          "translation": "acompañado"
-        },
         "ru": {
-          "translation": "проводили"
-        },
-        "uk": {
-          "translation": "провели"
+          "translation": "свист"
         }
       },
-      "definition": "To lead or escort someone to a place.",
-      "example": "They were ushered into a private parlor in the White Hart.",
-      "matchedForm": "ushered"
-    },
-    {
-      "word": "wagg(ed) a finger",
-      "lemma": "wagg(ed) a finger",
-      "lemmaId": "wagged_a_finger",
-      "pos": "phrase",
-      "wordKey": "wagged_a_finger_phrase",
-      "level": "C1",
-      "ipa": "wæɡd ə ˈfɪŋɡə",
-      "translations": {
-        "de": {
-          "translation": "mit dem Finger gewedelt"
-        },
-        "es": {
-          "translation": "movió un dedo amenazadoramente"
-        },
-        "ru": {
-          "translation": "погрозил пальцем"
-        },
-        "uk": {
-          "translation": "погрозив пальцем"
-        }
-      },
-      "definition": "To shake or wave one's finger, often playfully or as a warning.",
-      "example": "Mr. Nostrum wagged a playful finger at her."
-    },
-    {
-      "word": "wandering eye",
-      "lemma": "wandering eye",
-      "lemmaId": "wandering_eye",
-      "pos": "phrase",
-      "wordKey": "wandering_eye_phrase",
-      "level": "C2",
-      "ipa": "ˈwɒndərɪŋ aɪ",
-      "translations": {
-        "de": {
-          "translation": "wanderndes Auge"
-        },
-        "es": {
-          "translation": "ojo errante"
-        },
-        "ru": {
-          "translation": "блуждающий глаз"
-        },
-        "uk": {
-          "translation": "блукаючий око"
-        }
-      },
-      "definition": "An eye that moves or looks around uncontrollably or is misaligned.",
-      "example": "The weird effect of his wandering left eye."
+      "example": "“We have not changed it one whit.",
+      "exampleStart": 1423,
+      "exampleEnd": 1456,
+      "matchedForm": "whit",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.962857,
+      "difficultySource": "zipf"
     }
   ]
 }

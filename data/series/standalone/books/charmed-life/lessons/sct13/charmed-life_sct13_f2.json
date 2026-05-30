@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 13,
     "sectionTitle": "Chapter 10",
     "fragmentIndex": 2,
@@ -21,441 +20,614 @@
       "wordCount": 579,
       "uniqueWordCount": 324,
       "paragraphCount": 22,
-      "vocabularyCount": 25,
+      "vocabularyCount": 27,
       "levelDistribution": {
         "A1": 0,
         "A2": 0,
-        "B1": 0,
+        "B1": 7,
         "B2": 15,
-        "C1": 6,
-        "C2": 4
+        "C1": 3,
+        "C2": 2
       }
     }
   },
   "vocabulary": [
     {
+      "word": "as long as",
+      "lemma": "as long as",
+      "lemmaId": "as_long_as",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "as_long_as_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "пока"
+        }
+      },
+      "example": "It seemed to Cat about as long as an Ice Age.",
+      "exampleStart": 2119,
+      "exampleEnd": 2164,
+      "phraseMatch": {
+        "text": "as long as",
+        "startInExample": 23,
+        "endInExample": 33
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
       "word": "astonished",
-      "lemma": "astonished",
-      "lemmaId": "astonished",
+      "lemma": "astonish",
+      "lemmaId": "astonish",
       "pos": "adjective",
-      "wordKey": "astonished_adjective",
+      "source": "word",
+      "wordKey": "astonish_adjective",
       "level": "B2",
-      "ipa": "əˈstɒnɪʃt",
       "translations": {
         "ru": {
-          "translation": "поражённый, изумлённый"
+          "translation": "изумительный"
         }
       },
-      "definition": "Very surprised or amazed.",
-      "example": "Roger astonished",
-      "matchedForm": "astonished"
+      "example": "Julia was disgusted, Roger astonished.",
+      "exampleStart": 2538,
+      "exampleEnd": 2576,
+      "matchedForm": "astonished",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "bent",
-      "lemma": "bent",
-      "lemmaId": "bent",
+      "word": "calls for",
+      "lemma": "call for",
+      "lemmaId": "call_for",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "call_for_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "призывает"
+        }
+      },
+      "example": "“I think this calls for Chrestomanci,” Mr.",
+      "exampleStart": 761,
+      "exampleEnd": 803,
+      "phraseMatch": {
+        "text": "calls for",
+        "startInExample": 14,
+        "endInExample": 23
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "came in",
+      "lemma": "come in",
+      "lemmaId": "come_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Вошёл"
+        }
+      },
+      "example": "And then—and then Euphemia came in and turned into a frog.",
+      "exampleStart": 2959,
+      "exampleEnd": 3017,
+      "phraseMatch": {
+        "text": "came in",
+        "startInExample": 27,
+        "endInExample": 34
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "cravat",
+      "lemma": "cravat",
+      "lemmaId": "cravat",
       "pos": "verb",
-      "wordKey": "bent_verb",
-      "level": "B2",
-      "ipa": "bɛnt",
+      "source": "word",
+      "wordKey": "cravat_verb",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "наклонился"
+          "translation": "крава"
         }
       },
-      "definition": "Leaned or inclined the body or part of it.",
-      "example": "bent to inspect the frog",
-      "matchedForm": "bent"
-    },
-    {
-      "word": "beseechingly",
-      "lemma": "beseechingly",
-      "lemmaId": "beseechingly",
-      "pos": "adverb",
-      "wordKey": "beseechingly_adverb",
-      "level": "C2",
-      "ipa": "bɪˈsiːʧɪŋli",
-      "translations": {
-        "ru": {
-          "translation": "умоляюще, моляще"
-        }
-      },
-      "definition": "In a way that expresses an urgent plea or request.",
-      "example": "croaked at him beseechingly",
-      "matchedForm": "beseechingly"
-    },
-    {
-      "word": "chrestomanci",
-      "lemma": "chrestomanci",
-      "lemmaId": "chrestomanci",
-      "pos": "noun",
-      "wordKey": "chrestomanci_noun",
-      "level": "C2",
-      "ipa": "krɛstəˈmænsi",
-      "translations": {
-        "ru": {
-          "translation": "персонаж (вымышленное имя, лексически важно)"
-        }
-      },
-      "definition": "Name of a character; here referring to a powerful enchanter or official in the story.",
-      "example": "calls for Chrestomanci",
-      "matchedForm": "Chrestomanci"
+      "example": "He held his lilac silk cravat out of the way and bent to inspect the frog.",
+      "exampleStart": 1259,
+      "exampleEnd": 1333,
+      "matchedForm": "cravat",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "croaking",
-      "lemma": "croaking",
-      "lemmaId": "croaking",
-      "pos": "verb",
-      "wordKey": "croaking_verb",
-      "level": "B2",
-      "ipa": "krəʊkɪŋ",
-      "translations": {
-        "ru": {
-          "translation": "кваканье, croak как звук"
-        }
-      },
-      "definition": "Making a deep hoarse sound, like a frog or a crow.",
-      "example": "croaking her poor head off",
-      "matchedForm": "croaking"
-    },
-    {
-      "word": "crouched",
-      "lemma": "crouched",
-      "lemmaId": "crouched",
-      "pos": "verb",
-      "wordKey": "crouched_verb",
-      "level": "B2",
-      "ipa": "kraʊtʃt",
-      "translations": {
-        "ru": {
-          "translation": "присел, сжался"
-        }
-      },
-      "definition": "To bend down close to the ground by bending the knees and bringing the body close to the ground or other surface.",
-      "example": "Crouched on the tray",
-      "matchedForm": "Crouched"
-    },
-    {
-      "word": "disgusted",
-      "lemma": "disgusted",
-      "lemmaId": "disgusted",
+      "lemma": "croak",
+      "lemmaId": "croak",
       "pos": "adjective",
-      "wordKey": "disgusted_adjective",
-      "level": "B2",
-      "ipa": "dɪsˈɡʌstɪd",
-      "translations": {
-        "ru": {
-          "translation": "исполненный отвращения"
-        }
-      },
-      "definition": "Feeling or expressing revulsion or strong disapproval.",
-      "example": "Julia was disgusted",
-      "matchedForm": "disgusted"
-    },
-    {
-      "word": "explain",
-      "lemma": "explain",
-      "lemmaId": "explain",
-      "pos": "verb",
-      "wordKey": "explain_verb",
-      "level": "B2",
-      "ipa": "ɪkˈspleɪn",
-      "translations": {
-        "ru": {
-          "translation": "объяснять"
-        }
-      },
-      "definition": "To make something clear or easy to understand by describing it in more detail or revealing relevant facts or ideas.",
-      "example": "he explained",
-      "matchedForm": "explain"
-    },
-    {
-      "word": "exquisite",
-      "lemma": "exquisite",
-      "lemmaId": "exquisite",
-      "pos": "adjective",
-      "wordKey": "exquisite_adjective",
+      "source": "word",
+      "wordKey": "croak_adjective",
       "level": "C1",
-      "ipa": "ɪksˈkwɪzɪt",
       "translations": {
         "ru": {
-          "translation": "изысканный, превосходный"
+          "translation": "квак"
         }
       },
-      "definition": "Extremely beautiful and delicate.",
-      "example": "exquisite gray suit",
-      "matchedForm": "exquisite"
+      "example": "“Euphemia was in Gwendolen’s room, shut in the wardrobe, croaking her poor head off,” said Mary.",
+      "exampleStart": 663,
+      "exampleEnd": 759,
+      "matchedForm": "croaking",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "fiercely",
-      "lemma": "fiercely",
-      "lemmaId": "fiercely",
-      "pos": "adverb",
-      "wordKey": "fiercely_adverb",
-      "level": "C1",
-      "ipa": "ˈfɪəsli",
+      "word": "eugenia",
+      "lemma": "eugenia",
+      "lemmaId": "eugenia",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "eugenia_noun",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "яростно, ожесточённо"
+          "translation": "евгения"
         }
       },
-      "definition": "In a violent, intense, or forceful manner.",
-      "example": "whirled around on Janet so fiercely",
-      "matchedForm": "fiercely"
+      "example": "“It’s Eugenia.",
+      "exampleStart": 1565,
+      "exampleEnd": 1579,
+      "matchedForm": "Eugenia",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "freeze",
-      "lemma": "freeze",
-      "lemmaId": "freeze",
-      "pos": "verb",
-      "wordKey": "freeze_verb",
+      "word": "head off",
+      "lemma": "head off",
+      "lemmaId": "head_off",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "head_off_phrasal_verb",
       "level": "B2",
-      "ipa": "friːz",
       "translations": {
         "ru": {
-          "translation": "замерзать, застывать"
+          "translation": "Вперёд"
         }
       },
-      "definition": "To become hardened into ice or to become immobile.",
-      "example": "frost freezes a window",
-      "matchedForm": "freeze"
-    },
-    {
-      "word": "grimly",
-      "lemma": "grimly",
-      "lemmaId": "grimly",
-      "pos": "adverb",
-      "wordKey": "grimly_adverb",
-      "level": "C1",
-      "ipa": "ˈɡrɪmli",
-      "translations": {
-        "ru": {
-          "translation": "мрачно, сурово"
-        }
+      "example": "“Euphemia was in Gwendolen’s room, shut in the wardrobe, croaking her poor head off,” said Mary.",
+      "exampleStart": 663,
+      "exampleEnd": 759,
+      "phraseMatch": {
+        "text": "head off",
+        "startInExample": 75,
+        "endInExample": 83
       },
-      "definition": "In a very serious, gloomy, or stern manner.",
-      "example": "Mary said grimly",
-      "matchedForm": "grimly"
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "incredulous",
       "lemma": "incredulous",
       "lemmaId": "incredulous",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "incredulous_adjective",
       "level": "C1",
-      "ipa": "ɪnˈkrɛdjʊləs",
       "translations": {
         "ru": {
-          "translation": "недоверчивый, скептический"
+          "translation": "недоверчивый"
         }
       },
-      "definition": "Unwilling or unable to believe something.",
-      "example": "politely incredulous",
-      "matchedForm": "incredulous"
+      "example": "But Chrestomanci was politely incredulous, and he was worst of all.",
+      "exampleStart": 2658,
+      "exampleEnd": 2725,
+      "matchedForm": "incredulous",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "inspect",
       "lemma": "inspect",
       "lemmaId": "inspect",
       "pos": "verb",
+      "source": "word",
       "wordKey": "inspect_verb",
       "level": "B2",
-      "ipa": "ɪnˈspɛkt",
       "translations": {
         "ru": {
-          "translation": "осматривать, инспектировать"
+          "translation": "проверять"
         }
       },
-      "definition": "To look at (someone or something) carefully in order to learn more about it, to find problems, etc.",
-      "example": "inspect the frog",
-      "matchedForm": "inspect"
+      "example": "He held his lilac silk cravat out of the way and bent to inspect the frog.",
+      "exampleStart": 1259,
+      "exampleEnd": 1333,
+      "matchedForm": "inspect",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.822857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "jumped in",
+      "lemma": "jump in",
+      "lemmaId": "jump_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "jump_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "прыгнул"
+        }
+      },
+      "example": "“Euphemia was in Gwendolen’s room, shut in the wardrobe, croaking her poor head off,” said Mary.",
+      "matchedForm": "in",
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "just like that",
+      "lemma": "just like that",
+      "lemmaId": "just_like_that",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "just_like_that_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Вот так просто"
+        }
+      },
+      "example": "Just like that,” he explained.",
+      "exampleStart": 3018,
+      "exampleEnd": 3048,
+      "phraseMatch": {
+        "text": "Just like that",
+        "startInExample": 0,
+        "endInExample": 14
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "live through",
+      "lemma": "live through",
+      "lemmaId": "live_through",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "live_through_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "пережить"
+        }
+      },
+      "example": "It was a moment such as Cat hoped never to live through again.",
+      "exampleStart": 1432,
+      "exampleEnd": 1494,
+      "phraseMatch": {
+        "text": "live through",
+        "startInExample": 43,
+        "endInExample": 55
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "looked around",
+      "lemma": "look around",
+      "lemmaId": "look_around",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_around_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Оглядываясь"
+        }
+      },
+      "example": "At last—very long last—it was time for Mary to bring the milk and biscuits, which she did, with a very portentous look.",
+      "matchedForm": "look",
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "looked at",
+      "lemma": "look at",
+      "lemmaId": "look_at",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_at_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "смотрел"
+        }
+      },
+      "example": "Mary looked at him as if he was a frog himself.",
+      "exampleStart": 2610,
+      "exampleEnd": 2657,
+      "phraseMatch": {
+        "text": "looked at",
+        "startInExample": 5,
+        "endInExample": 14
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "look on",
+      "lemma": "look on",
+      "lemmaId": "look_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Смотри"
+        }
+      },
+      "example": "At last—very long last—it was time for Mary to bring the milk and biscuits, which she did, with a very portentous look.",
+      "matchedForm": "look",
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "meditatively",
       "lemma": "meditatively",
       "lemmaId": "meditatively",
-      "pos": "adverb",
-      "wordKey": "meditatively_adverb",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "meditatively_adjective",
       "level": "C2",
-      "ipa": "ˈmɛdɪtətɪvli",
       "translations": {
         "ru": {
-          "translation": "задумчиво, размышляюще"
+          "translation": "медитативно"
         }
       },
-      "definition": "In a thoughtful or reflective manner.",
-      "example": "looked meditatively",
-      "matchedForm": "meditatively"
+      "example": "She drummed her fingers on her desk and looked meditatively at Janet.",
+      "exampleStart": 2198,
+      "exampleEnd": 2267,
+      "matchedForm": "meditatively",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "misty",
-      "lemma": "misty",
-      "lemmaId": "misty",
-      "pos": "adjective",
-      "wordKey": "misty_adjective",
-      "level": "B2",
-      "ipa": "ˈmɪsti",
+      "word": "out of the way",
+      "lemma": "out of the way",
+      "lemmaId": "out_of_the_way",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "out_of_the_way_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "туманный, затуманенный"
+          "translation": "Прочь с дороги"
         }
       },
-      "definition": "Filled or abounding with mist or indistinct, unclear.",
-      "example": "strange misty wetness",
-      "matchedForm": "misty"
+      "example": "He held his lilac silk cravat out of the way and bent to inspect the frog.",
+      "exampleStart": 1259,
+      "exampleEnd": 1333,
+      "phraseMatch": {
+        "text": "out of the way",
+        "startInExample": 30,
+        "endInExample": 44
+      },
+      "levelSource": "phrase_fallback"
     },
     {
       "word": "panicked",
       "lemma": "panicked",
       "lemmaId": "panicked",
-      "pos": "verb",
-      "wordKey": "panicked_verb",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "panicked_adjective",
       "level": "B2",
-      "ipa": "ˈpænɪkt",
       "translations": {
         "ru": {
-          "translation": "запаниковал"
+          "translation": "паникующий"
         }
       },
-      "definition": "Suddenly feel so frightened that you cannot think clearly or behave calmly.",
-      "example": "Cat panicked",
-      "matchedForm": "panicked"
+      "example": "Cat panicked.",
+      "exampleStart": 2326,
+      "exampleEnd": 2339,
+      "matchedForm": "panicked",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.888571,
+      "difficultySource": "zipf"
     },
     {
-      "word": "plunge",
-      "lemma": "plunge",
-      "lemmaId": "plunge",
-      "pos": "verb",
-      "wordKey": "plunge_verb",
-      "level": "C1",
-      "ipa": "plʌndʒ",
+      "word": "plunge into",
+      "lemma": "plunge into",
+      "lemmaId": "plunge_into",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "plunge_into_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "погружаться, резко падать"
+          "translation": "Погружайтесь в"
         }
       },
-      "definition": "To fall or jump suddenly from a high place or into something; to fall steeply.",
-      "example": "take a plunge into the Castle cellars",
-      "matchedForm": "plunge"
+      "example": "Cat’s stomach seemed to leave him and take a plunge into the Castle cellars.",
+      "exampleStart": 215,
+      "exampleEnd": 291,
+      "phraseMatch": {
+        "text": "plunge into",
+        "startInExample": 45,
+        "endInExample": 56
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "portentous",
       "lemma": "portentous",
       "lemmaId": "portentous",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "portentous_adjective",
       "level": "C2",
-      "ipa": "pɔːˈtɛntəs",
       "translations": {
         "ru": {
-          "translation": "зловещий, предвещающий беду"
+          "translation": "знаменательный"
         }
       },
-      "definition": "Having a feeling or impression that something important or calamitous is about to happen.",
-      "example": "with a very portentous look",
-      "matchedForm": "portentous"
+      "example": "At last—very long last—it was time for Mary to bring the milk and biscuits, which she did, with a very portentous look.",
+      "exampleStart": 0,
+      "exampleEnd": 119,
+      "matchedForm": "portentous",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "practice",
-      "lemma": "practice",
-      "lemmaId": "practice",
-      "pos": "verb",
-      "wordKey": "practice_verb",
-      "level": "B2",
-      "ipa": "ˈpræktɪs",
-      "translations": {
-        "ru": {
-          "translation": "практиковать, тренировать"
-        }
-      },
-      "definition": "To do something repeatedly to get better at it.",
-      "example": "practice magic on your own",
-      "matchedForm": "practice"
-    },
-    {
-      "word": "prick",
+      "word": "pricking",
       "lemma": "prick",
       "lemmaId": "prick",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "prick_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "придурок"
+        }
+      },
+      "example": "” Cat wondered how such a mild voice could send the hair pricking upright at the back of his head.",
+      "exampleStart": 1674,
+      "exampleEnd": 1772,
+      "matchedForm": "pricking",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.831429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "room in",
+      "lemma": "room in",
+      "lemmaId": "room_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "room_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "комната в комнате"
+        }
+      },
+      "example": "“Euphemia was in Gwendolen’s room, shut in the wardrobe, croaking her poor head off,” said Mary.",
+      "exampleStart": 663,
+      "exampleEnd": 759,
+      "phraseMatch": {
+        "text": "room, shut in",
+        "startInExample": 29,
+        "endInExample": 42
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "say what",
+      "lemma": "say what",
+      "lemmaId": "say_what",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "say_what_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Что скажешь"
+        }
+      },
+      "example": "He was sure Janet was going to say what Gwendolen had done.",
+      "exampleStart": 2340,
+      "exampleEnd": 2399,
+      "phraseMatch": {
+        "text": "say what",
+        "startInExample": 31,
+        "endInExample": 39
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "took away",
+      "lemma": "take away",
+      "lemmaId": "take_away",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "take_away_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "забрали"
+        }
+      },
+      "example": "Michael took her witchcraft away last night.",
+      "exampleStart": 1917,
+      "exampleEnd": 1961,
+      "phraseMatch": {
+        "text": "took her witchcraft away",
+        "startInExample": 8,
+        "endInExample": 32
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "turned into",
+      "lemma": "turn into",
+      "lemmaId": "turn_into",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "turn_into_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "превратился в"
+        }
+      },
+      "example": "And then—and then Euphemia came in and turned into a frog.",
+      "exampleStart": 2959,
+      "exampleEnd": 3017,
+      "phraseMatch": {
+        "text": "turned into",
+        "startInExample": 39,
+        "endInExample": 50
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "wetness",
+      "lemma": "wetness",
+      "lemmaId": "wetness",
       "pos": "verb",
-      "wordKey": "prick_verb",
-      "level": "B2",
-      "ipa": "prɪk",
-      "translations": {
-        "ru": {
-          "translation": "щекотать, колоть"
-        }
-      },
-      "definition": "To cause a small, sharp pain or sensation.",
-      "example": "send the hair pricking upright",
-      "matchedForm": "prick"
-    },
-    {
-      "word": "spell",
-      "lemma": "spell",
-      "lemmaId": "spell",
-      "pos": "noun",
-      "wordKey": "spell_noun",
-      "level": "B2",
-      "ipa": "spɛl",
-      "translations": {
-        "ru": {
-          "translation": "заклинание"
-        }
-      },
-      "definition": "A form of words used as a magical charm or incantation.",
-      "example": "trying a spell",
-      "matchedForm": "spell"
-    },
-    {
-      "word": "stupid",
-      "lemma": "stupid",
-      "lemmaId": "stupid",
-      "pos": "adjective",
-      "wordKey": "stupid_adjective",
-      "level": "B2",
-      "ipa": "ˈstjuːpɪd",
-      "translations": {
-        "ru": {
-          "translation": "глупый"
-        }
-      },
-      "definition": "Lacking intelligence or common sense.",
-      "example": "Stupid of me",
-      "matchedForm": "Stupid"
-    },
-    {
-      "word": "terrified",
-      "lemma": "terrified",
-      "lemmaId": "terrified",
-      "pos": "adjective",
-      "wordKey": "terrified_adjective",
-      "level": "B2",
-      "ipa": "ˈtɛrəfaɪd",
-      "translations": {
-        "ru": {
-          "translation": "испуганный"
-        }
-      },
-      "definition": "Very frightened.",
-      "example": "due to terror"
-    },
-    {
-      "word": "witchcraft",
-      "lemma": "witchcraft",
-      "lemmaId": "witchcraft",
-      "pos": "noun",
-      "wordKey": "witchcraft_noun",
+      "source": "word",
+      "wordKey": "wetness_verb",
       "level": "C1",
-      "ipa": "ˈwɪʧkrɑːft",
       "translations": {
         "ru": {
-          "translation": "колдовство, ведьмовство"
+          "translation": "влажность"
         }
       },
-      "definition": "The practice of magic, especially black magic or sorcery.",
-      "example": "took her witchcraft away",
-      "matchedForm": "witchcraft"
+      "example": "”\n\nCat stared at him with a strange misty wetness around his eyes.",
+      "exampleStart": 2777,
+      "exampleEnd": 2843,
+      "matchedForm": "wetness",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     }
   ]
 }

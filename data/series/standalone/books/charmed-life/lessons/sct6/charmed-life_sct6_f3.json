@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 6,
     "sectionTitle": "Chapter 3",
     "fragmentIndex": 3,
@@ -21,456 +20,629 @@
       "wordCount": 650,
       "uniqueWordCount": 349,
       "paragraphCount": 13,
-      "vocabularyCount": 25,
+      "vocabularyCount": 27,
       "levelDistribution": {
         "A1": 0,
-        "A2": 0,
-        "B1": 0,
-        "B2": 11,
-        "C1": 14,
+        "A2": 1,
+        "B1": 7,
+        "B2": 15,
+        "C1": 4,
         "C2": 0
       }
     }
   },
   "vocabulary": [
     {
-      "word": "annoyance",
-      "lemma": "annoyance",
-      "lemmaId": "annoyance",
-      "pos": "noun",
-      "wordKey": "annoyance_noun",
-      "level": "B2",
-      "ipa": "əˈnɔɪəns",
-      "translations": {
-        "ru": {
-          "translation": "раздражение"
-        }
-      },
-      "definition": "A feeling of being irritated or bothered by someone or something.",
-      "example": "The constant noise was a real annoyance.",
-      "matchedForm": "annoyance"
-    },
-    {
-      "word": "boil",
-      "lemma": "boil",
-      "lemmaId": "boil",
-      "pos": "noun",
-      "wordKey": "boil_noun",
-      "level": "B2",
-      "ipa": "bɔɪl",
-      "translations": {
-        "ru": {
-          "translation": "фурункул"
-        }
-      },
-      "definition": "A painful, pus-filled bump under the skin caused by infected hair follicles.",
-      "example": "He had a painful boil on his arm.",
-      "matchedForm": "boil"
-    },
-    {
-      "word": "booming",
-      "lemma": "booming",
-      "lemmaId": "booming",
-      "pos": "adjective",
-      "wordKey": "booming_adjective",
-      "level": "C1",
-      "ipa": "ˈbuːmɪŋ",
-      "translations": {
-        "ru": {
-          "translation": "гулкий, грохочущий"
-        }
-      },
-      "definition": "Making a deep, resonant sound.",
-      "example": "The booming voice echoed through the hall.",
-      "matchedForm": "booming"
-    },
-    {
-      "word": "civil",
-      "lemma": "civil",
-      "lemmaId": "civil",
-      "pos": "adjective",
-      "wordKey": "civil_adjective",
-      "level": "C1",
-      "ipa": "ˈsɪvəl",
-      "translations": {
-        "ru": {
-          "translation": "вежливый, учтивый"
-        }
-      },
-      "definition": "Courteous and polite behaviour towards others.",
-      "example": "They tried to be civil despite the disagreement.",
-      "matchedForm": "civil"
-    },
-    {
-      "word": "collocation: \"wrong foot\"",
-      "lemma": "collocation: \"wrong foot\"",
-      "lemmaId": "collocation_wrong_foot",
+      "word": "all the same",
+      "lemma": "all the same",
+      "lemmaId": "all_the_same",
       "pos": "phrase",
-      "wordKey": "collocation_wrong_foot_phrase",
-      "level": "C1",
-      "ipa": "rɒŋ fʊt",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "all_the_same_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "сделать что-то неправильно с самого начала"
+          "translation": "Всё равно"
         }
       },
-      "definition": "To start badly or be mistaken in initial approach.",
-      "example": "He got off on the wrong foot with his new boss."
+      "example": "But the thought of the coming grandeur soothed her all the same.",
+      "exampleStart": 2787,
+      "exampleEnd": 2851,
+      "phraseMatch": {
+        "text": "all the same",
+        "startInExample": 51,
+        "endInExample": 63
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "brown bread",
+      "lemma": "brown bread",
+      "lemmaId": "brown_bread",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "brown_bread_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Коричневый хлеб"
+        }
+      },
+      "example": "Gwendolen herself was sitting in a very queenly way at a round table by the window, with a big pewter teapot in front of her, a plate of brown bread and butter, and a plate of biscuits.",
+      "exampleStart": 254,
+      "exampleEnd": 439,
+      "phraseMatch": {
+        "text": "brown bread",
+        "startInExample": 137,
+        "endInExample": 148
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "charitably",
+      "lemma": "charitably",
+      "lemmaId": "charitably",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "charitably_adjective",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "щедро"
+        }
+      },
+      "example": "Though,” Gwendolen added charitably, “I’m inclined to think being called Euphemia is punishment enough for anyone.",
+      "exampleStart": 2357,
+      "exampleEnd": 2471,
+      "matchedForm": "charitably",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "come in",
+      "lemma": "come in",
+      "lemmaId": "come_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Входите"
+        }
+      },
+      "example": "Through the hiss of the shower—Gwendolen had only herself to blame that she found her bathroom thoroughly soaked afterwards—Cat heard her voice raised in annoyance at someone who had come in to take the dull tea away and caught her with her trunk open.",
+      "exampleStart": 1862,
+      "exampleEnd": 2114,
+      "phraseMatch": {
+        "text": "come in",
+        "startInExample": 183,
+        "endInExample": 190
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "draped",
-      "lemma": "draped",
-      "lemmaId": "draped",
-      "pos": "verb",
-      "wordKey": "draped_verb",
-      "level": "C1",
-      "ipa": "dreɪpt",
-      "translations": {
-        "ru": {
-          "translation": "задрапированный, покрытый"
-        }
-      },
-      "definition": "Cover or hang with cloth loosely or casually.",
-      "example": "The windows were draped with heavy curtains.",
-      "matchedForm": "draped"
-    },
-    {
-      "word": "dressing gong",
-      "lemma": "dressing gong",
-      "lemmaId": "dressing_gong",
-      "pos": "phrase",
-      "wordKey": "dressing_gong_phrase",
-      "level": "B2",
-      "ipa": "noun phrase",
-      "translations": {
-        "ru": {
-          "translation": "звонок для приглашения на переодевание"
-        }
-      },
-      "definition": "A gong sounded to signal that it is time to dress or get ready, especially before a meal or event.",
-      "example": "The dressing gong sounded, signaling time to prepare.",
-      "phraseMatch": {
-        "text": "dressing gong",
-        "startInExample": 4,
-        "endInExample": 17
-      }
-    },
-    {
-      "word": "dressing table",
-      "lemma": "dressing table",
-      "lemmaId": "dressing_table",
-      "pos": "noun",
-      "wordKey": "dressing_table_noun",
-      "level": "C1",
-      "ipa": "ˈdrɛsɪŋ ˌteɪbəl",
-      "translations": {
-        "ru": {
-          "translation": "туалетный столик"
-        }
-      },
-      "definition": "A piece of furniture with a mirror where one applies makeup or arranges hair.",
-      "example": "She sat at her dressing table every morning.",
-      "phraseMatch": {
-        "text": "dressing table",
-        "startInExample": 15,
-        "endInExample": 29
-      }
-    },
-    {
-      "word": "dull",
-      "lemma": "dull",
-      "lemmaId": "dull",
+      "lemma": "drape",
+      "lemmaId": "drape",
       "pos": "adjective",
-      "wordKey": "dull_adjective",
+      "source": "word",
+      "wordKey": "drape_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "драпировка"
+        }
+      },
+      "example": "Over it, draped like a baby’s cradle, were blue curtains for when you wanted a shower.",
+      "exampleStart": 1584,
+      "exampleEnd": 1670,
+      "matchedForm": "draped",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "gilded",
+      "lemma": "gild",
+      "lemmaId": "gild",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "gild_adjective",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "позолоченный"
+        }
+      },
+      "example": "There was a dressing table fit for a princess, with little golden drawers, gold-backed brushes, and a long oval mirror surrounded by a gilded wreath.",
+      "exampleStart": 1078,
+      "exampleEnd": 1227,
+      "matchedForm": "gilded",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "go down",
+      "lemma": "go down",
+      "lemmaId": "go_down",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_down_phrasal_verb",
       "level": "B2",
-      "ipa": "dʌl",
       "translations": {
         "ru": {
-          "translation": "скучный, тусклый"
+          "translation": "Спускайся"
         }
       },
-      "definition": "Lacking interest or excitement; boring or lacking brightness or vividness.",
-      "example": "The lecture was dull and unengaging.",
-      "matchedForm": "dull"
-    },
-    {
-      "word": "garlands",
-      "lemma": "garlands",
-      "lemmaId": "garlands",
-      "pos": "noun",
-      "wordKey": "garlands_noun",
-      "level": "C1",
-      "ipa": "ˈɡɑːrləndz",
-      "translations": {
-        "ru": {
-          "translation": "гирлянды"
-        }
-      },
-      "definition": "Strings or chains of flowers, leaves, or other material, worn or hung as decoration.",
-      "example": "They decorated the hall with flower garlands.",
-      "matchedForm": "garlands"
-    },
-    {
-      "word": "gilded wreath",
-      "lemma": "gilded wreath",
-      "lemmaId": "gilded_wreath",
-      "pos": "phrase",
-      "wordKey": "gilded_wreath_phrase",
-      "level": "C1",
-      "ipa": "ˈɡɪldɪd riːθ",
-      "translations": {
-        "ru": {
-          "translation": "позолоченный венок"
-        }
-      },
-      "definition": "A decorative ring made of or covered with gold leaf or gold paint.",
-      "example": "The portrait featured a gilded wreath frame.",
+      "example": "“Er—may I go down and have some tea?",
+      "exampleStart": 0,
+      "exampleEnd": 36,
       "phraseMatch": {
-        "text": "gilded wreath",
-        "startInExample": 24,
-        "endInExample": 37
-      }
+        "text": "go down",
+        "startInExample": 10,
+        "endInExample": 17
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "gran­deur",
-      "lemma": "gran­deur",
-      "lemmaId": "grandeur",
-      "pos": "noun",
-      "wordKey": "grandeur_noun",
-      "level": "C1",
-      "ipa": "ˈɡrændjʊə",
+      "word": "went up",
+      "lemma": "go up",
+      "lemmaId": "go_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_up_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "великолепие, грандиозность"
+          "translation": "поднялся"
         }
       },
-      "definition": "Splendour and impressiveness, especially of appearance or style.",
-      "example": "The palace impressed with its grandeur."
+      "example": "”\n\nAs Cat went up his winding stair, the Castle filled with a mysterious booming.",
+      "exampleStart": 3018,
+      "exampleEnd": 3099,
+      "phraseMatch": {
+        "text": "went up",
+        "startInExample": 10,
+        "endInExample": 17
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "have off",
+      "lemma": "have off",
+      "lemmaId": "have_off",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "have_off_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Слезь"
+        }
+      },
+      "example": "He ran downstairs again, feeling he might have gotten off on the wrong foot with her.",
+      "exampleStart": 109,
+      "exampleEnd": 194,
+      "phraseMatch": {
+        "text": "have gotten off",
+        "startInExample": 42,
+        "endInExample": 57
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "hiss",
+      "lemma": "hiss",
+      "lemmaId": "hiss",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "hiss_noun",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "шипение"
+        }
+      },
+      "example": "Through the hiss of the shower—Gwendolen had only herself to blame that she found her bathroom thoroughly soaked afterwards—Cat heard her voice raised in annoyance at someone who had come in to take the dull tea away and caught her with her trunk open.",
+      "exampleStart": 1862,
+      "exampleEnd": 2114,
+      "matchedForm": "hiss",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.988571,
+      "difficultySource": "zipf"
     },
     {
       "word": "inclined",
-      "lemma": "inclined",
-      "lemmaId": "inclined",
+      "lemma": "incline",
+      "lemmaId": "incline",
       "pos": "adjective",
-      "wordKey": "inclined_adjective",
-      "level": "C1",
-      "ipa": "ɪnˈklaɪnd",
-      "translations": {
-        "ru": {
-          "translation": "склонный, расположенный"
-        }
-      },
-      "definition": "Likely or willing to do something.",
-      "example": "She was inclined to accept their offer.",
-      "matchedForm": "inclined"
-    },
-    {
-      "word": "luxury",
-      "lemma": "luxury",
-      "lemmaId": "luxury",
-      "pos": "noun",
-      "wordKey": "luxury_noun",
+      "source": "word",
+      "wordKey": "incline_adjective",
       "level": "B2",
-      "ipa": "ˈlʌkʃəri",
       "translations": {
         "ru": {
-          "translation": "роскошь"
+          "translation": "склон"
         }
       },
-      "definition": "A state of great comfort or elegance, especially when involving great expense.",
-      "example": "They lived in luxury and comfort.",
-      "matchedForm": "luxury"
+      "example": "Though,” Gwendolen added charitably, “I’m inclined to think being called Euphemia is punishment enough for anyone.",
+      "exampleStart": 2357,
+      "exampleEnd": 2471,
+      "matchedForm": "inclined",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.96,
+      "difficultySource": "zipf"
     },
     {
-      "word": "maypole dancers",
-      "lemma": "maypole dancers",
-      "lemmaId": "maypole_dancers",
+      "word": "kind of",
+      "lemma": "kind of",
+      "lemmaId": "kind_of",
       "pos": "phrase",
-      "wordKey": "maypole_dancers_phrase",
-      "level": "B2",
-      "ipa": "noun phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "kind_of_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "танцоры у майского столба"
+          "translation": "В некотором роде"
         }
       },
-      "definition": "People performing a traditional folk dance around a tall pole decorated with ribbons, typically in spring festivals.",
-      "example": "At the festival, maypole dancers performed lively dances.",
+      "example": "”\n\n“I thought you were looking forward to that kind of thing,” said Cat, who most certainly was not.",
+      "exampleStart": 2633,
+      "exampleEnd": 2733,
       "phraseMatch": {
-        "text": "maypole dancers",
-        "startInExample": 17,
-        "endInExample": 32
-      }
+        "text": "kind of",
+        "startInExample": 47,
+        "endInExample": 54
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "locked in",
+      "lemma": "lock in",
+      "lemmaId": "lock_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "lock_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Заперты"
+        }
+      },
+      "example": "Gwendolen locked him in it while she unpacked.",
+      "exampleStart": 1815,
+      "exampleEnd": 1861,
+      "phraseMatch": {
+        "text": "locked him in",
+        "startInExample": 10,
+        "endInExample": 23
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "long time",
+      "lemma": "long time",
+      "lemmaId": "long_time",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "long_time_phrase",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Давно"
+        }
+      },
+      "example": "Cat preferred his own bathroom, but that may have been because he had to spend rather a long time in Gwendolen’s.",
+      "exampleStart": 1701,
+      "exampleEnd": 1814,
+      "phraseMatch": {
+        "text": "long time",
+        "startInExample": 88,
+        "endInExample": 97
+      },
+      "levelSource": "head_verb_index"
+    },
+    {
+      "word": "look at",
+      "lemma": "look at",
+      "lemmaId": "look_at",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_at_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Посмотри"
+        }
+      },
+      "example": "“It’s to hang clothes in, not to look at,” she said.",
+      "exampleStart": 1384,
+      "exampleEnd": 1436,
+      "phraseMatch": {
+        "text": "look at",
+        "startInExample": 33,
+        "endInExample": 40
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "maypole",
+      "lemma": "maypole",
+      "lemmaId": "maypole",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "maypole_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "майпол"
+        }
+      },
+      "example": "Gwendolen admitted that she liked the dressing table, though she was not so sure about the wardrobe, which had painted garlands and maypole dancers on it.",
+      "exampleStart": 1228,
+      "exampleEnd": 1382,
+      "matchedForm": "maypole",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "pewter",
       "lemma": "pewter",
       "lemmaId": "pewter",
-      "pos": "noun",
-      "wordKey": "pewter_noun",
-      "level": "C1",
-      "ipa": "ˈpjuːtə",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "pewter_verb",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "оловянный сплав"
+          "translation": "пивтер"
         }
       },
-      "definition": "A dull grey alloy of tin with copper and antimony, used for various household items.",
-      "example": "The antique pewter dishes shone softly in the candlelight.",
-      "matchedForm": "pewter"
+      "example": "Gwendolen herself was sitting in a very queenly way at a round table by the window, with a big pewter teapot in front of her, a plate of brown bread and butter, and a plate of biscuits.",
+      "exampleStart": 254,
+      "exampleEnd": 439,
+      "matchedForm": "pewter",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "punishment",
-      "lemma": "punishment",
-      "lemmaId": "punishment",
-      "pos": "noun",
-      "wordKey": "punishment_noun",
+      "word": "put on",
+      "lemma": "put on",
+      "lemmaId": "put_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "put_on_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈpʌnɪʃmənt",
       "translations": {
         "ru": {
-          "translation": "наказание"
+          "translation": "Надень"
         }
       },
-      "definition": "The infliction or imposition of a penalty as retribution for an offence.",
-      "example": "The punishment for theft can be severe.",
-      "matchedForm": "punishment"
+      "example": "Cat, of course, did not take nearly that time to put his suit on.",
+      "exampleStart": 3261,
+      "exampleEnd": 3326,
+      "phraseMatch": {
+        "text": "put his suit on",
+        "startInExample": 49,
+        "endInExample": 64
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "queenly",
       "lemma": "queenly",
       "lemmaId": "queenly",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "queenly_adjective",
       "level": "C1",
-      "ipa": "ˈkwiːnli",
       "translations": {
         "ru": {
-          "translation": "королевский, царственный"
+          "translation": "королева"
         }
       },
-      "definition": "Having the manner, dignity, or appearance of a queen; majestic.",
-      "example": "She carried herself in a queenly fashion.",
-      "matchedForm": "queenly"
+      "example": "Gwendolen herself was sitting in a very queenly way at a round table by the window, with a big pewter teapot in front of her, a plate of brown bread and butter, and a plate of biscuits.",
+      "exampleStart": 254,
+      "exampleEnd": 439,
+      "matchedForm": "queenly",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "retorted",
-      "lemma": "retorted",
-      "lemmaId": "retorted",
-      "pos": "verb",
-      "wordKey": "retorted_verb",
-      "level": "C1",
-      "ipa": "rɪˈtɔːtɪd",
+      "lemma": "retort",
+      "lemmaId": "retort",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "retort_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "возразил, парировал"
+          "translation": "реторт"
         }
       },
-      "definition": "Responded sharply or angrily.",
-      "example": "‘I don’t agree,’ he retorted quickly.",
-      "matchedForm": "retorted"
+      "example": "“You can be grand and natural,” Gwendolen retorted.",
+      "exampleStart": 2735,
+      "exampleEnd": 2786,
+      "matchedForm": "retorted",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "soaked",
-      "lemma": "soaked",
-      "lemmaId": "soaked",
-      "pos": "adjective",
-      "wordKey": "soaked_adjective",
+      "word": "sitting in",
+      "lemma": "sit in",
+      "lemmaId": "sit_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "sit_in_phrasal_verb",
       "level": "B2",
-      "ipa": "səʊkt",
       "translations": {
         "ru": {
-          "translation": "промокший, пропитанный"
+          "translation": "сидя в"
         }
       },
-      "definition": "Extremely wet.",
-      "example": "His clothes were soaked through after the rain.",
-      "matchedForm": "soaked"
+      "example": "Gwendolen herself was sitting in a very queenly way at a round table by the window, with a big pewter teapot in front of her, a plate of brown bread and butter, and a plate of biscuits.",
+      "exampleStart": 254,
+      "exampleEnd": 439,
+      "phraseMatch": {
+        "text": "sitting in",
+        "startInExample": 22,
+        "endInExample": 32
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "soothed",
+      "lemma": "soothe",
+      "lemmaId": "soothe",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "soothe_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "успокоить"
+        }
+      },
+      "example": "But the thought of the coming grandeur soothed her all the same.",
+      "exampleStart": 2787,
+      "exampleEnd": 2851,
+      "matchedForm": "soothed",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.951429,
+      "difficultySource": "zipf"
     },
     {
       "word": "stammered",
-      "lemma": "stammered",
-      "lemmaId": "stammered",
-      "pos": "verb",
-      "wordKey": "stammered_verb",
-      "level": "C1",
-      "ipa": "ˈstæməd",
+      "lemma": "stammer",
+      "lemmaId": "stammer",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "stammer_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "заикался"
+          "translation": "заикание"
         }
       },
-      "definition": "Spoke with sudden involuntary pauses and a tendency to repeat the initial letters of words.",
-      "example": "He stammered when asked a difficult question.",
-      "matchedForm": "stammered"
+      "example": "” he stammered.",
+      "exampleStart": 36,
+      "exampleEnd": 51,
+      "matchedForm": "stammered",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "starving",
-      "lemma": "starving",
-      "lemmaId": "starving",
-      "pos": "adjective",
-      "wordKey": "starving_adjective",
+      "word": "standing in",
+      "lemma": "stand in",
+      "lemmaId": "stand_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "stand_in_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈstɑːvɪŋ",
       "translations": {
         "ru": {
-          "translation": "очень голодный"
+          "translation": "стоя в"
         }
       },
-      "definition": "Extremely hungry.",
-      "example": "After the long journey, I felt starving.",
-      "matchedForm": "starving"
+      "example": "Gwendolen’s trunk was standing in the middle of her room.",
+      "exampleStart": 196,
+      "exampleEnd": 253,
+      "phraseMatch": {
+        "text": "standing in",
+        "startInExample": 22,
+        "endInExample": 33
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "unfortunate",
-      "lemma": "unfortunate",
-      "lemmaId": "unfortunate",
-      "pos": "adjective",
-      "wordKey": "unfortunate_adjective",
+      "word": "take away",
+      "lemma": "take away",
+      "lemmaId": "take_away",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "take_away_phrasal_verb",
       "level": "B2",
-      "ipa": "ʌnˈfɔːtʃənət",
       "translations": {
         "ru": {
-          "translation": "несчастный, неудачный"
+          "translation": "Забирайте"
         }
       },
-      "definition": "Having bad luck or experiencing misfortune.",
-      "example": "It was unfortunate that the weather spoiled the picnic.",
-      "matchedForm": "unfortunate"
+      "example": "Through the hiss of the shower—Gwendolen had only herself to blame that she found her bathroom thoroughly soaked afterwards—Cat heard her voice raised in annoyance at someone who had come in to take the dull tea away and caught her with her trunk open.",
+      "exampleStart": 1862,
+      "exampleEnd": 2114,
+      "phraseMatch": {
+        "text": "take the dull tea away",
+        "startInExample": 194,
+        "endInExample": 216
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "upholstered",
-      "lemma": "upholstered",
-      "lemmaId": "upholstered",
+      "lemma": "upholster",
+      "lemmaId": "upholster",
       "pos": "adjective",
-      "wordKey": "upholstered_adjective",
+      "source": "word",
+      "wordKey": "upholster_adjective",
       "level": "C1",
-      "ipa": "ʌpˈhoʊlstəd",
       "translations": {
         "ru": {
-          "translation": "обитый тканью или кожей"
+          "translation": "обивка"
         }
       },
-      "definition": "Furnished with padding, springs, webbing, and fabric or leather covers.",
-      "example": "The sofa is upholstered in red velvet.",
-      "matchedForm": "upholstered"
+      "example": "The top and bottom of the bed was upholstered like a chair, in blue velvet with buttons in it, and the blue velvet bedspread matched it exactly.",
+      "exampleStart": 903,
+      "exampleEnd": 1047,
+      "matchedForm": "upholstered",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "velvet",
-      "lemma": "velvet",
-      "lemmaId": "velvet",
-      "pos": "noun",
-      "wordKey": "velvet_noun",
+      "word": "washed out",
+      "lemma": "wash out",
+      "lemmaId": "wash_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "wash_out_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈvɛlvɪt",
       "translations": {
         "ru": {
-          "translation": "бархат"
+          "translation": "Вымытый"
         }
       },
-      "definition": "A closely woven fabric of silk, cotton, or nylon, with a thick short pile on one side.",
-      "example": "She wore a dress made of rich velvet.",
-      "matchedForm": "velvet"
+      "example": "He felt damp and weak and almost washed out of existence by the time the maid who was so unfortunate in being called Euphemia came to take him and Gwendolen downstairs to the drawing room where the Family was waiting.",
+      "exampleStart": 3357,
+      "exampleEnd": 3574,
+      "phraseMatch": {
+        "text": "washed out",
+        "startInExample": 33,
+        "endInExample": 43
+      },
+      "levelSource": "dictionary_phrase"
     }
   ]
 }

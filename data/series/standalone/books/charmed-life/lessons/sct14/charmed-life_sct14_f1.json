@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 14,
     "sectionTitle": "Chapter 11",
     "fragmentIndex": 1,
@@ -21,454 +20,677 @@
       "wordCount": 637,
       "uniqueWordCount": 350,
       "paragraphCount": 22,
-      "vocabularyCount": 24,
+      "vocabularyCount": 29,
       "levelDistribution": {
         "A1": 0,
         "A2": 0,
-        "B1": 0,
-        "B2": 7,
-        "C1": 10,
-        "C2": 7
+        "B1": 7,
+        "B2": 21,
+        "C1": 0,
+        "C2": 1
       }
     }
   },
   "vocabulary": [
     {
-      "word": "beer-scented",
-      "lemma": "beer-scented",
-      "lemmaId": "beer_scented",
-      "pos": "phrase",
-      "wordKey": "beer_scented_phrase",
+      "word": "belonged to",
+      "lemma": "belong to",
+      "lemmaId": "belong_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "belong_to_phrasal_verb",
       "level": "B2",
-      "ipa": "bɪə ˈsɛntɪd",
       "translations": {
         "ru": {
-          "translation": "с запахом пива"
+          "translation": "принадлежал"
         }
       },
-      "definition": "Having the smell or aroma of beer.",
-      "example": "Breathing beer-scented breath over them.",
-      "matchedForm": "beer-scented"
-    },
-    {
-      "word": "charm taken off",
-      "lemma": "charm taken off",
-      "lemmaId": "charm_taken_off",
-      "pos": "phrase",
-      "wordKey": "charm_taken_off_phrase",
-      "level": "C2",
-      "ipa": "ʧɑːm ˈteɪkən ɒf",
-      "translations": {
-        "ru": {
-          "translation": "снять заклинание"
-        }
-      },
-      "definition": "The removal of a magical spell or enchantment.",
-      "example": "Couldn’t you get the charm taken off?",
+      "example": "“Could I sit in the joints of mutton shouting out I belonged to Miss Chant?",
+      "exampleStart": 2760,
+      "exampleEnd": 2835,
       "phraseMatch": {
-        "text": "charm taken off",
-        "startInExample": 21,
-        "endInExample": 36
-      }
+        "text": "belonged to",
+        "startInExample": 52,
+        "endInExample": 63
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "charred (charmed)",
-      "lemma": "charred (charmed)",
-      "lemmaId": "charred_charmed",
-      "pos": "adjective",
-      "wordKey": "charred_charmed_adjective",
-      "level": "C2",
-      "ipa": "ʧɑːmd",
+      "word": "bring in",
+      "lemma": "bring in",
+      "lemmaId": "bring_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "bring_in_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "заколдованные"
+          "translation": "Впускайте."
         }
       },
-      "definition": "Enchanted or affected by magic; under a spell.",
-      "example": "But you never told me they was charmed, did you?"
+      "example": "Three whole pints of bitter I had to buy that butcher to have him bring me in that cart of his, and I’m fair jolted to bits!",
+      "exampleStart": 1044,
+      "exampleEnd": 1168,
+      "phraseMatch": {
+        "text": "bring me in",
+        "startInExample": 66,
+        "endInExample": 77
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "butcher",
+      "lemma": "butcher",
+      "lemmaId": "butcher",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "butcher_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "мясник"
+        }
+      },
+      "example": "Three whole pints of bitter I had to buy that butcher to have him bring me in that cart of his, and I’m fair jolted to bits!",
+      "exampleStart": 1044,
+      "exampleEnd": 1168,
+      "matchedForm": "butcher",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.788571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "clashed",
+      "lemma": "clash",
+      "lemmaId": "clash",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "clash_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "столкновение"
+        }
+      },
+      "example": "The rhododendrons clashed and rustled indignantly beside them.",
+      "exampleStart": 340,
+      "exampleEnd": 402,
+      "matchedForm": "clashed",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.725714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "comes by",
+      "lemma": "come by",
+      "lemmaId": "come_by",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_by_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "приходит"
+        }
+      },
+      "example": "So here I sits in them bushes, scared to death the spell’s going to wear off before you comes by, and now you say you’ve no income!",
+      "exampleStart": 3217,
+      "exampleEnd": 3348,
+      "phraseMatch": {
+        "text": "comes by",
+        "startInExample": 88,
+        "endInExample": 96
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "coolly",
       "lemma": "coolly",
       "lemmaId": "coolly",
-      "pos": "adverb",
-      "wordKey": "coolly_adverb",
-      "level": "C1",
-      "ipa": "ˈkuːli",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "coolly_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "спокойно, невозмутимо"
+          "translation": "прохладно"
         }
       },
-      "definition": "In a calm and composed manner.",
-      "example": "She answered as coolly as Gwendolen might have done.",
-      "matchedForm": "coolly"
-    },
-    {
-      "word": "deep in",
-      "lemma": "deep in",
-      "lemmaId": "deep_in",
-      "pos": "phrase",
-      "wordKey": "deep_in_phrase",
-      "level": "C2",
-      "ipa": "diːp ɪn",
-      "translations": {
-        "ru": {
-          "translation": "глубоко внутри"
-        }
-      },
-      "definition": "Firmly fixed or embedded within something.",
-      "example": "That charm's deep in, I tell you.",
-      "phraseMatch": {
-        "text": "deep in",
-        "startInExample": 13,
-        "endInExample": 20
-      }
-    },
-    {
-      "word": "demanded",
-      "lemma": "demanded",
-      "lemmaId": "demanded",
-      "pos": "verb",
-      "wordKey": "demanded_verb",
-      "level": "B2",
-      "ipa": "dɪˈmɑːndɪd",
-      "translations": {
-        "ru": {
-          "translation": "требовал"
-        }
-      },
-      "definition": "Asked authoritatively or insistently.",
-      "example": "Didn’t you hear me, young lady?” Mr. Baslam demanded.",
-      "matchedForm": "demanded"
+      "example": "Cat could see Janet was frightened of him, but she answered as coolly as Gwendolen might have done.",
+      "exampleStart": 792,
+      "exampleEnd": 891,
+      "matchedForm": "coolly",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "drooping",
-      "lemma": "drooping",
-      "lemmaId": "drooping",
+      "lemma": "droop",
+      "lemmaId": "droop",
       "pos": "adjective",
-      "wordKey": "drooping_adjective",
+      "source": "word",
+      "wordKey": "droop_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "опускаться"
+        }
+      },
+      "example": "Before they had recovered from the surprise of seeing him, he had scuttled around between them and the door, where he stood looking at them reproachfully out of drooping red eyes and breathing beer-scented breath over them.",
+      "exampleStart": 458,
+      "exampleEnd": 681,
+      "matchedForm": "drooping",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "get off",
+      "lemma": "get off",
+      "lemmaId": "get_off",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "get_off_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈdruːpɪŋ",
       "translations": {
         "ru": {
-          "translation": "опущенный, поникший"
+          "translation": "Отстань"
         }
       },
-      "definition": "Hanging down or bending due to weakness or tiredness.",
-      "example": "He had drooping red eyes.",
-      "matchedForm": "drooping"
-    },
-    {
-      "word": "enchanter",
-      "lemma": "enchanter",
-      "lemmaId": "enchanter",
-      "pos": "noun",
-      "wordKey": "enchanter_noun",
-      "level": "C2",
-      "ipa": "ɪnˈʧɑːntə",
-      "translations": {
-        "ru": {
-          "translation": "заклинатель, волшебник"
-        }
+      "example": "Couldn’t you get the charm taken off?",
+      "exampleStart": 2553,
+      "exampleEnd": 2590,
+      "phraseMatch": {
+        "text": "get the charm taken off",
+        "startInExample": 13,
+        "endInExample": 36
       },
-      "definition": "A person who uses magic or casts spells.",
-      "example": "If you want it took off permanent, you’d have to take them to an enchanter.",
-      "matchedForm": "enchanter"
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "fearsome",
-      "lemma": "fearsome",
-      "lemmaId": "fearsome",
-      "pos": "adjective",
-      "wordKey": "fearsome_adjective",
-      "level": "C1",
-      "ipa": "ˈfɪəsəm",
-      "translations": {
-        "ru": {
-          "translation": "страшный, грозный"
-        }
-      },
-      "definition": "Causing fear; frightening.",
-      "example": "They got a fearsome strong spell on them.",
-      "matchedForm": "fearsome"
-    },
-    {
-      "word": "grubby",
-      "lemma": "grubby",
-      "lemmaId": "grubby",
-      "pos": "adjective",
-      "wordKey": "grubby_adjective",
+      "word": "hand out",
+      "lemma": "hand out",
+      "lemmaId": "hand_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "hand_out_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈɡrʌbi",
       "translations": {
         "ru": {
-          "translation": "грязный, неряшливый"
+          "translation": "Раздавай"
         }
       },
-      "definition": "Dirty and grimy.",
-      "example": "He held his pale, grubby hand out.",
-      "matchedForm": "grubby"
+      "example": "He held his pale, grubby hand out towards Janet with two twinkling things in it.",
+      "exampleStart": 1444,
+      "exampleEnd": 1524,
+      "phraseMatch": {
+        "text": "hand out",
+        "startInExample": 25,
+        "endInExample": 33
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "hand over",
       "lemma": "hand over",
       "lemmaId": "hand_over",
-      "pos": "phrase",
-      "wordKey": "hand_over_phrase",
-      "level": "C1",
-      "ipa": "hænd ˈəʊvə",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "hand_over_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "передавать, отдавать"
+          "translation": "Передай"
         }
       },
-      "definition": "To give something to someone.",
-      "example": "You have them back, young lady, and hand over a little something on account instead.",
+      "example": "No—you have them back, young lady, and hand over a little something on account instead.",
+      "exampleStart": 3349,
+      "exampleEnd": 3436,
       "phraseMatch": {
         "text": "hand over",
-        "startInExample": 36,
-        "endInExample": 45
-      }
-    },
-    {
-      "word": "indignantly",
-      "lemma": "indignantly",
-      "lemmaId": "indignantly",
-      "pos": "adverb",
-      "wordKey": "indignantly_adverb",
-      "level": "C1",
-      "ipa": "ɪnˈdɪɡnəntli",
-      "translations": {
-        "ru": {
-          "translation": "возмущённо"
-        }
+        "startInExample": 39,
+        "endInExample": 48
       },
-      "definition": "In a manner showing anger or annoyance at what is perceived as unfair treatment.",
-      "example": "The rhododendrons clashed and rustled indignantly beside them.",
-      "matchedForm": "indignantly"
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "jolted to bits",
-      "lemma": "jolted to bits",
-      "lemmaId": "jolted_to_bits",
+      "word": "i tell you",
+      "lemma": "i tell you",
+      "lemmaId": "i_tell_you",
       "pos": "phrase",
-      "wordKey": "jolted_to_bits_phrase",
-      "level": "C1",
-      "ipa": "ʤɒltɪd tuː bɪts",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "i_tell_you_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "потрясён, сильно потрёпан"
+          "translation": "Говорю тебе"
         }
       },
-      "definition": "To be shaken or shocked severely.",
-      "example": "I’m fair jolted to bits!",
+      "example": "“That charm’s deep in, I tell you.",
+      "exampleStart": 2632,
+      "exampleEnd": 2666,
       "phraseMatch": {
-        "text": "jolted to bits",
-        "startInExample": 9,
-        "endInExample": 23
-      }
-    },
-    {
-      "word": "loopy trousers",
-      "lemma": "loopy trousers",
-      "lemmaId": "loopy_trousers",
-      "pos": "phrase",
-      "wordKey": "loopy_trousers_phrase",
-      "level": "C2",
-      "ipa": "ˈluːpi ˈtraʊzəz",
-      "translations": {
-        "ru": {
-          "translation": "свободные штаны, штаны с петлями или застёжками"
-        }
+        "text": "I tell you",
+        "startInExample": 23,
+        "endInExample": 33
       },
-      "definition": "Trousers that feature loops or loose fitting characteristics; here implying somewhat shabby or unusual clothing.",
-      "example": "He searched slowly in the pockets of his loopy trousers.",
-      "phraseMatch": {
-        "text": "loopy trousers",
-        "startInExample": 41,
-        "endInExample": 55
-      }
+      "levelSource": "phrase_fallback"
     },
     {
-      "word": "nervously",
-      "lemma": "nervously",
-      "lemmaId": "nervously",
-      "pos": "adverb",
-      "wordKey": "nervously_adverb",
+      "word": "looking at",
+      "lemma": "look at",
+      "lemmaId": "look_at",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_at_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈnɜːvəsli",
       "translations": {
         "ru": {
-          "translation": "нервно, тревожно"
+          "translation": "смотря на"
         }
       },
-      "definition": "In a way that shows anxiety or apprehension.",
-      "example": "What do you want?” Janet said nervously.",
-      "matchedForm": "nervously"
+      "example": "Before they had recovered from the surprise of seeing him, he had scuttled around between them and the door, where he stood looking at them reproachfully out of drooping red eyes and breathing beer-scented breath over them.",
+      "exampleStart": 458,
+      "exampleEnd": 681,
+      "phraseMatch": {
+        "text": "looking at",
+        "startInExample": 124,
+        "endInExample": 134
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "obliges",
-      "lemma": "obliges",
-      "lemmaId": "obliges",
+      "word": "loopy",
+      "lemma": "loopy",
+      "lemmaId": "loopy",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "loopy_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "петля"
+        }
+      },
+      "example": "He pulled aside his raincoat and searched slowly in the pockets of his loopy trousers.",
+      "exampleStart": 1248,
+      "exampleEnd": 1334,
+      "matchedForm": "loopy",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "owe",
+      "lemma": "owe",
+      "lemmaId": "owe",
       "pos": "verb",
-      "wordKey": "obliges_verb",
-      "level": "C1",
-      "ipa": "əˈblaɪʤɪz",
+      "source": "word",
+      "wordKey": "owe_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "оказывает услугу, помогает"
+          "translation": "долг"
         }
       },
-      "definition": "Helps or does a favour for someone.",
-      "example": "This man I know obliges me with a bit of a spell on account.",
-      "matchedForm": "obliges"
+      "example": "And you owe me fifty-five quid.",
+      "exampleStart": 2379,
+      "exampleEnd": 2410,
+      "matchedForm": "owe",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.68,
+      "difficultySource": "zipf"
     },
     {
-      "word": "quirky expression: 'fair jolted to bits'",
-      "lemma": "quirky expression: 'fair jolted to bits'",
-      "lemmaId": "quirky_expression_fair_jolted_to_bits",
-      "pos": "phrase",
-      "wordKey": "quirky_expression_fair_jolted_to_bits_phrase",
-      "level": "C2",
+      "word": "pay for",
+      "lemma": "pay for",
+      "lemmaId": "pay_for",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "pay_for_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "крайне потрясён"
+          "translation": "оплатить"
         }
       },
-      "definition": "Extremely shaken or upset by something (informal, idiomatic).",
-      "example": "I’m fair jolted to bits!"
+      "example": "”\n\n“Your sister give them to me to pay for a little matter of some dragons’ blood,” said Mr.",
+      "exampleStart": 1639,
+      "exampleEnd": 1731,
+      "phraseMatch": {
+        "text": "pay for",
+        "startInExample": 35,
+        "endInExample": 42
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "raincoat",
+      "lemma": "raincoat",
+      "lemmaId": "raincoat",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "raincoat_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "плащ"
+        }
+      },
+      "example": "A fat old man in a dirty raincoat spilled out of them.",
+      "exampleStart": 403,
+      "exampleEnd": 457,
+      "matchedForm": "raincoat",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "reproachfully",
       "lemma": "reproachfully",
       "lemmaId": "reproachfully",
-      "pos": "adverb",
-      "wordKey": "reproachfully_adverb",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "reproachfully_adjective",
       "level": "C2",
-      "ipa": "rɪˈprəʊtʃfəli",
       "translations": {
         "ru": {
-          "translation": "обвинительно, упрёкливо"
+          "translation": "укоризненно"
         }
       },
-      "definition": "In a way that expresses disapproval or disappointment.",
-      "example": "He stood looking at them reproachfully out of drooping red eyes.",
-      "matchedForm": "reproachfully"
+      "example": "Before they had recovered from the surprise of seeing him, he had scuttled around between them and the door, where he stood looking at them reproachfully out of drooping red eyes and breathing beer-scented breath over them.",
+      "exampleStart": 458,
+      "exampleEnd": 681,
+      "matchedForm": "reproachfully",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "rustled",
+      "lemma": "rustle",
+      "lemmaId": "rustle",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "rustle_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "шорох"
+        }
+      },
+      "example": "The rhododendrons clashed and rustled indignantly beside them.",
+      "exampleStart": 340,
+      "exampleEnd": 402,
+      "matchedForm": "rustled",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "scared to death",
+      "lemma": "scared to death",
+      "lemmaId": "scared_to_death",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "scared_to_death_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "До смерти напуган"
+        }
+      },
+      "example": "So here I sits in them bushes, scared to death the spell’s going to wear off before you comes by, and now you say you’ve no income!",
+      "exampleStart": 3217,
+      "exampleEnd": 3348,
+      "phraseMatch": {
+        "text": "scared to death",
+        "startInExample": 31,
+        "endInExample": 46
+      },
+      "levelSource": "phrase_fallback"
     },
     {
       "word": "scuttled",
-      "lemma": "scuttled",
-      "lemmaId": "scuttled",
-      "pos": "verb",
-      "wordKey": "scuttled_verb",
-      "level": "C1",
-      "ipa": "ˈskʌtld",
-      "translations": {
-        "ru": {
-          "translation": "поспешно побежал, быстро проскочил"
-        }
-      },
-      "definition": "To move quickly with short steps; to hurry along.",
-      "example": "He had scuttled around between them and the door.",
-      "matchedForm": "scuttled"
-    },
-    {
-      "word": "source of income",
-      "lemma": "source of income",
-      "lemmaId": "source_of_income",
-      "pos": "phrase",
-      "wordKey": "source_of_income_phrase",
-      "level": "C1",
-      "ipa": "sɔːs ɒv ˈɪnkʌm",
-      "translations": {
-        "ru": {
-          "translation": "источник дохода"
-        }
-      },
-      "definition": "A way by which money is earned or obtained.",
-      "example": "I’m afraid I haven’t any source of income at all.",
-      "phraseMatch": {
-        "text": "source of income",
-        "startInExample": 25,
-        "endInExample": 41
-      }
-    },
-    {
-      "word": "spell",
-      "lemma": "spell",
-      "lemmaId": "spell",
-      "pos": "noun",
-      "wordKey": "spell_noun",
+      "lemma": "scuttle",
+      "lemmaId": "scuttle",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "scuttle_adjective",
       "level": "B2",
-      "ipa": "spɛl",
       "translations": {
         "ru": {
-          "translation": "заклинание"
+          "translation": "погром"
         }
       },
-      "definition": "A form of words used as a magical charm or incantation.",
-      "example": "They got a fearsome strong spell on them to stop them getting lost.",
-      "matchedForm": "spell"
+      "example": "Before they had recovered from the surprise of seeing him, he had scuttled around between them and the door, where he stood looking at them reproachfully out of drooping red eyes and breathing beer-scented breath over them.",
+      "exampleStart": 458,
+      "exampleEnd": 681,
+      "matchedForm": "scuttled",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "shouting out",
+      "lemma": "shout out",
+      "lemmaId": "shout_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "shout_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "крик"
+        }
+      },
+      "example": "“Could I sit in the joints of mutton shouting out I belonged to Miss Chant?",
+      "exampleStart": 2760,
+      "exampleEnd": 2835,
+      "phraseMatch": {
+        "text": "shouting out",
+        "startInExample": 37,
+        "endInExample": 49
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "shut up",
+      "lemma": "shut up",
+      "lemmaId": "shut_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "shut_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Заткнись"
+        }
+      },
+      "example": "But he says to me, he says, ‘I can’t only shut them up for an hour or so.",
+      "exampleStart": 2901,
+      "exampleEnd": 2974,
+      "phraseMatch": {
+        "text": "shut them up",
+        "startInExample": 42,
+        "endInExample": 54
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "sits in",
+      "lemma": "sit in",
+      "lemmaId": "sit_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "sit_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "сидит"
+        }
+      },
+      "example": "So here I sits in them bushes, scared to death the spell’s going to wear off before you comes by, and now you say you’ve no income!",
+      "exampleStart": 3217,
+      "exampleEnd": 3348,
+      "phraseMatch": {
+        "text": "sits in",
+        "startInExample": 10,
+        "endInExample": 17
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "spilled out",
-      "lemma": "spilled out",
-      "lemmaId": "spilled_out",
-      "pos": "phrase",
-      "wordKey": "spilled_out_phrase",
-      "level": "C1",
-      "ipa": "spɪld aʊt",
+      "lemma": "spill out",
+      "lemmaId": "spill_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "spill_out_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "вышел, высыпался"
+          "translation": "вылились"
         }
       },
-      "definition": "To emerge suddenly or in large numbers or amounts.",
       "example": "A fat old man in a dirty raincoat spilled out of them.",
+      "exampleStart": 403,
+      "exampleEnd": 457,
       "phraseMatch": {
         "text": "spilled out",
         "startInExample": 34,
         "endInExample": 45
-      }
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "swallowed",
+      "lemma": "swallow",
+      "lemmaId": "swallow",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "swallow_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "глотать"
+        }
+      },
+      "example": "”\n\nJanet swallowed.",
+      "exampleStart": 2410,
+      "exampleEnd": 2429,
+      "matchedForm": "swallowed",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.754286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "took off",
+      "lemma": "take off",
+      "lemmaId": "take_off",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "take_off_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "взлетели"
+        }
+      },
+      "example": "If you want it took off permanent, you’d have to take them to an enchanter.",
+      "exampleStart": 3003,
+      "exampleEnd": 3078,
+      "phraseMatch": {
+        "text": "took off",
+        "startInExample": 15,
+        "endInExample": 23
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "twinkling",
-      "lemma": "twinkling",
-      "lemmaId": "twinkling",
+      "lemma": "twinkle",
+      "lemmaId": "twinkle",
       "pos": "adjective",
-      "wordKey": "twinkling_adjective",
-      "level": "C1",
-      "ipa": "ˈtwɪŋklɪŋ",
+      "source": "word",
+      "wordKey": "twinkle_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "мерцающий"
+          "translation": "мерцание"
         }
       },
-      "definition": "Shining intermittently with a sparkling or gleaming light.",
       "example": "He held his pale, grubby hand out towards Janet with two twinkling things in it.",
-      "matchedForm": "twinkling"
+      "exampleStart": 1444,
+      "exampleEnd": 1524,
+      "matchedForm": "twinkling",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.954286,
+      "difficultySource": "zipf"
     },
     {
       "word": "wear off",
       "lemma": "wear off",
       "lemmaId": "wear_off",
-      "pos": "phrase",
-      "wordKey": "wear_off_phrase",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "wear_off_phrasal_verb",
       "level": "B2",
-      "ipa": "wɛə ɒf",
       "translations": {
         "ru": {
-          "translation": "прекращать свое действие, проходить"
+          "translation": "Действие проходит"
         }
       },
-      "definition": "To gradually disappear or stop having an effect.",
-      "example": "Scared to death the spell’s going to wear off before you comes by.",
+      "example": "So here I sits in them bushes, scared to death the spell’s going to wear off before you comes by, and now you say you’ve no income!",
+      "exampleStart": 3217,
+      "exampleEnd": 3348,
       "phraseMatch": {
         "text": "wear off",
-        "startInExample": 37,
-        "endInExample": 45
-      }
+        "startInExample": 68,
+        "endInExample": 76
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "you think",
+      "lemma": "you think",
+      "lemmaId": "you_think",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "you_think_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Ты думаешь"
+        }
+      },
+      "example": "“What do you think I am?",
+      "exampleStart": 2717,
+      "exampleEnd": 2741,
+      "phraseMatch": {
+        "text": "you think",
+        "startInExample": 9,
+        "endInExample": 18
+      },
+      "levelSource": "phrase_fallback"
     }
   ]
 }

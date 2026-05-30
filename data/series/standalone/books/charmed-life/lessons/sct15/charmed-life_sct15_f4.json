@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 15,
     "sectionTitle": "Chapter 12",
     "fragmentIndex": 4,
@@ -21,471 +20,921 @@
       "wordCount": 640,
       "uniqueWordCount": 353,
       "paragraphCount": 16,
-      "vocabularyCount": 26,
+      "vocabularyCount": 39,
       "levelDistribution": {
         "A1": 0,
-        "A2": 0,
-        "B1": 0,
-        "B2": 14,
-        "C1": 11,
-        "C2": 1
+        "A2": 3,
+        "B1": 9,
+        "B2": 23,
+        "C1": 4,
+        "C2": 0
       }
     }
   },
   "vocabulary": [
     {
-      "word": "advanced",
-      "lemma": "advanced",
-      "lemmaId": "advanced",
+      "word": "armful",
+      "lemma": "armful",
+      "lemmaId": "armful",
       "pos": "adjective",
-      "wordKey": "advanced_adjective",
-      "level": "C1",
-      "ipa": "ədˈvɑːnst",
+      "source": "word",
+      "wordKey": "armful_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "продвинутый, сложный"
+          "translation": "вооруженный"
         }
       },
-      "definition": "More highly developed or skilled; requiring more knowledge or skill.",
-      "example": "That's Advanced Magic.",
-      "matchedForm": "Advanced"
+      "example": "She was carrying an armful of things, with a chipped teapot hanging off one finger.",
+      "exampleStart": 2508,
+      "exampleEnd": 2591,
+      "matchedForm": "armful",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "chipped",
-      "lemma": "chipped",
-      "lemmaId": "chipped",
-      "pos": "adjective",
-      "wordKey": "chipped_adjective",
-      "level": "B2",
-      "ipa": "tʃɪpt",
+      "word": "as soon as",
+      "lemma": "as soon as",
+      "lemmaId": "as_soon_as",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "as_soon_as_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "царапаный, со сколами"
+          "translation": "как только"
         }
       },
-      "definition": "Having a small piece broken off the edge or surface.",
-      "example": "A chipped teapot hanging off one finger.",
-      "matchedForm": "chipped"
+      "example": "As soon as Miss Bessemer had gone, they dived to see if, by any blessed chance, any of the pile was valuable.",
+      "exampleStart": 3034,
+      "exampleEnd": 3143,
+      "phraseMatch": {
+        "text": "As soon as",
+        "startInExample": 0,
+        "endInExample": 10
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "bedlam",
+      "lemma": "bedlam",
+      "lemmaId": "bedlam",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "bedlam_verb",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "бедлам"
+        }
+      },
+      "example": "Bedlam calls for his money.",
+      "exampleStart": 964,
+      "exampleEnd": 991,
+      "matchedForm": "Bedlam",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "bit",
+      "lemma": "bite",
+      "lemmaId": "bite",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "bite_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "укусить"
+        }
+      },
+      "example": "If you’ll forgive my saying so, I’ve stopped loving your sugar-coated sister even one tiny bit!",
+      "exampleStart": 535,
+      "exampleEnd": 630,
+      "matchedForm": "bit",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.628571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "calls for",
+      "lemma": "call for",
+      "lemmaId": "call_for",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "call_for_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "призывает"
+        }
+      },
+      "example": "Bedlam calls for his money.",
+      "exampleStart": 964,
+      "exampleEnd": 991,
+      "phraseMatch": {
+        "text": "calls for",
+        "startInExample": 7,
+        "endInExample": 16
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "changing into",
+      "lemma": "change into",
+      "lemmaId": "change_into",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "change_into_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Преобразование в"
+        }
+      },
+      "example": "But changing into things won’t be in either of those books.",
+      "exampleStart": 1778,
+      "exampleEnd": 1837,
+      "phraseMatch": {
+        "text": "changing into",
+        "startInExample": 4,
+        "endInExample": 17
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "chipped off",
+      "lemma": "chip off",
+      "lemmaId": "chip_off",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "chip_off_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Отколота"
+        }
+      },
+      "example": "She was carrying an armful of things, with a chipped teapot hanging off one finger.",
+      "exampleStart": 2508,
+      "exampleEnd": 2591,
+      "phraseMatch": {
+        "text": "chipped teapot hanging off",
+        "startInExample": 45,
+        "endInExample": 71
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "came in",
+      "lemma": "come in",
+      "lemmaId": "come_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Вошёл"
+        }
+      },
+      "example": "Taking this as an invitation, Miss Bessemer opened the door and came in.",
+      "exampleStart": 2435,
+      "exampleEnd": 2507,
+      "phraseMatch": {
+        "text": "came in",
+        "startInExample": 64,
+        "endInExample": 71
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "come into",
+      "lemma": "come into",
+      "lemmaId": "come_into",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_into_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Заходи"
+        }
+      },
+      "example": "“‘Come into the garden, Maud,’” she proclaimed.",
+      "exampleStart": 2386,
+      "exampleEnd": 2433,
+      "phraseMatch": {
+        "text": "Come into",
+        "startInExample": 2,
+        "endInExample": 11
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "come out",
+      "lemma": "come out",
+      "lemmaId": "come_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Выходи"
+        }
+      },
+      "example": "And if the whole story doesn’t come out then, it will on Wednesday, when Mr.",
+      "exampleStart": 887,
+      "exampleEnd": 963,
+      "phraseMatch": {
+        "text": "come out",
+        "startInExample": 31,
+        "endInExample": 39
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "cutting in",
+      "lemma": "cut in",
+      "lemmaId": "cut_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "cut_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Вмешивайтесь"
+        }
+      },
+      "example": "“You’d only get this up by cutting a hole in the floor,” she said.",
+      "exampleStart": 435,
+      "exampleEnd": 501,
+      "phraseMatch": {
+        "text": "cutting a hole in",
+        "startInExample": 27,
+        "endInExample": 44
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "dead loss",
       "lemma": "dead loss",
       "lemmaId": "dead_loss",
       "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
       "wordKey": "dead_loss_phrase",
       "level": "C1",
-      "ipa": "dɛd lɒs",
       "translations": {
         "ru": {
-          "translation": "полная потеря, безрезультатная трата"
+          "translation": "Погибшая потеря"
         }
       },
-      "definition": "Something that is completely useless or wasted.",
-      "example": "From a selling point of view, they were just a dead loss.",
+      "example": "As Janet said, if they really had wanted to play houses, two stools and an old carpet would have been just the thing, but from a selling point of view, they were just a dead loss.",
+      "exampleStart": 3157,
+      "exampleEnd": 3336,
       "phraseMatch": {
         "text": "dead loss",
-        "startInExample": 47,
-        "endInExample": 56
-      }
+        "startInExample": 169,
+        "endInExample": 178
+      },
+      "levelSource": "phrase_index"
     },
     {
-      "word": "doubled",
-      "lemma": "doubled",
-      "lemmaId": "doubled",
-      "pos": "verb",
-      "wordKey": "doubled_verb",
+      "word": "dump on",
+      "lemma": "dump on",
+      "lemmaId": "dump_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "dump_on_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈdʌbəld",
       "translations": {
         "ru": {
-          "translation": "сложенный вдвое"
+          "translation": "Слив на"
         }
       },
-      "definition": "Folded one part over another to reduce length or width by half.",
-      "example": "Janet doubled Magic for Beginners inside out.",
-      "matchedForm": "doubled"
-    },
-    {
-      "word": "dump",
-      "lemma": "dump",
-      "lemmaId": "dump",
-      "pos": "verb",
-      "wordKey": "dump_verb",
-      "level": "B2",
-      "ipa": "dʌmp",
-      "translations": {
-        "ru": {
-          "translation": "валить, сваливать"
-        }
+      "example": "They twisted around to watch Miss Bessemer dump the armful on the bed and, still twisted, they thanked her profusely.",
+      "exampleStart": 2916,
+      "exampleEnd": 3033,
+      "phraseMatch": {
+        "text": "dump the armful on",
+        "startInExample": 43,
+        "endInExample": 61
       },
-      "definition": "To put down or drop something in a careless or hurried way.",
-      "example": "Miss Bessemer dumped the armful on the bed.",
-      "matchedForm": "dump"
-    },
-    {
-      "word": "fetch",
-      "lemma": "fetch",
-      "lemmaId": "fetch",
-      "pos": "verb",
-      "wordKey": "fetch_verb",
-      "level": "B2",
-      "ipa": "fetʃ",
-      "translations": {
-        "ru": {
-          "translation": "принести, достать"
-        }
-      },
-      "definition": "To go and bring back something.",
-      "example": "She turned around to fetch Magic for Beginners.",
-      "matchedForm": "fetch"
-    },
-    {
-      "word": "forgive",
-      "lemma": "forgive",
-      "lemmaId": "forgive",
-      "pos": "verb",
-      "wordKey": "forgive_verb",
-      "level": "B2",
-      "ipa": "fəˈɡɪv",
-      "translations": {
-        "ru": {
-          "translation": "прощать"
-        }
-      },
-      "definition": "To stop feeling angry or resentful toward someone for an offence, flaw, or mistake.",
-      "example": "If you'll forgive my saying so, I've stopped loving your sister.",
-      "matchedForm": "forgive"
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "furnishings",
-      "lemma": "furnishings",
-      "lemmaId": "furnishings",
-      "pos": "noun",
-      "wordKey": "furnishings_noun",
+      "lemma": "furnishing",
+      "lemmaId": "furnishing",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "furnishing_adjective",
       "level": "C1",
-      "ipa": "ˈfɜːnɪʃɪŋz",
       "translations": {
         "ru": {
-          "translation": "мебель и принадлежности"
+          "translation": "мебель"
         }
       },
-      "definition": "Furniture, fittings, and other decorative accessories for a room or building.",
-      "example": "She was carrying an armful of furnishings.",
-      "matchedForm": "furnishings"
+      "example": "“The furnishings I promised you, loves,” she said.",
+      "exampleStart": 2592,
+      "exampleEnd": 2642,
+      "matchedForm": "furnishings",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.997143,
+      "difficultySource": "zipf"
     },
     {
-      "word": "hastily",
-      "lemma": "hastily",
-      "lemmaId": "hastily",
-      "pos": "adverb",
-      "wordKey": "hastily_adverb",
+      "word": "get down",
+      "lemma": "get down",
+      "lemmaId": "get_down",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "get_down_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈheɪstɪli",
       "translations": {
         "ru": {
-          "translation": "поспешно"
+          "translation": "Ложись"
         }
       },
-      "definition": "With excessive speed or urgency; hurriedly.",
-      "example": "Cat hastily dropped to one knee on top of the lump of dough.",
-      "matchedForm": "hastily"
+      "example": "”\n\n“Then I’ll do the spell to get the mirror down,” said Janet.",
+      "exampleStart": 1860,
+      "exampleEnd": 1923,
+      "phraseMatch": {
+        "text": "get the mirror down",
+        "startInExample": 30,
+        "endInExample": 49
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "invitation",
-      "lemma": "invitation",
-      "lemmaId": "invitation",
-      "pos": "noun",
-      "wordKey": "invitation_noun",
+      "word": "get up",
+      "lemma": "get up",
+      "lemmaId": "get_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "get_up_phrasal_verb",
       "level": "B2",
-      "ipa": "ˌɪnvɪˈteɪʃn",
       "translations": {
         "ru": {
-          "translation": "приглашение"
+          "translation": "Вставай"
         }
       },
-      "definition": "A request to participate or attend an event or action.",
-      "example": "Taking this as an invitation, Miss Bessemer opened the door.",
-      "matchedForm": "invitation"
+      "example": "“You’d only get this up by cutting a hole in the floor,” she said.",
+      "exampleStart": 435,
+      "exampleEnd": 501,
+      "phraseMatch": {
+        "text": "get this up",
+        "startInExample": 12,
+        "endInExample": 23
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "lump",
-      "lemma": "lump",
-      "lemmaId": "lump",
-      "pos": "noun",
-      "wordKey": "lump_noun",
+      "word": "hit on",
+      "lemma": "hit on",
+      "lemmaId": "hit_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "hit_on_phrasal_verb",
       "level": "B2",
-      "ipa": "lʌmp",
       "translations": {
         "ru": {
-          "translation": "кусок, комок"
+          "translation": "Заклинай"
         }
       },
-      "definition": "A compact mass of a substance, often without a definite or regular shape.",
-      "example": "They looked at the lump of dough that had grown to the carpet.",
-      "matchedForm": "lump"
+      "example": "” She turned around to fetch Magic for Beginners and hit her head on the mirror.",
+      "exampleStart": 1449,
+      "exampleEnd": 1529,
+      "phraseMatch": {
+        "text": "hit her head on",
+        "startInExample": 53,
+        "endInExample": 68
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "marched",
-      "lemma": "marched",
-      "lemmaId": "marched",
+      "word": "i wish",
+      "lemma": "i wish",
+      "lemmaId": "i_wish",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "i_wish_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Хотелось бы"
+        }
+      },
+      "example": "“I wish I really could turn into things, though.",
+      "exampleStart": 1280,
+      "exampleEnd": 1328,
+      "phraseMatch": {
+        "text": "I wish",
+        "startInExample": 1,
+        "endInExample": 7
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "inside out",
+      "lemma": "inside out",
+      "lemmaId": "inside_out",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "inside_out_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Наизнанку наружу"
+        }
+      },
+      "example": "Janet doubled Magic for Beginners inside out so that it could have been any book, and waved it at Cat.",
+      "exampleStart": 2283,
+      "exampleEnd": 2385,
+      "phraseMatch": {
+        "text": "inside out",
+        "startInExample": 34,
+        "endInExample": 44
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "level with",
+      "lemma": "level with",
+      "lemmaId": "level_with",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "level_with_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "уровень с"
+        }
+      },
+      "example": "It was hanging in the air, level with her forehead.",
+      "exampleStart": 1530,
+      "exampleEnd": 1581,
+      "phraseMatch": {
+        "text": "level with",
+        "startInExample": 27,
+        "endInExample": 37
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "lied about",
+      "lemma": "lie about",
+      "lemmaId": "lie_about",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "lie_about_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "солгал"
+        }
+      },
+      "example": "“I shouldn’t have lied about Euphemia.",
+      "exampleStart": 662,
+      "exampleEnd": 700,
+      "phraseMatch": {
+        "text": "lied about",
+        "startInExample": 18,
+        "endInExample": 28
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "like that",
+      "lemma": "like that",
+      "lemmaId": "like_that",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "like_that_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Вот так"
+        }
+      },
+      "example": "Mary followed him, but she was unable to resist putting her head back around the door to say, “And see how you like that, Eric!",
+      "exampleStart": 49,
+      "exampleEnd": 176,
+      "phraseMatch": {
+        "text": "like that",
+        "startInExample": 111,
+        "endInExample": 120
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "looking at",
+      "lemma": "look at",
+      "lemmaId": "look_at",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_at_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "смотря на"
+        }
+      },
+      "example": "”\n\n“I’d better do that,” Cat agreed, looking at that ominous lump of dough.",
+      "exampleStart": 1204,
+      "exampleEnd": 1279,
+      "phraseMatch": {
+        "text": "looking at",
+        "startInExample": 37,
+        "endInExample": 47
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "maud",
+      "lemma": "maud",
+      "lemmaId": "maud",
       "pos": "verb",
-      "wordKey": "marched_verb",
-      "level": "C1",
-      "ipa": "mɑːrtʃt",
+      "source": "word",
+      "wordKey": "maud_verb",
+      "level": "A2",
       "translations": {
         "ru": {
-          "translation": "пошёл с решительной походкой"
+          "translation": "гордость"
         }
       },
-      "definition": "To walk with a regular and often forceful step, especially as a sign of determination or authority.",
-      "example": "Will Suggins turned and marched out of the room.",
-      "matchedForm": "marched"
+      "example": "“‘Come into the garden, Maud,’” she proclaimed.",
+      "exampleStart": 2386,
+      "exampleEnd": 2433,
+      "matchedForm": "Maud",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.991429,
+      "difficultySource": "zipf"
     },
     {
       "word": "mauled",
-      "lemma": "mauled",
-      "lemmaId": "mauled",
-      "pos": "verb",
-      "wordKey": "mauled_verb",
-      "level": "C1",
-      "ipa": "mɔːld",
+      "lemma": "maul",
+      "lemmaId": "maul",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "maul_adjective",
+      "level": "A2",
       "translations": {
         "ru": {
-          "translation": "растерзать, сильно ранить"
+          "translation": "муль"
         }
       },
-      "definition": "To wound a person or animal by scratching and tearing; to attack roughly.",
-      "example": "On Sunday, you get mauled by a tiger.",
-      "matchedForm": "mauled"
-    },
-    {
-      "word": "mirror",
-      "lemma": "mirror",
-      "lemmaId": "mirror",
-      "pos": "noun",
-      "wordKey": "mirror_noun",
-      "level": "B2",
-      "ipa": "ˈmɪrə",
-      "translations": {
-        "ru": {
-          "translation": "зеркало"
-        }
-      },
-      "definition": "A reflective surface, typically of glass coated with a metal amalgam, which reflects a clear image.",
-      "example": "She hit her head on the mirror.",
-      "matchedForm": "mirror"
+      "example": "“On Sunday, you get mauled by a tiger.",
+      "exampleStart": 799,
+      "exampleEnd": 837,
+      "matchedForm": "mauled",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "ominous",
       "lemma": "ominous",
       "lemmaId": "ominous",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "ominous_adjective",
       "level": "C1",
-      "ipa": "ˈɒmɪnəs",
       "translations": {
         "ru": {
           "translation": "зловещий"
         }
       },
-      "definition": "Suggesting that something bad is going to happen.",
-      "example": "Looking at that ominous lump of dough.",
-      "matchedForm": "ominous"
+      "example": "”\n\n“I’d better do that,” Cat agreed, looking at that ominous lump of dough.",
+      "exampleStart": 1204,
+      "exampleEnd": 1279,
+      "matchedForm": "ominous",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.888571,
+      "difficultySource": "zipf"
     },
     {
-      "word": "poetry reading",
-      "lemma": "poetry reading",
-      "lemmaId": "poetry_reading",
+      "word": "on top of",
+      "lemma": "on top of",
+      "lemmaId": "on_top_of",
       "pos": "phrase",
-      "wordKey": "poetry_reading_phrase",
-      "level": "B2",
-      "ipa": "ˈpəʊɪtri ˈriːdɪŋ",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "on_top_of_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "чтение стихов"
+          "translation": "На вершине"
         }
       },
-      "definition": "An event or activity where poems are read aloud to an audience.",
-      "example": "We were just having a poetry reading, you know.",
+      "example": "Cat hastily dropped to one knee on top of the lump of dough.",
+      "exampleStart": 2180,
+      "exampleEnd": 2240,
       "phraseMatch": {
-        "text": "poetry reading",
-        "startInExample": 22,
-        "endInExample": 36
-      }
+        "text": "on top of",
+        "startInExample": 32,
+        "endInExample": 41
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "pick up",
+      "lemma": "pick up",
+      "lemmaId": "pick_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "pick_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Подними"
+        }
+      },
+      "example": "Janet threw her book onto Cat’s bed and tried to pick up the lump of dough.",
+      "exampleStart": 303,
+      "exampleEnd": 378,
+      "phraseMatch": {
+        "text": "pick up",
+        "startInExample": 49,
+        "endInExample": 56
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "proclaimed",
-      "lemma": "proclaimed",
-      "lemmaId": "proclaimed",
-      "pos": "verb",
-      "wordKey": "proclaimed_verb",
-      "level": "C1",
-      "ipa": "prəˈkleɪmd",
+      "lemma": "proclaim",
+      "lemmaId": "proclaim",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "proclaim_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "провозглашать, заявлять"
+          "translation": "провозглашать"
         }
       },
-      "definition": "To announce officially or publicly.",
-      "example": "She proclaimed, 'Come into the garden, Maud.'",
-      "matchedForm": "proclaimed"
+      "example": "“‘Come into the garden, Maud,’” she proclaimed.",
+      "exampleStart": 2386,
+      "exampleEnd": 2433,
+      "matchedForm": "proclaimed",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.925714,
+      "difficultySource": "zipf"
     },
     {
       "word": "profusely",
       "lemma": "profusely",
       "lemmaId": "profusely",
-      "pos": "adverb",
-      "wordKey": "profusely_adverb",
-      "level": "C2",
-      "ipa": "prəˈfjuːsli",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "profusely_adjective",
+      "level": "C1",
       "translations": {
         "ru": {
-          "translation": "обильно, щедро"
+          "translation": "обильно"
         }
       },
-      "definition": "To a great degree; in large amounts.",
-      "example": "They thanked her profusely.",
-      "matchedForm": "profusely"
+      "example": "They twisted around to watch Miss Bessemer dump the armful on the bed and, still twisted, they thanked her profusely.",
+      "exampleStart": 2916,
+      "exampleEnd": 3033,
+      "matchedForm": "profusely",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "resist",
-      "lemma": "resist",
-      "lemmaId": "resist",
-      "pos": "verb",
-      "wordKey": "resist_verb",
+      "word": "seized",
+      "lemma": "seize",
+      "lemmaId": "seize",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "seize_adjective",
       "level": "B2",
-      "ipa": "rɪˈzɪst",
       "translations": {
         "ru": {
-          "translation": "сопротивляться"
+          "translation": "захватывать"
         }
       },
-      "definition": "To stop yourself from doing something that you want to do.",
-      "example": "She was unable to resist putting her head back around the door to say…",
-      "matchedForm": "resist"
+      "example": "Janet seized the chair beside Cat’s bed and stood on it, so as to hide the mirror.",
+      "exampleStart": 2097,
+      "exampleEnd": 2179,
+      "matchedForm": "seized",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.774286,
+      "difficultySource": "zipf"
     },
     {
       "word": "selling point",
       "lemma": "selling point",
       "lemmaId": "selling_point",
       "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
       "wordKey": "selling_point_phrase",
       "level": "B2",
-      "ipa": "ˈsɛlɪŋ pɔɪnt",
       "translations": {
         "ru": {
-          "translation": "продающий аргумент, преимущество продажи"
+          "translation": "Преимущество"
         }
       },
-      "definition": "A feature that makes something attractive or desirable and helps to sell it.",
-      "example": "From a selling point of view, they were just a dead loss.",
+      "example": "As Janet said, if they really had wanted to play houses, two stools and an old carpet would have been just the thing, but from a selling point of view, they were just a dead loss.",
+      "exampleStart": 3157,
+      "exampleEnd": 3336,
       "phraseMatch": {
         "text": "selling point",
-        "startInExample": 7,
-        "endInExample": 20
-      }
-    },
-    {
-      "word": "shift",
-      "lemma": "shift",
-      "lemmaId": "shift",
-      "pos": "verb",
-      "wordKey": "shift_verb",
-      "level": "C1",
-      "ipa": "ʃɪft",
-      "translations": {
-        "ru": {
-          "translation": "сдвигать, перемещать"
-        }
+        "startInExample": 129,
+        "endInExample": 142
       },
-      "definition": "To move or cause to move from one place to another.",
-      "example": "She could not shift the lump of dough from the carpet.",
-      "matchedForm": "shift"
+      "levelSource": "phrase_index"
     },
     {
-      "word": "spell",
-      "lemma": "spell",
-      "lemmaId": "spell",
-      "pos": "noun",
-      "wordKey": "spell_noun",
-      "level": "B2",
-      "ipa": "spel",
-      "translations": {
-        "ru": {
-          "translation": "заклинание"
-        }
-      },
-      "definition": "A word or formula believed to have magical power.",
-      "example": "Let's see if there's a spell for it.",
-      "matchedForm": "spell"
-    },
-    {
-      "word": "sugar-coated",
-      "lemma": "sugar-coated",
+      "word": "sugar coated",
+      "lemma": "sugar coated",
       "lemmaId": "sugar_coated",
-      "pos": "adjective",
-      "wordKey": "sugar_coated_adjective",
-      "level": "C1",
-      "ipa": "ˈʃʊɡərˌkoʊtɪd",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "sugar_coated_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "приукрашенный, слащавый"
+          "translation": "Сахарное покрытие"
         }
       },
-      "definition": "Made to seem more pleasant, attractive, or acceptable than it really is.",
-      "example": "Your sugar-coated sister even one tiny bit!",
-      "matchedForm": "sugar-coated"
+      "example": "If you’ll forgive my saying so, I’ve stopped loving your sugar-coated sister even one tiny bit!",
+      "exampleStart": 535,
+      "exampleEnd": 630,
+      "matchedForm": "sugar-coated",
+      "phraseMatch": {
+        "text": "sugar-coated",
+        "startInExample": 57,
+        "endInExample": 69
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "talking to",
+      "lemma": "talk to",
+      "lemmaId": "talk_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "talk_to_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "разговаривать с"
+        }
+      },
+      "example": "”\n\n“And I made sure you were talking to me!",
+      "exampleStart": 2732,
+      "exampleEnd": 2775,
+      "phraseMatch": {
+        "text": "talking to",
+        "startInExample": 29,
+        "endInExample": 39
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "think up",
+      "lemma": "think up",
+      "lemmaId": "think_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "think_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Придумай"
+        }
+      },
+      "example": "Do you think Fate has something up its sleeve for Tuesday too?",
+      "exampleStart": 992,
+      "exampleEnd": 1054,
+      "phraseMatch": {
+        "text": "think Fate has something up",
+        "startInExample": 7,
+        "endInExample": 34
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "turned around",
+      "lemma": "turn around",
+      "lemmaId": "turn_around",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "turn_around_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "повернулся"
+        }
+      },
+      "example": "” She turned around to fetch Magic for Beginners and hit her head on the mirror.",
+      "exampleStart": 1449,
+      "exampleEnd": 1529,
+      "phraseMatch": {
+        "text": "turned around",
+        "startInExample": 6,
+        "endInExample": 19
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "turn into",
+      "lemma": "turn into",
+      "lemmaId": "turn_into",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "turn_into_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Превратиться в"
+        }
+      },
+      "example": "“I wish I really could turn into things, though.",
+      "exampleStart": 1280,
+      "exampleEnd": 1328,
+      "phraseMatch": {
+        "text": "turn into",
+        "startInExample": 23,
+        "endInExample": 32
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "twisted",
-      "lemma": "twisted",
-      "lemmaId": "twisted",
+      "lemma": "twist",
+      "lemmaId": "twist",
       "pos": "adjective",
-      "wordKey": "twisted_adjective",
-      "level": "C1",
-      "ipa": "ˈtwɪstɪd",
-      "translations": {
-        "ru": {
-          "translation": "искривлённый, повернутый"
-        }
-      },
-      "definition": "Turned or bent into an unusual shape or position.",
-      "example": "They twisted around to watch Miss Bessemer dump the armful on the bed.",
-      "matchedForm": "twisted"
-    },
-    {
-      "word": "valuable",
-      "lemma": "valuable",
-      "lemmaId": "valuable",
-      "pos": "adjective",
-      "wordKey": "valuable_adjective",
+      "source": "word",
+      "wordKey": "twist_adjective",
       "level": "B2",
-      "ipa": "ˈvæljuəbl",
       "translations": {
         "ru": {
-          "translation": "ценный"
+          "translation": "поворот"
         }
       },
-      "definition": "Worth a lot of money or having great importance or usefulness.",
-      "example": "They dived to see if any of the pile was valuable.",
-      "matchedForm": "valuable"
+      "example": "They twisted around to watch Miss Bessemer dump the armful on the bed and, still twisted, they thanked her profusely.",
+      "exampleStart": 2916,
+      "exampleEnd": 3033,
+      "matchedForm": "twisted",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.654286,
+      "difficultySource": "zipf"
     },
     {
-      "word": "witchcraft",
-      "lemma": "witchcraft",
-      "lemmaId": "witchcraft",
-      "pos": "noun",
-      "wordKey": "witchcraft_noun",
-      "level": "C1",
-      "ipa": "ˈwɪtʃkrɑːft",
+      "word": "you think",
+      "lemma": "you think",
+      "lemmaId": "you_think",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "you_think_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "колдовство, ведьмовство"
+          "translation": "Ты думаешь"
         }
       },
-      "definition": "The practice of magical skills, spells, and abilities.",
-      "example": "The more I see of witchcraft, the more it seems just an easy way to be nasty.",
-      "matchedForm": "witchcraft"
+      "example": "Do you think Fate has something up its sleeve for Tuesday too?",
+      "exampleStart": 992,
+      "exampleEnd": 1054,
+      "phraseMatch": {
+        "text": "you think",
+        "startInExample": 3,
+        "endInExample": 12
+      },
+      "levelSource": "phrase_fallback"
     }
   ]
 }

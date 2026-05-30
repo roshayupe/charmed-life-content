@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 4,
     "sectionTitle": "Chapter 1",
     "fragmentIndex": 4,
@@ -21,492 +20,725 @@
       "wordCount": 558,
       "uniqueWordCount": 302,
       "paragraphCount": 7,
-      "vocabularyCount": 28,
+      "vocabularyCount": 31,
       "levelDistribution": {
         "A1": 0,
-        "A2": 0,
-        "B1": 0,
-        "B2": 20,
-        "C1": 8,
-        "C2": 0
+        "A2": 3,
+        "B1": 5,
+        "B2": 17,
+        "C1": 5,
+        "C2": 1
       }
     }
   },
   "vocabulary": [
     {
-      "word": "advanced",
-      "lemma": "advanced",
-      "lemmaId": "advanced",
-      "pos": "adjective",
-      "wordKey": "advanced_adjective",
-      "level": "B2",
-      "ipa": "ədˈvɑːnst",
+      "word": "all at once",
+      "lemma": "all at once",
+      "lemmaId": "all_at_once",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "all_at_once_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "продвинутый"
+          "translation": "Всё сразу"
         }
       },
-      "definition": "Far on or ahead in development or progress.",
-      "example": "Starting on Advanced Magic.",
-      "matchedForm": "Advanced"
+      "example": "“Not all at once, in case he gets greedy,” she said.",
+      "exampleStart": 2125,
+      "exampleEnd": 2177,
+      "phraseMatch": {
+        "text": "all at once",
+        "startInExample": 5,
+        "endInExample": 16
+      },
+      "levelSource": "phrase_fallback"
     },
     {
-      "word": "burned",
-      "lemma": "burned",
-      "lemmaId": "burned",
-      "pos": "adjective",
-      "wordKey": "burned_adjective",
-      "level": "B2",
-      "ipa": "bɜːnd",
+      "word": "all the same",
+      "lemma": "all the same",
+      "lemmaId": "all_the_same",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "all_the_same_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "сгоревший"
+          "translation": "Всё равно"
         }
       },
-      "definition": "Damaged or altered by fire or heat.",
-      "example": "Three of the matches had been burned out.",
-      "matchedForm": "burned"
+      "example": "All the same, at the heart of everything, he felt lost and lonely.",
+      "exampleStart": 1586,
+      "exampleEnd": 1652,
+      "phraseMatch": {
+        "text": "All the same",
+        "startInExample": 0,
+        "endInExample": 12
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "books into",
+      "lemma": "book into",
+      "lemmaId": "book_into",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "book_into_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "книги в"
+        }
+      },
+      "example": "” Then she would pack exercise books into a music case and hasten next door for a lesson with Mr.",
+      "exampleStart": 1884,
+      "exampleEnd": 1981,
+      "phraseMatch": {
+        "text": "books into",
+        "startInExample": 31,
+        "endInExample": 41
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "buttonhole",
       "lemma": "buttonhole",
       "lemmaId": "buttonhole",
       "pos": "noun",
+      "source": "word",
       "wordKey": "buttonhole_noun",
       "level": "C1",
-      "ipa": "ˈbʌtnhəʊl",
       "translations": {
         "ru": {
-          "translation": "петля для пуговицы"
+          "translation": "кнопка"
         }
       },
-      "definition": "A slit on a garment through which a button is passed; often used for flowers.",
-      "example": "Cat wore it in his buttonhole.",
-      "matchedForm": "buttonhole"
+      "example": "Cat wore it in his buttonhole until it fell to pieces.",
+      "exampleStart": 795,
+      "exampleEnd": 849,
+      "matchedForm": "buttonhole",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "claim",
-      "lemma": "claim",
-      "lemmaId": "claim",
-      "pos": "noun",
-      "wordKey": "claim_noun",
+      "word": "clung to",
+      "lemma": "cling to",
+      "lemmaId": "cling_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "cling_to_phrasal_verb",
       "level": "B2",
-      "ipa": "kleɪm",
       "translations": {
         "ru": {
-          "translation": "претензия, требование"
+          "translation": "цеплялся"
         }
       },
-      "definition": "A demand or request for something considered one's due.",
-      "example": "He had a claim to the spray of white heather.",
-      "matchedForm": "claim"
-    },
-    {
-      "word": "cling",
-      "lemma": "cling",
-      "lemmaId": "cling",
-      "pos": "verb",
-      "wordKey": "cling_verb",
-      "level": "C1",
-      "ipa": "klɪŋ",
-      "translations": {
-        "ru": {
-          "translation": "цепляться, держаться"
-        }
+      "example": "So he clung to Gwendolen, because she was the only family he had.",
+      "exampleStart": 1653,
+      "exampleEnd": 1718,
+      "phraseMatch": {
+        "text": "clung to",
+        "startInExample": 6,
+        "endInExample": 14
       },
-      "definition": "Hold on tightly to.",
-      "example": "He clung to Gwendolen."
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "contract",
-      "lemma": "contract",
-      "lemmaId": "contract",
-      "pos": "verb",
-      "wordKey": "contract_verb",
-      "level": "C1",
-      "ipa": "kənˈtrækt",
-      "translations": {
-        "ru": {
-          "translation": "сжиматься, уменьшаться"
-        }
-      },
-      "definition": "To decrease in size, number, or range.",
-      "example": "Cat contracted a little.",
-      "matchedForm": "contract"
-    },
-    {
-      "word": "councillor",
-      "lemma": "councillor",
-      "lemmaId": "councillor",
-      "pos": "noun",
-      "wordKey": "councillor_noun",
-      "level": "C1",
-      "ipa": "ˈkaʊnsələ",
-      "translations": {
-        "ru": {
-          "translation": "член совета"
-        }
-      },
-      "definition": "A member of a local government council.",
-      "example": "Town Councillors called to the house.",
-      "matchedForm": "Councillor"
-    },
-    {
-      "word": "cross",
-      "lemma": "cross",
-      "lemmaId": "cross",
-      "pos": "adjective",
-      "wordKey": "cross_adjective",
+      "word": "came back",
+      "lemma": "come back",
+      "lemmaId": "come_back",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_back_phrasal_verb",
       "level": "B2",
-      "ipa": "krɒs",
       "translations": {
         "ru": {
-          "translation": "раздражённый, сердитый"
+          "translation": "вернулся"
         }
       },
-      "definition": "Annoyed or angry.",
-      "example": "Too busy to be cross.",
-      "matchedForm": "cross"
+      "example": "Sharp so over the wall—and Gwendolen always came back from her lessons with him pleased and golden and glowing.",
+      "exampleStart": 2563,
+      "exampleEnd": 2674,
+      "phraseMatch": {
+        "text": "came back",
+        "startInExample": 44,
+        "endInExample": 53
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "delighted",
-      "lemma": "delighted",
-      "lemmaId": "delighted",
+      "lemma": "delight",
+      "lemmaId": "delight",
       "pos": "adjective",
-      "wordKey": "delighted_adjective",
+      "source": "word",
+      "wordKey": "delight_adjective",
       "level": "B2",
-      "ipa": "dɪˈlaɪtɪd",
       "translations": {
         "ru": {
-          "translation": "в восторге"
+          "translation": "восторг"
         }
       },
-      "definition": "Highly pleased.",
-      "example": "Mr. Nostrum was delighted.",
-      "matchedForm": "delighted"
+      "example": "Nostrum was delighted to teach Gwendolen for the letters.",
+      "exampleStart": 1996,
+      "exampleEnd": 2053,
+      "matchedForm": "delighted",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.725714,
+      "difficultySource": "zipf"
     },
     {
-      "word": "dishonest",
-      "lemma": "dishonest",
-      "lemmaId": "dishonest",
+      "word": "downright",
+      "lemma": "downright",
+      "lemmaId": "downright",
       "pos": "adjective",
-      "wordKey": "dishonest_adjective",
-      "level": "B2",
-      "ipa": "dɪsˈɒnɪst",
+      "source": "word",
+      "wordKey": "downright_adjective",
+      "level": "C1",
       "translations": {
         "ru": {
-          "translation": "нечестный"
+          "translation": "прямо"
         }
       },
-      "definition": "Not honest; intended to deceive.",
-      "example": "Thought it was dishonest.",
-      "matchedForm": "dishonest"
+      "example": "Gwendolen was often rather impatient with him, though usually she was too busy and happy to be downright cross.",
+      "exampleStart": 1720,
+      "exampleEnd": 1831,
+      "matchedForm": "downright",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.894286,
+      "difficultySource": "zipf"
     },
     {
       "word": "drawback",
       "lemma": "drawback",
       "lemmaId": "drawback",
       "pos": "noun",
+      "source": "word",
       "wordKey": "drawback_noun",
       "level": "B2",
-      "ipa": "ˈdrɔːbæk",
       "translations": {
         "ru": {
           "translation": "недостаток"
         }
       },
-      "definition": "A disadvantage or problem that makes something less attractive.",
-      "example": "The only drawback was being left-handed.",
-      "matchedForm": "drawback"
+      "example": "The only drawback was that Cat was left-handed, and schoolmasters always punished him if they caught him writing with his left hand.",
+      "exampleStart": 1350,
+      "exampleEnd": 1482,
+      "matchedForm": "drawback",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.942857,
+      "difficultySource": "zipf"
     },
     {
-      "word": "expand",
-      "lemma": "expand",
-      "lemmaId": "expand",
-      "pos": "verb",
-      "wordKey": "expand_verb",
+      "word": "fallen out",
+      "lemma": "fall out",
+      "lemmaId": "fall_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "fall_out_phrasal_verb",
       "level": "B2",
-      "ipa": "ɪkˈspænd",
       "translations": {
         "ru": {
-          "translation": "расширяться, расти"
+          "translation": "выпали"
         }
       },
-      "definition": "Become larger or more extensive.",
-      "example": "Gwendolen seemed to expand.",
-      "matchedForm": "expand"
+      "example": "” A little red book of matches had fallen out of the bundle of business letters.",
+      "exampleStart": 89,
+      "exampleEnd": 169,
+      "phraseMatch": {
+        "text": "fallen out",
+        "startInExample": 35,
+        "endInExample": 45
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "fell to",
+      "lemma": "fall to",
+      "lemmaId": "fall_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "fall_to_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "упал до"
+        }
+      },
+      "example": "Cat wore it in his buttonhole until it fell to pieces.",
+      "exampleStart": 795,
+      "exampleEnd": 849,
+      "phraseMatch": {
+        "text": "fell to",
+        "startInExample": 39,
+        "endInExample": 46
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "flimsy",
       "lemma": "flimsy",
       "lemmaId": "flimsy",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "flimsy_adjective",
       "level": "C1",
-      "ipa": "ˈflɪmzi",
       "translations": {
         "ru": {
-          "translation": "хрупкий, непрочный"
+          "translation": "хлипкий"
         }
       },
-      "definition": "Comparatively light and insubstantial; easily damaged.",
-      "example": "Less than half full of flimsy cardboard matches.",
-      "matchedForm": "flimsy"
-    },
-    {
-      "word": "gleefully",
-      "lemma": "gleefully",
-      "lemmaId": "gleefully",
-      "pos": "adverb",
-      "wordKey": "gleefully_adverb",
-      "level": "C1",
-      "ipa": "ˈɡliːfʊli",
-      "translations": {
-        "ru": {
-          "translation": "радостно"
-        }
-      },
-      "definition": "In a very happy or joyful manner.",
-      "example": "Gleefully, Mrs. Sharp began packing the things away.",
-      "matchedForm": "Gleefully"
+      "example": "It was less than half full of flimsy cardboard matches.",
+      "exampleStart": 238,
+      "exampleEnd": 293,
+      "matchedForm": "flimsy",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.974286,
+      "difficultySource": "zipf"
     },
     {
       "word": "glowing",
-      "lemma": "glowing",
-      "lemmaId": "glowing",
+      "lemma": "glow",
+      "lemmaId": "glow",
       "pos": "adjective",
-      "wordKey": "glowing_adjective",
-      "level": "B2",
-      "ipa": "ˈɡləʊɪŋ",
+      "source": "word",
+      "wordKey": "glow_adjective",
+      "level": "C1",
       "translations": {
         "ru": {
-          "translation": "сияющий"
+          "translation": "свечение"
         }
       },
-      "definition": "Expressing great praise or admiration; shining brightly.",
-      "example": "Golden and glowing after lessons.",
-      "matchedForm": "glowing"
+      "example": "Sharp so over the wall—and Gwendolen always came back from her lessons with him pleased and golden and glowing.",
+      "exampleStart": 2563,
+      "exampleEnd": 2674,
+      "matchedForm": "glowing",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.742857,
+      "difficultySource": "zipf"
     },
     {
-      "word": "golden",
-      "lemma": "golden",
-      "lemmaId": "golden",
-      "pos": "adjective",
-      "wordKey": "golden_adjective",
+      "word": "went on",
+      "lemma": "go on",
+      "lemmaId": "go_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_on_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈɡəʊldən",
       "translations": {
         "ru": {
-          "translation": "золотистый, сияющий"
+          "translation": "продолжил"
         }
       },
-      "definition": "Having a rich yellow colour or associated with gold.",
-      "example": "Pleased and golden and glowing.",
-      "matchedForm": "golden"
-    },
-    {
-      "word": "greedy",
-      "lemma": "greedy",
-      "lemmaId": "greedy",
-      "pos": "adjective",
-      "wordKey": "greedy_adjective",
-      "level": "B2",
-      "ipa": "ˈɡriːdi",
-      "translations": {
-        "ru": {
-          "translation": "жадный"
-        }
+      "example": "Such a promising witch was she, indeed, that she skipped the First Grade Magic exam and went straight on to the Second.",
+      "exampleStart": 2250,
+      "exampleEnd": 2369,
+      "phraseMatch": {
+        "text": "went straight on",
+        "startInExample": 88,
+        "endInExample": 104
       },
-      "definition": "Having an intense and selfish desire for something.",
-      "example": "In case he gets greedy.",
-      "matchedForm": "greedy"
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "hasten",
       "lemma": "hasten",
       "lemmaId": "hasten",
       "pos": "verb",
+      "source": "word",
       "wordKey": "hasten_verb",
       "level": "C1",
-      "ipa": "ˈheɪsən",
       "translations": {
         "ru": {
-          "translation": "торопиться"
+          "translation": "спешить"
         }
       },
-      "definition": "To move or act quickly.",
-      "example": "She hastened next door.",
-      "matchedForm": "hasten"
+      "example": "” Then she would pack exercise books into a music case and hasten next door for a lesson with Mr.",
+      "exampleStart": 1884,
+      "exampleEnd": 1981,
+      "matchedForm": "hasten",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "having on",
+      "lemma": "have on",
+      "lemmaId": "have_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "have_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "имея на себе"
+        }
+      },
+      "example": "Sharp put Gwendolen down as having, on the accounts she kept for the Town Council.",
+      "exampleStart": 2840,
+      "exampleEnd": 2922,
+      "phraseMatch": {
+        "text": "having, on",
+        "startInExample": 28,
+        "endInExample": 38
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "impatient",
       "lemma": "impatient",
       "lemmaId": "impatient",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "impatient_adjective",
       "level": "B2",
-      "ipa": "ɪmˈpeɪʃənt",
       "translations": {
         "ru": {
           "translation": "нетерпеливый"
         }
       },
-      "definition": "Easily annoyed by delays or problems.",
-      "example": "Gwendolen was impatient.",
-      "matchedForm": "impatient"
+      "example": "Gwendolen was often rather impatient with him, though usually she was too busy and happy to be downright cross.",
+      "exampleStart": 1720,
+      "exampleEnd": 1831,
+      "matchedForm": "impatient",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.845714,
+      "difficultySource": "zipf"
     },
     {
-      "word": "kind",
-      "lemma": "kind",
-      "lemmaId": "kind",
+      "word": "living with",
+      "lemma": "live with",
+      "lemmaId": "live_with",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "live_with_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Жить с"
+        }
+      },
+      "example": "• • •\n\nLiving with Mrs.",
+      "exampleStart": 851,
+      "exampleEnd": 874,
+      "phraseMatch": {
+        "text": "Living with",
+        "startInExample": 7,
+        "endInExample": 18
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "make room",
+      "lemma": "make room",
+      "lemmaId": "make_room",
       "pos": "phrase",
-      "wordKey": "kind_phrase",
-      "level": "B2",
-      "ipa": "adjective",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "make_room_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "доброжелательный, добрый"
+          "translation": "Освободите место"
         }
       },
-      "definition": "Having a benevolent or gentle nature.",
-      "example": "Mrs. Sharp was kind to him.",
-      "matchedForm": "kind"
+      "example": "Perhaps Cat contracted a little to make room for her—he did not know.",
+      "exampleStart": 1008,
+      "exampleEnd": 1077,
+      "phraseMatch": {
+        "text": "make room",
+        "startInExample": 35,
+        "endInExample": 44
+      },
+      "levelSource": "phrase_fallback"
     },
     {
-      "word": "left-handed",
-      "lemma": "left-handed",
-      "lemmaId": "left_handed",
+      "word": "or else",
+      "lemma": "or else",
+      "lemmaId": "or_else",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "or_else_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "иначе"
+        }
+      },
+      "example": "“Or else.",
+      "exampleStart": 1875,
+      "exampleEnd": 1884,
+      "phraseMatch": {
+        "text": "Or else",
+        "startInExample": 1,
+        "endInExample": 8
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "packing away",
+      "lemma": "pack away",
+      "lemmaId": "pack_away",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "pack_away_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Собираюсь"
+        }
+      },
+      "example": "Sharp began packing the things away in the box again.",
+      "exampleStart": 16,
+      "exampleEnd": 69,
+      "phraseMatch": {
+        "text": "packing the things away",
+        "startInExample": 12,
+        "endInExample": 35
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "patted",
+      "lemma": "pat",
+      "lemmaId": "pat",
       "pos": "adjective",
-      "wordKey": "left_handed_adjective",
+      "source": "word",
+      "wordKey": "pat_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "похлопывать"
+        }
+      },
+      "example": "Town Councillors and their wives called several times a week and patted him on the head in the parlor.",
+      "exampleStart": 1164,
+      "exampleEnd": 1266,
+      "matchedForm": "patted",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.648571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "put down",
+      "lemma": "put down",
+      "lemmaId": "put_down",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "put_down_phrasal_verb",
       "level": "B2",
-      "ipa": "ˌleftˈhændɪd",
       "translations": {
         "ru": {
-          "translation": "левша"
+          "translation": "Положи"
         }
       },
-      "definition": "Using the left hand more naturally than the right.",
-      "example": "Cat was left-handed.",
-      "matchedForm": "left-handed"
+      "example": "Sharp put Gwendolen down as having, on the accounts she kept for the Town Council.",
+      "exampleStart": 2840,
+      "exampleEnd": 2922,
+      "phraseMatch": {
+        "text": "put Gwendolen down",
+        "startInExample": 6,
+        "endInExample": 24
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "manner",
-      "lemma": "manner",
-      "lemmaId": "manner",
-      "pos": "noun",
-      "wordKey": "manner_noun",
+      "word": "put in",
+      "lemma": "put in",
+      "lemmaId": "put_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "put_in_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈmænə",
       "translations": {
         "ru": {
-          "translation": "манера, образ поведения"
+          "translation": "Вставить"
         }
       },
-      "definition": "A way in which a thing is done or happens; style or attitude.",
-      "example": "Her manner was glad and confident.",
-      "matchedForm": "manner"
-    },
-    {
-      "word": "parlor",
-      "lemma": "parlor",
-      "lemmaId": "parlor",
-      "pos": "noun",
-      "wordKey": "parlor_noun",
-      "level": "C1",
-      "ipa": "ˈpɑːlə",
-      "translations": {
-        "ru": {
-          "translation": "гостиная"
-        }
+      "example": "” She passed the little red book to Gwendolen, who put it in the pocket of her dress along with the earrings.",
+      "exampleStart": 540,
+      "exampleEnd": 649,
+      "phraseMatch": {
+        "text": "put it in",
+        "startInExample": 51,
+        "endInExample": 60
       },
-      "definition": "A room in a house for receiving guests.",
-      "example": "Patted him on the head in the parlor.",
-      "matchedForm": "parlor"
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "promising",
-      "lemma": "promising",
-      "lemmaId": "promising",
-      "pos": "adjective",
-      "wordKey": "promising_adjective",
-      "level": "B2",
-      "ipa": "ˈprɒmɪsɪŋ",
-      "translations": {
-        "ru": {
-          "translation": "многообещающий"
-        }
-      },
-      "definition": "Showing signs of future success.",
-      "example": "A promising witch.",
-      "matchedForm": "promising"
-    },
-    {
-      "word": "punish",
-      "lemma": "punish",
-      "lemmaId": "punish",
+      "word": "schoolmasters",
+      "lemma": "schoolmaster",
+      "lemmaId": "schoolmaster",
       "pos": "verb",
-      "wordKey": "punish_verb",
-      "level": "B2",
-      "ipa": "ˈpʌnɪʃ",
+      "source": "word",
+      "wordKey": "schoolmaster_verb",
+      "level": "C2",
       "translations": {
         "ru": {
-          "translation": "наказывать"
+          "translation": "учитель"
         }
       },
-      "definition": "To cause someone to suffer for an offence or fault.",
-      "example": "They punished him for writing left-handed.",
-      "matchedForm": "punish"
+      "example": "The only drawback was that Cat was left-handed, and schoolmasters always punished him if they caught him writing with his left hand.",
+      "exampleStart": 1350,
+      "exampleEnd": 1482,
+      "matchedForm": "schoolmasters",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "pupil",
-      "lemma": "pupil",
-      "lemmaId": "pupil",
-      "pos": "noun",
-      "wordKey": "pupil_noun",
-      "level": "B2",
-      "ipa": "ˈpjuːpɪl",
-      "translations": {
-        "ru": {
-          "translation": "ученик"
-        }
-      },
-      "definition": "A student under the supervision of a teacher.",
-      "example": "Favorite pupil of Mr. Nostrum.",
-      "matchedForm": "pupil"
-    },
-    {
-      "word": "skip",
+      "word": "skipped",
       "lemma": "skip",
       "lemmaId": "skip",
-      "pos": "verb",
-      "wordKey": "skip_verb",
-      "level": "B2",
-      "ipa": "skɪp",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "skip_adjective",
+      "level": "A2",
       "translations": {
         "ru": {
-          "translation": "пропускать"
+          "translation": "пропустить"
         }
       },
-      "definition": "To omit or not attend a planned event or stage.",
-      "example": "Skipped the exam.",
-      "matchedForm": "Skip"
+      "example": "Such a promising witch was she, indeed, that she skipped the First Grade Magic exam and went straight on to the Second.",
+      "exampleStart": 2250,
+      "exampleEnd": 2369,
+      "matchedForm": "skipped",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.657143,
+      "difficultySource": "zipf"
     },
     {
-      "word": "spray",
-      "lemma": "spray",
-      "lemmaId": "spray",
-      "pos": "noun",
-      "wordKey": "spray_noun",
+      "word": "starting on",
+      "lemma": "start on",
+      "lemmaId": "start_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "start_on_phrasal_verb",
       "level": "B2",
-      "ipa": "spreɪ",
       "translations": {
         "ru": {
-          "translation": "букет веточек (цветов)"
+          "translation": "начиная с"
         }
       },
-      "definition": "A small branch or cluster of flowers or leaves.",
-      "example": "She gave him the spray of white heather.",
-      "matchedForm": "spray"
+      "example": "She took the Third and Fourth grades together just after Christmas and, by the following summer, she was starting on Advanced Magic.",
+      "exampleStart": 2370,
+      "exampleEnd": 2502,
+      "phraseMatch": {
+        "text": "starting on",
+        "startInExample": 105,
+        "endInExample": 116
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "took up",
+      "lemma": "take up",
+      "lemmaId": "take_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "take_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Взял на себя"
+        }
+      },
+      "example": "Sharp took it up carefully and, quite as carefully, opened it.",
+      "exampleStart": 175,
+      "exampleEnd": 237,
+      "phraseMatch": {
+        "text": "took it up",
+        "startInExample": 6,
+        "endInExample": 16
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "torn out",
+      "lemma": "tear out",
+      "lemmaId": "tear_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "tear_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "вырван"
+        }
+      },
+      "example": "But three of the matches had been burned, without being torn out of the book first.",
+      "exampleStart": 294,
+      "exampleEnd": 377,
+      "phraseMatch": {
+        "text": "torn out",
+        "startInExample": 56,
+        "endInExample": 64
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "used to",
+      "lemma": "used to",
+      "lemmaId": "used_to",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "used_to_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "раньше"
+        }
+      },
+      "example": "But they did that at all the schools Cat had been to, and he was used to it.",
+      "exampleStart": 1483,
+      "exampleEnd": 1559,
+      "phraseMatch": {
+        "text": "used to",
+        "startInExample": 65,
+        "endInExample": 72
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "wives",
+      "lemma": "wive",
+      "lemmaId": "wive",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "wive_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "жвачка"
+        }
+      },
+      "example": "Town Councillors and their wives called several times a week and patted him on the head in the parlor.",
+      "exampleStart": 1164,
+      "exampleEnd": 1266,
+      "matchedForm": "wives",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     }
   ]
 }

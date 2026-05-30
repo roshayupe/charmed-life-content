@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 4,
     "sectionTitle": "Chapter 1",
     "fragmentIndex": 2,
@@ -21,445 +20,797 @@
       "wordCount": 685,
       "uniqueWordCount": 357,
       "paragraphCount": 8,
-      "vocabularyCount": 25,
+      "vocabularyCount": 34,
       "levelDistribution": {
         "A1": 0,
         "A2": 0,
-        "B1": 0,
-        "B2": 11,
-        "C1": 9,
-        "C2": 5
+        "B1": 9,
+        "B2": 21,
+        "C1": 2,
+        "C2": 2
       }
     }
   },
   "vocabulary": [
     {
-      "word": "annoyance",
-      "lemma": "annoyance",
-      "lemmaId": "annoyance",
-      "pos": "noun",
-      "wordKey": "annoyance_noun",
-      "level": "B2",
-      "ipa": "əˈnɔɪəns",
-      "translations": {
-        "ru": {
-          "translation": "раздражение"
-        }
-      },
-      "definition": "feeling of being irritated or bothered",
-      "example": "To her annoyance, the Mayor refused.",
-      "matchedForm": "annoyance"
-    },
-    {
-      "word": "around to",
-      "lemma": "around to",
-      "lemmaId": "around_to",
+      "word": "all that",
+      "lemma": "all that",
+      "lemmaId": "all_that",
       "pos": "phrase",
-      "wordKey": "around_to_phrase",
-      "level": "B2",
-      "ipa": "əˈraʊnd tuː",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "all_that_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "заехать к, зайти к"
+          "translation": "всё это"
         }
       },
-      "definition": "to go to a place, usually someone's home or business, informally",
-      "example": "ran around to the Town Hall",
+      "example": "But all that was changed now.",
+      "exampleStart": 966,
+      "exampleEnd": 995,
       "phraseMatch": {
-        "text": "around to",
+        "text": "all that",
         "startInExample": 4,
-        "endInExample": 13
-      }
+        "endInExample": 12
+      },
+      "levelSource": "phrase_fallback"
     },
     {
       "word": "beady",
       "lemma": "beady",
       "lemmaId": "beady",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "beady_adjective",
       "level": "C2",
-      "ipa": "ˈbiːdi",
       "translations": {
         "ru": {
-          "translation": "маленький и острый (о глазах)"
+          "translation": "бусинка"
         }
       },
-      "definition": "small, round, and gleaming, usually describing eyes",
-      "example": "greedy and beady",
-      "matchedForm": "beady"
+      "example": "Sharp’s eyes pouched up, greedy and beady, as she put out her hand to pick up the earrings.",
+      "exampleStart": 3665,
+      "exampleEnd": 3756,
+      "matchedForm": "beady",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "beaming",
-      "lemma": "beaming",
-      "lemmaId": "beaming",
+      "word": "cleared out",
+      "lemma": "clear out",
+      "lemmaId": "clear_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "clear_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Очищено"
+        }
+      },
+      "example": "Sharp came back rattling the beads on her hat with irritation, and carrying a flat cardboard box the Mayor had given her, full of the odds and ends the kind ladies had cleared out of Gwendolen’s parents’ bedroom.",
+      "exampleStart": 1825,
+      "exampleEnd": 2037,
+      "phraseMatch": {
+        "text": "cleared out",
+        "startInExample": 168,
+        "endInExample": 179
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "came back",
+      "lemma": "come back",
+      "lemmaId": "come_back",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_back_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "вернулся"
+        }
+      },
+      "example": "Sharp came back rattling the beads on her hat with irritation, and carrying a flat cardboard box the Mayor had given her, full of the odds and ends the kind ladies had cleared out of Gwendolen’s parents’ bedroom.",
+      "exampleStart": 1825,
+      "exampleEnd": 2037,
+      "phraseMatch": {
+        "text": "came back",
+        "startInExample": 6,
+        "endInExample": 15
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "crockery",
+      "lemma": "crockery",
+      "lemmaId": "crockery",
       "pos": "adjective",
-      "wordKey": "beaming_adjective",
+      "source": "word",
+      "wordKey": "crockery_adjective",
       "level": "B2",
-      "ipa": "ˈbiːmɪŋ",
       "translations": {
         "ru": {
-          "translation": "сияющий, лучащийся"
+          "translation": "посуда"
         }
       },
-      "definition": "smiling radiantly",
-      "example": "she said, beaming at Gwendolen.",
-      "matchedForm": "beaming"
-    },
-    {
-      "word": "certified",
-      "lemma": "certified",
-      "lemmaId": "certified",
-      "pos": "adjective",
-      "wordKey": "certified_adjective",
-      "level": "B2",
-      "ipa": "ˈsɜːtɪfaɪd",
-      "translations": {
-        "ru": {
-          "translation": "сертифицированный"
-        }
-      },
-      "definition": "officially recognized or guaranteed",
-      "example": "printed sign said Certified Witch",
-      "matchedForm": "Certified"
-    },
-    {
-      "word": "charge",
-      "lemma": "charge",
-      "lemmaId": "charge",
-      "pos": "noun",
-      "wordKey": "charge_noun",
-      "level": "B2",
-      "ipa": "tʃɑːdʒ",
-      "translations": {
-        "ru": {
-          "translation": "плата, взимание платы"
-        }
-      },
-      "definition": "a fee asked in payment for services",
-      "example": "charges for teaching magic turned out to be £1 an hour.",
-      "matchedForm": "charge"
-    },
-    {
-      "word": "chipped",
-      "lemma": "chipped",
-      "lemmaId": "chipped",
-      "pos": "adjective",
-      "wordKey": "chipped_adjective",
-      "level": "B2",
-      "ipa": "tʃɪpt",
-      "translations": {
-        "ru": {
-          "translation": "потрескавшийся, облупленный"
-        }
-      },
-      "definition": "having small pieces broken off the edge or surface",
-      "example": "chipped crockery",
-      "matchedForm": "chipped"
-    },
-    {
-      "word": "cramps",
-      "lemma": "cramps",
-      "lemmaId": "cramps",
-      "pos": "noun",
-      "wordKey": "cramps_noun",
-      "level": "B2",
-      "ipa": "kræmps",
-      "translations": {
-        "ru": {
-          "translation": "судороги"
-        }
-      },
-      "definition": "painful involuntary muscle contractions",
-      "example": "when Gwendolen gave him cramps.",
-      "matchedForm": "cramps"
+      "example": "Among the brass fenders and chipped crockery you could find quite valuable things, and also a discreet notice saying Exotic Supplies —which meant that Mr.",
+      "exampleStart": 3331,
+      "exampleEnd": 3485,
+      "matchedForm": "crockery",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "decidedly",
       "lemma": "decidedly",
       "lemmaId": "decidedly",
-      "pos": "adverb",
-      "wordKey": "decidedly_adverb",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "decidedly_adjective",
       "level": "C1",
-      "ipa": "dɪˈsaɪdɪdli",
       "translations": {
         "ru": {
-          "translation": "явно, решительно"
+          "translation": "решительно"
         }
       },
-      "definition": "in a clear and definite manner",
-      "example": "looking decidedly stormy.",
-      "matchedForm": "decidedly"
+      "example": "But don’t worry, dearie,” she said, seeing that Gwendolen was looking decidedly stormy.",
+      "exampleStart": 2196,
+      "exampleEnd": 2283,
+      "matchedForm": "decidedly",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.897143,
+      "difficultySource": "zipf"
     },
     {
       "word": "discreet",
       "lemma": "discreet",
       "lemmaId": "discreet",
-      "pos": "adjective",
-      "wordKey": "discreet_adjective",
-      "level": "C1",
-      "ipa": "dɪˈskriːt",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "discreet_noun",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "осмотрительный, сдержанный"
+          "translation": "сдержанный"
         }
       },
-      "definition": "careful and prudent in one's speech or actions",
-      "example": "a discreet notice saying Exotic Supplies",
-      "matchedForm": "discreet"
+      "example": "Among the brass fenders and chipped crockery you could find quite valuable things, and also a discreet notice saying Exotic Supplies —which meant that Mr.",
+      "exampleStart": 3331,
+      "exampleEnd": 3485,
+      "matchedForm": "discreet",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.88,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "don’t worry",
+      "lemma": "don’t worry",
+      "lemmaId": "dont_worry",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "dont_worry_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Не волнуйся"
+        }
+      },
+      "example": "But don’t worry, dearie,” she said, seeing that Gwendolen was looking decidedly stormy.",
+      "exampleStart": 2196,
+      "exampleEnd": 2283,
+      "phraseMatch": {
+        "text": "don’t worry",
+        "startInExample": 4,
+        "endInExample": 15
+      },
+      "levelSource": "phrase_fallback"
     },
     {
       "word": "dubious",
       "lemma": "dubious",
       "lemmaId": "dubious",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "dubious_adjective",
-      "level": "C1",
-      "ipa": "ˈdjuːbɪəs",
+      "level": "C2",
       "translations": {
         "ru": {
           "translation": "сомнительный"
         }
       },
-      "definition": "hesitating or doubting",
       "example": "The Mayor was a little dubious.",
-      "matchedForm": "dubious"
+      "exampleStart": 140,
+      "exampleEnd": 171,
+      "matchedForm": "dubious",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.862857,
+      "difficultySource": "zipf"
     },
     {
-      "word": "exotic",
-      "lemma": "exotic",
-      "lemmaId": "exotic",
-      "pos": "adjective",
-      "wordKey": "exotic_adjective",
-      "level": "C1",
-      "ipa": "ɪɡˈzɒtɪk",
-      "translations": {
-        "ru": {
-          "translation": "экзотический"
-        }
-      },
-      "definition": "originating in or characteristic of a distant foreign country",
-      "example": "Exotic Supplies",
-      "matchedForm": "Exotic"
-    },
-    {
-      "word": "greedy",
-      "lemma": "greedy",
-      "lemmaId": "greedy",
-      "pos": "adjective",
-      "wordKey": "greedy_adjective",
+      "word": "dumping on",
+      "lemma": "dump on",
+      "lemmaId": "dump_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "dump_on_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈɡriːdi",
       "translations": {
         "ru": {
-          "translation": "жадный"
+          "translation": "Сброс на"
         }
       },
-      "definition": "having an intense and selfish desire for something",
-      "example": "greedy and beady eyes",
-      "matchedForm": "greedy"
+      "example": "Sharp said, dumping the box on the kitchen table.",
+      "exampleStart": 2063,
+      "exampleEnd": 2112,
+      "phraseMatch": {
+        "text": "dumping the box on",
+        "startInExample": 12,
+        "endInExample": 30
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "grounding",
-      "lemma": "grounding",
-      "lemmaId": "grounding",
-      "pos": "noun",
-      "wordKey": "grounding_noun",
-      "level": "C1",
-      "ipa": "ˈɡraʊndɪŋ",
+      "word": "eyes up",
+      "lemma": "eye up",
+      "lemmaId": "eye_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "eye_up_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "основа, база"
+          "translation": "Глаза вверх"
         }
       },
-      "definition": "a fundamental knowledge or understanding of a subject",
-      "example": "He’ll give you a good grounding.",
-      "matchedForm": "grounding"
-    },
-    {
-      "word": "necromancer",
-      "lemma": "necromancer",
-      "lemmaId": "necromancer",
-      "pos": "noun",
-      "wordKey": "necromancer_noun",
-      "level": "C2",
-      "ipa": "ˈnekrəˌmænsə",
-      "translations": {
-        "ru": {
-          "translation": "некромант"
-        }
+      "example": "Sharp’s eyes pouched up, greedy and beady, as she put out her hand to pick up the earrings.",
+      "exampleStart": 3665,
+      "exampleEnd": 3756,
+      "phraseMatch": {
+        "text": "eyes pouched up",
+        "startInExample": 8,
+        "endInExample": 23
       },
-      "definition": "a person who practices necromancy; a magician who communicates with the dead",
-      "example": "He may be the worst necromancer in town.",
-      "matchedForm": "necromancer"
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "noosegay",
-      "lemma": "noosegay",
-      "lemmaId": "noosegay",
-      "pos": "noun",
-      "wordKey": "noosegay_noun",
-      "level": "C2",
-      "ipa": "ˈnəʊzɪɡeɪ",
-      "translations": {
-        "ru": {
-          "translation": "букет цветов"
-        }
-      },
-      "definition": "a small bouquet of flowers",
-      "example": "a withered nosegay his mother must have carried."
-    },
-    {
-      "word": "pouch",
-      "lemma": "pouch",
-      "lemmaId": "pouch",
+      "word": "fenders",
+      "lemma": "fender",
+      "lemmaId": "fender",
       "pos": "verb",
-      "wordKey": "pouch_verb",
-      "level": "C2",
-      "ipa": "paʊtʃ",
+      "source": "word",
+      "wordKey": "fender_verb",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "припухать, вздуваться"
+          "translation": "крыло"
         }
       },
-      "definition": "to swell or bulge",
-      "example": "Mrs. Sharp’s eyes pouched up",
-      "matchedForm": "pouch"
+      "example": "Among the brass fenders and chipped crockery you could find quite valuable things, and also a discreet notice saying Exotic Supplies —which meant that Mr.",
+      "exampleStart": 3331,
+      "exampleEnd": 3485,
+      "matchedForm": "fenders",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.888571,
+      "difficultySource": "zipf"
     },
     {
-      "word": "prejudice",
-      "lemma": "prejudice",
-      "lemmaId": "prejudice",
-      "pos": "noun",
-      "wordKey": "prejudice_noun",
-      "level": "C1",
-      "ipa": "ˈprɛdʒʊdɪs",
-      "translations": {
-        "ru": {
-          "translation": "предубеждение"
-        }
-      },
-      "definition": "preconceived opinion not based on reason or experience",
-      "example": "“Blind prejudice!” Mrs. Sharp said.",
-      "matchedForm": "prejudice"
-    },
-    {
-      "word": "queer",
-      "lemma": "queer",
-      "lemmaId": "queer",
+      "word": "glittery",
+      "lemma": "glittery",
+      "lemmaId": "glittery",
       "pos": "adjective",
-      "wordKey": "queer_adjective",
-      "level": "C2",
-      "ipa": "kwɪə",
+      "source": "word",
+      "wordKey": "glittery_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "странный, необычный"
+          "translation": "блестящий"
         }
       },
-      "definition": "strange or odd",
-      "example": "It was a queer collection of things.",
-      "matchedForm": "queer"
+      "example": "Underneath that, he found some glittery earrings he had never seen his mother wear.",
+      "exampleStart": 2914,
+      "exampleEnd": 2997,
+      "matchedForm": "glittery",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "kept on",
+      "lemma": "keep on",
+      "lemmaId": "keep_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "keep_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "продолжал"
+        }
+      },
+      "example": "Larkins kept the junk shop on the corner of the street—except that it was not always exactly junk.",
+      "exampleStart": 3232,
+      "exampleEnd": 3330,
+      "phraseMatch": {
+        "text": "kept the junk shop on",
+        "startInExample": 8,
+        "endInExample": 29
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "looking back",
+      "lemma": "look back",
+      "lemmaId": "look_back",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_back_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Оглядываясь назад"
+        }
+      },
+      "example": "Looking back on it, Cat supposed that it was from this time on that he was certain Gwendolen was a witch.",
+      "exampleStart": 539,
+      "exampleEnd": 644,
+      "phraseMatch": {
+        "text": "Looking back",
+        "startInExample": 0,
+        "endInExample": 12
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "look in",
+      "lemma": "look in",
+      "lemmaId": "look_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Смотри"
+        }
+      },
+      "example": "Let’s have a look in this box.",
+      "exampleStart": 2406,
+      "exampleEnd": 2436,
+      "phraseMatch": {
+        "text": "look in",
+        "startInExample": 13,
+        "endInExample": 20
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "moved in",
+      "lemma": "move in",
+      "lemmaId": "move_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "move_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Переехал"
+        }
+      },
+      "example": "Gwendolen and Cat moved in with Mrs.",
+      "exampleStart": 494,
+      "exampleEnd": 530,
+      "phraseMatch": {
+        "text": "moved in",
+        "startInExample": 18,
+        "endInExample": 26
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "nosegay",
+      "lemma": "nosegay",
+      "lemmaId": "nosegay",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "nosegay_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "носовой"
+        }
+      },
+      "example": "Margaret’s Church, Wolvercote, and a withered nosegay his mother must have carried at the wedding.",
+      "exampleStart": 2815,
+      "exampleEnd": 2913,
+      "matchedForm": "nosegay",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "odds and ends",
+      "lemma": "odds and ends",
+      "lemmaId": "odds_and_ends",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "odds_and_ends_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Мелочи"
+        }
+      },
+      "example": "Sharp came back rattling the beads on her hat with irritation, and carrying a flat cardboard box the Mayor had given her, full of the odds and ends the kind ladies had cleared out of Gwendolen’s parents’ bedroom.",
+      "exampleStart": 1825,
+      "exampleEnd": 2037,
+      "phraseMatch": {
+        "text": "odds and ends",
+        "startInExample": 134,
+        "endInExample": 147
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "pay for",
+      "lemma": "pay for",
+      "lemmaId": "pay_for",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "pay_for_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "оплатить"
+        }
+      },
+      "example": "She put on her best hat with black beads and ran around to the Town Hall to see if the Fund would pay for Gwendolen’s lessons.",
+      "exampleStart": 1581,
+      "exampleEnd": 1707,
+      "phraseMatch": {
+        "text": "pay for",
+        "startInExample": 98,
+        "endInExample": 105
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "pick up",
+      "lemma": "pick up",
+      "lemmaId": "pick_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "pick_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Подними"
+        }
+      },
+      "example": "Sharp’s eyes pouched up, greedy and beady, as she put out her hand to pick up the earrings.",
+      "exampleStart": 3665,
+      "exampleEnd": 3756,
+      "phraseMatch": {
+        "text": "pick up",
+        "startInExample": 70,
+        "endInExample": 77
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "put on",
+      "lemma": "put on",
+      "lemmaId": "put_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "put_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Надень"
+        }
+      },
+      "example": "She put on her best hat with black beads and ran around to the Town Hall to see if the Fund would pay for Gwendolen’s lessons.",
+      "exampleStart": 1581,
+      "exampleEnd": 1707,
+      "phraseMatch": {
+        "text": "put on",
+        "startInExample": 4,
+        "endInExample": 10
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "put out",
+      "lemma": "put out",
+      "lemmaId": "put_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "put_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Потушить"
+        }
+      },
+      "example": "Sharp’s eyes pouched up, greedy and beady, as she put out her hand to pick up the earrings.",
+      "exampleStart": 3665,
+      "exampleEnd": 3756,
+      "phraseMatch": {
+        "text": "put out",
+        "startInExample": 50,
+        "endInExample": 57
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "rattling",
-      "lemma": "rattling",
-      "lemmaId": "rattling",
+      "lemma": "rattle",
+      "lemmaId": "rattle",
       "pos": "adjective",
-      "wordKey": "rattling_adjective",
-      "level": "B2",
-      "ipa": "ˈrætlɪŋ",
+      "source": "word",
+      "wordKey": "rattle_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "гремящий, трясущийся"
+          "translation": "погремушка"
         }
       },
-      "definition": "making a rapid succession of short, sharp knocking sounds",
-      "example": "rattling the beads on her hat.",
-      "matchedForm": "rattling"
+      "example": "Sharp came back rattling the beads on her hat with irritation, and carrying a flat cardboard box the Mayor had given her, full of the odds and ends the kind ladies had cleared out of Gwendolen’s parents’ bedroom.",
+      "exampleStart": 1825,
+      "exampleEnd": 2037,
+      "matchedForm": "rattling",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.902857,
+      "difficultySource": "zipf"
     },
     {
-      "word": "souvenirs",
-      "lemma": "souvenirs",
-      "lemmaId": "souvenirs",
-      "pos": "noun",
-      "wordKey": "souvenirs_noun",
-      "level": "B2",
-      "ipa": "ˌsuːvəˈnɪəz",
+      "word": "right away",
+      "lemma": "right away",
+      "lemmaId": "right_away",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "right_away_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "сувениры"
+          "translation": "Сразу же"
         }
       },
-      "definition": "things kept as reminders of past events",
-      "example": "a queer collection of letters and souvenirs.",
-      "matchedForm": "souvenirs"
+      "example": "We must see about a teacher for you right away.",
+      "exampleStart": 1169,
+      "exampleEnd": 1216,
+      "phraseMatch": {
+        "text": "right away",
+        "startInExample": 36,
+        "endInExample": 46
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "ran around",
+      "lemma": "run around",
+      "lemmaId": "run_around",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "run_around_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "бегал"
+        }
+      },
+      "example": "She put on her best hat with black beads and ran around to the Town Hall to see if the Fund would pay for Gwendolen’s lessons.",
+      "exampleStart": 1581,
+      "exampleEnd": 1707,
+      "phraseMatch": {
+        "text": "ran around",
+        "startInExample": 45,
+        "endInExample": 55
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "see about",
+      "lemma": "see about",
+      "lemmaId": "see_about",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "see_about_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "См."
+        }
+      },
+      "example": "We must see about a teacher for you right away.",
+      "exampleStart": 1169,
+      "exampleEnd": 1216,
+      "phraseMatch": {
+        "text": "see about",
+        "startInExample": 8,
+        "endInExample": 17
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "sign in",
+      "lemma": "sign in",
+      "lemmaId": "sign_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "sign_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Войти"
+        }
+      },
+      "example": "She was a witch too—the printed sign in her parlor window said Certified Witch —and interested in Gwendolen.",
+      "exampleStart": 31,
+      "exampleEnd": 139,
+      "phraseMatch": {
+        "text": "sign in",
+        "startInExample": 32,
+        "endInExample": 39
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "stormy",
       "lemma": "stormy",
       "lemmaId": "stormy",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "stormy_adjective",
       "level": "C1",
-      "ipa": "ˈstɔːmi",
       "translations": {
         "ru": {
-          "translation": "бурный, сердитый"
+          "translation": "бурный"
         }
       },
-      "definition": "showing strong emotions such as anger or unhappiness",
-      "example": "Gwendolen was looking decidedly stormy.",
-      "matchedForm": "stormy"
+      "example": "But don’t worry, dearie,” she said, seeing that Gwendolen was looking decidedly stormy.",
+      "exampleStart": 2196,
+      "exampleEnd": 2283,
+      "matchedForm": "stormy",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.871429,
+      "difficultySource": "zipf"
     },
     {
-      "word": "tempt",
-      "lemma": "tempt",
-      "lemmaId": "tempt",
-      "pos": "verb",
-      "wordKey": "tempt_verb",
+      "word": "swiftly",
+      "lemma": "swiftly",
+      "lemmaId": "swiftly",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "swiftly_adverb",
       "level": "B2",
-      "ipa": "tɛmpt",
       "translations": {
         "ru": {
-          "translation": "искусать, соблазнять"
+          "translation": "быстро"
         }
       },
-      "definition": "to entice or attract someone to do something",
-      "example": "tempt him with",
-      "matchedForm": "tempt"
+      "example": "Sharp’s hat rattled as she bent swiftly over these.",
+      "exampleStart": 3004,
+      "exampleEnd": 3055,
+      "matchedForm": "swiftly",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.848571,
+      "difficultySource": "zipf"
     },
     {
-      "word": "witchcraft",
-      "lemma": "witchcraft",
-      "lemmaId": "witchcraft",
-      "pos": "noun",
-      "wordKey": "witchcraft_noun",
-      "level": "C1",
-      "ipa": "ˈwɪtʃkrɑːft",
+      "word": "turned out",
+      "lemma": "turn out",
+      "lemmaId": "turn_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "turn_out_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "колдовство"
+          "translation": "Оказалось,"
         }
       },
-      "definition": "the practice of magic, especially black magic",
-      "example": "He did not approve of those who had talent for witchcraft.",
-      "matchedForm": "witchcraft"
+      "example": "Sharp turned the box out onto the table.",
+      "exampleStart": 2531,
+      "exampleEnd": 2571,
+      "phraseMatch": {
+        "text": "turned the box out",
+        "startInExample": 6,
+        "endInExample": 24
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "turned out to",
+      "lemma": "turn out to",
+      "lemmaId": "turn_out_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "turn_out_to_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "оказалось, что"
+        }
+      },
+      "example": "Nostrum’s charges for teaching magic turned out to be £1 an hour for the Elementary Grades, and a guinea an hour for the Advanced Grades beyond.",
+      "exampleStart": 1398,
+      "exampleEnd": 1542,
+      "phraseMatch": {
+        "text": "turned out to",
+        "startInExample": 37,
+        "endInExample": 50
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "used to",
+      "lemma": "used to",
+      "lemmaId": "used_to",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "used_to_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "раньше"
+        }
+      },
+      "example": "He preferred living in the house he was used to, even if it was downstairs.",
+      "exampleStart": 326,
+      "exampleEnd": 401,
+      "phraseMatch": {
+        "text": "used to",
+        "startInExample": 40,
+        "endInExample": 47
+      },
+      "levelSource": "phrase_fallback"
     },
     {
       "word": "withered",
-      "lemma": "withered",
-      "lemmaId": "withered",
+      "lemma": "wither",
+      "lemmaId": "wither",
       "pos": "adjective",
-      "wordKey": "withered_adjective",
-      "level": "C1",
-      "ipa": "ˈwɪðəd",
+      "source": "word",
+      "wordKey": "wither_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "увядший"
+          "translation": "засохший"
         }
       },
-      "definition": "shriveled or dried up",
-      "example": "a withered nosegay",
-      "matchedForm": "withered"
+      "example": "Margaret’s Church, Wolvercote, and a withered nosegay his mother must have carried at the wedding.",
+      "exampleStart": 2815,
+      "exampleEnd": 2913,
+      "matchedForm": "withered",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.997143,
+      "difficultySource": "zipf"
     }
   ]
 }

@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 13,
     "sectionTitle": "Chapter 10",
     "fragmentIndex": 1,
@@ -21,14 +20,14 @@
       "wordCount": 582,
       "uniqueWordCount": 328,
       "paragraphCount": 20,
-      "vocabularyCount": 28,
+      "vocabularyCount": 25,
       "levelDistribution": {
         "A1": 0,
-        "A2": 0,
-        "B1": 0,
-        "B2": 11,
-        "C1": 13,
-        "C2": 4
+        "A2": 3,
+        "B1": 4,
+        "B2": 16,
+        "C1": 1,
+        "C2": 1
       }
     }
   },
@@ -37,491 +36,559 @@
       "word": "account for",
       "lemma": "account for",
       "lemmaId": "account_for",
-      "pos": "phrase",
-      "wordKey": "account_for_phrase",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "account_for_phrasal_verb",
       "level": "B2",
-      "ipa": "əˈkaʊnt fə(r)",
       "translations": {
         "ru": {
-          "translation": "объяснять, быть причиной"
+          "translation": "Учёт"
         }
       },
-      "definition": "To explain the reason for something.",
       "example": "That would account for them not missing.",
+      "exampleStart": 1861,
+      "exampleEnd": 1901,
       "phraseMatch": {
         "text": "account for",
         "startInExample": 11,
         "endInExample": 22
-      }
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "arithmetic",
-      "lemma": "arithmetic",
-      "lemmaId": "arithmetic",
+      "word": "agincourt",
+      "lemma": "agincourt",
+      "lemmaId": "agincourt",
       "pos": "noun",
-      "wordKey": "arithmetic_noun",
+      "source": "word",
+      "wordKey": "agincourt_noun",
       "level": "B2",
-      "ipa": "əˈrɪθ.mə.tɪk",
       "translations": {
         "ru": {
-          "translation": "арифметика"
+          "translation": "суд"
         }
       },
-      "definition": "The branch of mathematics dealing with numbers and operations such as addition and multiplication.",
-      "example": "she would have been safe in was simple arithmetic.",
-      "matchedForm": "arithmetic"
+      "example": "“Richard the Second was on the throne until long after Agincourt.",
+      "exampleStart": 1483,
+      "exampleEnd": 1548,
+      "matchedForm": "Agincourt",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "aware",
-      "lemma": "aware",
-      "lemmaId": "aware",
-      "pos": "adjective",
-      "wordKey": "aware_adjective",
+      "word": "been up to",
+      "lemma": "be up to",
+      "lemmaId": "be_up_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "be_up_to_phrasal_verb",
       "level": "B2",
-      "ipa": "əˈweər",
       "translations": {
         "ru": {
-          "translation": "осведомлённый"
+          "translation": "занимался"
         }
       },
-      "definition": "Having knowledge or perception of a situation or fact.",
-      "example": "“I’m aware of that,” said Mr. Saunders.",
-      "matchedForm": "aware"
+      "example": "“What have you been up to now?",
+      "exampleStart": 3153,
+      "exampleEnd": 3183,
+      "phraseMatch": {
+        "text": "been up to",
+        "startInExample": 15,
+        "endInExample": 25
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "break down",
+      "lemma": "break down",
+      "lemmaId": "break_down",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "break_down_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Поломка"
+        }
+      },
+      "example": "She was going to break down any second and tell Mr.",
+      "exampleStart": 2341,
+      "exampleEnd": 2392,
+      "phraseMatch": {
+        "text": "break down",
+        "startInExample": 17,
+        "endInExample": 27
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "breaking through",
-      "lemma": "breaking through",
-      "lemmaId": "breaking_through",
-      "pos": "phrase",
-      "wordKey": "breaking_through_phrase",
-      "level": "C1",
-      "ipa": "ˈbreɪkɪŋ θruː",
+      "lemma": "break through",
+      "lemmaId": "break_through",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "break_through_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "прорываться"
+          "translation": "Прорыв"
         }
       },
-      "definition": "To emerge or appear suddenly, interrupting something else.",
-      "example": "laughter kept breaking through.",
+      "example": "”\n\nRoger tried to look serious, but laughter kept breaking through.",
+      "exampleStart": 291,
+      "exampleEnd": 358,
       "phraseMatch": {
         "text": "breaking through",
-        "startInExample": 14,
-        "endInExample": 30
-      }
-    },
-    {
-      "word": "cell of gray matter",
-      "lemma": "cell of gray matter",
-      "lemmaId": "cell_of_gray_matter",
-      "pos": "phrase",
-      "wordKey": "cell_of_gray_matter_phrase",
-      "level": "C2",
-      "ipa": "sel əv ɡreɪ ˈmætə",
-      "translations": {
-        "ru": {
-          "translation": "клетка серого вещества (метафора для мозга)"
-        }
+        "startInExample": 50,
+        "endInExample": 66
       },
-      "definition": "A metaphor referring to brain cells or intelligence.",
-      "example": "there must be a little cell of gray matter.",
-      "phraseMatch": {
-        "text": "cell of gray matter",
-        "startInExample": 23,
-        "endInExample": 42
-      }
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "distractedly",
       "lemma": "distractedly",
       "lemmaId": "distractedly",
-      "pos": "adverb",
-      "wordKey": "distractedly_adverb",
-      "level": "C1",
-      "ipa": "dɪˈstræk.tɪd.li",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "distractedly_adjective",
+      "level": "C2",
       "translations": {
         "ru": {
           "translation": "рассеянно"
         }
       },
-      "definition": "In a manner showing lack of attention due to being worried or preoccupied.",
-      "example": "sat in it himself, distractedly wondering how he could find out which spell Gwendolen had used.",
-      "matchedForm": "distractedly"
+      "example": "He got her out as quietly as he could and sat in it himself, distractedly wondering how he could find out which spell Gwendolen had used.",
+      "exampleStart": 790,
+      "exampleEnd": 927,
+      "matchedForm": "distractedly",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "didn’t in",
+      "lemma": "do in",
+      "lemmaId": "do_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "do_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "не пришёл"
+        }
+      },
+      "example": "He hampered the French with iron underwear, and the English wore wool, so they didn’t stick in the mud, and probably their longbows were enchanted too.",
+      "exampleStart": 1709,
+      "exampleEnd": 1860,
+      "phraseMatch": {
+        "text": "didn’t stick in",
+        "startInExample": 79,
+        "endInExample": 94
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "enchanted",
-      "lemma": "enchanted",
-      "lemmaId": "enchanted",
+      "lemma": "enchant",
+      "lemmaId": "enchant",
       "pos": "adjective",
-      "wordKey": "enchanted_adjective",
+      "source": "word",
+      "wordKey": "enchant_adjective",
       "level": "C1",
-      "ipa": "ɪnˈtʃɑːn.tɪd",
       "translations": {
         "ru": {
-          "translation": "заколдованный"
+          "translation": "очаровывать"
         }
       },
-      "definition": "Magically charmed or bewitched.",
-      "example": "probably their longbows were enchanted too.",
-      "matchedForm": "enchanted"
-    },
-    {
-      "word": "exasperated",
-      "lemma": "exasperated",
-      "lemmaId": "exasperated",
-      "pos": "adjective",
-      "wordKey": "exasperated_adjective",
-      "level": "C1",
-      "ipa": "ɪɡˈzɑː.spə.reɪ.tɪd",
-      "translations": {
-        "ru": {
-          "translation": "раздражённый"
-        }
-      },
-      "definition": "Very annoyed or irritated.",
-      "example": "Mr. Saunders looked so exasperated that she babbled.",
-      "matchedForm": "exasperated"
-    },
-    {
-      "word": "exclamation",
-      "lemma": "exclamation",
-      "lemmaId": "exclamation",
-      "pos": "noun",
-      "wordKey": "exclamation_noun",
-      "level": "B2",
-      "ipa": "ˌekskləˈmeɪʃən",
-      "translations": {
-        "ru": {
-          "translation": "восклицание"
-        }
-      },
-      "definition": "A sudden cry or remark expressing surprise, anger, or pain.",
-      "example": "Mr. Saunders put his hands to his head. “No, no, no!”"
+      "example": "He hampered the French with iron underwear, and the English wore wool, so they didn’t stick in the mud, and probably their longbows were enchanted too.",
+      "exampleStart": 1709,
+      "exampleEnd": 1860,
+      "matchedForm": "enchanted",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "fended",
-      "lemma": "fended",
-      "lemmaId": "fended",
-      "pos": "phrase",
-      "wordKey": "fended_phrase",
-      "level": "C1",
-      "ipa": "fɛndɪd",
+      "lemma": "fend",
+      "lemmaId": "fend",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "fend_adjective",
+      "level": "A2",
       "translations": {
         "ru": {
-          "translation": "отмахивался, отражал"
+          "translation": "отбивать"
         }
       },
-      "definition": "To ward off or defend oneself from something.",
-      "example": "he fended at Janet with the other.",
-      "matchedForm": "fended"
+      "example": "He hid his eyes with one knobby hand and fended at Janet with the other.",
+      "exampleStart": 2921,
+      "exampleEnd": 2993,
+      "matchedForm": "fended",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.942857,
+      "difficultySource": "zipf"
     },
     {
-      "word": "guiltily",
-      "lemma": "guiltily",
-      "lemmaId": "guiltily",
-      "pos": "adverb",
-      "wordKey": "guiltily_adverb",
-      "level": "C1",
-      "ipa": "ˈɡɪlti.li",
+      "word": "find out",
+      "lemma": "find out",
+      "lemmaId": "find_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "find_out_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "виновато"
+          "translation": "Узнайте"
         }
       },
-      "definition": "Feeling or showing guilt.",
-      "example": "Janet said guiltily.",
-      "matchedForm": "guiltily"
+      "example": "He got her out as quietly as he could and sat in it himself, distractedly wondering how he could find out which spell Gwendolen had used.",
+      "exampleStart": 790,
+      "exampleEnd": 927,
+      "phraseMatch": {
+        "text": "find out",
+        "startInExample": 97,
+        "endInExample": 105
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "go through",
+      "lemma": "go through",
+      "lemmaId": "go_through",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_through_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Проходите"
+        }
+      },
+      "example": "They had to go through to the schoolroom.",
+      "exampleStart": 689,
+      "exampleEnd": 730,
+      "phraseMatch": {
+        "text": "go through",
+        "startInExample": 12,
+        "endInExample": 22
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "growing on",
+      "lemma": "grow on",
+      "lemmaId": "grow_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "grow_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Расти дальше"
+        }
+      },
+      "example": "Cat, as he scratched away left-handed at an English essay, could see the panic growing on Janet’s face.",
+      "exampleStart": 1320,
+      "exampleEnd": 1423,
+      "phraseMatch": {
+        "text": "growing on",
+        "startInExample": 79,
+        "endInExample": 89
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "hampered",
-      "lemma": "hampered",
-      "lemmaId": "hampered",
-      "pos": "phrase",
-      "wordKey": "hampered_phrase",
-      "level": "C1",
-      "ipa": "ˈhæm.pəd",
-      "translations": {
-        "ru": {
-          "translation": "затруднял, мешал"
-        }
-      },
-      "definition": "To hinder or impede the movement or progress of.",
-      "example": "He hampered the French with iron underwear.",
-      "matchedForm": "hampered"
-    },
-    {
-      "word": "jolly",
-      "lemma": "jolly",
-      "lemmaId": "jolly",
+      "lemma": "hamper",
+      "lemmaId": "hamper",
       "pos": "adjective",
-      "wordKey": "jolly_adjective",
-      "level": "C1",
-      "ipa": "ˈdʒɒli",
+      "source": "word",
+      "wordKey": "hamper_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "весёлый"
+          "translation": "препятствовать"
         }
       },
-      "definition": "Cheerful and lively.",
-      "example": "Janet, in her relief, became almost jolly.",
-      "matchedForm": "jolly"
+      "example": "He hampered the French with iron underwear, and the English wore wool, so they didn’t stick in the mud, and probably their longbows were enchanted too.",
+      "exampleStart": 1709,
+      "exampleEnd": 1860,
+      "matchedForm": "hampered",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.928571,
+      "difficultySource": "zipf"
     },
     {
-      "word": "knobby",
-      "lemma": "knobby",
-      "lemmaId": "knobby",
-      "pos": "adjective",
-      "wordKey": "knobby_adjective",
-      "level": "C2",
-      "ipa": "ˈnɒbi",
-      "translations": {
-        "ru": {
-          "translation": "шишковатый, с узлами"
-        }
-      },
-      "definition": "Having knobs or lumps; knotted or bumpy.",
-      "example": "He hid his eyes with one knobby hand.",
-      "matchedForm": "knobby"
-    },
-    {
-      "word": "marble head",
-      "lemma": "marble head",
-      "lemmaId": "marble_head",
-      "pos": "phrase",
-      "wordKey": "marble_head_phrase",
-      "level": "C2",
-      "ipa": "ˈmɑː/bl hed",
-      "translations": {
-        "ru": {
-          "translation": "чугунная голова (упрек в тупости)"
-        }
-      },
-      "definition": "A metaphor implying someone is stubborn or dull-witted.",
-      "example": "somewhere inside that marble head there must be a little cell of gray matter.",
-      "phraseMatch": {
-        "text": "marble head",
-        "startInExample": 22,
-        "endInExample": 33
-      }
-    },
-    {
-      "word": "moment",
-      "lemma": "moment",
-      "lemmaId": "moment",
+      "word": "longbows",
+      "lemma": "longbow",
+      "lemmaId": "longbow",
       "pos": "noun",
-      "wordKey": "moment_noun",
+      "source": "word",
+      "wordKey": "longbow_noun",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "длинный лук"
+        }
+      },
+      "example": "He hampered the French with iron underwear, and the English wore wool, so they didn’t stick in the mud, and probably their longbows were enchanted too.",
+      "exampleStart": 1709,
+      "exampleEnd": 1860,
+      "matchedForm": "longbows",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "look on",
+      "lemma": "look on",
+      "lemmaId": "look_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_on_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈməʊmənt",
       "translations": {
         "ru": {
-          "translation": "момент"
+          "translation": "Смотри"
         }
       },
-      "definition": "A very brief period of time.",
-      "example": "Cat watched his moment and, when Mr. Saunders called them to lessons...",
-      "matchedForm": "moment"
-    },
-    {
-      "word": "panic-stricken",
-      "lemma": "panic-stricken",
-      "lemmaId": "panic_stricken",
-      "pos": "adjective",
-      "wordKey": "panic_stricken_adjective",
-      "level": "C1",
-      "ipa": "ˈpæn.ɪk ˌstrɪk.ən",
-      "translations": {
-        "ru": {
-          "translation": "охваченный паникой"
-        }
+      "example": "This of course was true for her world, but the panic-stricken look on her face as she said it suggested that she suspected the opposite was true in this world.",
+      "exampleStart": 2004,
+      "exampleEnd": 2163,
+      "phraseMatch": {
+        "text": "look on",
+        "startInExample": 62,
+        "endInExample": 69
       },
-      "definition": "Overcome with a sudden strong feeling of fear or anxiety.",
-      "example": "the panic-stricken look on her face as she said it.",
-      "matchedForm": "panic-stricken"
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "relaxed",
-      "lemma": "relaxed",
-      "lemmaId": "relaxed",
-      "pos": "adjective",
-      "wordKey": "relaxed_adjective",
-      "level": "B2",
-      "ipa": "rɪˈlækst",
-      "translations": {
-        "ru": {
-          "translation": "расслабленный"
-        }
-      },
-      "definition": "Free from tension or anxiety; at ease.",
-      "example": "She sighed with relief and relaxed.",
-      "matchedForm": "relaxed"
-    },
-    {
-      "word": "remarking",
-      "lemma": "remarking",
-      "lemmaId": "remarking",
+      "word": "remarked",
+      "lemma": "remark",
+      "lemmaId": "remark",
       "pos": "verb",
-      "wordKey": "remarking_verb",
-      "level": "C1",
-      "ipa": "rɪˈmɑːkɪŋ",
+      "source": "word",
+      "wordKey": "remark_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "замечая"
+          "translation": "замечание"
         }
       },
-      "definition": "To say something as a comment; to notice or point out.",
-      "example": "Mr. Saunders appeared at the door, remarking that the time for telling jokes was after lessons.",
-      "matchedForm": "remarking"
+      "example": "Saunders appeared at the door, remarking that the time for telling jokes was after lessons.",
+      "exampleStart": 597,
+      "exampleEnd": 688,
+      "matchedForm": "remarking",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.814286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "sighed",
+      "lemma": "sigh",
+      "lemmaId": "sigh",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "sigh_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "вздох"
+        }
+      },
+      "example": "She sighed with relief and relaxed.",
+      "exampleStart": 2572,
+      "exampleEnd": 2607,
+      "matchedForm": "sighed",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.731429,
+      "difficultySource": "zipf"
     },
     {
       "word": "snore",
       "lemma": "snore",
       "lemmaId": "snore",
-      "pos": "verb",
-      "wordKey": "snore_verb",
-      "level": "B2",
-      "ipa": "snɔː",
-      "translations": {
-        "ru": {
-          "translation": "храпеть"
-        }
-      },
-      "definition": "To breathe loudly during sleep.",
-      "example": "Roger gave a great snore of laughter.",
-      "matchedForm": "snore"
-    },
-    {
-      "word": "spell",
-      "lemma": "spell",
-      "lemmaId": "spell",
       "pos": "noun",
-      "wordKey": "spell_noun",
-      "level": "C1",
-      "ipa": "spel",
-      "translations": {
-        "ru": {
-          "translation": "заклинание"
-        }
-      },
-      "definition": "A word or formula believed to have magic power.",
-      "example": "she’ll tell you what spell she used.",
-      "matchedForm": "spell"
-    },
-    {
-      "word": "supposed",
-      "lemma": "supposed",
-      "lemmaId": "supposed",
-      "pos": "adjective",
-      "wordKey": "supposed_adjective",
+      "source": "word",
+      "wordKey": "snore_noun",
       "level": "B2",
-      "ipa": "səˈpəʊzd",
       "translations": {
         "ru": {
-          "translation": "предполагаемый, мнимый"
+          "translation": "храп"
         }
       },
-      "definition": "Generally assumed or believed to be the case.",
-      "example": "she suspected the opposite was true in this world."
+      "example": "Saunders called them to lessons, he caught Roger’s arm and whispered, “Look, Gwendolen’s turned Euphemia into a frog and—”\n\nRoger gave a great snore of laughter.",
+      "exampleStart": 56,
+      "exampleEnd": 217,
+      "matchedForm": "snore",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "suspiciously",
-      "lemma": "suspiciously",
-      "lemmaId": "suspiciously",
-      "pos": "adverb",
-      "wordKey": "suspiciously_adverb",
-      "level": "C1",
-      "ipa": "səˈspɪʃəsli",
+      "word": "spell out",
+      "lemma": "spell out",
+      "lemmaId": "spell_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "spell_out_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "подозрительно"
+          "translation": "Формулировка"
         }
       },
-      "definition": "In a way that shows doubt or mistrust.",
-      "example": "stared at her suspiciously over it.",
-      "matchedForm": "suspiciously"
+      "example": "Probably not, unless she’ll tell you what spell she used.",
+      "matchedForm": "spell",
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "take the hint",
+      "lemma": "take the hint",
+      "lemmaId": "take_the_hint",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "take_the_hint_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Пойми намёк"
+        }
+      },
+      "example": "“Gwendolen never knows anything,” he remarked loudly, hoping Janet would take the hint.",
+      "exampleStart": 2475,
+      "exampleEnd": 2562,
+      "phraseMatch": {
+        "text": "take the hint",
+        "startInExample": 73,
+        "endInExample": 86
+      },
+      "levelSource": "phrase_fallback"
     },
     {
       "word": "terrified",
-      "lemma": "terrified",
-      "lemmaId": "terrified",
+      "lemma": "terrify",
+      "lemmaId": "terrify",
       "pos": "adjective",
-      "wordKey": "terrified_adjective",
+      "source": "word",
+      "wordKey": "terrify_adjective",
       "level": "B2",
-      "ipa": "ˈterɪfaɪd",
       "translations": {
         "ru": {
-          "translation": "испуганный"
+          "translation": "ужасать"
         }
       },
-      "definition": "Extremely frightened or scared.",
       "example": "Cat was terrified.",
-      "matchedForm": "terrified"
+      "exampleStart": 2322,
+      "exampleEnd": 2340,
+      "matchedForm": "terrified",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "uncomfortable",
-      "lemma": "uncomfortable",
-      "lemmaId": "uncomfortable",
-      "pos": "adjective",
-      "wordKey": "uncomfortable_adjective",
+      "word": "turn back",
+      "lemma": "turn back",
+      "lemmaId": "turn_back",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "turn_back_phrasal_verb",
       "level": "B2",
-      "ipa": "ʌnˈkʌmf.tə.bəl",
       "translations": {
         "ru": {
-          "translation": "неудобный, неловкий"
+          "translation": "Повернуть назад"
         }
       },
-      "definition": "Causing discomfort, unease, or embarrassment.",
-      "example": "It was the most uncomfortable morning Cat had ever known.",
-      "matchedForm": "uncomfortable"
+      "example": "“And she won’t turn her back.",
+      "exampleStart": 252,
+      "exampleEnd": 281,
+      "phraseMatch": {
+        "text": "turn her back",
+        "startInExample": 15,
+        "endInExample": 28
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "unlike",
-      "lemma": "unlike",
-      "lemmaId": "unlike",
-      "pos": "phrase",
-      "wordKey": "unlike_phrase",
-      "level": "B2",
-      "ipa": "ʌnˈlaɪk",
+      "word": "underwear",
+      "lemma": "underwear",
+      "lemmaId": "underwear",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "underwear_verb",
+      "level": "A2",
       "translations": {
         "ru": {
-          "translation": "в отличие от"
+          "translation": "белье"
         }
       },
-      "definition": "Different from; not typical of.",
-      "example": "This was so unlike Gwendolen.",
-      "matchedForm": "unlike"
+      "example": "He hampered the French with iron underwear, and the English wore wool, so they didn’t stick in the mud, and probably their longbows were enchanted too.",
+      "exampleStart": 1709,
+      "exampleEnd": 1860,
+      "matchedForm": "underwear",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.728571,
+      "difficultySource": "zipf"
     },
     {
       "word": "whispered",
-      "lemma": "whispered",
-      "lemmaId": "whispered",
-      "pos": "verb",
-      "wordKey": "whispered_verb",
-      "level": "C1",
-      "ipa": "ˈwɪspəd",
+      "lemma": "whisper",
+      "lemmaId": "whisper",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "whisper_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "прошептал"
+          "translation": "шепотом"
         }
       },
-      "definition": "To speak very quietly, using breath but not the vocal cords.",
-      "example": "he caught Roger’s arm and whispered, \"Look, Gwendolen’s turned Euphemia into a frog and—\"",
-      "matchedForm": "whispered"
+      "example": "Saunders called them to lessons, he caught Roger’s arm and whispered, “Look, Gwendolen’s turned Euphemia into a frog and—”\n\nRoger gave a great snore of laughter.",
+      "exampleStart": 56,
+      "exampleEnd": 217,
+      "matchedForm": "whispered",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.791429,
+      "difficultySource": "zipf"
     },
     {
-      "word": "witchcraft",
-      "lemma": "witchcraft",
-      "lemmaId": "witchcraft",
-      "pos": "noun",
-      "wordKey": "witchcraft_noun",
-      "level": "C2",
-      "ipa": "ˈwɪtʃ.krɑːft",
+      "word": "you what",
+      "lemma": "you what",
+      "lemmaId": "you_what",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "you_what_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "колдовство"
+          "translation": "Ты что?"
         }
       },
-      "definition": "The practice of magic, especially black magic.",
-      "example": "the only thing Gwendolen knew about was witchcraft.",
-      "matchedForm": "witchcraft"
+      "example": "Probably not, unless she’ll tell you what spell she used.",
+      "exampleStart": 374,
+      "exampleEnd": 431,
+      "phraseMatch": {
+        "text": "you what",
+        "startInExample": 33,
+        "endInExample": 41
+      },
+      "levelSource": "phrase_fallback"
     }
   ]
 }

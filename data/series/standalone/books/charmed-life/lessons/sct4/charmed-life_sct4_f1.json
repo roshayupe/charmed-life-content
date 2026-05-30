@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 4,
     "sectionTitle": "Chapter 1",
     "fragmentIndex": 1,
@@ -21,463 +20,749 @@
       "wordCount": 597,
       "uniqueWordCount": 314,
       "paragraphCount": 10,
-      "vocabularyCount": 26,
+      "vocabularyCount": 32,
       "levelDistribution": {
         "A1": 0,
-        "A2": 0,
-        "B1": 0,
-        "B2": 16,
-        "C1": 10,
+        "A2": 4,
+        "B1": 4,
+        "B2": 20,
+        "C1": 4,
         "C2": 0
       }
     }
   },
   "vocabulary": [
     {
-      "word": "admired",
-      "lemma": "admired",
-      "lemmaId": "admired",
-      "pos": "verb",
-      "wordKey": "admired_verb",
-      "level": "C1",
-      "ipa": "ədˈmaɪəd",
+      "word": "aboard",
+      "lemma": "aboard",
+      "lemmaId": "aboard",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "aboard_noun",
+      "level": "A2",
       "translations": {
         "ru": {
-          "translation": "восхищался"
+          "translation": "на борту"
         }
       },
-      "definition": "Regarded with respect or warm approval.",
-      "example": "CATCHANT ADMIRED his elder sister Gwendolen.",
-      "matchedForm": "ADMIRED"
+      "example": "Clouds of steam screamed from broken pipes and drowned the screams from the crowd, as every single person aboard was swept away through the dam.",
+      "exampleStart": 1112,
+      "exampleEnd": 1256,
+      "matchedForm": "aboard",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.677143,
+      "difficultySource": "zipf"
     },
     {
-      "word": "celebrities",
-      "lemma": "celebrities",
-      "lemmaId": "celebrities",
+      "word": "all over",
+      "lemma": "all over",
+      "lemmaId": "all_over",
       "pos": "phrase",
-      "wordKey": "celebrities_phrase",
-      "level": "C1",
-      "ipa": "sɛlɪˈbrɪtiz",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "all_over_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "знаменитости"
+          "translation": "Всё кончено"
         }
       },
-      "definition": "Famous people, often admired by the public.",
-      "example": "They became celebrities for a time.",
-      "matchedForm": "celebrities"
-    },
-    {
-      "word": "clinging",
-      "lemma": "clinging",
-      "lemmaId": "clinging",
-      "pos": "adjective",
-      "wordKey": "clinging_adjective",
-      "level": "C1",
-      "ipa": "ˈklɪŋɪŋ",
-      "translations": {
-        "ru": {
-          "translation": "обтягивающий"
-        }
+      "example": "Money poured in from all over the country.",
+      "exampleStart": 2120,
+      "exampleEnd": 2162,
+      "phraseMatch": {
+        "text": "all over",
+        "startInExample": 21,
+        "endInExample": 29
       },
-      "definition": "Tight-fitting or adhering closely to the body or object.",
-      "example": "The ladies in their clinging skirts were quite unable to swim.",
-      "matchedForm": "clinging"
+      "levelSource": "phrase_fallback"
     },
     {
-      "word": "clung",
-      "lemma": "clung",
-      "lemmaId": "clung",
-      "pos": "verb",
-      "wordKey": "clung_verb",
+      "word": "broke into",
+      "lemma": "break into",
+      "lemmaId": "break_into",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "break_into_phrasal_verb",
       "level": "B2",
-      "ipa": "klʌŋ",
       "translations": {
         "ru": {
-          "translation": "цеплялся"
+          "translation": "вломился"
         }
       },
-      "definition": "Held on tightly to something or someone.",
-      "example": "He admired her and he clung to her.",
-      "matchedForm": "clung"
+      "example": "They hit one of the posts which were supposed to stop people being swept away, and the paddle steamer, being old, simply broke into pieces.",
+      "exampleStart": 901,
+      "exampleEnd": 1040,
+      "phraseMatch": {
+        "text": "broke into",
+        "startInExample": 121,
+        "endInExample": 131
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "cling to",
+      "lemma": "cling to",
+      "lemmaId": "cling_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "cling_to_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Цепляйтесь"
+        }
+      },
+      "example": "Great changes came about in their lives and left him no one else to cling to.",
+      "exampleStart": 116,
+      "exampleEnd": 193,
+      "phraseMatch": {
+        "text": "cling to",
+        "startInExample": 68,
+        "endInExample": 76
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "came about",
+      "lemma": "come about",
+      "lemmaId": "come_about",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_about_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "появился"
+        }
+      },
+      "example": "The first great change came about when their parents took them out for a day trip down the river in a paddle steamer.",
+      "exampleStart": 195,
+      "exampleEnd": 312,
+      "phraseMatch": {
+        "text": "came about",
+        "startInExample": 23,
+        "endInExample": 33
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "crammed",
-      "lemma": "crammed",
-      "lemmaId": "crammed",
+      "lemma": "cram",
+      "lemmaId": "cram",
       "pos": "adjective",
-      "wordKey": "crammed_adjective",
-      "level": "B2",
-      "ipa": "kræmd",
+      "source": "word",
+      "wordKey": "cram_adjective",
+      "level": "C1",
       "translations": {
         "ru": {
-          "translation": "набитый битком"
+          "translation": "втискивать"
         }
       },
-      "definition": "Filled to capacity; packed tightly.",
-      "example": "The steamer was crammed with other people in holiday clothes.",
-      "matchedForm": "crammed"
+      "example": "The steamer was crammed with other people in holiday clothes, talking, laughing, eating whelks with thin slices of white bread and butter, while the paddleboat steam organ wheezed out popular tunes so that no one could hear themselves talk.",
+      "exampleStart": 471,
+      "exampleEnd": 711,
+      "matchedForm": "crammed",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.962857,
+      "difficultySource": "zipf"
     },
     {
-      "word": "crowd",
-      "lemma": "crowd",
-      "lemmaId": "crowd",
-      "pos": "noun",
-      "wordKey": "crowd_noun",
+      "word": "found out",
+      "lemma": "find out",
+      "lemmaId": "find_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "find_out_phrasal_verb",
       "level": "B2",
-      "ipa": "kraʊd",
       "translations": {
         "ru": {
-          "translation": "толпа"
+          "translation": "Выяснил"
         }
       },
-      "definition": "A large number of people gathered together.",
-      "example": "The whole laughing, whelk-eating, Sunday-dressed crowd was swept away in the current.",
-      "matchedForm": "crowd"
+      "example": "Cat looked at them and wondered if they were witches and warlocks, but he never found out.",
+      "exampleStart": 1968,
+      "exampleEnd": 2058,
+      "phraseMatch": {
+        "text": "found out",
+        "startInExample": 80,
+        "endInExample": 89
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "current",
-      "lemma": "current",
-      "lemmaId": "current",
-      "pos": "noun",
-      "wordKey": "current_noun",
+      "word": "getting on",
+      "lemma": "get on",
+      "lemmaId": "get_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "get_on_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈkʌrənt",
       "translations": {
         "ru": {
-          "translation": "течение"
+          "translation": "Поехать"
         }
       },
-      "definition": "A flow of water in a definite direction, especially through a surrounding body of water.",
-      "example": "Swept away in the current from the dam.",
-      "matchedForm": "current"
+      "example": "Town Councillors came and asked how he was getting on; and the Mayor called and patted him on the head.",
+      "exampleStart": 2812,
+      "exampleEnd": 2915,
+      "phraseMatch": {
+        "text": "getting on",
+        "startInExample": 43,
+        "endInExample": 53
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "dam",
-      "lemma": "dam",
-      "lemmaId": "dam",
-      "pos": "noun",
-      "wordKey": "dam_noun",
+      "word": "went away",
+      "lemma": "go away",
+      "lemmaId": "go_away",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_away_phrasal_verb",
       "level": "B2",
-      "ipa": "dæm",
       "translations": {
         "ru": {
-          "translation": "плотина"
+          "translation": "ушёл"
         }
       },
-      "definition": "A barrier built to hold back water and raise its level.",
-      "example": "They hit one of the posts which were supposed to stop people being swept away through the dam.",
-      "matchedForm": "dam"
-    },
-    {
-      "word": "disaster",
-      "lemma": "disaster",
-      "lemmaId": "disaster",
-      "pos": "noun",
-      "wordKey": "disaster_noun",
-      "level": "B2",
-      "ipa": "dɪˈzɑːstə",
-      "translations": {
-        "ru": {
-          "translation": "катастрофа"
-        }
+      "example": "All the other survivors took their share and went away to start new lives elsewhere.",
+      "exampleStart": 2163,
+      "exampleEnd": 2247,
+      "phraseMatch": {
+        "text": "went away",
+        "startInExample": 45,
+        "endInExample": 54
       },
-      "definition": "A sudden event, such as an accident or a natural catastrophe, causing great damage or loss of life.",
-      "example": "The papers called it the Saucy Nancy Disaster.",
-      "matchedForm": "Disaster"
-    },
-    {
-      "word": "drown",
-      "lemma": "drown",
-      "lemmaId": "drown",
-      "pos": "verb",
-      "wordKey": "drown_verb",
-      "level": "B2",
-      "ipa": "draʊn",
-      "translations": {
-        "ru": {
-          "translation": "тонуть"
-        }
-      },
-      "definition": "Die through submersion in and inhalation of water.",
-      "example": "Gwendolen was a witch, so she could not drown.",
-      "matchedForm": "drown"
-    },
-    {
-      "word": "Fund",
-      "lemma": "Fund",
-      "lemmaId": "fund",
-      "pos": "noun",
-      "wordKey": "fund_noun",
-      "level": "B2",
-      "ipa": "fʌnd",
-      "translations": {
-        "ru": {
-          "translation": "фонд"
-        }
-      },
-      "definition": "A sum of money saved or made available for a particular purpose.",
-      "example": "The Mayor of Wolvercote had set up a Fund for the survivors.",
-      "matchedForm": "Fund"
-    },
-    {
-      "word": "funerals",
-      "lemma": "funerals",
-      "lemmaId": "funerals",
-      "pos": "phrase",
-      "wordKey": "funerals_phrase",
-      "level": "B2",
-      "ipa": "ˈfjuːnərəlz",
-      "translations": {
-        "ru": {
-          "translation": "похороны"
-        }
-      },
-      "definition": "Ceremonies held for burying or cremating the dead.",
-      "example": "They paid for the funerals.",
-      "matchedForm": "funerals"
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "hearses",
-      "lemma": "hearses",
-      "lemmaId": "hearses",
-      "pos": "phrase",
-      "wordKey": "hearses_phrase",
-      "level": "C1",
-      "ipa": "ˈhɪəsɪz",
+      "lemma": "hears",
+      "lemmaId": "hears",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "hears_noun",
+      "level": "A2",
       "translations": {
         "ru": {
-          "translation": "катафалки"
+          "translation": "слышать"
         }
       },
-      "definition": "Vehicles for conveying the dead to the place of burial.",
-      "example": "The procession of hearses in a carriage pulled by black horses.",
-      "matchedForm": "hearses"
+      "example": "Gwendolen and Cat were given heavy black clothes at public expense, and rode behind the procession of hearses in a carriage pulled by black horses with black plumes on their heads.",
+      "exampleStart": 1751,
+      "exampleEnd": 1931,
+      "matchedForm": "hearses",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.78,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "live with",
+      "lemma": "live with",
+      "lemmaId": "live_with",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "live_with_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Жить с"
+        }
+      },
+      "example": "“We’d love to live with her.",
+      "exampleStart": 3293,
+      "exampleEnd": 3321,
+      "phraseMatch": {
+        "text": "live with",
+        "startInExample": 14,
+        "endInExample": 23
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "looked at",
+      "lemma": "look at",
+      "lemmaId": "look_at",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_at_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "смотрел"
+        }
+      },
+      "example": "Cat looked at them and wondered if they were witches and warlocks, but he never found out.",
+      "exampleStart": 1968,
+      "exampleEnd": 2058,
+      "phraseMatch": {
+        "text": "looked at",
+        "startInExample": 4,
+        "endInExample": 13
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "looked in",
+      "lemma": "look in",
+      "lemmaId": "look_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "заглянул внутрь"
+        }
+      },
+      "example": "They were both fair and pale, with blue eyes, and looked good in black.",
+      "exampleStart": 2494,
+      "exampleEnd": 2565,
+      "phraseMatch": {
+        "text": "looked good in",
+        "startInExample": 50,
+        "endInExample": 64
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "motherly",
       "lemma": "motherly",
       "lemmaId": "motherly",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "motherly_adjective",
       "level": "C1",
-      "ipa": "ˈmʌðəli",
       "translations": {
         "ru": {
           "translation": "материнский"
         }
       },
-      "definition": "Having qualities befitting a mother, especially in kindness and care.",
-      "example": "Gwendolen was very motherly to Cat.",
-      "matchedForm": "motherly"
+      "example": "Gwendolen was very motherly to Cat, and people were touched.",
+      "exampleStart": 2642,
+      "exampleEnd": 2702,
+      "matchedForm": "motherly",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "orphan",
-      "lemma": "orphan",
-      "lemmaId": "orphan",
+      "word": "paddleboat",
+      "lemma": "paddleboat",
+      "lemmaId": "paddleboat",
       "pos": "noun",
-      "wordKey": "orphan_noun",
+      "source": "word",
+      "wordKey": "paddleboat_noun",
       "level": "B2",
-      "ipa": "ˈɔːfən",
       "translations": {
         "ru": {
-          "translation": "сирота"
+          "translation": "гребная лодка"
         }
       },
-      "definition": "A child whose parents are dead.",
-      "example": "Everyone said what beautiful little orphans they were.",
-      "matchedForm": "orphan"
+      "example": "The steamer was crammed with other people in holiday clothes, talking, laughing, eating whelks with thin slices of white bread and butter, while the paddleboat steam organ wheezed out popular tunes so that no one could hear themselves talk.",
+      "exampleStart": 471,
+      "exampleEnd": 711,
+      "matchedForm": "paddleboat",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "paddle steamer",
-      "lemma": "paddle steamer",
-      "lemmaId": "paddle_steamer",
-      "pos": "phrase",
-      "wordKey": "paddle_steamer_phrase",
-      "level": "C1",
-      "ipa": "ˈpæd.l̩ ˈstiː.mə",
+      "word": "pay for",
+      "lemma": "pay for",
+      "lemmaId": "pay_for",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "pay_for_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "пароход с гребным колесом"
+          "translation": "оплатить"
         }
       },
-      "definition": "A steamship propelled by a paddle wheel or wheels.",
-      "example": "They took them out for a day trip down the river in a paddle steamer.",
+      "example": "Meanwhile, the town would pay for their education and upbringing.",
+      "exampleStart": 3027,
+      "exampleEnd": 3092,
       "phraseMatch": {
-        "text": "paddle steamer",
-        "startInExample": 54,
-        "endInExample": 68
-      }
+        "text": "pay for",
+        "startInExample": 26,
+        "endInExample": 33
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "plumes",
-      "lemma": "plumes",
-      "lemmaId": "plumes",
-      "pos": "phrase",
-      "wordKey": "plumes_phrase",
-      "level": "C1",
-      "ipa": "pluːmz",
-      "translations": {
-        "ru": {
-          "translation": "перья, шлейфы"
-        }
-      },
-      "definition": "Feathers or arrangements of feathers on a helmet, hat, or plume of smoke or dust.",
-      "example": "Black horses with black plumes on their heads.",
-      "matchedForm": "plumes"
-    },
-    {
-      "word": "procession",
-      "lemma": "procession",
-      "lemmaId": "procession",
-      "pos": "noun",
-      "wordKey": "procession_noun",
-      "level": "C1",
-      "ipa": "prəˈsɛʃən",
-      "translations": {
-        "ru": {
-          "translation": "шествие"
-        }
-      },
-      "definition": "A number of people or vehicles moving forward as part of a ceremony or festival.",
-      "example": "They rode behind the procession of hearses in a carriage.",
-      "matchedForm": "procession"
-    },
-    {
-      "word": "screamed",
-      "lemma": "screamed",
-      "lemmaId": "screamed",
+      "lemma": "plume",
+      "lemmaId": "plume",
       "pos": "verb",
-      "wordKey": "screamed_verb",
+      "source": "word",
+      "wordKey": "plume_verb",
       "level": "B2",
-      "ipa": "skriːmd",
       "translations": {
         "ru": {
-          "translation": "кричали"
+          "translation": "шлейф"
         }
       },
-      "definition": "Uttered a loud, sharp, piercing cry.",
-      "example": "Clouds of steam screamed from broken pipes and drowned the screams from the crowd.",
-      "matchedForm": "screamed"
+      "example": "Gwendolen and Cat were given heavy black clothes at public expense, and rode behind the procession of hearses in a carriage pulled by black horses with black plumes on their heads.",
+      "exampleStart": 1751,
+      "exampleEnd": 1931,
+      "matchedForm": "plumes",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.948571,
+      "difficultySource": "zipf"
     },
     {
-      "word": "steamer",
-      "lemma": "steamer",
-      "lemmaId": "steamer",
-      "pos": "noun",
-      "wordKey": "steamer_noun",
+      "word": "prickly",
+      "lemma": "prickly",
+      "lemmaId": "prickly",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "prickly_adjective",
       "level": "B2",
-      "ipa": "ˈstiː.mə",
       "translations": {
         "ru": {
-          "translation": "пароход"
+          "translation": "колючий"
         }
       },
-      "definition": "A ship propelled by steam.",
-      "example": "The steamer was too crowded and too old.",
-      "matchedForm": "steamer"
+      "example": "They set out in great style, Gwendolen and her mother in white dresses with ribbons, Cat and his father in prickly blue-serge Sunday suits.",
+      "exampleStart": 313,
+      "exampleEnd": 452,
+      "matchedForm": "prickly",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.994286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "put into",
+      "lemma": "put into",
+      "lemmaId": "put_into",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "put_into_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "вложён в"
+        }
+      },
+      "example": "The Mayor explained that the money from the Fund was being put into a Trust for them until they were grown up.",
+      "exampleStart": 2916,
+      "exampleEnd": 3026,
+      "phraseMatch": {
+        "text": "put into",
+        "startInExample": 59,
+        "endInExample": 67
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "set out",
+      "lemma": "set out",
+      "lemmaId": "set_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "set_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "В путь"
+        }
+      },
+      "example": "They set out in great style, Gwendolen and her mother in white dresses with ribbons, Cat and his father in prickly blue-serge Sunday suits.",
+      "exampleStart": 313,
+      "exampleEnd": 452,
+      "phraseMatch": {
+        "text": "set out",
+        "startInExample": 5,
+        "endInExample": 12
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "set up",
+      "lemma": "set up",
+      "lemmaId": "set_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "set_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Подготовка"
+        }
+      },
+      "example": "The Mayor of Wolvercote had set up a Fund for the survivors.",
+      "exampleStart": 2059,
+      "exampleEnd": 2119,
+      "phraseMatch": {
+        "text": "set up",
+        "startInExample": 28,
+        "endInExample": 34
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "stayed in",
+      "lemma": "stay in",
+      "lemmaId": "stay_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "stay_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "остался внутри"
+        }
+      },
+      "example": "Only Cat and Gwendolen were left and, since nobody could discover any of their relations, they stayed in Wolvercote.",
+      "exampleStart": 2248,
+      "exampleEnd": 2364,
+      "phraseMatch": {
+        "text": "stayed in",
+        "startInExample": 95,
+        "endInExample": 104
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "steering",
-      "lemma": "steering",
-      "lemmaId": "steering",
-      "pos": "noun",
-      "wordKey": "steering_noun",
-      "level": "B2",
-      "ipa": "ˈstɪərɪŋ",
-      "translations": {
-        "ru": {
-          "translation": "руление"
-        }
-      },
-      "definition": "The act or mechanism of guiding or controlling the direction of a vehicle or vessel.",
-      "example": "Something went wrong with the steering.",
-      "matchedForm": "steering"
-    },
-    {
-      "word": "survivors",
-      "lemma": "survivors",
-      "lemmaId": "survivors",
-      "pos": "phrase",
-      "wordKey": "survivors_phrase",
-      "level": "B2",
-      "ipa": "səˈvaɪvəz",
-      "translations": {
-        "ru": {
-          "translation": "выжившие"
-        }
-      },
-      "definition": "People who continue to live after an event in which others died.",
-      "example": "There were very few other survivors.",
-      "matchedForm": "survivors"
-    },
-    {
-      "word": "touched",
-      "lemma": "touched",
-      "lemmaId": "touched",
+      "lemma": "steer",
+      "lemmaId": "steer",
       "pos": "adjective",
-      "wordKey": "touched_adjective",
-      "level": "B2",
-      "ipa": "tʌʧt",
+      "source": "word",
+      "wordKey": "steer_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "растроганный"
+          "translation": "руль"
         }
       },
-      "definition": "Emotionally moved or affected.",
-      "example": "People were touched by Gwendolen's care for Cat.",
-      "matchedForm": "touched"
+      "example": "Something went wrong with the steering.",
+      "exampleStart": 762,
+      "exampleEnd": 801,
+      "matchedForm": "steering",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.797143,
+      "difficultySource": "zipf"
     },
     {
-      "word": "Trust",
-      "lemma": "Trust",
-      "lemmaId": "trust",
-      "pos": "noun",
-      "wordKey": "trust_noun",
-      "level": "B2",
-      "ipa": "trʌst",
+      "word": "supposed to",
+      "lemma": "supposed to",
+      "lemmaId": "supposed_to",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "supposed_to_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "доверительный фонд"
+          "translation": "должен был"
         }
       },
-      "definition": "An arrangement where money or property is held by one party for the benefit of another.",
-      "example": "The money from the Fund was being put into a Trust for them.",
-      "matchedForm": "Trust"
+      "example": "They hit one of the posts which were supposed to stop people being swept away, and the paddle steamer, being old, simply broke into pieces.",
+      "exampleStart": 901,
+      "exampleEnd": 1040,
+      "phraseMatch": {
+        "text": "supposed to",
+        "startInExample": 37,
+        "endInExample": 48
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "swept away",
+      "lemma": "sweep away",
+      "lemmaId": "sweep_away",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "sweep_away_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Унесённый"
+        }
+      },
+      "example": "Clouds of steam screamed from broken pipes and drowned the screams from the crowd, as every single person aboard was swept away through the dam.",
+      "exampleStart": 1112,
+      "exampleEnd": 1256,
+      "phraseMatch": {
+        "text": "swept away",
+        "startInExample": 117,
+        "endInExample": 127
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "swim",
+      "lemma": "swim",
+      "lemmaId": "swim",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "swim_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "плавать"
+        }
+      },
+      "example": "The ladies in their clinging skirts were quite unable to swim.",
+      "exampleStart": 1332,
+      "exampleEnd": 1394,
+      "matchedForm": "swim",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.657143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "take in",
+      "lemma": "take in",
+      "lemmaId": "take_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "take_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Посмотрите"
+        }
+      },
+      "example": "Sharp downstairs had offered to take them in.",
+      "exampleStart": 3199,
+      "exampleEnd": 3244,
+      "phraseMatch": {
+        "text": "take them in",
+        "startInExample": 32,
+        "endInExample": 44
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "took out",
+      "lemma": "take out",
+      "lemmaId": "take_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "take_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Убрали"
+        }
+      },
+      "example": "The first great change came about when their parents took them out for a day trip down the river in a paddle steamer.",
+      "exampleStart": 195,
+      "exampleEnd": 312,
+      "phraseMatch": {
+        "text": "took them out",
+        "startInExample": 53,
+        "endInExample": 66
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "upbringing",
       "lemma": "upbringing",
       "lemmaId": "upbringing",
-      "pos": "noun",
-      "wordKey": "upbringing_noun",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "upbringing_adjective",
       "level": "C1",
-      "ipa": "ˈʌpˌbrɪŋɪŋ",
       "translations": {
         "ru": {
           "translation": "воспитание"
         }
       },
-      "definition": "The treatment and instruction received by a child from its parents throughout its childhood.",
-      "example": "The town would pay for their education and upbringing.",
-      "matchedForm": "upbringing"
+      "example": "Meanwhile, the town would pay for their education and upbringing.",
+      "exampleStart": 3027,
+      "exampleEnd": 3092,
+      "matchedForm": "upbringing",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.88,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "wheezed",
+      "lemma": "wheeze",
+      "lemmaId": "wheeze",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "wheeze_adjective",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "хрип"
+        }
+      },
+      "example": "The steamer was crammed with other people in holiday clothes, talking, laughing, eating whelks with thin slices of white bread and butter, while the paddleboat steam organ wheezed out popular tunes so that no one could hear themselves talk.",
+      "exampleStart": 471,
+      "exampleEnd": 711,
+      "matchedForm": "wheezed",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "whelks",
-      "lemma": "whelks",
-      "lemmaId": "whelks",
+      "lemma": "whelk",
+      "lemmaId": "whelk",
       "pos": "noun",
-      "wordKey": "whelks_noun",
-      "level": "C1",
-      "ipa": "wɛlks",
+      "source": "word",
+      "wordKey": "whelk_noun",
+      "level": "A2",
       "translations": {
         "ru": {
-          "translation": "морские улитки (съедобные)"
+          "translation": "хелк"
         }
       },
-      "definition": "Edible sea snails commonly eaten as seafood.",
-      "example": "Eating whelks with thin slices of white bread and butter.",
-      "matchedForm": "whelks"
+      "example": "The steamer was crammed with other people in holiday clothes, talking, laughing, eating whelks with thin slices of white bread and butter, while the paddleboat steam organ wheezed out popular tunes so that no one could hear themselves talk.",
+      "exampleStart": 471,
+      "exampleEnd": 711,
+      "matchedForm": "whelks",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "white bread",
+      "lemma": "white bread",
+      "lemmaId": "white_bread",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "white_bread_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Белый хлеб"
+        }
+      },
+      "example": "The steamer was crammed with other people in holiday clothes, talking, laughing, eating whelks with thin slices of white bread and butter, while the paddleboat steam organ wheezed out popular tunes so that no one could hear themselves talk.",
+      "exampleStart": 471,
+      "exampleEnd": 711,
+      "phraseMatch": {
+        "text": "white bread",
+        "startInExample": 115,
+        "endInExample": 126
+      },
+      "levelSource": "phrase_fallback"
     }
   ]
 }

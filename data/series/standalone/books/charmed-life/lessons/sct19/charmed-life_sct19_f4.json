@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 19,
     "sectionTitle": "Chapter 16",
     "fragmentIndex": 4,
@@ -21,577 +20,855 @@
       "wordCount": 695,
       "uniqueWordCount": 376,
       "paragraphCount": 18,
-      "vocabularyCount": 20,
+      "vocabularyCount": 37,
       "levelDistribution": {
         "A1": 0,
-        "A2": 0,
-        "B1": 0,
-        "B2": 11,
-        "C1": 8,
+        "A2": 4,
+        "B1": 7,
+        "B2": 24,
+        "C1": 1,
         "C2": 1
       }
     }
   },
   "vocabulary": [
     {
-      "word": "archway",
-      "lemma": "archway",
-      "lemmaId": "archway",
-      "pos": "adjective",
-      "wordKey": "archway_adjective",
+      "word": "called off",
+      "lemma": "call off",
+      "lemmaId": "call_off",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "call_off_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈɑːrtʃ.weɪ",
       "translations": {
-        "de": {
-          "translation": "Bogen"
-        },
-        "es": {
-          "translation": "arco"
-        },
         "ru": {
-          "translation": "арка"
-        },
-        "uk": {
-          "translation": "арка"
+          "translation": "Отменили"
         }
       },
-      "definition": "A passage or entrance shaped like an arch.",
-      "example": "and ran for the archway.",
-      "exampleStart": 2382,
+      "example": "Cat called them off, rather regretfully, and they fell on the grass as handcuffs.",
+      "exampleStart": 1442,
+      "exampleEnd": 1523,
+      "phraseMatch": {
+        "text": "called them off",
+        "startInExample": 4,
+        "endInExample": 19
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "cleared away",
+      "lemma": "clear away",
+      "lemmaId": "clear_away",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "clear_away_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "очищено"
+        }
+      },
+      "example": "As he did so, the whiteness cleared, the humming died away, and the rest of the Family began to collect on the sunny hillside, panting a little but not very wet.",
+      "exampleStart": 1712,
+      "exampleEnd": 1873,
+      "phraseMatch": {
+        "text": "cleared, the humming died away",
+        "startInExample": 28,
+        "endInExample": 58
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "came out of",
+      "lemma": "come out of",
+      "lemmaId": "come_out_of",
+      "pos": "prepositional_verb",
+      "type": "prepositional_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_out_of_prepositional_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "вышел из"
+        }
+      },
+      "example": "Frantic people in soaking-wet Sunday clothes came whirling out of the whiteness and were sucked through the broken arch like dead leaves in a whirlpool.",
+      "exampleStart": 864,
+      "exampleEnd": 1016,
+      "phraseMatch": {
+        "text": "came whirling out of",
+        "startInExample": 45,
+        "endInExample": 65
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "came through",
+      "lemma": "come through",
+      "lemmaId": "come_through",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_through_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Прошёл"
+        }
+      },
+      "example": "Frantic people in soaking-wet Sunday clothes came whirling out of the whiteness and were sucked through the broken arch like dead leaves in a whirlpool.",
+      "matchedForm": "came",
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "courtiers",
+      "lemma": "courtier",
+      "lemmaId": "courtier",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "courtier_noun",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "судья"
+        }
+      },
+      "example": "And those courtiers of yours don’t really do what you say, you know.",
+      "exampleStart": 2194,
+      "exampleEnd": 2262,
+      "matchedForm": "courtiers",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "crowds out",
+      "lemma": "crowd out",
+      "lemmaId": "crowd_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "crowd_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Толпы выходят"
+        }
+      },
+      "example": "Frantic people in soaking-wet Sunday clothes came whirling out of the whiteness and were sucked through the broken arch like dead leaves in a whirlpool.",
+      "matchedForm": "out",
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "do what",
+      "lemma": "do what",
+      "lemmaId": "do_what",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "do_what_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Что делать"
+        }
+      },
+      "example": "And those courtiers of yours don’t really do what you say, you know.",
+      "exampleStart": 2194,
+      "exampleEnd": 2262,
+      "phraseMatch": {
+        "text": "do what",
+        "startInExample": 42,
+        "endInExample": 49
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "fell on",
+      "lemma": "fall on",
+      "lemmaId": "fall_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "fall_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "упал"
+        }
+      },
+      "example": "Cat called them off, rather regretfully, and they fell on the grass as handcuffs.",
+      "exampleStart": 1442,
+      "exampleEnd": 1523,
+      "phraseMatch": {
+        "text": "fell on",
+        "startInExample": 50,
+        "endInExample": 57
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "get at",
+      "lemma": "get at",
+      "lemmaId": "get_at",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "get_at_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Приступай"
+        }
+      },
+      "example": "” Cat said guiltily, letting go of the dragon in order to get at his crucible.",
+      "exampleStart": 29,
+      "exampleEnd": 107,
+      "phraseMatch": {
+        "text": "get at",
+        "startInExample": 58,
+        "endInExample": 64
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "go back",
+      "lemma": "go back",
+      "lemmaId": "go_back",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_back_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Возвращайся"
+        }
+      },
+      "example": "I’ve got to go back and be queen.",
+      "exampleStart": 2001,
+      "exampleEnd": 2034,
+      "phraseMatch": {
+        "text": "go back",
+        "startInExample": 12,
+        "endInExample": 19
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "good and",
+      "lemma": "good and",
+      "lemmaId": "good_and",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "good_and_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "хорошие и"
+        }
+      },
+      "example": "Now she was probably in this world for good, and Cat had done it.",
+      "exampleStart": 3646,
+      "exampleEnd": 3711,
+      "phraseMatch": {
+        "text": "good, and",
+        "startInExample": 39,
+        "endInExample": 48
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "here you are",
+      "lemma": "here you are",
+      "lemmaId": "here_you_are",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "here_you_are_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Вот, держи"
+        }
+      },
+      "example": "“Here you are.",
+      "exampleStart": 172,
+      "exampleEnd": 186,
+      "phraseMatch": {
+        "text": "Here you are",
+        "startInExample": 1,
+        "endInExample": 13
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "howling",
+      "lemma": "howl",
+      "lemmaId": "howl",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "howl_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "воет"
+        }
+      },
+      "example": "He could hear witches and warlocks howling with horror.",
+      "exampleStart": 502,
+      "exampleEnd": 557,
+      "matchedForm": "howling",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.951429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "hurled",
+      "lemma": "hurl",
+      "lemmaId": "hurl",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "hurl_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "бросать"
+        }
+      },
+      "example": "Gwendolen spun around and hurled her last handful of dragons’ blood in his face and, while Chrestomanci was forced to duck and put one arm over his face, Gwendolen backed hastily through the archway.",
+      "exampleStart": 2445,
+      "exampleEnd": 2644,
+      "matchedForm": "hurled",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "inquiringly",
+      "lemma": "inquiringly",
+      "lemmaId": "inquiringly",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "inquiringly_adjective",
+      "level": "C2",
+      "translations": {
+        "ru": {
+          "translation": "с любопытством"
+        }
+      },
+      "example": "Cat stood on his own near the ruins, with the dragon looking inquiringly up at him from the grass.",
+      "exampleStart": 3470,
+      "exampleEnd": 3568,
+      "matchedForm": "inquiringly",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "kicked off",
+      "lemma": "kick off",
+      "lemmaId": "kick_off",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "kick_off_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "начался"
+        }
+      },
+      "example": "She held up her golden clothes, kicked off her pointed shoes, and ran for the archway.",
+      "exampleStart": 2320,
       "exampleEnd": 2406,
-      "matchedForm": "archway"
-    },
-    {
-      "word": "beckoned",
-      "lemma": "beckon",
-      "lemmaId": "beckon",
-      "pos": "verb",
-      "wordKey": "beckon_verb",
-      "level": "B2",
-      "ipa": "ˈbɛk.ənd",
-      "translations": {
-        "de": {
-          "translation": "herbeiwinken"
-        },
-        "es": {
-          "translation": "hacer señas"
-        },
-        "ru": {
-          "translation": "манить"
-        },
-        "uk": {
-          "translation": "показувати жестом"
-        }
+      "phraseMatch": {
+        "text": "kicked off",
+        "startInExample": 32,
+        "endInExample": 42
       },
-      "definition": "To make a gesture to encourage someone to come nearer or follow.",
-      "example": "” He raised his hand and beckoned.",
-      "exampleStart": 828,
-      "exampleEnd": 862,
-      "matchedForm": "beckoned"
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "charmed",
-      "lemma": "charm",
-      "lemmaId": "charm",
-      "pos": "verb",
-      "wordKey": "charm_verb",
-      "level": "C1",
-      "ipa": "tʃɑ:rmd",
-      "translations": {
-        "de": {
-          "translation": "bezaubert"
-        },
-        "es": {
-          "translation": "encantado"
-        },
-        "ru": {
-          "translation": "зачарованный"
-        },
-        "uk": {
-          "translation": "зачарований"
-        }
-      },
-      "definition": "Delighted or enchanted.",
-      "example": "Cat was charmed to see one of",
-      "exampleStart": 1214,
-      "exampleEnd": 1243,
-      "matchedForm": "charmed"
-    },
-    {
-      "word": "crucible",
-      "lemma": "crucible",
-      "lemmaId": "crucible",
+      "word": "panting",
+      "lemma": "pant",
+      "lemmaId": "pant",
       "pos": "adjective",
-      "wordKey": "crucible_adjective",
+      "source": "word",
+      "wordKey": "pant_adjective",
       "level": "C1",
-      "ipa": "ˈkruː.sɪ.bəl",
       "translations": {
-        "de": {
-          "translation": "Tiegel"
-        },
-        "es": {
-          "translation": "crisol"
-        },
         "ru": {
-          "translation": "тигель"
-        },
-        "uk": {
-          "translation": "плавильна посудина"
+          "translation": "брюки"
         }
       },
-      "definition": "A container in which metals or other substances may be melted or subjected to very high temperatures.",
+      "example": "As he did so, the whiteness cleared, the humming died away, and the rest of the Family began to collect on the sunny hillside, panting a little but not very wet.",
+      "exampleStart": 1712,
+      "exampleEnd": 1873,
+      "matchedForm": "panting",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.951429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "passed over",
+      "lemma": "pass over",
+      "lemmaId": "pass_over",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "pass_over_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Прошли"
+        }
+      },
       "example": "Cat passed his crucible over.",
       "exampleStart": 142,
       "exampleEnd": 171,
-      "matchedForm": "crucible"
-    },
-    {
-      "word": "frantic",
-      "lemma": "frantic",
-      "lemmaId": "frantic",
-      "pos": "adjective",
-      "wordKey": "frantic_adjective",
-      "level": "C1",
-      "ipa": "ˈfræn.tɪk",
-      "translations": {
-        "de": {
-          "translation": "verzweifelt"
-        },
-        "es": {
-          "translation": "frénetico"
-        },
-        "ru": {
-          "translation": "безумный"
-        },
-        "uk": {
-          "translation": "щільний"
-        }
+      "phraseMatch": {
+        "text": "passed his crucible over",
+        "startInExample": 4,
+        "endInExample": 28
       },
-      "definition": "Desperate or wild with worry or fear.",
-      "example": "Frantic people in soaking-wet Sunday clothes came",
-      "exampleStart": 864,
-      "exampleEnd": 913,
-      "matchedForm": "Frantic"
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "guiltily",
-      "lemma": "guiltily",
-      "lemmaId": "guiltily",
-      "pos": "adverb",
-      "wordKey": "guiltily_adverb",
-      "level": "C1",
-      "ipa": "ˈɡɪl.tɪ.li",
-      "translations": {
-        "de": {
-          "translation": "schuldig"
-        },
-        "es": {
-          "translation": "con culpa"
-        },
-        "ru": {
-          "translation": "виновато"
-        },
-        "uk": {
-          "translation": "з вина"
-        }
-      },
-      "definition": "In a manner showing guilt or remorse.",
-      "example": "” Cat said guiltily",
-      "exampleStart": 29,
-      "exampleEnd": 48,
-      "matchedForm": "guiltily"
-    },
-    {
-      "word": "humming",
-      "lemma": "hum",
-      "lemmaId": "hum",
+      "word": "pate",
+      "lemma": "pate",
+      "lemmaId": "pate",
       "pos": "verb",
-      "wordKey": "hum_verb",
+      "source": "word",
+      "wordKey": "pate_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "паштет"
+        }
+      },
+      "example": "Cat was charmed to see one of his eagles sitting on Henry Nostrum’s shoulders, pecking at his bald pate, and the other eagle fluttering around William, stabbing at the stouter parts of him.",
+      "exampleStart": 1214,
+      "exampleEnd": 1403,
+      "matchedForm": "pate",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "pecking at",
+      "lemma": "peck at",
+      "lemmaId": "peck_at",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "peck_at_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈhʌmɪŋ",
       "translations": {
-        "de": {
-          "translation": "Summen"
-        },
-        "es": {
-          "translation": "zumbido"
-        },
         "ru": {
-          "translation": "жужжание"
-        },
-        "uk": {
-          "translation": "жужжання"
+          "translation": "Клювать"
         }
       },
-      "definition": "A continuous low sound.",
-      "example": "the humming died away",
-      "exampleStart": 1749,
-      "exampleEnd": 1770,
-      "matchedForm": "humming"
-    },
-    {
-      "word": "mighty",
-      "lemma": "mighty",
-      "lemmaId": "mighty",
-      "pos": "adjective",
-      "wordKey": "mighty_adjective",
-      "level": "C1",
-      "ipa": "ˈmaɪti",
-      "translations": {
-        "de": {
-          "translation": "mächtig"
-        },
-        "es": {
-          "translation": "poderoso"
-        },
-        "ru": {
-          "translation": "могучий"
-        },
-        "uk": {
-          "translation": "могутній"
-        }
+      "example": "Cat was charmed to see one of his eagles sitting on Henry Nostrum’s shoulders, pecking at his bald pate, and the other eagle fluttering around William, stabbing at the stouter parts of him.",
+      "exampleStart": 1214,
+      "exampleEnd": 1403,
+      "phraseMatch": {
+        "text": "pecking at",
+        "startInExample": 79,
+        "endInExample": 89
       },
-      "definition": "Possessing great strength or power.",
-      "example": "There was a mighty bang.",
-      "exampleStart": 2645,
-      "exampleEnd": 2669,
-      "matchedForm": "mighty"
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "mulishly",
-      "lemma": "mulishly",
-      "lemmaId": "mulishly",
-      "pos": "adverb",
-      "wordKey": "mulishly_adverb",
-      "level": "C2",
-      "ipa": "ˈmʊlɪʃli",
-      "translations": {
-        "de": {
-          "translation": "stur"
-        },
-        "es": {
-          "translation": "terco"
-        },
-        "ru": {
-          "translation": "упорно"
-        },
-        "uk": {
-          "translation": "вперто"
-        }
-      },
-      "definition": "In a stubborn or obstinate manner.",
-      "example": "Cat nodded mulishly.",
-      "exampleStart": 3028,
-      "exampleEnd": 3048,
-      "matchedForm": "mulishly"
-    },
-    {
-      "word": "Parliament",
-      "lemma": "parliament",
-      "lemmaId": "parliament",
-      "pos": "noun",
-      "wordKey": "parliament_noun",
+      "word": "put around",
+      "lemma": "put around",
+      "lemmaId": "put_around",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "put_around_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈpɑːr.lə.mənt",
       "translations": {
-        "de": {
-          "translation": "Parlament"
-        },
-        "es": {
-          "translation": "parlamento"
-        },
         "ru": {
-          "translation": "парламент"
-        },
-        "uk": {
-          "translation": "парламент"
+          "translation": "Расставьте"
         }
       },
-      "definition": "The highest legislative authority in a country.",
-      "example": "and there’ll be questions asked in Parliament",
-      "exampleStart": 747,
-      "exampleEnd": 792,
-      "matchedForm": "Parliament"
+      "example": "Millie handed Fiddle carefully to Julia and put her arms around Janet.",
+      "exampleStart": 3267,
+      "exampleEnd": 3337,
+      "phraseMatch": {
+        "text": "put her arms around",
+        "startInExample": 44,
+        "endInExample": 63
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "pillar",
-      "lemma": "pillar",
-      "lemmaId": "pillar",
-      "pos": "noun",
-      "wordKey": "pillar_noun",
+      "word": "put down",
+      "lemma": "put down",
+      "lemmaId": "put_down",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "put_down_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈpɪlər",
       "translations": {
-        "de": {
-          "translation": "Säule"
-        },
-        "es": {
-          "translation": "pilar"
-        },
         "ru": {
-          "translation": "колонна"
-        },
-        "uk": {
-          "translation": "стовп"
+          "translation": "Положи"
         }
       },
-      "definition": "A tall vertical structure used for support.",
-      "example": "The space between the pillars turned black.",
-      "exampleStart": 2670,
-      "exampleEnd": 2713,
-      "matchedForm": "pillars"
+      "example": "Out of the whirling many, Chrestomanci somehow collected the two Nostrums and put them down for a minute in front of Cat and the dragon.",
+      "exampleStart": 1077,
+      "exampleEnd": 1213,
+      "phraseMatch": {
+        "text": "put them down",
+        "startInExample": 78,
+        "endInExample": 91
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "regretfully",
-      "lemma": "regretfully",
-      "lemmaId": "regretfully",
-      "pos": "adverb",
-      "wordKey": "regretfully_adverb",
+      "word": "put over",
+      "lemma": "put over",
+      "lemmaId": "put_over",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "put_over_phrasal_verb",
       "level": "B2",
-      "ipa": "rɪˈɡrɛtfəli",
       "translations": {
-        "de": {
-          "translation": "bedauernd"
-        },
-        "es": {
-          "translation": "con pesar"
-        },
         "ru": {
-          "translation": "с сожалением"
-        },
-        "uk": {
-          "translation": "з жалем"
+          "translation": "Положи"
         }
       },
-      "definition": "In a sorrowful or repentant manner.",
-      "example": "rather regretfully",
-      "exampleStart": 1463,
-      "exampleEnd": 1481,
-      "matchedForm": "regretfully"
+      "example": "Gwendolen spun around and hurled her last handful of dragons’ blood in his face and, while Chrestomanci was forced to duck and put one arm over his face, Gwendolen backed hastily through the archway.",
+      "exampleStart": 2445,
+      "exampleEnd": 2644,
+      "phraseMatch": {
+        "text": "put one arm over",
+        "startInExample": 127,
+        "endInExample": 143
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "sealed",
-      "lemma": "seal",
-      "lemmaId": "seal",
-      "pos": "verb",
-      "wordKey": "seal_verb",
-      "level": "C1",
-      "ipa": "siːld",
+      "word": "reached out to",
+      "lemma": "reach out to",
+      "lemmaId": "reach_out_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "reach_out_to_phrasal_verb",
+      "level": "B2",
       "translations": {
-        "de": {
-          "translation": "versiegelt"
-        },
-        "es": {
-          "translation": "sellado"
-        },
         "ru": {
-          "translation": "запечатанный"
-        },
-        "uk": {
-          "translation": "запечатаний"
+          "translation": "Связался с"
         }
       },
-      "definition": "Closed or secured tightly.",
-      "example": "“Sealed herself in that world",
+      "example": "Chrestomanci reached out to stop her.",
+      "exampleStart": 2407,
+      "exampleEnd": 2444,
+      "phraseMatch": {
+        "text": "reached out to",
+        "startInExample": 13,
+        "endInExample": 27
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "ran for",
+      "lemma": "run for",
+      "lemmaId": "run_for",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "run_for_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "побежал за"
+        }
+      },
+      "example": "She held up her golden clothes, kicked off her pointed shoes, and ran for the archway.",
+      "exampleStart": 2320,
+      "exampleEnd": 2406,
+      "phraseMatch": {
+        "text": "ran for",
+        "startInExample": 66,
+        "endInExample": 73
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "sealed in",
+      "lemma": "seal in",
+      "lemmaId": "seal_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "seal_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Запечатано"
+        }
+      },
+      "example": "“Sealed herself in that world,” said Chrestomanci.",
       "exampleStart": 2920,
-      "exampleEnd": 2949,
-      "matchedForm": "Sealed"
+      "exampleEnd": 2970,
+      "phraseMatch": {
+        "text": "Sealed herself in",
+        "startInExample": 1,
+        "endInExample": 18
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "selfish",
-      "lemma": "selfish",
-      "lemmaId": "selfish",
-      "pos": "adjective",
-      "wordKey": "selfish_adjective",
+      "word": "sit down",
+      "lemma": "sit down",
+      "lemmaId": "sit_down",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "sit_down_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈsɛlfɪʃ",
       "translations": {
-        "de": {
-          "translation": "egoistisch"
-        },
-        "es": {
-          "translation": "egoísta"
-        },
         "ru": {
-          "translation": "эгоистичный"
-        },
-        "uk": {
-          "translation": "егоїстичний"
+          "translation": "Садись"
         }
       },
-      "definition": "Concerned excessively or exclusively with oneself.",
-      "example": "”\n\n“Don’t be selfish",
-      "exampleStart": 2034,
-      "exampleEnd": 2054,
-      "matchedForm": "selfish"
+      "example": "She tried to sit down on the fallen block of stone, and got up quickly, remembering the way it was being used when she last saw it.",
+      "exampleStart": 3837,
+      "exampleEnd": 3968,
+      "phraseMatch": {
+        "text": "sit down",
+        "startInExample": 13,
+        "endInExample": 21
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "snatching",
-      "lemma": "snatch",
-      "lemmaId": "snatch",
-      "pos": "verb",
-      "wordKey": "snatch_verb",
+      "word": "sitting on",
+      "lemma": "sit on",
+      "lemmaId": "sit_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "sit_on_phrasal_verb",
       "level": "B2",
-      "ipa": "snætʃɪŋ",
       "translations": {
-        "de": {
-          "translation": "schnappen"
-        },
-        "es": {
-          "translation": "arrebatar"
-        },
         "ru": {
-          "translation": "вырвать"
-        },
-        "uk": {
-          "translation": "схопити"
+          "translation": "сидя на"
         }
       },
-      "definition": "To seize something quickly and suddenly.",
-      "example": "saw the powder snatched away and whirled",
-      "exampleStart": 369,
-      "exampleEnd": 409,
-      "matchedForm": "snatched"
+      "example": "Cat was charmed to see one of his eagles sitting on Henry Nostrum’s shoulders, pecking at his bald pate, and the other eagle fluttering around William, stabbing at the stouter parts of him.",
+      "exampleStart": 1214,
+      "exampleEnd": 1403,
+      "phraseMatch": {
+        "text": "sitting on",
+        "startInExample": 41,
+        "endInExample": 51
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "soaking-wet",
-      "lemma": "soakingwet",
-      "lemmaId": "soakingwet",
-      "pos": "adjective",
-      "wordKey": "soakingwet_adjective",
-      "level": "B2",
-      "ipa": "ˈsoʊ.kɪŋ.wɛt",
+      "word": "soaking wet",
+      "lemma": "soaking wet",
+      "lemmaId": "soaking_wet",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "soaking_wet_phrase",
+      "level": "B1",
       "translations": {
-        "de": {
-          "translation": "klatschnass"
-        },
-        "es": {
-          "translation": "empapado"
-        },
         "ru": {
-          "translation": "промокший насквозь"
-        },
-        "uk": {
-          "translation": "мокрий до нитки"
+          "translation": "Насквозь промокший"
         }
       },
-      "definition": "Extremely wet.",
-      "example": "Frantic people in soaking-wet Sunday clothes came",
+      "example": "Frantic people in soaking-wet Sunday clothes came whirling out of the whiteness and were sucked through the broken arch like dead leaves in a whirlpool.",
       "exampleStart": 864,
-      "exampleEnd": 913,
-      "matchedForm": "soaking-wet"
+      "exampleEnd": 1016,
+      "matchedForm": "soaking-wet",
+      "phraseMatch": {
+        "text": "soaking-wet",
+        "startInExample": 18,
+        "endInExample": 29
+      },
+      "levelSource": "phrase_fallback"
     },
     {
-      "word": "sobbed",
-      "lemma": "sob",
-      "lemmaId": "sob",
-      "pos": "verb",
-      "wordKey": "sob_verb",
-      "level": "B2",
-      "ipa": "sɒbd",
+      "word": "soothing",
+      "lemma": "soothe",
+      "lemmaId": "soothe",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "soothe_adjective",
+      "level": "A2",
       "translations": {
-        "de": {
-          "translation": "schluchzte"
-        },
-        "es": {
-          "translation": "sollozar"
-        },
         "ru": {
-          "translation": "рыдать"
-        },
-        "uk": {
-          "translation": "ридати"
+          "translation": "успокоить"
         }
       },
-      "definition": "To cry noisily with short breaths.",
-      "example": "Janet sobbed heavily.",
-      "exampleStart": 3338,
-      "exampleEnd": 3359,
-      "matchedForm": "sobbed"
+      "example": "Bernard patted Janet’s back and the old lady with mittens made soothing noises.",
+      "exampleStart": 3389,
+      "exampleEnd": 3468,
+      "matchedForm": "soothing",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.951429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "stepped to",
+      "lemma": "step to",
+      "lemmaId": "step_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "step_to_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "шагнул к"
+        }
+      },
+      "example": "” He stepped to the whirling, and emptied the whole crucible into it.",
+      "exampleStart": 295,
+      "exampleEnd": 364,
+      "phraseMatch": {
+        "text": "stepped to",
+        "startInExample": 5,
+        "endInExample": 15
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "stop around",
+      "lemma": "stop around",
+      "lemmaId": "stop_around",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "stop_around_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Остановись"
+        }
+      },
+      "example": "Cat was charmed to see one of his eagles sitting on Henry Nostrum’s shoulders, pecking at his bald pate, and the other eagle fluttering around William, stabbing at the stouter parts of him.",
+      "matchedForm": "around",
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "stouter",
+      "lemma": "stouter",
+      "lemmaId": "stouter",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "stouter_noun",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "стаутер"
+        }
+      },
+      "example": "Cat was charmed to see one of his eagles sitting on Henry Nostrum’s shoulders, pecking at his bald pate, and the other eagle fluttering around William, stabbing at the stouter parts of him.",
+      "exampleStart": 1214,
+      "exampleEnd": 1403,
+      "matchedForm": "stouter",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "stumbling",
+      "lemma": "stumble",
+      "lemmaId": "stumble",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "stumble_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "спотыкаться"
+        }
+      },
+      "example": "Janet was stumbling down the slope, past Millie, and she was crying.",
+      "exampleStart": 3198,
+      "exampleEnd": 3266,
+      "matchedForm": "stumbling",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.882857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "swept away",
+      "lemma": "sweep away",
+      "lemmaId": "sweep_away",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "sweep_away_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Унесённый"
+        }
+      },
+      "example": "Then the handcuffs were swept away with the Nostrum brothers and whirled through the archway with them in the last of the crowd.",
+      "exampleStart": 1524,
+      "exampleEnd": 1652,
+      "phraseMatch": {
+        "text": "swept away",
+        "startInExample": 24,
+        "endInExample": 34
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "whirling",
       "lemma": "whirl",
       "lemmaId": "whirl",
-      "pos": "verb",
-      "wordKey": "whirl_verb",
-      "level": "B2",
-      "ipa": "ˈwɜːrlɪŋ",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "whirl_adjective",
+      "level": "B1",
       "translations": {
-        "de": {
-          "translation": "wirbelnd"
-        },
-        "es": {
-          "translation": "giratorio"
-        },
         "ru": {
-          "translation": "кружится"
-        },
-        "uk": {
-          "translation": "круто обертається"
+          "translation": "вихрь"
         }
       },
-      "definition": "Moving rapidly around and around.",
-      "example": "Out of the whirling many",
-      "exampleStart": 1077,
-      "exampleEnd": 1101,
-      "matchedForm": "whirling"
+      "example": "” He stepped to the whirling, and emptied the whole crucible into it.",
+      "exampleStart": 295,
+      "exampleEnd": 364,
+      "matchedForm": "whirling",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "whirlpool",
       "lemma": "whirlpool",
       "lemmaId": "whirlpool",
-      "pos": "verb",
-      "wordKey": "whirlpool_verb",
-      "level": "C1",
-      "ipa": "ˈwɜːrl.puːl",
-      "translations": {
-        "de": {
-          "translation": "Strudel"
-        },
-        "es": {
-          "translation": "remolino"
-        },
-        "ru": {
-          "translation": "водоворот"
-        },
-        "uk": {
-          "translation": "водоворот"
-        }
-      },
-      "definition": "A rapidly rotating mass of water.",
-      "example": "arch like dead leaves in a whirlpool",
-      "exampleStart": 979,
-      "exampleEnd": 1015,
-      "matchedForm": "whirlpool"
-    },
-    {
-      "word": "witchcraft",
-      "lemma": "witchcraft",
-      "lemmaId": "witchcraft",
       "pos": "noun",
-      "wordKey": "witchcraft_noun",
-      "level": "C1",
-      "ipa": "ˈwɪtʃ.kræft",
+      "source": "word",
+      "wordKey": "whirlpool_noun",
+      "level": "B2",
       "translations": {
-        "de": {
-          "translation": "Hexerei"
-        },
-        "es": {
-          "translation": "brujería"
-        },
         "ru": {
-          "translation": "колдовство"
-        },
-        "uk": {
-          "translation": "чаклунство"
+          "translation": "водоворот"
         }
       },
-      "definition": "The practice of magical skills, spells, and abilities.",
-      "example": "has now lost his or her witchcraft",
-      "exampleStart": 681,
-      "exampleEnd": 715,
-      "matchedForm": "witchcraft"
+      "example": "Frantic people in soaking-wet Sunday clothes came whirling out of the whiteness and were sucked through the broken arch like dead leaves in a whirlpool.",
+      "exampleStart": 864,
+      "exampleEnd": 1016,
+      "matchedForm": "whirlpool",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     }
   ]
 }

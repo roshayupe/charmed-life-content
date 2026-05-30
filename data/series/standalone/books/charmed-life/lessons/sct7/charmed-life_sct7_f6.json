@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 7,
     "sectionTitle": "Chapter 4",
     "fragmentIndex": 6,
@@ -21,522 +20,1064 @@
       "wordCount": 1055,
       "uniqueWordCount": 495,
       "paragraphCount": 28,
-      "vocabularyCount": 30,
+      "vocabularyCount": 45,
       "levelDistribution": {
         "A1": 0,
-        "A2": 0,
-        "B1": 0,
-        "B2": 14,
-        "C1": 7,
-        "C2": 9
+        "A2": 1,
+        "B1": 11,
+        "B2": 30,
+        "C1": 3,
+        "C2": 0
       }
     }
   },
   "vocabulary": [
     {
-      "word": "absentmindedly",
-      "lemma": "absentmindedly",
-      "lemmaId": "absentmindedly",
-      "pos": "adverb",
-      "wordKey": "absentmindedly_adverb",
-      "level": "C1",
-      "ipa": "ˌæbsəntˈmaɪndɪdli",
+      "word": "and all",
+      "lemma": "and all",
+      "lemmaId": "and_all",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "and_all_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "рассеянно"
+          "translation": "и все"
         }
       },
-      "definition": "In a way showing forgetfulness or inattentiveness.",
-      "example": "Chrestomanci said absentmindedly.",
-      "matchedForm": "absentmindedly"
+      "example": "There were yew trees everywhere, clipped into severe pyramids, and all the flowers were yellow, in tidy clumps.",
+      "exampleStart": 3234,
+      "exampleEnd": 3345,
+      "phraseMatch": {
+        "text": "and all",
+        "startInExample": 63,
+        "endInExample": 70
+      },
+      "levelSource": "phrase_fallback"
     },
     {
-      "word": "balustrade",
-      "lemma": "balustrade",
-      "lemmaId": "balustrade",
+      "word": "and so on",
+      "lemma": "and so on",
+      "lemmaId": "and_so_on",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "and_so_on_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "и так далее"
+        }
+      },
+      "example": "“Sorry and so on.",
+      "exampleStart": 174,
+      "exampleEnd": 191,
+      "phraseMatch": {
+        "text": "and so on",
+        "startInExample": 7,
+        "endInExample": 16
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "bit into",
+      "lemma": "bite into",
+      "lemmaId": "bite_into",
+      "pos": "prepositional_verb",
+      "type": "prepositional_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "bite_into_prepositional_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Погружённый"
+        }
+      },
+      "example": "After what Chrestomanci had said about scrumping, Cat did not quite dare pick one, but Gwendolen picked a big red Worcester and bit into it.",
+      "exampleStart": 3695,
+      "exampleEnd": 3835,
+      "phraseMatch": {
+        "text": "bit into",
+        "startInExample": 128,
+        "endInExample": 136
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "came away",
+      "lemma": "come away",
+      "lemmaId": "come_away",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_away_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "ушёл"
+        }
+      },
+      "example": "”\n\nSlowly and reluctantly, Cat came away.",
+      "exampleStart": 5459,
+      "exampleEnd": 5500,
+      "phraseMatch": {
+        "text": "came away",
+        "startInExample": 31,
+        "endInExample": 40
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "come in",
+      "lemma": "come in",
+      "lemmaId": "come_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Входите"
+        }
+      },
+      "example": "After a bit of muddling around, they discovered the door they had first come in by and let themselves outside through it.",
+      "exampleStart": 2158,
+      "exampleEnd": 2279,
+      "phraseMatch": {
+        "text": "come in",
+        "startInExample": 72,
+        "endInExample": 79
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "come on",
+      "lemma": "come on",
+      "lemmaId": "come_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Давай"
+        }
+      },
+      "example": "“Do come on.",
+      "exampleStart": 3005,
+      "exampleEnd": 3017,
+      "phraseMatch": {
+        "text": "come on",
+        "startInExample": 4,
+        "endInExample": 11
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "came up",
+      "lemma": "come up",
+      "lemmaId": "come_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Всплыл"
+        }
+      },
+      "example": "No sooner had he done so than yet another gardener came puffing up the steep path.",
+      "exampleStart": 5219,
+      "exampleEnd": 5301,
+      "phraseMatch": {
+        "text": "came puffing up",
+        "startInExample": 51,
+        "endInExample": 66
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "counts in",
+      "lemma": "count in",
+      "lemmaId": "count_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "count_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Считается в"
+        }
+      },
+      "example": "“Do you think this counts as in the Castle?",
+      "exampleStart": 2934,
+      "exampleEnd": 2977,
+      "phraseMatch": {
+        "text": "counts as in",
+        "startInExample": 19,
+        "endInExample": 31
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "dickens",
+      "lemma": "dicken",
+      "lemmaId": "dicken",
       "pos": "noun",
-      "wordKey": "balustrade_noun",
-      "level": "C2",
-      "ipa": "ˈbæləstreɪd",
+      "source": "word",
+      "wordKey": "dicken_noun",
+      "level": "A2",
       "translations": {
         "ru": {
-          "translation": "балюстрада"
+          "translation": "член"
         }
       },
-      "definition": "A railing supported by balusters, especially on a balcony, bridge, or terrace.",
-      "example": "Gwendolen kicked the marble balustrade.",
-      "matchedForm": "balustrade"
+      "example": "He looked up at the dome where the light came in and thought that Gwendolen’s screaming ought to have echoed around it like the dickens.",
+      "exampleStart": 1476,
+      "exampleEnd": 1612,
+      "matchedForm": "dickens",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "bind",
-      "lemma": "bind",
-      "lemmaId": "bind",
-      "pos": "verb",
-      "wordKey": "bind_verb",
+      "word": "dreamily",
+      "lemma": "dreamily",
+      "lemmaId": "dreamily",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "dreamily_adjective",
       "level": "B2",
-      "ipa": "baɪnd",
       "translations": {
         "ru": {
-          "translation": "обязывать, связывать"
+          "translation": "мечтательно"
         }
       },
-      "definition": "To impose an obligation or restriction on someone.",
-      "example": "You were bound to misuse it, of course."
-    },
-    {
-      "word": "collocation",
-      "lemma": "collocation",
-      "lemmaId": "collocation",
-      "pos": "noun",
-      "wordKey": "collocation_noun",
-      "level": "C1",
-      "ipa": "ˌkɒləˈkeɪʃən",
-      "translations": {
-        "ru": {
-          "translation": "словосочетание"
-        }
-      },
-      "definition": "A habitual combination of words that commonly occur together.",
-      "example": "Meaningful multi-word expressions and collocations.",
-      "matchedForm": "collocation"
-    },
-    {
-      "word": "crossly",
-      "lemma": "crossly",
-      "lemmaId": "crossly",
-      "pos": "adverb",
-      "wordKey": "crossly_adverb",
-      "level": "B2",
-      "ipa": "ˈkrɒsli",
-      "translations": {
-        "ru": {
-          "translation": "сердито"
-        }
-      },
-      "definition": "In an annoyed or angry manner.",
-      "example": "Gwendolen said crossly.",
-      "matchedForm": "crossly"
-    },
-    {
-      "word": "dome",
-      "lemma": "dome",
-      "lemmaId": "dome",
-      "pos": "noun",
-      "wordKey": "dome_noun",
-      "level": "B2",
-      "ipa": "dəʊm",
-      "translations": {
-        "ru": {
-          "translation": "купол"
-        }
-      },
-      "definition": "A rounded vault forming the roof of a building or structure.",
-      "example": "He looked up at the dome where the light came in.",
-      "matchedForm": "dome"
-    },
-    {
-      "word": "drift",
-      "lemma": "drift",
-      "lemmaId": "drift",
-      "pos": "verb",
-      "wordKey": "drift_verb",
-      "level": "B2",
-      "ipa": "drɪft",
-      "translations": {
-        "ru": {
-          "translation": "дрейфовать, медленно двигаться"
-        }
-      },
-      "definition": "To move slowly, especially as a result of outside forces rather than by own power.",
-      "example": "He drifted dreamily away.",
-      "matchedForm": "drift"
-    },
-    {
-      "word": "echo",
-      "lemma": "echo",
-      "lemmaId": "echo",
-      "pos": "noun",
-      "wordKey": "echo_noun",
-      "level": "B2",
-      "ipa": "ˈɛkəʊ",
-      "translations": {
-        "ru": {
-          "translation": "эхо"
-        }
-      },
-      "definition": "A sound that is reflected and heard again.",
-      "example": "There was no echo.",
-      "matchedForm": "echo"
+      "example": "” Then he smiled kindly at Gwendolen, obviously expecting her to be pleased, and drifted dreamily away down the marble stairs.",
+      "exampleStart": 848,
+      "exampleEnd": 974,
+      "matchedForm": "dreamily",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "experimentally",
       "lemma": "experimentally",
       "lemmaId": "experimentally",
-      "pos": "adverb",
-      "wordKey": "experimentally_adverb",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "experimentally_adjective",
       "level": "C1",
-      "ipa": "ɪkˌspɛrɪˈmɛntəli",
       "translations": {
         "ru": {
-          "translation": "экспериментально, в порядке эксперимента"
+          "translation": "экспериментально"
         }
       },
-      "definition": "In a way that is done to test or try something new.",
-      "example": "Cat experimentally put his fingers to his mouth.",
-      "matchedForm": "experimentally"
+      "example": "While he waited for her to get her temper back, Cat experimentally put his fingers to his mouth and whistled as hard as he could.",
+      "exampleStart": 1655,
+      "exampleEnd": 1784,
+      "matchedForm": "experimentally",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "forbid",
-      "lemma": "forbid",
-      "lemmaId": "forbid",
-      "pos": "verb",
-      "wordKey": "forbid_verb",
-      "level": "B2",
-      "ipa": "fəˈbɪd",
-      "translations": {
-        "ru": {
-          "translation": "запрещать"
-        }
-      },
-      "definition": "To refuse to allow something.",
-      "example": "Chrestomanci forbidding things.",
-      "matchedForm": "forbid"
-    },
-    {
-      "word": "formal",
-      "lemma": "formal",
-      "lemmaId": "formal",
+      "word": "frightened",
+      "lemma": "frighten",
+      "lemmaId": "frighten",
       "pos": "adjective",
-      "wordKey": "formal_adjective",
+      "source": "word",
+      "wordKey": "frighten_adjective",
       "level": "B2",
-      "ipa": "ˈfɔːməl",
       "translations": {
         "ru": {
-          "translation": "официальный, строгий"
+          "translation": "пугать"
         }
       },
-      "definition": "Following established rules or customs; stiff or conventional in style.",
-      "example": "A very formal garden.",
-      "matchedForm": "formal"
+      "example": "She danced and jumped and shrieked at the head of the stairs until Cat was quite frightened of her.",
+      "exampleStart": 1088,
+      "exampleEnd": 1187,
+      "matchedForm": "frightened",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.98,
+      "difficultySource": "zipf"
     },
     {
-      "word": "giddy",
-      "lemma": "giddy",
-      "lemmaId": "giddy",
-      "pos": "adjective",
-      "wordKey": "giddy_adjective",
-      "level": "C2",
-      "ipa": "ˈɡɪdi",
-      "translations": {
-        "ru": {
-          "translation": "головокружительный, ошеломляющий"
-        }
-      },
-      "definition": "Having a sensation of whirling and a tendency to fall; dizzy; also used figuratively for staggering or overwhelming feelings.",
-      "example": "A giddy stone staircase.",
-      "matchedForm": "giddy"
-    },
-    {
-      "word": "gravel",
-      "lemma": "gravel",
-      "lemmaId": "gravel",
-      "pos": "noun",
-      "wordKey": "gravel_noun",
+      "word": "get back",
+      "lemma": "get back",
+      "lemmaId": "get_back",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "get_back_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈɡrævəl",
       "translations": {
         "ru": {
-          "translation": "гравий"
+          "translation": "Отойди"
         }
       },
-      "definition": "Small stones used for paths or roads.",
-      "example": "Broad gravel paths.",
-      "matchedForm": "gravel"
+      "example": "While he waited for her to get her temper back, Cat experimentally put his fingers to his mouth and whistled as hard as he could.",
+      "exampleStart": 1655,
+      "exampleEnd": 1784,
+      "phraseMatch": {
+        "text": "get her temper back",
+        "startInExample": 27,
+        "endInExample": 46
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "hedge",
-      "lemma": "hedge",
-      "lemmaId": "hedge",
-      "pos": "noun",
-      "wordKey": "hedge_noun",
+      "word": "went on",
+      "lemma": "go on",
+      "lemmaId": "go_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_on_phrasal_verb",
       "level": "B2",
-      "ipa": "hɛdʒ",
       "translations": {
         "ru": {
-          "translation": "живая изгородь"
+          "translation": "продолжил"
         }
       },
-      "definition": "A row of closely planted shrubs or low trees forming a boundary or fence.",
-      "example": "Trees standing like hedges.",
-      "matchedForm": "hedge"
+      "example": "”\n\nThey went on, leaving the gardener staring ruefully at the bitten apple.",
+      "exampleStart": 4044,
+      "exampleEnd": 4119,
+      "phraseMatch": {
+        "text": "went on",
+        "startInExample": 8,
+        "endInExample": 15
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "hollyhock",
-      "lemma": "hollyhock",
-      "lemmaId": "hollyhock",
-      "pos": "noun",
-      "wordKey": "hollyhock_noun",
-      "level": "C2",
-      "ipa": "ˈhɒlihɒk",
+      "word": "gone out of",
+      "lemma": "go out of",
+      "lemmaId": "go_out_of",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_out_of_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "шток-роза"
+          "translation": "вышел из"
         }
       },
-      "definition": "A tall garden plant with large colourful flowers.",
-      "example": "Hollyhocks had grown up.",
-      "matchedForm": "Hollyhock"
+      "example": "But Chrestomanci had gone out of sight around the bend in the staircase and perhaps he could not hear.",
+      "exampleStart": 1268,
+      "exampleEnd": 1370,
+      "phraseMatch": {
+        "text": "gone out of",
+        "startInExample": 21,
+        "endInExample": 32
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "go out",
+      "lemma": "go out",
+      "lemmaId": "go_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Выходи"
+        }
+      },
+      "example": "“If you want to scream and whistle, you must go out in the grounds and do it there.",
+      "exampleStart": 1952,
+      "exampleEnd": 2035,
+      "phraseMatch": {
+        "text": "go out",
+        "startInExample": 45,
+        "endInExample": 51
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "hanging over",
+      "lemma": "hang over",
+      "lemmaId": "hang_over",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "hang_over_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Повешение"
+        }
+      },
+      "example": "On the other side of it, Cat saw the most interesting high sun-soaked old wall, with trees hanging over it.",
+      "exampleStart": 2559,
+      "exampleEnd": 2666,
+      "phraseMatch": {
+        "text": "hanging over",
+        "startInExample": 91,
+        "endInExample": 103
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "have around",
+      "lemma": "have around",
+      "lemmaId": "have_around",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "have_around_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Имейте здесь"
+        }
+      },
+      "example": "He looked up at the dome where the light came in and thought that Gwendolen’s screaming ought to have echoed around it like the dickens.",
+      "exampleStart": 1476,
+      "exampleEnd": 1612,
+      "phraseMatch": {
+        "text": "have echoed around",
+        "startInExample": 97,
+        "endInExample": 115
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "jutting out",
+      "lemma": "jut out",
+      "lemmaId": "jut_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "jut_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Выступая наружу"
+        }
+      },
+      "example": "When he was close enough, Cat saw that there was a giddy stone staircase jutting out of the wall, more like a stone ladder than a stair.",
+      "exampleStart": 4850,
+      "exampleEnd": 4986,
+      "phraseMatch": {
+        "text": "jutting out",
+        "startInExample": 73,
+        "endInExample": 84
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "looked over",
+      "lemma": "look over",
+      "lemmaId": "look_over",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_over_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "посмотрел"
+        }
+      },
+      "example": "Then Cat looked over his shoulder and discovered that the ruins were somehow behind them now.",
+      "exampleStart": 4417,
+      "exampleEnd": 4510,
+      "phraseMatch": {
+        "text": "looked over",
+        "startInExample": 9,
+        "endInExample": 20
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "looked up",
+      "lemma": "look up",
+      "lemmaId": "look_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Посмотрел вверх"
+        }
+      },
+      "example": "He looked up at the dome where the light came in and thought that Gwendolen’s screaming ought to have echoed around it like the dickens.",
+      "exampleStart": 1476,
+      "exampleEnd": 1612,
+      "phraseMatch": {
+        "text": "looked up",
+        "startInExample": 3,
+        "endInExample": 12
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "maggot",
       "lemma": "maggot",
       "lemmaId": "maggot",
       "pos": "noun",
+      "source": "word",
       "wordKey": "maggot_noun",
       "level": "B2",
-      "ipa": "ˈmæɡət",
       "translations": {
         "ru": {
           "translation": "личинка"
         }
       },
-      "definition": "A soft-bodied legless larva of a fly, often found in decaying matter or food.",
-      "example": "There was a maggot in it.",
-      "matchedForm": "maggot"
+      "example": "There was a maggot in it anyway.",
+      "exampleStart": 4012,
+      "exampleEnd": 4044,
+      "matchedForm": "maggot",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "misuse",
-      "lemma": "misuse",
-      "lemmaId": "misuse",
+      "word": "muddling",
+      "lemma": "muddle",
+      "lemmaId": "muddle",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "muddle_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "путать"
+        }
+      },
+      "example": "After a bit of muddling around, they discovered the door they had first come in by and let themselves outside through it.",
+      "exampleStart": 2158,
+      "exampleEnd": 2279,
+      "matchedForm": "muddling",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "not quite",
+      "lemma": "not quite",
+      "lemmaId": "not_quite",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "not_quite_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Не совсем"
+        }
+      },
+      "example": "After what Chrestomanci had said about scrumping, Cat did not quite dare pick one, but Gwendolen picked a big red Worcester and bit into it.",
+      "exampleStart": 3695,
+      "exampleEnd": 3835,
+      "phraseMatch": {
+        "text": "not quite",
+        "startInExample": 58,
+        "endInExample": 67
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "on the other side of",
+      "lemma": "on the other side of",
+      "lemmaId": "on_the_other_side_of",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "on_the_other_side_of_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "по другую сторону"
+        }
+      },
+      "example": "On the other side of it, Cat saw the most interesting high sun-soaked old wall, with trees hanging over it.",
+      "exampleStart": 2559,
+      "exampleEnd": 2666,
+      "phraseMatch": {
+        "text": "On the other side of",
+        "startInExample": 0,
+        "endInExample": 20
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "once again",
+      "lemma": "once again",
+      "lemmaId": "once_again",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "once_again_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Снова"
+        }
+      },
+      "example": "But once again there was a lower wall in the way, and this time they came out into an orchard.",
+      "exampleStart": 3411,
+      "exampleEnd": 3505,
+      "phraseMatch": {
+        "text": "once again",
+        "startInExample": 4,
+        "endInExample": 14
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "pelted",
+      "lemma": "pelt",
+      "lemmaId": "pelt",
       "pos": "verb",
-      "wordKey": "misuse_verb",
+      "source": "word",
+      "wordKey": "pelt_verb",
       "level": "C1",
-      "ipa": "ˌmɪsˈjuːz",
       "translations": {
         "ru": {
-          "translation": "злоупотреблять"
+          "translation": "шкурка"
         }
       },
-      "definition": "To use something in the wrong way or for the wrong purpose.",
-      "example": "Bound to misuse it.",
-      "matchedForm": "misuse"
+      "example": "Cat pelted joyfully up the steep path.",
+      "exampleStart": 4717,
+      "exampleEnd": 4755,
+      "matchedForm": "pelted",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "pyramid",
-      "lemma": "pyramid",
-      "lemmaId": "pyramid",
-      "pos": "noun",
-      "wordKey": "pyramid_noun",
+      "word": "poking at",
+      "lemma": "poke at",
+      "lemmaId": "poke_at",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "poke_at_phrasal_verb",
       "level": "B2",
-      "ipa": "ˈpɪrəmɪd",
       "translations": {
         "ru": {
-          "translation": "пирамида"
+          "translation": "Тыкать в"
         }
       },
-      "definition": "A solid figure with triangular faces converging to a point; used also for shaped objects or clipped trees.",
-      "example": "Clipped into severe pyramids.",
-      "matchedForm": "pyramid"
-    },
-    {
-      "word": "reconsider",
-      "lemma": "reconsider",
-      "lemmaId": "reconsider",
-      "pos": "verb",
-      "wordKey": "reconsider_verb",
-      "level": "C1",
-      "ipa": "ˌriːkənˈsɪdə",
-      "translations": {
-        "ru": {
-          "translation": "пересматривать, обдумывать заново"
-        }
+      "example": "But, halfway there, Gwendolen stopped and stood poking at the shaved green grass with her toe.",
+      "exampleStart": 2822,
+      "exampleEnd": 2916,
+      "phraseMatch": {
+        "text": "poking at",
+        "startInExample": 48,
+        "endInExample": 57
       },
-      "definition": "To think again about a decision, especially to change it.",
-      "example": "I’ll reconsider it.",
-      "matchedForm": "reconsider"
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "reproachfully",
-      "lemma": "reproachfully",
-      "lemmaId": "reproachfully",
-      "pos": "adverb",
-      "wordKey": "reproachfully_adverb",
-      "level": "C2",
-      "ipa": "rɪˈprəʊtʃfʊli",
-      "translations": {
-        "ru": {
-          "translation": "осуждающе"
-        }
-      },
-      "definition": "In a way that expresses blame or disapproval.",
-      "example": "Gardener said reproachfully.",
-      "matchedForm": "reproachfully"
-    },
-    {
-      "word": "ruin",
-      "lemma": "ruin",
-      "lemmaId": "ruin",
-      "pos": "noun",
-      "wordKey": "ruin_noun",
+      "word": "push aside",
+      "lemma": "push aside",
+      "lemmaId": "push_aside",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "push_aside_phrasal_verb",
       "level": "B2",
-      "ipa": "ruːɪn",
       "translations": {
         "ru": {
-          "translation": "руина, развалина"
+          "translation": "Отодвините"
         }
       },
-      "definition": "The remains of a building that has been destroyed or fallen into disrepair.",
-      "example": "Ruins of an older castle.",
-      "matchedForm": "Ruin"
+      "example": "Cat had to push aside a tall red hollyhock in order to put his foot on the first stair.",
+      "exampleStart": 5130,
+      "exampleEnd": 5217,
+      "phraseMatch": {
+        "text": "push aside",
+        "startInExample": 11,
+        "endInExample": 21
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "scream",
-      "lemma": "scream",
-      "lemmaId": "scream",
-      "pos": "verb",
-      "wordKey": "scream_verb",
+      "word": "rose garden",
+      "lemma": "rose garden",
+      "lemmaId": "rose_garden",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "rose_garden_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Розарий"
+        }
+      },
+      "example": "And instead of reaching the ruins, they came to a goldfish pond, and after that to a rose garden.",
+      "exampleStart": 4120,
+      "exampleEnd": 4217,
+      "phraseMatch": {
+        "text": "rose garden",
+        "startInExample": 85,
+        "endInExample": 96
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "ruefully",
+      "lemma": "ruefully",
+      "lemmaId": "ruefully",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "ruefully_adjective",
       "level": "B2",
-      "ipa": "skriːm",
       "translations": {
         "ru": {
-          "translation": "кричать"
+          "translation": "ужасно"
         }
       },
-      "definition": "To utter a loud, piercing cry.",
-      "example": "Gwendolen screamed.",
-      "matchedForm": "scream"
+      "example": "”\n\nThey went on, leaving the gardener staring ruefully at the bitten apple.",
+      "exampleStart": 4044,
+      "exampleEnd": 4119,
+      "matchedForm": "ruefully",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "scrumping",
-      "lemma": "scrumping",
-      "lemmaId": "scrumping",
-      "pos": "noun",
-      "wordKey": "scrumping_noun",
-      "level": "C2",
-      "ipa": "ˈskrʌmpɪŋ",
+      "word": "ran away",
+      "lemma": "run away",
+      "lemmaId": "run_away",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "run_away_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "нелегальный сбор фруктов"
+          "translation": "сбежал"
         }
       },
-      "definition": "The act of stealing fruit from an orchard or garden.",
-      "example": "About scrumping.",
-      "matchedForm": "scrumping"
+      "example": "” Gwendolen said crossly to Cat, and the two of them ran away to the part of the Castle they were used to.",
+      "exampleStart": 2051,
+      "exampleEnd": 2157,
+      "phraseMatch": {
+        "text": "ran away",
+        "startInExample": 53,
+        "endInExample": 61
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "shrubbery",
-      "lemma": "shrubbery",
-      "lemmaId": "shrubbery",
-      "pos": "noun",
-      "wordKey": "shrubbery_noun",
-      "level": "C2",
-      "ipa": "ˈʃrʌbəri",
+      "word": "set off",
+      "lemma": "set off",
+      "lemmaId": "set_off",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "set_off_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "кустарник, заросли кустарников"
+          "translation": "В путь"
         }
       },
-      "definition": "An area planted with shrubs.",
-      "example": "Shrubbery of rhododendrons.",
-      "matchedForm": "Shrubbery"
+      "example": "Cat set off towards it at a trot, past the big windows of the newer Castle, dragging Gwendolen with him.",
+      "exampleStart": 2717,
+      "exampleEnd": 2821,
+      "phraseMatch": {
+        "text": "set off",
+        "startInExample": 4,
+        "endInExample": 11
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "squawk",
+      "word": "speak of",
+      "lemma": "speak of",
+      "lemmaId": "speak_of",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "speak_of_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "говорю о"
+        }
+      },
+      "example": "It made no noise to speak of, even there on the marble floor, and there was no echo.",
+      "exampleStart": 222,
+      "exampleEnd": 306,
+      "phraseMatch": {
+        "text": "speak of",
+        "startInExample": 20,
+        "endInExample": 28
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "squawking",
       "lemma": "squawk",
       "lemmaId": "squawk",
-      "pos": "noun",
-      "wordKey": "squawk_noun",
-      "level": "C2",
-      "ipa": "skwɔːk",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "squawk_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "крик, пронзительный звук"
+          "translation": "сквоук"
         }
       },
-      "definition": "A loud, harsh noise made by birds or a high-pitched scream.",
-      "example": "Small, high squawking.",
-      "matchedForm": "squawk"
+      "example": "Instead, it made a small, high squawking.",
+      "exampleStart": 1613,
+      "exampleEnd": 1654,
+      "matchedForm": "squawking",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "swagger",
-      "lemma": "swagger",
-      "lemmaId": "swagger",
-      "pos": "verb",
-      "wordKey": "swagger_verb",
-      "level": "C1",
-      "ipa": "ˈswæɡə",
-      "translations": {
-        "ru": {
-          "translation": "величаво идти, ходить с важным видом"
-        }
-      },
-      "definition": "To walk in a proud or confident manner.",
-      "example": "Implied confident walk by Gwendolen (not explicit)."
-    },
-    {
-      "word": "trot",
-      "lemma": "trot",
-      "lemmaId": "trot",
+      "word": "stormiest",
+      "lemma": "stormiest",
+      "lemmaId": "stormiest",
       "pos": "noun",
-      "wordKey": "trot_noun",
+      "source": "word",
+      "wordKey": "stormiest_noun",
       "level": "B2",
-      "ipa": "trɒt",
       "translations": {
         "ru": {
-          "translation": "рись (вид походки лошади)"
+          "translation": "самый штормовой"
         }
       },
-      "definition": "A pace of running faster than a walk but slower than a canter.",
-      "example": "Set off at a trot.",
-      "matchedForm": "trot"
+      "example": "“Wait and see,” said Gwendolen, pressing her lips together in her stormiest way.",
+      "exampleStart": 5746,
+      "exampleEnd": 5826,
+      "matchedForm": "stormiest",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "undulate",
-      "lemma": "undulate",
-      "lemmaId": "undulate",
+      "word": "time out",
+      "lemma": "time out",
+      "lemmaId": "time_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "time_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Перерыв"
+        }
+      },
+      "example": "But once again there was a lower wall in the way, and this time they came out into an orchard.",
+      "exampleStart": 3411,
+      "exampleEnd": 3505,
+      "phraseMatch": {
+        "text": "time they came out",
+        "startInExample": 59,
+        "endInExample": 77
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "to speak of",
+      "lemma": "to speak of",
+      "lemmaId": "to_speak_of",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "to_speak_of_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "К тому же"
+        }
+      },
+      "example": "It made no noise to speak of, even there on the marble floor, and there was no echo.",
+      "exampleStart": 222,
+      "exampleEnd": 306,
+      "phraseMatch": {
+        "text": "to speak of",
+        "startInExample": 17,
+        "endInExample": 28
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "turned back",
+      "lemma": "turn back",
+      "lemmaId": "turn_back",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "turn_back_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Повернулся обратно"
+        }
+      },
+      "example": "He turned back.",
+      "exampleStart": 4511,
+      "exampleEnd": 4526,
+      "phraseMatch": {
+        "text": "turned back",
+        "startInExample": 3,
+        "endInExample": 14
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "turned into",
+      "lemma": "turn into",
+      "lemmaId": "turn_into",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "turn_into_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "превратился в"
+        }
+      },
+      "example": "It was nearly lunchtime before he suddenly turned into a steep little path between two walls and found the ruins above him, at the top of the path.",
+      "exampleStart": 4568,
+      "exampleEnd": 4715,
+      "phraseMatch": {
+        "text": "turned into",
+        "startInExample": 43,
+        "endInExample": 54
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "up against",
+      "lemma": "up against",
+      "lemmaId": "up_against",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "up_against_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "против"
+        }
+      },
+      "example": "It was so old that snapdragons and wallflowers had rooted in it, and hollyhocks had grown up against the place where the stair met the ground.",
+      "exampleStart": 4987,
+      "exampleEnd": 5129,
+      "phraseMatch": {
+        "text": "up against",
+        "startInExample": 90,
+        "endInExample": 100
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "used to",
+      "lemma": "used to",
+      "lemmaId": "used_to",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "used_to_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "раньше"
+        }
+      },
+      "example": "” Gwendolen said crossly to Cat, and the two of them ran away to the part of the Castle they were used to.",
+      "exampleStart": 2051,
+      "exampleEnd": 2157,
+      "phraseMatch": {
+        "text": "used to",
+        "startInExample": 98,
+        "endInExample": 105
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "wall in",
+      "lemma": "wall in",
+      "lemmaId": "wall_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "wall_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Стена в"
+        }
+      },
+      "example": "But once again there was a lower wall in the way, and this time they came out into an orchard.",
+      "exampleStart": 3411,
+      "exampleEnd": 3505,
+      "phraseMatch": {
+        "text": "wall in",
+        "startInExample": 33,
+        "endInExample": 40
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "wallflowers",
+      "lemma": "wallflower",
+      "lemmaId": "wallflower",
       "pos": "verb",
-      "wordKey": "undulate_verb",
-      "level": "C2",
-      "ipa": "ˈʌndjʊleɪt",
-      "translations": {
-        "ru": {
-          "translation": "волнообразно двигаться, колебаться"
-        }
-      },
-      "definition": "To move with a smooth wavelike motion.",
-      "example": "Garden hedges and paths shaped or implied as undulating (not explicit)."
-    },
-    {
-      "word": "vineyard",
-      "lemma": "vineyard",
-      "lemmaId": "vineyard",
-      "pos": "noun",
-      "wordKey": "vineyard_noun",
+      "source": "word",
+      "wordKey": "wallflower_verb",
       "level": "C1",
-      "ipa": "ˈvɪnjɑːd",
       "translations": {
         "ru": {
-          "translation": "виноградник"
+          "translation": "настенный цветок"
         }
       },
-      "definition": "A plantation of grapevines for winemaking.",
-      "example": "Concept related to orchards, not directly in text."
+      "example": "It was so old that snapdragons and wallflowers had rooted in it, and hollyhocks had grown up against the place where the stair met the ground.",
+      "exampleStart": 4987,
+      "exampleEnd": 5129,
+      "matchedForm": "wallflowers",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "wrath",
-      "lemma": "wrath",
-      "lemmaId": "wrath",
-      "pos": "noun",
-      "wordKey": "wrath_noun",
-      "level": "C2",
-      "ipa": "rɒθ",
+      "word": "you think",
+      "lemma": "you think",
+      "lemmaId": "you_think",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "you_think_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "гнев, ярость"
+          "translation": "Ты думаешь"
         }
       },
-      "definition": "Intense anger.",
-      "example": "Sent into a rage."
+      "example": "“Do you think this counts as in the Castle?",
+      "exampleStart": 2934,
+      "exampleEnd": 2977,
+      "phraseMatch": {
+        "text": "you think",
+        "startInExample": 4,
+        "endInExample": 13
+      },
+      "levelSource": "phrase_fallback"
     }
   ]
 }

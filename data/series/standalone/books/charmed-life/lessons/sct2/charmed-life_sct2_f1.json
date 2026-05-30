@@ -11,7 +11,6 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
-    "seriesTitle": "Standalone",
     "sectionIndex": 2,
     "sectionTitle": "Contents",
     "fragmentIndex": 1,
@@ -21,376 +20,302 @@
       "wordCount": 341,
       "uniqueWordCount": 213,
       "paragraphCount": 35,
-      "vocabularyCount": 20,
+      "vocabularyCount": 13,
       "levelDistribution": {
         "A1": 0,
-        "A2": 0,
-        "B1": 0,
-        "B2": 8,
-        "C1": 10,
-        "C2": 2
+        "A2": 3,
+        "B1": 2,
+        "B2": 3,
+        "C1": 5,
+        "C2": 0
       }
     }
   },
   "vocabulary": [
     {
-      "word": "be bewildered",
-      "lemma": "be bewildered",
-      "lemmaId": "be_bewildered",
+      "word": "all over",
+      "lemma": "all over",
+      "lemmaId": "all_over",
       "pos": "phrase",
-      "wordKey": "be_bewildered_phrase",
-      "level": "C1",
-      "ipa": "bɪˈwɪldə",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "all_over_phrase",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "быть сбитым с толку"
+          "translation": "Всё кончено"
         }
       },
-      "definition": "to feel confused or perplexed",
-      "example": "Cat was bewildered."
+      "example": "Flames burst out of him all over.",
+      "exampleStart": 1132,
+      "exampleEnd": 1165,
+      "phraseMatch": {
+        "text": "all over",
+        "startInExample": 24,
+        "endInExample": 32
+      },
+      "levelSource": "phrase_fallback"
     },
     {
       "word": "bewildered",
-      "lemma": "bewildered",
-      "lemmaId": "bewildered",
+      "lemma": "bewilder",
+      "lemmaId": "bewilder",
       "pos": "adjective",
-      "wordKey": "bewildered_adjective",
+      "source": "word",
+      "wordKey": "bewilder_adjective",
       "level": "C1",
-      "ipa": "bɪˈwɪldəd",
       "translations": {
         "ru": {
-          "translation": "сбитый с толку"
+          "translation": "недоумение"
         }
       },
-      "definition": "confused or puzzled completely",
-      "example": "Cat was as bewildered as the strange girl seemed to be.",
-      "matchedForm": "bewildered"
+      "example": "9 B Y T HIS T IME , Cat was as bewildered as the strange girl seemed to be.",
+      "exampleStart": 718,
+      "exampleEnd": 793,
+      "matchedForm": "bewildered",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "dragon’s blood",
-      "lemma": "dragon’s blood",
-      "lemmaId": "dragons_blood",
-      "pos": "phrase",
-      "wordKey": "dragons_blood_phrase",
-      "level": "C2",
-      "ipa": "ˈdræɡənz blʌd",
+      "word": "books in",
+      "lemma": "book in",
+      "lemmaId": "book_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "book_in_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "кровь дракона (разновидность красной смолы)"
+          "translation": "Книги в"
         }
       },
-      "definition": "a rare red resin used in magic and medicine",
-      "example": "Gwendolen collected dragon’s blood.",
+      "example": "12 C HRESTOMANCI’S S TUDY WAS a large, sun-filled room with books in shelves.",
+      "exampleStart": 964,
+      "exampleEnd": 1041,
       "phraseMatch": {
-        "text": "dragon’s blood",
-        "startInExample": 20,
-        "endInExample": 34
-      }
+        "text": "books in",
+        "startInExample": 60,
+        "endInExample": 68
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "elder",
       "lemma": "elder",
       "lemmaId": "elder",
-      "pos": "adjective",
-      "wordKey": "elder_adjective",
-      "level": "B2",
-      "ipa": "ˈɛldə",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "elder_noun",
+      "level": "A2",
       "translations": {
         "ru": {
-          "translation": "старший"
+          "translation": "старейшина"
         }
       },
-      "definition": "older or senior in age or rank",
-      "example": "Elder sister Gwendolen.",
-      "matchedForm": "Elder"
+      "example": "1 C AT C HANT A DMIRED his elder sister Gwendolen.",
+      "exampleStart": 85,
+      "exampleEnd": 135,
+      "matchedForm": "elder",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.7,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "exclusive",
+      "lemma": "exclusive",
+      "lemmaId": "exclusive",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "exclusive_adjective",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "эксклюзивный"
+        }
+      },
+      "example": "”\n\nHarperCollins e-book Exclusive Extras:\n Who Is Chrestomanci?",
+      "exampleStart": 1350,
+      "exampleEnd": 1413,
+      "matchedForm": "Exclusive",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.557143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "flames out",
+      "lemma": "flame out",
+      "lemmaId": "flame_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "flame_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Пламя гаснет"
+        }
+      },
+      "example": "Flames burst out of him all over.",
+      "exampleStart": 1132,
+      "exampleEnd": 1165,
+      "phraseMatch": {
+        "text": "Flames burst out",
+        "startInExample": 0,
+        "endInExample": 16
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "fury",
       "lemma": "fury",
       "lemmaId": "fury",
-      "pos": "noun",
-      "wordKey": "fury_noun",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "fury_adjective",
       "level": "C1",
-      "ipa": "ˈfjʊəri",
       "translations": {
         "ru": {
           "translation": "ярость"
         }
       },
-      "definition": "intense, uncontrollable anger",
-      "example": "Gwendolen gave vent to her fury.",
-      "matchedForm": "fury"
+      "example": "6 G WENDOLEN G AVE V ENT to her fury in her room after dinner.",
+      "exampleStart": 483,
+      "exampleEnd": 545,
+      "matchedForm": "fury",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.742857,
+      "difficultySource": "zipf"
     },
     {
-      "word": "gave vent to",
-      "lemma": "gave vent to",
-      "lemmaId": "gave_vent_to",
-      "pos": "phrase",
-      "wordKey": "gave_vent_to_phrase",
-      "level": "C1",
-      "ipa": "ɡeɪv vent tuː",
+      "word": "get on",
+      "lemma": "get on",
+      "lemmaId": "get_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "get_on_phrasal_verb",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "выпускать, выражать (чувства)"
+          "translation": "Садись"
         }
       },
-      "definition": "to express strong feelings",
-      "example": "Gave vent to her fury.",
+      "example": "8 G WENDOLEN W ENT D OWN to the village to get her dragons’ blood on Wednesday afternoon.",
+      "exampleStart": 627,
+      "exampleEnd": 716,
       "phraseMatch": {
-        "text": "Gave vent to",
-        "startInExample": 0,
-        "endInExample": 12
-      }
+        "text": "get her dragons’ blood on",
+        "startInExample": 43,
+        "endInExample": 68
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "glorious",
-      "lemma": "glorious",
-      "lemmaId": "glorious",
+      "word": "lunchtime",
+      "lemma": "lunchtime",
+      "lemmaId": "lunchtime",
       "pos": "adjective",
-      "wordKey": "glorious_adjective",
-      "level": "C2",
-      "ipa": "ˈɡlɔːrɪəs",
-      "translations": {
-        "ru": {
-          "translation": "великолепный"
-        }
-      },
-      "definition": "having great beauty and splendor",
-      "example": "It was a glorious start-of-autumn day.",
-      "matchedForm": "glorious"
-    },
-    {
-      "word": "journey",
-      "lemma": "journey",
-      "lemmaId": "journey",
-      "pos": "noun",
-      "wordKey": "journey_noun",
-      "level": "B2",
-      "ipa": "ˈdʒɜːni",
-      "translations": {
-        "ru": {
-          "translation": "путешествие, поездка"
-        }
-      },
-      "definition": "an act of travelling from one place to another",
-      "example": "Train journey lasted about an hour.",
-      "matchedForm": "journey"
-    },
-    {
-      "word": "junk shop",
-      "lemma": "junk shop",
-      "lemmaId": "junk_shop",
-      "pos": "phrase",
-      "wordKey": "junk_shop_phrase",
+      "source": "word",
+      "wordKey": "lunchtime_adjective",
       "level": "C1",
-      "ipa": "dʒʌŋk ʃɒp",
       "translations": {
         "ru": {
-          "translation": "лоток с хламом, скупка ненужных вещей"
+          "translation": "обеденное время"
         }
       },
-      "definition": "a store selling cheap or used items",
-      "example": "Junk shop owned by Mr. Larkins.",
-      "phraseMatch": {
-        "text": "Junk shop",
-        "startInExample": 0,
-        "endInExample": 9
-      }
+      "example": "11 B Y THE T IME Janet had laced both her boots, Cat was sure it was lunchtime.",
+      "exampleStart": 883,
+      "exampleEnd": 962,
+      "matchedForm": "lunchtime",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.908571,
+      "difficultySource": "zipf"
     },
     {
-      "word": "laced",
-      "lemma": "laced",
-      "lemmaId": "laced",
-      "pos": "verb",
-      "wordKey": "laced_verb",
-      "level": "B2",
-      "ipa": "leɪst",
-      "translations": {
-        "ru": {
-          "translation": "зашнуровывать"
-        }
-      },
-      "definition": "to fasten shoes or boots by tying laces",
-      "example": "Janet laced her boots.",
-      "matchedForm": "laced"
-    },
-    {
-      "word": "moment",
-      "lemma": "moment",
-      "lemmaId": "moment",
+      "word": "parlor",
+      "lemma": "parlor",
+      "lemmaId": "parlor",
       "pos": "noun",
-      "wordKey": "moment_noun",
-      "level": "B2",
-      "ipa": "ˈməʊmənt",
-      "translations": {
-        "ru": {
-          "translation": "момент"
-        }
-      },
-      "definition": "a very short period of time",
-      "example": "Watched his moment.",
-      "matchedForm": "moment"
-    },
-    {
-      "word": "private parlor",
-      "lemma": "private parlor",
-      "lemmaId": "private_parlor",
-      "pos": "phrase",
-      "wordKey": "private_parlor_phrase",
+      "source": "word",
+      "wordKey": "parlor_noun",
       "level": "C1",
-      "ipa": "ˈprɪvət ˈpɑːlər",
       "translations": {
         "ru": {
-          "translation": "частный салон"
+          "translation": "гостиная"
         }
       },
-      "definition": "a small, private sitting room",
-      "example": "Ushered into a private parlor.",
-      "phraseMatch": {
-        "text": "private parlor",
-        "startInExample": 15,
-        "endInExample": 29
-      }
+      "example": "13 T HEY WERE U SHERED into a private parlor in the White Hart.",
+      "exampleStart": 1047,
+      "exampleEnd": 1110,
+      "matchedForm": "parlor",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.905714,
+      "difficultySource": "zipf"
     },
     {
       "word": "puffed",
-      "lemma": "puffed",
-      "lemmaId": "puffed",
-      "pos": "verb",
-      "wordKey": "puffed_verb",
-      "level": "C1",
-      "ipa": "pʌft",
+      "lemma": "puff",
+      "lemmaId": "puff",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "puff_adjective",
+      "level": "A2",
       "translations": {
         "ru": {
-          "translation": "дымилась, выбрасывала дым"
+          "translation": "пух"
         }
       },
-      "definition": "to emit smoke or steam in short bursts",
-      "example": "The train puffed into the station.",
-      "matchedForm": "puffed"
+      "example": "3 T HE T RAIN J OURNEY lasted about an hour, before the train puffed into Bowbridge.",
+      "exampleStart": 246,
+      "exampleEnd": 330,
+      "matchedForm": "puffed",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.845714,
+      "difficultySource": "zipf"
     },
     {
-      "word": "related worlds",
-      "lemma": "related worlds",
-      "lemmaId": "related_worlds",
-      "pos": "phrase",
-      "wordKey": "related_worlds_phrase",
-      "level": "B2",
-      "ipa": "rɪˈleɪtɪd wɜːldz",
-      "translations": {
-        "ru": {
-          "translation": "связанные миры"
-        }
-      },
-      "definition": "worlds that are connected or associated",
-      "example": "Section on Related Worlds.",
-      "phraseMatch": {
-        "text": "Related Worlds",
-        "startInExample": 11,
-        "endInExample": 25
-      }
-    },
-    {
-      "word": "scream",
-      "lemma": "scream",
-      "lemmaId": "scream",
-      "pos": "verb",
-      "wordKey": "scream_verb",
-      "level": "C1",
-      "ipa": "skriːm",
-      "translations": {
-        "ru": {
-          "translation": "кричать"
-        }
-      },
-      "definition": "to make a loud, high-pitched sound, usually from pain or fear",
-      "example": "Cat screamed loudly.",
-      "matchedForm": "scream"
-    },
-    {
-      "word": "shut",
-      "lemma": "shut",
-      "lemmaId": "shut",
-      "pos": "verb",
-      "wordKey": "shut_verb",
-      "level": "B2",
-      "ipa": "ʃʌt",
-      "translations": {
-        "ru": {
-          "translation": "закрывать, запирать"
-        }
-      },
-      "definition": "to close something or keep oneself inside",
-      "example": "Gwendolen shut herself into her room.",
-      "matchedForm": "shut"
-    },
-    {
-      "word": "silence",
-      "lemma": "silence",
-      "lemmaId": "silence",
+      "word": "shelves",
+      "lemma": "shelve",
+      "lemmaId": "shelve",
       "pos": "noun",
-      "wordKey": "silence_noun",
-      "level": "B2",
-      "ipa": "ˈsaɪləns",
+      "source": "word",
+      "wordKey": "shelve_noun",
+      "level": "A2",
       "translations": {
         "ru": {
-          "translation": "тишина"
+          "translation": "полка"
         }
       },
-      "definition": "complete absence of sound",
-      "example": "Softness and silence.",
-      "matchedForm": "silence"
+      "example": "12 C HRESTOMANCI’S S TUDY WAS a large, sun-filled room with books in shelves.",
+      "exampleStart": 964,
+      "exampleEnd": 1041,
+      "matchedForm": "shelves",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
-      "word": "start-of-autumn",
-      "lemma": "start-of-autumn",
-      "lemmaId": "start_of_autumn",
-      "pos": "phrase",
-      "wordKey": "start_of_autumn_phrase",
-      "level": "C1",
-      "ipa": "stɑːt əv ˈɔːtəm",
-      "translations": {
-        "ru": {
-          "translation": "начало осени"
-        }
-      },
-      "definition": "referring to the early period of autumn season",
-      "example": "Glorious start-of-autumn day.",
-      "matchedForm": "start-of-autumn"
-    },
-    {
-      "word": "ushered",
-      "lemma": "ushered",
-      "lemmaId": "ushered",
+      "word": "wynne",
+      "lemma": "wynne",
+      "lemmaId": "wynne",
       "pos": "verb",
-      "wordKey": "ushered_verb",
-      "level": "C1",
-      "ipa": "ˈʌʃəd",
+      "source": "word",
+      "wordKey": "wynne_verb",
+      "level": "B1",
       "translations": {
         "ru": {
-          "translation": "проводить, вводить"
+          "translation": "Винн"
         }
       },
-      "definition": "to escort or show someone to their place",
-      "example": "They were ushered into a private parlor.",
-      "matchedForm": "ushered"
-    },
-    {
-      "word": "witch",
-      "lemma": "witch",
-      "lemmaId": "witch",
-      "pos": "noun",
-      "wordKey": "witch_noun",
-      "level": "B2",
-      "ipa": "wɪtʃ",
-      "translations": {
-        "ru": {
-          "translation": "ведьма"
-        }
-      },
-      "definition": "a woman believed to have magical powers",
-      "example": "She was a witch.",
-      "matchedForm": "witch"
+      "example": "About Dressing Gowns\n\nRelated Worlds\n\nTypes of Magic\n\nChrestomanci Castle\n\nThe Importance of Cats\n\nThe Willing Warlock\n\nOneir\n\nTonino\n\nThe Worlds of Diana Wynne Jones: An Interview\n\nA BOUT THE A UTHOR\n\nB OOKS BY D IANA W YNNE J ONES\n\nC REDITS\n\nA BOUT THE P UBLISHER\n\nC OPYRIGHT",
+      "exampleStart": 1415,
+      "exampleEnd": 1692,
+      "matchedForm": "Wynne",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     }
   ]
 }

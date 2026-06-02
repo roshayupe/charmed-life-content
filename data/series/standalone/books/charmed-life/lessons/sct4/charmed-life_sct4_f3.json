@@ -11,6 +11,7 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
+    "seriesTitle": "Standalone",
     "sectionIndex": 4,
     "sectionTitle": "Chapter 1",
     "fragmentIndex": 3,
@@ -20,79 +21,120 @@
       "wordCount": 638,
       "uniqueWordCount": 338,
       "paragraphCount": 22,
-      "vocabularyCount": 39,
+      "vocabularyCount": 159,
       "levelDistribution": {
-        "A1": 0,
-        "A2": 3,
-        "B1": 11,
-        "B2": 24,
-        "C1": 1,
+        "A1": 52,
+        "A2": 39,
+        "B1": 16,
+        "B2": 44,
+        "C1": 8,
         "C2": 0
       }
     }
   },
   "vocabulary": [
     {
-      "word": "a great deal",
-      "lemma": "a great deal",
-      "lemmaId": "a_great_deal",
-      "pos": "phrase",
-      "type": "phrase",
-      "source": "fixed_expression",
-      "wordKey": "a_great_deal_phrase",
-      "level": "B1",
+      "word": "ago",
+      "lemma": "ago",
+      "lemmaId": "ago",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "ago_adverb",
+      "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Очень много"
+          "translation": "давно"
         }
       },
-      "example": "Sharp’s broad mauve thumb whirring down a third bundle of letters, thought that being a witch must save a great deal of time.",
-      "exampleStart": 796,
-      "exampleEnd": 921,
-      "phraseMatch": {
-        "text": "a great deal",
-        "startInExample": 104,
-        "endInExample": 116
-      },
-      "levelSource": "phrase_fallback"
+      "_spacyLemma": "ago",
+      "example": "The first was dated twelve years ago, soon after his parents had been married.",
+      "exampleStart": 1779,
+      "exampleEnd": 1857,
+      "matchedForm": "ago",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.311429,
+      "difficultySource": "zipf"
     },
     {
-      "word": "as soon as",
-      "lemma": "as soon as",
-      "lemmaId": "as_soon_as",
-      "pos": "phrase",
-      "type": "phrase",
-      "source": "fixed_expression",
-      "wordKey": "as_soon_as_phrase",
-      "level": "B1",
+      "word": "air",
+      "lemma": "air",
+      "lemmaId": "air",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "air_noun",
+      "level": "A2",
       "translations": {
         "ru": {
-          "translation": "как только"
+          "translation": "воздух"
         }
       },
-      "example": "And, as soon as she said it, she clapped one hand over her mouth and mumbled behind it.",
-      "exampleStart": 1189,
-      "exampleEnd": 1276,
-      "phraseMatch": {
-        "text": "as soon as",
-        "startInExample": 5,
-        "endInExample": 15
+      "_spacyLemma": "air",
+      "example": "Both their hands stood still in the air.",
+      "exampleStart": 106,
+      "exampleEnd": 146,
+      "matchedForm": "air",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.325714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "asked",
+      "lemma": "ask",
+      "lemmaId": "ask",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "ask_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "просить"
+        }
       },
-      "levelSource": "phrase_fallback"
+      "_spacyLemma": "ask",
+      "example": "” Cat asked.",
+      "exampleStart": 2916,
+      "exampleEnd": 2928,
+      "matchedForm": "asked",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.334286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "away",
+      "lemma": "away",
+      "lemmaId": "away",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "away_adverb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "уходить"
+        }
+      },
+      "_spacyLemma": "away",
+      "example": "Sharp took her hand away.",
+      "exampleStart": 207,
+      "exampleEnd": 232,
+      "matchedForm": "away",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.254286,
+      "difficultySource": "zipf"
     },
     {
       "word": "awestruck",
       "lemma": "awestruck",
       "lemmaId": "awestruck",
-      "pos": "verb",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "awestruck_verb",
-      "level": "C1",
+      "wordKey": "awestruck_noun",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "пораженный"
         }
       },
+      "_spacyLemma": "awestruck",
       "example": "Sharp wondered, curious and awestruck.",
       "exampleStart": 2590,
       "exampleEnd": 2628,
@@ -102,48 +144,553 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "back up",
-      "lemma": "back up",
-      "lemmaId": "back_up",
-      "pos": "phrasal_verb",
-      "type": "phrasal_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "back_up_phrasal_verb",
+      "word": "awfully",
+      "lemma": "awfully",
+      "lemmaId": "awfully",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "awfully_adverb",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "ужасно"
+        }
+      },
+      "_spacyLemma": "awfully",
+      "example": "They feel important—especially the first one and the last one—awfully important.",
+      "exampleStart": 2813,
+      "exampleEnd": 2893,
+      "matchedForm": "awfully",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.885714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "bent",
+      "lemma": "bend",
+      "lemmaId": "bend",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "bend_verb",
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Обратитесь назад"
+          "translation": "изгиб"
         }
       },
-      "example": "Her thumb paused, and went slowly back up the pile again.",
-      "exampleStart": 959,
-      "exampleEnd": 1016,
-      "phraseMatch": {
-        "text": "back up",
-        "startInExample": 34,
-        "endInExample": 41
+      "_spacyLemma": "bend",
+      "example": "Sharp spread the three letters out on the kitchen table, and Gwendolen and Cat bent over them.",
+      "exampleStart": 1494,
+      "exampleEnd": 1588,
+      "matchedForm": "bent",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.68,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "black",
+      "lemma": "black",
+      "lemmaId": "black",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "black_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "черный"
+        }
       },
-      "levelSource": "dictionary_phrase"
+      "_spacyLemma": "black",
+      "example": "“Thank you,” Gwendolen said coldly, and put the earrings away in the pocket of her black dress.",
+      "exampleStart": 233,
+      "exampleEnd": 328,
+      "matchedForm": "black",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.3,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "blazes",
+      "lemma": "blaze",
+      "lemmaId": "blaze",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "blaze_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "пылать"
+        }
+      },
+      "_spacyLemma": "blaze",
+      "example": "Go to blazes.",
+      "exampleStart": 2153,
+      "exampleEnd": 2166,
+      "matchedForm": "blazes",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.805714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "box",
+      "lemma": "box",
+      "lemmaId": "box",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "box_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "коробка"
+        }
+      },
+      "_spacyLemma": "box",
+      "example": "” She went back to sorting the other things in the box.",
+      "exampleStart": 423,
+      "exampleEnd": 478,
+      "matchedForm": "box",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.42,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "broad",
+      "lemma": "broad",
+      "lemmaId": "broad",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "broad_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "широкий"
+        }
+      },
+      "_spacyLemma": "broad",
+      "example": "Sharp’s broad mauve thumb whirring down a third bundle of letters, thought that being a witch must save a great deal of time.",
+      "exampleStart": 796,
+      "exampleEnd": 921,
+      "matchedForm": "broad",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.565714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "bundle",
+      "lemma": "bundle",
+      "lemmaId": "bundle",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "bundle_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "пачкать"
+        }
+      },
+      "_spacyLemma": "bundle",
+      "example": "She turned over an old pipe, ribbons, a spray of white heather, menus, concert tickets, and picked up a bundle of old letters.",
+      "exampleStart": 479,
+      "exampleEnd": 605,
+      "matchedForm": "bundle",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.737143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "Business",
+      "lemma": "business",
+      "lemmaId": "business",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "business_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "бизнес"
+        }
+      },
+      "_spacyLemma": "business",
+      "example": "“Business letters,” said Mrs.",
+      "exampleStart": 922,
+      "exampleEnd": 951,
+      "matchedForm": "Business",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.271429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "carefully",
+      "lemma": "carefully",
+      "lemmaId": "carefully",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "carefully_adverb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "тщательно"
+        }
+      },
+      "_spacyLemma": "carefully",
+      "example": "She untied the pink tape from around the bundle and carefully took out three letters.",
+      "exampleStart": 1052,
+      "exampleEnd": 1137,
+      "matchedForm": "carefully",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.585714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "charitable",
+      "lemma": "charitable",
+      "lemmaId": "charitable",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "charitable_adjective",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "благотворительный"
+        }
+      },
+      "_spacyLemma": "charitable",
+      "example": "Nor is this a charitable institution.",
+      "exampleStart": 2501,
+      "exampleEnd": 2538,
+      "matchedForm": "charitable",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.742857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "claim",
+      "lemma": "claim",
+      "lemmaId": "claim",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "claim_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "требование"
+        }
+      },
+      "_spacyLemma": "claim",
+      "example": "I feel you have a claim on me.",
+      "exampleStart": 2034,
+      "exampleEnd": 2064,
+      "matchedForm": "claim",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.445714,
+      "difficultySource": "zipf"
     },
     {
       "word": "clapped",
       "lemma": "clap",
       "lemmaId": "clap",
-      "pos": "adjective",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "clap_adjective",
-      "level": "A2",
+      "wordKey": "clap_verb",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "хлопать"
         }
       },
+      "_spacyLemma": "clap",
       "example": "And, as soon as she said it, she clapped one hand over her mouth and mumbled behind it.",
       "exampleStart": 1189,
       "exampleEnd": 1276,
       "matchedForm": "clapped",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.848571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "clear",
+      "lemma": "clear",
+      "lemmaId": "clear",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "clear_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "ясный"
+        }
+      },
+      "_spacyLemma": "clear",
+      "example": "Sir,\n\nYou were warned six years ago that something like what you relate might come to pass, and you made it quite clear that you wished for no help from this quarter.",
+      "exampleStart": 2294,
+      "exampleEnd": 2460,
+      "matchedForm": "clear",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.36,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "coldly",
+      "lemma": "coldly",
+      "lemmaId": "coldly",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "coldly_adverb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "холодно"
+        }
+      },
+      "_spacyLemma": "coldly",
+      "example": "“Thank you,” Gwendolen said coldly, and put the earrings away in the pocket of her black dress.",
+      "exampleStart": 233,
+      "exampleEnd": 328,
+      "matchedForm": "coldly",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "come",
+      "lemma": "come",
+      "lemmaId": "come",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "come_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "приходить"
+        }
+      },
+      "_spacyLemma": "come",
+      "example": "Sir,\n\nYou were warned six years ago that something like what you relate might come to pass, and you made it quite clear that you wished for no help from this quarter.",
+      "exampleStart": 2294,
+      "exampleEnd": 2460,
+      "matchedForm": "come",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.208571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "concert",
+      "lemma": "concert",
+      "lemmaId": "concert",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "concert_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "концерт"
+        }
+      },
+      "_spacyLemma": "concert",
+      "example": "She turned over an old pipe, ribbons, a spray of white heather, menus, concert tickets, and picked up a bundle of old letters.",
+      "exampleStart": 479,
+      "exampleEnd": 605,
+      "matchedForm": "concert",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.56,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "country",
+      "lemma": "country",
+      "lemmaId": "country",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "country_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "страна"
+        }
+      },
+      "_spacyLemma": "country",
+      "example": "So would any necromancer in the country.",
+      "exampleStart": 3455,
+      "exampleEnd": 3495,
+      "matchedForm": "country",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.294286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "curious",
+      "lemma": "curious",
+      "lemmaId": "curious",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "curious_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "любопытный"
+        }
+      },
+      "_spacyLemma": "curious",
+      "example": "Sharp wondered, curious and awestruck.",
+      "exampleStart": 2590,
+      "exampleEnd": 2628,
+      "matchedForm": "curious",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.588571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "dare",
+      "lemma": "dare",
+      "lemmaId": "dare",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "dare_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "осмелиться"
+        }
+      },
+      "_spacyLemma": "dare",
+      "example": "Something not many people’d dare say, by the sound of it.",
+      "exampleStart": 3231,
+      "exampleEnd": 3288,
+      "matchedForm": "dare",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.628571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "dated",
+      "lemma": "date",
+      "lemmaId": "date",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "date_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "дата"
+        }
+      },
+      "_spacyLemma": "date",
+      "example": "The first was dated twelve years ago, soon after his parents had been married.",
+      "exampleStart": 1779,
+      "exampleEnd": 1857,
+      "matchedForm": "dated",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.368571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "deal",
+      "lemma": "deal",
+      "lemmaId": "deal",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "deal_noun",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "сделка"
+        }
+      },
+      "_spacyLemma": "deal",
+      "example": "Sharp’s broad mauve thumb whirring down a third bundle of letters, thought that being a witch must save a great deal of time.",
+      "exampleStart": 796,
+      "exampleEnd": 921,
+      "matchedForm": "deal",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.34,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "dearie",
+      "lemma": "dearie",
+      "lemmaId": "dearie",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "dearie_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "дорогая"
+        }
+      },
+      "_spacyLemma": "dearie",
+      "example": "“You have real talent, dearie!",
+      "exampleStart": 393,
+      "exampleEnd": 423,
+      "matchedForm": "dearie",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "dress",
+      "lemma": "dress",
+      "lemmaId": "dress",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "dress_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "платье"
+        }
+      },
+      "_spacyLemma": "dress",
+      "example": "“Thank you,” Gwendolen said coldly, and put the earrings away in the pocket of her black dress.",
+      "exampleStart": 233,
+      "exampleEnd": 328,
+      "matchedForm": "dress",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.5,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "earrings",
+      "lemma": "earring",
+      "lemmaId": "earring",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "earring_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "серьга"
+        }
+      },
+      "_spacyLemma": "earring",
+      "example": "“Thank you,” Gwendolen said coldly, and put the earrings away in the pocket of her black dress.",
+      "exampleStart": 233,
+      "exampleEnd": 328,
+      "matchedForm": "earrings",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.98,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "edge",
+      "lemma": "edge",
+      "lemmaId": "edge",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "edge_noun",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "край"
+        }
+      },
+      "_spacyLemma": "edge",
+      "example": "She ran her thumb down the edge of it.",
+      "exampleStart": 606,
+      "exampleEnd": 644,
+      "matchedForm": "edge",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.505714,
       "difficultySource": "zipf"
     },
     {
@@ -159,6 +706,7 @@
           "translation": "энергичный"
         }
       },
+      "_spacyLemma": "energetic",
       "example": "The first thing that struck Cat was the energy of the signature on all three:\n\nThe next thing he saw was that two of the letters were written in the same energetic writing as the signature.",
       "exampleStart": 1589,
       "exampleEnd": 1778,
@@ -168,55 +716,255 @@
       "difficultySource": "zipf"
     },
     {
+      "word": "energy",
+      "lemma": "energy",
+      "lemmaId": "energy",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "energy_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "энергия"
+        }
+      },
+      "_spacyLemma": "energy",
+      "example": "The first thing that struck Cat was the energy of the signature on all three:\n\nThe next thing he saw was that two of the letters were written in the same energetic writing as the signature.",
+      "exampleStart": 1589,
+      "exampleEnd": 1778,
+      "matchedForm": "energy",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.365714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "especially",
+      "lemma": "especially",
+      "lemmaId": "especially",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "especially_adverb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "особенно"
+        }
+      },
+      "_spacyLemma": "especially",
+      "example": "They feel important—especially the first one and the last one—awfully important.",
+      "exampleStart": 2813,
+      "exampleEnd": 2893,
+      "matchedForm": "especially",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.371429,
+      "difficultySource": "zipf"
+    },
+    {
       "word": "exclaimed",
       "lemma": "exclaim",
       "lemmaId": "exclaim",
-      "pos": "adjective",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "exclaim_adjective",
+      "wordKey": "exclaim_verb",
       "level": "B2",
       "translations": {
         "ru": {
           "translation": "восклицать"
         }
       },
+      "_spacyLemma": "exclaim",
       "example": "” she exclaimed.",
       "exampleStart": 1172,
       "exampleEnd": 1188,
       "matchedForm": "exclaimed",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
     {
-      "word": "frightened",
-      "lemma": "frighten",
-      "lemmaId": "frighten",
+      "word": "eyes",
+      "lemma": "eye",
+      "lemmaId": "eye",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "eye_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "глаз"
+        }
+      },
+      "_spacyLemma": "eye",
+      "example": "Nostrum would give his eyes for those, dearie.",
+      "exampleStart": 3351,
+      "exampleEnd": 3397,
+      "matchedForm": "eyes",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.425714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "face",
+      "lemma": "face",
+      "lemmaId": "face",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "face_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "лицо"
+        }
+      },
+      "_spacyLemma": "face",
+      "example": "Her face was red.",
+      "exampleStart": 1277,
+      "exampleEnd": 1294,
+      "matchedForm": "face",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.302857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "feeling",
+      "lemma": "feeling",
+      "lemmaId": "feeling",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "feeling_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "чувство"
+        }
+      },
+      "_spacyLemma": "feeling",
+      "example": "There was a feeling of fierce invisible struggle.",
+      "exampleStart": 147,
+      "exampleEnd": 196,
+      "matchedForm": "feeling",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.394286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "fierce",
+      "lemma": "fierce",
+      "lemmaId": "fierce",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "frighten_adjective",
+      "wordKey": "fierce_adjective",
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "пугать"
+          "translation": "сильный"
         }
       },
+      "_spacyLemma": "fierce",
+      "example": "There was a feeling of fierce invisible struggle.",
+      "exampleStart": 147,
+      "exampleEnd": 196,
+      "matchedForm": "fierce",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.74,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "fingers",
+      "lemma": "finger",
+      "lemmaId": "finger",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "finger_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "палец"
+        }
+      },
+      "_spacyLemma": "finger",
+      "example": "Both her little fingers twitched.",
+      "exampleStart": 2764,
+      "exampleEnd": 2797,
+      "matchedForm": "fingers",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.58,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "fire",
+      "lemma": "fire",
+      "lemmaId": "fire",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "fire_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "огонь"
+        }
+      },
+      "_spacyLemma": "fire",
+      "example": "”\n\nGwendolen held her hands spread out above the letters, rather as if she was warming them at a fire.",
+      "exampleStart": 2661,
+      "exampleEnd": 2763,
+      "matchedForm": "fire",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.345714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "frightened",
+      "lemma": "frightened",
+      "lemmaId": "frightened",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "frightened_adjective",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "испуганный"
+        }
+      },
+      "_spacyLemma": "frightened",
       "example": "Cat could see she was surprised, frightened, and greedy, all at the same time.",
       "exampleStart": 1295,
       "exampleEnd": 1373,
       "matchedForm": "frightened",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.98,
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.791429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "genuine",
+      "lemma": "genuine",
+      "lemmaId": "genuine",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "genuine_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "истинный"
+        }
+      },
+      "_spacyLemma": "genuine",
+      "example": "Three genuine signatures!",
+      "exampleStart": 3321,
+      "exampleEnd": 3346,
+      "matchedForm": "genuine",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.611429,
       "difficultySource": "zipf"
     },
     {
       "word": "get on",
       "lemma": "get on",
       "lemmaId": "get_on",
-      "pos": "phrasal_verb",
-      "type": "phrasal_verb",
+      "pos": "prepositional_verb",
+      "type": "prepositional_verb",
       "source": "dictionary_phrasal",
-      "wordKey": "get_on_phrasal_verb",
+      "wordKey": "get_on_prepositional_verb",
       "level": "B2",
       "translations": {
         "ru": {
@@ -234,13 +982,35 @@
       "levelSource": "dictionary_phrase"
     },
     {
+      "word": "got",
+      "lemma": "get",
+      "lemmaId": "get",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "get_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "получать"
+        }
+      },
+      "_spacyLemma": "get",
+      "example": "It said:\n\nDear Frank,\n\nNow don’t get on your high horse.",
+      "exampleStart": 1858,
+      "exampleEnd": 1914,
+      "matchedForm": "get",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.065714,
+      "difficultySource": "zipf"
+    },
+    {
       "word": "went back to",
       "lemma": "go back to",
       "lemmaId": "go_back_to",
-      "pos": "phrasal_verb",
-      "type": "phrasal_verb",
+      "pos": "prepositional_verb",
+      "type": "prepositional_verb",
       "source": "dictionary_phrasal",
-      "wordKey": "go_back_to_phrasal_verb",
+      "wordKey": "go_back_to_prepositional_verb",
       "level": "B2",
       "translations": {
         "ru": {
@@ -258,157 +1028,477 @@
       "levelSource": "dictionary_phrase"
     },
     {
-      "word": "hands in",
-      "lemma": "hand in",
-      "lemmaId": "hand_in",
-      "pos": "phrasal_verb",
-      "type": "phrasal_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "hand_in_phrasal_verb",
-      "level": "B2",
+      "word": "went",
+      "lemma": "go",
+      "lemmaId": "go",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "go_verb",
+      "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Руки в руках"
+          "translation": "идти"
         }
       },
-      "example": "Both their hands stood still in the air.",
-      "exampleStart": 106,
-      "exampleEnd": 146,
-      "phraseMatch": {
-        "text": "hands stood still in",
-        "startInExample": 11,
-        "endInExample": 31
-      },
-      "levelSource": "dictionary_phrase"
+      "_spacyLemma": "go",
+      "example": "” She went back to sorting the other things in the box.",
+      "exampleStart": 423,
+      "exampleEnd": 478,
+      "matchedForm": "went",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.137143,
+      "difficultySource": "zipf"
     },
     {
-      "word": "hands out",
-      "lemma": "hand out",
-      "lemmaId": "hand_out",
-      "pos": "phrasal_verb",
-      "type": "phrasal_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "hand_out_phrasal_verb",
-      "level": "B2",
+      "word": "best",
+      "lemma": "good",
+      "lemmaId": "good",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "good_adjective",
+      "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Руки вперёд"
+          "translation": "хороший"
         }
       },
-      "example": "”\n\nGwendolen held her hands spread out above the letters, rather as if she was warming them at a fire.",
-      "exampleStart": 2661,
-      "exampleEnd": 2763,
-      "phraseMatch": {
-        "text": "hands spread out",
-        "startInExample": 22,
-        "endInExample": 38
-      },
-      "levelSource": "dictionary_phrase"
+      "_spacyLemma": "good",
+      "example": "Sharp said, making the best of it.",
+      "exampleStart": 358,
+      "exampleEnd": 392,
+      "matchedForm": "best",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.111429,
+      "difficultySource": "zipf"
     },
     {
-      "word": "hand over",
-      "lemma": "hand over",
-      "lemmaId": "hand_over",
-      "pos": "phrasal_verb",
-      "type": "phrasal_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "hand_over_phrasal_verb",
-      "level": "B2",
+      "word": "great",
+      "lemma": "great",
+      "lemmaId": "great",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "great_adjective",
+      "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Передай"
+          "translation": "великий"
         }
       },
-      "example": "And, as soon as she said it, she clapped one hand over her mouth and mumbled behind it.",
-      "exampleStart": 1189,
-      "exampleEnd": 1276,
-      "phraseMatch": {
-        "text": "hand over",
-        "startInExample": 45,
-        "endInExample": 54
-      },
-      "levelSource": "dictionary_phrase"
+      "_spacyLemma": "great",
+      "example": "Sharp’s broad mauve thumb whirring down a third bundle of letters, thought that being a witch must save a great deal of time.",
+      "exampleStart": 796,
+      "exampleEnd": 921,
+      "matchedForm": "great",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.18,
+      "difficultySource": "zipf"
     },
     {
-      "word": "have on",
-      "lemma": "have on",
-      "lemmaId": "have_on",
-      "pos": "phrasal_verb",
-      "type": "phrasal_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "have_on_phrasal_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "Давай"
-        }
-      },
-      "example": "I feel you have a claim on me.",
-      "exampleStart": 2034,
-      "exampleEnd": 2064,
-      "phraseMatch": {
-        "text": "have a claim on",
-        "startInExample": 11,
-        "endInExample": 26
-      },
-      "levelSource": "dictionary_phrase"
-    },
-    {
-      "word": "high horse",
-      "lemma": "high horse",
-      "lemmaId": "high_horse",
+      "word": "great deal",
+      "lemma": "great deal",
+      "lemmaId": "great_deal",
       "pos": "phrase",
       "type": "phrase",
-      "source": "fixed_expression",
-      "wordKey": "high_horse_phrase",
+      "source": "spacy_phrase",
+      "wordKey": "great_deal_phrase",
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "высокомерие"
+          "translation": "Отличная сделка"
         }
       },
+      "example": "Sharp’s broad mauve thumb whirring down a third bundle of letters, thought that being a witch must save a great deal of time.",
+      "exampleStart": 796,
+      "exampleEnd": 921,
+      "phraseMatch": {
+        "text": "great deal",
+        "startInExample": 106,
+        "endInExample": 116
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "greedy",
+      "lemma": "greedy",
+      "lemmaId": "greedy",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "greedy_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "жадный"
+        }
+      },
+      "_spacyLemma": "greedy",
+      "example": "Cat could see she was surprised, frightened, and greedy, all at the same time.",
+      "exampleStart": 1295,
+      "exampleEnd": 1373,
+      "matchedForm": "greedy",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.788571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "hand",
+      "lemma": "hand",
+      "lemmaId": "hand",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "hand_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "рука"
+        }
+      },
+      "_spacyLemma": "hand",
+      "example": "Gwendolen put out her hand for them at the same moment.",
+      "exampleStart": 0,
+      "exampleEnd": 55,
+      "matchedForm": "hand",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.314286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "hard",
+      "lemma": "hard",
+      "lemmaId": "hard",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "hard_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "твердый"
+        }
+      },
+      "_spacyLemma": "hard",
+      "example": "It was a hard name to say.",
+      "exampleStart": 2929,
+      "exampleEnd": 2955,
+      "matchedForm": "hard",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.28,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "help",
+      "lemma": "help",
+      "lemmaId": "help",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "help_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "помочь"
+        }
+      },
+      "_spacyLemma": "help",
+      "example": "I only offered because I thought it might help.",
+      "exampleStart": 1915,
+      "exampleEnd": 1962,
+      "matchedForm": "help",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.217143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "help",
+      "lemma": "help",
+      "lemmaId": "help",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "help_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "помочь"
+        }
+      },
+      "_spacyLemma": "help",
+      "example": "I only offered because I thought it might help.",
+      "exampleStart": 1915,
+      "exampleEnd": 1962,
+      "matchedForm": "help",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.217143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "high",
+      "lemma": "high",
+      "lemmaId": "high",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "high_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "высокий"
+        }
+      },
+      "_spacyLemma": "high",
       "example": "It said:\n\nDear Frank,\n\nNow don’t get on your high horse.",
       "exampleStart": 1858,
       "exampleEnd": 1914,
-      "phraseMatch": {
-        "text": "high horse",
-        "startInExample": 45,
-        "endInExample": 55
-      },
-      "levelSource": "phrase_fallback"
+      "matchedForm": "high",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.217143,
+      "difficultySource": "zipf"
     },
     {
-      "word": "i wish",
-      "lemma": "i wish",
-      "lemmaId": "i_wish",
-      "pos": "phrase",
-      "type": "phrase",
-      "source": "fixed_expression",
-      "wordKey": "i_wish_phrase",
+      "word": "held",
+      "lemma": "hold",
+      "lemmaId": "hold",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "hold_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "держать"
+        }
+      },
+      "_spacyLemma": "hold",
+      "example": "”\n\nGwendolen held her hands spread out above the letters, rather as if she was warming them at a fire.",
+      "exampleStart": 2661,
+      "exampleEnd": 2763,
+      "matchedForm": "held",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.377143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "horse",
+      "lemma": "horse",
+      "lemmaId": "horse",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "horse_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "лошадь"
+        }
+      },
+      "_spacyLemma": "horse",
+      "example": "It said:\n\nDear Frank,\n\nNow don’t get on your high horse.",
+      "exampleStart": 1858,
+      "exampleEnd": 1914,
+      "matchedForm": "horse",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.5,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "important",
+      "lemma": "important",
+      "lemmaId": "important",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "important_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "важный"
+        }
+      },
+      "_spacyLemma": "important",
+      "example": "They feel important—especially the first one and the last one—awfully important.",
+      "exampleStart": 2813,
+      "exampleEnd": 2893,
+      "matchedForm": "important",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.305714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "institution",
+      "lemma": "institution",
+      "lemmaId": "institution",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "institution_noun",
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "Хотелось бы"
+          "translation": "учреждение"
         }
       },
-      "example": "I wish I knew what your pa had said.",
-      "exampleStart": 3194,
-      "exampleEnd": 3230,
-      "phraseMatch": {
-        "text": "I wish",
-        "startInExample": 0,
-        "endInExample": 6
+      "_spacyLemma": "institution",
+      "example": "Nor is this a charitable institution.",
+      "exampleStart": 2501,
+      "exampleEnd": 2538,
+      "matchedForm": "institution",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.6,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "interested",
+      "lemma": "interested",
+      "lemmaId": "interested",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "interested_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "заинтересованный"
+        }
       },
-      "levelSource": "phrase_fallback"
+      "_spacyLemma": "interested",
+      "example": "We are not interested in your troubles.",
+      "exampleStart": 2461,
+      "exampleEnd": 2500,
+      "matchedForm": "interested",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.445714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "invisible",
+      "lemma": "invisible",
+      "lemmaId": "invisible",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "invisible_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "невидимый"
+        }
+      },
+      "_spacyLemma": "invisible",
+      "example": "There was a feeling of fierce invisible struggle.",
+      "exampleStart": 147,
+      "exampleEnd": 196,
+      "matchedForm": "invisible",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.691429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "kitchen",
+      "lemma": "kitchen",
+      "lemmaId": "kitchen",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "kitchen_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "кухня"
+        }
+      },
+      "_spacyLemma": "kitchen",
+      "example": "Sharp spread the three letters out on the kitchen table, and Gwendolen and Cat bent over them.",
+      "exampleStart": 1494,
+      "exampleEnd": 1588,
+      "matchedForm": "kitchen",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.531429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "know",
+      "lemma": "know",
+      "lemmaId": "know",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "know_verb",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "знать"
+        }
+      },
+      "_spacyLemma": "know",
+      "example": "I still will help, in any way I can, if you let me know what I can do.",
+      "exampleStart": 1963,
+      "exampleEnd": 2033,
+      "matchedForm": "know",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.117143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "Let",
+      "lemma": "let",
+      "lemmaId": "let",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "let_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "давать"
+        }
+      },
+      "_spacyLemma": "let",
+      "example": "I still will help, in any way I can, if you let me know what I can do.",
+      "exampleStart": 1963,
+      "exampleEnd": 2033,
+      "matchedForm": "let",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.26,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "letters",
+      "lemma": "letter",
+      "lemmaId": "letter",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "letter_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "письмо"
+        }
+      },
+      "_spacyLemma": "letter",
+      "example": "She turned over an old pipe, ribbons, a spray of white heather, menus, concert tickets, and picked up a bundle of old letters.",
+      "exampleStart": 479,
+      "exampleEnd": 605,
+      "matchedForm": "letters",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.445714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "little",
+      "lemma": "little",
+      "lemmaId": "little",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "little_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "маленький"
+        }
+      },
+      "_spacyLemma": "little",
+      "example": "Both her little fingers twitched.",
+      "exampleStart": 2764,
+      "exampleEnd": 2797,
+      "matchedForm": "little",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.217143,
+      "difficultySource": "zipf"
     },
     {
       "word": "looking at",
       "lemma": "look at",
       "lemmaId": "look_at",
-      "pos": "phrasal_verb",
-      "type": "phrasal_verb",
+      "pos": "prepositional_verb",
+      "type": "prepositional_verb",
       "source": "dictionary_phrasal",
-      "wordKey": "look_at_phrasal_verb",
+      "wordKey": "look_at_prepositional_verb",
       "level": "B2",
       "translations": {
         "ru": {
@@ -426,42 +1516,153 @@
       "levelSource": "dictionary_phrase"
     },
     {
-      "word": "look in",
-      "lemma": "look in",
-      "lemmaId": "look_in",
-      "pos": "phrasal_verb",
-      "type": "phrasal_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "look_in_phrasal_verb",
+      "word": "looking",
+      "lemma": "look",
+      "lemmaId": "look",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "look_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "смотреть"
+        }
+      },
+      "_spacyLemma": "look",
+      "example": "” She put the bundle down without looking at it and picked up another.",
+      "exampleStart": 683,
+      "exampleEnd": 753,
+      "matchedForm": "looking",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.2,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "Love",
+      "lemma": "love",
+      "lemmaId": "love",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "love_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "любовь"
+        }
+      },
+      "_spacyLemma": "love",
+      "example": "“Love letters,” she said.",
+      "exampleStart": 645,
+      "exampleEnd": 670,
+      "matchedForm": "Love",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.197143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "luck",
+      "lemma": "luck",
+      "lemmaId": "luck",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "luck_noun",
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Смотри"
+          "translation": "удача"
         }
       },
-      "example": "And look what he got in return!",
-      "exampleStart": 3289,
-      "exampleEnd": 3320,
-      "phraseMatch": {
-        "text": "look what he got in",
-        "startInExample": 4,
-        "endInExample": 23
+      "_spacyLemma": "luck",
+      "example": "Oh, you’re in luck!",
+      "exampleStart": 3398,
+      "exampleEnd": 3417,
+      "matchedForm": "luck",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.457143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "making the best",
+      "lemma": "make good",
+      "lemmaId": "make_good",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "spacy_phrase",
+      "wordKey": "make_good_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Делая всё лучшее"
+        }
       },
-      "levelSource": "dictionary_phrase"
+      "example": "Sharp said, making the best of it.",
+      "exampleStart": 358,
+      "exampleEnd": 392,
+      "phraseMatch": {
+        "text": "making the best",
+        "startInExample": 12,
+        "endInExample": 27
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "making",
+      "lemma": "make",
+      "lemmaId": "make",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "make_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "делать"
+        }
+      },
+      "_spacyLemma": "make",
+      "example": "Sharp said, making the best of it.",
+      "exampleStart": 358,
+      "exampleEnd": 392,
+      "matchedForm": "making",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.122857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "married",
+      "lemma": "marry",
+      "lemmaId": "marry",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "marry_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "жениться"
+        }
+      },
+      "_spacyLemma": "marry",
+      "example": "The first was dated twelve years ago, soon after his parents had been married.",
+      "exampleStart": 1779,
+      "exampleEnd": 1857,
+      "matchedForm": "married",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.602857,
+      "difficultySource": "zipf"
     },
     {
       "word": "mauve",
       "lemma": "mauve",
       "lemmaId": "mauve",
-      "pos": "verb",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "mauve_verb",
-      "level": "B1",
+      "wordKey": "mauve_noun",
+      "level": "A2",
       "translations": {
         "ru": {
           "translation": "мав"
         }
       },
+      "_spacyLemma": "mauve",
       "example": "Sharp’s broad mauve thumb whirring down a third bundle of letters, thought that being a witch must save a great deal of time.",
       "exampleStart": 796,
       "exampleEnd": 921,
@@ -471,18 +1672,41 @@
       "difficultySource": "zipf"
     },
     {
+      "word": "mean",
+      "lemma": "mean",
+      "lemmaId": "mean",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "mean_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "означать"
+        }
+      },
+      "_spacyLemma": "mean",
+      "example": "“You see what I mean?",
+      "exampleStart": 330,
+      "exampleEnd": 351,
+      "matchedForm": "mean",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.28,
+      "difficultySource": "zipf"
+    },
+    {
       "word": "menus",
       "lemma": "menus",
       "lemmaId": "menus",
-      "pos": "verb",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "menus_verb",
-      "level": "B1",
+      "wordKey": "menus_noun",
+      "level": "A2",
       "translations": {
         "ru": {
           "translation": "меню"
         }
       },
+      "_spacyLemma": "menus",
       "example": "She turned over an old pipe, ribbons, a spray of white heather, menus, concert tickets, and picked up a bundle of old letters.",
       "exampleStart": 479,
       "exampleEnd": 605,
@@ -492,18 +1716,85 @@
       "difficultySource": "zipf"
     },
     {
+      "word": "mind",
+      "lemma": "mind",
+      "lemmaId": "mind",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "mind_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "разум"
+        }
+      },
+      "_spacyLemma": "mind",
+      "example": "”\n\n“Yes, that’s right—and never you mind who he is, my love,” said Mrs.",
+      "exampleStart": 3070,
+      "exampleEnd": 3141,
+      "matchedForm": "mind",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.314286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "moment",
+      "lemma": "moment",
+      "lemmaId": "moment",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "moment_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "момент"
+        }
+      },
+      "_spacyLemma": "moment",
+      "example": "Gwendolen put out her hand for them at the same moment.",
+      "exampleStart": 0,
+      "exampleEnd": 55,
+      "matchedForm": "moment",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.362857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "mouth",
+      "lemma": "mouth",
+      "lemmaId": "mouth",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "mouth_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "рот"
+        }
+      },
+      "_spacyLemma": "mouth",
+      "example": "And, as soon as she said it, she clapped one hand over her mouth and mumbled behind it.",
+      "exampleStart": 1189,
+      "exampleEnd": 1276,
+      "matchedForm": "mouth",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.48,
+      "difficultySource": "zipf"
+    },
+    {
       "word": "mumbled",
       "lemma": "mumble",
       "lemmaId": "mumble",
-      "pos": "adjective",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "mumble_adjective",
+      "wordKey": "mumble_verb",
       "level": "B1",
       "translations": {
         "ru": {
           "translation": "бормотание"
         }
       },
+      "_spacyLemma": "mumble",
       "example": "And, as soon as she said it, she clapped one hand over her mouth and mumbled behind it.",
       "exampleStart": 1189,
       "exampleEnd": 1276,
@@ -513,48 +1804,135 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "never you mind",
-      "lemma": "never you mind",
-      "lemmaId": "never_you_mind",
-      "pos": "phrase",
-      "type": "phrase",
-      "source": "fixed_expression",
-      "wordKey": "never_you_mind_phrase",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "Не обращай на тебя внимания"
-        }
-      },
-      "example": "”\n\n“Yes, that’s right—and never you mind who he is, my love,” said Mrs.",
-      "exampleStart": 3070,
-      "exampleEnd": 3141,
-      "phraseMatch": {
-        "text": "never you mind",
-        "startInExample": 26,
-        "endInExample": 40
-      },
-      "levelSource": "phrase_fallback"
-    },
-    {
-      "word": "people’d",
-      "lemma": "people'd",
-      "lemmaId": "peopled",
+      "word": "necromancer",
+      "lemma": "necromancer",
+      "lemmaId": "necromancer",
       "pos": "noun",
       "source": "word",
-      "wordKey": "peopled_noun",
-      "level": "B1",
+      "wordKey": "necromancer_noun",
+      "level": "C1",
       "translations": {
         "ru": {
-          "translation": "люди"
+          "translation": "некромант"
         }
       },
-      "example": "Something not many people’d dare say, by the sound of it.",
-      "exampleStart": 3231,
-      "exampleEnd": 3288,
-      "matchedForm": "people’d",
+      "_spacyLemma": "necromancer",
+      "example": "So would any necromancer in the country.",
+      "exampleStart": 3455,
+      "exampleEnd": 3495,
+      "matchedForm": "necromancer",
       "levelSource": "difficulty_heuristic",
       "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "offered",
+      "lemma": "offer",
+      "lemmaId": "offer",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "offer_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "предложение"
+        }
+      },
+      "_spacyLemma": "offer",
+      "example": "I only offered because I thought it might help.",
+      "exampleStart": 1915,
+      "exampleEnd": 1962,
+      "matchedForm": "offered",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.417143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "old",
+      "lemma": "old",
+      "lemmaId": "old",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "old_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "старый"
+        }
+      },
+      "_spacyLemma": "old",
+      "example": "She turned over an old pipe, ribbons, a spray of white heather, menus, concert tickets, and picked up a bundle of old letters.",
+      "exampleStart": 479,
+      "exampleEnd": 605,
+      "matchedForm": "old",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.217143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "parents",
+      "lemma": "parent",
+      "lemmaId": "parent",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "parent_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "родитель"
+        }
+      },
+      "_spacyLemma": "parent",
+      "example": "The first was dated twelve years ago, soon after his parents had been married.",
+      "exampleStart": 1779,
+      "exampleEnd": 1857,
+      "matchedForm": "parents",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.554286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "pass",
+      "lemma": "pass",
+      "lemmaId": "pass",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "pass_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "проход"
+        }
+      },
+      "_spacyLemma": "pass",
+      "example": "Sir,\n\nYou were warned six years ago that something like what you relate might come to pass, and you made it quite clear that you wished for no help from this quarter.",
+      "exampleStart": 2294,
+      "exampleEnd": 2460,
+      "matchedForm": "pass",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.417143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "paused",
+      "lemma": "pause",
+      "lemmaId": "pause",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "pause_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "пауза"
+        }
+      },
+      "_spacyLemma": "pause",
+      "example": "Her thumb paused, and went slowly back up the pile again.",
+      "exampleStart": 959,
+      "exampleEnd": 1016,
+      "matchedForm": "paused",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.717143,
       "difficultySource": "zipf"
     },
     {
@@ -579,7 +1957,117 @@
         "startInExample": 52,
         "endInExample": 61
       },
-      "levelSource": "dictionary_phrase"
+      "levelSource": "phrase_index"
+    },
+    {
+      "word": "pieces",
+      "lemma": "piece",
+      "lemmaId": "piece",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "piece_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "кусок"
+        }
+      },
+      "_spacyLemma": "piece",
+      "example": "He said it in pieces, trying to remember the way Mrs.",
+      "exampleStart": 2956,
+      "exampleEnd": 3009,
+      "matchedForm": "pieces",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.42,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "pile",
+      "lemma": "pile",
+      "lemmaId": "pile",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "pile_noun",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "груда"
+        }
+      },
+      "_spacyLemma": "pile",
+      "example": "Her thumb paused, and went slowly back up the pile again.",
+      "exampleStart": 959,
+      "exampleEnd": 1016,
+      "matchedForm": "pile",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.677143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "pink",
+      "lemma": "pink",
+      "lemmaId": "pink",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "pink_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "розовый"
+        }
+      },
+      "_spacyLemma": "pink",
+      "example": "She untied the pink tape from around the bundle and carefully took out three letters.",
+      "exampleStart": 1052,
+      "exampleEnd": 1137,
+      "matchedForm": "pink",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.568571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "pipe",
+      "lemma": "pipe",
+      "lemmaId": "pipe",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "pipe_noun",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "труба"
+        }
+      },
+      "_spacyLemma": "pipe",
+      "example": "She turned over an old pipe, ribbons, a spray of white heather, menus, concert tickets, and picked up a bundle of old letters.",
+      "exampleStart": 479,
+      "exampleEnd": 605,
+      "matchedForm": "pipe",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.645714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "pocket",
+      "lemma": "pocket",
+      "lemmaId": "pocket",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "pocket_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "карман"
+        }
+      },
+      "_spacyLemma": "pocket",
+      "example": "“Thank you,” Gwendolen said coldly, and put the earrings away in the pocket of her black dress.",
+      "exampleStart": 233,
+      "exampleEnd": 328,
+      "matchedForm": "pocket",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.58,
+      "difficultySource": "zipf"
     },
     {
       "word": "put away",
@@ -603,7 +2091,7 @@
         "startInExample": 40,
         "endInExample": 61
       },
-      "levelSource": "dictionary_phrase"
+      "levelSource": "phrase_index"
     },
     {
       "word": "put down",
@@ -627,7 +2115,7 @@
         "startInExample": 6,
         "endInExample": 25
       },
-      "levelSource": "dictionary_phrase"
+      "levelSource": "phrase_index"
     },
     {
       "word": "put out",
@@ -651,55 +2139,491 @@
         "startInExample": 10,
         "endInExample": 17
       },
-      "levelSource": "dictionary_phrase"
+      "levelSource": "phrase_index"
     },
     {
-      "word": "ran down",
-      "lemma": "run down",
-      "lemmaId": "run_down",
-      "pos": "phrasal_verb",
-      "type": "phrasal_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "run_down_phrasal_verb",
-      "level": "B2",
+      "word": "quarter",
+      "lemma": "quarter",
+      "lemmaId": "quarter",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "quarter_noun",
+      "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Потрёпан"
+          "translation": "квартал"
         }
       },
-      "example": "She ran her thumb down the edge of it.",
-      "exampleStart": 606,
-      "exampleEnd": 644,
-      "phraseMatch": {
-        "text": "ran her thumb down",
-        "startInExample": 4,
-        "endInExample": 22
-      },
-      "levelSource": "dictionary_phrase"
-    },
-    {
-      "word": "something like",
-      "lemma": "something like",
-      "lemmaId": "something_like",
-      "pos": "phrase",
-      "type": "phrase",
-      "source": "fixed_expression",
-      "wordKey": "something_like_phrase",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "что-то вроде"
-        }
-      },
+      "_spacyLemma": "quarter",
       "example": "Sir,\n\nYou were warned six years ago that something like what you relate might come to pass, and you made it quite clear that you wished for no help from this quarter.",
       "exampleStart": 2294,
       "exampleEnd": 2460,
-      "phraseMatch": {
-        "text": "something like",
-        "startInExample": 41,
-        "endInExample": 55
+      "matchedForm": "quarter",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.511429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "real",
+      "lemma": "real",
+      "lemmaId": "real",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "real_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "реальный"
+        }
       },
-      "levelSource": "phrase_fallback"
+      "_spacyLemma": "real",
+      "example": "“You have real talent, dearie!",
+      "exampleStart": 393,
+      "exampleEnd": 423,
+      "matchedForm": "real",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.26,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "recovered",
+      "lemma": "recover",
+      "lemmaId": "recover",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "recover_verb",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "восстанавливать"
+        }
+      },
+      "_spacyLemma": "recover",
+      "example": "” she said, as soon as she had recovered.",
+      "exampleStart": 1416,
+      "exampleEnd": 1457,
+      "matchedForm": "recovered",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.634286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "red",
+      "lemma": "red",
+      "lemmaId": "red",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "red_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "красный"
+        }
+      },
+      "_spacyLemma": "red",
+      "example": "Her face was red.",
+      "exampleStart": 1277,
+      "exampleEnd": 1294,
+      "matchedForm": "red",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.34,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "relate",
+      "lemma": "relate",
+      "lemmaId": "relate",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "relate_verb",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "относиться"
+        }
+      },
+      "_spacyLemma": "relate",
+      "example": "Sir,\n\nYou were warned six years ago that something like what you relate might come to pass, and you made it quite clear that you wished for no help from this quarter.",
+      "exampleStart": 2294,
+      "exampleEnd": 2460,
+      "matchedForm": "relate",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.648571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "remember",
+      "lemma": "remember",
+      "lemmaId": "remember",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "remember_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "помнить"
+        }
+      },
+      "_spacyLemma": "remember",
+      "example": "He said it in pieces, trying to remember the way Mrs.",
+      "exampleStart": 2956,
+      "exampleEnd": 3009,
+      "matchedForm": "remember",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.322857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "return",
+      "lemma": "return",
+      "lemmaId": "return",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "return_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "возвращение"
+        }
+      },
+      "_spacyLemma": "return",
+      "example": "And look what he got in return!",
+      "exampleStart": 3289,
+      "exampleEnd": 3320,
+      "matchedForm": "return",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.377143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "ribbons",
+      "lemma": "ribbon",
+      "lemmaId": "ribbon",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "ribbon_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "лента"
+        }
+      },
+      "_spacyLemma": "ribbon",
+      "example": "She turned over an old pipe, ribbons, a spray of white heather, menus, concert tickets, and picked up a bundle of old letters.",
+      "exampleStart": 479,
+      "exampleEnd": 605,
+      "matchedForm": "ribbons",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.771429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "right",
+      "lemma": "right",
+      "lemmaId": "right",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "right_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "правильно"
+        }
+      },
+      "_spacyLemma": "right",
+      "example": "“Is that the right way?",
+      "exampleStart": 3047,
+      "exampleEnd": 3070,
+      "matchedForm": "right",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.157143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "ran",
+      "lemma": "run",
+      "lemmaId": "run",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "run_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "бегать"
+        }
+      },
+      "_spacyLemma": "run",
+      "example": "She ran her thumb down the edge of it.",
+      "exampleStart": 606,
+      "exampleEnd": 644,
+      "matchedForm": "ran",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.291429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "save",
+      "lemma": "save",
+      "lemmaId": "save",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "save_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "экономить"
+        }
+      },
+      "_spacyLemma": "save",
+      "example": "Sharp’s broad mauve thumb whirring down a third bundle of letters, thought that being a witch must save a great deal of time.",
+      "exampleStart": 796,
+      "exampleEnd": 921,
+      "matchedForm": "save",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.391429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "said",
+      "lemma": "say",
+      "lemmaId": "say",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "say_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "говорить"
+        }
+      },
+      "_spacyLemma": "say",
+      "example": "She did not say anything.",
+      "exampleStart": 56,
+      "exampleEnd": 81,
+      "matchedForm": "say",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.177143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "second",
+      "lemma": "second",
+      "lemmaId": "second",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "second_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "второй"
+        }
+      },
+      "_spacyLemma": "second",
+      "example": "Yrs ever,\n\nChrestomanci\n\nThe second letter was shorter:\n\nDear Chant,\n\nThe same to you.",
+      "exampleStart": 2066,
+      "exampleEnd": 2152,
+      "matchedForm": "second",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.251429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "saw",
+      "lemma": "see",
+      "lemmaId": "see",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "see_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "смотреть"
+        }
+      },
+      "_spacyLemma": "see",
+      "example": "“You see what I mean?",
+      "exampleStart": 330,
+      "exampleEnd": 351,
+      "matchedForm": "see",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.117143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "shorter",
+      "lemma": "short",
+      "lemmaId": "short",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "short_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "короткий"
+        }
+      },
+      "_spacyLemma": "short",
+      "example": "Yrs ever,\n\nChrestomanci\n\nThe second letter was shorter:\n\nDear Chant,\n\nThe same to you.",
+      "exampleStart": 2066,
+      "exampleEnd": 2152,
+      "matchedForm": "shorter",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.337143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "signed",
+      "lemma": "sign",
+      "lemmaId": "sign",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "sign_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "знак"
+        }
+      },
+      "_spacyLemma": "sign",
+      "example": "Chrestomanci had only signed it.",
+      "exampleStart": 2260,
+      "exampleEnd": 2292,
+      "matchedForm": "signed",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.408571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "signature",
+      "lemma": "signature",
+      "lemmaId": "signature",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "signature_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "подпись"
+        }
+      },
+      "_spacyLemma": "signature",
+      "example": "The first thing that struck Cat was the energy of the signature on all three:\n\nThe next thing he saw was that two of the letters were written in the same energetic writing as the signature.",
+      "exampleStart": 1589,
+      "exampleEnd": 1778,
+      "matchedForm": "signature",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.645714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "slowly",
+      "lemma": "slowly",
+      "lemmaId": "slowly",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "slowly_adverb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "медленно"
+        }
+      },
+      "_spacyLemma": "slowly",
+      "example": "Her thumb paused, and went slowly back up the pile again.",
+      "exampleStart": 959,
+      "exampleEnd": 1016,
+      "matchedForm": "slowly",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.537143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "soon",
+      "lemma": "soon",
+      "lemmaId": "soon",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "soon_adverb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "скоро"
+        }
+      },
+      "_spacyLemma": "soon",
+      "example": "And, as soon as she said it, she clapped one hand over her mouth and mumbled behind it.",
+      "exampleStart": 1189,
+      "exampleEnd": 1276,
+      "matchedForm": "soon",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.34,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "sorting",
+      "lemma": "sort",
+      "lemmaId": "sort",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "sort_verb",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "сортировать"
+        }
+      },
+      "_spacyLemma": "sort",
+      "example": "” She went back to sorting the other things in the box.",
+      "exampleStart": 423,
+      "exampleEnd": 478,
+      "matchedForm": "sorting",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.431429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "sound",
+      "lemma": "sound",
+      "lemmaId": "sound",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "sound_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "звук"
+        }
+      },
+      "_spacyLemma": "sound",
+      "example": "Something not many people’d dare say, by the sound of it.",
+      "exampleStart": 3231,
+      "exampleEnd": 3288,
+      "matchedForm": "sound",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.388571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "spray",
+      "lemma": "spray",
+      "lemmaId": "spray",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "spray_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "распылять"
+        }
+      },
+      "_spacyLemma": "spray",
+      "example": "She turned over an old pipe, ribbons, a spray of white heather, menus, concert tickets, and picked up a bundle of old letters.",
+      "exampleStart": 479,
+      "exampleEnd": 605,
+      "matchedForm": "spray",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.665714,
+      "difficultySource": "zipf"
     },
     {
       "word": "spread out",
@@ -715,15 +2639,147 @@
           "translation": "Рассредоточьтесь"
         }
       },
+      "example": "”\n\nGwendolen held her hands spread out above the letters, rather as if she was warming them at a fire.",
+      "exampleStart": 2661,
+      "exampleEnd": 2763,
+      "phraseMatch": {
+        "text": "spread out",
+        "startInExample": 28,
+        "endInExample": 38
+      },
+      "levelSource": "phrase_index"
+    },
+    {
+      "word": "spread",
+      "lemma": "spread",
+      "lemmaId": "spread",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "spread_verb",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "распространение"
+        }
+      },
+      "_spacyLemma": "spread",
       "example": "Sharp spread the three letters out on the kitchen table, and Gwendolen and Cat bent over them.",
       "exampleStart": 1494,
       "exampleEnd": 1588,
-      "phraseMatch": {
-        "text": "spread the three letters out",
-        "startInExample": 6,
-        "endInExample": 34
+      "matchedForm": "spread",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.485714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "stood",
+      "lemma": "stand",
+      "lemmaId": "stand",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "stand_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "стоять"
+        }
       },
-      "levelSource": "dictionary_phrase"
+      "_spacyLemma": "stand",
+      "example": "Both their hands stood still in the air.",
+      "exampleStart": 106,
+      "exampleEnd": 146,
+      "matchedForm": "stood",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.391429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "struck",
+      "lemma": "strike",
+      "lemmaId": "strike",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "strike_verb",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "забастовка"
+        }
+      },
+      "_spacyLemma": "strike",
+      "example": "The first thing that struck Cat was the energy of the signature on all three:\n\nThe next thing he saw was that two of the letters were written in the same energetic writing as the signature.",
+      "exampleStart": 1589,
+      "exampleEnd": 1778,
+      "matchedForm": "struck",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.528571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "struggle",
+      "lemma": "struggle",
+      "lemmaId": "struggle",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "struggle_noun",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "борьба"
+        }
+      },
+      "_spacyLemma": "struggle",
+      "example": "There was a feeling of fierce invisible struggle.",
+      "exampleStart": 147,
+      "exampleEnd": 196,
+      "matchedForm": "struggle",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.54,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "surprised",
+      "lemma": "surprised",
+      "lemmaId": "surprised",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "surprised_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "удивленный"
+        }
+      },
+      "_spacyLemma": "surprised",
+      "example": "Cat could see she was surprised, frightened, and greedy, all at the same time.",
+      "exampleStart": 1295,
+      "exampleEnd": 1373,
+      "matchedForm": "surprised",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.522857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "table",
+      "lemma": "table",
+      "lemmaId": "table",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "table_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "стол"
+        }
+      },
+      "_spacyLemma": "table",
+      "example": "Sharp spread the three letters out on the kitchen table, and Gwendolen and Cat bent over them.",
+      "exampleStart": 1494,
+      "exampleEnd": 1588,
+      "matchedForm": "table",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.417143,
+      "difficultySource": "zipf"
     },
     {
       "word": "took away",
@@ -747,7 +2803,7 @@
         "startInExample": 6,
         "endInExample": 24
       },
-      "levelSource": "dictionary_phrase"
+      "levelSource": "phrase_index"
     },
     {
       "word": "took out",
@@ -771,7 +2827,271 @@
         "startInExample": 62,
         "endInExample": 70
       },
-      "levelSource": "dictionary_phrase"
+      "levelSource": "phrase_index"
+    },
+    {
+      "word": "took",
+      "lemma": "take",
+      "lemmaId": "take",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "take_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "брать"
+        }
+      },
+      "_spacyLemma": "take",
+      "example": "Sharp took her hand away.",
+      "exampleStart": 207,
+      "exampleEnd": 232,
+      "matchedForm": "took",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.168571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "talent",
+      "lemma": "talent",
+      "lemmaId": "talent",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "talent_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "талант"
+        }
+      },
+      "_spacyLemma": "talent",
+      "example": "“You have real talent, dearie!",
+      "exampleStart": 393,
+      "exampleEnd": 423,
+      "matchedForm": "talent",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.534286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "tape",
+      "lemma": "tape",
+      "lemmaId": "tape",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "tape_noun",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "лента"
+        }
+      },
+      "_spacyLemma": "tape",
+      "example": "She untied the pink tape from around the bundle and carefully took out three letters.",
+      "exampleStart": 1052,
+      "exampleEnd": 1137,
+      "matchedForm": "tape",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.591429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "teach",
+      "lemma": "teach",
+      "lemmaId": "teach",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "teach_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "преподавать"
+        }
+      },
+      "_spacyLemma": "teach",
+      "example": "He’ll teach you for those all right!",
+      "exampleStart": 3418,
+      "exampleEnd": 3454,
+      "matchedForm": "teach",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.525714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "Thank",
+      "lemma": "thank",
+      "lemmaId": "thank",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "thank_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Спасибо."
+        }
+      },
+      "_spacyLemma": "thank",
+      "example": "“Thank you,” Gwendolen said coldly, and put the earrings away in the pocket of her black dress.",
+      "exampleStart": 233,
+      "exampleEnd": 328,
+      "matchedForm": "Thank",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.294286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "things",
+      "lemma": "thing",
+      "lemmaId": "thing",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "thing_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "вещь"
+        }
+      },
+      "_spacyLemma": "thing",
+      "example": "” She went back to sorting the other things in the box.",
+      "exampleStart": 423,
+      "exampleEnd": 478,
+      "matchedForm": "things",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.225714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "thought",
+      "lemma": "think",
+      "lemmaId": "think",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "think_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "думать"
+        }
+      },
+      "_spacyLemma": "think",
+      "example": "Sharp’s broad mauve thumb whirring down a third bundle of letters, thought that being a witch must save a great deal of time.",
+      "exampleStart": 796,
+      "exampleEnd": 921,
+      "matchedForm": "thought",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.122857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "thumb",
+      "lemma": "thumb",
+      "lemmaId": "thumb",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "thumb_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "большой палец"
+        }
+      },
+      "_spacyLemma": "thumb",
+      "example": "She ran her thumb down the edge of it.",
+      "exampleStart": 606,
+      "exampleEnd": 644,
+      "matchedForm": "thumb",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.714286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "tickets",
+      "lemma": "ticket",
+      "lemmaId": "ticket",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "ticket_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "билет"
+        }
+      },
+      "_spacyLemma": "ticket",
+      "example": "She turned over an old pipe, ribbons, a spray of white heather, menus, concert tickets, and picked up a bundle of old letters.",
+      "exampleStart": 479,
+      "exampleEnd": 605,
+      "matchedForm": "tickets",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.542857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "time",
+      "lemma": "time",
+      "lemmaId": "time",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "time_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "время"
+        }
+      },
+      "_spacyLemma": "time",
+      "example": "Sharp’s broad mauve thumb whirring down a third bundle of letters, thought that being a witch must save a great deal of time.",
+      "exampleStart": 796,
+      "exampleEnd": 921,
+      "matchedForm": "time",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.062857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "troubles",
+      "lemma": "trouble",
+      "lemmaId": "trouble",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "trouble_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "неприятности"
+        }
+      },
+      "_spacyLemma": "trouble",
+      "example": "We are not interested in your troubles.",
+      "exampleStart": 2461,
+      "exampleEnd": 2500,
+      "matchedForm": "troubles",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.491429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "trying",
+      "lemma": "try",
+      "lemmaId": "try",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "try_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "пробовать"
+        }
+      },
+      "_spacyLemma": "try",
+      "example": "He said it in pieces, trying to remember the way Mrs.",
+      "exampleStart": 2956,
+      "exampleEnd": 3009,
+      "matchedForm": "trying",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.288571,
+      "difficultySource": "zipf"
     },
     {
       "word": "turned over",
@@ -795,21 +3115,44 @@
         "startInExample": 4,
         "endInExample": 15
       },
-      "levelSource": "dictionary_phrase"
+      "levelSource": "phrase_index"
+    },
+    {
+      "word": "turned",
+      "lemma": "turn",
+      "lemmaId": "turn",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "turn_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "поворот"
+        }
+      },
+      "_spacyLemma": "turn",
+      "example": "She turned over an old pipe, ribbons, a spray of white heather, menus, concert tickets, and picked up a bundle of old letters.",
+      "exampleStart": 479,
+      "exampleEnd": 605,
+      "matchedForm": "turned",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.34,
+      "difficultySource": "zipf"
     },
     {
       "word": "twitched",
       "lemma": "twitch",
       "lemmaId": "twitch",
-      "pos": "adjective",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "twitch_adjective",
+      "wordKey": "twitch_verb",
       "level": "B2",
       "translations": {
         "ru": {
           "translation": "дергаться"
         }
       },
+      "_spacyLemma": "twitch",
       "example": "Both her little fingers twitched.",
       "exampleStart": 2764,
       "exampleEnd": 2797,
@@ -819,18 +3162,195 @@
       "difficultySource": "zipf"
     },
     {
+      "word": "unfolded",
+      "lemma": "unfold",
+      "lemmaId": "unfold",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "unfold_verb",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "разворачивать"
+        }
+      },
+      "_spacyLemma": "unfold",
+      "example": "She unfolded them.",
+      "exampleStart": 1138,
+      "exampleEnd": 1156,
+      "matchedForm": "unfolded",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.874286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "untied",
+      "lemma": "untie",
+      "lemmaId": "untie",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "untie_verb",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "развязывать"
+        }
+      },
+      "_spacyLemma": "untie",
+      "example": "She untied the pink tape from around the bundle and carefully took out three letters.",
+      "exampleStart": 1052,
+      "exampleEnd": 1137,
+      "matchedForm": "untied",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "use",
+      "lemma": "use",
+      "lemmaId": "use",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "use_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "использовать"
+        }
+      },
+      "_spacyLemma": "use",
+      "example": "No use.",
+      "exampleStart": 768,
+      "exampleEnd": 775,
+      "matchedForm": "use",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.2,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "warming",
+      "lemma": "warm",
+      "lemmaId": "warm",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "warm_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "теплый"
+        }
+      },
+      "_spacyLemma": "warm",
+      "example": "”\n\nGwendolen held her hands spread out above the letters, rather as if she was warming them at a fire.",
+      "exampleStart": 2661,
+      "exampleEnd": 2763,
+      "matchedForm": "warming",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.514286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "warned",
+      "lemma": "warn",
+      "lemmaId": "warn",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "warn_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "предупреждать"
+        }
+      },
+      "_spacyLemma": "warn",
+      "example": "Sir,\n\nYou were warned six years ago that something like what you relate might come to pass, and you made it quite clear that you wished for no help from this quarter.",
+      "exampleStart": 2294,
+      "exampleEnd": 2460,
+      "matchedForm": "warned",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.711429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "watching",
+      "lemma": "watch",
+      "lemmaId": "watch",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "watch_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "смотреть"
+        }
+      },
+      "_spacyLemma": "watch",
+      "example": "” Cat, watching Mrs.",
+      "exampleStart": 775,
+      "exampleEnd": 795,
+      "matchedForm": "watching",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.334286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "way",
+      "lemma": "way",
+      "lemmaId": "way",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "way_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "путь"
+        }
+      },
+      "_spacyLemma": "way",
+      "example": "I still will help, in any way I can, if you let me know what I can do.",
+      "exampleStart": 1963,
+      "exampleEnd": 2033,
+      "matchedForm": "way",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.142857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "weak",
+      "lemma": "weak",
+      "lemmaId": "weak",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "weak_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "слабый"
+        }
+      },
+      "_spacyLemma": "weak",
+      "example": "“And important’s a weak word for it, dearie.",
+      "exampleStart": 3149,
+      "exampleEnd": 3193,
+      "matchedForm": "weak",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.528571,
+      "difficultySource": "zipf"
+    },
+    {
       "word": "whirring",
       "lemma": "whir",
       "lemmaId": "whir",
-      "pos": "adjective",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "whir_adjective",
+      "wordKey": "whir_verb",
       "level": "A2",
       "translations": {
         "ru": {
           "translation": "кружиться"
         }
       },
+      "_spacyLemma": "whir",
       "example": "Sharp’s broad mauve thumb whirring down a third bundle of letters, thought that being a witch must save a great deal of time.",
       "exampleStart": 796,
       "exampleEnd": 921,
@@ -840,13 +3360,35 @@
       "difficultySource": "zipf"
     },
     {
+      "word": "white",
+      "lemma": "white",
+      "lemmaId": "white",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "white_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "белый"
+        }
+      },
+      "_spacyLemma": "white",
+      "example": "She turned over an old pipe, ribbons, a spray of white heather, menus, concert tickets, and picked up a bundle of old letters.",
+      "exampleStart": 479,
+      "exampleEnd": 605,
+      "matchedForm": "white",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.285714,
+      "difficultySource": "zipf"
+    },
+    {
       "word": "wished for",
       "lemma": "wish for",
       "lemmaId": "wish_for",
-      "pos": "phrasal_verb",
-      "type": "phrasal_verb",
+      "pos": "prepositional_verb",
+      "type": "prepositional_verb",
       "source": "dictionary_phrasal",
-      "wordKey": "wish_for_phrasal_verb",
+      "wordKey": "wish_for_prepositional_verb",
       "level": "B2",
       "translations": {
         "ru": {
@@ -864,13 +3406,101 @@
       "levelSource": "dictionary_phrase"
     },
     {
+      "word": "wished",
+      "lemma": "wish",
+      "lemmaId": "wish",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "wish_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "желание"
+        }
+      },
+      "_spacyLemma": "wish",
+      "example": "Sir,\n\nYou were warned six years ago that something like what you relate might come to pass, and you made it quite clear that you wished for no help from this quarter.",
+      "exampleStart": 2294,
+      "exampleEnd": 2460,
+      "matchedForm": "wished",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.38,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "witch",
+      "lemma": "witch",
+      "lemmaId": "witch",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "witch_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "ведьма"
+        }
+      },
+      "_spacyLemma": "witch",
+      "example": "Sharp’s broad mauve thumb whirring down a third bundle of letters, thought that being a witch must save a great deal of time.",
+      "exampleStart": 796,
+      "exampleEnd": 921,
+      "matchedForm": "witch",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.685714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "wondered",
+      "lemma": "wonder",
+      "lemmaId": "wonder",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "wonder_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "чудо"
+        }
+      },
+      "_spacyLemma": "wonder",
+      "example": "Sharp wondered, curious and awestruck.",
+      "exampleStart": 2590,
+      "exampleEnd": 2628,
+      "matchedForm": "wondered",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.451429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "word",
+      "lemma": "word",
+      "lemmaId": "word",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "word_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "слово"
+        }
+      },
+      "_spacyLemma": "word",
+      "example": "“And important’s a weak word for it, dearie.",
+      "exampleStart": 3149,
+      "exampleEnd": 3193,
+      "matchedForm": "word",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.357143,
+      "difficultySource": "zipf"
+    },
+    {
       "word": "written in",
       "lemma": "write in",
       "lemmaId": "write_in",
-      "pos": "phrasal_verb",
-      "type": "phrasal_verb",
+      "pos": "prepositional_verb",
+      "type": "prepositional_verb",
       "source": "dictionary_phrasal",
-      "wordKey": "write_in_phrasal_verb",
+      "wordKey": "write_in_prepositional_verb",
       "level": "B2",
       "translations": {
         "ru": {
@@ -888,49 +3518,707 @@
       "levelSource": "dictionary_phrase"
     },
     {
-      "word": "you think",
-      "lemma": "you think",
-      "lemmaId": "you_think",
-      "pos": "phrase",
-      "type": "phrase",
-      "source": "fixed_expression",
-      "wordKey": "you_think_phrase",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "Ты думаешь"
-        }
-      },
-      "example": "“Well—what do you think, dearie?",
-      "exampleStart": 2629,
-      "exampleEnd": 2661,
-      "phraseMatch": {
-        "text": "you think",
-        "startInExample": 14,
-        "endInExample": 23
-      },
-      "levelSource": "phrase_fallback"
-    },
-    {
-      "word": "yrs",
-      "lemma": "yr",
-      "lemmaId": "yr",
+      "word": "writing",
+      "lemma": "write",
+      "lemmaId": "write",
       "pos": "verb",
       "source": "word",
-      "wordKey": "yr_verb",
+      "wordKey": "write_verb",
       "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "писать"
+        }
+      },
+      "_spacyLemma": "write",
+      "example": "“Now what was he doing writing to your pa?",
+      "exampleStart": 1374,
+      "exampleEnd": 1416,
+      "matchedForm": "writing",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.422857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "years",
+      "lemma": "year",
+      "lemmaId": "year",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "year_noun",
+      "level": "A1",
       "translations": {
         "ru": {
           "translation": "год"
         }
       },
-      "example": "Yrs ever,\n\nChrestomanci\n\nThe second letter was shorter:\n\nDear Chant,\n\nThe same to you.",
-      "exampleStart": 2066,
-      "exampleEnd": 2152,
-      "matchedForm": "Yrs",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 0.777143,
+      "_spacyLemma": "year",
+      "example": "The first was dated twelve years ago, soon after his parents had been married.",
+      "exampleStart": 1779,
+      "exampleEnd": 1857,
+      "matchedForm": "years",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.157143,
       "difficultySource": "zipf"
+    }
+  ],
+  "namedEntities": [
+    {
+      "entityKey": "sharp_person",
+      "text": "Sharp",
+      "normalizedText": "sharp",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 99,
+      "end": 104,
+      "tokenIndexes": [
+        21
+      ],
+      "sentenceStart": 82,
+      "sentenceEnd": 105
+    },
+    {
+      "entityKey": "sharp_person",
+      "text": "Sharp",
+      "normalizedText": "sharp",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 207,
+      "end": 212,
+      "tokenIndexes": [
+        43
+      ],
+      "sentenceStart": 197,
+      "sentenceEnd": 232
+    },
+    {
+      "entityKey": "gwendolen_person",
+      "text": "Gwendolen",
+      "normalizedText": "gwendolen",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 246,
+      "end": 255,
+      "tokenIndexes": [
+        54
+      ],
+      "sentenceStart": 233,
+      "sentenceEnd": 330
+    },
+    {
+      "entityKey": "sharp_person",
+      "text": "Sharp",
+      "normalizedText": "sharp",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 358,
+      "end": 363,
+      "tokenIndexes": [
+        81
+      ],
+      "sentenceStart": 353,
+      "sentenceEnd": 392
+    },
+    {
+      "entityKey": "sharp_person",
+      "text": "Sharp",
+      "normalizedText": "sharp",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 796,
+      "end": 801,
+      "tokenIndexes": [
+        191
+      ],
+      "sentenceStart": 777,
+      "sentenceEnd": 921
+    },
+    {
+      "entityKey": "third_ordinal",
+      "text": "third",
+      "normalizedText": "third",
+      "entityType": "ORDINAL",
+      "spacyLabel": "ORDINAL",
+      "entityCategory": "quantity",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 838,
+      "end": 843,
+      "tokenIndexes": [
+        199
+      ],
+      "sentenceStart": 777,
+      "sentenceEnd": 921
+    },
+    {
+      "entityKey": "sharp_person",
+      "text": "Sharp",
+      "normalizedText": "sharp",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 952,
+      "end": 957,
+      "tokenIndexes": [
+        224
+      ],
+      "sentenceStart": 922,
+      "sentenceEnd": 958
+    },
+    {
+      "entityKey": "three_cardinal",
+      "text": "three",
+      "normalizedText": "three",
+      "entityType": "CARDINAL",
+      "spacyLabel": "CARDINAL",
+      "entityCategory": "quantity",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 1123,
+      "end": 1128,
+      "tokenIndexes": [
+        263
+      ],
+      "sentenceStart": 1052,
+      "sentenceEnd": 1137
+    },
+    {
+      "entityKey": "chrestomanci_person",
+      "text": "Chrestomanci",
+      "normalizedText": "chrestomanci",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1159,
+      "end": 1171,
+      "tokenIndexes": [
+        272
+      ],
+      "sentenceStart": 1158,
+      "sentenceEnd": 1173
+    },
+    {
+      "entityKey": "gwendolen_person",
+      "text": "Gwendolen",
+      "normalizedText": "gwendolen",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1477,
+      "end": 1486,
+      "tokenIndexes": [
+        352
+      ],
+      "sentenceStart": 1459,
+      "sentenceEnd": 1489
+    },
+    {
+      "entityKey": "sharp_person",
+      "text": "Sharp",
+      "normalizedText": "sharp",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1494,
+      "end": 1499,
+      "tokenIndexes": [
+        356
+      ],
+      "sentenceStart": 1489,
+      "sentenceEnd": 1588
+    },
+    {
+      "entityKey": "three_cardinal",
+      "text": "three",
+      "normalizedText": "three",
+      "entityType": "CARDINAL",
+      "spacyLabel": "CARDINAL",
+      "entityCategory": "quantity",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 1511,
+      "end": 1516,
+      "tokenIndexes": [
+        359
+      ],
+      "sentenceStart": 1489,
+      "sentenceEnd": 1588
+    },
+    {
+      "entityKey": "gwendolen_person",
+      "text": "Gwendolen",
+      "normalizedText": "gwendolen",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1555,
+      "end": 1564,
+      "tokenIndexes": [
+        368
+      ],
+      "sentenceStart": 1489,
+      "sentenceEnd": 1588
+    },
+    {
+      "entityKey": "first_ordinal",
+      "text": "first",
+      "normalizedText": "first",
+      "entityType": "ORDINAL",
+      "spacyLabel": "ORDINAL",
+      "entityCategory": "quantity",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 1593,
+      "end": 1598,
+      "tokenIndexes": [
+        376
+      ],
+      "sentenceStart": 1589,
+      "sentenceEnd": 1668
+    },
+    {
+      "entityKey": "cat_org",
+      "text": "Cat",
+      "normalizedText": "cat",
+      "entityType": "ORG",
+      "spacyLabel": "ORG",
+      "entityCategory": "organization_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1617,
+      "end": 1620,
+      "tokenIndexes": [
+        380
+      ],
+      "sentenceStart": 1589,
+      "sentenceEnd": 1668
+    },
+    {
+      "entityKey": "three_cardinal",
+      "text": "three",
+      "normalizedText": "three",
+      "entityType": "CARDINAL",
+      "spacyLabel": "CARDINAL",
+      "entityCategory": "quantity",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 1660,
+      "end": 1665,
+      "tokenIndexes": [
+        389
+      ],
+      "sentenceStart": 1589,
+      "sentenceEnd": 1668
+    },
+    {
+      "entityKey": "two_cardinal",
+      "text": "two",
+      "normalizedText": "two",
+      "entityType": "CARDINAL",
+      "spacyLabel": "CARDINAL",
+      "entityCategory": "quantity",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 1699,
+      "end": 1702,
+      "tokenIndexes": [
+        399
+      ],
+      "sentenceStart": 1668,
+      "sentenceEnd": 1778
+    },
+    {
+      "entityKey": "first_ordinal",
+      "text": "first",
+      "normalizedText": "first",
+      "entityType": "ORDINAL",
+      "spacyLabel": "ORDINAL",
+      "entityCategory": "quantity",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 1783,
+      "end": 1788,
+      "tokenIndexes": [
+        415
+      ],
+      "sentenceStart": 1779,
+      "sentenceEnd": 1857
+    },
+    {
+      "entityKey": "twelve_years_ago_date",
+      "text": "twelve years ago",
+      "normalizedText": "twelve years ago",
+      "entityType": "DATE",
+      "spacyLabel": "DATE",
+      "entityCategory": "date_time",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 1799,
+      "end": 1815,
+      "tokenIndexes": [
+        418,
+        419,
+        420
+      ],
+      "sentenceStart": 1779,
+      "sentenceEnd": 1857
+    },
+    {
+      "entityKey": "chrestomanci_person",
+      "text": "Chrestomanci",
+      "normalizedText": "chrestomanci",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2077,
+      "end": 2089,
+      "tokenIndexes": [
+        492
+      ],
+      "sentenceStart": 2066,
+      "sentenceEnd": 2123
+    },
+    {
+      "entityKey": "second_ordinal",
+      "text": "second",
+      "normalizedText": "second",
+      "entityType": "ORDINAL",
+      "spacyLabel": "ORDINAL",
+      "entityCategory": "quantity",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 2095,
+      "end": 2101,
+      "tokenIndexes": [
+        495
+      ],
+      "sentenceStart": 2066,
+      "sentenceEnd": 2123
+    },
+    {
+      "entityKey": "chrestomanci_person",
+      "text": "Chrestomanci",
+      "normalizedText": "chrestomanci",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2168,
+      "end": 2180,
+      "tokenIndexes": [
+        515
+      ],
+      "sentenceStart": 2168,
+      "sentenceEnd": 2259
+    },
+    {
+      "entityKey": "third_ordinal",
+      "text": "third",
+      "normalizedText": "third",
+      "entityType": "ORDINAL",
+      "spacyLabel": "ORDINAL",
+      "entityCategory": "quantity",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 2186,
+      "end": 2191,
+      "tokenIndexes": [
+        518
+      ],
+      "sentenceStart": 2168,
+      "sentenceEnd": 2259
+    },
+    {
+      "entityKey": "six_years_ago_date",
+      "text": "six years ago",
+      "normalizedText": "six years ago",
+      "entityType": "DATE",
+      "spacyLabel": "DATE",
+      "entityCategory": "date_time",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 2209,
+      "end": 2222,
+      "tokenIndexes": [
+        522,
+        523,
+        524
+      ],
+      "sentenceStart": 2168,
+      "sentenceEnd": 2259
+    },
+    {
+      "entityKey": "chrestomanci_person",
+      "text": "Chrestomanci",
+      "normalizedText": "chrestomanci",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2260,
+      "end": 2272,
+      "tokenIndexes": [
+        534
+      ],
+      "sentenceStart": 2260,
+      "sentenceEnd": 2294
+    },
+    {
+      "entityKey": "six_years_ago_date",
+      "text": "six years ago",
+      "normalizedText": "six years ago",
+      "entityType": "DATE",
+      "spacyLabel": "DATE",
+      "entityCategory": "date_time",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 2316,
+      "end": 2329,
+      "tokenIndexes": [
+        547,
+        548,
+        549
+      ],
+      "sentenceStart": 2294,
+      "sentenceEnd": 2460
+    },
+    {
+      "entityKey": "this_quarter_date",
+      "text": "this quarter",
+      "normalizedText": "this quarter",
+      "entityType": "DATE",
+      "spacyLabel": "DATE",
+      "entityCategory": "date_time",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 2447,
+      "end": 2459,
+      "tokenIndexes": [
+        574,
+        575
+      ],
+      "sentenceStart": 2294,
+      "sentenceEnd": 2460
+    },
+    {
+      "entityKey": "chrestomanci_person",
+      "text": "Chrestomanci",
+      "normalizedText": "chrestomanci",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2540,
+      "end": 2552,
+      "tokenIndexes": [
+        593
+      ],
+      "sentenceStart": 2540,
+      "sentenceEnd": 2584
+    },
+    {
+      "entityKey": "sharp_person",
+      "text": "Sharp",
+      "normalizedText": "sharp",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2590,
+      "end": 2595,
+      "tokenIndexes": [
+        606
+      ],
+      "sentenceStart": 2585,
+      "sentenceEnd": 2628
+    },
+    {
+      "entityKey": "gwendolen_person",
+      "text": "Gwendolen",
+      "normalizedText": "gwendolen",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2664,
+      "end": 2673,
+      "tokenIndexes": [
+        625
+      ],
+      "sentenceStart": 2664,
+      "sentenceEnd": 2763
+    },
+    {
+      "entityKey": "first_ordinal",
+      "text": "first",
+      "normalizedText": "first",
+      "entityType": "ORDINAL",
+      "spacyLabel": "ORDINAL",
+      "entityCategory": "quantity",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 2848,
+      "end": 2853,
+      "tokenIndexes": [
+        664
+      ],
+      "sentenceStart": 2813,
+      "sentenceEnd": 2896
+    },
+    {
+      "entityKey": "who_s_chrestomanci_work_of_art",
+      "text": "Who’s Chrestomanci",
+      "normalizedText": "who’s chrestomanci",
+      "entityType": "WORK_OF_ART",
+      "spacyLabel": "WORK_OF_ART",
+      "entityCategory": "work_or_event_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2897,
+      "end": 2915,
+      "tokenIndexes": [
+        677,
+        678,
+        679
+      ],
+      "sentenceStart": 2896,
+      "sentenceEnd": 2917
+    },
+    {
+      "entityKey": "sharp_person",
+      "text": "Sharp",
+      "normalizedText": "sharp",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 3010,
+      "end": 3015,
+      "tokenIndexes": [
+        705
+      ],
+      "sentenceStart": 2956,
+      "sentenceEnd": 3046
+    },
+    {
+      "entityKey": "sharp_person",
+      "text": "Sharp",
+      "normalizedText": "sharp",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 3142,
+      "end": 3147,
+      "tokenIndexes": [
+        748
+      ],
+      "sentenceStart": 3047,
+      "sentenceEnd": 3148
+    },
+    {
+      "entityKey": "three_cardinal",
+      "text": "Three",
+      "normalizedText": "three",
+      "entityType": "CARDINAL",
+      "spacyLabel": "CARDINAL",
+      "entityCategory": "quantity",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 3321,
+      "end": 3326,
+      "tokenIndexes": [
+        793
+      ],
+      "sentenceStart": 3321,
+      "sentenceEnd": 3346
+    },
+    {
+      "entityKey": "nostrum_person",
+      "text": "Nostrum",
+      "normalizedText": "nostrum",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 3351,
+      "end": 3358,
+      "tokenIndexes": [
+        798
+      ],
+      "sentenceStart": 3347,
+      "sentenceEnd": 3397
     }
   ]
 }

@@ -21,661 +21,4775 @@
       "wordCount": 791,
       "uniqueWordCount": 384,
       "paragraphCount": 10,
-      "vocabularyCount": 23,
+      "vocabularyCount": 171,
       "levelDistribution": {
-        "A1": 0,
-        "A2": 0,
-        "B1": 0,
-        "B2": 15,
+        "A1": 63,
+        "A2": 39,
+        "B1": 12,
+        "B2": 47,
         "C1": 7,
-        "C2": 1
+        "C2": 3
       }
     }
   },
   "vocabulary": [
     {
+      "word": "aback",
+      "lemma": "aback",
+      "lemmaId": "aback",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "aback_adverb",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "спина"
+        }
+      },
+      "_spacyLemma": "aback",
+      "example": "She stared at what she had written, rather taken aback at her own daring.",
+      "exampleStart": 1222,
+      "exampleEnd": 1295,
+      "matchedForm": "aback",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "actually",
+      "lemma": "actually",
+      "lemmaId": "actually",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "actually_adverb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "фактически"
+        }
+      },
+      "_spacyLemma": "actually",
+      "example": "When he wrote I do not like porridge, that was actually true, but porridge was his code word for Simon Silverson.",
+      "exampleStart": 2713,
+      "exampleEnd": 2826,
+      "matchedForm": "actually",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.291429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "amused",
+      "lemma": "amuse",
+      "lemmaId": "amuse",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "amuse_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "развлечение"
+        }
+      },
+      "_spacyLemma": "amuse",
+      "example": "Second lesson had been PE, during which Nan Pilgrim had so much amused Theresa Mullett by failing to jump the horse, and the lesson to come was music, not games.",
+      "exampleStart": 2312,
+      "exampleEnd": 2473,
+      "matchedForm": "amused",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.968571,
+      "difficultySource": "zipf"
+    },
+    {
       "word": "astonished",
       "lemma": "astonish",
       "lemmaId": "astonish",
-      "pos": "adjective",
-      "wordKey": "astonish_adjective",
-      "level": "C1",
-      "ipa": "əˈstɒnɪʃt",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "astonish_verb",
+      "level": "B2",
       "translations": {
-        "de": {
-          "translation": "erstaunt"
-        },
-        "es": {
-          "translation": "asombrado"
-        },
         "ru": {
-          "translation": "поражённый"
-        },
-        "uk": {
-          "translation": "здивований"
+          "translation": "изумительный"
         }
       },
-      "definition": "Very surprised or amazed.",
+      "_spacyLemma": "astonish",
       "example": "It always astonished him that Bernadine seemed to forget about it completely.",
       "exampleStart": 4023,
       "exampleEnd": 4100,
-      "matchedForm": "astonished"
+      "matchedForm": "astonished",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "away",
+      "lemma": "away",
+      "lemmaId": "away",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "away_adverb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "уходить"
+        }
+      },
+      "_spacyLemma": "away",
+      "example": "Two desks away from Nirupam, Dan Smith chewed his pen a great deal and finally wrote, Well I mean it’s not much good if you’ve got to write your secret fealings, what I mean is it takes all the joy out of it and you don’t know what to write.",
+      "exampleStart": 316,
+      "exampleEnd": 557,
+      "matchedForm": "away",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.254286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "awful",
+      "lemma": "awful",
+      "lemmaId": "awful",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "awful_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "ужасный"
+        }
+      },
+      "_spacyLemma": "awful",
+      "example": "“Only awful people do that!",
+      "exampleStart": 3894,
+      "exampleEnd": 3921,
+      "matchedForm": "awful",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.585714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "been in",
+      "lemma": "be in",
+      "lemmaId": "be_in",
+      "pos": "prepositional_verb",
+      "type": "prepositional_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "be_in_prepositional_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "был в"
+        }
+      },
+      "example": "He had been so young that he had been in a stroller.",
+      "exampleStart": 3278,
+      "exampleEnd": 3330,
+      "phraseMatch": {
+        "text": "been in",
+        "startInExample": 33,
+        "endInExample": 40
+      },
+      "levelSource": "phrase_index"
+    },
+    {
+      "word": "bear",
+      "lemma": "bear",
+      "lemmaId": "bear",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "bear_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "медведь"
+        }
+      },
+      "_spacyLemma": "bear",
+      "example": "Teddy Crossley’s real name is Harold, but he got called Teddy out of the hymn that goes “Gladly my cross I’d bear.",
+      "exampleStart": 1584,
+      "exampleEnd": 1698,
+      "matchedForm": "bear",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.514286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "big",
+      "lemma": "big",
+      "lemmaId": "big",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "big_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "большой"
+        }
+      },
+      "_spacyLemma": "big",
+      "example": "His big sister Bernadine had been pushing him while his mother carried the shopping, and they had been crossing a road where there was a view down into the Market Square.",
+      "exampleStart": 3331,
+      "exampleEnd": 3501,
+      "matchedForm": "big",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.24,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "bonfire",
+      "lemma": "bonfire",
+      "lemmaId": "bonfire",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "bonfire_noun",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "костёр"
+        }
+      },
+      "_spacyLemma": "bonfire",
+      "example": "She and Charles had just time to glimpse the bonfire starting to burn, and they had seen that the witch was a large fat man.",
+      "exampleStart": 3650,
+      "exampleEnd": 3774,
+      "matchedForm": "bonfire",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.908571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "boring",
+      "lemma": "boring",
+      "lemmaId": "boring",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "boring_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "скучный"
+        }
+      },
+      "_spacyLemma": "boring",
+      "example": "The chances of Miss Cadwallader reading this one had to be very small—particularly if she went on and made it really boring.",
+      "exampleStart": 1425,
+      "exampleEnd": 1549,
+      "matchedForm": "boring",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.594286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "bread",
+      "lemma": "bread",
+      "lemmaId": "bread",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "bread_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "хлеб"
+        }
+      },
+      "_spacyLemma": "bread",
+      "example": "Simon was porridge at breakfast, potatoes at lunch, and bread at tea.",
+      "exampleStart": 2827,
+      "exampleEnd": 2896,
+      "matchedForm": "bread",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.574286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "breakfast",
+      "lemma": "breakfast",
+      "lemmaId": "breakfast",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "breakfast_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "завтрак"
+        }
+      },
+      "_spacyLemma": "breakfast",
+      "example": "I felt hot at breakfast.",
+      "exampleStart": 1987,
+      "exampleEnd": 2011,
+      "matchedForm": "breakfast",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.542857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "burned",
+      "lemma": "burn",
+      "lemmaId": "burn",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "burn_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "ожог"
+        }
+      },
+      "_spacyLemma": "burn",
+      "example": "He meant he was remembering the witch being burned.",
+      "exampleStart": 3096,
+      "exampleEnd": 3147,
+      "matchedForm": "burned",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.565714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "bus",
+      "lemma": "bus",
+      "lemmaId": "bus",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "bus_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "автобус"
+        }
+      },
+      "_spacyLemma": "bus",
+      "example": "During geography I planned a bus journey from London to Baghdad via Paris.",
+      "exampleStart": 922,
+      "exampleEnd": 996,
+      "matchedForm": "bus",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.48,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "butter",
+      "lemma": "butter",
+      "lemmaId": "butter",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "butter_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "масло"
+        }
+      },
+      "_spacyLemma": "butter",
+      "example": "Dan Smith was cornflakes, cabbage, and butter.",
+      "exampleStart": 2947,
+      "exampleEnd": 2993,
+      "matchedForm": "butter",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.602857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "cabbage",
+      "lemma": "cabbage",
+      "lemmaId": "cabbage",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "cabbage_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "капуста"
+        }
+      },
+      "_spacyLemma": "cabbage",
+      "example": "Dan Smith was cornflakes, cabbage, and butter.",
+      "exampleStart": 2947,
+      "exampleEnd": 2993,
+      "matchedForm": "cabbage",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.845714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "called out",
+      "lemma": "call out",
+      "lemmaId": "call_out",
+      "pos": "prepositional_verb",
+      "type": "prepositional_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "call_out_prepositional_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Выкрикнули"
+        }
+      },
+      "example": "Teddy Crossley’s real name is Harold, but he got called Teddy out of the hymn that goes “Gladly my cross I’d bear.",
+      "exampleStart": 1584,
+      "exampleEnd": 1698,
+      "phraseMatch": {
+        "text": "called Teddy out",
+        "startInExample": 49,
+        "endInExample": 65
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "called",
+      "lemma": "call",
+      "lemmaId": "call",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "call_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "звонить"
+        }
+      },
+      "_spacyLemma": "call",
+      "example": "Teddy Crossley’s real name is Harold, but he got called Teddy out of the hymn that goes “Gladly my cross I’d bear.",
+      "exampleStart": 1584,
+      "exampleEnd": 1698,
+      "matchedForm": "called",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.285714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "carried",
+      "lemma": "carry",
+      "lemmaId": "carry",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "carry_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "перевозить"
+        }
+      },
+      "_spacyLemma": "carry",
+      "example": "His big sister Bernadine had been pushing him while his mother carried the shopping, and they had been crossing a road where there was a view down into the Market Square.",
+      "exampleStart": 3331,
+      "exampleEnd": 3501,
+      "matchedForm": "carried",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.462857,
+      "difficultySource": "zipf"
     },
     {
       "word": "chances",
       "lemma": "chance",
       "lemmaId": "chance",
       "pos": "noun",
+      "source": "word",
       "wordKey": "chance_noun",
       "level": "B2",
-      "ipa": "tʃæns",
       "translations": {
-        "de": {
-          "translation": "Chance"
-        },
-        "es": {
-          "translation": "posibilidades"
-        },
         "ru": {
-          "translation": "шансы"
-        },
-        "uk": {
           "translation": "шанс"
         }
       },
-      "definition": "Possibilities or probabilities of something happening.",
+      "_spacyLemma": "chance",
       "example": "The chances of Miss Cadwallader reading this one had to be very small—particularly if she went on and made it really boring.",
       "exampleStart": 1425,
       "exampleEnd": 1549,
-      "matchedForm": "chances"
+      "matchedForm": "chances",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.357143,
+      "difficultySource": "zipf"
     },
     {
       "word": "chewed",
       "lemma": "chew",
       "lemmaId": "chew",
-      "pos": "adjective",
-      "wordKey": "chew_adjective",
-      "level": "B2",
-      "ipa": "tʃuː",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "chew_verb",
+      "level": "A2",
       "translations": {
-        "de": {
-          "translation": "kauen"
-        },
-        "es": {
-          "translation": "masticar"
-        },
         "ru": {
           "translation": "жевать"
-        },
-        "uk": {
-          "translation": "жувати"
         }
       },
-      "definition": "To bite and work (food) in the mouth with the teeth.",
+      "_spacyLemma": "chew",
       "example": "Two desks away from Nirupam, Dan Smith chewed his pen a great deal and finally wrote, Well I mean it’s not much good if you’ve got to write your secret fealings, what I mean is it takes all the joy out of it and you don’t know what to write.",
       "exampleStart": 316,
       "exampleEnd": 557,
-      "matchedForm": "chewed"
+      "matchedForm": "chewed",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.814286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "chilly",
+      "lemma": "chilly",
+      "lemmaId": "chilly",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "chilly_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "холодный"
+        }
+      },
+      "_spacyLemma": "chilly",
+      "example": "Anyone in 6B would have told you that it had been a chilly morning and there had been cornflakes for breakfast.",
+      "exampleStart": 2200,
+      "exampleEnd": 2311,
+      "matchedForm": "chilly",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.86,
+      "difficultySource": "zipf"
     },
     {
       "word": "code",
       "lemma": "code",
       "lemmaId": "code",
       "pos": "noun",
+      "source": "word",
       "wordKey": "code_noun",
       "level": "B2",
-      "ipa": "koʊd",
       "translations": {
-        "de": {
-          "translation": "Code"
-        },
-        "es": {
-          "translation": "código"
-        },
         "ru": {
-          "translation": "шифр"
-        },
-        "uk": {
           "translation": "код"
         }
       },
-      "definition": "A system of signals or symbols used to represent secret information.",
+      "_spacyLemma": "code",
       "example": "He really was writing about his secret feelings, but he was doing it in his own private code so that no one could know.",
       "exampleStart": 2524,
       "exampleEnd": 2643,
-      "matchedForm": "code"
+      "matchedForm": "code",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.408571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "came back",
+      "lemma": "come back",
+      "lemmaId": "come_back",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_back_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "вернулся"
+        }
+      },
+      "example": "Then their mother came rushing back and scolded Bernadine on across the road.",
+      "exampleStart": 3775,
+      "exampleEnd": 3852,
+      "phraseMatch": {
+        "text": "came rushing back",
+        "startInExample": 18,
+        "endInExample": 35
+      },
+      "levelSource": "phrase_index"
+    },
+    {
+      "word": "coming into",
+      "lemma": "come into",
+      "lemmaId": "come_into",
+      "pos": "prepositional_verb",
+      "type": "prepositional_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_into_prepositional_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Вход"
+        }
+      },
+      "example": "It was a thing that would keep coming into his head whenever he was not thinking of anything else, much as he tried to forget it.",
+      "exampleStart": 3148,
+      "exampleEnd": 3277,
+      "phraseMatch": {
+        "text": "coming into",
+        "startInExample": 31,
+        "endInExample": 42
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "came",
+      "lemma": "come",
+      "lemmaId": "come",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "come_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "приходить"
+        }
+      },
+      "_spacyLemma": "come",
+      "example": "I will now describe the Indian rope trick which I saw in India before my father came to live in England .",
+      "exampleStart": 205,
+      "exampleEnd": 310,
+      "matchedForm": "came",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.208571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "completely",
+      "lemma": "completely",
+      "lemmaId": "completely",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "completely_adverb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "полностью"
+        }
+      },
+      "_spacyLemma": "completely",
+      "example": "It always astonished him that Bernadine seemed to forget about it completely.",
+      "exampleStart": 4023,
+      "exampleEnd": 4100,
+      "matchedForm": "completely",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.431429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "cornflakes",
+      "lemma": "cornflake",
+      "lemmaId": "cornflake",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "cornflake_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "кукурузная хлопья"
+        }
+      },
+      "_spacyLemma": "cornflake",
+      "example": "Anyone in 6B would have told you that it had been a chilly morning and there had been cornflakes for breakfast.",
+      "exampleStart": 2200,
+      "exampleEnd": 2311,
+      "matchedForm": "cornflakes",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "course",
+      "lemma": "course",
+      "lemmaId": "course",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "course_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "курс"
+        }
+      },
+      "_spacyLemma": "course",
+      "example": "” But of course everyone sings “Crossley my glad-eyed bear.",
+      "exampleStart": 1698,
+      "exampleEnd": 1757,
+      "matchedForm": "course",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.305714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "cross",
+      "lemma": "cross",
+      "lemmaId": "cross",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "cross_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "крест"
+        }
+      },
+      "_spacyLemma": "cross",
+      "example": "Teddy Crossley’s real name is Harold, but he got called Teddy out of the hymn that goes “Gladly my cross I’d bear.",
+      "exampleStart": 1584,
+      "exampleEnd": 1698,
+      "matchedForm": "cross",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.431429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "crossing",
+      "lemma": "cross",
+      "lemmaId": "cross",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "cross_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "крест"
+        }
+      },
+      "_spacyLemma": "cross",
+      "example": "Teddy Crossley’s real name is Harold, but he got called Teddy out of the hymn that goes “Gladly my cross I’d bear.",
+      "exampleStart": 1584,
+      "exampleEnd": 1698,
+      "matchedForm": "cross",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.431429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "crowds",
+      "lemma": "crowd",
+      "lemmaId": "crowd",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "crowd_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "толпа"
+        }
+      },
+      "_spacyLemma": "crowd",
+      "example": "There were crowds of people down there, and a sort of flickering.",
+      "exampleStart": 3502,
+      "exampleEnd": 3567,
+      "matchedForm": "crowds",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.517143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "daily",
+      "lemma": "daily",
+      "lemmaId": "daily",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "daily_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "ежедневно"
+        }
+      },
+      "_spacyLemma": "daily",
+      "example": "Still, she thought, there were hundreds of journals and hundreds of daily entries.",
+      "exampleStart": 1342,
+      "exampleEnd": 1424,
+      "matchedForm": "daily",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.411429,
+      "difficultySource": "zipf"
     },
     {
       "word": "daring",
-      "lemma": "dare",
-      "lemmaId": "dare",
-      "pos": "adjective",
-      "wordKey": "dare_adjective",
-      "level": "C1",
-      "ipa": "ˈdɛərɪŋ",
+      "lemma": "daring",
+      "lemmaId": "daring",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "daring_noun",
+      "level": "A2",
       "translations": {
-        "de": {
-          "translation": "kühn"
-        },
-        "es": {
-          "translation": "atrevido"
-        },
         "ru": {
           "translation": "смелый"
-        },
-        "uk": {
-          "translation": "сміливий"
         }
       },
-      "definition": "Showing courage or willingness to take risks.",
+      "_spacyLemma": "daring",
       "example": "She stared at what she had written, rather taken aback at her own daring.",
       "exampleStart": 1222,
       "exampleEnd": 1295,
-      "matchedForm": "daring"
+      "matchedForm": "daring",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.802857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "deal",
+      "lemma": "deal",
+      "lemmaId": "deal",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "deal_noun",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "сделка"
+        }
+      },
+      "_spacyLemma": "deal",
+      "example": "Two desks away from Nirupam, Dan Smith chewed his pen a great deal and finally wrote, Well I mean it’s not much good if you’ve got to write your secret fealings, what I mean is it takes all the joy out of it and you don’t know what to write.",
+      "exampleStart": 316,
+      "exampleEnd": 557,
+      "matchedForm": "deal",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.34,
+      "difficultySource": "zipf"
     },
     {
       "word": "describe",
       "lemma": "describe",
       "lemmaId": "describe",
-      "pos": "noun",
-      "wordKey": "describe_noun",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "describe_verb",
       "level": "B2",
-      "ipa": "dɪˈskraɪb",
       "translations": {
-        "de": {
-          "translation": "beschreiben"
-        },
-        "es": {
-          "translation": "describir"
-        },
         "ru": {
-          "translation": "описывать"
-        },
-        "uk": {
-          "translation": "описувати"
+          "translation": "описание"
         }
       },
-      "definition": "To give an account of something in words.",
+      "_spacyLemma": "describe",
       "example": "I will now describe the Indian rope trick which I saw in India before my father came to live in England .",
       "exampleStart": 205,
       "exampleEnd": 310,
-      "matchedForm": "describe"
+      "matchedForm": "describe",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.557143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "desks",
+      "lemma": "desk",
+      "lemmaId": "desk",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "desk_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "стол"
+        }
+      },
+      "_spacyLemma": "desk",
+      "example": "Two desks away from Nirupam, Dan Smith chewed his pen a great deal and finally wrote, Well I mean it’s not much good if you’ve got to write your secret fealings, what I mean is it takes all the joy out of it and you don’t know what to write.",
+      "exampleStart": 316,
+      "exampleEnd": 557,
+      "matchedForm": "desks",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.594286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "eating",
+      "lemma": "eat",
+      "lemmaId": "eat",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "eat_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "есть"
+        }
+      },
+      "_spacyLemma": "eat",
+      "example": "What Charles was really saying in his journal was that the witch came into his head during breakfast, until Simon Silverson made him forget again by eating all that toast.",
+      "exampleStart": 4101,
+      "exampleEnd": 4272,
+      "matchedForm": "eating",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.394286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "entry",
+      "lemma": "entry",
+      "lemmaId": "entry",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "entry_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "вход"
+        }
+      },
+      "_spacyLemma": "entry",
+      "example": "His entry read, I got up.",
+      "exampleStart": 1961,
+      "exampleEnd": 1986,
+      "matchedForm": "entry",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.525714,
+      "difficultySource": "zipf"
     },
     {
       "word": "entries",
       "lemma": "entry",
       "lemmaId": "entry",
       "pos": "noun",
+      "source": "word",
       "wordKey": "entry_noun",
       "level": "B2",
-      "ipa": "ˈɛntri",
       "translations": {
-        "de": {
-          "translation": "Einträge"
-        },
-        "es": {
-          "translation": "entradas"
-        },
         "ru": {
-          "translation": "записи"
-        },
-        "uk": {
-          "translation": "записи"
+          "translation": "вход"
         }
       },
-      "definition": "Individual items written or recorded, especially in a list or journal.",
+      "_spacyLemma": "entry",
       "example": "Still, she thought, there were hundreds of journals and hundreds of daily entries.",
       "exampleStart": 1342,
       "exampleEnd": 1424,
-      "matchedForm": "entries"
+      "matchedForm": "entries",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.525714,
+      "difficultySource": "zipf"
     },
     {
       "word": "failing",
       "lemma": "fail",
       "lemmaId": "fail",
-      "pos": "noun",
-      "wordKey": "fail_noun",
-      "level": "B2",
-      "ipa": "ˈfeɪlɪŋ",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "fail_verb",
+      "level": "B1",
       "translations": {
-        "de": {
-          "translation": "versagen"
-        },
-        "es": {
-          "translation": "fallar"
-        },
         "ru": {
-          "translation": "терпеть неудачу"
-        },
-        "uk": {
-          "translation": "терпіти невдачу"
+          "translation": "провал"
         }
       },
-      "definition": "To be unsuccessful in achieving a goal.",
+      "_spacyLemma": "fail",
       "example": "Second lesson had been PE, during which Nan Pilgrim had so much amused Theresa Mullett by failing to jump the horse, and the lesson to come was music, not games.",
       "exampleStart": 2312,
       "exampleEnd": 2473,
-      "matchedForm": "failing"
+      "matchedForm": "failing",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.542857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "fat",
+      "lemma": "fat",
+      "lemmaId": "fat",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "fat_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "жирный"
+        }
+      },
+      "_spacyLemma": "fat",
+      "example": "She and Charles had just time to glimpse the bonfire starting to burn, and they had seen that the witch was a large fat man.",
+      "exampleStart": 3650,
+      "exampleEnd": 3774,
+      "matchedForm": "fat",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.474286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "father",
+      "lemma": "father",
+      "lemmaId": "father",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "father_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "отец"
+        }
+      },
+      "_spacyLemma": "father",
+      "example": "I will now describe the Indian rope trick which I saw in India before my father came to live in England .",
+      "exampleStart": 205,
+      "exampleEnd": 310,
+      "matchedForm": "father",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.357143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "fealings",
+      "lemma": "fealing",
+      "lemmaId": "fealing",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "fealing_noun",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "оплодотворение"
+        }
+      },
+      "_spacyLemma": "fealing",
+      "example": "Two desks away from Nirupam, Dan Smith chewed his pen a great deal and finally wrote, Well I mean it’s not much good if you’ve got to write your secret fealings, what I mean is it takes all the joy out of it and you don’t know what to write.",
+      "exampleStart": 316,
+      "exampleEnd": 557,
+      "matchedForm": "fealings",
+      "levelSource": "difficulty_heuristic"
+    },
+    {
+      "word": "felt",
+      "lemma": "feel",
+      "lemmaId": "feel",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "feel_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "чувствовать"
+        }
+      },
+      "_spacyLemma": "feel",
+      "example": "I do not think, Estelle Green wrote, that I have any secret feelings today, but I would like to know what is in the note from Miss Hodge that Teddy has just found.",
+      "exampleStart": 611,
+      "exampleEnd": 774,
+      "matchedForm": "feelings",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.24,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "feelings",
+      "lemma": "feeling",
+      "lemmaId": "feeling",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "feeling_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "чувство"
+        }
+      },
+      "_spacyLemma": "feeling",
+      "example": "I do not think, Estelle Green wrote, that I have any secret feelings today, but I would like to know what is in the note from Miss Hodge that Teddy has just found.",
+      "exampleStart": 611,
+      "exampleEnd": 774,
+      "matchedForm": "feelings",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.394286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "finally",
+      "lemma": "finally",
+      "lemmaId": "finally",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "finally_adverb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "наконец"
+        }
+      },
+      "_spacyLemma": "finally",
+      "example": "Two desks away from Nirupam, Dan Smith chewed his pen a great deal and finally wrote, Well I mean it’s not much good if you’ve got to write your secret fealings, what I mean is it takes all the joy out of it and you don’t know what to write.",
+      "exampleStart": 316,
+      "exampleEnd": 557,
+      "matchedForm": "finally",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.382857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "found",
+      "lemma": "find",
+      "lemmaId": "find",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "find_verb",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "найти"
+        }
+      },
+      "_spacyLemma": "find",
+      "example": "I do not think, Estelle Green wrote, that I have any secret feelings today, but I would like to know what is in the note from Miss Hodge that Teddy has just found.",
+      "exampleStart": 611,
+      "exampleEnd": 774,
+      "matchedForm": "found",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.214286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "flickering",
+      "lemma": "flickering",
+      "lemmaId": "flickering",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "flickering_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "мерцание"
+        }
+      },
+      "_spacyLemma": "flickering",
+      "example": "There were crowds of people down there, and a sort of flickering.",
+      "exampleStart": 3502,
+      "exampleEnd": 3567,
+      "matchedForm": "flickering",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "forget",
+      "lemma": "forget",
+      "lemmaId": "forget",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "forget_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "забыть"
+        }
+      },
+      "_spacyLemma": "forget",
+      "example": "It was a thing that would keep coming into his head whenever he was not thinking of anything else, much as he tried to forget it.",
+      "exampleStart": 3148,
+      "exampleEnd": 3277,
+      "matchedForm": "forget",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.414286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "games",
+      "lemma": "game",
+      "lemmaId": "game",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "game_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "игра"
+        }
+      },
+      "_spacyLemma": "game",
+      "example": "I think we have games next.",
+      "exampleStart": 2081,
+      "exampleEnd": 2108,
+      "matchedForm": "games",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.225714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "geography",
+      "lemma": "geography",
+      "lemmaId": "geography",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "geography_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "география"
+        }
+      },
+      "_spacyLemma": "geography",
+      "example": "During geography I planned a bus journey from London to Baghdad via Paris.",
+      "exampleStart": 922,
+      "exampleEnd": 996,
+      "matchedForm": "geography",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.722857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "got",
+      "lemma": "get",
+      "lemmaId": "get",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "get_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "получать"
+        }
+      },
+      "_spacyLemma": "get",
+      "example": "Two desks away from Nirupam, Dan Smith chewed his pen a great deal and finally wrote, Well I mean it’s not much good if you’ve got to write your secret fealings, what I mean is it takes all the joy out of it and you don’t know what to write.",
+      "exampleStart": 316,
+      "exampleEnd": 557,
+      "matchedForm": "got",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.065714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "Gladly",
+      "lemma": "gladly",
+      "lemmaId": "gladly",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "gladly_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "с радостью"
+        }
+      },
+      "_spacyLemma": "gladly",
+      "example": "Teddy Crossley’s real name is Harold, but he got called Teddy out of the hymn that goes “Gladly my cross I’d bear.",
+      "exampleStart": 1584,
+      "exampleEnd": 1698,
+      "matchedForm": "Gladly",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.811429,
+      "difficultySource": "zipf"
     },
     {
       "word": "glimpse",
       "lemma": "glimpse",
       "lemmaId": "glimpse",
-      "pos": "noun",
-      "wordKey": "glimpse_noun",
-      "level": "B2",
-      "ipa": "ɡlɪmps",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "glimpse_verb",
+      "level": "C1",
       "translations": {
-        "de": {
-          "translation": "flüchtiger Blick"
-        },
-        "es": {
-          "translation": "vistazo"
-        },
         "ru": {
-          "translation": "мимолётный взгляд"
-        },
-        "uk": {
-          "translation": "мимовільний погляд"
+          "translation": "взгляд"
         }
       },
-      "definition": "A brief or quick view or look.",
+      "_spacyLemma": "glimpse",
       "example": "She and Charles had just time to glimpse the bonfire starting to burn, and they had seen that the witch was a large fat man.",
       "exampleStart": 3650,
       "exampleEnd": 3774,
-      "matchedForm": "glimpse"
+      "matchedForm": "glimpse",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.771429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "went on",
+      "lemma": "go on",
+      "lemmaId": "go_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "продолжил"
+        }
+      },
+      "example": "The chances of Miss Cadwallader reading this one had to be very small—particularly if she went on and made it really boring.",
+      "exampleStart": 1425,
+      "exampleEnd": 1549,
+      "phraseMatch": {
+        "text": "went on",
+        "startInExample": 90,
+        "endInExample": 97
+      },
+      "levelSource": "phrase_index"
+    },
+    {
+      "word": "went",
+      "lemma": "go",
+      "lemmaId": "go",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "go_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "идти"
+        }
+      },
+      "_spacyLemma": "go",
+      "example": "The chances of Miss Cadwallader reading this one had to be very small—particularly if she went on and made it really boring.",
+      "exampleStart": 1425,
+      "exampleEnd": 1549,
+      "matchedForm": "went",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.137143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "good",
+      "lemma": "good",
+      "lemmaId": "good",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "good_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "хороший"
+        }
+      },
+      "_spacyLemma": "good",
+      "example": "Two desks away from Nirupam, Dan Smith chewed his pen a great deal and finally wrote, Well I mean it’s not much good if you’ve got to write your secret fealings, what I mean is it takes all the joy out of it and you don’t know what to write.",
+      "exampleStart": 316,
+      "exampleEnd": 557,
+      "matchedForm": "good",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.111429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "great",
+      "lemma": "great",
+      "lemmaId": "great",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "great_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "великий"
+        }
+      },
+      "_spacyLemma": "great",
+      "example": "Two desks away from Nirupam, Dan Smith chewed his pen a great deal and finally wrote, Well I mean it’s not much good if you’ve got to write your secret fealings, what I mean is it takes all the joy out of it and you don’t know what to write.",
+      "exampleStart": 316,
+      "exampleEnd": 557,
+      "matchedForm": "great",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.18,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "great deal",
+      "lemma": "great deal",
+      "lemmaId": "great_deal",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "spacy_phrase",
+      "wordKey": "great_deal_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Отличная сделка"
+        }
+      },
+      "example": "Two desks away from Nirupam, Dan Smith chewed his pen a great deal and finally wrote, Well I mean it’s not much good if you’ve got to write your secret fealings, what I mean is it takes all the joy out of it and you don’t know what to write.",
+      "exampleStart": 316,
+      "exampleEnd": 557,
+      "phraseMatch": {
+        "text": "great deal",
+        "startInExample": 56,
+        "endInExample": 66
+      },
+      "levelSource": "phrase_index"
+    },
+    {
+      "word": "happened to",
+      "lemma": "happen to",
+      "lemmaId": "happen_to",
+      "pos": "prepositional_verb",
+      "type": "prepositional_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "happen_to_prepositional_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "случилось"
+        }
+      },
+      "example": "This kind of thing happened to her sometimes.",
+      "exampleStart": 1296,
+      "exampleEnd": 1341,
+      "phraseMatch": {
+        "text": "happened to",
+        "startInExample": 19,
+        "endInExample": 30
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "happened",
+      "lemma": "happen",
+      "lemmaId": "happen",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "happen_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "случается"
+        }
+      },
+      "_spacyLemma": "happen",
+      "example": "This kind of thing happened to her sometimes.",
+      "exampleStart": 1296,
+      "exampleEnd": 1341,
+      "matchedForm": "happened",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.377143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "hated",
+      "lemma": "hat",
+      "lemmaId": "hat",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "hat_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "шляпа"
+        }
+      },
+      "_spacyLemma": "hat",
+      "example": "It meant, I hate this school.",
+      "exampleStart": 2683,
+      "exampleEnd": 2712,
+      "matchedForm": "hate",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.565714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "hate",
+      "lemma": "hate",
+      "lemmaId": "hate",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "hate_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "ненависть"
+        }
+      },
+      "_spacyLemma": "hate",
+      "example": "It meant, I hate this school.",
+      "exampleStart": 2683,
+      "exampleEnd": 2712,
+      "matchedForm": "hate",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.4,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "head",
+      "lemma": "head",
+      "lemmaId": "head",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "head_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "голова"
+        }
+      },
+      "_spacyLemma": "head",
+      "example": "It was a thing that would keep coming into his head whenever he was not thinking of anything else, much as he tried to forget it.",
+      "exampleStart": 3148,
+      "exampleEnd": 3277,
+      "matchedForm": "head",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.285714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "holidays",
+      "lemma": "holiday",
+      "lemmaId": "holiday",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "holiday_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "праздник"
+        }
+      },
+      "_spacyLemma": "holiday",
+      "example": "I do not know, Nirupam Singh wrote musingly, how anyone manages to write much in their journal, since everyone knows Miss Cadwallader reads them all during the holidays.",
+      "exampleStart": 0,
+      "exampleEnd": 169,
+      "matchedForm": "holidays",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.528571,
+      "difficultySource": "zipf"
     },
     {
       "word": "honorable",
       "lemma": "honorable",
       "lemmaId": "honorable",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "honorable_adjective",
       "level": "C1",
-      "ipa": "ˈɒnərəbl",
       "translations": {
-        "de": {
-          "translation": "ehrenhaft"
-        },
-        "es": {
-          "translation": "honorable"
-        },
         "ru": {
-          "translation": "почетный, достойный"
-        },
-        "uk": {
-          "translation": "честний"
+          "translation": "почетный"
         }
       },
-      "definition": "Deserving respect or high regard.",
+      "_spacyLemma": "honorable",
       "example": "He thinks everyone should be upright and honorable and interested in geography.",
       "exampleStart": 1786,
       "exampleEnd": 1865,
-      "matchedForm": "honorable"
+      "matchedForm": "honorable",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.771429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "horse",
+      "lemma": "horse",
+      "lemmaId": "horse",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "horse_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "лошадь"
+        }
+      },
+      "_spacyLemma": "horse",
+      "example": "Second lesson had been PE, during which Nan Pilgrim had so much amused Theresa Mullett by failing to jump the horse, and the lesson to come was music, not games.",
+      "exampleStart": 2312,
+      "exampleEnd": 2473,
+      "matchedForm": "horse",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.5,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "hot",
+      "lemma": "hot",
+      "lemmaId": "hot",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "hot_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "горячий"
+        }
+      },
+      "_spacyLemma": "hot",
+      "example": "I felt hot at breakfast.",
+      "exampleStart": 1987,
+      "exampleEnd": 2011,
+      "matchedForm": "hot",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.385714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "hundreds",
+      "lemma": "hundred",
+      "lemmaId": "hundred",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "hundred_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "сто тысяч"
+        }
+      },
+      "_spacyLemma": "hundred",
+      "example": "Still, she thought, there were hundreds of journals and hundreds of daily entries.",
+      "exampleStart": 1342,
+      "exampleEnd": 1424,
+      "matchedForm": "hundreds",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.514286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "hymn",
+      "lemma": "hymn",
+      "lemmaId": "hymn",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "hymn_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "гимн"
+        }
+      },
+      "_spacyLemma": "hymn",
+      "example": "Teddy Crossley’s real name is Harold, but he got called Teddy out of the hymn that goes “Gladly my cross I’d bear.",
+      "exampleStart": 1584,
+      "exampleEnd": 1698,
+      "matchedForm": "hymn",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.828571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "in order",
+      "lemma": "in order",
+      "lemmaId": "in_order",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "spacy_phrase",
+      "wordKey": "in_order_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "По порядку"
+        }
+      },
+      "example": "Bernadine had stopped the stroller in the middle of the street in order to stare.",
+      "exampleStart": 3568,
+      "exampleEnd": 3649,
+      "phraseMatch": {
+        "text": "in order",
+        "startInExample": 63,
+        "endInExample": 71
+      },
+      "levelSource": "phrase_index"
+    },
+    {
+      "word": "Indian",
+      "lemma": "indian",
+      "lemmaId": "indian",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "indian_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "индийский"
+        }
+      },
+      "_spacyLemma": "indian",
+      "example": "I will now describe the Indian rope trick which I saw in India before my father came to live in England .",
+      "exampleStart": 205,
+      "exampleEnd": 310,
+      "matchedForm": "Indian",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.457143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "instant",
+      "lemma": "instant",
+      "lemmaId": "instant",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "instant_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "мгновенный"
+        }
+      },
+      "_spacyLemma": "instant",
+      "example": "” So Charles had only seen the witch for an instant.",
+      "exampleStart": 3921,
+      "exampleEnd": 3973,
+      "matchedForm": "instant",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.62,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "interested",
+      "lemma": "interested",
+      "lemmaId": "interested",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "interested_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "заинтересованный"
+        }
+      },
+      "_spacyLemma": "interested",
+      "example": "He thinks everyone should be upright and honorable and interested in geography.",
+      "exampleStart": 1786,
+      "exampleEnd": 1865,
+      "matchedForm": "interested",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.445714,
+      "difficultySource": "zipf"
     },
     {
       "word": "journal",
       "lemma": "journal",
       "lemmaId": "journal",
-      "pos": "adjective",
-      "wordKey": "journal_adjective",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "journal_noun",
       "level": "B2",
-      "ipa": "ˈdʒɜːrnəl",
       "translations": {
-        "de": {
-          "translation": "Tagebuch"
-        },
-        "es": {
-          "translation": "diario"
-        },
         "ru": {
-          "translation": "дневник"
-        },
-        "uk": {
-          "translation": "журнал, щоденник"
+          "translation": "журнал"
         }
       },
-      "definition": "A daily record of personal experiences, thoughts, or observations.",
+      "_spacyLemma": "journal",
       "example": "I do not know, Nirupam Singh wrote musingly, how anyone manages to write much in their journal, since everyone knows Miss Cadwallader reads them all during the holidays.",
       "exampleStart": 0,
       "exampleEnd": 169,
-      "matchedForm": "journal"
+      "matchedForm": "journal",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.497143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "journey",
+      "lemma": "journey",
+      "lemmaId": "journey",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "journey_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "путешествие"
+        }
+      },
+      "_spacyLemma": "journey",
+      "example": "During geography I planned a bus journey from London to Baghdad via Paris.",
+      "exampleStart": 922,
+      "exampleEnd": 996,
+      "matchedForm": "journey",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.531429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "joy",
+      "lemma": "joy",
+      "lemmaId": "joy",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "joy_noun",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "радость"
+        }
+      },
+      "_spacyLemma": "joy",
+      "example": "Two desks away from Nirupam, Dan Smith chewed his pen a great deal and finally wrote, Well I mean it’s not much good if you’ve got to write your secret fealings, what I mean is it takes all the joy out of it and you don’t know what to write.",
+      "exampleStart": 316,
+      "exampleEnd": 557,
+      "matchedForm": "joy",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.56,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "jump",
+      "lemma": "jump",
+      "lemmaId": "jump",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "jump_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "прыгать"
+        }
+      },
+      "_spacyLemma": "jump",
+      "example": "Second lesson had been PE, during which Nan Pilgrim had so much amused Theresa Mullett by failing to jump the horse, and the lesson to come was music, not games.",
+      "exampleStart": 2312,
+      "exampleEnd": 2473,
+      "matchedForm": "jump",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.52,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "kind",
+      "lemma": "kind",
+      "lemmaId": "kind",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "kind_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "добрый"
+        }
+      },
+      "_spacyLemma": "kind",
+      "example": "This kind of thing happened to her sometimes.",
+      "exampleStart": 1296,
+      "exampleEnd": 1341,
+      "matchedForm": "kind",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.302857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "know",
+      "lemma": "know",
+      "lemmaId": "know",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "know_verb",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "знать"
+        }
+      },
+      "_spacyLemma": "know",
+      "example": "I do not know, Nirupam Singh wrote musingly, how anyone manages to write much in their journal, since everyone knows Miss Cadwallader reads them all during the holidays.",
+      "exampleStart": 0,
+      "exampleEnd": 169,
+      "matchedForm": "know",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.117143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "large",
+      "lemma": "large",
+      "lemmaId": "large",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "large_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "большой"
+        }
+      },
+      "_spacyLemma": "large",
+      "example": "She and Charles had just time to glimpse the bonfire starting to burn, and they had seen that the witch was a large fat man.",
+      "exampleStart": 3650,
+      "exampleEnd": 3774,
+      "matchedForm": "large",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.32,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "lesson",
+      "lemma": "lesson",
+      "lemmaId": "lesson",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "lesson_noun",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "урок"
+        }
+      },
+      "_spacyLemma": "lesson",
+      "example": "Next lesson I shall plan the same journey via Berlin.",
+      "exampleStart": 997,
+      "exampleEnd": 1050,
+      "matchedForm": "lesson",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.582857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "like",
+      "lemma": "like",
+      "lemmaId": "like",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "like_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "как"
+        }
+      },
+      "_spacyLemma": "like",
+      "example": "I do not think, Estelle Green wrote, that I have any secret feelings today, but I would like to know what is in the note from Miss Hodge that Teddy has just found.",
+      "exampleStart": 611,
+      "exampleEnd": 774,
+      "matchedForm": "like",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.028571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "live",
+      "lemma": "live",
+      "lemmaId": "live",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "live_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "жить"
+        }
+      },
+      "_spacyLemma": "live",
+      "example": "I will now describe the Indian rope trick which I saw in India before my father came to live in England .",
+      "exampleStart": 205,
+      "exampleEnd": 310,
+      "matchedForm": "live",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.277143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "long",
+      "lemma": "long",
+      "lemmaId": "long",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "long_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "длинный"
+        }
+      },
+      "_spacyLemma": "long",
+      "example": "Second lesson was woodwork but not for long.",
+      "exampleStart": 2036,
+      "exampleEnd": 2080,
+      "matchedForm": "long",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.2,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "looking at",
+      "lemma": "look at",
+      "lemmaId": "look_at",
+      "pos": "prepositional_verb",
+      "type": "prepositional_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_at_prepositional_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "смотря на"
+        }
+      },
+      "example": "Looking at this, you might think Charles was either very stupid or very muddled, or both.",
+      "exampleStart": 2110,
+      "exampleEnd": 2199,
+      "phraseMatch": {
+        "text": "Looking at",
+        "startInExample": 0,
+        "endInExample": 10
+      },
+      "levelSource": "phrase_index"
+    },
+    {
+      "word": "Looking",
+      "lemma": "look",
+      "lemmaId": "look",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "look_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "смотреть"
+        }
+      },
+      "_spacyLemma": "look",
+      "example": "Looking at this, you might think Charles was either very stupid or very muddled, or both.",
+      "exampleStart": 2110,
+      "exampleEnd": 2199,
+      "matchedForm": "Looking",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.2,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "lunch",
+      "lemma": "lunch",
+      "lemmaId": "lunch",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "lunch_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "обед"
+        }
+      },
+      "_spacyLemma": "lunch",
+      "example": "Simon was porridge at breakfast, potatoes at lunch, and bread at tea.",
+      "exampleStart": 2827,
+      "exampleEnd": 2896,
+      "matchedForm": "lunch",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.528571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "making",
+      "lemma": "make",
+      "lemmaId": "make",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "make_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "делать"
+        }
+      },
+      "_spacyLemma": "make",
+      "example": "Are you Miss Cadwallader, or does Miss Cadwallader make Mr.",
+      "exampleStart": 1145,
+      "exampleEnd": 1204,
+      "matchedForm": "make",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.122857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "man",
+      "lemma": "man",
+      "lemmaId": "man",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "man_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "человек"
+        }
+      },
+      "_spacyLemma": "man",
+      "example": "She and Charles had just time to glimpse the bonfire starting to burn, and they had seen that the witch was a large fat man.",
+      "exampleStart": 3650,
+      "exampleEnd": 3774,
+      "matchedForm": "man",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.197143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "manages",
+      "lemma": "manage",
+      "lemmaId": "manage",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "manage_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "управлять"
+        }
+      },
+      "_spacyLemma": "manage",
+      "example": "I do not know, Nirupam Singh wrote musingly, how anyone manages to write much in their journal, since everyone knows Miss Cadwallader reads them all during the holidays.",
+      "exampleStart": 0,
+      "exampleEnd": 169,
+      "matchedForm": "manages",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.562857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "mean",
+      "lemma": "mean",
+      "lemmaId": "mean",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "mean_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "означать"
+        }
+      },
+      "_spacyLemma": "mean",
+      "example": "Two desks away from Nirupam, Dan Smith chewed his pen a great deal and finally wrote, Well I mean it’s not much good if you’ve got to write your secret fealings, what I mean is it takes all the joy out of it and you don’t know what to write.",
+      "exampleStart": 316,
+      "exampleEnd": 557,
+      "matchedForm": "mean",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.28,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "message",
+      "lemma": "message",
+      "lemmaId": "message",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "message_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "сообщение"
+        }
+      },
+      "_spacyLemma": "message",
+      "example": "Nan Pilgrim meanwhile was scrawling, This is a message to the person who reads our journals.",
+      "exampleStart": 1052,
+      "exampleEnd": 1144,
+      "matchedForm": "message",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.431429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "middle",
+      "lemma": "middle",
+      "lemmaId": "middle",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "middle_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "середина"
+        }
+      },
+      "_spacyLemma": "middle",
+      "example": "Bernadine had stopped the stroller in the middle of the street in order to stare.",
+      "exampleStart": 3568,
+      "exampleEnd": 3649,
+      "matchedForm": "middle",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.38,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "milk",
+      "lemma": "milk",
+      "lemmaId": "milk",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "milk_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "молоко"
+        }
+      },
+      "_spacyLemma": "milk",
+      "example": "Theresa Mullett was milk.",
+      "exampleStart": 2994,
+      "exampleEnd": 3019,
+      "matchedForm": "milk",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.528571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "morning",
+      "lemma": "morning",
+      "lemmaId": "morning",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "morning_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "утром"
+        }
+      },
+      "_spacyLemma": "morning",
+      "example": "Anyone in 6B would have told you that it had been a chilly morning and there had been cornflakes for breakfast.",
+      "exampleStart": 2200,
+      "exampleEnd": 2311,
+      "matchedForm": "morning",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.337143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "mother",
+      "lemma": "mother",
+      "lemmaId": "mother",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "mother_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "мать"
+        }
+      },
+      "_spacyLemma": "mother",
+      "example": "His big sister Bernadine had been pushing him while his mother carried the shopping, and they had been crossing a road where there was a view down into the Market Square.",
+      "exampleStart": 3331,
+      "exampleEnd": 3501,
+      "matchedForm": "mother",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.362857,
+      "difficultySource": "zipf"
     },
     {
       "word": "muddled",
       "lemma": "muddle",
       "lemmaId": "muddle",
-      "pos": "adjective",
-      "wordKey": "muddle_adjective",
-      "level": "C1",
-      "ipa": "ˈmʌdld",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "muddle_verb",
+      "level": "B1",
       "translations": {
-        "de": {
-          "translation": "verwirrt"
-        },
-        "es": {
-          "translation": "confuso"
-        },
         "ru": {
-          "translation": "спутанный"
-        },
-        "uk": {
-          "translation": "заплутаний"
+          "translation": "путать"
         }
       },
-      "definition": "Confused or mixed up.",
+      "_spacyLemma": "muddle",
       "example": "Looking at this, you might think Charles was either very stupid or very muddled, or both.",
       "exampleStart": 2110,
       "exampleEnd": 2199,
-      "matchedForm": "muddled"
+      "matchedForm": "muddled",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "music",
+      "lemma": "music",
+      "lemmaId": "music",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "music_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "музыка"
+        }
+      },
+      "_spacyLemma": "music",
+      "example": "Second lesson had been PE, during which Nan Pilgrim had so much amused Theresa Mullett by failing to jump the horse, and the lesson to come was music, not games.",
+      "exampleStart": 2312,
+      "exampleEnd": 2473,
+      "matchedForm": "music",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.282857,
+      "difficultySource": "zipf"
     },
     {
       "word": "musingly",
       "lemma": "musingly",
       "lemmaId": "musingly",
       "pos": "adverb",
+      "source": "word",
       "wordKey": "musingly_adverb",
-      "level": "C1",
-      "ipa": "ˈmjuːzɪŋli",
+      "level": "C2",
       "translations": {
-        "de": {
-          "translation": "nachdenklich"
-        },
-        "es": {
-          "translation": "pensativamente"
-        },
         "ru": {
-          "translation": "задумчиво"
-        },
-        "uk": {
-          "translation": "задумливо"
+          "translation": "мрачно"
         }
       },
-      "definition": "In a thoughtful or reflective manner.",
+      "_spacyLemma": "musingly",
       "example": "I do not know, Nirupam Singh wrote musingly, how anyone manages to write much in their journal, since everyone knows Miss Cadwallader reads them all during the holidays.",
       "exampleStart": 0,
       "exampleEnd": 169,
-      "matchedForm": "musingly"
+      "matchedForm": "musingly",
+      "levelSource": "vocabulary_index"
+    },
+    {
+      "word": "note",
+      "lemma": "note",
+      "lemmaId": "note",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "note_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "примечание"
+        }
+      },
+      "_spacyLemma": "note",
+      "example": "I do not think, Estelle Green wrote, that I have any secret feelings today, but I would like to know what is in the note from Miss Hodge that Teddy has just found.",
+      "exampleStart": 611,
+      "exampleEnd": 774,
+      "matchedForm": "note",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.42,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "order",
+      "lemma": "order",
+      "lemmaId": "order",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "order_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "приказ"
+        }
+      },
+      "_spacyLemma": "order",
+      "example": "Bernadine had stopped the stroller in the middle of the street in order to stare.",
+      "exampleStart": 3568,
+      "exampleEnd": 3649,
+      "matchedForm": "order",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.291429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "particularly",
+      "lemma": "particularly",
+      "lemmaId": "particularly",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "particularly_adverb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "особенно"
+        }
+      },
+      "_spacyLemma": "particularly",
+      "example": "The chances of Miss Cadwallader reading this one had to be very small—particularly if she went on and made it really boring.",
+      "exampleStart": 1425,
+      "exampleEnd": 1549,
+      "matchedForm": "particularly",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.442857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "pen",
+      "lemma": "pen",
+      "lemmaId": "pen",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "pen_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "ручка"
+        }
+      },
+      "_spacyLemma": "pen",
+      "example": "Two desks away from Nirupam, Dan Smith chewed his pen a great deal and finally wrote, Well I mean it’s not much good if you’ve got to write your secret fealings, what I mean is it takes all the joy out of it and you don’t know what to write.",
+      "exampleStart": 316,
+      "exampleEnd": 557,
+      "matchedForm": "pen",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.608571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "people",
+      "lemma": "people",
+      "lemmaId": "people",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "people_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "люди"
+        }
+      },
+      "_spacyLemma": "people",
+      "example": "All the other people he hated had code words too.",
+      "exampleStart": 2897,
+      "exampleEnd": 2946,
+      "matchedForm": "people",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.074286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "person",
+      "lemma": "person",
+      "lemmaId": "person",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "person_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "человек"
+        }
+      },
+      "_spacyLemma": "person",
+      "example": "Nan Pilgrim meanwhile was scrawling, This is a message to the person who reads our journals.",
+      "exampleStart": 1052,
+      "exampleEnd": 1144,
+      "matchedForm": "person",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.274286,
+      "difficultySource": "zipf"
     },
     {
       "word": "planned",
       "lemma": "plan",
       "lemmaId": "plan",
-      "pos": "adjective",
-      "wordKey": "plan_adjective",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "plan_verb",
       "level": "B2",
-      "ipa": "plæn",
       "translations": {
-        "de": {
-          "translation": "planen"
-        },
-        "es": {
-          "translation": "planear"
-        },
         "ru": {
-          "translation": "планировать"
-        },
-        "uk": {
-          "translation": "планувати"
+          "translation": "план"
         }
       },
-      "definition": "To decide on and arrange in advance.",
+      "_spacyLemma": "plan",
       "example": "During geography I planned a bus journey from London to Baghdad via Paris.",
       "exampleStart": 922,
       "exampleEnd": 996,
-      "matchedForm": "planned"
+      "matchedForm": "planned",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.348571,
+      "difficultySource": "zipf"
     },
     {
-      "word": "rope trick",
-      "lemma": "ropetrick",
-      "lemmaId": "ropetrick",
+      "word": "porridge",
+      "lemma": "porridge",
+      "lemmaId": "porridge",
       "pos": "noun",
-      "wordKey": "ropetrick_noun",
-      "level": "C2",
-      "ipa": "ˈroʊp trɪk",
+      "source": "word",
+      "wordKey": "porridge_noun",
+      "level": "B1",
       "translations": {
-        "de": {
-          "translation": "Seil-Trick"
-        },
-        "es": {
-          "translation": "truco de cuerda"
-        },
         "ru": {
-          "translation": "фокус с веревкой"
-        },
-        "uk": {
-          "translation": "трюк з мотузкою"
+          "translation": "каша"
         }
       },
-      "definition": "A magic trick involving a rope, often considered a notable illusion in Indian magic.",
+      "_spacyLemma": "porridge",
+      "example": "I do not like porridge.",
+      "exampleStart": 2012,
+      "exampleEnd": 2035,
+      "matchedForm": "porridge",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.971429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "potatoes",
+      "lemma": "potato",
+      "lemmaId": "potato",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "potato_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "картофель"
+        }
+      },
+      "_spacyLemma": "potato",
+      "example": "Simon was porridge at breakfast, potatoes at lunch, and bread at tea.",
+      "exampleStart": 2827,
+      "exampleEnd": 2896,
+      "matchedForm": "potatoes",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.685714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "private",
+      "lemma": "private",
+      "lemmaId": "private",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "private_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "частный"
+        }
+      },
+      "_spacyLemma": "private",
+      "example": "He really was writing about his secret feelings, but he was doing it in his own private code so that no one could know.",
+      "exampleStart": 2524,
+      "exampleEnd": 2643,
+      "matchedForm": "private",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.377143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "problem",
+      "lemma": "problem",
+      "lemmaId": "problem",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "problem_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "проблема"
+        }
+      },
+      "_spacyLemma": "problem",
+      "example": "At the back of the room, Brian Wentworth wrote, sighing, Timetables just ran away with me, that is my problem.",
+      "exampleStart": 811,
+      "exampleEnd": 921,
+      "matchedForm": "problem",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.317143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "pushing",
+      "lemma": "push",
+      "lemmaId": "push",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "push_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "толкать"
+        }
+      },
+      "_spacyLemma": "push",
+      "example": "His big sister Bernadine had been pushing him while his mother carried the shopping, and they had been crossing a road where there was a view down into the Market Square.",
+      "exampleStart": 3331,
+      "exampleEnd": 3501,
+      "matchedForm": "pushing",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.482857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "read",
+      "lemma": "read",
+      "lemmaId": "read",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "read_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "читать"
+        }
+      },
+      "_spacyLemma": "read",
+      "example": "I do not know, Nirupam Singh wrote musingly, how anyone manages to write much in their journal, since everyone knows Miss Cadwallader reads them all during the holidays.",
+      "exampleStart": 0,
+      "exampleEnd": 169,
+      "matchedForm": "reads",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.277143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "reads",
+      "lemma": "read",
+      "lemmaId": "read",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "read_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "читать"
+        }
+      },
+      "_spacyLemma": "read",
+      "example": "I do not know, Nirupam Singh wrote musingly, how anyone manages to write much in their journal, since everyone knows Miss Cadwallader reads them all during the holidays.",
+      "exampleStart": 0,
+      "exampleEnd": 169,
+      "matchedForm": "reads",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.277143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "real",
+      "lemma": "real",
+      "lemmaId": "real",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "real_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "реальный"
+        }
+      },
+      "_spacyLemma": "real",
+      "example": "Teddy Crossley’s real name is Harold, but he got called Teddy out of the hymn that goes “Gladly my cross I’d bear.",
+      "exampleStart": 1584,
+      "exampleEnd": 1698,
+      "matchedForm": "real",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.26,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "remembering",
+      "lemma": "remember",
+      "lemmaId": "remember",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "remember_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "помнить"
+        }
+      },
+      "_spacyLemma": "remember",
+      "example": "He meant he was remembering the witch being burned.",
+      "exampleStart": 3096,
+      "exampleEnd": 3147,
+      "matchedForm": "remembering",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.322857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "road",
+      "lemma": "road",
+      "lemmaId": "road",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "road_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "дорога"
+        }
+      },
+      "_spacyLemma": "road",
+      "example": "His big sister Bernadine had been pushing him while his mother carried the shopping, and they had been crossing a road where there was a view down into the Market Square.",
+      "exampleStart": 3331,
+      "exampleEnd": 3501,
+      "matchedForm": "road",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.362857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "room",
+      "lemma": "room",
+      "lemmaId": "room",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "room_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "комната"
+        }
+      },
+      "_spacyLemma": "room",
+      "example": "At the back of the room, Brian Wentworth wrote, sighing, Timetables just ran away with me, that is my problem.",
+      "exampleStart": 811,
+      "exampleEnd": 921,
+      "matchedForm": "room",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.32,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "rope",
+      "lemma": "rope",
+      "lemmaId": "rope",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "rope_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "веревка"
+        }
+      },
+      "_spacyLemma": "rope",
       "example": "I will now describe the Indian rope trick which I saw in India before my father came to live in England .",
       "exampleStart": 205,
       "exampleEnd": 310,
-      "matchedForm": "rope"
+      "matchedForm": "rope",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.7,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "ran away with",
+      "lemma": "run away with",
+      "lemmaId": "run_away_with",
+      "pos": "prepositional_verb",
+      "type": "prepositional_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "run_away_with_prepositional_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "сбежал с"
+        }
+      },
+      "example": "At the back of the room, Brian Wentworth wrote, sighing, Timetables just ran away with me, that is my problem.",
+      "exampleStart": 811,
+      "exampleEnd": 921,
+      "phraseMatch": {
+        "text": "ran away with",
+        "startInExample": 73,
+        "endInExample": 86
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "ran",
+      "lemma": "run",
+      "lemmaId": "run",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "run_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "бегать"
+        }
+      },
+      "_spacyLemma": "run",
+      "example": "At the back of the room, Brian Wentworth wrote, sighing, Timetables just ran away with me, that is my problem.",
+      "exampleStart": 811,
+      "exampleEnd": 921,
+      "matchedForm": "ran",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.291429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "rushing",
+      "lemma": "rush",
+      "lemmaId": "rush",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "rush_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "спешить"
+        }
+      },
+      "_spacyLemma": "rush",
+      "example": "Then their mother came rushing back and scolded Bernadine on across the road.",
+      "exampleStart": 3775,
+      "exampleEnd": 3852,
+      "matchedForm": "rushing",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.58,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "said",
+      "lemma": "say",
+      "lemmaId": "say",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "say_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "говорить"
+        }
+      },
+      "_spacyLemma": "say",
+      "example": "” she said.",
+      "exampleStart": 3882,
+      "exampleEnd": 3893,
+      "matchedForm": "said",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.177143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "school",
+      "lemma": "school",
+      "lemmaId": "school",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "school_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "школа"
+        }
+      },
+      "_spacyLemma": "school",
+      "example": "It meant, I hate this school.",
+      "exampleStart": 2683,
+      "exampleEnd": 2712,
+      "matchedForm": "school",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.228571,
+      "difficultySource": "zipf"
     },
     {
       "word": "scolded",
       "lemma": "scold",
       "lemmaId": "scold",
-      "pos": "adjective",
-      "wordKey": "scold_adjective",
-      "level": "B2",
-      "ipa": "skoʊld",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "scold_verb",
+      "level": "B1",
       "translations": {
-        "de": {
-          "translation": "schimpfen"
-        },
-        "es": {
-          "translation": "reprender"
-        },
         "ru": {
           "translation": "ругать"
-        },
-        "uk": {
-          "translation": "лаяти"
         }
       },
-      "definition": "To speak angrily to someone for doing something wrong.",
+      "_spacyLemma": "scold",
       "example": "Then their mother came rushing back and scolded Bernadine on across the road.",
       "exampleStart": 3775,
       "exampleEnd": 3852,
-      "matchedForm": "scolded"
+      "matchedForm": "scolded",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "scorned",
       "lemma": "scorn",
       "lemmaId": "scorn",
-      "pos": "adjective",
-      "wordKey": "scorn_adjective",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "scorn_verb",
       "level": "C1",
-      "ipa": "skɔːrn",
       "translations": {
-        "de": {
-          "translation": "verachten"
-        },
-        "es": {
-          "translation": "despreciar"
-        },
         "ru": {
-          "translation": "презирать"
-        },
-        "uk": {
-          "translation": "зневажати"
+          "translation": "презрение"
         }
       },
-      "definition": "To feel or express contempt or disdain for someone or something.",
+      "_spacyLemma": "scorn",
       "example": "I thought she scorned him utterly.",
       "exampleStart": 775,
       "exampleEnd": 809,
-      "matchedForm": "scorned"
+      "matchedForm": "scorned",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.965714,
+      "difficultySource": "zipf"
     },
     {
       "word": "scrawling",
       "lemma": "scrawl",
       "lemmaId": "scrawl",
-      "pos": "noun",
-      "wordKey": "scrawl_noun",
-      "level": "B2",
-      "ipa": "skrɔːl",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "scrawl_verb",
+      "level": "C2",
       "translations": {
-        "de": {
-          "translation": "kritzeln"
-        },
-        "es": {
-          "translation": "garabatear"
-        },
         "ru": {
-          "translation": "каракули"
-        },
-        "uk": {
-          "translation": "каракули"
+          "translation": "нацарапать"
         }
       },
-      "definition": "To write something quickly or carelessly.",
+      "_spacyLemma": "scrawl",
       "example": "Nan Pilgrim meanwhile was scrawling, This is a message to the person who reads our journals.",
       "exampleStart": 1052,
       "exampleEnd": 1144,
-      "matchedForm": "scrawling"
+      "matchedForm": "scrawling",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "Second",
+      "lemma": "second",
+      "lemmaId": "second",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "second_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "второй"
+        }
+      },
+      "_spacyLemma": "second",
+      "example": "Second lesson was woodwork but not for long.",
+      "exampleStart": 2036,
+      "exampleEnd": 2080,
+      "matchedForm": "Second",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.251429,
+      "difficultySource": "zipf"
     },
     {
       "word": "secret",
       "lemma": "secret",
       "lemmaId": "secret",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "secret_adjective",
       "level": "B2",
-      "ipa": "ˈsiːkrɪt",
       "translations": {
-        "de": {
-          "translation": "geheim"
-        },
-        "es": {
-          "translation": "secreto"
-        },
         "ru": {
-          "translation": "секретный"
-        },
-        "uk": {
-          "translation": "таємний"
+          "translation": "секрет"
         }
       },
-      "definition": "Kept hidden from others; not known or seen by others.",
+      "_spacyLemma": "secret",
       "example": "I do not write my secret thoughts.",
       "exampleStart": 170,
       "exampleEnd": 204,
-      "matchedForm": "secret"
+      "matchedForm": "secret",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.454286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "saw",
+      "lemma": "see",
+      "lemmaId": "see",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "see_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "смотреть"
+        }
+      },
+      "_spacyLemma": "see",
+      "example": "I will now describe the Indian rope trick which I saw in India before my father came to live in England .",
+      "exampleStart": 205,
+      "exampleEnd": 310,
+      "matchedForm": "saw",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.117143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "shall",
+      "lemma": "shall",
+      "lemmaId": "shall",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "shall_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "будет"
+        }
+      },
+      "_spacyLemma": "shall",
+      "example": "Next lesson I shall plan the same journey via Berlin.",
+      "exampleStart": 997,
+      "exampleEnd": 1050,
+      "matchedForm": "shall",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.422857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "shopping",
+      "lemma": "shopping",
+      "lemmaId": "shopping",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "shopping_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "покупка"
+        }
+      },
+      "_spacyLemma": "shopping",
+      "example": "His big sister Bernadine had been pushing him while his mother carried the shopping, and they had been crossing a road where there was a view down into the Market Square.",
+      "exampleStart": 3331,
+      "exampleEnd": 3501,
+      "matchedForm": "shopping",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.522857,
+      "difficultySource": "zipf"
     },
     {
       "word": "sighing",
       "lemma": "sigh",
       "lemmaId": "sigh",
-      "pos": "noun",
-      "wordKey": "sigh_noun",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "sigh_verb",
       "level": "B2",
-      "ipa": "saɪ",
       "translations": {
-        "de": {
-          "translation": "seufzen"
-        },
-        "es": {
-          "translation": "suspirar"
-        },
         "ru": {
-          "translation": "вздыхать"
-        },
-        "uk": {
-          "translation": "зіхати"
+          "translation": "вздох"
         }
       },
-      "definition": "To emit a long, deep breath expressing sadness, relief, or tiredness.",
+      "_spacyLemma": "sigh",
       "example": "At the back of the room, Brian Wentworth wrote, sighing, Timetables just ran away with me, that is my problem.",
       "exampleStart": 811,
       "exampleEnd": 921,
-      "matchedForm": "sighing"
+      "matchedForm": "sighing",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.731429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "sings",
+      "lemma": "sing",
+      "lemmaId": "sing",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "sing_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "петь"
+        }
+      },
+      "_spacyLemma": "sing",
+      "example": "” But of course everyone sings “Crossley my glad-eyed bear.",
+      "exampleStart": 1698,
+      "exampleEnd": 1757,
+      "matchedForm": "sings",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.562857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "sister",
+      "lemma": "sister",
+      "lemmaId": "sister",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "sister_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "сестра"
+        }
+      },
+      "_spacyLemma": "sister",
+      "example": "His big sister Bernadine had been pushing him while his mother carried the shopping, and they had been crossing a road where there was a view down into the Market Square.",
+      "exampleStart": 3331,
+      "exampleEnd": 3501,
+      "matchedForm": "sister",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.445714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "small",
+      "lemma": "small",
+      "lemmaId": "small",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "small_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "маленький"
+        }
+      },
+      "_spacyLemma": "small",
+      "example": "The chances of Miss Cadwallader reading this one had to be very small—particularly if she went on and made it really boring.",
+      "exampleStart": 1425,
+      "exampleEnd": 1549,
+      "matchedForm": "small",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.285714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "sorry",
+      "lemma": "sorry",
+      "lemmaId": "sorry",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "sorry_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "сожалеть"
+        }
+      },
+      "_spacyLemma": "sorry",
+      "example": "I am sorry for him.",
+      "exampleStart": 1866,
+      "exampleEnd": 1885,
+      "matchedForm": "sorry",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.38,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "sort",
+      "lemma": "sort",
+      "lemmaId": "sort",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "sort_noun",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "сортировать"
+        }
+      },
+      "_spacyLemma": "sort",
+      "example": "There were crowds of people down there, and a sort of flickering.",
+      "exampleStart": 3502,
+      "exampleEnd": 3567,
+      "matchedForm": "sort",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.431429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "spoke",
+      "lemma": "speak",
+      "lemmaId": "speak",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "speak_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "говорить"
+        }
+      },
+      "_spacyLemma": "speak",
+      "example": "He never spoke about it, but he never forgot\nit.",
+      "exampleStart": 3974,
+      "exampleEnd": 4022,
+      "matchedForm": "spoke",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.422857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "stared",
+      "lemma": "star",
+      "lemmaId": "star",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "star_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "звезда"
+        }
+      },
+      "_spacyLemma": "star",
+      "example": "She stared at what she had written, rather taken aback at her own daring.",
+      "exampleStart": 1222,
+      "exampleEnd": 1295,
+      "matchedForm": "stared",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.377143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "stare",
+      "lemma": "stare",
+      "lemmaId": "stare",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "stare_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "смотреть"
+        }
+      },
+      "_spacyLemma": "stare",
+      "example": "She stared at what she had written, rather taken aback at her own daring.",
+      "exampleStart": 1222,
+      "exampleEnd": 1295,
+      "matchedForm": "stared",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.742857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "started",
+      "lemma": "start",
+      "lemmaId": "start",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "start_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "начинать"
+        }
+      },
+      "_spacyLemma": "start",
+      "example": "He started every entry with I got up.",
+      "exampleStart": 2645,
+      "exampleEnd": 2682,
+      "matchedForm": "started",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.271429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "stopped",
+      "lemma": "stop",
+      "lemmaId": "stop",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "stop_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "останавливаться"
+        }
+      },
+      "_spacyLemma": "stop",
+      "example": "Bernadine had stopped the stroller in the middle of the street in order to stare.",
+      "exampleStart": 3568,
+      "exampleEnd": 3649,
+      "matchedForm": "stopped",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.282857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "street",
+      "lemma": "street",
+      "lemmaId": "street",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "street_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "улица"
+        }
+      },
+      "_spacyLemma": "street",
+      "example": "Bernadine had stopped the stroller in the middle of the street in order to stare.",
+      "exampleStart": 3568,
+      "exampleEnd": 3649,
+      "matchedForm": "street",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.351429,
+      "difficultySource": "zipf"
     },
     {
       "word": "stroller",
       "lemma": "stroller",
       "lemmaId": "stroller",
       "pos": "noun",
+      "source": "word",
       "wordKey": "stroller_noun",
       "level": "B2",
-      "ipa": "ˈstroʊlər",
       "translations": {
-        "de": {
-          "translation": "Kinderwagen"
-        },
-        "es": {
-          "translation": "cochecito"
-        },
         "ru": {
-          "translation": "детская коляска"
-        },
-        "uk": {
-          "translation": "візок дитячий"
+          "translation": "коляска"
         }
       },
-      "definition": "A small carriage with wheels in which a baby or young child is pushed along.",
+      "_spacyLemma": "stroller",
       "example": "He had been so young that he had been in a stroller.",
       "exampleStart": 3278,
       "exampleEnd": 3330,
-      "matchedForm": "stroller"
+      "matchedForm": "stroller",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.98,
+      "difficultySource": "zipf"
     },
     {
-      "word": "timetables",
-      "lemma": "timetable",
-      "lemmaId": "timetable",
-      "pos": "noun",
-      "wordKey": "timetable_noun",
+      "word": "stupid",
+      "lemma": "stupid",
+      "lemmaId": "stupid",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "stupid_adjective",
       "level": "B2",
-      "ipa": "ˈtaɪmˌteɪbəl",
       "translations": {
-        "de": {
-          "translation": "Stundenpläne"
-        },
-        "es": {
-          "translation": "horarios"
-        },
         "ru": {
-          "translation": "расписания"
-        },
-        "uk": {
-          "translation": "розклади"
+          "translation": "глупый"
         }
       },
-      "definition": "Schedules showing times at which events, tasks, or classes occur.",
-      "example": "At the back of the room, Brian Wentworth wrote, sighing, Timetables just ran away with me, that is my problem.",
-      "exampleStart": 811,
-      "exampleEnd": 921,
-      "matchedForm": "Timetables"
+      "_spacyLemma": "stupid",
+      "example": "Looking at this, you might think Charles was either very stupid or very muddled, or both.",
+      "exampleStart": 2110,
+      "exampleEnd": 2199,
+      "matchedForm": "stupid",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.448571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "takes out",
+      "lemma": "take out",
+      "lemmaId": "take_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "take_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Вытаскивает"
+        }
+      },
+      "example": "Two desks away from Nirupam, Dan Smith chewed his pen a great deal and finally wrote, Well I mean it’s not much good if you’ve got to write your secret fealings, what I mean is it takes all the joy out of it and you don’t know what to write.",
+      "exampleStart": 316,
+      "exampleEnd": 557,
+      "phraseMatch": {
+        "text": "takes all the joy out",
+        "startInExample": 180,
+        "endInExample": 201
+      },
+      "levelSource": "phrase_index"
+    },
+    {
+      "word": "takes",
+      "lemma": "take",
+      "lemmaId": "take",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "take_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "брать"
+        }
+      },
+      "_spacyLemma": "take",
+      "example": "Two desks away from Nirupam, Dan Smith chewed his pen a great deal and finally wrote, Well I mean it’s not much good if you’ve got to write your secret fealings, what I mean is it takes all the joy out of it and you don’t know what to write.",
+      "exampleStart": 316,
+      "exampleEnd": 557,
+      "matchedForm": "takes",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.168571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "talking",
+      "lemma": "talk",
+      "lemmaId": "talk",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "talk_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "разговор"
+        }
+      },
+      "_spacyLemma": "talk",
+      "example": "But when Charles wrote I felt hot, he was not talking about school at all.",
+      "exampleStart": 3021,
+      "exampleEnd": 3095,
+      "matchedForm": "talking",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.311429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "tea",
+      "lemma": "tea",
+      "lemmaId": "tea",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "tea_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "чай"
+        }
+      },
+      "_spacyLemma": "tea",
+      "example": "Simon was porridge at breakfast, potatoes at lunch, and bread at tea.",
+      "exampleStart": 2827,
+      "exampleEnd": 2896,
+      "matchedForm": "tea",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.508571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "told",
+      "lemma": "tell",
+      "lemmaId": "tell",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "tell_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "рассказывать"
+        }
+      },
+      "_spacyLemma": "tell",
+      "example": "Anyone in 6B would have told you that it had been a chilly morning and there had been cornflakes for breakfast.",
+      "exampleStart": 2200,
+      "exampleEnd": 2311,
+      "matchedForm": "told",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.28,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "thing",
+      "lemma": "thing",
+      "lemmaId": "thing",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "thing_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "вещь"
+        }
+      },
+      "_spacyLemma": "thing",
+      "example": "This kind of thing happened to her sometimes.",
+      "exampleStart": 1296,
+      "exampleEnd": 1341,
+      "matchedForm": "thing",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.225714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "think",
+      "lemma": "think",
+      "lemmaId": "think",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "think_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "думать"
+        }
+      },
+      "_spacyLemma": "think",
+      "example": "I do not think, Estelle Green wrote, that I have any secret feelings today, but I would like to know what is in the note from Miss Hodge that Teddy has just found.",
+      "exampleStart": 611,
+      "exampleEnd": 774,
+      "matchedForm": "think",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.122857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "thoughts",
+      "lemma": "thought",
+      "lemmaId": "thought",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "thought_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "мысль"
+        }
+      },
+      "_spacyLemma": "thought",
+      "example": "I do not write my secret thoughts.",
+      "exampleStart": 170,
+      "exampleEnd": 204,
+      "matchedForm": "thoughts",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.262857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "time",
+      "lemma": "time",
+      "lemmaId": "time",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "time_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "время"
+        }
+      },
+      "_spacyLemma": "time",
+      "example": "She and Charles had just time to glimpse the bonfire starting to burn, and they had seen that the witch was a large fat man.",
+      "exampleStart": 3650,
+      "exampleEnd": 3774,
+      "matchedForm": "time",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.062857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "toast",
+      "lemma": "toast",
+      "lemmaId": "toast",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "toast_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "тост"
+        }
+      },
+      "_spacyLemma": "toast",
+      "example": "What Charles was really saying in his journal was that the witch came into his head during breakfast, until Simon Silverson made him forget again by eating all that toast.",
+      "exampleStart": 4101,
+      "exampleEnd": 4272,
+      "matchedForm": "toast",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.728571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "today",
+      "lemma": "today",
+      "lemmaId": "today",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "today_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "сегодня"
+        }
+      },
+      "_spacyLemma": "today",
+      "example": "I do not think, Estelle Green wrote, that I have any secret feelings today, but I would like to know what is in the note from Miss Hodge that Teddy has just found.",
+      "exampleStart": 611,
+      "exampleEnd": 774,
+      "matchedForm": "today",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.274286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "trick",
+      "lemma": "trick",
+      "lemmaId": "trick",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "trick_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "трюк"
+        }
+      },
+      "_spacyLemma": "trick",
+      "example": "I will now describe the Indian rope trick which I saw in India before my father came to live in England .",
+      "exampleStart": 205,
+      "exampleEnd": 310,
+      "matchedForm": "trick",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.58,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "true",
+      "lemma": "true",
+      "lemmaId": "true",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "true_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "истинный"
+        }
+      },
+      "_spacyLemma": "true",
+      "example": "When he wrote I do not like porridge, that was actually true, but porridge was his code word for Simon Silverson.",
+      "exampleStart": 2713,
+      "exampleEnd": 2826,
+      "matchedForm": "true",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.317143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "tried",
+      "lemma": "try",
+      "lemmaId": "try",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "try_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "пробовать"
+        }
+      },
+      "_spacyLemma": "try",
+      "example": "It was a thing that would keep coming into his head whenever he was not thinking of anything else, much as he tried to forget it.",
+      "exampleStart": 3148,
+      "exampleEnd": 3277,
+      "matchedForm": "tried",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.288571,
+      "difficultySource": "zipf"
     },
     {
       "word": "upright",
       "lemma": "upright",
       "lemmaId": "upright",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "upright_adjective",
-      "level": "C1",
-      "ipa": "ˈʌpraɪt",
+      "level": "B2",
       "translations": {
-        "de": {
-          "translation": "rechtschaffen"
-        },
-        "es": {
-          "translation": "recto"
-        },
         "ru": {
-          "translation": "праведный"
-        },
-        "uk": {
-          "translation": "праведний"
+          "translation": "вертикально"
         }
       },
-      "definition": "Honest and morally good.",
+      "_spacyLemma": "upright",
       "example": "He thinks everyone should be upright and honorable and interested in geography.",
       "exampleStart": 1786,
       "exampleEnd": 1865,
-      "matchedForm": "upright"
+      "matchedForm": "upright",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.791429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "utterly",
+      "lemma": "utterly",
+      "lemmaId": "utterly",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "utterly_adverb",
+      "level": "C2",
+      "translations": {
+        "ru": {
+          "translation": "совершенно"
+        }
+      },
+      "_spacyLemma": "utterly",
+      "example": "I thought she scorned him utterly.",
+      "exampleStart": 775,
+      "exampleEnd": 809,
+      "matchedForm": "utterly",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.711429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "view",
+      "lemma": "view",
+      "lemmaId": "view",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "view_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "смотреть"
+        }
+      },
+      "_spacyLemma": "view",
+      "example": "His big sister Bernadine had been pushing him while his mother carried the shopping, and they had been crossing a road where there was a view down into the Market Square.",
+      "exampleStart": 3331,
+      "exampleEnd": 3501,
+      "matchedForm": "view",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.377143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "witch",
+      "lemma": "witch",
+      "lemmaId": "witch",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "witch_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "ведьма"
+        }
+      },
+      "_spacyLemma": "witch",
+      "example": "He meant he was remembering the witch being burned.",
+      "exampleStart": 3096,
+      "exampleEnd": 3147,
+      "matchedForm": "witch",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.685714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "woodwork",
+      "lemma": "woodwork",
+      "lemmaId": "woodwork",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "woodwork_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "деревообработка"
+        }
+      },
+      "_spacyLemma": "woodwork",
+      "example": "Second lesson was woodwork but not for long.",
+      "exampleStart": 2036,
+      "exampleEnd": 2080,
+      "matchedForm": "woodwork",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.942857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "word",
+      "lemma": "word",
+      "lemmaId": "word",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "word_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "слово"
+        }
+      },
+      "_spacyLemma": "word",
+      "example": "When he wrote I do not like porridge, that was actually true, but porridge was his code word for Simon Silverson.",
+      "exampleStart": 2713,
+      "exampleEnd": 2826,
+      "matchedForm": "word",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.357143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "work",
+      "lemma": "work",
+      "lemmaId": "work",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "work_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "работа"
+        }
+      },
+      "_spacyLemma": "work",
+      "example": "But Charles was not writing about the day’s work.",
+      "exampleStart": 2474,
+      "exampleEnd": 2523,
+      "matchedForm": "work",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.157143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "wrote",
+      "lemma": "write",
+      "lemmaId": "write",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "write_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "писать"
+        }
+      },
+      "_spacyLemma": "write",
+      "example": "I do not know, Nirupam Singh wrote musingly, how anyone manages to write much in their journal, since everyone knows Miss Cadwallader reads them all during the holidays.",
+      "exampleStart": 0,
+      "exampleEnd": 169,
+      "matchedForm": "wrote",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.422857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "young",
+      "lemma": "young",
+      "lemmaId": "young",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "young_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "молодой"
+        }
+      },
+      "_spacyLemma": "young",
+      "example": "He had been so young that he had been in a stroller.",
+      "exampleStart": 3278,
+      "exampleEnd": 3330,
+      "matchedForm": "young",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.308571,
+      "difficultySource": "zipf"
+    }
+  ],
+  "namedEntities": [
+    {
+      "entityKey": "nirupam_singh_person",
+      "text": "Nirupam Singh",
+      "normalizedText": "nirupam singh",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 15,
+      "end": 28,
+      "tokenIndexes": [
+        5,
+        6
+      ],
+      "sentenceStart": 0,
+      "sentenceEnd": 169
+    },
+    {
+      "entityKey": "miss_cadwallader_person",
+      "text": "Miss Cadwallader",
+      "normalizedText": "miss cadwallader",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 117,
+      "end": 133,
+      "tokenIndexes": [
+        23,
+        24
+      ],
+      "sentenceStart": 0,
+      "sentenceEnd": 169
+    },
+    {
+      "entityKey": "the_holidays_date",
+      "text": "the holidays",
+      "normalizedText": "the holidays",
+      "entityType": "DATE",
+      "spacyLabel": "DATE",
+      "entityCategory": "date_time",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 156,
+      "end": 168,
+      "tokenIndexes": [
+        29,
+        30
+      ],
+      "sentenceStart": 0,
+      "sentenceEnd": 169
+    },
+    {
+      "entityKey": "indian_norp",
+      "text": "Indian",
+      "normalizedText": "indian",
+      "entityType": "NORP",
+      "spacyLabel": "NORP",
+      "entityCategory": "organization_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 229,
+      "end": 235,
+      "tokenIndexes": [
+        45
+      ],
+      "sentenceStart": 205,
+      "sentenceEnd": 316
+    },
+    {
+      "entityKey": "india_gpe",
+      "text": "India",
+      "normalizedText": "india",
+      "entityType": "GPE",
+      "spacyLabel": "GPE",
+      "entityCategory": "place_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 262,
+      "end": 267,
+      "tokenIndexes": [
+        52
+      ],
+      "sentenceStart": 205,
+      "sentenceEnd": 316
+    },
+    {
+      "entityKey": "england_gpe",
+      "text": "England",
+      "normalizedText": "england",
+      "entityType": "GPE",
+      "spacyLabel": "GPE",
+      "entityCategory": "place_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 301,
+      "end": 308,
+      "tokenIndexes": [
+        60
+      ],
+      "sentenceStart": 205,
+      "sentenceEnd": 316
+    },
+    {
+      "entityKey": "two_cardinal",
+      "text": "Two",
+      "normalizedText": "two",
+      "entityType": "CARDINAL",
+      "spacyLabel": "CARDINAL",
+      "entityCategory": "quantity",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 316,
+      "end": 319,
+      "tokenIndexes": [
+        65
+      ],
+      "sentenceStart": 316,
+      "sentenceEnd": 401
+    },
+    {
+      "entityKey": "nirupam_gpe",
+      "text": "Nirupam",
+      "normalizedText": "nirupam",
+      "entityType": "GPE",
+      "spacyLabel": "GPE",
+      "entityCategory": "place_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 336,
+      "end": 343,
+      "tokenIndexes": [
+        69
+      ],
+      "sentenceStart": 316,
+      "sentenceEnd": 401
+    },
+    {
+      "entityKey": "dan_smith_person",
+      "text": "Dan Smith",
+      "normalizedText": "dan smith",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 345,
+      "end": 354,
+      "tokenIndexes": [
+        71,
+        72
+      ],
+      "sentenceStart": 316,
+      "sentenceEnd": 401
+    },
+    {
+      "entityKey": "estelle_green_org",
+      "text": "Estelle Green",
+      "normalizedText": "estelle green",
+      "entityType": "ORG",
+      "spacyLabel": "ORG",
+      "entityCategory": "organization_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 627,
+      "end": 640,
+      "tokenIndexes": [
+        141,
+        142
+      ],
+      "sentenceStart": 611,
+      "sentenceEnd": 774
+    },
+    {
+      "entityKey": "today_date",
+      "text": "today",
+      "normalizedText": "today",
+      "entityType": "DATE",
+      "spacyLabel": "DATE",
+      "entityCategory": "date_time",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 680,
+      "end": 685,
+      "tokenIndexes": [
+        151
+      ],
+      "sentenceStart": 611,
+      "sentenceEnd": 774
+    },
+    {
+      "entityKey": "miss_hodge_person",
+      "text": "Miss Hodge",
+      "normalizedText": "miss hodge",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 737,
+      "end": 747,
+      "tokenIndexes": [
+        165,
+        166
+      ],
+      "sentenceStart": 611,
+      "sentenceEnd": 774
+    },
+    {
+      "entityKey": "teddy_person",
+      "text": "Teddy",
+      "normalizedText": "teddy",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 753,
+      "end": 758,
+      "tokenIndexes": [
+        168
+      ],
+      "sentenceStart": 611,
+      "sentenceEnd": 774
+    },
+    {
+      "entityKey": "brian_wentworth_person",
+      "text": "Brian Wentworth",
+      "normalizedText": "brian wentworth",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 836,
+      "end": 851,
+      "tokenIndexes": [
+        188,
+        189
+      ],
+      "sentenceStart": 811,
+      "sentenceEnd": 921
+    },
+    {
+      "entityKey": "london_gpe",
+      "text": "London",
+      "normalizedText": "london",
+      "entityType": "GPE",
+      "spacyLabel": "GPE",
+      "entityCategory": "place_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 968,
+      "end": 974,
+      "tokenIndexes": [
+        214
+      ],
+      "sentenceStart": 922,
+      "sentenceEnd": 996
+    },
+    {
+      "entityKey": "baghdad_gpe",
+      "text": "Baghdad",
+      "normalizedText": "baghdad",
+      "entityType": "GPE",
+      "spacyLabel": "GPE",
+      "entityCategory": "place_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 978,
+      "end": 985,
+      "tokenIndexes": [
+        216
+      ],
+      "sentenceStart": 922,
+      "sentenceEnd": 996
+    },
+    {
+      "entityKey": "paris_gpe",
+      "text": "Paris",
+      "normalizedText": "paris",
+      "entityType": "GPE",
+      "spacyLabel": "GPE",
+      "entityCategory": "place_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 990,
+      "end": 995,
+      "tokenIndexes": [
+        218
+      ],
+      "sentenceStart": 922,
+      "sentenceEnd": 996
+    },
+    {
+      "entityKey": "berlin_gpe",
+      "text": "Berlin",
+      "normalizedText": "berlin",
+      "entityType": "GPE",
+      "spacyLabel": "GPE",
+      "entityCategory": "place_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1043,
+      "end": 1049,
+      "tokenIndexes": [
+        229
+      ],
+      "sentenceStart": 997,
+      "sentenceEnd": 1052
+    },
+    {
+      "entityKey": "nan_pilgrim_person",
+      "text": "Nan Pilgrim",
+      "normalizedText": "nan pilgrim",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1052,
+      "end": 1063,
+      "tokenIndexes": [
+        232,
+        233
+      ],
+      "sentenceStart": 1052,
+      "sentenceEnd": 1144
+    },
+    {
+      "entityKey": "miss_cadwallader_person",
+      "text": "Miss Cadwallader",
+      "normalizedText": "miss cadwallader",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1179,
+      "end": 1195,
+      "tokenIndexes": [
+        257,
+        258
+      ],
+      "sentenceStart": 1145,
+      "sentenceEnd": 1221
+    },
+    {
+      "entityKey": "wentworth_person",
+      "text": "Wentworth",
+      "normalizedText": "wentworth",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1205,
+      "end": 1214,
+      "tokenIndexes": [
+        261
+      ],
+      "sentenceStart": 1145,
+      "sentenceEnd": 1221
+    },
+    {
+      "entityKey": "hundreds_cardinal",
+      "text": "hundreds",
+      "normalizedText": "hundreds",
+      "entityType": "CARDINAL",
+      "spacyLabel": "CARDINAL",
+      "entityCategory": "quantity",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 1373,
+      "end": 1381,
+      "tokenIndexes": [
+        297
+      ],
+      "sentenceStart": 1342,
+      "sentenceEnd": 1424
+    },
+    {
+      "entityKey": "hundreds_cardinal",
+      "text": "hundreds",
+      "normalizedText": "hundreds",
+      "entityType": "CARDINAL",
+      "spacyLabel": "CARDINAL",
+      "entityCategory": "quantity",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 1398,
+      "end": 1406,
+      "tokenIndexes": [
+        301
+      ],
+      "sentenceStart": 1342,
+      "sentenceEnd": 1424
+    },
+    {
+      "entityKey": "cadwallader_person",
+      "text": "Cadwallader",
+      "normalizedText": "cadwallader",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1445,
+      "end": 1456,
+      "tokenIndexes": [
+        310
+      ],
+      "sentenceStart": 1425,
+      "sentenceEnd": 1549
+    },
+    {
+      "entityKey": "teddy_crossley_s_person",
+      "text": "Teddy Crossley’s",
+      "normalizedText": "teddy crossley’s",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1584,
+      "end": 1600,
+      "tokenIndexes": [
+        340,
+        341,
+        342
+      ],
+      "sentenceStart": 1584,
+      "sentenceEnd": 1699
+    },
+    {
+      "entityKey": "harold_person",
+      "text": "Harold",
+      "normalizedText": "harold",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1614,
+      "end": 1620,
+      "tokenIndexes": [
+        346
+      ],
+      "sentenceStart": 1584,
+      "sentenceEnd": 1699
+    },
+    {
+      "entityKey": "teddy_person",
+      "text": "Teddy",
+      "normalizedText": "teddy",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1640,
+      "end": 1645,
+      "tokenIndexes": [
+        352
+      ],
+      "sentenceStart": 1584,
+      "sentenceEnd": 1699
+    },
+    {
+      "entityKey": "crossley_person",
+      "text": "Crossley",
+      "normalizedText": "crossley",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1763,
+      "end": 1771,
+      "tokenIndexes": [
+        383
+      ],
+      "sentenceStart": 1759,
+      "sentenceEnd": 1785
+    },
+    {
+      "entityKey": "charles_morgan_person",
+      "text": "Charles Morgan",
+      "normalizedText": "charles morgan",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1945,
+      "end": 1959,
+      "tokenIndexes": [
+        421,
+        422
+      ],
+      "sentenceStart": 1887,
+      "sentenceEnd": 1960
+    },
+    {
+      "entityKey": "second_ordinal",
+      "text": "Second",
+      "normalizedText": "second",
+      "entityType": "ORDINAL",
+      "spacyLabel": "ORDINAL",
+      "entityCategory": "quantity",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 2036,
+      "end": 2042,
+      "tokenIndexes": [
+        444
+      ],
+      "sentenceStart": 2036,
+      "sentenceEnd": 2080
+    },
+    {
+      "entityKey": "lesson_person",
+      "text": "lesson",
+      "normalizedText": "lesson",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2043,
+      "end": 2049,
+      "tokenIndexes": [
+        445
+      ],
+      "sentenceStart": 2036,
+      "sentenceEnd": 2080
+    },
+    {
+      "entityKey": "charles_person",
+      "text": "Charles",
+      "normalizedText": "charles",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2143,
+      "end": 2150,
+      "tokenIndexes": [
+        468
+      ],
+      "sentenceStart": 2110,
+      "sentenceEnd": 2199
+    },
+    {
+      "entityKey": "a_chilly_morning_time",
+      "text": "a chilly morning",
+      "normalizedText": "a chilly morning",
+      "entityType": "TIME",
+      "spacyLabel": "TIME",
+      "entityCategory": "date_time",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 2250,
+      "end": 2266,
+      "tokenIndexes": [
+        491,
+        492,
+        493
+      ],
+      "sentenceStart": 2200,
+      "sentenceEnd": 2311
+    },
+    {
+      "entityKey": "second_ordinal",
+      "text": "Second",
+      "normalizedText": "second",
+      "entityType": "ORDINAL",
+      "spacyLabel": "ORDINAL",
+      "entityCategory": "quantity",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 2312,
+      "end": 2318,
+      "tokenIndexes": [
+        502
+      ],
+      "sentenceStart": 2312,
+      "sentenceEnd": 2473
+    },
+    {
+      "entityKey": "lesson_person",
+      "text": "lesson",
+      "normalizedText": "lesson",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2319,
+      "end": 2325,
+      "tokenIndexes": [
+        503
+      ],
+      "sentenceStart": 2312,
+      "sentenceEnd": 2473
+    },
+    {
+      "entityKey": "pe_org",
+      "text": "PE",
+      "normalizedText": "pe",
+      "entityType": "ORG",
+      "spacyLabel": "ORG",
+      "entityCategory": "organization_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2335,
+      "end": 2337,
+      "tokenIndexes": [
+        506
+      ],
+      "sentenceStart": 2312,
+      "sentenceEnd": 2473
+    },
+    {
+      "entityKey": "nan_pilgrim_person",
+      "text": "Nan Pilgrim",
+      "normalizedText": "nan pilgrim",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2352,
+      "end": 2363,
+      "tokenIndexes": [
+        510,
+        511
+      ],
+      "sentenceStart": 2312,
+      "sentenceEnd": 2473
+    },
+    {
+      "entityKey": "theresa_mullett_person",
+      "text": "Theresa Mullett",
+      "normalizedText": "theresa mullett",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2383,
+      "end": 2398,
+      "tokenIndexes": [
+        516,
+        517
+      ],
+      "sentenceStart": 2312,
+      "sentenceEnd": 2473
+    },
+    {
+      "entityKey": "charles_person",
+      "text": "Charles",
+      "normalizedText": "charles",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2478,
+      "end": 2485,
+      "tokenIndexes": [
+        537
+      ],
+      "sentenceStart": 2474,
+      "sentenceEnd": 2523
+    },
+    {
+      "entityKey": "simon_silverson_person",
+      "text": "Simon Silverson",
+      "normalizedText": "simon silverson",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2810,
+      "end": 2825,
+      "tokenIndexes": [
+        612,
+        613
+      ],
+      "sentenceStart": 2713,
+      "sentenceEnd": 2826
+    },
+    {
+      "entityKey": "simon_person",
+      "text": "Simon",
+      "normalizedText": "simon",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2827,
+      "end": 2832,
+      "tokenIndexes": [
+        615
+      ],
+      "sentenceStart": 2827,
+      "sentenceEnd": 2896
+    },
+    {
+      "entityKey": "dan_smith_person",
+      "text": "Dan Smith",
+      "normalizedText": "dan smith",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2947,
+      "end": 2956,
+      "tokenIndexes": [
+        641,
+        642
+      ],
+      "sentenceStart": 2947,
+      "sentenceEnd": 2993
+    },
+    {
+      "entityKey": "theresa_mullett_person",
+      "text": "Theresa Mullett",
+      "normalizedText": "theresa mullett",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2994,
+      "end": 3009,
+      "tokenIndexes": [
+        651,
+        652
+      ],
+      "sentenceStart": 2994,
+      "sentenceEnd": 3021
+    },
+    {
+      "entityKey": "charles_person",
+      "text": "Charles",
+      "normalizedText": "charles",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 3030,
+      "end": 3037,
+      "tokenIndexes": [
+        659
+      ],
+      "sentenceStart": 3021,
+      "sentenceEnd": 3095
+    },
+    {
+      "entityKey": "bernadine_person",
+      "text": "Bernadine",
+      "normalizedText": "bernadine",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 3346,
+      "end": 3355,
+      "tokenIndexes": [
+        728
+      ],
+      "sentenceStart": 3331,
+      "sentenceEnd": 3501
+    },
+    {
+      "entityKey": "the_market_square_fac",
+      "text": "the Market Square",
+      "normalizedText": "the market square",
+      "entityType": "FAC",
+      "spacyLabel": "FAC",
+      "entityCategory": "place_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 3483,
+      "end": 3500,
+      "tokenIndexes": [
+        754,
+        755,
+        756
+      ],
+      "sentenceStart": 3331,
+      "sentenceEnd": 3501
+    },
+    {
+      "entityKey": "bernadine_person",
+      "text": "Bernadine",
+      "normalizedText": "bernadine",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 3568,
+      "end": 3577,
+      "tokenIndexes": [
+        772
+      ],
+      "sentenceStart": 3568,
+      "sentenceEnd": 3649
+    },
+    {
+      "entityKey": "charles_person",
+      "text": "Charles",
+      "normalizedText": "charles",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 3658,
+      "end": 3665,
+      "tokenIndexes": [
+        790
+      ],
+      "sentenceStart": 3650,
+      "sentenceEnd": 3774
+    },
+    {
+      "entityKey": "bernadine_person",
+      "text": "Bernadine",
+      "normalizedText": "bernadine",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 3823,
+      "end": 3832,
+      "tokenIndexes": [
+        823
+      ],
+      "sentenceStart": 3775,
+      "sentenceEnd": 3852
+    },
+    {
+      "entityKey": "charles_person",
+      "text": "Charles",
+      "normalizedText": "charles",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 3926,
+      "end": 3933,
+      "tokenIndexes": [
+        850
+      ],
+      "sentenceStart": 3923,
+      "sentenceEnd": 3973
+    },
+    {
+      "entityKey": "bernadine_person",
+      "text": "Bernadine",
+      "normalizedText": "bernadine",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 4053,
+      "end": 4062,
+      "tokenIndexes": [
+        878
+      ],
+      "sentenceStart": 4023,
+      "sentenceEnd": 4100
+    },
+    {
+      "entityKey": "charles_person",
+      "text": "Charles",
+      "normalizedText": "charles",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 4106,
+      "end": 4113,
+      "tokenIndexes": [
+        887
+      ],
+      "sentenceStart": 4101,
+      "sentenceEnd": 4272
+    },
+    {
+      "entityKey": "simon_silverson_person",
+      "text": "Simon Silverson",
+      "normalizedText": "simon silverson",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 4209,
+      "end": 4224,
+      "tokenIndexes": [
+        906,
+        907
+      ],
+      "sentenceStart": 4101,
+      "sentenceEnd": 4272
     }
   ]
 }

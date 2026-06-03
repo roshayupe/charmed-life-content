@@ -21,633 +21,4067 @@
       "wordCount": 600,
       "uniqueWordCount": 300,
       "paragraphCount": 12,
-      "vocabularyCount": 22,
+      "vocabularyCount": 148,
       "levelDistribution": {
-        "A1": 0,
-        "A2": 0,
-        "B1": 0,
-        "B2": 14,
-        "C1": 5,
-        "C2": 3
+        "A1": 50,
+        "A2": 29,
+        "B1": 12,
+        "B2": 48,
+        "C1": 7,
+        "C2": 2
       }
     }
   },
   "vocabulary": [
     {
+      "word": "agreed",
+      "lemma": "agree",
+      "lemmaId": "agree",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "agree_verb",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "соглашаться"
+        }
+      },
+      "_spacyLemma": "agree",
+      "example": "Crossley agreed miserably.",
+      "exampleStart": 2068,
+      "exampleEnd": 2094,
+      "matchedForm": "agreed",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.44,
+      "difficultySource": "zipf"
+    },
+    {
       "word": "anxious",
       "lemma": "anxious",
       "lemmaId": "anxious",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "anxious_adjective",
       "level": "B2",
-      "ipa": "ˈæŋkʃəs",
       "translations": {
-        "de": {
-          "translation": "besorgt"
-        },
-        "es": {
-          "translation": "ansioso"
-        },
         "ru": {
           "translation": "тревожный"
-        },
-        "uk": {
-          "translation": "стурбований"
         }
       },
-      "definition": "Feeling worried or uneasy about something with an uncertain outcome.",
+      "_spacyLemma": "anxious",
       "example": "He saw the bright, smiling, anxious face of Miss Hodge, but his mind was not on her at all.",
       "exampleStart": 3141,
       "exampleEnd": 3232,
-      "matchedForm": "anxious"
+      "matchedForm": "anxious",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.691429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "arrange",
+      "lemma": "arrange",
+      "lemmaId": "arrange",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "arrange_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "устраивать"
+        }
+      },
+      "_spacyLemma": "arrange",
+      "example": "Problem: How do you arrange rehearsals and practices without asking most people to be in three places at once?",
+      "exampleStart": 2936,
+      "exampleEnd": 3046,
+      "matchedForm": "arrange",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.717143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "asking",
+      "lemma": "ask",
+      "lemmaId": "ask",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "ask_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "просить"
+        }
+      },
+      "_spacyLemma": "ask",
+      "example": "Problem: How do you arrange rehearsals and practices without asking most people to be in three places at once?",
+      "exampleStart": 2936,
+      "exampleEnd": 3046,
+      "matchedForm": "asking",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.334286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "attention",
+      "lemma": "attention",
+      "lemmaId": "attention",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "attention_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "внимание"
+        }
+      },
+      "_spacyLemma": "attention",
+      "example": "He wanted so badly to attract Miss Hodge’s attention, but he knew that words like witch were not the kind of words one used in front of a lady.",
+      "exampleStart": 1537,
+      "exampleEnd": 1680,
+      "matchedForm": "attention",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.4,
+      "difficultySource": "zipf"
     },
     {
       "word": "attract",
       "lemma": "attract",
       "lemmaId": "attract",
       "pos": "verb",
+      "source": "word",
       "wordKey": "attract_verb",
       "level": "B2",
-      "ipa": "əˈtrækt",
       "translations": {
-        "de": {
-          "translation": "anziehen"
-        },
-        "es": {
-          "translation": "atraer"
-        },
         "ru": {
           "translation": "привлекать"
-        },
-        "uk": {
-          "translation": "приваблювати"
         }
       },
-      "definition": "Cause to draw attention or interest.",
+      "_spacyLemma": "attract",
       "example": "He wanted so badly to attract Miss Hodge’s attention, but he knew that words like witch were not the kind of words one used in front of a lady.",
       "exampleStart": 1537,
       "exampleEnd": 1680,
-      "matchedForm": "attract"
+      "matchedForm": "attract",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.66,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "away",
+      "lemma": "away",
+      "lemmaId": "away",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "away_adverb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "уходить"
+        }
+      },
+      "_spacyLemma": "away",
+      "example": "“Put away your journals and get into line for music.",
+      "exampleStart": 501,
+      "exampleEnd": 553,
+      "matchedForm": "away",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.254286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "bad",
+      "lemma": "bad",
+      "lemmaId": "bad",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "bad_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "плохой"
+        }
+      },
+      "_spacyLemma": "bad",
+      "example": "When Charles wrote games, he meant bad luck.",
+      "exampleStart": 0,
+      "exampleEnd": 44,
+      "matchedForm": "bad",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.28,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "badly",
+      "lemma": "badly",
+      "lemmaId": "badly",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "badly_adverb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "плохо"
+        }
+      },
+      "_spacyLemma": "badly",
+      "example": "He wanted so badly to attract Miss Hodge’s attention, but he knew that words like witch were not the kind of words one used in front of a lady.",
+      "exampleStart": 1537,
+      "exampleEnd": 1680,
+      "matchedForm": "badly",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.591429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "basketball",
+      "lemma": "basketball",
+      "lemmaId": "basketball",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "basketball_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "баскетбол"
+        }
+      },
+      "_spacyLemma": "basketball",
+      "example": "At least a third played basketball as well.",
+      "exampleStart": 2843,
+      "exampleEnd": 2886,
+      "matchedForm": "basketball",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.557143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "be in",
+      "lemma": "be in",
+      "lemmaId": "be_in",
+      "pos": "prepositional_verb",
+      "type": "prepositional_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "be_in_prepositional_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Быть в"
+        }
+      },
+      "example": "Problem: How do you arrange rehearsals and practices without asking most people to be in three places at once?",
+      "exampleStart": 2936,
+      "exampleEnd": 3046,
+      "phraseMatch": {
+        "text": "be in",
+        "startInExample": 83,
+        "endInExample": 88
+      },
+      "levelSource": "phrase_index"
+    },
+    {
+      "word": "blouses",
+      "lemma": "blouse",
+      "lemmaId": "blouse",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "blouse_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "блузка"
+        }
+      },
+      "_spacyLemma": "blouse",
+      "example": "Miss Hodge was a small neat person who wore neat gray skirts and blouses and her hair was even neater and smoother than Theresa Mullett’s.",
+      "exampleStart": 964,
+      "exampleEnd": 1102,
+      "matchedForm": "blouses",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.894286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "books",
+      "lemma": "book",
+      "lemmaId": "book",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "book_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "книга"
+        }
+      },
+      "_spacyLemma": "book",
+      "example": "She was busy making neat stacks of books on the staff room table, and she went on making them all the time Mr.",
+      "exampleStart": 1103,
+      "exampleEnd": 1213,
+      "matchedForm": "books",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.308571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "boys",
+      "lemma": "boy",
+      "lemmaId": "boy",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "boy_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "мальчик"
+        }
+      },
+      "_spacyLemma": "boy",
+      "example": "Thirty boys in the orchestra were in various football teams, and twenty of the girls played hockey for the school.",
+      "exampleStart": 2728,
+      "exampleEnd": 2842,
+      "matchedForm": "boys",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.382857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "bright",
+      "lemma": "bright",
+      "lemmaId": "bright",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "bright_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "яркий"
+        }
+      },
+      "_spacyLemma": "bright",
+      "example": "He saw the bright, smiling, anxious face of Miss Hodge, but his mind was not on her at all.",
+      "exampleStart": 3141,
+      "exampleEnd": 3232,
+      "matchedForm": "bright",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.542857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "brought up",
+      "lemma": "bring up",
+      "lemmaId": "bring_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "bring_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Подняли"
+        }
+      },
+      "example": "”\n\n“I was brought up to be sorry for witches,” Miss Hodge remarked calmly.",
+      "exampleStart": 1721,
+      "exampleEnd": 1795,
+      "phraseMatch": {
+        "text": "brought up",
+        "startInExample": 10,
+        "endInExample": 20
+      },
+      "levelSource": "phrase_index"
+    },
+    {
+      "word": "brought",
+      "lemma": "bring",
+      "lemmaId": "bring",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "bring_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "приносить"
+        }
+      },
+      "_spacyLemma": "bring",
+      "example": "”\n\n“I was brought up to be sorry for witches,” Miss Hodge remarked calmly.",
+      "exampleStart": 1721,
+      "exampleEnd": 1795,
+      "matchedForm": "brought",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.354286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "busy",
+      "lemma": "busy",
+      "lemmaId": "busy",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "busy_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "занятый"
+        }
+      },
+      "_spacyLemma": "busy",
+      "example": "She was busy making neat stacks of books on the staff room table, and she went on making them all the time Mr.",
+      "exampleStart": 1103,
+      "exampleEnd": 1213,
+      "matchedForm": "busy",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.502857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "calmly",
+      "lemma": "calmly",
+      "lemmaId": "calmly",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "calmly_adverb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "спокойно"
+        }
+      },
+      "_spacyLemma": "calmly",
+      "example": "”\n\n“I was brought up to be sorry for witches,” Miss Hodge remarked calmly.",
+      "exampleStart": 1721,
+      "exampleEnd": 1795,
+      "matchedForm": "calmly",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.842857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "caught",
+      "lemma": "catch",
+      "lemmaId": "catch",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "catch_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "ловить"
+        }
+      },
+      "_spacyLemma": "catch",
+      "example": "He did not know what was in the note, but when he looked up and caught Mr.",
+      "exampleStart": 114,
+      "exampleEnd": 188,
+      "matchedForm": "caught",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.468571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "choir",
+      "lemma": "choir",
+      "lemmaId": "choir",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "choir_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "хор"
+        }
+      },
+      "_spacyLemma": "choir",
+      "example": "Fifty of these were also in the school choir and twenty of those fifty were in the school play.",
+      "exampleStart": 2632,
+      "exampleEnd": 2727,
+      "matchedForm": "choir",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.751429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "come in",
+      "lemma": "come in",
+      "lemmaId": "come_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Входите"
+        }
+      },
+      "example": "“Come in,” he said.",
+      "exampleStart": 3121,
+      "exampleEnd": 3140,
+      "phraseMatch": {
+        "text": "Come in",
+        "startInExample": 1,
+        "endInExample": 8
+      },
+      "levelSource": "phrase_index"
+    },
+    {
+      "word": "coming",
+      "lemma": "come",
+      "lemmaId": "come",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "come_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "приходить"
+        }
+      },
+      "_spacyLemma": "come",
+      "example": "Crossley’s eye, he knew it meant bad luck coming.",
+      "exampleStart": 189,
+      "exampleEnd": 238,
+      "matchedForm": "coming",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.208571,
+      "difficultySource": "zipf"
     },
     {
       "word": "consult",
       "lemma": "consult",
       "lemmaId": "consult",
       "pos": "verb",
+      "source": "word",
       "wordKey": "consult_verb",
       "level": "B2",
-      "ipa": "kənˈsʌlt",
       "translations": {
-        "de": {
-          "translation": "beraten"
-        },
-        "es": {
-          "translation": "consultar"
-        },
         "ru": {
-          "translation": "консультироваться"
-        },
-        "uk": {
-          "translation": "консультуватись"
+          "translation": "консультации"
         }
       },
-      "definition": "Seek advice or information from someone.",
+      "_spacyLemma": "consult",
       "example": "Crossley sped to the staff room, hoping to find someone he could consult about the note.",
       "exampleStart": 612,
       "exampleEnd": 700,
-      "matchedForm": "consult"
+      "matchedForm": "consult",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.754286,
+      "difficultySource": "zipf"
     },
     {
-      "word": "deputy head",
-      "lemma": "deputyhead",
-      "lemmaId": "deputyhead",
+      "word": "course",
+      "lemma": "course",
+      "lemmaId": "course",
       "pos": "noun",
-      "wordKey": "deputyhead_noun",
-      "level": "B2",
-      "ipa": "ˈdɛpjuti hɛd",
+      "source": "word",
+      "wordKey": "course_noun",
+      "level": "A2",
       "translations": {
-        "de": {
-          "translation": "stellvertretender Schulleiter"
-        },
-        "es": {
-          "translation": "subdirector"
-        },
         "ru": {
-          "translation": "заместитель директора"
-        },
-        "uk": {
-          "translation": "заступник директора"
+          "translation": "курс"
         }
       },
-      "definition": "An official second-in-command in a school or organization.",
+      "_spacyLemma": "course",
+      "example": "But of course he never let it show.",
+      "exampleStart": 841,
+      "exampleEnd": 876,
+      "matchedForm": "course",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.305714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "decide",
+      "lemma": "decide",
+      "lemmaId": "decide",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "decide_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "решать"
+        }
+      },
+      "_spacyLemma": "decide",
+      "example": "Crossley still could not decide what to do about the note.",
+      "exampleStart": 244,
+      "exampleEnd": 302,
+      "matchedForm": "decide",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.494286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "deputy",
+      "lemma": "deputy",
+      "lemmaId": "deputy",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "deputy_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "заместитель"
+        }
+      },
+      "_spacyLemma": "deputy",
       "example": "Wentworth, as deputy head, had a study where he wrestled with the schedules and various other problems Miss Cadwallader gave him.",
       "exampleStart": 2366,
       "exampleEnd": 2495,
-      "matchedForm": "deputy"
+      "matchedForm": "deputy",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.56,
+      "difficultySource": "zipf"
     },
     {
       "word": "despairingly",
       "lemma": "despairingly",
       "lemmaId": "despairingly",
       "pos": "adverb",
+      "source": "word",
       "wordKey": "despairingly_adverb",
       "level": "C2",
-      "ipa": "dɪˈspɛərɪŋli",
       "translations": {
-        "de": {
-          "translation": "verzweifelt"
-        },
-        "es": {
-          "translation": "desesperadamente"
-        },
         "ru": {
           "translation": "отчаянно"
-        },
-        "uk": {
-          "translation": "відчайдушно"
         }
       },
-      "definition": "In a manner showing loss of hope.",
+      "_spacyLemma": "despairingly",
       "example": "Wentworth rubbed the thin patch at the back of his hair despairingly.",
       "exampleStart": 3051,
       "exampleEnd": 3120,
-      "matchedForm": "despairingly"
+      "matchedForm": "despairingly",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "door",
+      "lemma": "door",
+      "lemmaId": "door",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "door_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "дверь"
+        }
+      },
+      "_spacyLemma": "door",
+      "example": "When Miss Hodge tapped on the door, he was wrestling with a particularly fierce one.",
+      "exampleStart": 2496,
+      "exampleEnd": 2580,
+      "matchedForm": "door",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.408571,
+      "difficultySource": "zipf"
     },
     {
       "word": "excitedly",
       "lemma": "excitedly",
       "lemmaId": "excitedly",
       "pos": "adverb",
+      "source": "word",
       "wordKey": "excitedly_adverb",
       "level": "B2",
-      "ipa": "ɪkˈsaɪtɪdli",
       "translations": {
-        "de": {
-          "translation": "aufgeregt"
-        },
-        "es": {
-          "translation": "emocionadamente"
-        },
         "ru": {
-          "translation": "возбужденно"
-        },
-        "uk": {
-          "translation": "захоплено"
+          "translation": "взволнованно"
         }
       },
-      "definition": "In a way that shows happiness or enthusiasm.",
+      "_spacyLemma": "excitedly",
       "example": "Crossley was telling her excitedly about the note.",
       "exampleStart": 1214,
       "exampleEnd": 1264,
-      "matchedForm": "excitedly"
+      "matchedForm": "excitedly",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.985714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "eye",
+      "lemma": "eye",
+      "lemmaId": "eye",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "eye_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "глаз"
+        }
+      },
+      "_spacyLemma": "eye",
+      "example": "Crossley’s eye, he knew it meant bad luck coming.",
+      "exampleStart": 189,
+      "exampleEnd": 238,
+      "matchedForm": "eye",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.425714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "face",
+      "lemma": "face",
+      "lemmaId": "face",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "face_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "лицо"
+        }
+      },
+      "_spacyLemma": "face",
+      "example": "He saw the bright, smiling, anxious face of Miss Hodge, but his mind was not on her at all.",
+      "exampleStart": 3141,
+      "exampleEnd": 3232,
+      "matchedForm": "face",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.302857,
+      "difficultySource": "zipf"
     },
     {
       "word": "fierce",
       "lemma": "fierce",
       "lemmaId": "fierce",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "fierce_adjective",
       "level": "B2",
-      "ipa": "fɪərs",
       "translations": {
-        "de": {
-          "translation": "heftig"
-        },
-        "es": {
-          "translation": "fiero"
-        },
         "ru": {
-          "translation": "жестокий"
-        },
-        "uk": {
-          "translation": "лютий"
+          "translation": "сильный"
         }
       },
-      "definition": "Showing strong, intense, or aggressive force.",
+      "_spacyLemma": "fierce",
       "example": "When Miss Hodge tapped on the door, he was wrestling with a particularly fierce one.",
       "exampleStart": 2496,
       "exampleEnd": 2580,
-      "matchedForm": "fierce"
+      "matchedForm": "fierce",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.74,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "found",
+      "lemma": "find",
+      "lemmaId": "find",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "find_verb",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "найти"
+        }
+      },
+      "_spacyLemma": "find",
+      "example": "Crossley had found a note.",
+      "exampleStart": 87,
+      "exampleEnd": 113,
+      "matchedForm": "found",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.214286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "football",
+      "lemma": "football",
+      "lemmaId": "football",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "football_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "футбол"
+        }
+      },
+      "_spacyLemma": "football",
+      "example": "Thirty boys in the orchestra were in various football teams, and twenty of the girls played hockey for the school.",
+      "exampleStart": 2728,
+      "exampleEnd": 2842,
+      "matchedForm": "football",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.4,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "forced",
+      "lemma": "force",
+      "lemmaId": "force",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "force_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "сила"
+        }
+      },
+      "_spacyLemma": "force",
+      "example": "And he was forced to hurry away without Miss Hodge’s having looked at him once.",
+      "exampleStart": 2095,
+      "exampleEnd": 2174,
+      "matchedForm": "forced",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.365714,
+      "difficultySource": "zipf"
     },
     {
       "word": "frightening",
-      "lemma": "frighten",
-      "lemmaId": "frighten",
+      "lemma": "frightening",
+      "lemmaId": "frightening",
       "pos": "adjective",
-      "wordKey": "frighten_adjective",
+      "source": "word",
+      "wordKey": "frightening_adjective",
       "level": "B2",
-      "ipa": "ˈfraɪtənɪŋ",
       "translations": {
-        "de": {
-          "translation": "beängstigend"
-        },
-        "es": {
-          "translation": "atemorizante"
-        },
         "ru": {
-          "translation": "страшащий"
-        },
-        "uk": {
-          "translation": "страшний"
+          "translation": "пугающий"
         }
       },
-      "definition": "Causing fear or alarm.",
+      "_spacyLemma": "frightening",
       "example": "And that was a thoroughly frightening thought.",
       "exampleStart": 374,
       "exampleEnd": 420,
-      "matchedForm": "frightening"
+      "matchedForm": "frightening",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.811429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "games",
+      "lemma": "game",
+      "lemmaId": "game",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "game_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "игра"
+        }
+      },
+      "_spacyLemma": "game",
+      "example": "When Charles wrote games, he meant bad luck.",
+      "exampleStart": 0,
+      "exampleEnd": 44,
+      "matchedForm": "games",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.225714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "get into",
+      "lemma": "get into",
+      "lemmaId": "get_into",
+      "pos": "prepositional_verb",
+      "type": "prepositional_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "get_into_prepositional_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Входи"
+        }
+      },
+      "example": "“Put away your journals and get into line for music.",
+      "exampleStart": 501,
+      "exampleEnd": 553,
+      "phraseMatch": {
+        "text": "get into",
+        "startInExample": 28,
+        "endInExample": 36
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "girls",
+      "lemma": "girl",
+      "lemmaId": "girl",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "girl_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "девочка"
+        }
+      },
+      "_spacyLemma": "girl",
+      "example": "Thirty boys in the orchestra were in various football teams, and twenty of the girls played hockey for the school.",
+      "exampleStart": 2728,
+      "exampleEnd": 2842,
+      "matchedForm": "girls",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.322857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "gave",
+      "lemma": "give",
+      "lemmaId": "give",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "give_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "давать"
+        }
+      },
+      "_spacyLemma": "give",
+      "example": "Wentworth, as deputy head, had a study where he wrestled with the schedules and various other problems Miss Cadwallader gave him.",
+      "exampleStart": 2366,
+      "exampleEnd": 2495,
+      "matchedForm": "gave",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.228571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "glance",
+      "lemma": "glance",
+      "lemmaId": "glance",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "glance_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "взгляд"
+        }
+      },
+      "_spacyLemma": "glance",
+      "example": "She spared the note one glance.",
+      "exampleStart": 1265,
+      "exampleEnd": 1296,
+      "matchedForm": "glance",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.742857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "went on",
+      "lemma": "go on",
+      "lemmaId": "go_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "продолжил"
+        }
+      },
+      "example": "She was busy making neat stacks of books on the staff room table, and she went on making them all the time Mr.",
+      "exampleStart": 1103,
+      "exampleEnd": 1213,
+      "phraseMatch": {
+        "text": "went on",
+        "startInExample": 74,
+        "endInExample": 81
+      },
+      "levelSource": "phrase_index"
+    },
+    {
+      "word": "went",
+      "lemma": "go",
+      "lemmaId": "go",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "go_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "идти"
+        }
+      },
+      "_spacyLemma": "go",
+      "example": "She was busy making neat stacks of books on the staff room table, and she went on making them all the time Mr.",
+      "exampleStart": 1103,
+      "exampleEnd": 1213,
+      "matchedForm": "went",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.137143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "gray",
+      "lemma": "gray",
+      "lemmaId": "gray",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "gray_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "серый"
+        }
+      },
+      "_spacyLemma": "gray",
+      "example": "Miss Hodge was a small neat person who wore neat gray skirts and blouses and her hair was even neater and smoother than Theresa Mullett’s.",
+      "exampleStart": 964,
+      "exampleEnd": 1102,
+      "matchedForm": "gray",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.588571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "hair",
+      "lemma": "hair",
+      "lemmaId": "hair",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "hair_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "волосы"
+        }
+      },
+      "_spacyLemma": "hair",
+      "example": "Miss Hodge was a small neat person who wore neat gray skirts and blouses and her hair was even neater and smoother than Theresa Mullett’s.",
+      "exampleStart": 964,
+      "exampleEnd": 1102,
+      "matchedForm": "hair",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.408571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "hall",
+      "lemma": "hall",
+      "lemmaId": "hall",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "hall_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "холл"
+        }
+      },
+      "_spacyLemma": "hall",
+      "example": "”\n\nAs soon as 6B had shuffled away to the school hall, Mr.",
+      "exampleStart": 553,
+      "exampleEnd": 611,
+      "matchedForm": "hall",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.468571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "handle",
+      "lemma": "handle",
+      "lemmaId": "handle",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "handle_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "ручка"
+        }
+      },
+      "_spacyLemma": "handle",
+      "example": "“I just wondered how I should handle it—”\n\nMiss Hodge lined up another stack of books.",
+      "exampleStart": 1852,
+      "exampleEnd": 1938,
+      "matchedForm": "handle",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.491429,
+      "difficultySource": "zipf"
     },
     {
       "word": "hastily",
       "lemma": "hastily",
       "lemmaId": "hastily",
       "pos": "adverb",
+      "source": "word",
       "wordKey": "hastily_adverb",
       "level": "C1",
-      "ipa": "ˈheɪstɪli",
       "translations": {
-        "de": {
-          "translation": "eilig"
-        },
-        "es": {
-          "translation": "apresuradamente"
-        },
         "ru": {
-          "translation": "поспешно"
-        },
-        "uk": {
-          "translation": "поспішно"
+          "translation": "торопливо"
         }
       },
-      "definition": "In a hurried or rushed manner.",
+      "_spacyLemma": "hastily",
       "example": "Crossley said hastily.",
       "exampleStart": 1829,
       "exampleEnd": 1851,
-      "matchedForm": "hastily"
+      "matchedForm": "hastily",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.917143,
+      "difficultySource": "zipf"
     },
     {
-      "word": "ignore",
-      "lemma": "ignore",
-      "lemmaId": "ignore",
+      "word": "having",
+      "lemma": "have",
+      "lemmaId": "have",
       "pos": "verb",
-      "wordKey": "ignore_verb",
-      "level": "B2",
-      "ipa": "ɪɡˈnɔːr",
+      "source": "word",
+      "wordKey": "have_verb",
+      "level": "A1",
       "translations": {
-        "de": {
-          "translation": "ignorieren"
-        },
-        "es": {
-          "translation": "ignorar"
-        },
         "ru": {
-          "translation": "игнорировать"
-        },
-        "uk": {
-          "translation": "ігнорувати"
+          "translation": "иметь"
         }
       },
-      "definition": "Refuse to take notice of.",
-      "example": "“Ignore it.",
-      "exampleStart": 1983,
-      "exampleEnd": 1994,
-      "matchedForm": "Ignore"
+      "_spacyLemma": "have",
+      "example": "And he was forced to hurry away without Miss Hodge’s having looked at him once.",
+      "exampleStart": 2095,
+      "exampleEnd": 2174,
+      "matchedForm": "having",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "head",
+      "lemma": "head",
+      "lemmaId": "head",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "head_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "голова"
+        }
+      },
+      "_spacyLemma": "head",
+      "example": "Wentworth, as deputy head, had a study where he wrestled with the schedules and various other problems Miss Cadwallader gave him.",
+      "exampleStart": 2366,
+      "exampleEnd": 2495,
+      "matchedForm": "head",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.285714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "hockey",
+      "lemma": "hockey",
+      "lemmaId": "hockey",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "hockey_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "хоккей"
+        }
+      },
+      "_spacyLemma": "hockey",
+      "example": "Thirty boys in the orchestra were in various football teams, and twenty of the girls played hockey for the school.",
+      "exampleStart": 2728,
+      "exampleEnd": 2842,
+      "matchedForm": "hockey",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.597143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "hoping",
+      "lemma": "hop",
+      "lemmaId": "hop",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "hop_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "прыгать"
+        }
+      },
+      "_spacyLemma": "hop",
+      "example": "Crossley sped to the staff room, hoping to find someone he could consult about the note.",
+      "exampleStart": 612,
+      "exampleEnd": 700,
+      "matchedForm": "hoping",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.602857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "hurry",
+      "lemma": "hurry",
+      "lemmaId": "hurry",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "hurry_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "торопиться"
+        }
+      },
+      "_spacyLemma": "hurry",
+      "example": "And he was forced to hurry away without Miss Hodge’s having looked at him once.",
+      "exampleStart": 2095,
+      "exampleEnd": 2174,
+      "matchedForm": "hurry",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.677143,
+      "difficultySource": "zipf"
     },
     {
       "word": "inquisitors",
       "lemma": "inquisitor",
       "lemmaId": "inquisitor",
       "pos": "noun",
+      "source": "word",
       "wordKey": "inquisitor_noun",
       "level": "C2",
-      "ipa": "ɪnˈkwɪzɪtər",
       "translations": {
-        "de": {
-          "translation": "Inquisitoren"
-        },
-        "es": {
-          "translation": "inquisidores"
-        },
         "ru": {
-          "translation": "инквизиторы"
-        },
-        "uk": {
-          "translation": "інквізитори"
+          "translation": "инквизитор"
         }
       },
-      "definition": "People who conduct an official investigation, especially harshly or oppressively.",
+      "_spacyLemma": "inquisitor",
       "example": "If what it said was true, that meant inquisitors coming to the school.",
       "exampleStart": 303,
       "exampleEnd": 373,
-      "matchedForm": "inquisitors"
+      "matchedForm": "inquisitors",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "joke",
+      "lemma": "joke",
+      "lemmaId": "joke",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "joke_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "шутить"
+        }
+      },
+      "_spacyLemma": "joke",
+      "example": "“I think it’s just a silly joke,” she said.",
+      "exampleStart": 1939,
+      "exampleEnd": 1982,
+      "matchedForm": "joke",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.522857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "journals",
+      "lemma": "journal",
+      "lemmaId": "journal",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "journal_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "журнал"
+        }
+      },
+      "_spacyLemma": "journal",
+      "example": "“Put away your journals and get into line for music.",
+      "exampleStart": 501,
+      "exampleEnd": 553,
+      "matchedForm": "journals",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.497143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "kind",
+      "lemma": "kind",
+      "lemmaId": "kind",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "kind_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "добрый"
+        }
+      },
+      "_spacyLemma": "kind",
+      "example": "He wanted so badly to attract Miss Hodge’s attention, but he knew that words like witch were not the kind of words one used in front of a lady.",
+      "exampleStart": 1537,
+      "exampleEnd": 1680,
+      "matchedForm": "kind",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.302857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "know",
+      "lemma": "know",
+      "lemmaId": "know",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "know_verb",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "знать"
+        }
+      },
+      "_spacyLemma": "know",
+      "example": "He did not know what was in the note, but when he looked up and caught Mr.",
+      "exampleStart": 114,
+      "exampleEnd": 188,
+      "matchedForm": "know",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.117143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "lady",
+      "lemma": "lady",
+      "lemmaId": "lady",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "lady_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "леди"
+        }
+      },
+      "_spacyLemma": "lady",
+      "example": "He wanted so badly to attract Miss Hodge’s attention, but he knew that words like witch were not the kind of words one used in front of a lady.",
+      "exampleStart": 1537,
+      "exampleEnd": 1680,
+      "matchedForm": "lady",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.445714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "let",
+      "lemma": "let",
+      "lemmaId": "let",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "let_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "давать"
+        }
+      },
+      "_spacyLemma": "let",
+      "example": "But of course he never let it show.",
+      "exampleStart": 841,
+      "exampleEnd": 876,
+      "matchedForm": "let",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.26,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "like",
+      "lemma": "like",
+      "lemmaId": "like",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "like_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "как"
+        }
+      },
+      "_spacyLemma": "like",
+      "example": "Like everyone else in 6B, he had seen Mr.",
+      "exampleStart": 45,
+      "exampleEnd": 86,
+      "matchedForm": "Like",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.028571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "line",
+      "lemma": "line",
+      "lemmaId": "line",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "line_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "линия"
+        }
+      },
+      "_spacyLemma": "line",
+      "example": "“Put away your journals and get into line for music.",
+      "exampleStart": 501,
+      "exampleEnd": 553,
+      "matchedForm": "line",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.291429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "lined up",
+      "lemma": "line up",
+      "lemmaId": "line_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "line_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "В строю"
+        }
+      },
+      "example": "“I just wondered how I should handle it—”\n\nMiss Hodge lined up another stack of books.",
+      "exampleStart": 1852,
+      "exampleEnd": 1938,
+      "phraseMatch": {
+        "text": "lined up",
+        "startInExample": 54,
+        "endInExample": 62
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "lined",
+      "lemma": "line",
+      "lemmaId": "line",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "line_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "линия"
+        }
+      },
+      "_spacyLemma": "line",
+      "example": "“Put away your journals and get into line for music.",
+      "exampleStart": 501,
+      "exampleEnd": 553,
+      "matchedForm": "line",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.291429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "looked at",
+      "lemma": "look at",
+      "lemmaId": "look_at",
+      "pos": "prepositional_verb",
+      "type": "prepositional_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_at_prepositional_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "смотрел"
+        }
+      },
+      "example": "And he was forced to hurry away without Miss Hodge’s having looked at him once.",
+      "exampleStart": 2095,
+      "exampleEnd": 2174,
+      "phraseMatch": {
+        "text": "looked at",
+        "startInExample": 60,
+        "endInExample": 69
+      },
+      "levelSource": "phrase_index"
+    },
+    {
+      "word": "looked up",
+      "lemma": "look up",
+      "lemmaId": "look_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Посмотрел вверх"
+        }
+      },
+      "example": "He did not know what was in the note, but when he looked up and caught Mr.",
+      "exampleStart": 114,
+      "exampleEnd": 188,
+      "phraseMatch": {
+        "text": "looked up",
+        "startInExample": 50,
+        "endInExample": 59
+      },
+      "levelSource": "phrase_index"
+    },
+    {
+      "word": "looked",
+      "lemma": "look",
+      "lemmaId": "look",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "look_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "смотреть"
+        }
+      },
+      "_spacyLemma": "look",
+      "example": "He did not know what was in the note, but when he looked up and caught Mr.",
+      "exampleStart": 114,
+      "exampleEnd": 188,
+      "matchedForm": "looked",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.2,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "love",
+      "lemma": "love",
+      "lemmaId": "love",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "love_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "любовь"
+        }
+      },
+      "_spacyLemma": "love",
+      "example": "Crossley was in love with Miss Hodge.",
+      "exampleStart": 803,
+      "exampleEnd": 840,
+      "matchedForm": "love",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.197143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "luck",
+      "lemma": "luck",
+      "lemmaId": "luck",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "luck_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "удача"
+        }
+      },
+      "_spacyLemma": "luck",
+      "example": "When Charles wrote games, he meant bad luck.",
+      "exampleStart": 0,
+      "exampleEnd": 44,
+      "matchedForm": "luck",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.457143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "lucky",
+      "lemma": "lucky",
+      "lemmaId": "lucky",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "lucky_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "счастливчик"
+        }
+      },
+      "_spacyLemma": "lucky",
+      "example": "He was lucky enough to find Miss Hodge there.",
+      "exampleStart": 702,
+      "exampleEnd": 747,
+      "matchedForm": "lucky",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.497143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "making",
+      "lemma": "make",
+      "lemmaId": "make",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "make_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "делать"
+        }
+      },
+      "_spacyLemma": "make",
+      "example": "She was busy making neat stacks of books on the staff room table, and she went on making them all the time Mr.",
+      "exampleStart": 1103,
+      "exampleEnd": 1213,
+      "matchedForm": "making",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.122857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "meant",
+      "lemma": "mean",
+      "lemmaId": "mean",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "mean_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "означать"
+        }
+      },
+      "_spacyLemma": "mean",
+      "example": "When Charles wrote games, he meant bad luck.",
+      "exampleStart": 0,
+      "exampleEnd": 44,
+      "matchedForm": "meant",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.28,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "mind",
+      "lemma": "mind",
+      "lemmaId": "mind",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "mind_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "разум"
+        }
+      },
+      "_spacyLemma": "mind",
+      "example": "He saw the bright, smiling, anxious face of Miss Hodge, but his mind was not on her at all.",
+      "exampleStart": 3141,
+      "exampleEnd": 3232,
+      "matchedForm": "mind",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.314286,
+      "difficultySource": "zipf"
     },
     {
       "word": "miserably",
       "lemma": "miserably",
       "lemmaId": "miserably",
       "pos": "adverb",
+      "source": "word",
       "wordKey": "miserably_adverb",
       "level": "B2",
-      "ipa": "ˈmɪzərəbli",
       "translations": {
-        "de": {
-          "translation": "elend"
-        },
-        "es": {
-          "translation": "tristemente"
-        },
         "ru": {
-          "translation": "жалко"
-        },
-        "uk": {
-          "translation": "нещасно"
+          "translation": "с трепетом"
         }
       },
-      "definition": "In a way that shows unhappiness or discomfort.",
+      "_spacyLemma": "miserably",
       "example": "Crossley agreed miserably.",
       "exampleStart": 2068,
       "exampleEnd": 2094,
-      "matchedForm": "miserably"
+      "matchedForm": "miserably",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.954286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "music",
+      "lemma": "music",
+      "lemmaId": "music",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "music_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "музыка"
+        }
+      },
+      "_spacyLemma": "music",
+      "example": "“Put away your journals and get into line for music.",
+      "exampleStart": 501,
+      "exampleEnd": 553,
+      "matchedForm": "music",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.282857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "neat",
+      "lemma": "neat",
+      "lemmaId": "neat",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "neat_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "аккуратный"
+        }
+      },
+      "_spacyLemma": "neat",
+      "example": "Miss Hodge was a small neat person who wore neat gray skirts and blouses and her hair was even neater and smoother than Theresa Mullett’s.",
+      "exampleStart": 964,
+      "exampleEnd": 1102,
+      "matchedForm": "neat",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.72,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "neater",
+      "lemma": "neater",
+      "lemmaId": "neater",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "neater_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "аккуратнее"
+        }
+      },
+      "_spacyLemma": "neater",
+      "example": "Miss Hodge was a small neat person who wore neat gray skirts and blouses and her hair was even neater and smoother than Theresa Mullett’s.",
+      "exampleStart": 964,
+      "exampleEnd": 1102,
+      "matchedForm": "neater",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "note",
+      "lemma": "note",
+      "lemmaId": "note",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "note_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "примечание"
+        }
+      },
+      "_spacyLemma": "note",
+      "example": "Crossley had found a note.",
+      "exampleStart": 87,
+      "exampleEnd": 113,
+      "matchedForm": "note",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.42,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "observed",
+      "lemma": "observe",
+      "lemmaId": "observe",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "observe_verb",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "наблюдать"
+        }
+      },
+      "_spacyLemma": "observe",
+      "example": "As Theresa Mullett and Estelle Green had observed, Mr.",
+      "exampleStart": 748,
+      "exampleEnd": 802,
+      "matchedForm": "observed",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.7,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "orchestra",
+      "lemma": "orchestra",
+      "lemmaId": "orchestra",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "orchestra_noun",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "оркестр"
+        }
+      },
+      "_spacyLemma": "orchestra",
+      "example": "There were seventy people in the school orchestra.",
+      "exampleStart": 2581,
+      "exampleEnd": 2631,
+      "matchedForm": "orchestra",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.714286,
+      "difficultySource": "zipf"
     },
     {
       "word": "particularly",
       "lemma": "particularly",
       "lemmaId": "particularly",
       "pos": "adverb",
+      "source": "word",
       "wordKey": "particularly_adverb",
       "level": "B2",
-      "ipa": "pərˈtɪkjələrli",
       "translations": {
-        "de": {
-          "translation": "besonders"
-        },
-        "es": {
-          "translation": "particularmente"
-        },
         "ru": {
           "translation": "особенно"
-        },
-        "uk": {
-          "translation": "особливо"
         }
       },
-      "definition": "Especially; more than usually.",
+      "_spacyLemma": "particularly",
       "example": "When Miss Hodge tapped on the door, he was wrestling with a particularly fierce one.",
       "exampleStart": 2496,
       "exampleEnd": 2580,
-      "matchedForm": "particularly"
+      "matchedForm": "particularly",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.442857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "patch",
+      "lemma": "patch",
+      "lemmaId": "patch",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "patch_noun",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "пластырь"
+        }
+      },
+      "_spacyLemma": "patch",
+      "example": "Wentworth rubbed the thin patch at the back of his hair despairingly.",
+      "exampleStart": 3051,
+      "exampleEnd": 3120,
+      "matchedForm": "patch",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.66,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "people",
+      "lemma": "people",
+      "lemmaId": "people",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "people_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "люди"
+        }
+      },
+      "_spacyLemma": "people",
+      "example": "There were seventy people in the school orchestra.",
+      "exampleStart": 2581,
+      "exampleEnd": 2631,
+      "matchedForm": "people",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.074286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "person",
+      "lemma": "person",
+      "lemmaId": "person",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "person_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "человек"
+        }
+      },
+      "_spacyLemma": "person",
+      "example": "Probably the one person in the school who did not seem to know was Miss Hodge herself.",
+      "exampleStart": 877,
+      "exampleEnd": 963,
+      "matchedForm": "person",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.274286,
+      "difficultySource": "zipf"
     },
     {
       "word": "pitiable",
       "lemma": "pitiable",
       "lemmaId": "pitiable",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "pitiable_adjective",
-      "level": "C2",
-      "ipa": "ˈpɪtɪəbəl",
+      "level": "C1",
       "translations": {
-        "de": {
-          "translation": "bemitleidenswert"
-        },
-        "es": {
-          "translation": "lamentable"
-        },
         "ru": {
           "translation": "жалкий"
-        },
-        "uk": {
-          "translation": "жалюгідний"
         }
       },
-      "definition": "Deserving or arousing pity.",
+      "_spacyLemma": "pitiable",
       "example": "Suppose one of them is—” He was in a pitiable state.",
       "exampleStart": 1484,
       "exampleEnd": 1536,
-      "matchedForm": "pitiable"
+      "matchedForm": "pitiable",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "places",
+      "lemma": "place",
+      "lemmaId": "place",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "place_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "место"
+        }
+      },
+      "_spacyLemma": "place",
+      "example": "Problem: How do you arrange rehearsals and practices without asking most people to be in three places at once?",
+      "exampleStart": 2936,
+      "exampleEnd": 3046,
+      "matchedForm": "places",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.228571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "played",
+      "lemma": "play",
+      "lemmaId": "play",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "play_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "играть"
+        }
+      },
+      "_spacyLemma": "play",
+      "example": "Fifty of these were also in the school choir and twenty of those fifty were in the school play.",
+      "exampleStart": 2632,
+      "exampleEnd": 2727,
+      "matchedForm": "play",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.257143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "played",
+      "lemma": "play",
+      "lemmaId": "play",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "play_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "играть"
+        }
+      },
+      "_spacyLemma": "play",
+      "example": "Fifty of these were also in the school choir and twenty of those fifty were in the school play.",
+      "exampleStart": 2632,
+      "exampleEnd": 2727,
+      "matchedForm": "play",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.257143,
+      "difficultySource": "zipf"
     },
     {
       "word": "pleaded",
       "lemma": "plead",
       "lemmaId": "plead",
       "pos": "verb",
+      "source": "word",
       "wordKey": "plead_verb",
       "level": "B2",
-      "ipa": "pliːd",
       "translations": {
-        "de": {
-          "translation": "flehen"
-        },
-        "es": {
-          "translation": "suplicar"
-        },
         "ru": {
           "translation": "умолять"
-        },
-        "uk": {
-          "translation": "благати"
         }
       },
-      "definition": "Make an emotional or earnest appeal.",
+      "_spacyLemma": "plead",
       "example": "Crossley pleaded.",
       "exampleStart": 1385,
       "exampleEnd": 1402,
-      "matchedForm": "pleaded"
+      "matchedForm": "pleaded",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.822857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "pocket",
+      "lemma": "pocket",
+      "lemmaId": "pocket",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "pocket_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "карман"
+        }
+      },
+      "_spacyLemma": "pocket",
+      "example": "Crossley sighed and put the note in his pocket.",
+      "exampleStart": 425,
+      "exampleEnd": 472,
+      "matchedForm": "pocket",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.58,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "practices",
+      "lemma": "practice",
+      "lemmaId": "practice",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "practice_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "практика"
+        }
+      },
+      "_spacyLemma": "practice",
+      "example": "Problem: How do you arrange rehearsals and practices without asking most people to be in three places at once?",
+      "exampleStart": 2936,
+      "exampleEnd": 3046,
+      "matchedForm": "practices",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.414286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "Probably",
+      "lemma": "probably",
+      "lemmaId": "probably",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "probably_adverb",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "вероятно"
+        }
+      },
+      "_spacyLemma": "probably",
+      "example": "Probably the one person in the school who did not seem to know was Miss Hodge herself.",
+      "exampleStart": 877,
+      "exampleEnd": 963,
+      "matchedForm": "Probably",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.325714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "problems",
+      "lemma": "problem",
+      "lemmaId": "problem",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "problem_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "проблема"
+        }
+      },
+      "_spacyLemma": "problem",
+      "example": "Wentworth, as deputy head, had a study where he wrestled with the schedules and various other problems Miss Cadwallader gave him.",
+      "exampleStart": 2366,
+      "exampleEnd": 2495,
+      "matchedForm": "problems",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.317143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "put away",
+      "lemma": "put away",
+      "lemmaId": "put_away",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "put_away_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Убери"
+        }
+      },
+      "example": "“Put away your journals and get into line for music.",
+      "exampleStart": 501,
+      "exampleEnd": 553,
+      "phraseMatch": {
+        "text": "Put away",
+        "startInExample": 1,
+        "endInExample": 9
+      },
+      "levelSource": "phrase_index"
+    },
+    {
+      "word": "rehearsals",
+      "lemma": "rehearsal",
+      "lemmaId": "rehearsal",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "rehearsal_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "репетиция"
+        }
+      },
+      "_spacyLemma": "rehearsal",
+      "example": "Problem: How do you arrange rehearsals and practices without asking most people to be in three places at once?",
+      "exampleStart": 2936,
+      "exampleEnd": 3046,
+      "matchedForm": "rehearsals",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.808571,
+      "difficultySource": "zipf"
     },
     {
       "word": "remarked",
       "lemma": "remark",
       "lemmaId": "remark",
       "pos": "verb",
+      "source": "word",
       "wordKey": "remark_verb",
       "level": "B2",
-      "ipa": "rɪˈmɑːrkt",
       "translations": {
-        "de": {
-          "translation": "bemerkte"
-        },
-        "es": {
-          "translation": "comentó"
-        },
         "ru": {
-          "translation": "заметил"
-        },
-        "uk": {
-          "translation": "зауважив"
+          "translation": "замечание"
         }
       },
-      "definition": "Say something as a comment.",
+      "_spacyLemma": "remark",
       "example": "”\n\n“I was brought up to be sorry for witches,” Miss Hodge remarked calmly.",
       "exampleStart": 1721,
       "exampleEnd": 1795,
-      "matchedForm": "remarked"
+      "matchedForm": "remarked",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.814286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "room",
+      "lemma": "room",
+      "lemmaId": "room",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "room_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "комната"
+        }
+      },
+      "_spacyLemma": "room",
+      "example": "Crossley sped to the staff room, hoping to find someone he could consult about the note.",
+      "exampleStart": 612,
+      "exampleEnd": 700,
+      "matchedForm": "room",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.32,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "rubbed",
+      "lemma": "rub",
+      "lemmaId": "rub",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "rub_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "рубить"
+        }
+      },
+      "_spacyLemma": "rub",
+      "example": "Wentworth rubbed the thin patch at the back of his hair despairingly.",
+      "exampleStart": 3051,
+      "exampleEnd": 3120,
+      "matchedForm": "rubbed",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.725714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "said",
+      "lemma": "say",
+      "lemmaId": "say",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "say_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "говорить"
+        }
+      },
+      "_spacyLemma": "say",
+      "example": "If what it said was true, that meant inquisitors coming to the school.",
+      "exampleStart": 303,
+      "exampleEnd": 373,
+      "matchedForm": "said",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.177143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "schedules",
+      "lemma": "schedule",
+      "lemmaId": "schedule",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "schedule_noun",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "расписание"
+        }
+      },
+      "_spacyLemma": "schedule",
+      "example": "Wentworth, as deputy head, had a study where he wrestled with the schedules and various other problems Miss Cadwallader gave him.",
+      "exampleStart": 2366,
+      "exampleEnd": 2495,
+      "matchedForm": "schedules",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.525714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "school",
+      "lemma": "school",
+      "lemmaId": "school",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "school_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "школа"
+        }
+      },
+      "_spacyLemma": "school",
+      "example": "If what it said was true, that meant inquisitors coming to the school.",
+      "exampleStart": 303,
+      "exampleEnd": 373,
+      "matchedForm": "school",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.228571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "seen",
+      "lemma": "see",
+      "lemmaId": "see",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "see_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "смотреть"
+        }
+      },
+      "_spacyLemma": "see",
+      "example": "Like everyone else in 6B, he had seen Mr.",
+      "exampleStart": 45,
+      "exampleEnd": 86,
+      "matchedForm": "seen",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.117143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "shall",
+      "lemma": "shall",
+      "lemmaId": "shall",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "shall_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "будет"
+        }
+      },
+      "_spacyLemma": "shall",
+      "example": "“But what shall I do about it?",
+      "exampleStart": 1349,
+      "exampleEnd": 1379,
+      "matchedForm": "shall",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.422857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "shuffled",
+      "lemma": "shuffle",
+      "lemmaId": "shuffle",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "shuffle_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "перетасовка"
+        }
+      },
+      "_spacyLemma": "shuffle",
+      "example": "”\n\nAs soon as 6B had shuffled away to the school hall, Mr.",
+      "exampleStart": 553,
+      "exampleEnd": 611,
+      "matchedForm": "shuffled",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.862857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "sighed",
+      "lemma": "sigh",
+      "lemmaId": "sigh",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "sigh_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "вздох"
+        }
+      },
+      "_spacyLemma": "sigh",
+      "example": "Crossley sighed and put the note in his pocket.",
+      "exampleStart": 425,
+      "exampleEnd": 472,
+      "matchedForm": "sighed",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.731429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "silly",
+      "lemma": "silly",
+      "lemmaId": "silly",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "silly_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "глупый"
+        }
+      },
+      "_spacyLemma": "silly",
+      "example": "“I think it’s just a silly joke,” she said.",
+      "exampleStart": 1939,
+      "exampleEnd": 1982,
+      "matchedForm": "silly",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.605714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "skirts",
+      "lemma": "skirt",
+      "lemmaId": "skirt",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "skirt_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "юбка"
+        }
+      },
+      "_spacyLemma": "skirt",
+      "example": "Miss Hodge was a small neat person who wore neat gray skirts and blouses and her hair was even neater and smoother than Theresa Mullett’s.",
+      "exampleStart": 964,
+      "exampleEnd": 1102,
+      "matchedForm": "skirts",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.728571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "small",
+      "lemma": "small",
+      "lemmaId": "small",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "small_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "маленький"
+        }
+      },
+      "_spacyLemma": "small",
+      "example": "Miss Hodge was a small neat person who wore neat gray skirts and blouses and her hair was even neater and smoother than Theresa Mullett’s.",
+      "exampleStart": 964,
+      "exampleEnd": 1102,
+      "matchedForm": "small",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.285714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "smiling",
+      "lemma": "smile",
+      "lemmaId": "smile",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "smile_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "улыбка"
+        }
+      },
+      "_spacyLemma": "smile",
+      "example": "He saw the bright, smiling, anxious face of Miss Hodge, but his mind was not on her at all.",
+      "exampleStart": 3141,
+      "exampleEnd": 3232,
+      "matchedForm": "smiling",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.534286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "smoother",
+      "lemma": "smooth",
+      "lemmaId": "smooth",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "smooth_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "гладкий"
+        }
+      },
+      "_spacyLemma": "smooth",
+      "example": "Miss Hodge was a small neat person who wore neat gray skirts and blouses and her hair was even neater and smoother than Theresa Mullett’s.",
+      "exampleStart": 964,
+      "exampleEnd": 1102,
+      "matchedForm": "smoother",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.602857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "smoothed",
+      "lemma": "smooth",
+      "lemmaId": "smooth",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "smooth_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "гладкий"
+        }
+      },
+      "_spacyLemma": "smooth",
+      "example": "Then she smoothed her smooth hair and hurried away upstairs to find Mr.",
+      "exampleStart": 2278,
+      "exampleEnd": 2349,
+      "matchedForm": "smoothed",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.602857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "soon",
+      "lemma": "soon",
+      "lemmaId": "soon",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "soon_adverb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "скоро"
+        }
+      },
+      "_spacyLemma": "soon",
+      "example": "”\n\nAs soon as 6B had shuffled away to the school hall, Mr.",
+      "exampleStart": 553,
+      "exampleEnd": 611,
+      "matchedForm": "soon",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.34,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "sorry",
+      "lemma": "sorry",
+      "lemmaId": "sorry",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "sorry_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "сожалеть"
+        }
+      },
+      "_spacyLemma": "sorry",
+      "example": "”\n\n“I was brought up to be sorry for witches,” Miss Hodge remarked calmly.",
+      "exampleStart": 1721,
+      "exampleEnd": 1795,
+      "matchedForm": "sorry",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.38,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "spared",
+      "lemma": "spare",
+      "lemmaId": "spare",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "spare_verb",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "запасной"
+        }
+      },
+      "_spacyLemma": "spare",
+      "example": "She spared the note one glance.",
+      "exampleStart": 1265,
+      "exampleEnd": 1296,
+      "matchedForm": "spared",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.637143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "sped",
+      "lemma": "speed",
+      "lemmaId": "speed",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "speed_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "скорость"
+        }
+      },
+      "_spacyLemma": "speed",
+      "example": "Crossley sped to the staff room, hoping to find someone he could consult about the note.",
+      "exampleStart": 612,
+      "exampleEnd": 700,
+      "matchedForm": "sped",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.431429,
+      "difficultySource": "zipf"
     },
     {
       "word": "spiteful",
       "lemma": "spiteful",
       "lemmaId": "spiteful",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "spiteful_adjective",
       "level": "C1",
-      "ipa": "ˈspaɪtfəl",
       "translations": {
-        "de": {
-          "translation": "boshaft"
-        },
-        "es": {
-          "translation": "malicioso"
-        },
         "ru": {
           "translation": "злобный"
-        },
-        "uk": {
-          "translation": "злопам’ятний"
         }
       },
-      "definition": "Having or showing a desire to harm or upset others.",
+      "_spacyLemma": "spiteful",
       "example": "“Even if it’s true, it’s such a spiteful thing to write!",
       "exampleStart": 1403,
       "exampleEnd": 1459,
-      "matchedForm": "spiteful"
+      "matchedForm": "spiteful",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "squared off",
-      "lemma": "squaredoff",
-      "lemmaId": "squaredoff",
-      "pos": "noun",
-      "wordKey": "squaredoff_noun",
-      "level": "C1",
-      "ipa": "skwɛrd ɔf",
+      "lemma": "square off",
+      "lemmaId": "square_off",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "square_off_phrasal_verb",
+      "level": "B2",
       "translations": {
-        "de": {
-          "translation": "ausrichten"
-        },
-        "es": {
-          "translation": "alinear"
-        },
         "ru": {
-          "translation": "выровнять"
-        },
-        "uk": {
-          "translation": "вирівняти"
+          "translation": "Квадрат"
         }
       },
-      "definition": "To make something have straight edges or be properly aligned.",
       "example": "Miss Hodge thoughtfully squared off another stack of books, until she was sure Mr.",
       "exampleStart": 2176,
       "exampleEnd": 2258,
-      "matchedForm": "squared"
+      "phraseMatch": {
+        "text": "squared off",
+        "startInExample": 24,
+        "endInExample": 35
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
-      "word": "staff room",
-      "lemma": "staffroom",
-      "lemmaId": "staffroom",
-      "pos": "noun",
-      "wordKey": "staffroom_noun",
-      "level": "B2",
-      "ipa": "stɑːf ruːm",
+      "word": "squared",
+      "lemma": "square",
+      "lemmaId": "square",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "square_verb",
+      "level": "A2",
       "translations": {
-        "de": {
-          "translation": "Lehrerzimmer"
-        },
-        "es": {
-          "translation": "sala de profesores"
-        },
         "ru": {
-          "translation": "учительская"
-        },
-        "uk": {
-          "translation": "кімната для персоналу"
+          "translation": "квадрат"
         }
       },
-      "definition": "A room where school staff gather and work.",
+      "_spacyLemma": "square",
+      "example": "Miss Hodge thoughtfully squared off another stack of books, until she was sure Mr.",
+      "exampleStart": 2176,
+      "exampleEnd": 2258,
+      "matchedForm": "squared",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.477143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "stacks",
+      "lemma": "stack",
+      "lemmaId": "stack",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "stack_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "стек"
+        }
+      },
+      "_spacyLemma": "stack",
+      "example": "She was busy making neat stacks of books on the staff room table, and she went on making them all the time Mr.",
+      "exampleStart": 1103,
+      "exampleEnd": 1213,
+      "matchedForm": "stacks",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.702857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "staff",
+      "lemma": "staff",
+      "lemmaId": "staff",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "staff_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "персонал"
+        }
+      },
+      "_spacyLemma": "staff",
       "example": "Crossley sped to the staff room, hoping to find someone he could consult about the note.",
       "exampleStart": 612,
       "exampleEnd": 700,
-      "matchedForm": "staff"
+      "matchedForm": "staff",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.408571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "state",
+      "lemma": "state",
+      "lemmaId": "state",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "state_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "государство"
+        }
+      },
+      "_spacyLemma": "state",
+      "example": "Suppose one of them is—” He was in a pitiable state.",
+      "exampleStart": 1484,
+      "exampleEnd": 1536,
+      "matchedForm": "state",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.208571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "study",
+      "lemma": "study",
+      "lemmaId": "study",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "study_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "исследование"
+        }
+      },
+      "_spacyLemma": "study",
+      "example": "Wentworth, as deputy head, had a study where he wrestled with the schedules and various other problems Miss Cadwallader gave him.",
+      "exampleStart": 2366,
+      "exampleEnd": 2495,
+      "matchedForm": "study",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.357143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "suppose",
+      "lemma": "suppose",
+      "lemmaId": "suppose",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "suppose_verb",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "предполагать"
+        }
+      },
+      "_spacyLemma": "suppose",
+      "example": "And suppose it is true.",
+      "exampleStart": 1460,
+      "exampleEnd": 1483,
+      "matchedForm": "suppose",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.557143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "sure",
+      "lemma": "sure",
+      "lemmaId": "sure",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "sure_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "уверен"
+        }
+      },
+      "_spacyLemma": "sure",
+      "example": "Miss Hodge thoughtfully squared off another stack of books, until she was sure Mr.",
+      "exampleStart": 2176,
+      "exampleEnd": 2258,
+      "matchedForm": "sure",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.24,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "table",
+      "lemma": "table",
+      "lemmaId": "table",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "table_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "стол"
+        }
+      },
+      "_spacyLemma": "table",
+      "example": "She was busy making neat stacks of books on the staff room table, and she went on making them all the time Mr.",
+      "exampleStart": 1103,
+      "exampleEnd": 1213,
+      "matchedForm": "table",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.417143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "tapped",
+      "lemma": "tap",
+      "lemmaId": "tap",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "tap_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "касание"
+        }
+      },
+      "_spacyLemma": "tap",
+      "example": "When Miss Hodge tapped on the door, he was wrestling with a particularly fierce one.",
+      "exampleStart": 2496,
+      "exampleEnd": 2580,
+      "matchedForm": "tapped",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.637143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "teaching",
+      "lemma": "teach",
+      "lemmaId": "teach",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "teach_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "преподавать"
+        }
+      },
+      "_spacyLemma": "teach",
+      "example": "Aren’t you supposed to be teaching 4C?",
+      "exampleStart": 1995,
+      "exampleEnd": 2033,
+      "matchedForm": "teaching",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.525714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "teams",
+      "lemma": "team",
+      "lemmaId": "team",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "team_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "команда"
+        }
+      },
+      "_spacyLemma": "team",
+      "example": "Thirty boys in the orchestra were in various football teams, and twenty of the girls played hockey for the school.",
+      "exampleStart": 2728,
+      "exampleEnd": 2842,
+      "matchedForm": "teams",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.24,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "telling",
+      "lemma": "tell",
+      "lemmaId": "tell",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "tell_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "рассказывать"
+        }
+      },
+      "_spacyLemma": "tell",
+      "example": "Crossley was telling her excitedly about the note.",
+      "exampleStart": 1214,
+      "exampleEnd": 1264,
+      "matchedForm": "telling",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.28,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "thin",
+      "lemma": "thin",
+      "lemmaId": "thin",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "thin_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "тонкий"
+        }
+      },
+      "_spacyLemma": "thin",
+      "example": "Wentworth rubbed the thin patch at the back of his hair despairingly.",
+      "exampleStart": 3051,
+      "exampleEnd": 3120,
+      "matchedForm": "thin",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.582857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "thing",
+      "lemma": "thing",
+      "lemmaId": "thing",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "thing_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "вещь"
+        }
+      },
+      "_spacyLemma": "thing",
+      "example": "“Even if it’s true, it’s such a spiteful thing to write!",
+      "exampleStart": 1403,
+      "exampleEnd": 1459,
+      "matchedForm": "thing",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.225714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "think",
+      "lemma": "think",
+      "lemmaId": "think",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "think_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "думать"
+        }
+      },
+      "_spacyLemma": "think",
+      "example": "“I think it’s just a silly joke,” she said.",
+      "exampleStart": 1939,
+      "exampleEnd": 1982,
+      "matchedForm": "think",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.122857,
+      "difficultySource": "zipf"
     },
     {
       "word": "thoroughly",
       "lemma": "thoroughly",
       "lemmaId": "thoroughly",
-      "pos": "adverb",
-      "wordKey": "thoroughly_adverb",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "thoroughly_adjective",
       "level": "C1",
-      "ipa": "ˈθʌrəli",
       "translations": {
-        "de": {
-          "translation": "gründlich"
-        },
-        "es": {
-          "translation": "completamente"
-        },
         "ru": {
           "translation": "тщательно"
-        },
-        "uk": {
-          "translation": "ретельно"
         }
       },
-      "definition": "Completely or fully; to a great extent.",
+      "_spacyLemma": "thoroughly",
       "example": "And that was a thoroughly frightening thought.",
       "exampleStart": 374,
       "exampleEnd": 420,
-      "matchedForm": "thoroughly"
+      "matchedForm": "thoroughly",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.691429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "thought",
+      "lemma": "thought",
+      "lemmaId": "thought",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "thought_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "мысль"
+        }
+      },
+      "_spacyLemma": "thought",
+      "example": "And that was a thoroughly frightening thought.",
+      "exampleStart": 374,
+      "exampleEnd": 420,
+      "matchedForm": "thought",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.262857,
+      "difficultySource": "zipf"
     },
     {
       "word": "thoughtfully",
       "lemma": "thoughtfully",
       "lemmaId": "thoughtfully",
       "pos": "adverb",
+      "source": "word",
       "wordKey": "thoughtfully_adverb",
       "level": "B2",
-      "ipa": "ˈθɔːtfəli",
       "translations": {
-        "de": {
-          "translation": "nachdenklich"
-        },
-        "es": {
-          "translation": "pensativamente"
-        },
         "ru": {
-          "translation": "вдумчиво"
-        },
-        "uk": {
-          "translation": "задумливо"
+          "translation": "задумчиво"
         }
       },
-      "definition": "In a way that shows careful consideration.",
+      "_spacyLemma": "thoughtfully",
       "example": "Miss Hodge thoughtfully squared off another stack of books, until she was sure Mr.",
       "exampleStart": 2176,
       "exampleEnd": 2258,
-      "matchedForm": "thoughtfully"
+      "matchedForm": "thoughtfully",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "time",
+      "lemma": "time",
+      "lemmaId": "time",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "time_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "время"
+        }
+      },
+      "_spacyLemma": "time",
+      "example": "She was busy making neat stacks of books on the staff room table, and she went on making them all the time Mr.",
+      "exampleStart": 1103,
+      "exampleEnd": 1213,
+      "matchedForm": "time",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.062857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "true",
+      "lemma": "true",
+      "lemmaId": "true",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "true_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "истинный"
+        }
+      },
+      "_spacyLemma": "true",
+      "example": "If what it said was true, that meant inquisitors coming to the school.",
+      "exampleStart": 303,
+      "exampleEnd": 373,
+      "matchedForm": "true",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.317143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "upstairs",
+      "lemma": "upstairs",
+      "lemmaId": "upstairs",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "upstairs_adverb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "наверху"
+        }
+      },
+      "_spacyLemma": "upstairs",
+      "example": "Then she smoothed her smooth hair and hurried away upstairs to find Mr.",
+      "exampleStart": 2278,
+      "exampleEnd": 2349,
+      "matchedForm": "upstairs",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.754286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "volleyball",
+      "lemma": "volleyball",
+      "lemmaId": "volleyball",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "volleyball_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "волейбол"
+        }
+      },
+      "_spacyLemma": "volleyball",
+      "example": "The volleyball team were all in the school play.",
+      "exampleStart": 2887,
+      "exampleEnd": 2935,
+      "matchedForm": "volleyball",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.76,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "wanted",
+      "lemma": "want",
+      "lemmaId": "want",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "want_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "хотеть"
+        }
+      },
+      "_spacyLemma": "want",
+      "example": "He wanted so badly to attract Miss Hodge’s attention, but he knew that words like witch were not the kind of words one used in front of a lady.",
+      "exampleStart": 1537,
+      "exampleEnd": 1680,
+      "matchedForm": "wanted",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.134286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "wore",
+      "lemma": "wear",
+      "lemmaId": "wear",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "wear_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "носить"
+        }
+      },
+      "_spacyLemma": "wear",
+      "example": "Miss Hodge was a small neat person who wore neat gray skirts and blouses and her hair was even neater and smoother than Theresa Mullett’s.",
+      "exampleStart": 964,
+      "exampleEnd": 1102,
+      "matchedForm": "wore",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.454286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "witch",
+      "lemma": "witch",
+      "lemmaId": "witch",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "witch_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "ведьма"
+        }
+      },
+      "_spacyLemma": "witch",
+      "example": "He wanted so badly to attract Miss Hodge’s attention, but he knew that words like witch were not the kind of words one used in front of a lady.",
+      "exampleStart": 1537,
+      "exampleEnd": 1680,
+      "matchedForm": "witch",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.685714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "wondered",
+      "lemma": "wonder",
+      "lemmaId": "wonder",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "wonder_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "чудо"
+        }
+      },
+      "_spacyLemma": "wonder",
+      "example": "“I just wondered how I should handle it—”\n\nMiss Hodge lined up another stack of books.",
+      "exampleStart": 1852,
+      "exampleEnd": 1938,
+      "matchedForm": "wondered",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.451429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "words",
+      "lemma": "word",
+      "lemmaId": "word",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "word_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "слово"
+        }
+      },
+      "_spacyLemma": "word",
+      "example": "He wanted so badly to attract Miss Hodge’s attention, but he knew that words like witch were not the kind of words one used in front of a lady.",
+      "exampleStart": 1537,
+      "exampleEnd": 1680,
+      "matchedForm": "words",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.357143,
+      "difficultySource": "zipf"
     },
     {
       "word": "wrestled",
       "lemma": "wrestle",
       "lemmaId": "wrestle",
       "pos": "verb",
+      "source": "word",
       "wordKey": "wrestle_verb",
-      "level": "C1",
-      "ipa": "ˈrɛsəl",
+      "level": "B2",
       "translations": {
-        "de": {
-          "translation": "ringen"
-        },
-        "es": {
-          "translation": "luchar"
-        },
         "ru": {
-          "translation": "бороться"
-        },
-        "uk": {
-          "translation": "боротися"
+          "translation": "борьба"
         }
       },
-      "definition": "Struggle to deal with or overcome a difficulty or problem.",
+      "_spacyLemma": "wrestle",
       "example": "Wentworth, as deputy head, had a study where he wrestled with the schedules and various other problems Miss Cadwallader gave him.",
       "exampleStart": 2366,
       "exampleEnd": 2495,
-      "matchedForm": "wrestled"
+      "matchedForm": "wrestled",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.865714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "wrestling with",
+      "lemma": "wrestle with",
+      "lemmaId": "wrestle_with",
+      "pos": "prepositional_verb",
+      "type": "prepositional_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "wrestle_with_prepositional_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "борьба с"
+        }
+      },
+      "example": "Wentworth, as deputy head, had a study where he wrestled with the schedules and various other problems Miss Cadwallader gave him.",
+      "exampleStart": 2366,
+      "exampleEnd": 2495,
+      "phraseMatch": {
+        "text": "wrestled with",
+        "startInExample": 48,
+        "endInExample": 61
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "wrote",
+      "lemma": "write",
+      "lemmaId": "write",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "write_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "писать"
+        }
+      },
+      "_spacyLemma": "write",
+      "example": "When Charles wrote games, he meant bad luck.",
+      "exampleStart": 0,
+      "exampleEnd": 44,
+      "matchedForm": "wrote",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.422857,
+      "difficultySource": "zipf"
+    }
+  ],
+  "namedEntities": [
+    {
+      "entityKey": "charles_person",
+      "text": "Charles",
+      "normalizedText": "charles",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 5,
+      "end": 12,
+      "tokenIndexes": [
+        1
+      ],
+      "sentenceStart": 0,
+      "sentenceEnd": 44
+    },
+    {
+      "entityKey": "6b_cardinal",
+      "text": "6B",
+      "normalizedText": "6b",
+      "entityType": "CARDINAL",
+      "spacyLabel": "CARDINAL",
+      "entityCategory": "quantity",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 67,
+      "end": 69,
+      "tokenIndexes": [
+        14
+      ],
+      "sentenceStart": 45,
+      "sentenceEnd": 113
+    },
+    {
+      "entityKey": "crossley_person",
+      "text": "Crossley",
+      "normalizedText": "crossley",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 87,
+      "end": 95,
+      "tokenIndexes": [
+        20
+      ],
+      "sentenceStart": 45,
+      "sentenceEnd": 113
+    },
+    {
+      "entityKey": "crossley_person",
+      "text": "Crossley",
+      "normalizedText": "crossley",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 189,
+      "end": 197,
+      "tokenIndexes": [
+        44
+      ],
+      "sentenceStart": 114,
+      "sentenceEnd": 240
+    },
+    {
+      "entityKey": "crossley_person",
+      "text": "Crossley",
+      "normalizedText": "crossley",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 244,
+      "end": 252,
+      "tokenIndexes": [
+        58
+      ],
+      "sentenceStart": 240,
+      "sentenceEnd": 302
+    },
+    {
+      "entityKey": "crossley_person",
+      "text": "Crossley",
+      "normalizedText": "crossley",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 425,
+      "end": 433,
+      "tokenIndexes": [
+        94
+      ],
+      "sentenceStart": 421,
+      "sentenceEnd": 472
+    },
+    {
+      "entityKey": "crossley_person",
+      "text": "Crossley",
+      "normalizedText": "crossley",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 612,
+      "end": 620,
+      "tokenIndexes": [
+        140
+      ],
+      "sentenceStart": 556,
+      "sentenceEnd": 702
+    },
+    {
+      "entityKey": "miss_hodge_person",
+      "text": "Miss Hodge",
+      "normalizedText": "miss hodge",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 730,
+      "end": 740,
+      "tokenIndexes": [
+        165,
+        166
+      ],
+      "sentenceStart": 702,
+      "sentenceEnd": 747
+    },
+    {
+      "entityKey": "theresa_mullett_person",
+      "text": "Theresa Mullett",
+      "normalizedText": "theresa mullett",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 751,
+      "end": 766,
+      "tokenIndexes": [
+        170,
+        171
+      ],
+      "sentenceStart": 748,
+      "sentenceEnd": 840
+    },
+    {
+      "entityKey": "estelle_green_org",
+      "text": "Estelle Green",
+      "normalizedText": "estelle green",
+      "entityType": "ORG",
+      "spacyLabel": "ORG",
+      "entityCategory": "organization_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 771,
+      "end": 784,
+      "tokenIndexes": [
+        173,
+        174
+      ],
+      "sentenceStart": 748,
+      "sentenceEnd": 840
+    },
+    {
+      "entityKey": "crossley_person",
+      "text": "Crossley",
+      "normalizedText": "crossley",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 803,
+      "end": 811,
+      "tokenIndexes": [
+        179
+      ],
+      "sentenceStart": 748,
+      "sentenceEnd": 840
+    },
+    {
+      "entityKey": "miss_hodge_person",
+      "text": "Miss Hodge",
+      "normalizedText": "miss hodge",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 829,
+      "end": 839,
+      "tokenIndexes": [
+        184,
+        185
+      ],
+      "sentenceStart": 748,
+      "sentenceEnd": 840
+    },
+    {
+      "entityKey": "one_cardinal",
+      "text": "one",
+      "normalizedText": "one",
+      "entityType": "CARDINAL",
+      "spacyLabel": "CARDINAL",
+      "entityCategory": "quantity",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 890,
+      "end": 893,
+      "tokenIndexes": [
+        198
+      ],
+      "sentenceStart": 877,
+      "sentenceEnd": 963
+    },
+    {
+      "entityKey": "miss_hodge_person",
+      "text": "Miss Hodge",
+      "normalizedText": "miss hodge",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 944,
+      "end": 954,
+      "tokenIndexes": [
+        210,
+        211
+      ],
+      "sentenceStart": 877,
+      "sentenceEnd": 963
+    },
+    {
+      "entityKey": "hodge_person",
+      "text": "Hodge",
+      "normalizedText": "hodge",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 969,
+      "end": 974,
+      "tokenIndexes": [
+        215
+      ],
+      "sentenceStart": 964,
+      "sentenceEnd": 1102
+    },
+    {
+      "entityKey": "theresa_mullett_s_person",
+      "text": "Theresa Mullett’s",
+      "normalizedText": "theresa mullett’s",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1084,
+      "end": 1101,
+      "tokenIndexes": [
+        237,
+        238,
+        239
+      ],
+      "sentenceStart": 964,
+      "sentenceEnd": 1102
+    },
+    {
+      "entityKey": "crossley_person",
+      "text": "Crossley",
+      "normalizedText": "crossley",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1214,
+      "end": 1222,
+      "tokenIndexes": [
+        265
+      ],
+      "sentenceStart": 1103,
+      "sentenceEnd": 1264
+    },
+    {
+      "entityKey": "one_cardinal",
+      "text": "one",
+      "normalizedText": "one",
+      "entityType": "CARDINAL",
+      "spacyLabel": "CARDINAL",
+      "entityCategory": "quantity",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 1285,
+      "end": 1288,
+      "tokenIndexes": [
+        278
+      ],
+      "sentenceStart": 1265,
+      "sentenceEnd": 1298
+    },
+    {
+      "entityKey": "crossley_person",
+      "text": "Crossley",
+      "normalizedText": "crossley",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1385,
+      "end": 1393,
+      "tokenIndexes": [
+        310
+      ],
+      "sentenceStart": 1381,
+      "sentenceEnd": 1402
+    },
+    {
+      "entityKey": "one_cardinal",
+      "text": "one",
+      "normalizedText": "one",
+      "entityType": "CARDINAL",
+      "spacyLabel": "CARDINAL",
+      "entityCategory": "quantity",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 1492,
+      "end": 1495,
+      "tokenIndexes": [
+        336
+      ],
+      "sentenceStart": 1484,
+      "sentenceEnd": 1536
+    },
+    {
+      "entityKey": "miss_hodge_person",
+      "text": "Miss Hodge",
+      "normalizedText": "miss hodge",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1567,
+      "end": 1577,
+      "tokenIndexes": [
+        355,
+        356
+      ],
+      "sentenceStart": 1537,
+      "sentenceEnd": 1680
+    },
+    {
+      "entityKey": "miss_hodge_person",
+      "text": "Miss Hodge",
+      "normalizedText": "miss hodge",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1768,
+      "end": 1778,
+      "tokenIndexes": [
+        408,
+        409
+      ],
+      "sentenceStart": 1681,
+      "sentenceEnd": 1797
+    },
+    {
+      "entityKey": "crossley_person",
+      "text": "Crossley",
+      "normalizedText": "crossley",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1829,
+      "end": 1837,
+      "tokenIndexes": [
+        427
+      ],
+      "sentenceStart": 1812,
+      "sentenceEnd": 1851
+    },
+    {
+      "entityKey": "hodge_org",
+      "text": "Hodge",
+      "normalizedText": "hodge",
+      "entityType": "ORG",
+      "spacyLabel": "ORG",
+      "entityCategory": "organization_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1900,
+      "end": 1905,
+      "tokenIndexes": [
+        444
+      ],
+      "sentenceStart": 1852,
+      "sentenceEnd": 1938
+    },
+    {
+      "entityKey": "ignore_person",
+      "text": "Ignore",
+      "normalizedText": "ignore",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1984,
+      "end": 1990,
+      "tokenIndexes": [
+        467
+      ],
+      "sentenceStart": 1983,
+      "sentenceEnd": 1994
+    },
+    {
+      "entityKey": "crossley_person",
+      "text": "Crossley",
+      "normalizedText": "crossley",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2068,
+      "end": 2076,
+      "tokenIndexes": [
+        493
+      ],
+      "sentenceStart": 2047,
+      "sentenceEnd": 2094
+    },
+    {
+      "entityKey": "hodge_org",
+      "text": "Hodge",
+      "normalizedText": "hodge",
+      "entityType": "ORG",
+      "spacyLabel": "ORG",
+      "entityCategory": "organization_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2140,
+      "end": 2145,
+      "tokenIndexes": [
+        506
+      ],
+      "sentenceStart": 2095,
+      "sentenceEnd": 2176
+    },
+    {
+      "entityKey": "hodge_person",
+      "text": "Hodge",
+      "normalizedText": "hodge",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2181,
+      "end": 2186,
+      "tokenIndexes": [
+        516
+      ],
+      "sentenceStart": 2176,
+      "sentenceEnd": 2277
+    },
+    {
+      "entityKey": "crossley_person",
+      "text": "Crossley",
+      "normalizedText": "crossley",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2259,
+      "end": 2267,
+      "tokenIndexes": [
+        530
+      ],
+      "sentenceStart": 2176,
+      "sentenceEnd": 2277
+    },
+    {
+      "entityKey": "wentworth_person",
+      "text": "Wentworth",
+      "normalizedText": "wentworth",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2350,
+      "end": 2359,
+      "tokenIndexes": [
+        547
+      ],
+      "sentenceStart": 2278,
+      "sentenceEnd": 2362
+    },
+    {
+      "entityKey": "wentworth_person",
+      "text": "Wentworth",
+      "normalizedText": "wentworth",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2366,
+      "end": 2375,
+      "tokenIndexes": [
+        551
+      ],
+      "sentenceStart": 2362,
+      "sentenceEnd": 2495
+    },
+    {
+      "entityKey": "cadwallader_person",
+      "text": "Cadwallader",
+      "normalizedText": "cadwallader",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2474,
+      "end": 2485,
+      "tokenIndexes": [
+        571
+      ],
+      "sentenceStart": 2362,
+      "sentenceEnd": 2495
+    },
+    {
+      "entityKey": "miss_hodge_person",
+      "text": "Miss Hodge",
+      "normalizedText": "miss hodge",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2501,
+      "end": 2511,
+      "tokenIndexes": [
+        576,
+        577
+      ],
+      "sentenceStart": 2496,
+      "sentenceEnd": 2580
+    },
+    {
+      "entityKey": "fifty_cardinal",
+      "text": "Fifty",
+      "normalizedText": "fifty",
+      "entityType": "CARDINAL",
+      "spacyLabel": "CARDINAL",
+      "entityCategory": "quantity",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 2632,
+      "end": 2637,
+      "tokenIndexes": [
+        601
+      ],
+      "sentenceStart": 2632,
+      "sentenceEnd": 2727
+    },
+    {
+      "entityKey": "twenty_cardinal",
+      "text": "twenty",
+      "normalizedText": "twenty",
+      "entityType": "CARDINAL",
+      "spacyLabel": "CARDINAL",
+      "entityCategory": "quantity",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 2681,
+      "end": 2687,
+      "tokenIndexes": [
+        611
+      ],
+      "sentenceStart": 2632,
+      "sentenceEnd": 2727
+    },
+    {
+      "entityKey": "fifty_cardinal",
+      "text": "fifty",
+      "normalizedText": "fifty",
+      "entityType": "CARDINAL",
+      "spacyLabel": "CARDINAL",
+      "entityCategory": "quantity",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 2697,
+      "end": 2702,
+      "tokenIndexes": [
+        614
+      ],
+      "sentenceStart": 2632,
+      "sentenceEnd": 2727
+    },
+    {
+      "entityKey": "thirty_cardinal",
+      "text": "Thirty",
+      "normalizedText": "thirty",
+      "entityType": "CARDINAL",
+      "spacyLabel": "CARDINAL",
+      "entityCategory": "quantity",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 2728,
+      "end": 2734,
+      "tokenIndexes": [
+        621
+      ],
+      "sentenceStart": 2728,
+      "sentenceEnd": 2842
+    },
+    {
+      "entityKey": "twenty_cardinal",
+      "text": "twenty",
+      "normalizedText": "twenty",
+      "entityType": "CARDINAL",
+      "spacyLabel": "CARDINAL",
+      "entityCategory": "quantity",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 2793,
+      "end": 2799,
+      "tokenIndexes": [
+        633
+      ],
+      "sentenceStart": 2728,
+      "sentenceEnd": 2842
+    },
+    {
+      "entityKey": "at_least_a_third_cardinal",
+      "text": "At least a third",
+      "normalizedText": "at least a third",
+      "entityType": "CARDINAL",
+      "spacyLabel": "CARDINAL",
+      "entityCategory": "quantity",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 2843,
+      "end": 2859,
+      "tokenIndexes": [
+        643,
+        644,
+        645,
+        646
+      ],
+      "sentenceStart": 2843,
+      "sentenceEnd": 2886
+    },
+    {
+      "entityKey": "three_cardinal",
+      "text": "three",
+      "normalizedText": "three",
+      "entityType": "CARDINAL",
+      "spacyLabel": "CARDINAL",
+      "entityCategory": "quantity",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 3025,
+      "end": 3030,
+      "tokenIndexes": [
+        678
+      ],
+      "sentenceStart": 2936,
+      "sentenceEnd": 3046
+    },
+    {
+      "entityKey": "wentworth_person",
+      "text": "Wentworth",
+      "normalizedText": "wentworth",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 3051,
+      "end": 3060,
+      "tokenIndexes": [
+        684
+      ],
+      "sentenceStart": 3047,
+      "sentenceEnd": 3120
+    },
+    {
+      "entityKey": "miss_hodge_person",
+      "text": "Miss Hodge",
+      "normalizedText": "miss hodge",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 3185,
+      "end": 3195,
+      "tokenIndexes": [
+        715,
+        716
+      ],
+      "sentenceStart": 3141,
+      "sentenceEnd": 3232
     }
   ]
 }

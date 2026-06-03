@@ -21,717 +21,4546 @@
       "wordCount": 748,
       "uniqueWordCount": 351,
       "paragraphCount": 9,
-      "vocabularyCount": 25,
+      "vocabularyCount": 179,
       "levelDistribution": {
-        "A1": 0,
-        "A2": 0,
-        "B1": 0,
-        "B2": 18,
-        "C1": 6,
+        "A1": 59,
+        "A2": 40,
+        "B1": 12,
+        "B2": 55,
+        "C1": 12,
         "C2": 1
       }
     }
   },
   "vocabulary": [
     {
+      "word": "afternoon",
+      "lemma": "afternoon",
+      "lemmaId": "afternoon",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "afternoon_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "после обеда"
+        }
+      },
+      "_spacyLemma": "afternoon",
+      "example": "Besides, who else but a witch would run away from the police in the middle of the afternoon in a tight skirt?",
+      "exampleStart": 924,
+      "exampleEnd": 1033,
+      "matchedForm": "afternoon",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.511429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "announce",
+      "lemma": "announce",
+      "lemmaId": "announce",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "announce_verb",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "объявить"
+        }
+      },
+      "_spacyLemma": "announce",
+      "example": "The bonfires were lit inside the walls of jails instead, and the radio would simply announce: “Two witches were burned this morning inside Holloway Jail.",
+      "exampleStart": 2963,
+      "exampleEnd": 3116,
+      "matchedForm": "announce",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.642857,
+      "difficultySource": "zipf"
+    },
+    {
       "word": "announcement",
       "lemma": "announcement",
       "lemmaId": "announcement",
       "pos": "noun",
+      "source": "word",
       "wordKey": "announcement_noun",
       "level": "B2",
-      "ipa": "əˈnaʊns.mənt",
       "translations": {
-        "de": {
-          "translation": "Ankündigung"
-        },
-        "es": {
-          "translation": "anuncio"
-        },
         "ru": {
           "translation": "объявление"
-        },
-        "uk": {
-          "translation": "оголошення"
         }
       },
-      "definition": "a formal public statement.",
+      "_spacyLemma": "announcement",
       "example": "” Every time Charles heard this kind of announcement he thought it was his witch.",
       "exampleStart": 3116,
       "exampleEnd": 3197,
-      "matchedForm": "announcement"
+      "matchedForm": "announcement",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.628571,
+      "difficultySource": "zipf"
     },
     {
-      "word": "arrange",
+      "word": "arranged",
       "lemma": "arrange",
       "lemmaId": "arrange",
       "pos": "verb",
+      "source": "word",
       "wordKey": "arrange_verb",
       "level": "B2",
-      "ipa": "əˈreɪndʒ",
       "translations": {
-        "de": {
-          "translation": "arrangieren"
-        },
-        "es": {
-          "translation": "organizar"
-        },
         "ru": {
-          "translation": "организовывать"
-        },
-        "uk": {
-          "translation": "організовувати"
+          "translation": "устраивать"
         }
       },
-      "definition": "to put things in order or make plans.",
+      "_spacyLemma": "arrange",
       "example": "They arranged for him to be sent to Larwood House, because it was quite near.",
       "exampleStart": 3947,
       "exampleEnd": 4024,
-      "matchedForm": "arranged"
+      "matchedForm": "arranged",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.717143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "asked",
+      "lemma": "ask",
+      "lemmaId": "ask",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "ask_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "просить"
+        }
+      },
+      "_spacyLemma": "ask",
+      "example": "” Charles asked.",
+      "exampleStart": 1333,
+      "exampleEnd": 1349,
+      "matchedForm": "asked",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.334286,
+      "difficultySource": "zipf"
     },
     {
       "word": "astray",
       "lemma": "astray",
       "lemmaId": "astray",
-      "pos": "adjective",
-      "wordKey": "astray_adjective",
-      "level": "C1",
-      "ipa": "əˈstreɪ",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "astray_noun",
+      "level": "A2",
       "translations": {
-        "de": {
-          "translation": "auf Abwege"
-        },
-        "es": {
-          "translation": "por mal camino"
-        },
         "ru": {
-          "translation": "сбиться с пути"
-        },
-        "uk": {
-          "translation": "збитися з шляху"
+          "translation": "заблуждаться"
         }
       },
-      "definition": "away from the correct path or direction.",
+      "_spacyLemma": "astray",
       "example": "And, since Graham imitated everything Charles did, Charles’s parents very soon decided Charles was a problem child and leading Graham astray.",
       "exampleStart": 3805,
       "exampleEnd": 3946,
-      "matchedForm": "astray"
+      "matchedForm": "astray",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.965714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "away",
+      "lemma": "away",
+      "lemmaId": "away",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "away_adverb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "уходить"
+        }
+      },
+      "_spacyLemma": "away",
+      "example": "Besides, who else but a witch would run away from the police in the middle of the afternoon in a tight skirt?",
+      "exampleStart": 924,
+      "exampleEnd": 1033,
+      "matchedForm": "away",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.254286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "bad",
+      "lemma": "bad",
+      "lemmaId": "bad",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "bad_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "плохой"
+        }
+      },
+      "_spacyLemma": "bad",
+      "example": "In fact,\nto judge from the amount of bad luck he had had, he thought the witch must have been caught almost straightaway.",
+      "exampleStart": 3391,
+      "exampleEnd": 3512,
+      "matchedForm": "bad",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.28,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "bent",
+      "lemma": "bend",
+      "lemmaId": "bend",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "bend_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "изгиб"
+        }
+      },
+      "_spacyLemma": "bend",
+      "example": "” She smiled at him while she put her hair right in the hall mirror, and after she had done something to her skirt that may have been witchcraft to make it seem untorn again, she bent down and kissed Charles.",
+      "exampleStart": 1985,
+      "exampleEnd": 2193,
+      "matchedForm": "bent",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.68,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "blank",
+      "lemma": "blank",
+      "lemmaId": "blank",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "blank_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "пустой"
+        }
+      },
+      "_spacyLemma": "blank",
+      "example": "”\n\nCharles looked at her in that intent way of his which most people found blank and nasty.",
+      "exampleStart": 1580,
+      "exampleEnd": 1671,
+      "matchedForm": "blank",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.677143,
+      "difficultySource": "zipf"
     },
     {
       "word": "blister",
       "lemma": "blister",
       "lemmaId": "blister",
       "pos": "noun",
+      "source": "word",
       "wordKey": "blister_noun",
       "level": "B2",
-      "ipa": "ˈblɪs.tər",
       "translations": {
-        "de": {
-          "translation": "Blase"
-        },
-        "es": {
-          "translation": "ampolla"
-        },
         "ru": {
           "translation": "волдырь"
-        },
-        "uk": {
-          "translation": "міхур"
         }
       },
-      "definition": "a bubble on the skin filled with fluid, caused by friction or injury.",
+      "_spacyLemma": "blister",
       "example": "She had a large blister on the other foot, and both her stockings were laddered.",
       "exampleStart": 1159,
       "exampleEnd": 1239,
-      "matchedForm": "blister"
+      "matchedForm": "blister",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "blunt",
       "lemma": "blunt",
       "lemmaId": "blunt",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "blunt_adjective",
       "level": "C1",
-      "ipa": "blʌnt",
       "translations": {
-        "de": {
-          "translation": "unhöflich"
-        },
-        "es": {
-          "translation": "directo"
-        },
         "ru": {
-          "translation": "прямой"
-        },
-        "uk": {
-          "translation": "прямолінійний"
+          "translation": "тупой"
         }
       },
-      "definition": "straightforward and brief, sometimes rudely so.",
+      "_spacyLemma": "blunt",
       "example": "It gave him a blunt, hurtful feeling inside.",
       "exampleStart": 3198,
       "exampleEnd": 3242,
-      "matchedForm": "blunt"
+      "matchedForm": "blunt",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.745714,
+      "difficultySource": "zipf"
     },
     {
-      "word": "bonfire",
+      "word": "bonfires",
       "lemma": "bonfire",
       "lemmaId": "bonfire",
       "pos": "noun",
+      "source": "word",
       "wordKey": "bonfire_noun",
-      "level": "B2",
-      "ipa": "ˈbɒnˌfaɪər",
+      "level": "C1",
       "translations": {
-        "de": {
-          "translation": "Freudenfeuer"
-        },
-        "es": {
-          "translation": "hoguera"
-        },
         "ru": {
-          "translation": "костер"
-        },
-        "uk": {
-          "translation": "костер"
+          "translation": "костёр"
         }
       },
-      "definition": "a large controlled outdoor fire.",
+      "_spacyLemma": "bonfire",
       "example": "The bonfires were lit inside the walls of jails instead, and the radio would simply announce: “Two witches were burned this morning inside Holloway Jail.",
       "exampleStart": 2963,
       "exampleEnd": 3116,
-      "matchedForm": "bonfires"
+      "matchedForm": "bonfires",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.908571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "boy",
+      "lemma": "boy",
+      "lemmaId": "boy",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "boy_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "мальчик"
+        }
+      },
+      "_spacyLemma": "boy",
+      "example": "“Please help me, little boy!",
+      "exampleStart": 1267,
+      "exampleEnd": 1295,
+      "matchedForm": "boy",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.382857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "breath",
+      "lemma": "breath",
+      "lemmaId": "breath",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "breath_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "дыхание"
+        }
+      },
+      "_spacyLemma": "breath",
+      "example": "She was out of breath and obviously frightened.",
+      "exampleStart": 811,
+      "exampleEnd": 858,
+      "matchedForm": "breath",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.568571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "bring",
+      "lemma": "bring",
+      "lemmaId": "bring",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "bring_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "приносить"
+        }
+      },
+      "_spacyLemma": "bring",
+      "example": "“If I get away, I’ll bring you luck,” she said.",
+      "exampleStart": 2194,
+      "exampleEnd": 2241,
+      "matchedForm": "bring",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.354286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "brother",
+      "lemma": "brother",
+      "lemmaId": "brother",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "brother_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "брат"
+        }
+      },
+      "_spacyLemma": "brother",
+      "example": "Charles had been nine years old then, and he was minding his little brother on the lawn.",
+      "exampleStart": 646,
+      "exampleEnd": 734,
+      "matchedForm": "brother",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.4,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "burning",
+      "lemma": "burn",
+      "lemmaId": "burn",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "burn_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "ожог"
+        }
+      },
+      "_spacyLemma": "burn",
+      "example": "It was next to impossible for Charles to find out what might have happened to the witch, because there had been new laws since he glimpsed the first witch burning.",
+      "exampleStart": 2763,
+      "exampleEnd": 2926,
+      "matchedForm": "burning",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.565714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "burnings",
+      "lemma": "burning",
+      "lemmaId": "burning",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "burning_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "горящий"
+        }
+      },
+      "_spacyLemma": "burning",
+      "example": "It was next to impossible for Charles to find out what might have happened to the witch, because there had been new laws since he glimpsed the first witch burning.",
+      "exampleStart": 2763,
+      "exampleEnd": 2926,
+      "matchedForm": "burning",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.574286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "carrying",
+      "lemma": "carry",
+      "lemmaId": "carry",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "carry_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "перевозить"
+        }
+      },
+      "_spacyLemma": "carry",
+      "example": "She had come scrambling across the wall at the end of the garden and stumbled down the rockery to the lawn, carrying her smart shoes in one hand.",
+      "exampleStart": 500,
+      "exampleEnd": 645,
+      "matchedForm": "carrying",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.462857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "caught",
+      "lemma": "catch",
+      "lemmaId": "catch",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "catch_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "ловить"
+        }
+      },
+      "_spacyLemma": "catch",
+      "example": "In fact,\nto judge from the amount of bad luck he had had, he thought the witch must have been caught almost straightaway.",
+      "exampleStart": 3391,
+      "exampleEnd": 3512,
+      "matchedForm": "caught",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.468571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "child",
+      "lemma": "child",
+      "lemmaId": "child",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "child_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "ребенок"
+        }
+      },
+      "_spacyLemma": "child",
+      "example": "And, since Graham imitated everything Charles did, Charles’s parents very soon decided Charles was a problem child and leading Graham astray.",
+      "exampleStart": 3805,
+      "exampleEnd": 3946,
+      "matchedForm": "child",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.345714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "chosen",
+      "lemma": "choose",
+      "lemmaId": "choose",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "choose_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "выбирать"
+        }
+      },
+      "_spacyLemma": "choose",
+      "example": "They only had woodwork once a week, and Charles had chosen that for his code on the very reasonable grounds that he was not likely to enjoy anything at Larwood House any oftener than that.",
+      "exampleStart": 187,
+      "exampleEnd": 375,
+      "matchedForm": "chosen",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.457143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "code",
+      "lemma": "code",
+      "lemmaId": "code",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "code_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "код"
+        }
+      },
+      "_spacyLemma": "code",
+      "example": "They only had woodwork once a week, and Charles had chosen that for his code on the very reasonable grounds that he was not likely to enjoy anything at Larwood House any oftener than that.",
+      "exampleStart": 187,
+      "exampleEnd": 375,
+      "matchedForm": "code",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.408571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "come in",
+      "lemma": "come in",
+      "lemmaId": "come_in",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "come_in_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Входите"
+        }
+      },
+      "example": "“Come in through the kitchen,” he said.",
+      "exampleStart": 1779,
+      "exampleEnd": 1818,
+      "phraseMatch": {
+        "text": "Come in",
+        "startInExample": 1,
+        "endInExample": 8
+      },
+      "levelSource": "phrase_index"
+    },
+    {
+      "word": "come",
+      "lemma": "come",
+      "lemmaId": "come",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "come_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "приходить"
+        }
+      },
+      "_spacyLemma": "come",
+      "example": "She had come scrambling across the wall at the end of the garden and stumbled down the rockery to the lawn, carrying her smart shoes in one hand.",
+      "exampleStart": 500,
+      "exampleEnd": 645,
+      "matchedForm": "come",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.208571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "decided",
+      "lemma": "decide",
+      "lemmaId": "decide",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "decide_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "решать"
+        }
+      },
+      "_spacyLemma": "decide",
+      "example": "And, since Graham imitated everything Charles did, Charles’s parents very soon decided Charles was a problem child and leading Graham astray.",
+      "exampleStart": 3805,
+      "exampleEnd": 3946,
+      "matchedForm": "decided",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.494286,
+      "difficultySource": "zipf"
     },
     {
       "word": "desperately",
       "lemma": "desperately",
       "lemmaId": "desperately",
       "pos": "adverb",
+      "source": "word",
       "wordKey": "desperately_adverb",
-      "level": "C1",
-      "ipa": "ˈdes.pə.rət.li",
+      "level": "B2",
       "translations": {
-        "de": {
-          "translation": "verzweifelt"
-        },
-        "es": {
-          "translation": "desesperadamente"
-        },
         "ru": {
           "translation": "отчаянно"
-        },
-        "uk": {
-          "translation": "відчайдушно"
         }
       },
-      "definition": "in a way showing great urgency or despair.",
+      "_spacyLemma": "desperately",
       "example": "”\n\nThe witch rather desperately hopped on one foot.",
       "exampleStart": 1107,
       "exampleEnd": 1158,
-      "matchedForm": "desperately"
+      "matchedForm": "desperately",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.722857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "door",
+      "lemma": "door",
+      "lemmaId": "door",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "door_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "дверь"
+        }
+      },
+      "_spacyLemma": "door",
+      "example": "And he led the witch, hobbling on her blister in her laddered stockings, through the kitchen and down the hall to the front door.",
+      "exampleStart": 1819,
+      "exampleEnd": 1948,
+      "matchedForm": "door",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.408571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "end",
+      "lemma": "end",
+      "lemmaId": "end",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "end_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "конец"
+        }
+      },
+      "_spacyLemma": "end",
+      "example": "She had come scrambling across the wall at the end of the garden and stumbled down the rockery to the lawn, carrying her smart shoes in one hand.",
+      "exampleStart": 500,
+      "exampleEnd": 645,
+      "matchedForm": "end",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.237143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "enjoy",
+      "lemma": "enjoy",
+      "lemmaId": "enjoy",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "enjoy_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "наслаждаться"
+        }
+      },
+      "_spacyLemma": "enjoy",
+      "example": "They only had woodwork once a week, and Charles had chosen that for his code on the very reasonable grounds that he was not likely to enjoy anything at Larwood House any oftener than that.",
+      "exampleStart": 187,
+      "exampleEnd": 375,
+      "matchedForm": "enjoy",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.405714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "expecting",
+      "lemma": "expect",
+      "lemmaId": "expect",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "expect_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "ожидать"
+        }
+      },
+      "_spacyLemma": "expect",
+      "example": "He gave up expecting to be lucky.",
+      "exampleStart": 3357,
+      "exampleEnd": 3390,
+      "matchedForm": "expecting",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.428571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "fact",
+      "lemma": "fact",
+      "lemmaId": "fact",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "fact_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "факт"
+        }
+      },
+      "_spacyLemma": "fact",
+      "example": "In fact,\nto judge from the amount of bad luck he had had, he thought the witch must have been caught almost straightaway.",
+      "exampleStart": 3391,
+      "exampleEnd": 3512,
+      "matchedForm": "fact",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.314286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "fairly",
+      "lemma": "fairly",
+      "lemmaId": "fairly",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "fairly_adverb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "справедливо"
+        }
+      },
+      "_spacyLemma": "fairly",
+      "example": "He thought of the way she had kissed him, and he was fairly sure it made you wicked too, to be kissed by a witch.",
+      "exampleStart": 3243,
+      "exampleEnd": 3356,
+      "matchedForm": "fairly",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.574286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "feeling",
+      "lemma": "feeling",
+      "lemmaId": "feeling",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "feeling_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "чувство"
+        }
+      },
+      "_spacyLemma": "feeling",
+      "example": "It gave him a blunt, hurtful feeling inside.",
+      "exampleStart": 3198,
+      "exampleEnd": 3242,
+      "matchedForm": "feeling",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.394286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "find out",
+      "lemma": "find out",
+      "lemmaId": "find_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "find_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Узнайте"
+        }
+      },
+      "example": "It was next to impossible for Charles to find out what might have happened to the witch, because there had been new laws since he glimpsed the first witch burning.",
+      "exampleStart": 2763,
+      "exampleEnd": 2926,
+      "phraseMatch": {
+        "text": "find out",
+        "startInExample": 41,
+        "endInExample": 49
+      },
+      "levelSource": "phrase_index"
+    },
+    {
+      "word": "found",
+      "lemma": "find",
+      "lemmaId": "find",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "find_verb",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "найти"
+        }
+      },
+      "_spacyLemma": "find",
+      "example": "”\n\nCharles looked at her in that intent way of his which most people found blank and nasty.",
+      "exampleStart": 1580,
+      "exampleEnd": 1671,
+      "matchedForm": "found",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.214286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "foot",
+      "lemma": "foot",
+      "lemmaId": "foot",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "foot_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "нога"
+        }
+      },
+      "_spacyLemma": "foot",
+      "example": "”\n\nThe witch rather desperately hopped on one foot.",
+      "exampleStart": 1107,
+      "exampleEnd": 1158,
+      "matchedForm": "foot",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.468571,
+      "difficultySource": "zipf"
     },
     {
       "word": "frightened",
-      "lemma": "frighten",
-      "lemmaId": "frighten",
+      "lemma": "frightened",
+      "lemmaId": "frightened",
       "pos": "adjective",
-      "wordKey": "frighten_adjective",
-      "level": "B2",
-      "ipa": "ˈfraɪ.tənd",
+      "source": "word",
+      "wordKey": "frightened_adjective",
+      "level": "C1",
       "translations": {
-        "de": {
-          "translation": "verängstigt"
-        },
-        "es": {
-          "translation": "asustado"
-        },
         "ru": {
           "translation": "испуганный"
-        },
-        "uk": {
-          "translation": "наляканий"
         }
       },
-      "definition": "feeling fear or anxiety; scared.",
+      "_spacyLemma": "frightened",
       "example": "She was out of breath and obviously frightened.",
       "exampleStart": 811,
       "exampleEnd": 858,
-      "matchedForm": "frightened"
+      "matchedForm": "frightened",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.791429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "garden",
+      "lemma": "garden",
+      "lemmaId": "garden",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "garden_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "сад"
+        }
+      },
+      "_spacyLemma": "garden",
+      "example": "She had come scrambling across the wall at the end of the garden and stumbled down the rockery to the lawn, carrying her smart shoes in one hand.",
+      "exampleStart": 500,
+      "exampleEnd": 645,
+      "matchedForm": "garden",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.497143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "gasped",
+      "lemma": "gasp",
+      "lemmaId": "gasp",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "gasp_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "вздох"
+        }
+      },
+      "_spacyLemma": "gasp",
+      "example": "” gasped the witch.",
+      "exampleStart": 1393,
+      "exampleEnd": 1412,
+      "matchedForm": "gasped",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.874286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "gate",
+      "lemma": "gate",
+      "lemmaId": "gate",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "gate_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "ворота"
+        }
+      },
+      "_spacyLemma": "gate",
+      "example": "At the front gate, she waved and smiled at Charles.",
+      "exampleStart": 2342,
+      "exampleEnd": 2393,
+      "matchedForm": "gate",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.582857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "get away",
+      "lemma": "get away",
+      "lemmaId": "get_away",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "get_away_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Отойди"
+        }
+      },
+      "example": "“If I get away, I’ll bring you luck,” she said.",
+      "exampleStart": 2194,
+      "exampleEnd": 2241,
+      "phraseMatch": {
+        "text": "get away",
+        "startInExample": 6,
+        "endInExample": 14
+      },
+      "levelSource": "phrase_index"
+    },
+    {
+      "word": "gave up",
+      "lemma": "give up",
+      "lemmaId": "give_up",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "give_up_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "сдался"
+        }
+      },
+      "example": "He gave up expecting to be lucky.",
+      "exampleStart": 3357,
+      "exampleEnd": 3390,
+      "phraseMatch": {
+        "text": "gave up",
+        "startInExample": 3,
+        "endInExample": 10
+      },
+      "levelSource": "phrase_index"
+    },
+    {
+      "word": "gave",
+      "lemma": "give",
+      "lemmaId": "give",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "give_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "давать"
+        }
+      },
+      "_spacyLemma": "give",
+      "example": "Please, little boy—sneak me out through your house and don’t say a word, and I’ll give you luck for the rest of your life.",
+      "exampleStart": 1447,
+      "exampleEnd": 1569,
+      "matchedForm": "give",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.228571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "glimpsed",
+      "lemma": "glimpse",
+      "lemmaId": "glimpse",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "glimpse_verb",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "взгляд"
+        }
+      },
+      "_spacyLemma": "glimpse",
+      "example": "It was next to impossible for Charles to find out what might have happened to the witch, because there had been new laws since he glimpsed the first witch burning.",
+      "exampleStart": 2763,
+      "exampleEnd": 2926,
+      "matchedForm": "glimpsed",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.771429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "went away",
+      "lemma": "go away",
+      "lemmaId": "go_away",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_away_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "ушёл"
+        }
+      },
+      "example": "Then she put her smart shoes on again and went away down the front garden, trying hard not to limp.",
+      "exampleStart": 2242,
+      "exampleEnd": 2341,
+      "phraseMatch": {
+        "text": "went away",
+        "startInExample": 42,
+        "endInExample": 51
+      },
+      "levelSource": "phrase_index"
+    },
+    {
+      "word": "gone on to",
+      "lemma": "go on to",
+      "lemmaId": "go_on_to",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "go_on_to_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "далее"
+        }
+      },
+      "example": "When he wrote woodwork second lesson, he meant that he had gone on to think about the second witch—which was a thing he did not think about so often.",
+      "exampleStart": 0,
+      "exampleEnd": 149,
+      "phraseMatch": {
+        "text": "gone on to",
+        "startInExample": 59,
+        "endInExample": 69
+      },
+      "levelSource": "phrase_index"
+    },
+    {
+      "word": "grounds",
+      "lemma": "ground",
+      "lemmaId": "ground",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "ground_noun",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "земля"
+        }
+      },
+      "_spacyLemma": "ground",
+      "example": "They only had woodwork once a week, and Charles had chosen that for his code on the very reasonable grounds that he was not likely to enjoy anything at Larwood House any oftener than that.",
+      "exampleStart": 187,
+      "exampleEnd": 375,
+      "matchedForm": "grounds",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.388571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "hair",
+      "lemma": "hair",
+      "lemmaId": "hair",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "hair_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "волосы"
+        }
+      },
+      "_spacyLemma": "hair",
+      "example": "She had been quite young and rather pretty, in spite of her torn skirt and untidy hair.",
+      "exampleStart": 412,
+      "exampleEnd": 499,
+      "matchedForm": "hair",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.408571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "hall",
+      "lemma": "hall",
+      "lemmaId": "hall",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "hall_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "холл"
+        }
+      },
+      "_spacyLemma": "hall",
+      "example": "And he led the witch, hobbling on her blister in her laddered stockings, through the kitchen and down the hall to the front door.",
+      "exampleStart": 1819,
+      "exampleEnd": 1948,
+      "matchedForm": "hall",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.468571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "hand",
+      "lemma": "hand",
+      "lemmaId": "hand",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "hand_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "рука"
+        }
+      },
+      "_spacyLemma": "hand",
+      "example": "She had come scrambling across the wall at the end of the garden and stumbled down the rockery to the lawn, carrying her smart shoes in one hand.",
+      "exampleStart": 500,
+      "exampleEnd": 645,
+      "matchedForm": "hand",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.314286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "happened to",
+      "lemma": "happen to",
+      "lemmaId": "happen_to",
+      "pos": "prepositional_verb",
+      "type": "prepositional_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "happen_to_prepositional_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "случилось"
+        }
+      },
+      "example": "He never saw the witch again, or heard what had happened to her.",
+      "exampleStart": 2484,
+      "exampleEnd": 2548,
+      "phraseMatch": {
+        "text": "happened to",
+        "startInExample": 48,
+        "endInExample": 59
+      },
+      "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "happened",
+      "lemma": "happen",
+      "lemmaId": "happen",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "happen_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "случается"
+        }
+      },
+      "_spacyLemma": "happen",
+      "example": "He never saw the witch again, or heard what had happened to her.",
+      "exampleStart": 2484,
+      "exampleEnd": 2548,
+      "matchedForm": "happened",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.377143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "hard",
+      "lemma": "hard",
+      "lemmaId": "hard",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "hard_adverb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "твердый"
+        }
+      },
+      "_spacyLemma": "hard",
+      "example": "Then she put her smart shoes on again and went away down the front garden, trying hard not to limp.",
+      "exampleStart": 2242,
+      "exampleEnd": 2341,
+      "matchedForm": "hard",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.28,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "hear",
+      "lemma": "hear",
+      "lemmaId": "hear",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "hear_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "слышать"
+        }
+      },
+      "_spacyLemma": "hear",
+      "example": "He could hear the yells and police whistles in the house behind.",
+      "exampleStart": 859,
+      "exampleEnd": 923,
+      "matchedForm": "hear",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.365714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "help",
+      "lemma": "help",
+      "lemmaId": "help",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "help_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "помочь"
+        }
+      },
+      "_spacyLemma": "help",
+      "example": "“Please help me, little boy!",
+      "exampleStart": 1267,
+      "exampleEnd": 1295,
+      "matchedForm": "help",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.217143,
+      "difficultySource": "zipf"
     },
     {
       "word": "hobbling",
       "lemma": "hobble",
       "lemmaId": "hobble",
       "pos": "verb",
+      "source": "word",
       "wordKey": "hobble_verb",
       "level": "B2",
-      "ipa": "ˈhɒb.lɪŋ",
       "translations": {
-        "de": {
-          "translation": "humpeln"
-        },
-        "es": {
-          "translation": "cojear"
-        },
         "ru": {
-          "translation": "хромать"
-        },
-        "uk": {
-          "translation": "кульгати"
+          "translation": "колебаться"
         }
       },
-      "definition": "to walk with difficulty, typically because of pain or injury.",
+      "_spacyLemma": "hobble",
       "example": "And he led the witch, hobbling on her blister in her laddered stockings, through the kitchen and down the hall to the front door.",
       "exampleStart": 1819,
       "exampleEnd": 1948,
-      "matchedForm": "hobbling"
+      "matchedForm": "hobbling",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "hopped",
+      "lemma": "hop",
+      "lemmaId": "hop",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "hop_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "прыгать"
+        }
+      },
+      "_spacyLemma": "hop",
+      "example": "”\n\nThe witch rather desperately hopped on one foot.",
+      "exampleStart": 1107,
+      "exampleEnd": 1158,
+      "matchedForm": "hopped",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.602857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "house",
+      "lemma": "house",
+      "lemmaId": "house",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "house_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "дом"
+        }
+      },
+      "_spacyLemma": "house",
+      "example": "They only had woodwork once a week, and Charles had chosen that for his code on the very reasonable grounds that he was not likely to enjoy anything at Larwood House any oftener than that.",
+      "exampleStart": 187,
+      "exampleEnd": 375,
+      "matchedForm": "House",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.228571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "hurtful",
+      "lemma": "hurtful",
+      "lemmaId": "hurtful",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "hurtful_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "болезненный"
+        }
+      },
+      "_spacyLemma": "hurtful",
+      "example": "It gave him a blunt, hurtful feeling inside.",
+      "exampleStart": 3198,
+      "exampleEnd": 3242,
+      "matchedForm": "hurtful",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.917143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "imitated",
+      "lemma": "imitate",
+      "lemmaId": "imitate",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "imitate_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "подражать"
+        }
+      },
+      "_spacyLemma": "imitate",
+      "example": "And, since Graham imitated everything Charles did, Charles’s parents very soon decided Charles was a problem child and leading Graham astray.",
+      "exampleStart": 3805,
+      "exampleEnd": 3946,
+      "matchedForm": "imitated",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.92,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "impossible",
+      "lemma": "impossible",
+      "lemmaId": "impossible",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "impossible_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "невозможно"
+        }
+      },
+      "_spacyLemma": "impossible",
+      "example": "It was next to impossible for Charles to find out what might have happened to the witch, because there had been new laws since he glimpsed the first witch burning.",
+      "exampleStart": 2763,
+      "exampleEnd": 2926,
+      "matchedForm": "impossible",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.494286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "inside",
+      "lemma": "inside",
+      "lemmaId": "inside",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "inside_adverb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "внутри"
+        }
+      },
+      "_spacyLemma": "inside",
+      "example": "The bonfires were lit inside the walls of jails instead, and the radio would simply announce: “Two witches were burned this morning inside Holloway Jail.",
+      "exampleStart": 2963,
+      "exampleEnd": 3116,
+      "matchedForm": "inside",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.377143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "instead",
+      "lemma": "instead",
+      "lemmaId": "instead",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "instead_adverb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "вместо"
+        }
+      },
+      "_spacyLemma": "instead",
+      "example": "The bonfires were lit inside the walls of jails instead, and the radio would simply announce: “Two witches were burned this morning inside Holloway Jail.",
+      "exampleStart": 2963,
+      "exampleEnd": 3116,
+      "matchedForm": "instead",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.362857,
+      "difficultySource": "zipf"
     },
     {
       "word": "intent",
       "lemma": "intent",
       "lemmaId": "intent",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "intent_adjective",
       "level": "C1",
-      "ipa": "ɪnˈtent",
       "translations": {
-        "de": {
-          "translation": "intensiv"
-        },
-        "es": {
-          "translation": "intenso"
-        },
         "ru": {
-          "translation": "сосредоточенный"
-        },
-        "uk": {
-          "translation": "зосереджений"
+          "translation": "намерение"
         }
       },
-      "definition": "showing earnest and eager attention.",
+      "_spacyLemma": "intent",
       "example": "”\n\nCharles looked at her in that intent way of his which most people found blank and nasty.",
       "exampleStart": 1580,
       "exampleEnd": 1671,
-      "matchedForm": "intent"
+      "matchedForm": "intent",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.637143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "jails",
+      "lemma": "jail",
+      "lemmaId": "jail",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "jail_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "тюрьма"
+        }
+      },
+      "_spacyLemma": "jail",
+      "example": "The bonfires were lit inside the walls of jails instead, and the radio would simply announce: “Two witches were burned this morning inside Holloway Jail.",
+      "exampleStart": 2963,
+      "exampleEnd": 3116,
+      "matchedForm": "jails",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.54,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "judge",
+      "lemma": "judge",
+      "lemmaId": "judge",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "judge_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "судья"
+        }
+      },
+      "_spacyLemma": "judge",
+      "example": "In fact,\nto judge from the amount of bad luck he had had, he thought the witch must have been caught almost straightaway.",
+      "exampleStart": 3391,
+      "exampleEnd": 3512,
+      "matchedForm": "judge",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.445714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "kind",
+      "lemma": "kind",
+      "lemmaId": "kind",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "kind_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "добрый"
+        }
+      },
+      "_spacyLemma": "kind",
+      "example": "” Every time Charles heard this kind of announcement he thought it was his witch.",
+      "exampleStart": 3116,
+      "exampleEnd": 3197,
+      "matchedForm": "kind",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.302857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "kissed",
+      "lemma": "kiss",
+      "lemmaId": "kiss",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "kiss_verb",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "целовать"
+        }
+      },
+      "_spacyLemma": "kiss",
+      "example": "” She smiled at him while she put her hair right in the hall mirror, and after she had done something to her skirt that may have been witchcraft to make it seem untorn again, she bent down and kissed Charles.",
+      "exampleStart": 1985,
+      "exampleEnd": 2193,
+      "matchedForm": "kissed",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.551429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "kitchen",
+      "lemma": "kitchen",
+      "lemmaId": "kitchen",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "kitchen_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "кухня"
+        }
+      },
+      "_spacyLemma": "kitchen",
+      "example": "“Come in through the kitchen,” he said.",
+      "exampleStart": 1779,
+      "exampleEnd": 1818,
+      "matchedForm": "kitchen",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.531429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "knew",
+      "lemma": "know",
+      "lemmaId": "know",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "know_verb",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "знать"
+        }
+      },
+      "_spacyLemma": "know",
+      "example": "Charles knew she was a witch.",
+      "exampleStart": 781,
+      "exampleEnd": 810,
+      "matchedForm": "knew",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.117143,
+      "difficultySource": "zipf"
     },
     {
       "word": "laddered",
       "lemma": "ladder",
       "lemmaId": "ladder",
-      "pos": "adjective",
-      "wordKey": "ladder_adjective",
-      "level": "C1",
-      "ipa": "ˈlæd.ərd",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "ladder_verb",
+      "level": "B2",
       "translations": {
-        "de": {
-          "translation": "laufmaschig"
-        },
-        "es": {
-          "translation": "con rotura (medias)"
-        },
         "ru": {
-          "translation": "с петельками (в чулках)"
-        },
-        "uk": {
-          "translation": "зі стрілками (панчохи)"
+          "translation": "лестница"
         }
       },
-      "definition": "having runs or tears, especially in stockings or tights.",
+      "_spacyLemma": "ladder",
       "example": "She had a large blister on the other foot, and both her stockings were laddered.",
       "exampleStart": 1159,
       "exampleEnd": 1239,
-      "matchedForm": "laddered"
+      "matchedForm": "laddered",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.708571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "laddered",
+      "lemma": "laddered",
+      "lemmaId": "laddered",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "laddered_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "лестница"
+        }
+      },
+      "_spacyLemma": "laddered",
+      "example": "She had a large blister on the other foot, and both her stockings were laddered.",
+      "exampleStart": 1159,
+      "exampleEnd": 1239,
+      "matchedForm": "laddered",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "large",
+      "lemma": "large",
+      "lemmaId": "large",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "large_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "большой"
+        }
+      },
+      "_spacyLemma": "large",
+      "example": "She had a large blister on the other foot, and both her stockings were laddered.",
+      "exampleStart": 1159,
+      "exampleEnd": 1239,
+      "matchedForm": "large",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.32,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "laws",
+      "lemma": "law",
+      "lemmaId": "law",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "law_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "закон"
+        }
+      },
+      "_spacyLemma": "law",
+      "example": "It was next to impossible for Charles to find out what might have happened to the witch, because there had been new laws since he glimpsed the first witch burning.",
+      "exampleStart": 2763,
+      "exampleEnd": 2926,
+      "matchedForm": "laws",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.3,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "lawn",
+      "lemma": "lawn",
+      "lemmaId": "lawn",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "lawn_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "газон"
+        }
+      },
+      "_spacyLemma": "lawn",
+      "example": "She had come scrambling across the wall at the end of the garden and stumbled down the rockery to the lawn, carrying her smart shoes in one hand.",
+      "exampleStart": 500,
+      "exampleEnd": 645,
+      "matchedForm": "lawn",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.722857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "leading",
+      "lemma": "lead",
+      "lemmaId": "lead",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "lead_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "свинец"
+        }
+      },
+      "_spacyLemma": "lead",
+      "example": "And, since Graham imitated everything Charles did, Charles’s parents very soon decided Charles was a problem child and leading Graham astray.",
+      "exampleStart": 3805,
+      "exampleEnd": 3946,
+      "matchedForm": "leading",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.374286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "led",
+      "lemma": "lead",
+      "lemmaId": "lead",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "lead_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "свинец"
+        }
+      },
+      "_spacyLemma": "lead",
+      "example": "And he led the witch, hobbling on her blister in her laddered stockings, through the kitchen and down the hall to the front door.",
+      "exampleStart": 1819,
+      "exampleEnd": 1948,
+      "matchedForm": "led",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.374286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "lesson",
+      "lemma": "lesson",
+      "lemmaId": "lesson",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "lesson_noun",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "урок"
+        }
+      },
+      "_spacyLemma": "lesson",
+      "example": "When he wrote woodwork second lesson, he meant that he had gone on to think about the second witch—which was a thing he did not think about so often.",
+      "exampleStart": 0,
+      "exampleEnd": 149,
+      "matchedForm": "lesson",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.582857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "life",
+      "lemma": "life",
+      "lemmaId": "life",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "life_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "жизнь"
+        }
+      },
+      "_spacyLemma": "life",
+      "example": "Please, little boy—sneak me out through your house and don’t say a word, and I’ll give you luck for the rest of your life.",
+      "exampleStart": 1447,
+      "exampleEnd": 1569,
+      "matchedForm": "life",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.177143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "lit",
+      "lemma": "light",
+      "lemmaId": "light",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "light_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "свет"
+        }
+      },
+      "_spacyLemma": "light",
+      "example": "The bonfires were lit inside the walls of jails instead, and the radio would simply announce: “Two witches were burned this morning inside Holloway Jail.",
+      "exampleStart": 2963,
+      "exampleEnd": 3116,
+      "matchedForm": "lit",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.337143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "liked",
+      "lemma": "like",
+      "lemmaId": "like",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "like_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "как"
+        }
+      },
+      "_spacyLemma": "like",
+      "example": "Woodwork was anything Charles liked.",
+      "exampleStart": 150,
+      "exampleEnd": 186,
+      "matchedForm": "liked",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.028571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "likely",
+      "lemma": "likely",
+      "lemmaId": "likely",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "likely_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "вероятный"
+        }
+      },
+      "_spacyLemma": "likely",
+      "example": "They only had woodwork once a week, and Charles had chosen that for his code on the very reasonable grounds that he was not likely to enjoy anything at Larwood House any oftener than that.",
+      "exampleStart": 187,
+      "exampleEnd": 375,
+      "matchedForm": "likely",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.374286,
+      "difficultySource": "zipf"
     },
     {
       "word": "limp",
       "lemma": "limp",
       "lemmaId": "limp",
       "pos": "verb",
+      "source": "word",
       "wordKey": "limp_verb",
-      "level": "B2",
-      "ipa": "lɪmp",
+      "level": "C1",
       "translations": {
-        "de": {
-          "translation": "hinken"
-        },
-        "es": {
-          "translation": "cojear"
-        },
         "ru": {
-          "translation": "хромать"
-        },
-        "uk": {
-          "translation": "кульгати"
+          "translation": "хромой"
         }
       },
-      "definition": "to walk slowly and with difficulty because of injury or pain.",
+      "_spacyLemma": "limp",
       "example": "Then she put her smart shoes on again and went away down the front garden, trying hard not to limp.",
       "exampleStart": 2242,
       "exampleEnd": 2341,
-      "matchedForm": "limp"
+      "matchedForm": "limp",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.88,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "little",
+      "lemma": "little",
+      "lemmaId": "little",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "little_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "маленький"
+        }
+      },
+      "_spacyLemma": "little",
+      "example": "Charles had been nine years old then, and he was minding his little brother on the lawn.",
+      "exampleStart": 646,
+      "exampleEnd": 734,
+      "matchedForm": "little",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.217143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "long",
+      "lemma": "long",
+      "lemmaId": "long",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "long_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "длинный"
+        }
+      },
+      "_spacyLemma": "long",
+      "example": "That was why he wrote but not for long next.",
+      "exampleStart": 2439,
+      "exampleEnd": 2483,
+      "matchedForm": "long",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.2,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "looked at",
+      "lemma": "look at",
+      "lemmaId": "look_at",
+      "pos": "prepositional_verb",
+      "type": "prepositional_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "look_at_prepositional_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "смотрел"
+        }
+      },
+      "example": "”\n\nCharles looked at her in that intent way of his which most people found blank and nasty.",
+      "exampleStart": 1580,
+      "exampleEnd": 1671,
+      "phraseMatch": {
+        "text": "looked at",
+        "startInExample": 11,
+        "endInExample": 20
+      },
+      "levelSource": "phrase_index"
+    },
+    {
+      "word": "look",
+      "lemma": "look",
+      "lemmaId": "look",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "look_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "смотреть"
+        }
+      },
+      "_spacyLemma": "look",
+      "example": "He saw, too, that she understood the look as very few people seemed to.",
+      "exampleStart": 1707,
+      "exampleEnd": 1778,
+      "matchedForm": "look",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.2,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "looked",
+      "lemma": "look",
+      "lemmaId": "look",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "look_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "смотреть"
+        }
+      },
+      "_spacyLemma": "look",
+      "example": "”\n\nCharles looked at her in that intent way of his which most people found blank and nasty.",
+      "exampleStart": 1580,
+      "exampleEnd": 1671,
+      "matchedForm": "looked",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.2,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "love",
+      "lemma": "love",
+      "lemmaId": "love",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "love_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "любовь"
+        }
+      },
+      "_spacyLemma": "love",
+      "example": "“You’re a love.",
+      "exampleStart": 1970,
+      "exampleEnd": 1985,
+      "matchedForm": "love",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.197143,
+      "difficultySource": "zipf"
     },
     {
       "word": "luck",
       "lemma": "luck",
       "lemmaId": "luck",
       "pos": "noun",
+      "source": "word",
       "wordKey": "luck_noun",
       "level": "B2",
-      "ipa": "lʌk",
       "translations": {
-        "de": {
-          "translation": "Glück"
-        },
-        "es": {
-          "translation": "suerte"
-        },
         "ru": {
           "translation": "удача"
-        },
-        "uk": {
-          "translation": "вдача"
         }
       },
-      "definition": "success or failure apparently brought by chance rather than one's own actions.",
+      "_spacyLemma": "luck",
       "example": "Please, little boy—sneak me out through your house and don’t say a word, and I’ll give you luck for the rest of your life.",
       "exampleStart": 1447,
       "exampleEnd": 1569,
-      "matchedForm": "luck"
+      "matchedForm": "luck",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.457143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "Luckily",
+      "lemma": "luckily",
+      "lemmaId": "luckily",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "luckily_adverb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "к счастью"
+        }
+      },
+      "_spacyLemma": "luckily",
+      "example": "Luckily for the witch, his parents were out.",
+      "exampleStart": 735,
+      "exampleEnd": 779,
+      "matchedForm": "Luckily",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.74,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "lucky",
+      "lemma": "lucky",
+      "lemmaId": "lucky",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "lucky_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "счастливчик"
+        }
+      },
+      "_spacyLemma": "lucky",
+      "example": "He gave up expecting to be lucky.",
+      "exampleStart": 3357,
+      "exampleEnd": 3390,
+      "matchedForm": "lucky",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.497143,
+      "difficultySource": "zipf"
     },
     {
       "word": "magic",
       "lemma": "magic",
       "lemmaId": "magic",
-      "pos": "adjective",
-      "wordKey": "magic_adjective",
-      "level": "B2",
-      "ipa": "ˈmædʒ.ɪk",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "magic_verb",
+      "level": "A2",
       "translations": {
-        "de": {
-          "translation": "Magie"
-        },
-        "es": {
-          "translation": "magia"
-        },
         "ru": {
           "translation": "магия"
-        },
-        "uk": {
-          "translation": "магія"
         }
       },
-      "definition": "the power of making impossible things happen by using supernatural forces.",
+      "_spacyLemma": "magic",
       "example": "”\n\n“Why can’t you magic yourself safe?",
       "exampleStart": 1295,
       "exampleEnd": 1333,
-      "matchedForm": "magic"
+      "matchedForm": "magic",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.5,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "meant",
+      "lemma": "mean",
+      "lemmaId": "mean",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "mean_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "означать"
+        }
+      },
+      "_spacyLemma": "mean",
+      "example": "When he wrote woodwork second lesson, he meant that he had gone on to think about the second witch—which was a thing he did not think about so often.",
+      "exampleStart": 0,
+      "exampleEnd": 149,
+      "matchedForm": "meant",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.28,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "middle",
+      "lemma": "middle",
+      "lemmaId": "middle",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "middle_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "середина"
+        }
+      },
+      "_spacyLemma": "middle",
+      "example": "Besides, who else but a witch would run away from the police in the middle of the afternoon in a tight skirt?",
+      "exampleStart": 924,
+      "exampleEnd": 1033,
+      "matchedForm": "middle",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.38,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "minding",
+      "lemma": "mind",
+      "lemmaId": "mind",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "mind_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "разум"
+        }
+      },
+      "_spacyLemma": "mind",
+      "example": "Charles had been nine years old then, and he was minding his little brother on the lawn.",
+      "exampleStart": 646,
+      "exampleEnd": 734,
+      "matchedForm": "minding",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.314286,
+      "difficultySource": "zipf"
     },
     {
       "word": "mirror",
       "lemma": "mirror",
       "lemmaId": "mirror",
       "pos": "noun",
+      "source": "word",
       "wordKey": "mirror_noun",
       "level": "B2",
-      "ipa": "ˈmɪr.ər",
       "translations": {
-        "de": {
-          "translation": "Spiegel"
-        },
-        "es": {
-          "translation": "espejo"
-        },
         "ru": {
           "translation": "зеркало"
-        },
-        "uk": {
-          "translation": "дзеркало"
         }
       },
-      "definition": "a reflective surface showing someone’s image.",
+      "_spacyLemma": "mirror",
       "example": "” She smiled at him while she put her hair right in the hall mirror, and after she had done something to her skirt that may have been witchcraft to make it seem untorn again, she bent down and kissed Charles.",
       "exampleStart": 1985,
       "exampleEnd": 2193,
-      "matchedForm": "mirror"
+      "matchedForm": "mirror",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.582857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "morning",
+      "lemma": "morning",
+      "lemmaId": "morning",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "morning_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "утром"
+        }
+      },
+      "_spacyLemma": "morning",
+      "example": "The bonfires were lit inside the walls of jails instead, and the radio would simply announce: “Two witches were burned this morning inside Holloway Jail.",
+      "exampleStart": 2963,
+      "exampleEnd": 3116,
+      "matchedForm": "morning",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.337143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "nasty",
+      "lemma": "nasty",
+      "lemmaId": "nasty",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "nasty_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "мерзкий"
+        }
+      },
+      "_spacyLemma": "nasty",
+      "example": "”\n\nCharles looked at her in that intent way of his which most people found blank and nasty.",
+      "exampleStart": 1580,
+      "exampleEnd": 1671,
+      "matchedForm": "nasty",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.654286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "near",
+      "lemma": "near",
+      "lemmaId": "near",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "near_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "близко"
+        }
+      },
+      "_spacyLemma": "near",
+      "example": "They arranged for him to be sent to Larwood House, because it was quite near.",
+      "exampleStart": 3947,
+      "exampleEnd": 4024,
+      "matchedForm": "near",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.348571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "new",
+      "lemma": "new",
+      "lemmaId": "new",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "new_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "новый"
+        }
+      },
+      "_spacyLemma": "new",
+      "example": "It was next to impossible for Charles to find out what might have happened to the witch, because there had been new laws since he glimpsed the first witch burning.",
+      "exampleStart": 2763,
+      "exampleEnd": 2926,
+      "matchedForm": "new",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.074286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "obeyed",
+      "lemma": "obey",
+      "lemmaId": "obey",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "obey_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "подчиняться"
+        }
+      },
+      "_spacyLemma": "obey",
+      "example": "He ordered his little brother never to say a word about her—and Graham obeyed, because he always did everything Charles said—and then he watched and waited for any sign of the witch or any sign of luck.",
+      "exampleStart": 2549,
+      "exampleEnd": 2751,
+      "matchedForm": "obeyed",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.765714,
+      "difficultySource": "zipf"
     },
     {
       "word": "obviously",
       "lemma": "obviously",
       "lemmaId": "obviously",
       "pos": "adverb",
+      "source": "word",
       "wordKey": "obviously_adverb",
       "level": "B2",
-      "ipa": "ˈɒb.vi.ə.sli",
       "translations": {
-        "de": {
-          "translation": "offensichtlich"
-        },
-        "es": {
-          "translation": "obviamente"
-        },
         "ru": {
-          "translation": "очевидно"
-        },
-        "uk": {
           "translation": "очевидно"
         }
       },
-      "definition": "in a way that is easy to see or understand.",
+      "_spacyLemma": "obviously",
       "example": "She was out of breath and obviously frightened.",
       "exampleStart": 811,
       "exampleEnd": 858,
-      "matchedForm": "obviously"
+      "matchedForm": "obviously",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.488571,
+      "difficultySource": "zipf"
     },
     {
-      "word": "often",
-      "lemma": "often",
-      "lemmaId": "often",
-      "pos": "adverb",
-      "wordKey": "often_adverb",
-      "level": "B2",
-      "ipa": "ˈɒf.ən",
+      "word": "oftener",
+      "lemma": "oftener",
+      "lemmaId": "oftener",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "oftener_noun",
+      "level": "B1",
       "translations": {
-        "de": {
-          "translation": "oft"
-        },
-        "es": {
-          "translation": "a menudo"
-        },
         "ru": {
-          "translation": "часто"
-        },
-        "uk": {
           "translation": "часто"
         }
       },
-      "definition": "frequently; many times.",
-      "example": "When he wrote woodwork second lesson, he meant that he had gone on to think about the second witch—which was a thing he did not think about so often.",
-      "exampleStart": 0,
-      "exampleEnd": 149,
-      "matchedForm": "often"
+      "_spacyLemma": "oftener",
+      "example": "They only had woodwork once a week, and Charles had chosen that for his code on the very reasonable grounds that he was not likely to enjoy anything at Larwood House any oftener than that.",
+      "exampleStart": 187,
+      "exampleEnd": 375,
+      "matchedForm": "oftener",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "old",
+      "lemma": "old",
+      "lemmaId": "old",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "old_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "старый"
+        }
+      },
+      "_spacyLemma": "old",
+      "example": "Charles had been nine years old then, and he was minding his little brother on the lawn.",
+      "exampleStart": 646,
+      "exampleEnd": 734,
+      "matchedForm": "old",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.217143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "ordered",
+      "lemma": "order",
+      "lemmaId": "order",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "order_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "приказ"
+        }
+      },
+      "_spacyLemma": "order",
+      "example": "He ordered his little brother never to say a word about her—and Graham obeyed, because he always did everything Charles said—and then he watched and waited for any sign of the witch or any sign of luck.",
+      "exampleStart": 2549,
+      "exampleEnd": 2751,
+      "matchedForm": "ordered",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.291429,
+      "difficultySource": "zipf"
     },
     {
       "word": "panted",
       "lemma": "pant",
       "lemmaId": "pant",
       "pos": "verb",
+      "source": "word",
       "wordKey": "pant_verb",
       "level": "B2",
-      "ipa": "ˈpæntɪd",
       "translations": {
-        "de": {
-          "translation": "keuchen"
-        },
-        "es": {
-          "translation": "jadear"
-        },
         "ru": {
-          "translation": "запыхался"
-        },
-        "uk": {
-          "translation": "задихався"
+          "translation": "брюки"
         }
       },
-      "definition": "breathed quickly and heavily.",
+      "_spacyLemma": "pant",
       "example": "“I’m a witch,” she panted.",
       "exampleStart": 1240,
       "exampleEnd": 1266,
-      "matchedForm": "panted"
+      "matchedForm": "panted",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.951429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "parents",
+      "lemma": "parent",
+      "lemmaId": "parent",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "parent_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "родитель"
+        }
+      },
+      "_spacyLemma": "parent",
+      "example": "Luckily for the witch, his parents were out.",
+      "exampleStart": 735,
+      "exampleEnd": 779,
+      "matchedForm": "parents",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.554286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "people",
+      "lemma": "people",
+      "lemmaId": "people",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "people_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "люди"
+        }
+      },
+      "_spacyLemma": "people",
+      "example": "”\n\nCharles looked at her in that intent way of his which most people found blank and nasty.",
+      "exampleStart": 1580,
+      "exampleEnd": 1671,
+      "matchedForm": "people",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.074286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "police",
+      "lemma": "police",
+      "lemmaId": "police",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "police_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "полиция"
+        }
+      },
+      "_spacyLemma": "police",
+      "example": "He could hear the yells and police whistles in the house behind.",
+      "exampleStart": 859,
+      "exampleEnd": 923,
+      "matchedForm": "police",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.337143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "pretty",
+      "lemma": "pretty",
+      "lemmaId": "pretty",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "pretty_adjective",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "довольно"
+        }
+      },
+      "_spacyLemma": "pretty",
+      "example": "She had been quite young and rather pretty, in spite of her torn skirt and untidy hair.",
+      "exampleStart": 412,
+      "exampleEnd": 499,
+      "matchedForm": "pretty",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.322857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "problem child",
+      "lemma": "problem child",
+      "lemmaId": "problem_child",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "spacy_phrase",
+      "wordKey": "problem_child_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Проблемный ребёнок"
+        }
+      },
+      "example": "And, since Graham imitated everything Charles did, Charles’s parents very soon decided Charles was a problem child and leading Graham astray.",
+      "exampleStart": 3805,
+      "exampleEnd": 3946,
+      "phraseMatch": {
+        "text": "problem child",
+        "startInExample": 101,
+        "endInExample": 114
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "problem",
+      "lemma": "problem",
+      "lemmaId": "problem",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "problem_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "проблема"
+        }
+      },
+      "_spacyLemma": "problem",
+      "example": "And, since Graham imitated everything Charles did, Charles’s parents very soon decided Charles was a problem child and leading Graham astray.",
+      "exampleStart": 3805,
+      "exampleEnd": 3946,
+      "matchedForm": "problem",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.317143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "promise",
+      "lemma": "promise",
+      "lemmaId": "promise",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "promise_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "обещание"
+        }
+      },
+      "_spacyLemma": "promise",
+      "example": "I promise.",
+      "exampleStart": 1570,
+      "exampleEnd": 1580,
+      "matchedForm": "promise",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.514286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "public",
+      "lemma": "public",
+      "lemmaId": "public",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "public_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "публичный"
+        }
+      },
+      "_spacyLemma": "public",
+      "example": "There were no more public burnings.",
+      "exampleStart": 2927,
+      "exampleEnd": 2962,
+      "matchedForm": "public",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.268571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "put on",
+      "lemma": "put on",
+      "lemmaId": "put_on",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "put_on_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Надень"
+        }
+      },
+      "example": "Then she put her smart shoes on again and went away down the front garden, trying hard not to limp.",
+      "exampleStart": 2242,
+      "exampleEnd": 2341,
+      "phraseMatch": {
+        "text": "put her smart shoes on",
+        "startInExample": 9,
+        "endInExample": 31
+      },
+      "levelSource": "phrase_index"
+    },
+    {
+      "word": "radio",
+      "lemma": "radio",
+      "lemmaId": "radio",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "radio_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "радио"
+        }
+      },
+      "_spacyLemma": "radio",
+      "example": "The bonfires were lit inside the walls of jails instead, and the radio would simply announce: “Two witches were burned this morning inside Holloway Jail.",
+      "exampleStart": 2963,
+      "exampleEnd": 3116,
+      "matchedForm": "radio",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.428571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "reasonable",
+      "lemma": "reasonable",
+      "lemmaId": "reasonable",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "reasonable_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "разумный"
+        }
+      },
+      "_spacyLemma": "reasonable",
+      "example": "They only had woodwork once a week, and Charles had chosen that for his code on the very reasonable grounds that he was not likely to enjoy anything at Larwood House any oftener than that.",
+      "exampleStart": 187,
+      "exampleEnd": 375,
+      "matchedForm": "reasonable",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.548571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "refuse",
+      "lemma": "refuse",
+      "lemmaId": "refuse",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "refuse_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "отказываться"
+        }
+      },
+      "_spacyLemma": "refuse",
+      "example": "For the blunt, hurtful feeling he had when the radio announced a burning made him refuse to do anything his parents told him to do.",
+      "exampleStart": 3513,
+      "exampleEnd": 3644,
+      "matchedForm": "refuse",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.605714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "rest",
+      "lemma": "rest",
+      "lemmaId": "rest",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "rest_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "отдыхать"
+        }
+      },
+      "_spacyLemma": "rest",
+      "example": "Please, little boy—sneak me out through your house and don’t say a word, and I’ll give you luck for the rest of your life.",
+      "exampleStart": 1447,
+      "exampleEnd": 1569,
+      "matchedForm": "rest",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.365714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "right",
+      "lemma": "right",
+      "lemmaId": "right",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "right_adverb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "правильно"
+        }
+      },
+      "_spacyLemma": "right",
+      "example": "” She smiled at him while she put her hair right in the hall mirror, and after she had done something to her skirt that may have been witchcraft to make it seem untorn again, she bent down and kissed Charles.",
+      "exampleStart": 1985,
+      "exampleEnd": 2193,
+      "matchedForm": "right",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.157143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "rockery",
+      "lemma": "rockery",
+      "lemmaId": "rockery",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "rockery_noun",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "рокер"
+        }
+      },
+      "_spacyLemma": "rockery",
+      "example": "She had come scrambling across the wall at the end of the garden and stumbled down the rockery to the lawn, carrying her smart shoes in one hand.",
+      "exampleStart": 500,
+      "exampleEnd": 645,
+      "matchedForm": "rockery",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "running away",
+      "lemma": "run away",
+      "lemmaId": "run_away",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "run_away_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Бегство"
+        }
+      },
+      "example": "He said, “Why are you running away in our garden?",
+      "exampleStart": 1058,
+      "exampleEnd": 1107,
+      "phraseMatch": {
+        "text": "running away",
+        "startInExample": 22,
+        "endInExample": 34
+      },
+      "levelSource": "phrase_index"
+    },
+    {
+      "word": "run",
+      "lemma": "run",
+      "lemmaId": "run",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "run_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "бегать"
+        }
+      },
+      "_spacyLemma": "run",
+      "example": "Besides, who else but a witch would run away from the police in the middle of the afternoon in a tight skirt?",
+      "exampleStart": 924,
+      "exampleEnd": 1033,
+      "matchedForm": "run",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.291429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "safe",
+      "lemma": "safe",
+      "lemmaId": "safe",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "safe_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "безопасный"
+        }
+      },
+      "_spacyLemma": "safe",
+      "example": "”\n\n“Why can’t you magic yourself safe?",
+      "exampleStart": 1295,
+      "exampleEnd": 1333,
+      "matchedForm": "safe",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.411429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "said",
+      "lemma": "say",
+      "lemmaId": "say",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "say_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "говорить"
+        }
+      },
+      "_spacyLemma": "say",
+      "example": "He said, “Why are you running away in our garden?",
+      "exampleStart": 1058,
+      "exampleEnd": 1107,
+      "matchedForm": "said",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.177143,
+      "difficultySource": "zipf"
     },
     {
       "word": "scrambling",
       "lemma": "scramble",
       "lemmaId": "scramble",
       "pos": "verb",
+      "source": "word",
       "wordKey": "scramble_verb",
-      "level": "C1",
-      "ipa": "ˈskræm.bəlɪŋ",
+      "level": "B2",
       "translations": {
-        "de": {
-          "translation": "klettern"
-        },
-        "es": {
-          "translation": "trepar"
-        },
         "ru": {
-          "translation": "карабкаться"
-        },
-        "uk": {
-          "translation": "лазити"
+          "translation": "схватка"
         }
       },
-      "definition": "to move quickly or clumsily using hands and feet.",
+      "_spacyLemma": "scramble",
       "example": "She had come scrambling across the wall at the end of the garden and stumbled down the rockery to the lawn, carrying her smart shoes in one hand.",
       "exampleStart": 500,
       "exampleEnd": 645,
-      "matchedForm": "scrambling"
+      "matchedForm": "scrambling",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.891429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "second",
+      "lemma": "second",
+      "lemmaId": "second",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "second_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "второй"
+        }
+      },
+      "_spacyLemma": "second",
+      "example": "When he wrote woodwork second lesson, he meant that he had gone on to think about the second witch—which was a thing he did not think about so often.",
+      "exampleStart": 0,
+      "exampleEnd": 149,
+      "matchedForm": "second",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.251429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "saw",
+      "lemma": "see",
+      "lemmaId": "see",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "see_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "смотреть"
+        }
+      },
+      "_spacyLemma": "see",
+      "example": "He saw she was speaking the truth.",
+      "exampleStart": 1672,
+      "exampleEnd": 1706,
+      "matchedForm": "saw",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.117143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "sent",
+      "lemma": "send",
+      "lemmaId": "send",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "send_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "отправлять"
+        }
+      },
+      "_spacyLemma": "send",
+      "example": "They arranged for him to be sent to Larwood House, because it was quite near.",
+      "exampleStart": 3947,
+      "exampleEnd": 4024,
+      "matchedForm": "sent",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.4,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "shoes",
+      "lemma": "shoe",
+      "lemmaId": "shoe",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "shoe_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "обувь"
+        }
+      },
+      "_spacyLemma": "shoe",
+      "example": "She had come scrambling across the wall at the end of the garden and stumbled down the rockery to the lawn, carrying her smart shoes in one hand.",
+      "exampleStart": 500,
+      "exampleEnd": 645,
+      "matchedForm": "shoes",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.648571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "sign",
+      "lemma": "sign",
+      "lemmaId": "sign",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "sign_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "знак"
+        }
+      },
+      "_spacyLemma": "sign",
+      "example": "He ordered his little brother never to say a word about her—and Graham obeyed, because he always did everything Charles said—and then he watched and waited for any sign of the witch or any sign of luck.",
+      "exampleStart": 2549,
+      "exampleEnd": 2751,
+      "matchedForm": "sign",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.408571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "simply",
+      "lemma": "simply",
+      "lemmaId": "simply",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "simply_adverb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "просто"
+        }
+      },
+      "_spacyLemma": "simply",
+      "example": "The bonfires were lit inside the walls of jails instead, and the radio would simply announce: “Two witches were burned this morning inside Holloway Jail.",
+      "exampleStart": 2963,
+      "exampleEnd": 3116,
+      "matchedForm": "simply",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.408571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "skirt",
+      "lemma": "skirt",
+      "lemmaId": "skirt",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "skirt_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "юбка"
+        }
+      },
+      "_spacyLemma": "skirt",
+      "example": "She had been quite young and rather pretty, in spite of her torn skirt and untidy hair.",
+      "exampleStart": 412,
+      "exampleEnd": 499,
+      "matchedForm": "skirt",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.728571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "smart",
+      "lemma": "smart",
+      "lemmaId": "smart",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "smart_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "умный"
+        }
+      },
+      "_spacyLemma": "smart",
+      "example": "She had come scrambling across the wall at the end of the garden and stumbled down the rockery to the lawn, carrying her smart shoes in one hand.",
+      "exampleStart": 500,
+      "exampleEnd": 645,
+      "matchedForm": "smart",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.48,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "smiled",
+      "lemma": "smile",
+      "lemmaId": "smile",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "smile_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "улыбка"
+        }
+      },
+      "_spacyLemma": "smile",
+      "example": "” She smiled at him while she put her hair right in the hall mirror, and after she had done something to her skirt that may have been witchcraft to make it seem untorn again, she bent down and kissed Charles.",
+      "exampleStart": 1985,
+      "exampleEnd": 2193,
+      "matchedForm": "smiled",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.534286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "sneak out",
+      "lemma": "sneak out",
+      "lemmaId": "sneak_out",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "sneak_out_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Ускользни"
+        }
+      },
+      "example": "Please, little boy—sneak me out through your house and don’t say a word, and I’ll give you luck for the rest of your life.",
+      "exampleStart": 1447,
+      "exampleEnd": 1569,
+      "phraseMatch": {
+        "text": "sneak me out",
+        "startInExample": 19,
+        "endInExample": 31
+      },
+      "levelSource": "dictionary_phrase"
     },
     {
       "word": "sneak",
       "lemma": "sneak",
       "lemmaId": "sneak",
       "pos": "verb",
+      "source": "word",
       "wordKey": "sneak_verb",
       "level": "B2",
-      "ipa": "sniːk",
       "translations": {
-        "de": {
-          "translation": "schleichen"
-        },
-        "es": {
-          "translation": "colarse"
-        },
         "ru": {
-          "translation": "сбегать тайком"
-        },
-        "uk": {
-          "translation": "прокрастися"
+          "translation": "подкрадываться"
         }
       },
-      "definition": "to move quietly and secretly to avoid being noticed.",
+      "_spacyLemma": "sneak",
       "example": "Please, little boy—sneak me out through your house and don’t say a word, and I’ll give you luck for the rest of your life.",
       "exampleStart": 1447,
       "exampleEnd": 1569,
-      "matchedForm": "sneak"
+      "matchedForm": "sneak",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.72,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "soon",
+      "lemma": "soon",
+      "lemmaId": "soon",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "soon_adverb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "скоро"
+        }
+      },
+      "_spacyLemma": "soon",
+      "example": "And, since Graham imitated everything Charles did, Charles’s parents very soon decided Charles was a problem child and leading Graham astray.",
+      "exampleStart": 3805,
+      "exampleEnd": 3946,
+      "matchedForm": "soon",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.34,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "speaking",
+      "lemma": "speak",
+      "lemmaId": "speak",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "speak_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "говорить"
+        }
+      },
+      "_spacyLemma": "speak",
+      "example": "He saw she was speaking the truth.",
+      "exampleStart": 1672,
+      "exampleEnd": 1706,
+      "matchedForm": "speaking",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.422857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "spite",
+      "lemma": "spite",
+      "lemmaId": "spite",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "spite_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "злой"
+        }
+      },
+      "_spacyLemma": "spite",
+      "example": "She had been quite young and rather pretty, in spite of her torn skirt and untidy hair.",
+      "exampleStart": 412,
+      "exampleEnd": 499,
+      "matchedForm": "spite",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.705714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "stared",
+      "lemma": "star",
+      "lemmaId": "star",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "star_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "звезда"
+        }
+      },
+      "_spacyLemma": "star",
+      "example": "He just gave them his steady stare instead.",
+      "exampleStart": 3645,
+      "exampleEnd": 3688,
+      "matchedForm": "stare",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.377143,
+      "difficultySource": "zipf"
     },
     {
       "word": "stare",
       "lemma": "stare",
       "lemmaId": "stare",
-      "pos": "verb",
-      "wordKey": "stare_verb",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "stare_noun",
       "level": "B2",
-      "ipa": "steər",
       "translations": {
-        "de": {
-          "translation": "starren"
-        },
-        "es": {
-          "translation": "mirar fijamente"
-        },
         "ru": {
-          "translation": "пялиться"
-        },
-        "uk": {
-          "translation": "витріщатися"
+          "translation": "смотреть"
         }
       },
-      "definition": "to look fixedly at someone or something.",
+      "_spacyLemma": "stare",
       "example": "He just gave them his steady stare instead.",
       "exampleStart": 3645,
       "exampleEnd": 3688,
-      "matchedForm": "stare"
+      "matchedForm": "stare",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.742857,
+      "difficultySource": "zipf"
     },
     {
       "word": "steady",
       "lemma": "steady",
       "lemmaId": "steady",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "steady_adjective",
       "level": "B2",
-      "ipa": "ˈsted.i",
       "translations": {
-        "de": {
-          "translation": "stetig"
-        },
-        "es": {
-          "translation": "constante"
-        },
         "ru": {
-          "translation": "непрерывный"
-        },
-        "uk": {
-          "translation": "постійний"
+          "translation": "устойчивый"
         }
       },
-      "definition": "firmly fixed or constant.",
+      "_spacyLemma": "steady",
       "example": "He just gave them his steady stare instead.",
       "exampleStart": 3645,
       "exampleEnd": 3688,
-      "matchedForm": "steady"
+      "matchedForm": "steady",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.628571,
+      "difficultySource": "zipf"
     },
     {
       "word": "stockings",
       "lemma": "stocking",
       "lemmaId": "stocking",
       "pos": "noun",
+      "source": "word",
       "wordKey": "stocking_noun",
       "level": "B2",
-      "ipa": "ˈstɒk.ɪŋ",
       "translations": {
-        "de": {
-          "translation": "Strümpfe"
-        },
-        "es": {
-          "translation": "medias"
-        },
         "ru": {
-          "translation": "чулки"
-        },
-        "uk": {
-          "translation": "панчохи"
+          "translation": "запасной"
         }
       },
-      "definition": "close-fitting coverings for the foot and part of the leg, typically worn by women.",
+      "_spacyLemma": "stocking",
       "example": "She had a large blister on the other foot, and both her stockings were laddered.",
       "exampleStart": 1159,
       "exampleEnd": 1239,
-      "matchedForm": "stockings"
+      "matchedForm": "stockings",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.862857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "straightaway",
+      "lemma": "straightaway",
+      "lemmaId": "straightaway",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "straightaway_adverb",
+      "level": "C2",
+      "translations": {
+        "ru": {
+          "translation": "прямо"
+        }
+      },
+      "_spacyLemma": "straightaway",
+      "example": "In fact,\nto judge from the amount of bad luck he had had, he thought the witch must have been caught almost straightaway.",
+      "exampleStart": 3391,
+      "exampleEnd": 3512,
+      "matchedForm": "straightaway",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "stumbled",
+      "lemma": "stumble",
+      "lemmaId": "stumble",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "stumble_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "спотыкаться"
+        }
+      },
+      "_spacyLemma": "stumble",
+      "example": "She had come scrambling across the wall at the end of the garden and stumbled down the rockery to the lawn, carrying her smart shoes in one hand.",
+      "exampleStart": 500,
+      "exampleEnd": 645,
+      "matchedForm": "stumbled",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.882857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "sure",
+      "lemma": "sure",
+      "lemmaId": "sure",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "sure_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "уверен"
+        }
+      },
+      "_spacyLemma": "sure",
+      "example": "But he made quite sure.",
+      "exampleStart": 1034,
+      "exampleEnd": 1057,
+      "matchedForm": "sure",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.24,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "torn",
+      "lemma": "tear",
+      "lemmaId": "tear",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "tear_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "разрыв"
+        }
+      },
+      "_spacyLemma": "tear",
+      "example": "She had been quite young and rather pretty, in spite of her torn skirt and untidy hair.",
+      "exampleStart": 412,
+      "exampleEnd": 499,
+      "matchedForm": "torn",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.617143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "told",
+      "lemma": "tell",
+      "lemmaId": "tell",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "tell_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "рассказывать"
+        }
+      },
+      "_spacyLemma": "tell",
+      "example": "For the blunt, hurtful feeling he had when the radio announced a burning made him refuse to do anything his parents told him to do.",
+      "exampleStart": 3513,
+      "exampleEnd": 3644,
+      "matchedForm": "told",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.28,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "Thanks",
+      "lemma": "thank",
+      "lemmaId": "thank",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "thank_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Спасибо."
+        }
+      },
+      "_spacyLemma": "thank",
+      "example": "“Thanks,” she said.",
+      "exampleStart": 1950,
+      "exampleEnd": 1969,
+      "matchedForm": "Thanks",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.294286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "thing",
+      "lemma": "thing",
+      "lemmaId": "thing",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "thing_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "вещь"
+        }
+      },
+      "_spacyLemma": "thing",
+      "example": "When he wrote woodwork second lesson, he meant that he had gone on to think about the second witch—which was a thing he did not think about so often.",
+      "exampleStart": 0,
+      "exampleEnd": 149,
+      "matchedForm": "thing",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.225714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "think",
+      "lemma": "think",
+      "lemmaId": "think",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "think_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "думать"
+        }
+      },
+      "_spacyLemma": "think",
+      "example": "When he wrote woodwork second lesson, he meant that he had gone on to think about the second witch—which was a thing he did not think about so often.",
+      "exampleStart": 0,
+      "exampleEnd": 149,
+      "matchedForm": "think",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.122857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "tight",
+      "lemma": "tight",
+      "lemmaId": "tight",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "tight_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "плотно"
+        }
+      },
+      "_spacyLemma": "tight",
+      "example": "Besides, who else but a witch would run away from the police in the middle of the afternoon in a tight skirt?",
+      "exampleStart": 924,
+      "exampleEnd": 1033,
+      "matchedForm": "tight",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.554286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "time",
+      "lemma": "time",
+      "lemmaId": "time",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "time_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "время"
+        }
+      },
+      "_spacyLemma": "time",
+      "example": "” Every time Charles heard this kind of announcement he thought it was his witch.",
+      "exampleStart": 3116,
+      "exampleEnd": 3197,
+      "matchedForm": "time",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.062857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "truth",
+      "lemma": "truth",
+      "lemmaId": "truth",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "truth_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "правда"
+        }
+      },
+      "_spacyLemma": "truth",
+      "example": "He saw she was speaking the truth.",
+      "exampleStart": 1672,
+      "exampleEnd": 1706,
+      "matchedForm": "truth",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.417143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "tried",
+      "lemma": "try",
+      "lemmaId": "try",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "try_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "пробовать"
+        }
+      },
+      "_spacyLemma": "try",
+      "example": "“I tried, but it just went wrong!",
+      "exampleStart": 1413,
+      "exampleEnd": 1446,
+      "matchedForm": "tried",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.288571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "understood",
+      "lemma": "understand",
+      "lemmaId": "understand",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "understand_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "понимать"
+        }
+      },
+      "_spacyLemma": "understand",
+      "example": "He saw, too, that she understood the look as very few people seemed to.",
+      "exampleStart": 1707,
+      "exampleEnd": 1778,
+      "matchedForm": "understood",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.325714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "untidy",
+      "lemma": "untidy",
+      "lemmaId": "untidy",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "untidy_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "неопрятный"
+        }
+      },
+      "_spacyLemma": "untidy",
+      "example": "She had been quite young and rather pretty, in spite of her torn skirt and untidy hair.",
+      "exampleStart": 412,
+      "exampleEnd": 499,
+      "matchedForm": "untidy",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "untorn",
+      "lemma": "untorn",
+      "lemmaId": "untorn",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "untorn_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "разорванный"
+        }
+      },
+      "_spacyLemma": "untorn",
+      "example": "” She smiled at him while she put her hair right in the hall mirror, and after she had done something to her skirt that may have been witchcraft to make it seem untorn again, she bent down and kissed Charles.",
+      "exampleStart": 1985,
+      "exampleEnd": 2193,
+      "matchedForm": "untorn",
+      "levelSource": "difficulty_heuristic"
+    },
+    {
+      "word": "waited",
+      "lemma": "wait",
+      "lemmaId": "wait",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "wait_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "ждать"
+        }
+      },
+      "_spacyLemma": "wait",
+      "example": "He ordered his little brother never to say a word about her—and Graham obeyed, because he always did everything Charles said—and then he watched and waited for any sign of the witch or any sign of luck.",
+      "exampleStart": 2549,
+      "exampleEnd": 2751,
+      "matchedForm": "waited",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.331429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "wall",
+      "lemma": "wall",
+      "lemmaId": "wall",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "wall_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "стена"
+        }
+      },
+      "_spacyLemma": "wall",
+      "example": "She had come scrambling across the wall at the end of the garden and stumbled down the rockery to the lawn, carrying her smart shoes in one hand.",
+      "exampleStart": 500,
+      "exampleEnd": 645,
+      "matchedForm": "wall",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.42,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "watched",
+      "lemma": "watch",
+      "lemmaId": "watch",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "watch_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "смотреть"
+        }
+      },
+      "_spacyLemma": "watch",
+      "example": "He ordered his little brother never to say a word about her—and Graham obeyed, because he always did everything Charles said—and then he watched and waited for any sign of the witch or any sign of luck.",
+      "exampleStart": 2549,
+      "exampleEnd": 2751,
+      "matchedForm": "watched",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.334286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "waved",
+      "lemma": "wave",
+      "lemmaId": "wave",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "wave_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "волна"
+        }
+      },
+      "_spacyLemma": "wave",
+      "example": "At the front gate, she waved and smiled at Charles.",
+      "exampleStart": 2342,
+      "exampleEnd": 2393,
+      "matchedForm": "waved",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.54,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "way",
+      "lemma": "way",
+      "lemmaId": "way",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "way_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "путь"
+        }
+      },
+      "_spacyLemma": "way",
+      "example": "”\n\nCharles looked at her in that intent way of his which most people found blank and nasty.",
+      "exampleStart": 1580,
+      "exampleEnd": 1671,
+      "matchedForm": "way",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.142857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "week",
+      "lemma": "week",
+      "lemmaId": "week",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "week_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "неделя"
+        }
+      },
+      "_spacyLemma": "week",
+      "example": "They only had woodwork once a week, and Charles had chosen that for his code on the very reasonable grounds that he was not likely to enjoy anything at Larwood House any oftener than that.",
+      "exampleStart": 187,
+      "exampleEnd": 375,
+      "matchedForm": "week",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.271429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "whistles",
+      "lemma": "whistle",
+      "lemmaId": "whistle",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "whistle_noun",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "свисток"
+        }
+      },
+      "_spacyLemma": "whistle",
+      "example": "He could hear the yells and police whistles in the house behind.",
+      "exampleStart": 859,
+      "exampleEnd": 923,
+      "matchedForm": "whistles",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.751429,
+      "difficultySource": "zipf"
     },
     {
       "word": "wicked",
       "lemma": "wicked",
       "lemmaId": "wicked",
       "pos": "adjective",
+      "source": "word",
       "wordKey": "wicked_adjective",
       "level": "B2",
-      "ipa": "ˈwɪk.ɪd",
       "translations": {
-        "de": {
-          "translation": "böse"
-        },
-        "es": {
-          "translation": "malvado"
-        },
         "ru": {
           "translation": "злой"
-        },
-        "uk": {
-          "translation": "злий"
         }
       },
-      "definition": "morally bad or evil.",
+      "_spacyLemma": "wicked",
       "example": "He thought of the way she had kissed him, and he was fairly sure it made you wicked too, to be kissed by a witch.",
       "exampleStart": 3243,
       "exampleEnd": 3356,
-      "matchedForm": "wicked"
+      "matchedForm": "wicked",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.72,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "witch",
+      "lemma": "witch",
+      "lemmaId": "witch",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "witch_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "ведьма"
+        }
+      },
+      "_spacyLemma": "witch",
+      "example": "When he wrote woodwork second lesson, he meant that he had gone on to think about the second witch—which was a thing he did not think about so often.",
+      "exampleStart": 0,
+      "exampleEnd": 149,
+      "matchedForm": "witch",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.685714,
+      "difficultySource": "zipf"
     },
     {
       "word": "witchcraft",
       "lemma": "witchcraft",
       "lemmaId": "witchcraft",
       "pos": "noun",
+      "source": "word",
       "wordKey": "witchcraft_noun",
-      "level": "C2",
-      "ipa": "ˈwɪtʃ.krɑːft",
+      "level": "C1",
       "translations": {
-        "de": {
-          "translation": "Hexerei"
-        },
-        "es": {
-          "translation": "brujería"
-        },
         "ru": {
           "translation": "колдовство"
-        },
-        "uk": {
-          "translation": "чарівництво"
         }
       },
-      "definition": "the practice of magical skills or abilities.",
+      "_spacyLemma": "witchcraft",
       "example": "” She smiled at him while she put her hair right in the hall mirror, and after she had done something to her skirt that may have been witchcraft to make it seem untorn again, she bent down and kissed Charles.",
       "exampleStart": 1985,
       "exampleEnd": 2193,
-      "matchedForm": "witchcraft"
+      "matchedForm": "witchcraft",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.882857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "woodwork",
+      "lemma": "woodwork",
+      "lemmaId": "woodwork",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "woodwork_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "деревообработка"
+        }
+      },
+      "_spacyLemma": "woodwork",
+      "example": "When he wrote woodwork second lesson, he meant that he had gone on to think about the second witch—which was a thing he did not think about so often.",
+      "exampleStart": 0,
+      "exampleEnd": 149,
+      "matchedForm": "woodwork",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.942857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "word",
+      "lemma": "word",
+      "lemmaId": "word",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "word_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "слово"
+        }
+      },
+      "_spacyLemma": "word",
+      "example": "Please, little boy—sneak me out through your house and don’t say a word, and I’ll give you luck for the rest of your life.",
+      "exampleStart": 1447,
+      "exampleEnd": 1569,
+      "matchedForm": "word",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.357143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "wrote",
+      "lemma": "write",
+      "lemmaId": "write",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "write_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "писать"
+        }
+      },
+      "_spacyLemma": "write",
+      "example": "When he wrote woodwork second lesson, he meant that he had gone on to think about the second witch—which was a thing he did not think about so often.",
+      "exampleStart": 0,
+      "exampleEnd": 149,
+      "matchedForm": "wrote",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.422857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "wrong",
+      "lemma": "wrong",
+      "lemmaId": "wrong",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "wrong_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "неправильно"
+        }
+      },
+      "_spacyLemma": "wrong",
+      "example": "“I tried, but it just went wrong!",
+      "exampleStart": 1413,
+      "exampleEnd": 1446,
+      "matchedForm": "wrong",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.32,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "years",
+      "lemma": "year",
+      "lemmaId": "year",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "year_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "год"
+        }
+      },
+      "_spacyLemma": "year",
+      "example": "Charles had been nine years old then, and he was minding his little brother on the lawn.",
+      "exampleStart": 646,
+      "exampleEnd": 734,
+      "matchedForm": "years",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.157143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "yells",
+      "lemma": "yell",
+      "lemmaId": "yell",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "yell_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "кричать"
+        }
+      },
+      "_spacyLemma": "yell",
+      "example": "He could hear the yells and police whistles in the house behind.",
+      "exampleStart": 859,
+      "exampleEnd": 923,
+      "matchedForm": "yells",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.76,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "young",
+      "lemma": "young",
+      "lemmaId": "young",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "young_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "молодой"
+        }
+      },
+      "_spacyLemma": "young",
+      "example": "She had been quite young and rather pretty, in spite of her torn skirt and untidy hair.",
+      "exampleStart": 412,
+      "exampleEnd": 499,
+      "matchedForm": "young",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.308571,
+      "difficultySource": "zipf"
+    }
+  ],
+  "namedEntities": [
+    {
+      "entityKey": "second_ordinal",
+      "text": "second",
+      "normalizedText": "second",
+      "entityType": "ORDINAL",
+      "spacyLabel": "ORDINAL",
+      "entityCategory": "quantity",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 23,
+      "end": 29,
+      "tokenIndexes": [
+        4
+      ],
+      "sentenceStart": 0,
+      "sentenceEnd": 149
+    },
+    {
+      "entityKey": "second_ordinal",
+      "text": "second",
+      "normalizedText": "second",
+      "entityType": "ORDINAL",
+      "spacyLabel": "ORDINAL",
+      "entityCategory": "quantity",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 86,
+      "end": 92,
+      "tokenIndexes": [
+        18
+      ],
+      "sentenceStart": 0,
+      "sentenceEnd": 149
+    },
+    {
+      "entityKey": "charles_person",
+      "text": "Charles",
+      "normalizedText": "charles",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 172,
+      "end": 179,
+      "tokenIndexes": [
+        36
+      ],
+      "sentenceStart": 150,
+      "sentenceEnd": 186
+    },
+    {
+      "entityKey": "a_week_date",
+      "text": "a week",
+      "normalizedText": "a week",
+      "entityType": "DATE",
+      "spacyLabel": "DATE",
+      "entityCategory": "date_time",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 215,
+      "end": 221,
+      "tokenIndexes": [
+        44,
+        45
+      ],
+      "sentenceStart": 187,
+      "sentenceEnd": 375
+    },
+    {
+      "entityKey": "charles_person",
+      "text": "Charles",
+      "normalizedText": "charles",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 227,
+      "end": 234,
+      "tokenIndexes": [
+        48
+      ],
+      "sentenceStart": 187,
+      "sentenceEnd": 375
+    },
+    {
+      "entityKey": "larwood_house_fac",
+      "text": "Larwood House",
+      "normalizedText": "larwood house",
+      "entityType": "FAC",
+      "spacyLabel": "FAC",
+      "entityCategory": "place_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 339,
+      "end": 352,
+      "tokenIndexes": [
+        69,
+        70
+      ],
+      "sentenceStart": 187,
+      "sentenceEnd": 375
+    },
+    {
+      "entityKey": "charles_person",
+      "text": "Charles",
+      "normalizedText": "charles",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 376,
+      "end": 383,
+      "tokenIndexes": [
+        76
+      ],
+      "sentenceStart": 376,
+      "sentenceEnd": 411
+    },
+    {
+      "entityKey": "second_ordinal",
+      "text": "second",
+      "normalizedText": "second",
+      "entityType": "ORDINAL",
+      "spacyLabel": "ORDINAL",
+      "entityCategory": "quantity",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 398,
+      "end": 404,
+      "tokenIndexes": [
+        80
+      ],
+      "sentenceStart": 376,
+      "sentenceEnd": 411
+    },
+    {
+      "entityKey": "charles_person",
+      "text": "Charles",
+      "normalizedText": "charles",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 646,
+      "end": 653,
+      "tokenIndexes": [
+        132
+      ],
+      "sentenceStart": 646,
+      "sentenceEnd": 734
+    },
+    {
+      "entityKey": "nine_years_old_date",
+      "text": "nine years old",
+      "normalizedText": "nine years old",
+      "entityType": "DATE",
+      "spacyLabel": "DATE",
+      "entityCategory": "date_time",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 663,
+      "end": 677,
+      "tokenIndexes": [
+        135,
+        136,
+        137
+      ],
+      "sentenceStart": 646,
+      "sentenceEnd": 734
+    },
+    {
+      "entityKey": "charles_person",
+      "text": "Charles",
+      "normalizedText": "charles",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 781,
+      "end": 788,
+      "tokenIndexes": [
+        162
+      ],
+      "sentenceStart": 781,
+      "sentenceEnd": 810
+    },
+    {
+      "entityKey": "one_foot_quantity",
+      "text": "one foot",
+      "normalizedText": "one foot",
+      "entityType": "QUANTITY",
+      "spacyLabel": "QUANTITY",
+      "entityCategory": "quantity",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 1149,
+      "end": 1157,
+      "tokenIndexes": [
+        242,
+        243
+      ],
+      "sentenceStart": 1110,
+      "sentenceEnd": 1158
+    },
+    {
+      "entityKey": "charles_person",
+      "text": "Charles",
+      "normalizedText": "charles",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1335,
+      "end": 1342,
+      "tokenIndexes": [
+        292
+      ],
+      "sentenceStart": 1335,
+      "sentenceEnd": 1351
+    },
+    {
+      "entityKey": "charles_person",
+      "text": "Charles",
+      "normalizedText": "charles",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1583,
+      "end": 1590,
+      "tokenIndexes": [
+        358
+      ],
+      "sentenceStart": 1583,
+      "sentenceEnd": 1671
+    },
+    {
+      "entityKey": "charles_person",
+      "text": "Charles",
+      "normalizedText": "charles",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2185,
+      "end": 2192,
+      "tokenIndexes": [
+        495
+      ],
+      "sentenceStart": 1987,
+      "sentenceEnd": 2193
+    },
+    {
+      "entityKey": "charles_person",
+      "text": "Charles",
+      "normalizedText": "charles",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2385,
+      "end": 2392,
+      "tokenIndexes": [
+        545
+      ],
+      "sentenceStart": 2342,
+      "sentenceEnd": 2395
+    },
+    {
+      "entityKey": "charles_person",
+      "text": "Charles",
+      "normalizedText": "charles",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2424,
+      "end": 2431,
+      "tokenIndexes": [
+        555
+      ],
+      "sentenceStart": 2395,
+      "sentenceEnd": 2438
+    },
+    {
+      "entityKey": "graham_person",
+      "text": "Graham",
+      "normalizedText": "graham",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2613,
+      "end": 2619,
+      "tokenIndexes": [
+        598
+      ],
+      "sentenceStart": 2549,
+      "sentenceEnd": 2751
+    },
+    {
+      "entityKey": "charles_person",
+      "text": "Charles",
+      "normalizedText": "charles",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2661,
+      "end": 2668,
+      "tokenIndexes": [
+        606
+      ],
+      "sentenceStart": 2549,
+      "sentenceEnd": 2751
+    },
+    {
+      "entityKey": "charles_person",
+      "text": "Charles",
+      "normalizedText": "charles",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2793,
+      "end": 2800,
+      "tokenIndexes": [
+        636
+      ],
+      "sentenceStart": 2763,
+      "sentenceEnd": 2926
+    },
+    {
+      "entityKey": "first_ordinal",
+      "text": "first",
+      "normalizedText": "first",
+      "entityType": "ORDINAL",
+      "spacyLabel": "ORDINAL",
+      "entityCategory": "quantity",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 2906,
+      "end": 2911,
+      "tokenIndexes": [
+        658
+      ],
+      "sentenceStart": 2763,
+      "sentenceEnd": 2926
+    },
+    {
+      "entityKey": "two_cardinal",
+      "text": "Two",
+      "normalizedText": "two",
+      "entityType": "CARDINAL",
+      "spacyLabel": "CARDINAL",
+      "entityCategory": "quantity",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 3058,
+      "end": 3061,
+      "tokenIndexes": [
+        688
+      ],
+      "sentenceStart": 2963,
+      "sentenceEnd": 3117
+    },
+    {
+      "entityKey": "this_morning_time",
+      "text": "this morning",
+      "normalizedText": "this morning",
+      "entityType": "TIME",
+      "spacyLabel": "TIME",
+      "entityCategory": "date_time",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 3082,
+      "end": 3094,
+      "tokenIndexes": [
+        692,
+        693
+      ],
+      "sentenceStart": 2963,
+      "sentenceEnd": 3117
+    },
+    {
+      "entityKey": "holloway_jail_fac",
+      "text": "Holloway Jail",
+      "normalizedText": "holloway jail",
+      "entityType": "FAC",
+      "spacyLabel": "FAC",
+      "entityCategory": "place_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 3102,
+      "end": 3115,
+      "tokenIndexes": [
+        695,
+        696
+      ],
+      "sentenceStart": 2963,
+      "sentenceEnd": 3117
+    },
+    {
+      "entityKey": "charles_person",
+      "text": "Charles",
+      "normalizedText": "charles",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 3129,
+      "end": 3136,
+      "tokenIndexes": [
+        701
+      ],
+      "sentenceStart": 3118,
+      "sentenceEnd": 3197
+    },
+    {
+      "entityKey": "graham_person",
+      "text": "Graham",
+      "normalizedText": "graham",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 3816,
+      "end": 3822,
+      "tokenIndexes": [
+        852
+      ],
+      "sentenceStart": 3805,
+      "sentenceEnd": 3946
+    },
+    {
+      "entityKey": "charles_person",
+      "text": "Charles",
+      "normalizedText": "charles",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 3843,
+      "end": 3850,
+      "tokenIndexes": [
+        855
+      ],
+      "sentenceStart": 3805,
+      "sentenceEnd": 3946
+    },
+    {
+      "entityKey": "charles_s_person",
+      "text": "Charles’s",
+      "normalizedText": "charles’s",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 3856,
+      "end": 3865,
+      "tokenIndexes": [
+        858,
+        859
+      ],
+      "sentenceStart": 3805,
+      "sentenceEnd": 3946
+    },
+    {
+      "entityKey": "charles_person",
+      "text": "Charles",
+      "normalizedText": "charles",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 3892,
+      "end": 3899,
+      "tokenIndexes": [
+        864
+      ],
+      "sentenceStart": 3805,
+      "sentenceEnd": 3946
+    },
+    {
+      "entityKey": "graham_person",
+      "text": "Graham",
+      "normalizedText": "graham",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 3932,
+      "end": 3938,
+      "tokenIndexes": [
+        871
+      ],
+      "sentenceStart": 3805,
+      "sentenceEnd": 3946
+    },
+    {
+      "entityKey": "larwood_house_org",
+      "text": "Larwood House",
+      "normalizedText": "larwood house",
+      "entityType": "ORG",
+      "spacyLabel": "ORG",
+      "entityCategory": "organization_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 3983,
+      "end": 3996,
+      "tokenIndexes": [
+        882,
+        883
+      ],
+      "sentenceStart": 3947,
+      "sentenceEnd": 4024
     }
   ]
 }

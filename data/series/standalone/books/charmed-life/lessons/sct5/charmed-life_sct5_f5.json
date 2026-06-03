@@ -11,6 +11,7 @@
     "bookLanguage": "en",
     "author": "Diana Wynne Jones",
     "seriesId": "standalone",
+    "seriesTitle": "Standalone",
     "sectionIndex": 5,
     "sectionTitle": "Chapter 2",
     "fragmentIndex": 5,
@@ -20,26 +21,114 @@
       "wordCount": 1021,
       "uniqueWordCount": 500,
       "paragraphCount": 30,
-      "vocabularyCount": 41,
+      "vocabularyCount": 246,
       "levelDistribution": {
-        "A1": 1,
-        "A2": 1,
-        "B1": 10,
-        "B2": 21,
-        "C1": 6,
-        "C2": 2
+        "A1": 77,
+        "A2": 33,
+        "B1": 24,
+        "B2": 79,
+        "C1": 28,
+        "C2": 5
       }
     }
   },
   "vocabulary": [
     {
+      "word": "accident",
+      "lemma": "accident",
+      "lemmaId": "accident",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "accident_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "несчастный случай"
+        }
+      },
+      "_spacyLemma": "accident",
+      "example": "“The town pays,” she said, “because everyone’s so sorry about the accident.",
+      "exampleStart": 1959,
+      "exampleEnd": 2034,
+      "matchedForm": "accident",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.514286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "adopt",
+      "lemma": "adopt",
+      "lemmaId": "adopt",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "adopt_verb",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "принимать"
+        }
+      },
+      "_spacyLemma": "adopt",
+      "example": "“He’s going to adopt us.",
+      "exampleStart": 2856,
+      "exampleEnd": 2880,
+      "matchedForm": "adopt",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.662857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "afternoon",
+      "lemma": "afternoon",
+      "lemmaId": "afternoon",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "afternoon_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "после обеда"
+        }
+      },
+      "_spacyLemma": "afternoon",
+      "example": "The Mayor called that afternoon and told them that Chrestomanci had arranged for Cat and Gwendolen to come and live with him as part of his own family.",
+      "exampleStart": 3569,
+      "exampleEnd": 3720,
+      "matchedForm": "afternoon",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.511429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "agreed",
+      "lemma": "agree",
+      "lemmaId": "agree",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "agree_verb",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "соглашаться"
+        }
+      },
+      "_spacyLemma": "agree",
+      "example": "Cat rather agreed with Mrs.",
+      "exampleStart": 3229,
+      "exampleEnd": 3256,
+      "matchedForm": "agreed",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.44,
+      "difficultySource": "zipf"
+    },
+    {
       "word": "agreed with",
       "lemma": "agree with",
       "lemmaId": "agree_with",
-      "pos": "phrasal_verb",
-      "type": "phrasal_verb",
+      "pos": "prepositional_verb",
+      "type": "prepositional_verb",
       "source": "dictionary_phrasal",
-      "wordKey": "agree_with_phrasal_verb",
+      "wordKey": "agree_with_prepositional_verb",
       "level": "B2",
       "translations": {
         "ru": {
@@ -57,28 +146,136 @@
       "levelSource": "dictionary_phrase"
     },
     {
-      "word": "all that",
-      "lemma": "all that",
-      "lemmaId": "all_that",
-      "pos": "phrase",
-      "type": "phrase",
-      "source": "fixed_expression",
-      "wordKey": "all_that_phrase",
+      "word": "anxious",
+      "lemma": "anxious",
+      "lemmaId": "anxious",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "anxious_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "тревожный"
+        }
+      },
+      "_spacyLemma": "anxious",
+      "example": "“Don’t be anxious, Mrs.",
+      "exampleStart": 2361,
+      "exampleEnd": 2384,
+      "matchedForm": "anxious",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.691429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "apples",
+      "lemma": "apple",
+      "lemmaId": "apple",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "apple_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "яблоко"
+        }
+      },
+      "_spacyLemma": "apple",
+      "example": "He put his hat of apples down in the middle of the spell, which he very much hoped would ruin it.",
+      "exampleStart": 108,
+      "exampleEnd": 205,
+      "matchedForm": "apples",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.5,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "arranged",
+      "lemma": "arrange",
+      "lemmaId": "arrange",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "arrange_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "устраивать"
+        }
+      },
+      "_spacyLemma": "arrange",
+      "example": "The Mayor called that afternoon and told them that Chrestomanci had arranged for Cat and Gwendolen to come and live with him as part of his own family.",
+      "exampleStart": 3569,
+      "exampleEnd": 3720,
+      "matchedForm": "arranged",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.717143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "arrived",
+      "lemma": "arrive",
+      "lemmaId": "arrive",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "arrive_verb",
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "всё это"
+          "translation": "прибывать"
         }
       },
-      "example": "All that next week, while they were hurrying about being bought new clothes by Councillors’ wives, and while Gwendolen grew more and more excited and triumphant, Cat found he was missing Mrs.",
-      "exampleStart": 4452,
-      "exampleEnd": 4643,
-      "phraseMatch": {
-        "text": "All that",
-        "startInExample": 0,
-        "endInExample": 8
+      "_spacyLemma": "arrive",
+      "example": "Sharp arrived, he had somehow managed to offend Chrestomanci as badly as his father once did.",
+      "exampleStart": 3336,
+      "exampleEnd": 3429,
+      "matchedForm": "arrived",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.608571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "asked",
+      "lemma": "ask",
+      "lemmaId": "ask",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "ask_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "просить"
+        }
       },
-      "levelSource": "phrase_fallback"
+      "_spacyLemma": "ask",
+      "example": "” Chrestomanci asked, still bewildered.",
+      "exampleStart": 434,
+      "exampleEnd": 473,
+      "matchedForm": "asked",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.334286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "astonishment",
+      "lemma": "astonishment",
+      "lemmaId": "astonishment",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "astonishment_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "удивление"
+        }
+      },
+      "_spacyLemma": "astonishment",
+      "example": "But, to his astonishment, Gwendolen proved to be right.",
+      "exampleStart": 3513,
+      "exampleEnd": 3568,
+      "matchedForm": "astonishment",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "austerely",
@@ -93,6 +290,7 @@
           "translation": "строго"
         }
       },
+      "_spacyLemma": "austerely",
       "example": "He drank a cup of tea—austerely, without milk or sugar—and asked questions about how Gwendolen and Cat came to be living with Mrs.",
       "exampleStart": 1560,
       "exampleEnd": 1690,
@@ -102,66 +300,179 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "be off",
-      "lemma": "be off",
-      "lemmaId": "be_off",
-      "pos": "phrasal_verb",
-      "type": "phrasal_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "be_off_phrasal_verb",
-      "level": "B2",
+      "word": "away",
+      "lemma": "away",
+      "lemmaId": "away",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "away_adverb",
+      "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Уходи"
+          "translation": "уходить"
         }
       },
-      "example": "“You must be.",
-      "matchedForm": "be",
-      "levelSource": "dictionary_phrase"
+      "_spacyLemma": "away",
+      "example": "” Then he went away in his cab, leaving Mrs.",
+      "exampleStart": 2646,
+      "exampleEnd": 2690,
+      "matchedForm": "away",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.254286,
+      "difficultySource": "zipf"
     },
     {
-      "word": "be out of",
-      "lemma": "be out of",
-      "lemmaId": "be_out_of",
-      "pos": "phrasal_verb",
-      "type": "phrasal_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "be_out_of_phrasal_verb",
-      "level": "B2",
+      "word": "worse",
+      "lemma": "bad",
+      "lemmaId": "bad",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "bad_adjective",
+      "level": "A1",
       "translations": {
         "ru": {
-          "translation": "быть вне"
+          "translation": "плохой"
         }
       },
-      "example": "“No one wishes you to be out of pocket.",
-      "exampleStart": 2412,
-      "exampleEnd": 2451,
-      "phraseMatch": {
-        "text": "be out of",
-        "startInExample": 22,
-        "endInExample": 31
+      "_spacyLemma": "bad",
+      "example": "“I mean, I saw you were being nice to him—”\n\n“Oh, shut up, or I’ll give you worse than cramps!",
+      "exampleStart": 5530,
+      "exampleEnd": 5624,
+      "matchedForm": "worse",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.28,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "badly",
+      "lemma": "badly",
+      "lemmaId": "badly",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "badly_adverb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "плохо"
+        }
       },
-      "levelSource": "dictionary_phrase"
+      "_spacyLemma": "badly",
+      "example": "Sharp arrived, he had somehow managed to offend Chrestomanci as badly as his father once did.",
+      "exampleStart": 3336,
+      "exampleEnd": 3429,
+      "matchedForm": "badly",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.591429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "band",
+      "lemma": "band",
+      "lemmaId": "band",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "band_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "группа"
+        }
+      },
+      "_spacyLemma": "band",
+      "example": "When the time came for them to get on the train, the town gave them a splendid send-off, with flags and a brass band.",
+      "exampleStart": 4721,
+      "exampleEnd": 4838,
+      "matchedForm": "band",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.454286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "becomingly",
+      "lemma": "becomingly",
+      "lemmaId": "becomingly",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "becomingly_adverb",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "постепенно"
+        }
+      },
+      "_spacyLemma": "becomingly",
+      "example": "Gwendolen, however, spread out her smart new dress and arranged her nice new hat becomingly, and sank elegantly back in her seat.",
+      "exampleStart": 4961,
+      "exampleEnd": 5090,
+      "matchedForm": "becomingly",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "beginning",
+      "lemma": "begin",
+      "lemmaId": "begin",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "begin_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "начинать"
+        }
+      },
+      "_spacyLemma": "begin",
+      "example": "Cat was beginning to want to shake him.",
+      "exampleStart": 475,
+      "exampleEnd": 514,
+      "matchedForm": "beginning",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.477143,
+      "difficultySource": "zipf"
     },
     {
       "word": "bewildered",
       "lemma": "bewilder",
       "lemmaId": "bewilder",
-      "pos": "adjective",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "bewilder_adjective",
+      "wordKey": "bewilder_verb",
       "level": "C1",
       "translations": {
         "ru": {
           "translation": "недоумение"
         }
       },
+      "_spacyLemma": "bewilder",
       "example": "” said Chrestomanci, sounding rather bewildered.",
       "exampleStart": 261,
       "exampleEnd": 309,
       "matchedForm": "bewildered",
       "levelSource": "vocabulary_index",
       "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "bewildered",
+      "lemma": "bewildered",
+      "lemmaId": "bewildered",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "bewildered_adjective",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "растерянный"
+        }
+      },
+      "_spacyLemma": "bewildered",
+      "example": "” said Chrestomanci, sounding rather bewildered.",
+      "exampleStart": 261,
+      "exampleEnd": 309,
+      "matchedForm": "bewildered",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.974286,
       "difficultySource": "zipf"
     },
     {
@@ -186,7 +497,73 @@
         "startInExample": 21,
         "endInExample": 32
       },
-      "levelSource": "dictionary_phrase"
+      "levelSource": "phrase_index"
+    },
+    {
+      "word": "bowled",
+      "lemma": "bowl",
+      "lemmaId": "bowl",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "bowl_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "чаша"
+        }
+      },
+      "_spacyLemma": "bowl",
+      "example": "And Chrestomanci was bowled over by me.",
+      "exampleStart": 5423,
+      "exampleEnd": 5462,
+      "matchedForm": "bowled",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.537143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "boy",
+      "lemma": "boy",
+      "lemmaId": "boy",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "boy_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "мальчик"
+        }
+      },
+      "_spacyLemma": "boy",
+      "example": "“You’ll be hobnobbing with all the crowned heads of Europe before long, my boy.",
+      "exampleStart": 4069,
+      "exampleEnd": 4148,
+      "matchedForm": "boy",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.382857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "brass",
+      "lemma": "brass",
+      "lemmaId": "brass",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "brass_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "латунь"
+        }
+      },
+      "_spacyLemma": "brass",
+      "example": "When the time came for them to get on the train, the town gave them a splendid send-off, with flags and a brass band.",
+      "exampleStart": 4721,
+      "exampleEnd": 4838,
+      "matchedForm": "brass",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.702857,
+      "difficultySource": "zipf"
     },
     {
       "word": "breathless",
@@ -201,6 +578,7 @@
           "translation": "дышащий"
         }
       },
+      "_spacyLemma": "breathless",
       "example": "Sharp, nearly as breathless.",
       "exampleStart": 1202,
       "exampleEnd": 1230,
@@ -210,72 +588,219 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "burst in",
-      "lemma": "burst in",
-      "lemmaId": "burst_in",
-      "pos": "phrase",
-      "type": "phrase",
-      "source": "fixed_expression",
-      "wordKey": "burst_in_phrase",
+      "word": "burst",
+      "lemma": "burst",
+      "lemmaId": "burst",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "burst_verb",
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Ворваться"
+          "translation": "взрыв"
         }
       },
+      "_spacyLemma": "burst",
       "example": "Fortunately, there were thumping footsteps just then, and Gwendolen burst in through the kitchen door, panting, golden and jubilant.",
       "exampleStart": 883,
       "exampleEnd": 1015,
-      "phraseMatch": {
-        "text": "burst in",
-        "startInExample": 68,
-        "endInExample": 76
-      },
-      "levelSource": "head_verb_index"
+      "matchedForm": "burst",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.674286,
+      "difficultySource": "zipf"
     },
     {
-      "word": "by the way",
-      "lemma": "by the way",
-      "lemmaId": "by_the_way",
-      "pos": "phrase",
-      "type": "phrase",
-      "source": "fixed_expression",
-      "wordKey": "by_the_way_phrase",
-      "level": "B1",
+      "word": "bought",
+      "lemma": "buy",
+      "lemmaId": "buy",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "buy_verb",
+      "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Кстати,"
+          "translation": "покупать"
         }
       },
+      "_spacyLemma": "buy",
+      "example": "All that next week, while they were hurrying about being bought new clothes by Councillors’ wives, and while Gwendolen grew more and more excited and triumphant, Cat found he was missing Mrs.",
+      "exampleStart": 4452,
+      "exampleEnd": 4643,
+      "matchedForm": "bought",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.34,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "cab",
+      "lemma": "cab",
+      "lemmaId": "cab",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "cab_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "такси"
+        }
+      },
+      "_spacyLemma": "cab",
+      "example": "Nostrum told me there was a cab here,” gasped Gwendolen.",
+      "exampleStart": 1119,
+      "exampleEnd": 1175,
+      "matchedForm": "cab",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.731429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "called",
+      "lemma": "call",
+      "lemmaId": "call",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "call_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "звонить"
+        }
+      },
+      "_spacyLemma": "call",
       "example": "“I’m called Chrestomanci, by the way.",
       "exampleStart": 28,
       "exampleEnd": 65,
-      "phraseMatch": {
-        "text": "by the way",
-        "startInExample": 26,
-        "endInExample": 36
+      "matchedForm": "called",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.285714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "casting off",
+      "lemma": "cast off",
+      "lemmaId": "cast_off",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "dictionary_phrasal",
+      "wordKey": "cast_off_phrasal_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Сброс"
+        }
       },
-      "levelSource": "phrase_fallback"
+      "example": "” Cat was glad she had explained, even though he suspected that Gwendolen might already be casting Mrs.",
+      "matchedForm": "casting",
+      "levelSource": "phrase_index"
+    },
+    {
+      "word": "casting",
+      "lemma": "cast",
+      "lemmaId": "cast",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "cast_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "кастрировать"
+        }
+      },
+      "_spacyLemma": "cast",
+      "example": "” Cat was glad she had explained, even though he suspected that Gwendolen might already be casting Mrs.",
+      "exampleStart": 2034,
+      "exampleEnd": 2137,
+      "matchedForm": "casting",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.491429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "change",
+      "lemma": "change",
+      "lemmaId": "change",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "change_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "изменение"
+        }
+      },
+      "_spacyLemma": "change",
+      "example": "So the second great change came about in Cat’s life, and very dismal he feared it would be.",
+      "exampleStart": 4360,
+      "exampleEnd": 4451,
+      "matchedForm": "change",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.277143,
+      "difficultySource": "zipf"
     },
     {
       "word": "chuffed",
-      "lemma": "chuff",
-      "lemmaId": "chuff",
-      "pos": "adjective",
+      "lemma": "chuffed",
+      "lemmaId": "chuffed",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "chuff_adjective",
+      "wordKey": "chuffed_noun",
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "блевать"
+          "translation": "измельченный"
         }
       },
+      "_spacyLemma": "chuffed",
       "example": "And, as the train at last chuffed and began to draw out of the station, Gwendolen waved her gloved hand to the brass band, up and down, just like Royalty.",
       "exampleStart": 5642,
       "exampleEnd": 5796,
       "matchedForm": "chuffed",
       "levelSource": "difficulty_heuristic",
       "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "clothes",
+      "lemma": "clothes",
+      "lemmaId": "clothes",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "clothes_noun",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "одежда"
+        }
+      },
+      "_spacyLemma": "clothes",
+      "example": "You’re wearing important clothes.",
+      "exampleStart": 529,
+      "exampleEnd": 562,
+      "matchedForm": "clothes",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.511429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "coat",
+      "lemma": "coat",
+      "lemmaId": "coat",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "coat_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "пальто"
+        }
+      },
+      "_spacyLemma": "coat",
+      "example": "Sharp off like an old coat.",
+      "exampleStart": 2138,
+      "exampleEnd": 2165,
+      "matchedForm": "coat",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.614286,
       "difficultySource": "zipf"
     },
     {
@@ -300,7 +825,7 @@
         "startInExample": 27,
         "endInExample": 37
       },
-      "levelSource": "dictionary_phrase"
+      "levelSource": "phrase_index"
     },
     {
       "word": "came for",
@@ -324,16 +849,16 @@
         "startInExample": 14,
         "endInExample": 22
       },
-      "levelSource": "dictionary_phrase"
+      "levelSource": "phrase_index"
     },
     {
       "word": "come in",
       "lemma": "come in",
       "lemmaId": "come_in",
-      "pos": "phrasal_verb",
-      "type": "phrasal_verb",
+      "pos": "prepositional_verb",
+      "type": "prepositional_verb",
       "source": "dictionary_phrasal",
-      "wordKey": "come_in_phrasal_verb",
+      "wordKey": "come_in_prepositional_verb",
       "level": "B2",
       "translations": {
         "ru": {
@@ -348,45 +873,264 @@
         "startInExample": 20,
         "endInExample": 27
       },
-      "levelSource": "dictionary_phrase"
+      "levelSource": "phrase_index"
     },
     {
-      "word": "cup of tea",
-      "lemma": "cup of tea",
-      "lemmaId": "cup_of_tea",
-      "pos": "phrase",
-      "type": "phrase",
-      "source": "fixed_expression",
-      "wordKey": "cup_of_tea_phrase",
+      "word": "come",
+      "lemma": "come",
+      "lemmaId": "come",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "come_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "приходить"
+        }
+      },
+      "_spacyLemma": "come",
+      "example": "“Then you’ve got to come in the parlor at once.",
+      "exampleStart": 206,
+      "exampleEnd": 253,
+      "matchedForm": "come",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.208571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "confidently",
+      "lemma": "confidently",
+      "lemmaId": "confidently",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "confidently_adverb",
+      "level": "C2",
+      "translations": {
+        "ru": {
+          "translation": "уверенно"
+        }
+      },
+      "_spacyLemma": "confidently",
+      "example": "”\n\nGwendolen smiled confidently.",
+      "exampleStart": 3078,
+      "exampleEnd": 3110,
+      "matchedForm": "confidently",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.885714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "consented",
+      "lemma": "consent",
+      "lemmaId": "consent",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "consent_verb",
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "Чашка чая"
+          "translation": "согласие"
         }
       },
+      "_spacyLemma": "consent",
+      "example": "Chrestomanci at last consented to be taken to the parlor, where Mrs.",
+      "exampleStart": 1304,
+      "exampleEnd": 1372,
+      "matchedForm": "consented",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.614286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "conversation",
+      "lemma": "conversation",
+      "lemmaId": "conversation",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "conversation_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "разговор"
+        }
+      },
+      "_spacyLemma": "conversation",
+      "example": "The two of them took over the conversation, and Cat was thankful for it.",
+      "exampleStart": 1231,
+      "exampleEnd": 1303,
+      "matchedForm": "conversation",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.502857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "Councillors",
+      "lemma": "councillor",
+      "lemmaId": "councillor",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "councillor_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "советник"
+        }
+      },
+      "_spacyLemma": "councillor",
+      "example": "I’ve got out of dead-and-alive Wolvercote at last—stupid Councillors and piffling necromancers!",
+      "exampleStart": 5327,
+      "exampleEnd": 5422,
+      "matchedForm": "Councillors",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.805714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "course",
+      "lemma": "course",
+      "lemmaId": "course",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "course_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "курс"
+        }
+      },
+      "_spacyLemma": "course",
+      "example": "” Then he shook hands with Gwendolen and Cat and said, “I should have come to see you before, of course.",
+      "exampleStart": 2451,
+      "exampleEnd": 2555,
+      "matchedForm": "course",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.305714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "cramps",
+      "lemma": "cramp",
+      "lemmaId": "cramp",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "cramp_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "судорога"
+        }
+      },
+      "_spacyLemma": "cramp",
+      "example": "“I mean, I saw you were being nice to him—”\n\n“Oh, shut up, or I’ll give you worse than cramps!",
+      "exampleStart": 5530,
+      "exampleEnd": 5624,
+      "matchedForm": "cramps",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.991429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "crisis",
+      "lemma": "crisis",
+      "lemmaId": "crisis",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "crisis_noun",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "кризис"
+        }
+      },
+      "_spacyLemma": "crisis",
+      "example": "This was a real crisis.",
+      "exampleStart": 84,
+      "exampleEnd": 107,
+      "matchedForm": "crisis",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.54,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "crowned",
+      "lemma": "crown",
+      "lemmaId": "crown",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "crown_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "корона"
+        }
+      },
+      "_spacyLemma": "crown",
+      "example": "“You’ll be hobnobbing with all the crowned heads of Europe before long, my boy.",
+      "exampleStart": 4069,
+      "exampleEnd": 4148,
+      "matchedForm": "crowned",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.557143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "cup",
+      "lemma": "cup",
+      "lemmaId": "cup",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "cup_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "чашка"
+        }
+      },
+      "_spacyLemma": "cup",
       "example": "Sharp deferentially offered him a cup of tea and a plate of her weakly waving gingerbread men.",
       "exampleStart": 1373,
       "exampleEnd": 1467,
-      "phraseMatch": {
-        "text": "cup of tea",
-        "startInExample": 34,
-        "endInExample": 44
+      "matchedForm": "cup",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.4,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "decided",
+      "lemma": "decide",
+      "lemmaId": "decide",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "decide_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "решать"
+        }
       },
-      "levelSource": "phrase_fallback"
+      "_spacyLemma": "decide",
+      "example": "But Gwendolen had decided to be radiantly honest.",
+      "exampleStart": 1909,
+      "exampleEnd": 1958,
+      "matchedForm": "decided",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.494286,
+      "difficultySource": "zipf"
     },
     {
       "word": "deferentially",
       "lemma": "deferentially",
       "lemmaId": "deferentially",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "deferentially_adjective",
+      "wordKey": "deferentially_adverb",
       "level": "C2",
       "translations": {
         "ru": {
           "translation": "почтительно"
         }
       },
+      "_spacyLemma": "deferentially",
       "example": "Sharp deferentially offered him a cup of tea and a plate of her weakly waving gingerbread men.",
       "exampleStart": 1373,
       "exampleEnd": 1467,
@@ -396,24 +1140,47 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "dour",
-      "lemma": "dour",
-      "lemmaId": "dour",
+      "word": "dismal",
+      "lemma": "dismal",
+      "lemmaId": "dismal",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "dismal_adjective",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "мрачный"
+        }
+      },
+      "_spacyLemma": "dismal",
+      "example": "So the second great change came about in Cat’s life, and very dismal he feared it would be.",
+      "exampleStart": 4360,
+      "exampleEnd": 4451,
+      "matchedForm": "dismal",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.928571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "door",
+      "lemma": "door",
+      "lemmaId": "door",
       "pos": "noun",
       "source": "word",
-      "wordKey": "dour_noun",
+      "wordKey": "door_noun",
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "кислый"
+          "translation": "дверь"
         }
       },
-      "example": "“And I see I needn’t tell you what lucky little people you are,” he said, as Gwendolen uttered a shriek of joy and hugged the dour Mrs.",
-      "exampleStart": 3721,
-      "exampleEnd": 3856,
-      "matchedForm": "dour",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 1,
+      "_spacyLemma": "door",
+      "example": "Fortunately, there were thumping footsteps just then, and Gwendolen burst in through the kitchen door, panting, golden and jubilant.",
+      "exampleStart": 883,
+      "exampleEnd": 1015,
+      "matchedForm": "door",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.408571,
       "difficultySource": "zipf"
     },
     {
@@ -438,37 +1205,676 @@
         "startInExample": 47,
         "endInExample": 55
       },
-      "levelSource": "dictionary_phrase"
+      "levelSource": "phrase_index"
+    },
+    {
+      "word": "draw",
+      "lemma": "draw",
+      "lemmaId": "draw",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "draw_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "рисовать"
+        }
+      },
+      "_spacyLemma": "draw",
+      "example": "And, as the train at last chuffed and began to draw out of the station, Gwendolen waved her gloved hand to the brass band, up and down, just like Royalty.",
+      "exampleStart": 5642,
+      "exampleEnd": 5796,
+      "matchedForm": "draw",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.485714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "dress",
+      "lemma": "dress",
+      "lemmaId": "dress",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "dress_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "платье"
+        }
+      },
+      "_spacyLemma": "dress",
+      "example": "Gwendolen, however, spread out her smart new dress and arranged her nice new hat becomingly, and sank elegantly back in her seat.",
+      "exampleStart": 4961,
+      "exampleEnd": 5090,
+      "matchedForm": "dress",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.5,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "drank",
+      "lemma": "drink",
+      "lemmaId": "drink",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "drink_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "пить"
+        }
+      },
+      "_spacyLemma": "drink",
+      "example": "He drank a cup of tea—austerely, without milk or sugar—and asked questions about how Gwendolen and Cat came to be living with Mrs.",
+      "exampleStart": 1560,
+      "exampleEnd": 1690,
+      "matchedForm": "drank",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.46,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "dusting",
+      "lemma": "dust",
+      "lemmaId": "dust",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "dust_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "пыль"
+        }
+      },
+      "_spacyLemma": "dust",
+      "example": "“Then I must go and speak to the Mayor,” Chrestomanci said, and he stood up, dusting his splendid hat on his elegant sleeve.",
+      "exampleStart": 2167,
+      "exampleEnd": 2291,
+      "matchedForm": "dusting",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.6,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "eat",
+      "lemma": "eat",
+      "lemmaId": "eat",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "eat_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "есть"
+        }
+      },
+      "_spacyLemma": "eat",
+      "example": "Chrestomanci, Cat was interested to see, did not seem to have the heart to eat them either.",
+      "exampleStart": 1468,
+      "exampleEnd": 1559,
+      "matchedForm": "eat",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.394286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "edge",
+      "lemma": "edge",
+      "lemmaId": "edge",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "edge_noun",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "край"
+        }
+      },
+      "_spacyLemma": "edge",
+      "example": "He sat tensely on the edge of his seat, fearing he was in for a time of strangeness and maybe even misery.",
+      "exampleStart": 4853,
+      "exampleEnd": 4959,
+      "matchedForm": "edge",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.505714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "elegant",
+      "lemma": "elegant",
+      "lemmaId": "elegant",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "elegant_adjective",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "изящный"
+        }
+      },
+      "_spacyLemma": "elegant",
+      "example": "“Then I must go and speak to the Mayor,” Chrestomanci said, and he stood up, dusting his splendid hat on his elegant sleeve.",
+      "exampleStart": 2167,
+      "exampleEnd": 2291,
+      "matchedForm": "elegant",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.731429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "elegantly",
+      "lemma": "elegantly",
+      "lemmaId": "elegantly",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "elegantly_adverb",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "элегантно"
+        }
+      },
+      "_spacyLemma": "elegantly",
+      "example": "Gwendolen, however, spread out her smart new dress and arranged her nice new hat becomingly, and sank elegantly back in her seat.",
+      "exampleStart": 4961,
+      "exampleEnd": 5090,
+      "matchedForm": "elegantly",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "eminent",
+      "lemma": "eminent",
+      "lemmaId": "eminent",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "eminent_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "видный"
+        }
+      },
+      "_spacyLemma": "eminent",
+      "example": "“A very eminent gentleman,” he said.",
+      "exampleStart": 4032,
+      "exampleEnd": 4068,
+      "matchedForm": "eminent",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.842857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "exasperated",
+      "lemma": "exasperate",
+      "lemmaId": "exasperate",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "exasperate_verb",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "раздражать"
+        }
+      },
+      "_spacyLemma": "exasperate",
+      "example": "“Because,” said Cat, thoroughly exasperated, “you’re far too important to stay here.",
+      "exampleStart": 311,
+      "exampleEnd": 395,
+      "matchedForm": "exasperated",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "excited",
+      "lemma": "excited",
+      "lemmaId": "excited",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "excited_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "возбужденный"
+        }
+      },
+      "_spacyLemma": "excited",
+      "example": "All that next week, while they were hurrying about being bought new clothes by Councillors’ wives, and while Gwendolen grew more and more excited and triumphant, Cat found he was missing Mrs.",
+      "exampleStart": 4452,
+      "exampleEnd": 4643,
+      "matchedForm": "excited",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.505714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "explained",
+      "lemma": "explain",
+      "lemmaId": "explain",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "explain_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "объяснять"
+        }
+      },
+      "_spacyLemma": "explain",
+      "example": "” Cat was glad she had explained, even though he suspected that Gwendolen might already be casting Mrs.",
+      "exampleStart": 2034,
+      "exampleEnd": 2137,
+      "matchedForm": "explained",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.462857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "eyes",
+      "lemma": "eye",
+      "lemmaId": "eye",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "eye_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "глаз"
+        }
+      },
+      "_spacyLemma": "eye",
+      "example": "Nostrum would give his eyes just for your three letters.",
+      "exampleStart": 606,
+      "exampleEnd": 662,
+      "matchedForm": "eyes",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.425714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "family",
+      "lemma": "family",
+      "lemmaId": "family",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "family_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "семья"
+        }
+      },
+      "_spacyLemma": "family",
+      "example": "The Mayor called that afternoon and told them that Chrestomanci had arranged for Cat and Gwendolen to come and live with him as part of his own family.",
+      "exampleStart": 3569,
+      "exampleEnd": 3720,
+      "matchedForm": "family",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.242857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "far",
+      "lemma": "far",
+      "lemmaId": "far",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "far_adverb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "далеко"
+        }
+      },
+      "_spacyLemma": "far",
+      "example": "“Because,” said Cat, thoroughly exasperated, “you’re far too important to stay here.",
+      "exampleStart": 311,
+      "exampleEnd": 395,
+      "matchedForm": "far",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.288571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "father",
+      "lemma": "father",
+      "lemmaId": "father",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "father_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "отец"
+        }
+      },
+      "_spacyLemma": "father",
+      "example": "Your father was so infernally rude to me, you see.",
+      "exampleStart": 2568,
+      "exampleEnd": 2618,
+      "matchedForm": "father",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.357143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "feared",
+      "lemma": "fear",
+      "lemmaId": "fear",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "fear_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "страх"
+        }
+      },
+      "_spacyLemma": "fear",
+      "example": "So the second great change came about in Cat’s life, and very dismal he feared it would be.",
+      "exampleStart": 4360,
+      "exampleEnd": 4451,
+      "matchedForm": "feared",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.445714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "felt",
+      "lemma": "feel",
+      "lemmaId": "feel",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "feel_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "чувствовать"
+        }
+      },
+      "_spacyLemma": "feel",
+      "example": "Sharp—particularly as he had an uneasy feeling that, before Gwendolen and Mrs.",
+      "exampleStart": 3257,
+      "exampleEnd": 3335,
+      "matchedForm": "feeling",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.24,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "feeling",
+      "lemma": "feeling",
+      "lemmaId": "feeling",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "feeling_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "чувство"
+        }
+      },
+      "_spacyLemma": "feeling",
+      "example": "Sharp—particularly as he had an uneasy feeling that, before Gwendolen and Mrs.",
+      "exampleStart": 3257,
+      "exampleEnd": 3335,
+      "matchedForm": "feeling",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.394286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "found",
+      "lemma": "find",
+      "lemmaId": "find",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "find_verb",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "найти"
+        }
+      },
+      "_spacyLemma": "find",
+      "example": "All that next week, while they were hurrying about being bought new clothes by Councillors’ wives, and while Gwendolen grew more and more excited and triumphant, Cat found he was missing Mrs.",
+      "exampleStart": 4452,
+      "exampleEnd": 4643,
+      "matchedForm": "found",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.214286,
+      "difficultySource": "zipf"
     },
     {
       "word": "finery",
       "lemma": "finery",
       "lemmaId": "finery",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "finery_adjective",
-      "level": "C1",
+      "wordKey": "finery_noun",
+      "level": "A2",
       "translations": {
         "ru": {
           "translation": "тонкий"
         }
       },
+      "_spacyLemma": "finery",
       "example": "He may have come here in all his finery, but he said nothing and he promised nothing.",
       "exampleStart": 2993,
       "exampleEnd": 3078,
       "matchedForm": "finery",
-      "levelSource": "vocabulary_index",
+      "levelSource": "difficulty_heuristic",
       "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "flags",
+      "lemma": "flag",
+      "lemmaId": "flag",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "flag_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "флаг"
+        }
+      },
+      "_spacyLemma": "flag",
+      "example": "When the time came for them to get on the train, the town gave them a splendid send-off, with flags and a brass band.",
+      "exampleStart": 4721,
+      "exampleEnd": 4838,
+      "matchedForm": "flags",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.551429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "followed",
+      "lemma": "follow",
+      "lemmaId": "follow",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "follow_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "следовать"
+        }
+      },
+      "_spacyLemma": "follow",
+      "example": "She was followed by Mrs.",
+      "exampleStart": 1177,
+      "exampleEnd": 1201,
+      "matchedForm": "followed",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.391429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "footsteps",
+      "lemma": "footstep",
+      "lemmaId": "footstep",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "footstep_noun",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "шаг"
+        }
+      },
+      "_spacyLemma": "footstep",
+      "example": "Fortunately, there were thumping footsteps just then, and Gwendolen burst in through the kitchen door, panting, golden and jubilant.",
+      "exampleStart": 883,
+      "exampleEnd": 1015,
+      "matchedForm": "footsteps",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "Forgive",
+      "lemma": "forgive",
+      "lemmaId": "forgive",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "forgive_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "прощать"
+        }
+      },
+      "_spacyLemma": "forgive",
+      "example": "Forgive me.",
+      "exampleStart": 2556,
+      "exampleEnd": 2567,
+      "matchedForm": "Forgive",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.645714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "Fortunately",
+      "lemma": "fortunately",
+      "lemmaId": "fortunately",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "fortunately_adverb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "К счастью"
+        }
+      },
+      "_spacyLemma": "fortunately",
+      "example": "Fortunately, there were thumping footsteps just then, and Gwendolen burst in through the kitchen door, panting, golden and jubilant.",
+      "exampleStart": 883,
+      "exampleEnd": 1015,
+      "matchedForm": "Fortunately",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.725714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "fortune",
+      "lemma": "fortune",
+      "lemmaId": "fortune",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "fortune_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "богатство"
+        }
+      },
+      "_spacyLemma": "fortune",
+      "example": "My fortune is made!",
+      "exampleStart": 2881,
+      "exampleEnd": 2900,
+      "matchedForm": "fortune",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.631429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "furious",
+      "lemma": "furious",
+      "lemmaId": "furious",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "furious_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "яростный"
+        }
+      },
+      "_spacyLemma": "furious",
+      "example": "He knew she would be furious with him.",
+      "exampleStart": 3473,
+      "exampleEnd": 3511,
+      "matchedForm": "furious",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.722857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "gasped",
+      "lemma": "gasp",
+      "lemmaId": "gasp",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "gasp_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "вздох"
+        }
+      },
+      "_spacyLemma": "gasp",
+      "example": "Nostrum told me there was a cab here,” gasped Gwendolen.",
+      "exampleStart": 1119,
+      "exampleEnd": 1175,
+      "matchedForm": "gasped",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.874286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "gentleman",
+      "lemma": "gentleman",
+      "lemmaId": "gentleman",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "gentleman_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "джентльмен"
+        }
+      },
+      "_spacyLemma": "gentleman",
+      "example": "“A very eminent gentleman,” he said.",
+      "exampleStart": 4032,
+      "exampleEnd": 4068,
+      "matchedForm": "gentleman",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.671429,
       "difficultySource": "zipf"
     },
     {
       "word": "get on",
       "lemma": "get on",
       "lemmaId": "get_on",
-      "pos": "phrasal_verb",
-      "type": "phrasal_verb",
+      "pos": "prepositional_verb",
+      "type": "prepositional_verb",
       "source": "dictionary_phrasal",
-      "wordKey": "get_on_phrasal_verb",
+      "wordKey": "get_on_prepositional_verb",
       "level": "B2",
       "translations": {
         "ru": {
@@ -483,7 +1889,95 @@
         "startInExample": 31,
         "endInExample": 37
       },
-      "levelSource": "dictionary_phrase"
+      "levelSource": "phrase_index"
+    },
+    {
+      "word": "got",
+      "lemma": "get",
+      "lemmaId": "get",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "get_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "получать"
+        }
+      },
+      "_spacyLemma": "get",
+      "example": "“Then you’ve got to come in the parlor at once.",
+      "exampleStart": 206,
+      "exampleEnd": 253,
+      "matchedForm": "got",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.065714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "gingerbread",
+      "lemma": "gingerbread",
+      "lemmaId": "gingerbread",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "gingerbread_noun",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "пряник"
+        }
+      },
+      "_spacyLemma": "gingerbread",
+      "example": "Sharp deferentially offered him a cup of tea and a plate of her weakly waving gingerbread men.",
+      "exampleStart": 1373,
+      "exampleEnd": 1467,
+      "matchedForm": "gingerbread",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.994286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "given",
+      "lemma": "give",
+      "lemmaId": "give",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "give_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "давать"
+        }
+      },
+      "_spacyLemma": "give",
+      "example": "Nostrum would give his eyes just for your three letters.",
+      "exampleStart": 606,
+      "exampleEnd": 662,
+      "matchedForm": "give",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.228571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "glad",
+      "lemma": "glad",
+      "lemmaId": "glad",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "glad_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "радовать"
+        }
+      },
+      "_spacyLemma": "glad",
+      "example": "” Cat was glad she had explained, even though he suspected that Gwendolen might already be casting Mrs.",
+      "exampleStart": 2034,
+      "exampleEnd": 2137,
+      "matchedForm": "glad",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.46,
+      "difficultySource": "zipf"
     },
     {
       "word": "gloved",
@@ -498,11 +1992,12 @@
           "translation": "перчатка"
         }
       },
+      "_spacyLemma": "gloved",
       "example": "And, as the train at last chuffed and began to draw out of the station, Gwendolen waved her gloved hand to the brass band, up and down, just like Royalty.",
       "exampleStart": 5642,
       "exampleEnd": 5796,
       "matchedForm": "gloved",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -528,69 +2023,484 @@
         "startInExample": 10,
         "endInExample": 19
       },
-      "levelSource": "dictionary_phrase"
+      "levelSource": "phrase_index"
     },
     {
-      "word": "i’ve out",
-      "lemma": "have out",
-      "lemmaId": "have_out",
-      "pos": "phrasal_verb",
-      "type": "phrasal_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "have_out_phrasal_verb",
+      "word": "went",
+      "lemma": "go",
+      "lemmaId": "go",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "go_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "идти"
+        }
+      },
+      "_spacyLemma": "go",
+      "example": "“Then I must go and speak to the Mayor,” Chrestomanci said, and he stood up, dusting his splendid hat on his elegant sleeve.",
+      "exampleStart": 2167,
+      "exampleEnd": 2291,
+      "matchedForm": "go",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.137143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "golden",
+      "lemma": "golden",
+      "lemmaId": "golden",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "golden_adjective",
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Я вышел"
+          "translation": "золотой"
         }
       },
-      "example": "I’ve got out of dead-and-alive Wolvercote at last—stupid Councillors and piffling necromancers!",
-      "exampleStart": 5327,
-      "exampleEnd": 5422,
-      "phraseMatch": {
-        "text": "I’ve got out",
-        "startInExample": 0,
-        "endInExample": 12
-      },
-      "levelSource": "dictionary_phrase"
+      "_spacyLemma": "golden",
+      "example": "Fortunately, there were thumping footsteps just then, and Gwendolen burst in through the kitchen door, panting, golden and jubilant.",
+      "exampleStart": 883,
+      "exampleEnd": 1015,
+      "matchedForm": "golden",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.525714,
+      "difficultySource": "zipf"
     },
     {
-      "word": "i’ll tell you",
-      "lemma": "i’ll tell you",
-      "lemmaId": "ill_tell_you",
-      "pos": "phrase",
-      "type": "phrase",
-      "source": "fixed_expression",
-      "wordKey": "ill_tell_you_phrase",
+      "word": "goodness",
+      "lemma": "goodness",
+      "lemmaId": "goodness",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "goodness_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Благодать"
+        }
+      },
+      "_spacyLemma": "goodness",
+      "example": "Sharp tried to give the impression that she looked after them for nothing, out of the goodness of her heart.",
+      "exampleStart": 1703,
+      "exampleEnd": 1811,
+      "matchedForm": "goodness",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.68,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "great",
+      "lemma": "great",
+      "lemmaId": "great",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "great_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "великий"
+        }
+      },
+      "_spacyLemma": "great",
+      "example": "So the second great change came about in Cat’s life, and very dismal he feared it would be.",
+      "exampleStart": 4360,
+      "exampleEnd": 4451,
+      "matchedForm": "great",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.18,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "grew",
+      "lemma": "grow",
+      "lemmaId": "grow",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "grow_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "расти"
+        }
+      },
+      "_spacyLemma": "grow",
+      "example": "All that next week, while they were hurrying about being bought new clothes by Councillors’ wives, and while Gwendolen grew more and more excited and triumphant, Cat found he was missing Mrs.",
+      "exampleStart": 4452,
+      "exampleEnd": 4643,
+      "matchedForm": "grew",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.46,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "hands",
+      "lemma": "hand",
+      "lemmaId": "hand",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "hand_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "рука"
+        }
+      },
+      "_spacyLemma": "hand",
+      "example": "” Then he shook hands with Gwendolen and Cat and said, “I should have come to see you before, of course.",
+      "exampleStart": 2451,
+      "exampleEnd": 2555,
+      "matchedForm": "hands",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.314286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "happy",
+      "lemma": "happy",
+      "lemmaId": "happy",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "happy_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "счастливый"
+        }
+      },
+      "_spacyLemma": "happy",
+      "example": "“Why are you so happy?",
+      "exampleStart": 2746,
+      "exampleEnd": 2768,
+      "matchedForm": "happy",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.331429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "hardly",
+      "lemma": "hardly",
+      "lemmaId": "hardly",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "hardly_adverb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "почти"
+        }
+      },
+      "_spacyLemma": "hardly",
+      "example": "“It hardly seems worth it.",
+      "exampleStart": 735,
+      "exampleEnd": 761,
+      "matchedForm": "hardly",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.565714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "hat",
+      "lemma": "hat",
+      "lemmaId": "hat",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "hat_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "шляпа"
+        }
+      },
+      "_spacyLemma": "hat",
+      "example": "He put his hat of apples down in the middle of the spell, which he very much hoped would ruin it.",
+      "exampleStart": 108,
+      "exampleEnd": 205,
+      "matchedForm": "hat",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.565714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "head",
+      "lemma": "head",
+      "lemmaId": "head",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "head_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "голова"
+        }
+      },
+      "_spacyLemma": "head",
+      "example": "”\n\nThe Mayor patted him kindly on the head.",
+      "exampleStart": 3988,
+      "exampleEnd": 4031,
+      "matchedForm": "head",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.285714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "heart",
+      "lemma": "heart",
+      "lemmaId": "heart",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "heart_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "сердце"
+        }
+      },
+      "_spacyLemma": "heart",
+      "example": "Chrestomanci, Cat was interested to see, did not seem to have the heart to eat them either.",
+      "exampleStart": 1468,
+      "exampleEnd": 1559,
+      "matchedForm": "heart",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.342857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "hobnobbing",
+      "lemma": "hobnob",
+      "lemmaId": "hobnob",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "hobnob_verb",
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "Я расскажу тебе"
+          "translation": "гобноб"
         }
       },
-      "example": "“But I’ll tell you part of it.",
-      "exampleStart": 5296,
-      "exampleEnd": 5326,
-      "phraseMatch": {
-        "text": "I’ll tell you",
-        "startInExample": 5,
-        "endInExample": 18
+      "_spacyLemma": "hobnob",
+      "example": "“You’ll be hobnobbing with all the crowned heads of Europe before long, my boy.",
+      "exampleStart": 4069,
+      "exampleEnd": 4148,
+      "matchedForm": "hobnobbing",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "homesick",
+      "lemma": "homesick",
+      "lemmaId": "homesick",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "homesick_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "тоска по дому"
+        }
       },
-      "levelSource": "phrase_fallback"
+      "_spacyLemma": "homesick",
+      "example": "“I’m homesick already.",
+      "exampleStart": 5176,
+      "exampleEnd": 5198,
+      "matchedForm": "homesick",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "honest",
+      "lemma": "honest",
+      "lemmaId": "honest",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "honest_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "честный"
+        }
+      },
+      "_spacyLemma": "honest",
+      "example": "But Gwendolen had decided to be radiantly honest.",
+      "exampleStart": 1909,
+      "exampleEnd": 1958,
+      "matchedForm": "honest",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.508571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "hoped",
+      "lemma": "hop",
+      "lemmaId": "hop",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "hop_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "прыгать"
+        }
+      },
+      "_spacyLemma": "hop",
+      "example": "He put his hat of apples down in the middle of the spell, which he very much hoped would ruin it.",
+      "exampleStart": 108,
+      "exampleEnd": 205,
+      "matchedForm": "hoped",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.602857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "hope",
+      "lemma": "hope",
+      "lemmaId": "hope",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "hope_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "надежда"
+        }
+      },
+      "_spacyLemma": "hope",
+      "example": "He put his hat of apples down in the middle of the spell, which he very much hoped would ruin it.",
+      "exampleStart": 108,
+      "exampleEnd": 205,
+      "matchedForm": "hoped",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.305714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "hugged",
+      "lemma": "hug",
+      "lemmaId": "hug",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "hug_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "обнимать"
+        }
+      },
+      "_spacyLemma": "hug",
+      "example": "“And I see I needn’t tell you what lucky little people you are,” he said, as Gwendolen uttered a shriek of joy and hugged the dour Mrs.",
+      "exampleStart": 3721,
+      "exampleEnd": 3856,
+      "matchedForm": "hugged",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.691429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "hurrying",
+      "lemma": "hurry",
+      "lemmaId": "hurry",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "hurry_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "торопиться"
+        }
+      },
+      "_spacyLemma": "hurry",
+      "example": "All that next week, while they were hurrying about being bought new clothes by Councillors’ wives, and while Gwendolen grew more and more excited and triumphant, Cat found he was missing Mrs.",
+      "exampleStart": 4452,
+      "exampleEnd": 4643,
+      "matchedForm": "hurrying",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.677143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "important",
+      "lemma": "important",
+      "lemmaId": "important",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "important_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "важный"
+        }
+      },
+      "_spacyLemma": "important",
+      "example": "“Because,” said Cat, thoroughly exasperated, “you’re far too important to stay here.",
+      "exampleStart": 311,
+      "exampleEnd": 395,
+      "matchedForm": "important",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.305714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "impression",
+      "lemma": "impression",
+      "lemmaId": "impression",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "impression_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "впечатление"
+        }
+      },
+      "_spacyLemma": "impression",
+      "example": "Sharp tried to give the impression that she looked after them for nothing, out of the goodness of her heart.",
+      "exampleStart": 1703,
+      "exampleEnd": 1811,
+      "matchedForm": "impression",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.617143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "induced",
+      "lemma": "induce",
+      "lemmaId": "induce",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "induce_verb",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "вызывать"
+        }
+      },
+      "_spacyLemma": "induce",
+      "example": "She hoped Chrestomanci might be induced to pay her for their keep, as well as the Town Council.",
+      "exampleStart": 1812,
+      "exampleEnd": 1907,
+      "matchedForm": "induced",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.842857,
+      "difficultySource": "zipf"
     },
     {
       "word": "infernally",
       "lemma": "infernally",
       "lemmaId": "infernally",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "infernally_adjective",
+      "wordKey": "infernally_adverb",
       "level": "C1",
       "translations": {
         "ru": {
           "translation": "инфернально"
         }
       },
+      "_spacyLemma": "infernally",
       "example": "Your father was so infernally rude to me, you see.",
       "exampleStart": 2568,
       "exampleEnd": 2618,
@@ -600,37 +2510,345 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "live with",
+      "word": "interested",
+      "lemma": "interested",
+      "lemmaId": "interested",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "interested_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "заинтересованный"
+        }
+      },
+      "_spacyLemma": "interested",
+      "example": "Chrestomanci, Cat was interested to see, did not seem to have the heart to eat them either.",
+      "exampleStart": 1468,
+      "exampleEnd": 1559,
+      "matchedForm": "interested",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.445714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "joy",
+      "lemma": "joy",
+      "lemmaId": "joy",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "joy_noun",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "радость"
+        }
+      },
+      "_spacyLemma": "joy",
+      "example": "“And I see I needn’t tell you what lucky little people you are,” he said, as Gwendolen uttered a shriek of joy and hugged the dour Mrs.",
+      "exampleStart": 3721,
+      "exampleEnd": 3856,
+      "matchedForm": "joy",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.56,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "joyously",
+      "lemma": "joyously",
+      "lemmaId": "joyously",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "joyously_adverb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "радостно"
+        }
+      },
+      "_spacyLemma": "joyously",
+      "example": "” she said joyously.",
+      "exampleStart": 5101,
+      "exampleEnd": 5121,
+      "matchedForm": "joyously",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "jubilant",
+      "lemma": "jubilant",
+      "lemmaId": "jubilant",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "jubilant_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "ликующий"
+        }
+      },
+      "_spacyLemma": "jubilant",
+      "example": "Fortunately, there were thumping footsteps just then, and Gwendolen burst in through the kitchen door, panting, golden and jubilant.",
+      "exampleStart": 883,
+      "exampleEnd": 1015,
+      "matchedForm": "jubilant",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "kindly",
+      "lemma": "kindly",
+      "lemmaId": "kindly",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "kindly_adverb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "любезно"
+        }
+      },
+      "_spacyLemma": "kindly",
+      "example": "”\n\nThe Mayor patted him kindly on the head.",
+      "exampleStart": 3988,
+      "exampleEnd": 4031,
+      "matchedForm": "kindly",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.717143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "kitchen",
+      "lemma": "kitchen",
+      "lemmaId": "kitchen",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "kitchen_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "кухня"
+        }
+      },
+      "_spacyLemma": "kitchen",
+      "example": "Fortunately, there were thumping footsteps just then, and Gwendolen burst in through the kitchen door, panting, golden and jubilant.",
+      "exampleStart": 883,
+      "exampleEnd": 1015,
+      "matchedForm": "kitchen",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.531429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "knew",
+      "lemma": "know",
+      "lemmaId": "know",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "know_verb",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "знать"
+        }
+      },
+      "_spacyLemma": "know",
+      "example": "She knew what Gwendolen was doing too.",
+      "exampleStart": 2322,
+      "exampleEnd": 2360,
+      "matchedForm": "knew",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.117143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "leaving",
+      "lemma": "leave",
+      "lemmaId": "leave",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "leave_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "уходить"
+        }
+      },
+      "_spacyLemma": "leave",
+      "example": "” Then he went away in his cab, leaving Mrs.",
+      "exampleStart": 2646,
+      "exampleEnd": 2690,
+      "matchedForm": "leaving",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.334286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "lessons",
+      "lemma": "lesson",
+      "lemmaId": "lesson",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "lesson_noun",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "урок"
+        }
+      },
+      "_spacyLemma": "lesson",
+      "example": "He just gave Gwendolen lessons for them,” said Cat.",
+      "exampleStart": 769,
+      "exampleEnd": 820,
+      "matchedForm": "lessons",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.582857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "letters",
+      "lemma": "letter",
+      "lemmaId": "letter",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "letter_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "письмо"
+        }
+      },
+      "_spacyLemma": "letter",
+      "example": "Nostrum would give his eyes just for your three letters.",
+      "exampleStart": 606,
+      "exampleEnd": 662,
+      "matchedForm": "letters",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.445714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "life",
+      "lemma": "life",
+      "lemmaId": "life",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "life_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "жизнь"
+        }
+      },
+      "_spacyLemma": "life",
+      "example": "So the second great change came about in Cat’s life, and very dismal he feared it would be.",
+      "exampleStart": 4360,
+      "exampleEnd": 4451,
+      "matchedForm": "life",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.177143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "little",
+      "lemma": "little",
+      "lemmaId": "little",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "little_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "маленький"
+        }
+      },
+      "_spacyLemma": "little",
+      "example": "“And I see I needn’t tell you what lucky little people you are,” he said, as Gwendolen uttered a shriek of joy and hugged the dour Mrs.",
+      "exampleStart": 3721,
+      "exampleEnd": 3856,
+      "matchedForm": "little",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.217143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "living",
+      "lemma": "live",
+      "lemmaId": "live",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "live_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "жить"
+        }
+      },
+      "_spacyLemma": "live",
+      "example": "He drank a cup of tea—austerely, without milk or sugar—and asked questions about how Gwendolen and Cat came to be living with Mrs.",
+      "exampleStart": 1560,
+      "exampleEnd": 1690,
+      "matchedForm": "living",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.277143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "living with",
       "lemma": "live with",
       "lemmaId": "live_with",
-      "pos": "phrasal_verb",
-      "type": "phrasal_verb",
+      "pos": "prepositional_verb",
+      "type": "prepositional_verb",
       "source": "dictionary_phrasal",
-      "wordKey": "live_with_phrasal_verb",
+      "wordKey": "live_with_prepositional_verb",
       "level": "B2",
       "translations": {
         "ru": {
           "translation": "Жить с"
         }
       },
-      "example": "The Mayor called that afternoon and told them that Chrestomanci had arranged for Cat and Gwendolen to come and live with him as part of his own family.",
-      "exampleStart": 3569,
-      "exampleEnd": 3720,
+      "example": "He drank a cup of tea—austerely, without milk or sugar—and asked questions about how Gwendolen and Cat came to be living with Mrs.",
+      "exampleStart": 1560,
+      "exampleEnd": 1690,
       "phraseMatch": {
-        "text": "live with",
-        "startInExample": 111,
-        "endInExample": 120
+        "text": "living with",
+        "startInExample": 114,
+        "endInExample": 125
       },
-      "levelSource": "dictionary_phrase"
+      "levelSource": "phrase_index"
+    },
+    {
+      "word": "long",
+      "lemma": "long",
+      "lemmaId": "long",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "long_adverb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "длинный"
+        }
+      },
+      "_spacyLemma": "long",
+      "example": "“You’ll be hobnobbing with all the crowned heads of Europe before long, my boy.",
+      "exampleStart": 4069,
+      "exampleEnd": 4148,
+      "matchedForm": "long",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.2,
+      "difficultySource": "zipf"
     },
     {
       "word": "looked after",
       "lemma": "look after",
       "lemmaId": "look_after",
-      "pos": "phrasal_verb",
-      "type": "phrasal_verb",
+      "pos": "prepositional_verb",
+      "type": "prepositional_verb",
       "source": "dictionary_phrasal",
-      "wordKey": "look_after_phrasal_verb",
+      "wordKey": "look_after_prepositional_verb",
       "level": "B2",
       "translations": {
         "ru": {
@@ -645,74 +2863,1131 @@
         "startInExample": 44,
         "endInExample": 56
       },
-      "levelSource": "dictionary_phrase"
+      "levelSource": "phrase_index"
     },
     {
-      "word": "needn’t",
-      "lemma": "needn't",
-      "lemmaId": "neednt",
-      "pos": "noun",
+      "word": "looked",
+      "lemma": "look",
+      "lemmaId": "look",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "neednt_noun",
+      "wordKey": "look_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "смотреть"
+        }
+      },
+      "_spacyLemma": "look",
+      "example": "Sharp tried to give the impression that she looked after them for nothing, out of the goodness of her heart.",
+      "exampleStart": 1703,
+      "exampleEnd": 1811,
+      "matchedForm": "looked",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.2,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "lucky",
+      "lemma": "lucky",
+      "lemmaId": "lucky",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "lucky_adjective",
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "необязательно"
+          "translation": "счастливчик"
         }
       },
+      "_spacyLemma": "lucky",
       "example": "“And I see I needn’t tell you what lucky little people you are,” he said, as Gwendolen uttered a shriek of joy and hugged the dour Mrs.",
       "exampleStart": 3721,
       "exampleEnd": 3856,
-      "matchedForm": "needn’t",
+      "matchedForm": "lucky",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.497143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "makes",
+      "lemma": "make",
+      "lemmaId": "make",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "make_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "делать"
+        }
+      },
+      "_spacyLemma": "make",
+      "example": "”\n\n“What makes you think I’m important?",
+      "exampleStart": 395,
+      "exampleEnd": 434,
+      "matchedForm": "makes",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.122857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "men",
+      "lemma": "man",
+      "lemmaId": "man",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "man_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "человек"
+        }
+      },
+      "_spacyLemma": "man",
+      "example": "Sharp deferentially offered him a cup of tea and a plate of her weakly waving gingerbread men.",
+      "exampleStart": 1373,
+      "exampleEnd": 1467,
+      "matchedForm": "men",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.197143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "managed",
+      "lemma": "manage",
+      "lemmaId": "manage",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "manage_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "управлять"
+        }
+      },
+      "_spacyLemma": "manage",
+      "example": "Sharp arrived, he had somehow managed to offend Chrestomanci as badly as his father once did.",
+      "exampleStart": 3336,
+      "exampleEnd": 3429,
+      "matchedForm": "managed",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.562857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "marvelous",
+      "lemma": "marvelous",
+      "lemmaId": "marvelous",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "marvelous_adjective",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "дивный"
+        }
+      },
+      "_spacyLemma": "marvelous",
+      "example": "“Cat, isn’t it marvelous!",
+      "exampleStart": 5122,
+      "exampleEnd": 5147,
+      "matchedForm": "marvelous",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.851429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "Maybe",
+      "lemma": "maybe",
+      "lemmaId": "maybe",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "maybe_adverb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "может быть"
+        }
+      },
+      "_spacyLemma": "maybe",
+      "example": "”\n\n“Maybe.",
+      "exampleStart": 3161,
+      "exampleEnd": 3171,
+      "matchedForm": "Maybe",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.302857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "mean",
+      "lemma": "mean",
+      "lemmaId": "mean",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "mean_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "означать"
+        }
+      },
+      "_spacyLemma": "mean",
+      "example": "“I mean, I saw you were being nice to him—”\n\n“Oh, shut up, or I’ll give you worse than cramps!",
+      "exampleStart": 5530,
+      "exampleEnd": 5624,
+      "matchedForm": "mean",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.28,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "middle",
+      "lemma": "middle",
+      "lemmaId": "middle",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "middle_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "середина"
+        }
+      },
+      "_spacyLemma": "middle",
+      "example": "He put his hat of apples down in the middle of the spell, which he very much hoped would ruin it.",
+      "exampleStart": 108,
+      "exampleEnd": 205,
+      "matchedForm": "middle",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.38,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "milk",
+      "lemma": "milk",
+      "lemmaId": "milk",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "milk_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "молоко"
+        }
+      },
+      "_spacyLemma": "milk",
+      "example": "He drank a cup of tea—austerely, without milk or sugar—and asked questions about how Gwendolen and Cat came to be living with Mrs.",
+      "exampleStart": 1560,
+      "exampleEnd": 1690,
+      "matchedForm": "milk",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.528571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "miserably",
+      "lemma": "miserably",
+      "lemmaId": "miserably",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "miserably_adverb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "с трепетом"
+        }
+      },
+      "_spacyLemma": "miserably",
+      "example": "”\n\n“No,” Cat said miserably.",
+      "exampleStart": 5147,
+      "exampleEnd": 5175,
+      "matchedForm": "miserably",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.954286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "misery",
+      "lemma": "misery",
+      "lemmaId": "misery",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "misery_noun",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "страдания"
+        }
+      },
+      "_spacyLemma": "misery",
+      "example": "He sat tensely on the edge of his seat, fearing he was in for a time of strangeness and maybe even misery.",
+      "exampleStart": 4853,
+      "exampleEnd": 4959,
+      "matchedForm": "misery",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.748571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "missing",
+      "lemma": "miss",
+      "lemmaId": "miss",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "miss_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "промах"
+        }
+      },
+      "_spacyLemma": "miss",
+      "example": "All that next week, while they were hurrying about being bought new clothes by Councillors’ wives, and while Gwendolen grew more and more excited and triumphant, Cat found he was missing Mrs.",
+      "exampleStart": 4452,
+      "exampleEnd": 4643,
+      "matchedForm": "missing",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.368571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "nearly",
+      "lemma": "nearly",
+      "lemmaId": "nearly",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "nearly_adverb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "почти"
+        }
+      },
+      "_spacyLemma": "nearly",
+      "example": "Sharp, nearly as breathless.",
+      "exampleStart": 1202,
+      "exampleEnd": 1230,
+      "matchedForm": "nearly",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.431429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "necromancers",
+      "lemma": "necromancer",
+      "lemmaId": "necromancer",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "necromancer_noun",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "некромант"
+        }
+      },
+      "_spacyLemma": "necromancer",
+      "example": "I’ve got out of dead-and-alive Wolvercote at last—stupid Councillors and piffling necromancers!",
+      "exampleStart": 5327,
+      "exampleEnd": 5422,
+      "matchedForm": "necromancers",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "nervous",
+      "lemma": "nervous",
+      "lemmaId": "nervous",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "nervous_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "нервный"
+        }
+      },
+      "_spacyLemma": "nervous",
+      "example": "Sharp very sour, Gwendolen jubilant, and Cat nervous.",
+      "exampleStart": 2691,
+      "exampleEnd": 2744,
+      "matchedForm": "nervous",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.597143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "new",
+      "lemma": "new",
+      "lemmaId": "new",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "new_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "новый"
+        }
+      },
+      "_spacyLemma": "new",
+      "example": "All that next week, while they were hurrying about being bought new clothes by Councillors’ wives, and while Gwendolen grew more and more excited and triumphant, Cat found he was missing Mrs.",
+      "exampleStart": 4452,
+      "exampleEnd": 4643,
+      "matchedForm": "new",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.074286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "nice",
+      "lemma": "nice",
+      "lemmaId": "nice",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "nice_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "милый"
+        }
+      },
+      "_spacyLemma": "nice",
+      "example": "Gwendolen, however, spread out her smart new dress and arranged her nice new hat becomingly, and sank elegantly back in her seat.",
+      "exampleStart": 4961,
+      "exampleEnd": 5090,
+      "matchedForm": "nice",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.325714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "nonsense",
+      "lemma": "nonsense",
+      "lemmaId": "nonsense",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "nonsense_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "глупость"
+        }
+      },
+      "_spacyLemma": "nonsense",
+      "example": "”\n\n“Don’t talk such nonsense!",
+      "exampleStart": 2900,
+      "exampleEnd": 2929,
+      "matchedForm": "nonsense",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.657143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "notice",
+      "lemma": "notice",
+      "lemmaId": "notice",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "notice_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "уведомление"
+        }
+      },
+      "_spacyLemma": "notice",
+      "example": "”\n\n“I didn’t notice specially,” said Cat.",
+      "exampleStart": 5488,
+      "exampleEnd": 5529,
+      "matchedForm": "notice",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.46,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "offend",
+      "lemma": "offend",
+      "lemmaId": "offend",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "offend_verb",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "обидеть"
+        }
+      },
+      "_spacyLemma": "offend",
+      "example": "Sharp arrived, he had somehow managed to offend Chrestomanci as badly as his father once did.",
+      "exampleStart": 3336,
+      "exampleEnd": 3429,
+      "matchedForm": "offend",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.84,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "offered",
+      "lemma": "offer",
+      "lemmaId": "offer",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "offer_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "предложение"
+        }
+      },
+      "_spacyLemma": "offer",
+      "example": "Sharp deferentially offered him a cup of tea and a plate of her weakly waving gingerbread men.",
+      "exampleStart": 1373,
+      "exampleEnd": 1467,
+      "matchedForm": "offered",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.417143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "old",
+      "lemma": "old",
+      "lemmaId": "old",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "old_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "старый"
+        }
+      },
+      "_spacyLemma": "old",
+      "example": "Sharp off like an old coat.",
+      "exampleStart": 2138,
+      "exampleEnd": 2165,
+      "matchedForm": "old",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.217143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "on the edge",
+      "lemma": "on edge",
+      "lemmaId": "on_edge",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "spacy_phrase",
+      "wordKey": "on_edge_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "на грани"
+        }
+      },
+      "example": "He sat tensely on the edge of his seat, fearing he was in for a time of strangeness and maybe even misery.",
+      "exampleStart": 4853,
+      "exampleEnd": 4959,
+      "phraseMatch": {
+        "text": "on the edge",
+        "startInExample": 15,
+        "endInExample": 26
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "orphaned",
+      "lemma": "orphan",
+      "lemmaId": "orphan",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "orphan_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "ребенок"
+        }
+      },
+      "_spacyLemma": "orphan",
+      "example": "“Because he was touched at our orphaned state,” said Gwendolen.",
+      "exampleStart": 2792,
+      "exampleEnd": 2855,
+      "matchedForm": "orphaned",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.837143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "panting",
+      "lemma": "panting",
+      "lemmaId": "panting",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "panting_noun",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "брызгать"
+        }
+      },
+      "_spacyLemma": "panting",
+      "example": "Fortunately, there were thumping footsteps just then, and Gwendolen burst in through the kitchen door, panting, golden and jubilant.",
+      "exampleStart": 883,
+      "exampleEnd": 1015,
+      "matchedForm": "panting",
       "levelSource": "difficulty_heuristic",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
     {
-      "word": "panting",
-      "lemma": "pant",
-      "lemmaId": "pant",
-      "pos": "adjective",
+      "word": "parlor",
+      "lemma": "parlor",
+      "lemmaId": "parlor",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "pant_adjective",
+      "wordKey": "parlor_noun",
       "level": "C1",
       "translations": {
         "ru": {
-          "translation": "брюки"
+          "translation": "гостиная"
         }
       },
-      "example": "Fortunately, there were thumping footsteps just then, and Gwendolen burst in through the kitchen door, panting, golden and jubilant.",
-      "exampleStart": 883,
-      "exampleEnd": 1015,
-      "matchedForm": "panting",
+      "_spacyLemma": "parlor",
+      "example": "“Then you’ve got to come in the parlor at once.",
+      "exampleStart": 206,
+      "exampleEnd": 253,
+      "matchedForm": "parlor",
       "levelSource": "vocabulary_index",
-      "difficultyScore": 0.951429,
+      "difficultyScore": 0.905714,
       "difficultySource": "zipf"
     },
     {
-      "word": "send off",
-      "lemma": "send off",
-      "lemmaId": "send_off",
-      "pos": "phrasal_verb",
-      "type": "phrasal_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "send_off_phrasal_verb",
+      "word": "particularly",
+      "lemma": "particularly",
+      "lemmaId": "particularly",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "particularly_adverb",
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Прощание"
+          "translation": "особенно"
         }
       },
-      "example": "When the time came for them to get on the train, the town gave them a splendid send-off, with flags and a brass band.",
-      "exampleStart": 4721,
-      "exampleEnd": 4838,
-      "matchedForm": "send-off",
-      "phraseMatch": {
-        "text": "send-off",
-        "startInExample": 79,
-        "endInExample": 87
+      "_spacyLemma": "particularly",
+      "example": "Sharp—particularly as he had an uneasy feeling that, before Gwendolen and Mrs.",
+      "exampleStart": 3257,
+      "exampleEnd": 3335,
+      "matchedForm": "particularly",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.442857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "patted",
+      "lemma": "pat",
+      "lemmaId": "pat",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "pat_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "похлопывать"
+        }
       },
-      "levelSource": "dictionary_phrase"
+      "_spacyLemma": "pat",
+      "example": "”\n\nThe Mayor patted him kindly on the head.",
+      "exampleStart": 3988,
+      "exampleEnd": 4031,
+      "matchedForm": "patted",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.648571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "pay",
+      "lemma": "pay",
+      "lemmaId": "pay",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "pay_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "платить"
+        }
+      },
+      "_spacyLemma": "pay",
+      "example": "She hoped Chrestomanci might be induced to pay her for their keep, as well as the Town Council.",
+      "exampleStart": 1812,
+      "exampleEnd": 1907,
+      "matchedForm": "pay",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.317143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "people",
+      "lemma": "people",
+      "lemmaId": "people",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "people_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "люди"
+        }
+      },
+      "_spacyLemma": "people",
+      "example": "“And I see I needn’t tell you what lucky little people you are,” he said, as Gwendolen uttered a shriek of joy and hugged the dour Mrs.",
+      "exampleStart": 3721,
+      "exampleEnd": 3856,
+      "matchedForm": "people",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.074286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "piffling",
+      "lemma": "piffle",
+      "lemmaId": "piffle",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "piffle_verb",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "пальто"
+        }
+      },
+      "_spacyLemma": "piffle",
+      "example": "I’ve got out of dead-and-alive Wolvercote at last—stupid Councillors and piffling necromancers!",
+      "exampleStart": 5327,
+      "exampleEnd": 5422,
+      "matchedForm": "piffling",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "plate",
+      "lemma": "plate",
+      "lemmaId": "plate",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "plate_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "пластина"
+        }
+      },
+      "_spacyLemma": "plate",
+      "example": "Sharp deferentially offered him a cup of tea and a plate of her weakly waving gingerbread men.",
+      "exampleStart": 1373,
+      "exampleEnd": 1467,
+      "matchedForm": "plate",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.56,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "pocket",
+      "lemma": "pocket",
+      "lemmaId": "pocket",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "pocket_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "карман"
+        }
+      },
+      "_spacyLemma": "pocket",
+      "example": "“No one wishes you to be out of pocket.",
+      "exampleStart": 2412,
+      "exampleEnd": 2451,
+      "matchedForm": "pocket",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.58,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "precisely",
+      "lemma": "precisely",
+      "lemmaId": "precisely",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "precisely_adverb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "точно"
+        }
+      },
+      "_spacyLemma": "precisely",
+      "example": "This had told him precisely nothing, and made him more nervous than ever.",
+      "exampleStart": 4214,
+      "exampleEnd": 4287,
+      "matchedForm": "precisely",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.66,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "promised",
+      "lemma": "promise",
+      "lemmaId": "promise",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "promise_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "обещание"
+        }
+      },
+      "_spacyLemma": "promise",
+      "example": "He may have come here in all his finery, but he said nothing and he promised nothing.",
+      "exampleStart": 2993,
+      "exampleEnd": 3078,
+      "matchedForm": "promised",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.514286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "proved",
+      "lemma": "prove",
+      "lemmaId": "prove",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "prove_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "доказывать"
+        }
+      },
+      "_spacyLemma": "prove",
+      "example": "But, to his astonishment, Gwendolen proved to be right.",
+      "exampleStart": 3513,
+      "exampleEnd": 3568,
+      "matchedForm": "proved",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.497143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "questions",
+      "lemma": "question",
+      "lemmaId": "question",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "question_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "вопрос"
+        }
+      },
+      "_spacyLemma": "question",
+      "example": "He drank a cup of tea—austerely, without milk or sugar—and asked questions about how Gwendolen and Cat came to be living with Mrs.",
+      "exampleStart": 1560,
+      "exampleEnd": 1690,
+      "matchedForm": "questions",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.331429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "radiantly",
+      "lemma": "radiantly",
+      "lemmaId": "radiantly",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "radiantly_adverb",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "сияющий"
+        }
+      },
+      "_spacyLemma": "radiantly",
+      "example": "But Gwendolen had decided to be radiantly honest.",
+      "exampleStart": 1909,
+      "exampleEnd": 1958,
+      "matchedForm": "radiantly",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "real",
+      "lemma": "real",
+      "lemmaId": "real",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "real_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "реальный"
+        }
+      },
+      "_spacyLemma": "real",
+      "example": "This was a real crisis.",
+      "exampleStart": 84,
+      "exampleEnd": 107,
+      "matchedForm": "real",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.26,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "realize",
+      "lemma": "realize",
+      "lemmaId": "realize",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "realize_verb",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "осознавать"
+        }
+      },
+      "_spacyLemma": "realize",
+      "example": "He hoped Gwendolen would not realize that.",
+      "exampleStart": 3430,
+      "exampleEnd": 3472,
+      "matchedForm": "realize",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.48,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "retorted",
+      "lemma": "retort",
+      "lemmaId": "retort",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "retort_verb",
+      "level": "C2",
+      "translations": {
+        "ru": {
+          "translation": "реторт"
+        }
+      },
+      "_spacyLemma": "retort",
+      "example": "Sharp retorted.",
+      "exampleStart": 3213,
+      "exampleEnd": 3228,
+      "matchedForm": "retorted",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "right",
+      "lemma": "right",
+      "lemmaId": "right",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "right_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "правильно"
+        }
+      },
+      "_spacyLemma": "right",
+      "example": "But, to his astonishment, Gwendolen proved to be right.",
+      "exampleStart": 3513,
+      "exampleEnd": 3568,
+      "matchedForm": "right",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.157143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "rude",
+      "lemma": "rude",
+      "lemmaId": "rude",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "rude_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "грубый"
+        }
+      },
+      "_spacyLemma": "rude",
+      "example": "Your father was so infernally rude to me, you see.",
+      "exampleStart": 2568,
+      "exampleEnd": 2618,
+      "matchedForm": "rude",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.645714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "ruin",
+      "lemma": "ruin",
+      "lemmaId": "ruin",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "ruin_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "руины"
+        }
+      },
+      "_spacyLemma": "ruin",
+      "example": "He put his hat of apples down in the middle of the spell, which he very much hoped would ruin it.",
+      "exampleStart": 108,
+      "exampleEnd": 205,
+      "matchedForm": "ruin",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.628571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "rule",
+      "lemma": "rule",
+      "lemmaId": "rule",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "rule_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "правило"
+        }
+      },
+      "_spacyLemma": "rule",
+      "example": "Cat realized she was setting out to rule the world.",
+      "exampleStart": 5797,
+      "exampleEnd": 5848,
+      "matchedForm": "rule",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.448571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "sagged",
+      "lemma": "sag",
+      "lemmaId": "sag",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "sag_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "провисать"
+        }
+      },
+      "_spacyLemma": "sag",
+      "example": "Sharp sighed and sagged.",
+      "exampleStart": 2297,
+      "exampleEnd": 2321,
+      "matchedForm": "sagged",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.931429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "said",
+      "lemma": "say",
+      "lemmaId": "say",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "say_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "говорить"
+        }
+      },
+      "_spacyLemma": "say",
+      "example": "“I see,” said the Stranger.",
+      "exampleStart": 0,
+      "exampleEnd": 27,
+      "matchedForm": "said",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.177143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "seat",
+      "lemma": "seat",
+      "lemmaId": "seat",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "seat_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "место"
+        }
+      },
+      "_spacyLemma": "seat",
+      "example": "He sat tensely on the edge of his seat, fearing he was in for a time of strangeness and maybe even misery.",
+      "exampleStart": 4853,
+      "exampleEnd": 4959,
+      "matchedForm": "seat",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.482857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "second",
+      "lemma": "second",
+      "lemmaId": "second",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "second_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "второй"
+        }
+      },
+      "_spacyLemma": "second",
+      "example": "So the second great change came about in Cat’s life, and very dismal he feared it would be.",
+      "exampleStart": 4360,
+      "exampleEnd": 4451,
+      "matchedForm": "second",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.251429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "saw",
+      "lemma": "see",
+      "lemmaId": "see",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "see_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "смотреть"
+        }
+      },
+      "_spacyLemma": "see",
+      "example": "“I see,” said the Stranger.",
+      "exampleStart": 0,
+      "exampleEnd": 27,
+      "matchedForm": "see",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.117143,
+      "difficultySource": "zipf"
     },
     {
       "word": "setting out",
@@ -736,7 +4011,73 @@
         "startInExample": 21,
         "endInExample": 32
       },
-      "levelSource": "dictionary_phrase"
+      "levelSource": "phrase_index"
+    },
+    {
+      "word": "setting",
+      "lemma": "set",
+      "lemmaId": "set",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "set_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "набор"
+        }
+      },
+      "_spacyLemma": "set",
+      "example": "Cat realized she was setting out to rule the world.",
+      "exampleStart": 5797,
+      "exampleEnd": 5848,
+      "matchedForm": "setting",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.262857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "shake",
+      "lemma": "shake",
+      "lemmaId": "shake",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "shake_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "дрожь"
+        }
+      },
+      "_spacyLemma": "shake",
+      "example": "Cat was beginning to want to shake him.",
+      "exampleStart": 475,
+      "exampleEnd": 514,
+      "matchedForm": "shake",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.622857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "shriek",
+      "lemma": "shriek",
+      "lemmaId": "shriek",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "shriek_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "крик"
+        }
+      },
+      "_spacyLemma": "shriek",
+      "example": "“And I see I needn’t tell you what lucky little people you are,” he said, as Gwendolen uttered a shriek of joy and hugged the dour Mrs.",
+      "exampleStart": 3721,
+      "exampleEnd": 3856,
+      "matchedForm": "shriek",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "word": "shut up",
@@ -760,16 +4101,258 @@
         "startInExample": 50,
         "endInExample": 57
       },
-      "levelSource": "dictionary_phrase"
+      "levelSource": "phrase_index"
+    },
+    {
+      "word": "shut",
+      "lemma": "shut",
+      "lemmaId": "shut",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "shut_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "закрывать"
+        }
+      },
+      "_spacyLemma": "shut",
+      "example": "“I mean, I saw you were being nice to him—”\n\n“Oh, shut up, or I’ll give you worse than cramps!",
+      "exampleStart": 5530,
+      "exampleEnd": 5624,
+      "matchedForm": "shut",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.494286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "sighed",
+      "lemma": "sigh",
+      "lemmaId": "sigh",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "sigh_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "вздох"
+        }
+      },
+      "_spacyLemma": "sigh",
+      "example": "Sharp sighed and sagged.",
+      "exampleStart": 2297,
+      "exampleEnd": 2321,
+      "matchedForm": "sighed",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.731429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "sank",
+      "lemma": "sink",
+      "lemmaId": "sink",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "sink_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "рак"
+        }
+      },
+      "_spacyLemma": "sink",
+      "example": "Gwendolen, however, spread out her smart new dress and arranged her nice new hat becomingly, and sank elegantly back in her seat.",
+      "exampleStart": 4961,
+      "exampleEnd": 5090,
+      "matchedForm": "sank",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.657143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "sat",
+      "lemma": "sit",
+      "lemmaId": "sit",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "sit_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "сидеть"
+        }
+      },
+      "_spacyLemma": "sit",
+      "example": "He sat tensely on the edge of his seat, fearing he was in for a time of strangeness and maybe even misery.",
+      "exampleStart": 4853,
+      "exampleEnd": 4959,
+      "matchedForm": "sat",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.46,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "sleeve",
+      "lemma": "sleeve",
+      "lemmaId": "sleeve",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "sleeve_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "рукав"
+        }
+      },
+      "_spacyLemma": "sleeve",
+      "example": "“Then I must go and speak to the Mayor,” Chrestomanci said, and he stood up, dusting his splendid hat on his elegant sleeve.",
+      "exampleStart": 2167,
+      "exampleEnd": 2291,
+      "matchedForm": "sleeve",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.737143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "smart",
+      "lemma": "smart",
+      "lemmaId": "smart",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "smart_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "умный"
+        }
+      },
+      "_spacyLemma": "smart",
+      "example": "Gwendolen, however, spread out her smart new dress and arranged her nice new hat becomingly, and sank elegantly back in her seat.",
+      "exampleStart": 4961,
+      "exampleEnd": 5090,
+      "matchedForm": "smart",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.48,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "smiled",
+      "lemma": "smile",
+      "lemmaId": "smile",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "smile_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "улыбка"
+        }
+      },
+      "_spacyLemma": "smile",
+      "example": "”\n\nGwendolen smiled confidently.",
+      "exampleStart": 3078,
+      "exampleEnd": 3110,
+      "matchedForm": "smiled",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.534286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "snapped",
+      "lemma": "snap",
+      "lemmaId": "snap",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "snap_verb",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "щелчок"
+        }
+      },
+      "_spacyLemma": "snap",
+      "example": "” snapped Mrs.",
+      "exampleStart": 2929,
+      "exampleEnd": 2943,
+      "matchedForm": "snapped",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.657143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "sorry",
+      "lemma": "sorry",
+      "lemmaId": "sorry",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "sorry_adjective",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "сожалеть"
+        }
+      },
+      "_spacyLemma": "sorry",
+      "example": "“The town pays,” she said, “because everyone’s so sorry about the accident.",
+      "exampleStart": 1959,
+      "exampleEnd": 2034,
+      "matchedForm": "sorry",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.38,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "sounding",
+      "lemma": "sound",
+      "lemmaId": "sound",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "sound_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "звук"
+        }
+      },
+      "_spacyLemma": "sound",
+      "example": "” said Chrestomanci, sounding rather bewildered.",
+      "exampleStart": 261,
+      "exampleEnd": 309,
+      "matchedForm": "sounding",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.388571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "sour",
+      "lemma": "sour",
+      "lemmaId": "sour",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "sour_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "кислый"
+        }
+      },
+      "_spacyLemma": "sour",
+      "example": "Sharp very sour, Gwendolen jubilant, and Cat nervous.",
+      "exampleStart": 2691,
+      "exampleEnd": 2744,
+      "matchedForm": "sour",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.751429,
+      "difficultySource": "zipf"
     },
     {
       "word": "speak to",
       "lemma": "speak to",
       "lemmaId": "speak_to",
-      "pos": "phrasal_verb",
-      "type": "phrasal_verb",
+      "pos": "prepositional_verb",
+      "type": "prepositional_verb",
       "source": "dictionary_phrasal",
-      "wordKey": "speak_to_phrasal_verb",
+      "wordKey": "speak_to_prepositional_verb",
       "level": "B2",
       "translations": {
         "ru": {
@@ -785,6 +4368,94 @@
         "endInExample": 28
       },
       "levelSource": "dictionary_phrase"
+    },
+    {
+      "word": "speak",
+      "lemma": "speak",
+      "lemmaId": "speak",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "speak_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "говорить"
+        }
+      },
+      "_spacyLemma": "speak",
+      "example": "“Then I must go and speak to the Mayor,” Chrestomanci said, and he stood up, dusting his splendid hat on his elegant sleeve.",
+      "exampleStart": 2167,
+      "exampleEnd": 2291,
+      "matchedForm": "speak",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.422857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "specially",
+      "lemma": "specially",
+      "lemmaId": "specially",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "specially_adverb",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "специально"
+        }
+      },
+      "_spacyLemma": "specially",
+      "example": "”\n\n“I didn’t notice specially,” said Cat.",
+      "exampleStart": 5488,
+      "exampleEnd": 5529,
+      "matchedForm": "specially",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.714286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "spell",
+      "lemma": "spell",
+      "lemmaId": "spell",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "spell_noun",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "заклинание"
+        }
+      },
+      "_spacyLemma": "spell",
+      "example": "He put his hat of apples down in the middle of the spell, which he very much hoped would ruin it.",
+      "exampleStart": 108,
+      "exampleEnd": 205,
+      "matchedForm": "spell",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.611429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "splendid",
+      "lemma": "splendid",
+      "lemmaId": "splendid",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "splendid_adjective",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "великолепный"
+        }
+      },
+      "_spacyLemma": "splendid",
+      "example": "“Then I must go and speak to the Mayor,” Chrestomanci said, and he stood up, dusting his splendid hat on his elegant sleeve.",
+      "exampleStart": 2167,
+      "exampleEnd": 2291,
+      "matchedForm": "splendid",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.788571,
+      "difficultySource": "zipf"
     },
     {
       "word": "spread out",
@@ -808,7 +4479,227 @@
         "startInExample": 20,
         "endInExample": 30
       },
-      "levelSource": "dictionary_phrase"
+      "levelSource": "phrase_index"
+    },
+    {
+      "word": "spread",
+      "lemma": "spread",
+      "lemmaId": "spread",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "spread_verb",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "распространение"
+        }
+      },
+      "_spacyLemma": "spread",
+      "example": "Gwendolen, however, spread out her smart new dress and arranged her nice new hat becomingly, and sank elegantly back in her seat.",
+      "exampleStart": 4961,
+      "exampleEnd": 5090,
+      "matchedForm": "spread",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.485714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "stood",
+      "lemma": "stand",
+      "lemmaId": "stand",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "stand_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "стоять"
+        }
+      },
+      "_spacyLemma": "stand",
+      "example": "“Then I must go and speak to the Mayor,” Chrestomanci said, and he stood up, dusting his splendid hat on his elegant sleeve.",
+      "exampleStart": 2167,
+      "exampleEnd": 2291,
+      "matchedForm": "stood",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.391429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "state",
+      "lemma": "state",
+      "lemmaId": "state",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "state_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "государство"
+        }
+      },
+      "_spacyLemma": "state",
+      "example": "“Because he was touched at our orphaned state,” said Gwendolen.",
+      "exampleStart": 2792,
+      "exampleEnd": 2855,
+      "matchedForm": "state",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.208571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "station",
+      "lemma": "station",
+      "lemmaId": "station",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "station_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "станция"
+        }
+      },
+      "_spacyLemma": "station",
+      "example": "And, as the train at last chuffed and began to draw out of the station, Gwendolen waved her gloved hand to the brass band, up and down, just like Royalty.",
+      "exampleStart": 5642,
+      "exampleEnd": 5796,
+      "matchedForm": "station",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.428571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "stay",
+      "lemma": "stay",
+      "lemmaId": "stay",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "stay_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "оставаться"
+        }
+      },
+      "_spacyLemma": "stay",
+      "example": "“Because,” said Cat, thoroughly exasperated, “you’re far too important to stay here.",
+      "exampleStart": 311,
+      "exampleEnd": 395,
+      "matchedForm": "stay",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.337143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "strangeness",
+      "lemma": "strangeness",
+      "lemmaId": "strangeness",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "strangeness_noun",
+      "level": "C2",
+      "translations": {
+        "ru": {
+          "translation": "странность"
+        }
+      },
+      "_spacyLemma": "strangeness",
+      "example": "He sat tensely on the edge of his seat, fearing he was in for a time of strangeness and maybe even misery.",
+      "exampleStart": 4853,
+      "exampleEnd": 4959,
+      "matchedForm": "strangeness",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "stupid",
+      "lemma": "stupid",
+      "lemmaId": "stupid",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "stupid_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "глупый"
+        }
+      },
+      "_spacyLemma": "stupid",
+      "example": "I’ve got out of dead-and-alive Wolvercote at last—stupid Councillors and piffling necromancers!",
+      "exampleStart": 5327,
+      "exampleEnd": 5422,
+      "matchedForm": "stupid",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.448571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "sugar",
+      "lemma": "sugar",
+      "lemmaId": "sugar",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "sugar_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "сахар"
+        }
+      },
+      "_spacyLemma": "sugar",
+      "example": "He drank a cup of tea—austerely, without milk or sugar—and asked questions about how Gwendolen and Cat came to be living with Mrs.",
+      "exampleStart": 1560,
+      "exampleEnd": 1690,
+      "matchedForm": "sugar",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.522857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "supposed",
+      "lemma": "suppose",
+      "lemmaId": "suppose",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "suppose_verb",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "предполагать"
+        }
+      },
+      "_spacyLemma": "suppose",
+      "example": "He supposed Gwendolen must have written a very touching letter indeed.",
+      "exampleStart": 4288,
+      "exampleEnd": 4358,
+      "matchedForm": "supposed",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.557143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "suspected",
+      "lemma": "suspect",
+      "lemmaId": "suspect",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "suspect_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "подозреваемый"
+        }
+      },
+      "_spacyLemma": "suspect",
+      "example": "” Cat was glad she had explained, even though he suspected that Gwendolen might already be casting Mrs.",
+      "exampleStart": 2034,
+      "exampleEnd": 2137,
+      "matchedForm": "suspected",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.571429,
+      "difficultySource": "zipf"
     },
     {
       "word": "took over",
@@ -832,16 +4723,16 @@
         "startInExample": 16,
         "endInExample": 25
       },
-      "levelSource": "dictionary_phrase"
+      "levelSource": "phrase_index"
     },
     {
       "word": "taken to",
       "lemma": "take to",
       "lemmaId": "take_to",
-      "pos": "phrasal_verb",
-      "type": "phrasal_verb",
+      "pos": "prepositional_verb",
+      "type": "prepositional_verb",
       "source": "dictionary_phrasal",
-      "wordKey": "take_to_phrasal_verb",
+      "wordKey": "take_to_prepositional_verb",
       "level": "B2",
       "translations": {
         "ru": {
@@ -859,6 +4750,94 @@
       "levelSource": "dictionary_phrase"
     },
     {
+      "word": "took",
+      "lemma": "take",
+      "lemmaId": "take",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "take_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "брать"
+        }
+      },
+      "_spacyLemma": "take",
+      "example": "The two of them took over the conversation, and Cat was thankful for it.",
+      "exampleStart": 1231,
+      "exampleEnd": 1303,
+      "matchedForm": "took",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.168571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "talk",
+      "lemma": "talk",
+      "lemmaId": "talk",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "talk_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "разговор"
+        }
+      },
+      "_spacyLemma": "talk",
+      "example": "”\n\n“Don’t talk such nonsense!",
+      "exampleStart": 2900,
+      "exampleEnd": 2929,
+      "matchedForm": "talk",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.311429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "tea",
+      "lemma": "tea",
+      "lemmaId": "tea",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "tea_noun",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "чай"
+        }
+      },
+      "_spacyLemma": "tea",
+      "example": "Sharp deferentially offered him a cup of tea and a plate of her weakly waving gingerbread men.",
+      "exampleStart": 1373,
+      "exampleEnd": 1467,
+      "matchedForm": "tea",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.508571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "told",
+      "lemma": "tell",
+      "lemmaId": "tell",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "tell_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "рассказывать"
+        }
+      },
+      "_spacyLemma": "tell",
+      "example": "Nostrum told me there was a cab here,” gasped Gwendolen.",
+      "exampleStart": 1119,
+      "exampleEnd": 1175,
+      "matchedForm": "told",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.28,
+      "difficultySource": "zipf"
+    },
+    {
       "word": "tensely",
       "lemma": "tensely",
       "lemmaId": "tensely",
@@ -871,6 +4850,7 @@
           "translation": "напряженно"
         }
       },
+      "_spacyLemma": "tensely",
       "example": "He sat tensely on the edge of his seat, fearing he was in for a time of strangeness and maybe even misery.",
       "exampleStart": 4853,
       "exampleEnd": 4959,
@@ -880,94 +4860,2033 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "up and down",
-      "lemma": "up and down",
-      "lemmaId": "up_and_down",
-      "pos": "phrase",
-      "type": "phrase",
-      "source": "fixed_expression",
-      "wordKey": "up_and_down_phrase",
-      "level": "B1",
+      "word": "thankful",
+      "lemma": "thankful",
+      "lemmaId": "thankful",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "thankful_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Вверх и вниз"
+          "translation": "благодарность"
         }
       },
-      "example": "And, as the train at last chuffed and began to draw out of the station, Gwendolen waved her gloved hand to the brass band, up and down, just like Royalty.",
-      "exampleStart": 5642,
-      "exampleEnd": 5796,
-      "phraseMatch": {
-        "text": "up and down",
-        "startInExample": 123,
-        "endInExample": 134
-      },
-      "levelSource": "phrase_fallback"
+      "_spacyLemma": "thankful",
+      "example": "The two of them took over the conversation, and Cat was thankful for it.",
+      "exampleStart": 1231,
+      "exampleEnd": 1303,
+      "matchedForm": "thankful",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.737143,
+      "difficultySource": "zipf"
     },
     {
-      "word": "what for",
-      "lemma": "what for",
-      "lemmaId": "what_for",
-      "pos": "phrase",
-      "type": "phrase",
-      "source": "fixed_expression",
-      "wordKey": "what_for_phrase",
-      "level": "B1",
+      "word": "think",
+      "lemma": "think",
+      "lemmaId": "think",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "think_verb",
+      "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Зачем"
+          "translation": "думать"
         }
       },
-      "example": "”\n\n“What makes you think I’m important?",
-      "matchedForm": "What",
-      "levelSource": "phrase_fallback"
-    },
-    {
-      "word": "you think",
-      "lemma": "you think",
-      "lemmaId": "you_think",
-      "pos": "phrase",
-      "type": "phrase",
-      "source": "fixed_expression",
-      "wordKey": "you_think_phrase",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "Ты думаешь"
-        }
-      },
+      "_spacyLemma": "think",
       "example": "”\n\n“What makes you think I’m important?",
       "exampleStart": 395,
       "exampleEnd": 434,
-      "phraseMatch": {
-        "text": "you think",
-        "startInExample": 15,
-        "endInExample": 24
-      },
-      "levelSource": "phrase_fallback"
+      "matchedForm": "think",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.122857,
+      "difficultySource": "zipf"
     },
     {
-      "word": "you what",
-      "lemma": "you what",
-      "lemmaId": "you_what",
-      "pos": "phrase",
-      "type": "phrase",
-      "source": "fixed_expression",
-      "wordKey": "you_what_phrase",
+      "word": "thoroughly",
+      "lemma": "thoroughly",
+      "lemmaId": "thoroughly",
+      "pos": "adverb",
+      "source": "word",
+      "wordKey": "thoroughly_adverb",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "тщательно"
+        }
+      },
+      "_spacyLemma": "thoroughly",
+      "example": "“Because,” said Cat, thoroughly exasperated, “you’re far too important to stay here.",
+      "exampleStart": 311,
+      "exampleEnd": 395,
+      "matchedForm": "thoroughly",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.691429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "thumping",
+      "lemma": "thump",
+      "lemmaId": "thump",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "thump_verb",
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "Ты что?"
+          "translation": "удар"
         }
       },
+      "_spacyLemma": "thump",
+      "example": "Fortunately, there were thumping footsteps just then, and Gwendolen burst in through the kitchen door, panting, golden and jubilant.",
+      "exampleStart": 883,
+      "exampleEnd": 1015,
+      "matchedForm": "thumping",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "time",
+      "lemma": "time",
+      "lemmaId": "time",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "time_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "время"
+        }
+      },
+      "_spacyLemma": "time",
+      "example": "When the time came for them to get on the train, the town gave them a splendid send-off, with flags and a brass band.",
+      "exampleStart": 4721,
+      "exampleEnd": 4838,
+      "matchedForm": "time",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.062857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "touching",
+      "lemma": "touch",
+      "lemmaId": "touch",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "touch_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "касаться"
+        }
+      },
+      "_spacyLemma": "touch",
+      "example": "“Because he was touched at our orphaned state,” said Gwendolen.",
+      "exampleStart": 2792,
+      "exampleEnd": 2855,
+      "matchedForm": "touched",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.457143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "town",
+      "lemma": "town",
+      "lemmaId": "town",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "town_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "город"
+        }
+      },
+      "_spacyLemma": "town",
+      "example": "She hoped Chrestomanci might be induced to pay her for their keep, as well as the Town Council.",
+      "exampleStart": 1812,
+      "exampleEnd": 1907,
+      "matchedForm": "Town",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.362857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "train",
+      "lemma": "train",
+      "lemmaId": "train",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "train_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "поезд"
+        }
+      },
+      "_spacyLemma": "train",
+      "example": "When the time came for them to get on the train, the town gave them a splendid send-off, with flags and a brass band.",
+      "exampleStart": 4721,
+      "exampleEnd": 4838,
+      "matchedForm": "train",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.442857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "triumphant",
+      "lemma": "triumphant",
+      "lemmaId": "triumphant",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "triumphant_adjective",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "торжествующий"
+        }
+      },
+      "_spacyLemma": "triumphant",
+      "example": "All that next week, while they were hurrying about being bought new clothes by Councillors’ wives, and while Gwendolen grew more and more excited and triumphant, Cat found he was missing Mrs.",
+      "exampleStart": 4452,
+      "exampleEnd": 4643,
+      "matchedForm": "triumphant",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.897143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "tried",
+      "lemma": "try",
+      "lemmaId": "try",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "try_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "пробовать"
+        }
+      },
+      "_spacyLemma": "try",
+      "example": "Sharp tried to give the impression that she looked after them for nothing, out of the goodness of her heart.",
+      "exampleStart": 1703,
+      "exampleEnd": 1811,
+      "matchedForm": "tried",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.288571,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "tugged",
+      "lemma": "tug",
+      "lemmaId": "tug",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "tug_verb",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "буксир"
+        }
+      },
+      "_spacyLemma": "tug",
+      "example": "He tugged the Mayor’s sleeve.",
+      "exampleStart": 3898,
+      "exampleEnd": 3927,
+      "matchedForm": "tugged",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.86,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "uncomfortable",
+      "lemma": "uncomfortable",
+      "lemmaId": "uncomfortable",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "uncomfortable_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "неудобный"
+        }
+      },
+      "_spacyLemma": "uncomfortable",
+      "example": "How uncomfortable!",
+      "exampleStart": 843,
+      "exampleEnd": 861,
+      "matchedForm": "uncomfortable",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.662857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "understand",
+      "lemma": "understand",
+      "lemmaId": "understand",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "understand_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "понимать"
+        }
+      },
+      "_spacyLemma": "understand",
+      "example": "“If you please, sir, I don’t understand who Chrestomanci is.",
+      "exampleStart": 3928,
+      "exampleEnd": 3988,
+      "matchedForm": "understand",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.325714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "uneasy",
+      "lemma": "uneasy",
+      "lemmaId": "uneasy",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "uneasy_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "беспокойный"
+        }
+      },
+      "_spacyLemma": "uneasy",
+      "example": "Sharp—particularly as he had an uneasy feeling that, before Gwendolen and Mrs.",
+      "exampleStart": 3257,
+      "exampleEnd": 3335,
+      "matchedForm": "uneasy",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.874286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "upset",
+      "lemma": "upset",
+      "lemmaId": "upset",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "upset_verb",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "расстройство"
+        }
+      },
+      "_spacyLemma": "upset",
+      "example": "It upset Cat.",
+      "exampleStart": 4839,
+      "exampleEnd": 4852,
+      "matchedForm": "upset",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.542857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "uttered",
+      "lemma": "utter",
+      "lemmaId": "utter",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "utter_verb",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "произносить"
+        }
+      },
+      "_spacyLemma": "utter",
       "example": "“And I see I needn’t tell you what lucky little people you are,” he said, as Gwendolen uttered a shriek of joy and hugged the dour Mrs.",
       "exampleStart": 3721,
       "exampleEnd": 3856,
-      "phraseMatch": {
-        "text": "you what",
-        "startInExample": 26,
-        "endInExample": 34
+      "matchedForm": "uttered",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.76,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "want",
+      "lemma": "want",
+      "lemmaId": "want",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "want_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "хотеть"
+        }
       },
-      "levelSource": "phrase_fallback"
+      "_spacyLemma": "want",
+      "example": "Cat was beginning to want to shake him.",
+      "exampleStart": 475,
+      "exampleEnd": 514,
+      "matchedForm": "want",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.134286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "waving",
+      "lemma": "wave",
+      "lemmaId": "wave",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "wave_adjective",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "волна"
+        }
+      },
+      "_spacyLemma": "wave",
+      "example": "Sharp deferentially offered him a cup of tea and a plate of her weakly waving gingerbread men.",
+      "exampleStart": 1373,
+      "exampleEnd": 1467,
+      "matchedForm": "waving",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.54,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "way",
+      "lemma": "way",
+      "lemmaId": "way",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "way_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "путь"
+        }
+      },
+      "_spacyLemma": "way",
+      "example": "“I’m called Chrestomanci, by the way.",
+      "exampleStart": 28,
+      "exampleEnd": 65,
+      "matchedForm": "way",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.142857,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "weakly",
+      "lemma": "weakly",
+      "lemmaId": "weakly",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "weakly_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "слабо"
+        }
+      },
+      "_spacyLemma": "weakly",
+      "example": "Sharp deferentially offered him a cup of tea and a plate of her weakly waving gingerbread men.",
+      "exampleStart": 1373,
+      "exampleEnd": 1467,
+      "matchedForm": "weakly",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 0.954286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "wearing",
+      "lemma": "wear",
+      "lemmaId": "wear",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "wear_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "носить"
+        }
+      },
+      "_spacyLemma": "wear",
+      "example": "You’re wearing important clothes.",
+      "exampleStart": 529,
+      "exampleEnd": 562,
+      "matchedForm": "wearing",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.454286,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "week",
+      "lemma": "week",
+      "lemmaId": "week",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "week_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "неделя"
+        }
+      },
+      "_spacyLemma": "week",
+      "example": "All that next week, while they were hurrying about being bought new clothes by Councillors’ wives, and while Gwendolen grew more and more excited and triumphant, Cat found he was missing Mrs.",
+      "exampleStart": 4452,
+      "exampleEnd": 4643,
+      "matchedForm": "week",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.271429,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "wives",
+      "lemma": "wife",
+      "lemmaId": "wife",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "wife_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "жена"
+        }
+      },
+      "_spacyLemma": "wife",
+      "example": "All that next week, while they were hurrying about being bought new clothes by Councillors’ wives, and while Gwendolen grew more and more excited and triumphant, Cat found he was missing Mrs.",
+      "exampleStart": 4452,
+      "exampleEnd": 4643,
+      "matchedForm": "wives",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.365714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "wishes",
+      "lemma": "wish",
+      "lemmaId": "wish",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "wish_verb",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "желание"
+        }
+      },
+      "_spacyLemma": "wish",
+      "example": "“No one wishes you to be out of pocket.",
+      "exampleStart": 2412,
+      "exampleEnd": 2451,
+      "matchedForm": "wishes",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.38,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "world",
+      "lemma": "world",
+      "lemmaId": "world",
+      "pos": "noun",
+      "source": "word",
+      "wordKey": "world_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "мир"
+        }
+      },
+      "_spacyLemma": "world",
+      "example": "Cat realized she was setting out to rule the world.",
+      "exampleStart": 5797,
+      "exampleEnd": 5848,
+      "matchedForm": "world",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.177143,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "worth",
+      "lemma": "worth",
+      "lemmaId": "worth",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "worth_adjective",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "ценность"
+        }
+      },
+      "_spacyLemma": "worth",
+      "example": "“It hardly seems worth it.",
+      "exampleStart": 735,
+      "exampleEnd": 761,
+      "matchedForm": "worth",
+      "levelSource": "cefr_frequency",
+      "difficultyScore": 0.385714,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "wringing",
+      "lemma": "wring",
+      "lemmaId": "wring",
+      "pos": "adjective",
+      "source": "word",
+      "wordKey": "wring_adjective",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "кручение"
+        }
+      },
+      "_spacyLemma": "wring",
+      "example": "But he’s not got a heart to wring,” Mrs.",
+      "exampleStart": 3172,
+      "exampleEnd": 3212,
+      "matchedForm": "wring",
+      "levelSource": "difficulty_heuristic",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
+    },
+    {
+      "word": "wrote",
+      "lemma": "write",
+      "lemmaId": "write",
+      "pos": "verb",
+      "source": "word",
+      "wordKey": "write_verb",
+      "level": "A2",
+      "translations": {
+        "ru": {
+          "translation": "писать"
+        }
+      },
+      "_spacyLemma": "write",
+      "example": "“You didn’t see the heart-wringing letter I wrote.",
+      "exampleStart": 3111,
+      "exampleEnd": 3161,
+      "matchedForm": "wrote",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.422857,
+      "difficultySource": "zipf"
+    }
+  ],
+  "namedEntities": [
+    {
+      "entityKey": "stranger_fac",
+      "text": "Stranger",
+      "normalizedText": "stranger",
+      "entityType": "FAC",
+      "spacyLabel": "FAC",
+      "entityCategory": "place_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 18,
+      "end": 26,
+      "tokenIndexes": [
+        7
+      ],
+      "sentenceStart": 0,
+      "sentenceEnd": 27
+    },
+    {
+      "entityKey": "chrestomanci_person",
+      "text": "Chrestomanci",
+      "normalizedText": "chrestomanci",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 40,
+      "end": 52,
+      "tokenIndexes": [
+        13
+      ],
+      "sentenceStart": 28,
+      "sentenceEnd": 83
+    },
+    {
+      "entityKey": "cat_org",
+      "text": "Cat",
+      "normalizedText": "cat",
+      "entityType": "ORG",
+      "spacyLabel": "ORG",
+      "entityCategory": "organization_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 79,
+      "end": 82,
+      "tokenIndexes": [
+        26
+      ],
+      "sentenceStart": 28,
+      "sentenceEnd": 83
+    },
+    {
+      "entityKey": "chrestomanci_person",
+      "text": "Chrestomanci",
+      "normalizedText": "chrestomanci",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 268,
+      "end": 280,
+      "tokenIndexes": [
+        77
+      ],
+      "sentenceStart": 256,
+      "sentenceEnd": 311
+    },
+    {
+      "entityKey": "cat_org",
+      "text": "Cat",
+      "normalizedText": "cat",
+      "entityType": "ORG",
+      "spacyLabel": "ORG",
+      "entityCategory": "organization_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 327,
+      "end": 330,
+      "tokenIndexes": [
+        89
+      ],
+      "sentenceStart": 311,
+      "sentenceEnd": 398
+    },
+    {
+      "entityKey": "chrestomanci_person",
+      "text": "Chrestomanci",
+      "normalizedText": "chrestomanci",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 436,
+      "end": 448,
+      "tokenIndexes": [
+        116
+      ],
+      "sentenceStart": 436,
+      "sentenceEnd": 475
+    },
+    {
+      "entityKey": "sharp_person",
+      "text": "Sharp",
+      "normalizedText": "sharp",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 572,
+      "end": 577,
+      "tokenIndexes": [
+        145
+      ],
+      "sentenceStart": 563,
+      "sentenceEnd": 592
+    },
+    {
+      "entityKey": "nostrum_person",
+      "text": "Nostrum",
+      "normalizedText": "nostrum",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 606,
+      "end": 613,
+      "tokenIndexes": [
+        153
+      ],
+      "sentenceStart": 593,
+      "sentenceEnd": 734
+    },
+    {
+      "entityKey": "three_cardinal",
+      "text": "three",
+      "normalizedText": "three",
+      "entityType": "CARDINAL",
+      "spacyLabel": "CARDINAL",
+      "entityCategory": "quantity",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 648,
+      "end": 653,
+      "tokenIndexes": [
+        161
+      ],
+      "sentenceStart": 593,
+      "sentenceEnd": 734
+    },
+    {
+      "entityKey": "nostrum_person",
+      "text": "Nostrum",
+      "normalizedText": "nostrum",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 675,
+      "end": 682,
+      "tokenIndexes": [
+        169
+      ],
+      "sentenceStart": 593,
+      "sentenceEnd": 734
+    },
+    {
+      "entityKey": "chrestomanci_person",
+      "text": "Chrestomanci",
+      "normalizedText": "chrestomanci",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 721,
+      "end": 733,
+      "tokenIndexes": [
+        179
+      ],
+      "sentenceStart": 593,
+      "sentenceEnd": 734
+    },
+    {
+      "entityKey": "gwendolen_person",
+      "text": "Gwendolen",
+      "normalizedText": "gwendolen",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 782,
+      "end": 791,
+      "tokenIndexes": [
+        196
+      ],
+      "sentenceStart": 769,
+      "sentenceEnd": 822
+    },
+    {
+      "entityKey": "cat_org",
+      "text": "Cat",
+      "normalizedText": "cat",
+      "entityType": "ORG",
+      "spacyLabel": "ORG",
+      "entityCategory": "organization_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 816,
+      "end": 819,
+      "tokenIndexes": [
+        203
+      ],
+      "sentenceStart": 769,
+      "sentenceEnd": 822
+    },
+    {
+      "entityKey": "chrestomanci_person",
+      "text": "Chrestomanci",
+      "normalizedText": "chrestomanci",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 868,
+      "end": 880,
+      "tokenIndexes": [
+        218
+      ],
+      "sentenceStart": 843,
+      "sentenceEnd": 883
+    },
+    {
+      "entityKey": "gwendolen_person",
+      "text": "Gwendolen",
+      "normalizedText": "gwendolen",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 941,
+      "end": 950,
+      "tokenIndexes": [
+        231
+      ],
+      "sentenceStart": 883,
+      "sentenceEnd": 1015
+    },
+    {
+      "entityKey": "chrestomanci_person",
+      "text": "Chrestomanci",
+      "normalizedText": "chrestomanci",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1021,
+      "end": 1033,
+      "tokenIndexes": [
+        247
+      ],
+      "sentenceStart": 1016,
+      "sentenceEnd": 1076
+    },
+    {
+      "entityKey": "chrestomanci_person",
+      "text": "Chrestomanci",
+      "normalizedText": "chrestomanci",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1043,
+      "end": 1055,
+      "tokenIndexes": [
+        253
+      ],
+      "sentenceStart": 1016,
+      "sentenceEnd": 1076
+    },
+    {
+      "entityKey": "stranger_fac",
+      "text": "Stranger",
+      "normalizedText": "stranger",
+      "entityType": "FAC",
+      "spacyLabel": "FAC",
+      "entityCategory": "place_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1067,
+      "end": 1075,
+      "tokenIndexes": [
+        258
+      ],
+      "sentenceStart": 1016,
+      "sentenceEnd": 1076
+    },
+    {
+      "entityKey": "gwendolen_person",
+      "text": "Gwendolen",
+      "normalizedText": "gwendolen",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1096,
+      "end": 1105,
+      "tokenIndexes": [
+        266
+      ],
+      "sentenceStart": 1083,
+      "sentenceEnd": 1114
+    },
+    {
+      "entityKey": "nostrum_person",
+      "text": "Nostrum",
+      "normalizedText": "nostrum",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1119,
+      "end": 1126,
+      "tokenIndexes": [
+        274
+      ],
+      "sentenceStart": 1115,
+      "sentenceEnd": 1177
+    },
+    {
+      "entityKey": "gwendolen_person",
+      "text": "Gwendolen",
+      "normalizedText": "gwendolen",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1165,
+      "end": 1174,
+      "tokenIndexes": [
+        285
+      ],
+      "sentenceStart": 1115,
+      "sentenceEnd": 1177
+    },
+    {
+      "entityKey": "sharp_person",
+      "text": "Sharp",
+      "normalizedText": "sharp",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1202,
+      "end": 1207,
+      "tokenIndexes": [
+        293
+      ],
+      "sentenceStart": 1177,
+      "sentenceEnd": 1230
+    },
+    {
+      "entityKey": "two_cardinal",
+      "text": "two",
+      "normalizedText": "two",
+      "entityType": "CARDINAL",
+      "spacyLabel": "CARDINAL",
+      "entityCategory": "quantity",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 1235,
+      "end": 1238,
+      "tokenIndexes": [
+        300
+      ],
+      "sentenceStart": 1231,
+      "sentenceEnd": 1303
+    },
+    {
+      "entityKey": "cat_org",
+      "text": "Cat",
+      "normalizedText": "cat",
+      "entityType": "ORG",
+      "spacyLabel": "ORG",
+      "entityCategory": "organization_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1279,
+      "end": 1282,
+      "tokenIndexes": [
+        309
+      ],
+      "sentenceStart": 1231,
+      "sentenceEnd": 1303
+    },
+    {
+      "entityKey": "chrestomanci_person",
+      "text": "Chrestomanci",
+      "normalizedText": "chrestomanci",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1304,
+      "end": 1316,
+      "tokenIndexes": [
+        315
+      ],
+      "sentenceStart": 1304,
+      "sentenceEnd": 1467
+    },
+    {
+      "entityKey": "sharp_person",
+      "text": "Sharp",
+      "normalizedText": "sharp",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1373,
+      "end": 1378,
+      "tokenIndexes": [
+        328
+      ],
+      "sentenceStart": 1304,
+      "sentenceEnd": 1467
+    },
+    {
+      "entityKey": "chrestomanci_person",
+      "text": "Chrestomanci",
+      "normalizedText": "chrestomanci",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1468,
+      "end": 1480,
+      "tokenIndexes": [
+        346
+      ],
+      "sentenceStart": 1468,
+      "sentenceEnd": 1559
+    },
+    {
+      "entityKey": "gwendolen_person",
+      "text": "Gwendolen",
+      "normalizedText": "gwendolen",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1645,
+      "end": 1654,
+      "tokenIndexes": [
+        385
+      ],
+      "sentenceStart": 1560,
+      "sentenceEnd": 1697
+    },
+    {
+      "entityKey": "sharp_person",
+      "text": "Sharp",
+      "normalizedText": "sharp",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1691,
+      "end": 1696,
+      "tokenIndexes": [
+        394
+      ],
+      "sentenceStart": 1560,
+      "sentenceEnd": 1697
+    },
+    {
+      "entityKey": "sharp_person",
+      "text": "Sharp",
+      "normalizedText": "sharp",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1703,
+      "end": 1708,
+      "tokenIndexes": [
+        397
+      ],
+      "sentenceStart": 1698,
+      "sentenceEnd": 1811
+    },
+    {
+      "entityKey": "chrestomanci_person",
+      "text": "Chrestomanci",
+      "normalizedText": "chrestomanci",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1822,
+      "end": 1834,
+      "tokenIndexes": [
+        421
+      ],
+      "sentenceStart": 1812,
+      "sentenceEnd": 1909
+    },
+    {
+      "entityKey": "the_town_council_org",
+      "text": "the Town Council",
+      "normalizedText": "the town council",
+      "entityType": "ORG",
+      "spacyLabel": "ORG",
+      "entityCategory": "organization_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1890,
+      "end": 1906,
+      "tokenIndexes": [
+        435,
+        436,
+        437
+      ],
+      "sentenceStart": 1812,
+      "sentenceEnd": 1909
+    },
+    {
+      "entityKey": "gwendolen_person",
+      "text": "Gwendolen",
+      "normalizedText": "gwendolen",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 1913,
+      "end": 1922,
+      "tokenIndexes": [
+        441
+      ],
+      "sentenceStart": 1909,
+      "sentenceEnd": 1958
+    },
+    {
+      "entityKey": "gwendolen_person",
+      "text": "Gwendolen",
+      "normalizedText": "gwendolen",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2098,
+      "end": 2107,
+      "tokenIndexes": [
+        481
+      ],
+      "sentenceStart": 2036,
+      "sentenceEnd": 2167
+    },
+    {
+      "entityKey": "sharp_person",
+      "text": "Sharp",
+      "normalizedText": "sharp",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2138,
+      "end": 2143,
+      "tokenIndexes": [
+        487
+      ],
+      "sentenceStart": 2036,
+      "sentenceEnd": 2167
+    },
+    {
+      "entityKey": "chrestomanci_person",
+      "text": "Chrestomanci",
+      "normalizedText": "chrestomanci",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2208,
+      "end": 2220,
+      "tokenIndexes": [
+        507
+      ],
+      "sentenceStart": 2167,
+      "sentenceEnd": 2291
+    },
+    {
+      "entityKey": "sharp_person",
+      "text": "Sharp",
+      "normalizedText": "sharp",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2297,
+      "end": 2302,
+      "tokenIndexes": [
+        525
+      ],
+      "sentenceStart": 2292,
+      "sentenceEnd": 2321
+    },
+    {
+      "entityKey": "gwendolen_person",
+      "text": "Gwendolen",
+      "normalizedText": "gwendolen",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2336,
+      "end": 2345,
+      "tokenIndexes": [
+        533
+      ],
+      "sentenceStart": 2322,
+      "sentenceEnd": 2360
+    },
+    {
+      "entityKey": "sharp_person",
+      "text": "Sharp",
+      "normalizedText": "sharp",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2385,
+      "end": 2390,
+      "tokenIndexes": [
+        545
+      ],
+      "sentenceStart": 2361,
+      "sentenceEnd": 2411
+    },
+    {
+      "entityKey": "chrestomanci_person",
+      "text": "Chrestomanci",
+      "normalizedText": "chrestomanci",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2398,
+      "end": 2410,
+      "tokenIndexes": [
+        549
+      ],
+      "sentenceStart": 2361,
+      "sentenceEnd": 2411
+    },
+    {
+      "entityKey": "gwendolen_person",
+      "text": "Gwendolen",
+      "normalizedText": "gwendolen",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2478,
+      "end": 2487,
+      "tokenIndexes": [
+        568
+      ],
+      "sentenceStart": 2453,
+      "sentenceEnd": 2555
+    },
+    {
+      "entityKey": "sharp_person",
+      "text": "Sharp",
+      "normalizedText": "sharp",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2691,
+      "end": 2696,
+      "tokenIndexes": [
+        622
+      ],
+      "sentenceStart": 2648,
+      "sentenceEnd": 2746
+    },
+    {
+      "entityKey": "gwendolen_person",
+      "text": "Gwendolen",
+      "normalizedText": "gwendolen",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2708,
+      "end": 2717,
+      "tokenIndexes": [
+        626
+      ],
+      "sentenceStart": 2648,
+      "sentenceEnd": 2746
+    },
+    {
+      "entityKey": "gwendolen_person",
+      "text": "Gwendolen",
+      "normalizedText": "gwendolen",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2780,
+      "end": 2789,
+      "tokenIndexes": [
+        644
+      ],
+      "sentenceStart": 2770,
+      "sentenceEnd": 2792
+    },
+    {
+      "entityKey": "gwendolen_person",
+      "text": "Gwendolen",
+      "normalizedText": "gwendolen",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2845,
+      "end": 2854,
+      "tokenIndexes": [
+        659
+      ],
+      "sentenceStart": 2792,
+      "sentenceEnd": 2855
+    },
+    {
+      "entityKey": "sharp_person",
+      "text": "Sharp",
+      "normalizedText": "sharp",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 2944,
+      "end": 2949,
+      "tokenIndexes": [
+        686
+      ],
+      "sentenceStart": 2931,
+      "sentenceEnd": 2950
+    },
+    {
+      "entityKey": "gwendolen_person",
+      "text": "Gwendolen",
+      "normalizedText": "gwendolen",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 3081,
+      "end": 3090,
+      "tokenIndexes": [
+        720
+      ],
+      "sentenceStart": 3081,
+      "sentenceEnd": 3110
+    },
+    {
+      "entityKey": "sharp_person",
+      "text": "Sharp",
+      "normalizedText": "sharp",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 3213,
+      "end": 3218,
+      "tokenIndexes": [
+        754
+      ],
+      "sentenceStart": 3172,
+      "sentenceEnd": 3228
+    },
+    {
+      "entityKey": "sharp_person",
+      "text": "Sharp",
+      "normalizedText": "sharp",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 3257,
+      "end": 3262,
+      "tokenIndexes": [
+        762
+      ],
+      "sentenceStart": 3229,
+      "sentenceEnd": 3429
+    },
+    {
+      "entityKey": "gwendolen_person",
+      "text": "Gwendolen",
+      "normalizedText": "gwendolen",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 3317,
+      "end": 3326,
+      "tokenIndexes": [
+        774
+      ],
+      "sentenceStart": 3229,
+      "sentenceEnd": 3429
+    },
+    {
+      "entityKey": "sharp_person",
+      "text": "Sharp",
+      "normalizedText": "sharp",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 3336,
+      "end": 3341,
+      "tokenIndexes": [
+        777
+      ],
+      "sentenceStart": 3229,
+      "sentenceEnd": 3429
+    },
+    {
+      "entityKey": "chrestomanci_person",
+      "text": "Chrestomanci",
+      "normalizedText": "chrestomanci",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 3384,
+      "end": 3396,
+      "tokenIndexes": [
+        786
+      ],
+      "sentenceStart": 3229,
+      "sentenceEnd": 3429
+    },
+    {
+      "entityKey": "gwendolen_person",
+      "text": "Gwendolen",
+      "normalizedText": "gwendolen",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 3439,
+      "end": 3448,
+      "tokenIndexes": [
+        797
+      ],
+      "sentenceStart": 3430,
+      "sentenceEnd": 3472
+    },
+    {
+      "entityKey": "gwendolen_person",
+      "text": "Gwendolen",
+      "normalizedText": "gwendolen",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 3539,
+      "end": 3548,
+      "tokenIndexes": [
+        819
+      ],
+      "sentenceStart": 3513,
+      "sentenceEnd": 3568
+    },
+    {
+      "entityKey": "that_afternoon_time",
+      "text": "that afternoon",
+      "normalizedText": "that afternoon",
+      "entityType": "TIME",
+      "spacyLabel": "TIME",
+      "entityCategory": "date_time",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 3586,
+      "end": 3600,
+      "tokenIndexes": [
+        828,
+        829
+      ],
+      "sentenceStart": 3569,
+      "sentenceEnd": 3720
+    },
+    {
+      "entityKey": "chrestomanci_person",
+      "text": "Chrestomanci",
+      "normalizedText": "chrestomanci",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 3620,
+      "end": 3632,
+      "tokenIndexes": [
+        834
+      ],
+      "sentenceStart": 3569,
+      "sentenceEnd": 3720
+    },
+    {
+      "entityKey": "cat_and_gwendolen_org",
+      "text": "Cat and Gwendolen",
+      "normalizedText": "cat and gwendolen",
+      "entityType": "ORG",
+      "spacyLabel": "ORG",
+      "entityCategory": "organization_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 3650,
+      "end": 3667,
+      "tokenIndexes": [
+        838,
+        839,
+        840
+      ],
+      "sentenceStart": 3569,
+      "sentenceEnd": 3720
+    },
+    {
+      "entityKey": "gwendolen_person",
+      "text": "Gwendolen",
+      "normalizedText": "gwendolen",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 3798,
+      "end": 3807,
+      "tokenIndexes": [
+        875
+      ],
+      "sentenceStart": 3721,
+      "sentenceEnd": 3865
+    },
+    {
+      "entityKey": "sharp_person",
+      "text": "Sharp",
+      "normalizedText": "sharp",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 3857,
+      "end": 3862,
+      "tokenIndexes": [
+        886
+      ],
+      "sentenceStart": 3721,
+      "sentenceEnd": 3865
+    },
+    {
+      "entityKey": "chrestomanci_person",
+      "text": "Chrestomanci",
+      "normalizedText": "chrestomanci",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 3972,
+      "end": 3984,
+      "tokenIndexes": [
+        915
+      ],
+      "sentenceStart": 3928,
+      "sentenceEnd": 3991
+    },
+    {
+      "entityKey": "europe_location",
+      "text": "Europe",
+      "normalizedText": "europe",
+      "entityType": "LOCATION",
+      "spacyLabel": "LOC",
+      "entityCategory": "place_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 4121,
+      "end": 4127,
+      "tokenIndexes": [
+        950
+      ],
+      "sentenceStart": 4069,
+      "sentenceEnd": 4148
+    },
+    {
+      "entityKey": "gwendolen_person",
+      "text": "Gwendolen",
+      "normalizedText": "gwendolen",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 4300,
+      "end": 4309,
+      "tokenIndexes": [
+        993
+      ],
+      "sentenceStart": 4288,
+      "sentenceEnd": 4360
+    },
+    {
+      "entityKey": "second_ordinal",
+      "text": "second",
+      "normalizedText": "second",
+      "entityType": "ORDINAL",
+      "spacyLabel": "ORDINAL",
+      "entityCategory": "quantity",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 4367,
+      "end": 4373,
+      "tokenIndexes": [
+        1006
+      ],
+      "sentenceStart": 4360,
+      "sentenceEnd": 4451
+    },
+    {
+      "entityKey": "cat_org",
+      "text": "Cat",
+      "normalizedText": "cat",
+      "entityType": "ORG",
+      "spacyLabel": "ORG",
+      "entityCategory": "organization_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 4401,
+      "end": 4404,
+      "tokenIndexes": [
+        1012
+      ],
+      "sentenceStart": 4360,
+      "sentenceEnd": 4451
+    },
+    {
+      "entityKey": "next_week_date",
+      "text": "next week",
+      "normalizedText": "next week",
+      "entityType": "DATE",
+      "spacyLabel": "DATE",
+      "entityCategory": "date_time",
+      "learningType": "named_entity",
+      "difficultyMarker": "entity_value",
+      "source": "spacy_ner",
+      "start": 4461,
+      "end": 4470,
+      "tokenIndexes": [
+        1027,
+        1028
+      ],
+      "sentenceStart": 4452,
+      "sentenceEnd": 4720
+    },
+    {
+      "entityKey": "gwendolen_person",
+      "text": "Gwendolen",
+      "normalizedText": "gwendolen",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 4561,
+      "end": 4570,
+      "tokenIndexes": [
+        1046
+      ],
+      "sentenceStart": 4452,
+      "sentenceEnd": 4720
+    },
+    {
+      "entityKey": "cat_org",
+      "text": "Cat",
+      "normalizedText": "cat",
+      "entityType": "ORG",
+      "spacyLabel": "ORG",
+      "entityCategory": "organization_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 4614,
+      "end": 4617,
+      "tokenIndexes": [
+        1055
+      ],
+      "sentenceStart": 4452,
+      "sentenceEnd": 4720
+    },
+    {
+      "entityKey": "sharp_person",
+      "text": "Sharp",
+      "normalizedText": "sharp",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 4644,
+      "end": 4649,
+      "tokenIndexes": [
+        1061
+      ],
+      "sentenceStart": 4452,
+      "sentenceEnd": 4720
+    },
+    {
+      "entityKey": "miss_larkins_person",
+      "text": "Miss Larkins",
+      "normalizedText": "miss larkins",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 4675,
+      "end": 4687,
+      "tokenIndexes": [
+        1068,
+        1069
+      ],
+      "sentenceStart": 4452,
+      "sentenceEnd": 4720
+    },
+    {
+      "entityKey": "gwendolen_person",
+      "text": "Gwendolen",
+      "normalizedText": "gwendolen",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 4961,
+      "end": 4970,
+      "tokenIndexes": [
+        1137
+      ],
+      "sentenceStart": 4961,
+      "sentenceEnd": 5090
+    },
+    {
+      "entityKey": "gwendolen_person",
+      "text": "Gwendolen",
+      "normalizedText": "gwendolen",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 5285,
+      "end": 5294,
+      "tokenIndexes": [
+        1220
+      ],
+      "sentenceStart": 5219,
+      "sentenceEnd": 5295
+    },
+    {
+      "entityKey": "wolvercote_person",
+      "text": "Wolvercote",
+      "normalizedText": "wolvercote",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 5358,
+      "end": 5368,
+      "tokenIndexes": [
+        1242
+      ],
+      "sentenceStart": 5327,
+      "sentenceEnd": 5422
+    },
+    {
+      "entityKey": "councillors_org",
+      "text": "Councillors",
+      "normalizedText": "councillors",
+      "entityType": "ORG",
+      "spacyLabel": "ORG",
+      "entityCategory": "organization_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 5384,
+      "end": 5395,
+      "tokenIndexes": [
+        1247
+      ],
+      "sentenceStart": 5327,
+      "sentenceEnd": 5422
+    },
+    {
+      "entityKey": "chrestomanci_person",
+      "text": "Chrestomanci",
+      "normalizedText": "chrestomanci",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 5427,
+      "end": 5439,
+      "tokenIndexes": [
+        1253
+      ],
+      "sentenceStart": 5423,
+      "sentenceEnd": 5462
+    },
+    {
+      "entityKey": "cat_org",
+      "text": "Cat",
+      "normalizedText": "cat",
+      "entityType": "ORG",
+      "spacyLabel": "ORG",
+      "entityCategory": "organization_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 5525,
+      "end": 5528,
+      "tokenIndexes": [
+        1279
+      ],
+      "sentenceStart": 5463,
+      "sentenceEnd": 5529
+    },
+    {
+      "entityKey": "gwendolen_person",
+      "text": "Gwendolen",
+      "normalizedText": "gwendolen",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 5631,
+      "end": 5640,
+      "tokenIndexes": [
+        1313
+      ],
+      "sentenceStart": 5530,
+      "sentenceEnd": 5641
+    },
+    {
+      "entityKey": "gwendolen_person",
+      "text": "Gwendolen",
+      "normalizedText": "gwendolen",
+      "entityType": "PERSON",
+      "spacyLabel": "PERSON",
+      "entityCategory": "character_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 5714,
+      "end": 5723,
+      "tokenIndexes": [
+        1332
+      ],
+      "sentenceStart": 5642,
+      "sentenceEnd": 5796
+    },
+    {
+      "entityKey": "royalty_gpe",
+      "text": "Royalty",
+      "normalizedText": "royalty",
+      "entityType": "GPE",
+      "spacyLabel": "GPE",
+      "entityCategory": "place_candidate",
+      "learningType": "named_entity",
+      "difficultyMarker": "proper_name",
+      "source": "spacy_ner",
+      "start": 5788,
+      "end": 5795,
+      "tokenIndexes": [
+        1348
+      ],
+      "sentenceStart": 5642,
+      "sentenceEnd": 5796
     }
   ]
 }

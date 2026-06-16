@@ -21,18 +21,44 @@
       "wordCount": 597,
       "uniqueWordCount": 314,
       "paragraphCount": 10,
-      "vocabularyCount": 183,
+      "vocabularyCount": 201,
       "levelDistribution": {
-        "A1": 66,
-        "A2": 42,
-        "B1": 19,
-        "B2": 50,
+        "A1": 65,
+        "A2": 46,
+        "B1": 26,
+        "B2": 58,
         "C1": 6,
         "C2": 0
       }
     }
   },
   "vocabulary": [
+    {
+      "word": "a day trip",
+      "lemma": "a day trip",
+      "lemmaId": "a_day_trip",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "a_day_trip_phrase",
+      "level": "A2",
+      "levelSource": "phrase_fallback",
+      "translations": {
+        "ru": {
+          "translation": "поездка на день"
+        }
+      },
+      "definition": "collocation: A short outing for one day (down the river).",
+      "example": "The first great change came about when their parents took them out for a day trip down the river in a paddle steamer.",
+      "exampleStart": 195,
+      "exampleEnd": 312,
+      "exampleTranslation": "поездка на день",
+      "phraseMatch": {
+        "text": "a day trip",
+        "startInExample": 71,
+        "endInExample": 81
+      }
+    },
     {
       "word": "aboard",
       "lemma": "aboard",
@@ -43,7 +69,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "На борту"
+          "translation": "на борту"
         }
       },
       "_spacyLemma": "aboard",
@@ -65,7 +91,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Авария"
+          "translation": "несчастный случай"
         }
       },
       "_spacyLemma": "accident",
@@ -87,7 +113,7 @@
       "level": "C1",
       "translations": {
         "ru": {
-          "translation": "ВОСХИЩАЛСЯ своей старшей сестрой Гвендолен"
+          "translation": "восхищаться"
         }
       },
       "_spacyLemma": "admire",
@@ -109,7 +135,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Возраст"
+          "translation": "возраст"
         }
       },
       "_spacyLemma": "age",
@@ -131,7 +157,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Герб"
+          "translation": "руки"
         }
       },
       "_spacyLemma": "arm",
@@ -153,7 +179,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "спросил"
+          "translation": "спрашивать"
         }
       },
       "_spacyLemma": "ask",
@@ -166,6 +192,32 @@
       "difficultySource": "zipf"
     },
     {
+      "word": "at public expense",
+      "lemma": "at public expense",
+      "lemmaId": "at_public_expense",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "at_public_expense_phrase",
+      "level": "B2",
+      "levelSource": "phrase_fallback",
+      "translations": {
+        "ru": {
+          "translation": "за счёт государства"
+        }
+      },
+      "definition": "fixed expression: Paid for by the public/government (heavy black clothes at public expense).",
+      "example": "Gwendolen and Cat were given heavy black clothes at public expense, and rode behind the procession of hearses in a carriage pulled by black horses with black plumes on their heads.",
+      "exampleStart": 1751,
+      "exampleEnd": 1931,
+      "exampleTranslation": "за счёт государства",
+      "phraseMatch": {
+        "text": "at public expense",
+        "startInExample": 49,
+        "endInExample": 66
+      }
+    },
+    {
       "word": "away",
       "lemma": "away",
       "lemmaId": "away",
@@ -175,7 +227,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Вдали"
+          "translation": "прочь"
         }
       },
       "_spacyLemma": "away",
@@ -188,6 +240,84 @@
       "difficultySource": "zipf"
     },
     {
+      "word": "was crammed with",
+      "lemma": "be crammed with",
+      "lemmaId": "be_crammed_with",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "be_crammed_with_phrase",
+      "level": "B2",
+      "levelSource": "phrase_fallback",
+      "translations": {
+        "ru": {
+          "translation": "быть набитым (людьми/вещами)"
+        }
+      },
+      "definition": "collocation: To be extremely full (the steamer was crammed with holiday people).",
+      "example": "The steamer was crammed with other people in holiday clothes, talking, laughing, eating whelks with thin slices of white bread and butter, while the paddleboat steam organ wheezed out popular tunes so that no one could hear themselves talk.",
+      "exampleStart": 471,
+      "exampleEnd": 711,
+      "exampleTranslation": "быть набитым (людьми/вещами)",
+      "phraseMatch": {
+        "text": "was crammed with",
+        "startInExample": 12,
+        "endInExample": 28
+      }
+    },
+    {
+      "word": "quite unable to swim",
+      "lemma": "be quite unable to swim",
+      "lemmaId": "be_quite_unable_to_swim",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "be_quite_unable_to_swim_phrase",
+      "level": "B1",
+      "levelSource": "phrase_fallback",
+      "translations": {
+        "ru": {
+          "translation": "совершенно не могли плыть"
+        }
+      },
+      "definition": "fixed expression: Emphasizes they could not do it at all (the ladies couldn’t swim).",
+      "example": "The ladies in their clinging skirts were quite unable to swim.",
+      "exampleStart": 1332,
+      "exampleEnd": 1394,
+      "exampleTranslation": "совершенно не могли плыть",
+      "phraseMatch": {
+        "text": "quite unable to swim",
+        "startInExample": 41,
+        "endInExample": 61
+      }
+    },
+    {
+      "word": "very little better off",
+      "lemma": "be very little better off",
+      "lemmaId": "be_very_little_better_off",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "be_very_little_better_off_phrase",
+      "level": "B2",
+      "levelSource": "phrase_fallback",
+      "translations": {
+        "ru": {
+          "translation": "почти в таком же положении"
+        }
+      },
+      "definition": "fixed expression: Says there wasn’t much improvement compared to the worst situation (men were barely better off).",
+      "example": "The men in tight blue serge were very little better off.",
+      "exampleStart": 1395,
+      "exampleEnd": 1451,
+      "exampleTranslation": "почти в таком же положении",
+      "phraseMatch": {
+        "text": "very little better off",
+        "startInExample": 33,
+        "endInExample": 55
+      }
+    },
+    {
       "word": "beating",
       "lemma": "beat",
       "lemmaId": "beat",
@@ -197,7 +327,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Победа над голубым небом"
+          "translation": "биться"
         }
       },
       "_spacyLemma": "beat",
@@ -219,7 +349,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Красиво"
+          "translation": "красивый"
         }
       },
       "_spacyLemma": "beautiful",
@@ -285,7 +415,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Лодка"
+          "translation": "лодка"
         }
       },
       "_spacyLemma": "boat",
@@ -320,6 +450,32 @@
       "difficultySource": "zipf"
     },
     {
+      "word": "broke into pieces",
+      "lemma": "break into pieces",
+      "lemmaId": "break_into_pieces",
+      "pos": "phrasal_verb",
+      "type": "phrasal_verb",
+      "source": "fixed_expression",
+      "wordKey": "break_into_pieces_phrasal_verb",
+      "level": "B1",
+      "levelSource": "phrase_fallback",
+      "translations": {
+        "ru": {
+          "translation": "разлететься на куски"
+        }
+      },
+      "definition": "phrasal verb: To separate suddenly into many parts (the old steamer broke apart).",
+      "example": "They hit one of the posts which were supposed to stop people being swept away, and the paddle steamer, being old, simply broke into pieces.",
+      "exampleStart": 901,
+      "exampleEnd": 1040,
+      "exampleTranslation": "разлететься на куски",
+      "phraseMatch": {
+        "text": "broke into pieces",
+        "startInExample": 121,
+        "endInExample": 138
+      }
+    },
+    {
       "word": "broke into",
       "lemma": "break into",
       "lemmaId": "break_into",
@@ -330,7 +486,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "вломился"
+          "translation": "рассыпаться"
         }
       },
       "example": "They hit one of the posts which were supposed to stop people being swept away, and the paddle steamer, being old, simply broke into pieces.",
@@ -353,7 +509,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "без денег"
+          "translation": "ломаться"
         }
       },
       "_spacyLemma": "break",
@@ -375,7 +531,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "сломано"
+          "translation": "сломанный"
         }
       },
       "_spacyLemma": "broken",
@@ -419,7 +575,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "торт"
+          "translation": "пирожное"
         }
       },
       "_spacyLemma": "cake",
@@ -441,7 +597,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Призыв"
+          "translation": "называть"
         }
       },
       "_spacyLemma": "call",
@@ -463,7 +619,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Вагон"
+          "translation": "карета"
         }
       },
       "_spacyLemma": "carriage",
@@ -485,7 +641,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Знаменитости"
+          "translation": "известные люди"
         }
       },
       "_spacyLemma": "celebrity",
@@ -507,7 +663,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Изменения"
+          "translation": "изменения"
         }
       },
       "_spacyLemma": "change",
@@ -529,7 +685,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Глава"
+          "translation": "глава"
         }
       },
       "_spacyLemma": "chapter",
@@ -552,7 +708,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "цеплялся"
+          "translation": "цепляться"
         }
       },
       "example": "He admired her and he clung to her.",
@@ -575,7 +731,7 @@
       "level": "C1",
       "translations": {
         "ru": {
-          "translation": "Цепляться"
+          "translation": "цепляться"
         }
       },
       "_spacyLemma": "cling",
@@ -597,7 +753,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "Одежда"
+          "translation": "одежда"
         }
       },
       "_spacyLemma": "clothes",
@@ -619,7 +775,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Облака"
+          "translation": "облака"
         }
       },
       "_spacyLemma": "cloud",
@@ -642,7 +798,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "появился"
+          "translation": "происходить"
         }
       },
       "example": "The first great change came about when their parents took them out for a day trip down the river in a paddle steamer.",
@@ -665,7 +821,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "пришёл"
+          "translation": "приходить"
         }
       },
       "_spacyLemma": "come",
@@ -687,7 +843,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Компания"
+          "translation": "организация"
         }
       },
       "_spacyLemma": "company",
@@ -700,6 +856,32 @@
       "difficultySource": "zipf"
     },
     {
+      "word": "no one could hear themselves talk",
+      "lemma": "could hear themselves talk",
+      "lemmaId": "could_hear_themselves_talk",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "could_hear_themselves_talk_phrase",
+      "level": "B2",
+      "levelSource": "phrase_fallback",
+      "translations": {
+        "ru": {
+          "translation": "не слышать собственных слов"
+        }
+      },
+      "definition": "idiom: When it’s so noisy that you can’t even hear what you’re saying (because the organ was so loud).",
+      "example": "The steamer was crammed with other people in holiday clothes, talking, laughing, eating whelks with thin slices of white bread and butter, while the paddleboat steam organ wheezed out popular tunes so that no one could hear themselves talk.",
+      "exampleStart": 471,
+      "exampleEnd": 711,
+      "exampleTranslation": "не слышать собственных слов",
+      "phraseMatch": {
+        "text": "no one could hear themselves talk",
+        "startInExample": 206,
+        "endInExample": 239
+      }
+    },
+    {
       "word": "country",
       "lemma": "country",
       "lemmaId": "country",
@@ -709,7 +891,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Кантри"
+          "translation": "страна"
         }
       },
       "_spacyLemma": "country",
@@ -731,7 +913,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "набит"
+          "translation": "набивать"
         }
       },
       "_spacyLemma": "cram",
@@ -753,7 +935,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Толпа"
+          "translation": "толпа"
         }
       },
       "_spacyLemma": "crowd",
@@ -775,7 +957,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Многолюдно"
+          "translation": "переполненный"
         }
       },
       "_spacyLemma": "crowded",
@@ -797,7 +979,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Настоящее время"
+          "translation": "течение"
         }
       },
       "_spacyLemma": "current",
@@ -819,7 +1001,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Плотина"
+          "translation": "плотина"
         }
       },
       "_spacyLemma": "dam",
@@ -863,7 +1045,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Откройте"
+          "translation": "обнаружить"
         }
       },
       "_spacyLemma": "discover",
@@ -876,6 +1058,32 @@
       "difficultySource": "zipf"
     },
     {
+      "word": "down the river",
+      "lemma": "down the river",
+      "lemmaId": "down_the_river",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "down_the_river_phrase",
+      "level": "A2",
+      "levelSource": "phrase_fallback",
+      "translations": {
+        "ru": {
+          "translation": "вниз по реке"
+        }
+      },
+      "definition": "collocation: Direction along the river (their day trip went down the river).",
+      "example": "The first great change came about when their parents took them out for a day trip down the river in a paddle steamer.",
+      "exampleStart": 195,
+      "exampleEnd": 312,
+      "exampleTranslation": "вниз по реке",
+      "phraseMatch": {
+        "text": "down the river",
+        "startInExample": 82,
+        "endInExample": 96
+      }
+    },
+    {
       "word": "downstairs",
       "lemma": "downstair",
       "lemmaId": "downstair",
@@ -885,7 +1093,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Внизу"
+          "translation": "внизу"
         }
       },
       "_spacyLemma": "downstair",
@@ -907,7 +1115,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Платья"
+          "translation": "платья"
         }
       },
       "_spacyLemma": "dress",
@@ -920,6 +1128,32 @@
       "difficultySource": "zipf"
     },
     {
+      "word": "drowned the screams",
+      "lemma": "drown the screams",
+      "lemmaId": "drown_the_screams",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "drown_the_screams_phrase",
+      "level": "B2",
+      "levelSource": "phrase_fallback",
+      "translations": {
+        "ru": {
+          "translation": "заглушить крики"
+        }
+      },
+      "definition": "metaphor: A figurative use: the steam/chaos was so loud it “covered” the screams.",
+      "example": "Clouds of steam screamed from broken pipes and drowned the screams from the crowd, as every single person aboard was swept away through the dam.",
+      "exampleStart": 1112,
+      "exampleEnd": 1256,
+      "exampleTranslation": "заглушить крики",
+      "phraseMatch": {
+        "text": "drowned the screams",
+        "startInExample": 47,
+        "endInExample": 66
+      }
+    },
+    {
       "word": "drowned",
       "lemma": "drown",
       "lemmaId": "drown",
@@ -929,7 +1163,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "заглушали крики толпы"
+          "translation": "утопить"
         }
       },
       "_spacyLemma": "drown",
@@ -951,7 +1185,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Еда"
+          "translation": "есть"
         }
       },
       "_spacyLemma": "eat",
@@ -973,7 +1207,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Образование"
+          "translation": "образование"
         }
       },
       "_spacyLemma": "education",
@@ -995,7 +1229,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Старейшина"
+          "translation": "старший"
         }
       },
       "_spacyLemma": "elder",
@@ -1017,7 +1251,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "Стоимость"
+          "translation": "расходы"
         }
       },
       "_spacyLemma": "expense",
@@ -1039,7 +1273,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "объяснил, что деньги из Фонда кладутся в траст для них до тех пор, пока они не вырастут"
+          "translation": "объяснять"
         }
       },
       "_spacyLemma": "explain",
@@ -1083,7 +1317,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "факт, что пароход был слишком переполнен и слишком старым"
+          "translation": "факт"
         }
       },
       "_spacyLemma": "fact",
@@ -1105,7 +1339,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "справедливо"
+          "translation": "светлый"
         }
       },
       "_spacyLemma": "fair",
@@ -1149,7 +1383,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "чувство"
+          "translation": "чувствовать"
         }
       },
       "_spacyLemma": "feel",
@@ -1172,7 +1406,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Выяснил"
+          "translation": "узнать"
         }
       },
       "example": "Cat looked at them and wondered if they were witches and warlocks, but he never found out.",
@@ -1195,7 +1429,7 @@
       "level": "C1",
       "translations": {
         "ru": {
-          "translation": "Найдено"
+          "translation": "найти"
         }
       },
       "_spacyLemma": "find",
@@ -1217,7 +1451,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "обнял Гвендолен, когда лодка ударилась о столб"
+          "translation": "бросить"
         }
       },
       "_spacyLemma": "fling",
@@ -1239,7 +1473,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Похороны"
+          "translation": "похороны"
         }
       },
       "_spacyLemma": "funeral",
@@ -1262,7 +1496,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Поехать"
+          "translation": "дела"
         }
       },
       "example": "Town Councillors came and asked how he was getting on; and the Mayor called and patted him on the head.",
@@ -1273,7 +1507,9 @@
         "startInExample": 43,
         "endInExample": 53
       },
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "definition": "phrasal verb: To progress or do well in life; here the councillors ask about his situation.",
+      "exampleTranslation": "как у него дела"
     },
     {
       "word": "getting",
@@ -1285,7 +1521,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Получение"
+          "translation": "получаться"
         }
       },
       "_spacyLemma": "get",
@@ -1330,7 +1566,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "ушёл"
+          "translation": "уйти"
         }
       },
       "example": "All the other survivors took their share and went away to start new lives elsewhere.",
@@ -1353,7 +1589,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "ушёл"
+          "translation": "уйти"
         }
       },
       "_spacyLemma": "go",
@@ -1366,6 +1602,32 @@
       "difficultySource": "zipf"
     },
     {
+      "word": "went wrong with the steering",
+      "lemma": "go wrong with",
+      "lemmaId": "go_wrong_with",
+      "pos": "prepositional_verb",
+      "type": "prepositional_verb",
+      "source": "fixed_expression",
+      "wordKey": "go_wrong_with_prepositional_verb",
+      "level": "B1",
+      "levelSource": "phrase_fallback",
+      "translations": {
+        "ru": {
+          "translation": "сломаться / пойти не так (с управлением)"
+        }
+      },
+      "definition": "prepositional verb: Something stopped working properly (the steering had a problem).",
+      "example": "Something went wrong with the steering.",
+      "exampleStart": 762,
+      "exampleEnd": 801,
+      "exampleTranslation": "сломаться / пойти не так (с управлением)",
+      "phraseMatch": {
+        "text": "went wrong with the steering",
+        "startInExample": 10,
+        "endInExample": 38
+      }
+    },
+    {
       "word": "good",
       "lemma": "good",
       "lemmaId": "good",
@@ -1375,7 +1637,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Хорошо"
+          "translation": "хороший"
         }
       },
       "_spacyLemma": "good",
@@ -1397,7 +1659,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Отлично"
+          "translation": "великий"
         }
       },
       "_spacyLemma": "great",
@@ -1419,7 +1681,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "вырос"
+          "translation": "взрослеть"
         }
       },
       "_spacyLemma": "grow",
@@ -1432,28 +1694,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "HANT",
-      "lemma": "hant",
-      "lemmaId": "hant",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "hant_noun",
-      "level": "A1",
-      "translations": {
-        "ru": {
-          "translation": "ХАНТ"
-        }
-      },
-      "_spacyLemma": "hant",
-      "example": "Chapter 1\n\n1\n\nC\n AT C HANT ADMIRED his elder sister Gwendolen.",
-      "exampleStart": 0,
-      "exampleEnd": 62,
-      "matchedForm": "HANT",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 1,
-      "difficultySource": "zipf"
-    },
-    {
       "word": "heads",
       "lemma": "head",
       "lemmaId": "head",
@@ -1463,7 +1703,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Головы"
+          "translation": "голова"
         }
       },
       "_spacyLemma": "head",
@@ -1485,7 +1725,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Слушай"
+          "translation": "слышать"
         }
       },
       "_spacyLemma": "hear",
@@ -1507,7 +1747,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "катафалки"
+          "translation": "катафалк"
         }
       },
       "_spacyLemma": "hearse",
@@ -1551,7 +1791,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Хит"
+          "translation": "ударить"
         }
       },
       "_spacyLemma": "hit",
@@ -1573,7 +1813,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Праздники"
+          "translation": "праздник"
         }
       },
       "_spacyLemma": "holiday",
@@ -1595,7 +1835,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Лошади"
+          "translation": "лошадь"
         }
       },
       "_spacyLemma": "horse",
@@ -1617,7 +1857,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "горячо"
+          "translation": "жаркий"
         }
       },
       "_spacyLemma": "hot",
@@ -1630,6 +1870,58 @@
       "difficultySource": "zipf"
     },
     {
+      "word": "In fact",
+      "lemma": "in fact",
+      "lemmaId": "in_fact",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "in_fact_phrase",
+      "level": "B1",
+      "levelSource": "phrase_fallback",
+      "translations": {
+        "ru": {
+          "translation": "на самом деле"
+        }
+      },
+      "definition": "discourse marker: Used to correct or add more accurate information (here: the steamer was actually too crowded and old).",
+      "example": "In fact the steamer was too crowded and too old.",
+      "exampleStart": 713,
+      "exampleEnd": 761,
+      "exampleTranslation": "на самом деле",
+      "phraseMatch": {
+        "text": "In fact",
+        "startInExample": 0,
+        "endInExample": 7
+      }
+    },
+    {
+      "word": "in great style",
+      "lemma": "in great style",
+      "lemmaId": "in_great_style",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "in_great_style_phrase",
+      "level": "B1",
+      "levelSource": "phrase_fallback",
+      "translations": {
+        "ru": {
+          "translation": "с размахом"
+        }
+      },
+      "definition": "fixed expression: In an impressive, showy way (they left with fancy clothes and atmosphere).",
+      "example": "They set out in great style, Gwendolen and her mother in white dresses with ribbons, Cat and his father in prickly blue-serge Sunday suits.",
+      "exampleStart": 313,
+      "exampleEnd": 452,
+      "exampleTranslation": "с размахом",
+      "phraseMatch": {
+        "text": "in great style",
+        "startInExample": 13,
+        "endInExample": 27
+      }
+    },
+    {
       "word": "kind",
       "lemma": "kind",
       "lemmaId": "kind",
@@ -1639,7 +1931,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "добрым"
+          "translation": "добрый"
         }
       },
       "_spacyLemma": "kind",
@@ -1661,7 +1953,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Любезно"
+          "translation": "с уважением"
         }
       },
       "_spacyLemma": "kindly",
@@ -1683,7 +1975,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "дамы"
+          "translation": "дама"
         }
       },
       "_spacyLemma": "lady",
@@ -1705,7 +1997,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "смеётся"
+          "translation": "смеяться"
         }
       },
       "_spacyLemma": "laugh",
@@ -1727,7 +2019,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Слева"
+          "translation": "оставить"
         }
       },
       "_spacyLemma": "leave",
@@ -1749,7 +2041,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Биография"
+          "translation": "жизнь"
         }
       },
       "_spacyLemma": "life",
@@ -1771,7 +2063,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "типа"
+          "translation": "нравиться"
         }
       },
       "_spacyLemma": "like",
@@ -1793,7 +2085,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "маленький"
+          "translation": "небольшой"
         }
       },
       "_spacyLemma": "little",
@@ -1815,7 +2107,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "маленький"
+          "translation": "немного"
         }
       },
       "_spacyLemma": "little",
@@ -1837,7 +2129,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Биография"
+          "translation": "жить"
         }
       },
       "_spacyLemma": "live",
@@ -1860,7 +2152,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Жить с"
+          "translation": "жить с"
         }
       },
       "example": "“We’d love to live with her.",
@@ -1884,7 +2176,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "смотрел"
+          "translation": "смотреть на"
         }
       },
       "example": "Cat looked at them and wondered if they were witches and warlocks, but he never found out.",
@@ -1907,7 +2199,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "смотри"
+          "translation": "смотреть"
         }
       },
       "_spacyLemma": "look",
@@ -1929,7 +2221,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "потеряно"
+          "translation": "потерять"
         }
       },
       "_spacyLemma": "lose",
@@ -1973,7 +2265,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "мужчины"
+          "translation": "мужчина"
         }
       },
       "_spacyLemma": "man",
@@ -1986,6 +2278,32 @@
       "difficultySource": "zipf"
     },
     {
+      "word": "Meanwhile, the town",
+      "lemma": "meanwhile",
+      "lemmaId": "meanwhile",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "meanwhile_phrase",
+      "level": "B1",
+      "levelSource": "phrase_fallback",
+      "translations": {
+        "ru": {
+          "translation": "тем временем"
+        }
+      },
+      "definition": "discourse marker: Introduces something happening during the same period as another action (town pays for education meanwhile).",
+      "example": "Meanwhile, the town would pay for their education and upbringing.",
+      "exampleStart": 3027,
+      "exampleEnd": 3092,
+      "exampleTranslation": "тем временем",
+      "phraseMatch": {
+        "text": "Meanwhile, the town",
+        "startInExample": 0,
+        "endInExample": 19
+      }
+    },
+    {
       "word": "mind",
       "lemma": "mind",
       "lemmaId": "mind",
@@ -1995,7 +2313,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "разум"
+          "translation": "против"
         }
       },
       "_spacyLemma": "mind",
@@ -2017,7 +2335,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Деньги"
+          "translation": "деньги"
         }
       },
       "_spacyLemma": "money",
@@ -2030,6 +2348,32 @@
       "difficultySource": "zipf"
     },
     {
+      "word": "Money poured in",
+      "lemma": "money pour in",
+      "lemmaId": "money_pour_in",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "money_pour_in_phrase",
+      "level": "B2",
+      "levelSource": "phrase_fallback",
+      "translations": {
+        "ru": {
+          "translation": "деньги хлынули"
+        }
+      },
+      "definition": "metaphor: A metaphor: donations arrived in large quantities.",
+      "example": "Money poured in from all over the country.",
+      "exampleStart": 2120,
+      "exampleEnd": 2162,
+      "exampleTranslation": "деньги хлынули",
+      "phraseMatch": {
+        "text": "Money poured in",
+        "startInExample": 0,
+        "endInExample": 15
+      }
+    },
+    {
       "word": "mother",
       "lemma": "mother",
       "lemmaId": "mother",
@@ -2039,7 +2383,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Мать"
+          "translation": "мать"
         }
       },
       "_spacyLemma": "mother",
@@ -2061,7 +2405,7 @@
       "level": "C1",
       "translations": {
         "ru": {
-          "translation": "материнская"
+          "translation": "материнский"
         }
       },
       "_spacyLemma": "motherly",
@@ -2083,7 +2427,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Новинка"
+          "translation": "новый"
         }
       },
       "_spacyLemma": "new",
@@ -2105,7 +2449,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "предложено"
+          "translation": "предлагать"
         }
       },
       "_spacyLemma": "offer",
@@ -2149,7 +2493,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "Орган"
+          "translation": "орган"
         }
       },
       "_spacyLemma": "organ",
@@ -2171,7 +2515,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Сироты"
+          "translation": "сирота"
         }
       },
       "_spacyLemma": "orphan",
@@ -2193,7 +2537,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Весло"
+          "translation": "вёсельная лодка"
         }
       },
       "_spacyLemma": "paddle",
@@ -2215,7 +2559,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Гребная лодка"
+          "translation": "пароход с вёслами"
         }
       },
       "_spacyLemma": "paddleboat",
@@ -2259,7 +2603,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Публикации"
+          "translation": "газета"
         }
       },
       "_spacyLemma": "paper",
@@ -2281,7 +2625,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Родители"
+          "translation": "родители"
         }
       },
       "_spacyLemma": "parent",
@@ -2294,6 +2638,32 @@
       "difficultySource": "zipf"
     },
     {
+      "word": "patted him on the head",
+      "lemma": "pat on the head",
+      "lemmaId": "pat_on_the_head",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "pat_on_the_head_phrase",
+      "level": "A2",
+      "levelSource": "phrase_fallback",
+      "translations": {
+        "ru": {
+          "translation": "погладить по голове"
+        }
+      },
+      "definition": "fixed expression: A gentle gesture showing affection or approval (the Mayor patted him).",
+      "example": "Town Councillors came and asked how he was getting on; and the Mayor called and patted him on the head.",
+      "exampleStart": 2812,
+      "exampleEnd": 2915,
+      "exampleTranslation": "погладить по голове",
+      "phraseMatch": {
+        "text": "patted him on the head",
+        "startInExample": 80,
+        "endInExample": 102
+      }
+    },
+    {
       "word": "patted",
       "lemma": "pat",
       "lemmaId": "pat",
@@ -2303,7 +2673,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Погладили"
+          "translation": "погладил"
         }
       },
       "_spacyLemma": "pat",
@@ -2349,7 +2719,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "оплачиваемая"
+          "translation": "заплатил"
         }
       },
       "_spacyLemma": "pay",
@@ -2371,7 +2741,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Люди"
+          "translation": "люди"
         }
       },
       "_spacyLemma": "people",
@@ -2393,7 +2763,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Человек"
+          "translation": "человек"
         }
       },
       "_spacyLemma": "person",
@@ -2415,7 +2785,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Произведения"
+          "translation": "осколки"
         }
       },
       "_spacyLemma": "piece",
@@ -2437,7 +2807,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "Трубы"
+          "translation": "трубы"
         }
       },
       "_spacyLemma": "pipe",
@@ -2459,7 +2829,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Игра"
+          "translation": "играть"
         }
       },
       "_spacyLemma": "play",
@@ -2481,7 +2851,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Плюмы"
+          "translation": "плюмажи"
         }
       },
       "_spacyLemma": "plume",
@@ -2503,7 +2873,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Популярность"
+          "translation": "популярный"
         }
       },
       "_spacyLemma": "popular",
@@ -2525,7 +2895,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "Публикации"
+          "translation": "столб"
         }
       },
       "_spacyLemma": "post",
@@ -2547,7 +2917,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Налил"
+          "translation": "хлынул"
         }
       },
       "_spacyLemma": "pour",
@@ -2569,7 +2939,7 @@
       "level": "C1",
       "translations": {
         "ru": {
-          "translation": "Красивая"
+          "translation": "красивый"
         }
       },
       "_spacyLemma": "pretty",
@@ -2591,7 +2961,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Колючий"
+          "translation": "колючий"
         }
       },
       "_spacyLemma": "prickly",
@@ -2613,7 +2983,7 @@
       "level": "C1",
       "translations": {
         "ru": {
-          "translation": "Процессия"
+          "translation": "шествие"
         }
       },
       "_spacyLemma": "procession",
@@ -2635,7 +3005,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Общественность"
+          "translation": "общественный"
         }
       },
       "_spacyLemma": "public",
@@ -2657,7 +3027,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "вытащил"
+          "translation": "везти"
         }
       },
       "_spacyLemma": "pull",
@@ -2680,7 +3050,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "вложён в"
+          "translation": "направить"
         }
       },
       "example": "The Mayor explained that the money from the Fund was being put into a Trust for them until they were grown up.",
@@ -2703,7 +3073,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Отношения"
+          "translation": "родственники"
         }
       },
       "_spacyLemma": "relation",
@@ -2725,7 +3095,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "вспомнил игру органа и весла, бьющих по голубому небу"
+          "translation": "вспомнил"
         }
       },
       "_spacyLemma": "remember",
@@ -2760,6 +3130,32 @@
       "difficultySource": "zipf"
     },
     {
+      "word": "rode behind the procession of hearses",
+      "lemma": "ride behind the procession of hearses",
+      "lemmaId": "ride_behind_the_procession_of_hearses",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "ride_behind_the_procession_of_hearses_phrase",
+      "level": "B1",
+      "levelSource": "phrase_fallback",
+      "translations": {
+        "ru": {
+          "translation": "ехать за процессией катафалков"
+        }
+      },
+      "definition": "collocation: To follow funeral vehicles in an arranged line (they rode behind the hearses).",
+      "example": "Gwendolen and Cat were given heavy black clothes at public expense, and rode behind the procession of hearses in a carriage pulled by black horses with black plumes on their heads.",
+      "exampleStart": 1751,
+      "exampleEnd": 1931,
+      "exampleTranslation": "ехать за процессией катафалков",
+      "phraseMatch": {
+        "text": "rode behind the procession of hearses",
+        "startInExample": 72,
+        "endInExample": 109
+      }
+    },
+    {
       "word": "rode",
       "lemma": "ride",
       "lemmaId": "ride",
@@ -2769,7 +3165,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "езд"
+          "translation": "ехать"
         }
       },
       "_spacyLemma": "ride",
@@ -2791,7 +3187,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Река"
+          "translation": "река"
         }
       },
       "_spacyLemma": "river",
@@ -2802,6 +3198,32 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.422857,
       "difficultySource": "zipf"
+    },
+    {
+      "word": "the Saucy Nancy Disaster",
+      "lemma": "Saucy Nancy Disaster",
+      "lemmaId": "saucy_nancy_disaster",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "saucy_nancy_disaster_phrase",
+      "level": "B2",
+      "levelSource": "phrase_fallback",
+      "translations": {
+        "ru": {
+          "translation": "катастрофа «Сенсация Нэнси»"
+        }
+      },
+      "definition": "fixed expression: The name given by the newspapers to the accident.",
+      "example": "The papers called it the Saucy Nancy Disaster.",
+      "exampleStart": 1285,
+      "exampleEnd": 1331,
+      "exampleTranslation": "катастрофа «Сенсация Нэнси»",
+      "phraseMatch": {
+        "text": "the Saucy Nancy Disaster",
+        "startInExample": 21,
+        "endInExample": 45
+      }
     },
     {
       "word": "said",
@@ -2857,7 +3279,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "кричал"
+          "translation": "кричали"
         }
       },
       "_spacyLemma": "scream",
@@ -2879,7 +3301,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Серж"
+          "translation": "серж"
         }
       },
       "_spacyLemma": "serge",
@@ -2902,7 +3324,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "В путь"
+          "translation": "отправиться"
         }
       },
       "example": "They set out in great style, Gwendolen and her mother in white dresses with ribbons, Cat and his father in prickly blue-serge Sunday suits.",
@@ -2926,7 +3348,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Подготовка"
+          "translation": "создать"
         }
       },
       "example": "The Mayor of Wolvercote had set up a Fund for the survivors.",
@@ -2949,7 +3371,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Набор"
+          "translation": "вперед"
         }
       },
       "_spacyLemma": "set",
@@ -2971,7 +3393,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Поделиться"
+          "translation": "доля"
         }
       },
       "_spacyLemma": "share",
@@ -2993,7 +3415,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "шокирован"
+          "translation": "шокировало"
         }
       },
       "_spacyLemma": "shock",
@@ -3015,7 +3437,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Просто"
+          "translation": "просто"
         }
       },
       "_spacyLemma": "simply",
@@ -3037,7 +3459,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Сингл"
+          "translation": "каждый"
         }
       },
       "_spacyLemma": "single",
@@ -3081,7 +3503,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Юбки"
+          "translation": "юбки"
         }
       },
       "_spacyLemma": "skirt",
@@ -3125,7 +3547,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Ломтики"
+          "translation": "ломтики"
         }
       },
       "_spacyLemma": "slice",
@@ -3147,7 +3569,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "маленький"
+          "translation": "небольшой"
         }
       },
       "_spacyLemma": "small",
@@ -3169,7 +3591,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Старт"
+          "translation": "начать"
         }
       },
       "_spacyLemma": "start",
@@ -3192,7 +3614,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "остался внутри"
+          "translation": "остаться"
         }
       },
       "example": "Only Cat and Gwendolen were left and, since nobody could discover any of their relations, they stayed in Wolvercote.",
@@ -3237,7 +3659,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Пар"
+          "translation": "пар"
         }
       },
       "_spacyLemma": "steam",
@@ -3259,7 +3681,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "Пароход"
+          "translation": "пароход"
         }
       },
       "_spacyLemma": "steamer",
@@ -3303,7 +3725,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Стоп"
+          "translation": "остановить"
         }
       },
       "_spacyLemma": "stop",
@@ -3325,7 +3747,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Стиль"
+          "translation": "стиль"
         }
       },
       "_spacyLemma": "style",
@@ -3347,7 +3769,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Масти"
+          "translation": "костюмы"
         }
       },
       "_spacyLemma": "suit",
@@ -3369,7 +3791,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "предполагалось"
+          "translation": "предполагавшийся"
         }
       },
       "_spacyLemma": "suppose",
@@ -3391,7 +3813,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Выжил"
+          "translation": "выжил"
         }
       },
       "_spacyLemma": "survive",
@@ -3413,7 +3835,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "Выжившие"
+          "translation": "выживший"
         }
       },
       "_spacyLemma": "survivor",
@@ -3426,6 +3848,32 @@
       "difficultySource": "zipf"
     },
     {
+      "word": "swept away in the current",
+      "lemma": "sweep away in the current",
+      "lemmaId": "sweep_away_in_the_current",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "sweep_away_in_the_current_phrase",
+      "level": "B2",
+      "levelSource": "phrase_fallback",
+      "translations": {
+        "ru": {
+          "translation": "снести течением"
+        }
+      },
+      "definition": "collocation: To be carried away by strong water (they were swept away from the dam).",
+      "example": "The whole laughing, whelk-eating, Sunday-dressed crowd was swept away in the current from the dam.",
+      "exampleStart": 802,
+      "exampleEnd": 900,
+      "exampleTranslation": "снести течением",
+      "phraseMatch": {
+        "text": "swept away in the current",
+        "startInExample": 59,
+        "endInExample": 84
+      }
+    },
+    {
       "word": "swept away",
       "lemma": "sweep away",
       "lemmaId": "sweep_away",
@@ -3436,7 +3884,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Унесённый"
+          "translation": "смывать (волной), уносить прочь"
         }
       },
       "example": "Clouds of steam screamed from broken pipes and drowned the screams from the crowd, as every single person aboard was swept away through the dam.",
@@ -3459,7 +3907,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "Подметана"
+          "translation": "смывать, уносить"
         }
       },
       "_spacyLemma": "sweep",
@@ -3504,7 +3952,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Посмотрите"
+          "translation": "приютить"
         }
       },
       "example": "Sharp downstairs had offered to take them in.",
@@ -3528,7 +3976,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Убрали"
+          "translation": "вывести (на прогулку)"
         }
       },
       "example": "The first great change came about when their parents took them out for a day trip down the river in a paddle steamer.",
@@ -3551,7 +3999,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "взял"
+          "translation": "взять"
         }
       },
       "_spacyLemma": "take",
@@ -3573,7 +4021,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Разговоры"
+          "translation": "разговаривать"
         }
       },
       "_spacyLemma": "talk",
@@ -3617,7 +4065,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "ужасно"
+          "translation": "ужасный"
         }
       },
       "_spacyLemma": "terrible",
@@ -3639,7 +4087,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Тонкий"
+          "translation": "тонкий"
         }
       },
       "_spacyLemma": "thin",
@@ -3661,7 +4109,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "плотно"
+          "translation": "тесный"
         }
       },
       "_spacyLemma": "tight",
@@ -3683,7 +4131,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Время"
+          "translation": "время"
         }
       },
       "_spacyLemma": "time",
@@ -3705,7 +4153,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "тронут"
+          "translation": "тронуть"
         }
       },
       "_spacyLemma": "touch",
@@ -3727,7 +4175,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Город"
+          "translation": "город"
         }
       },
       "_spacyLemma": "town",
@@ -3749,7 +4197,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "Игрушки"
+          "translation": "игрушки"
         }
       },
       "_spacyLemma": "toy",
@@ -3771,7 +4219,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Путешествие"
+          "translation": "поездка"
         }
       },
       "_spacyLemma": "trip",
@@ -3793,7 +4241,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Верно"
+          "translation": "правдивый"
         }
       },
       "_spacyLemma": "true",
@@ -3815,7 +4263,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "Мелодии"
+          "translation": "мелодии"
         }
       },
       "_spacyLemma": "tune",
@@ -3837,7 +4285,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "Не может"
+          "translation": "неспособный"
         }
       },
       "_spacyLemma": "unable",
@@ -3859,7 +4307,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Детство"
+          "translation": "воспитание"
         }
       },
       "_spacyLemma": "upbringing",
@@ -3881,7 +4329,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "Колдуны"
+          "translation": "колдун"
         }
       },
       "_spacyLemma": "warlock",
@@ -3903,7 +4351,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Путь"
+          "translation": "путь"
         }
       },
       "_spacyLemma": "way",
@@ -3925,7 +4373,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Лучше"
+          "translation": "лучше"
         }
       },
       "_spacyLemma": "well",
@@ -3947,7 +4395,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "хрипел"
+          "translation": "хрипеть"
         }
       },
       "_spacyLemma": "wheeze",
@@ -3969,7 +4417,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Уики"
+          "translation": "ракушка"
         }
       },
       "_spacyLemma": "whelk",
@@ -4014,7 +4462,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "Белый хлеб"
+          "translation": "белый хлеб"
         }
       },
       "example": "The steamer was crammed with other people in holiday clothes, talking, laughing, eating whelks with thin slices of white bread and butter, while the paddleboat steam organ wheezed out popular tunes so that no one could hear themselves talk.",
@@ -4059,7 +4507,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "задумался."
+          "translation": "удивляться"
         }
       },
       "_spacyLemma": "wonder",
@@ -4072,6 +4520,32 @@
       "difficultySource": "zipf"
     },
     {
+      "word": "love to live with her",
+      "lemma": "would love to live with",
+      "lemmaId": "would_love_to_live_with",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "would_love_to_live_with_phrase",
+      "level": "A2",
+      "levelSource": "phrase_fallback",
+      "translations": {
+        "ru": {
+          "translation": "с удовольствием жить с ней"
+        }
+      },
+      "definition": "fixed expression: A polite, enthusiastic way to express preference (Gwendolen says they’d love to live with Mrs. Sharp).",
+      "example": "“We’d love to live with her.”",
+      "exampleStart": 3293,
+      "exampleEnd": 3322,
+      "exampleTranslation": "с удовольствием жить с ней",
+      "phraseMatch": {
+        "text": "love to live with her",
+        "startInExample": 6,
+        "endInExample": 27
+      }
+    },
+    {
       "word": "wrong",
       "lemma": "wrong",
       "lemmaId": "wrong",
@@ -4081,7 +4555,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "неправильно"
+          "translation": "неправильный"
         }
       },
       "_spacyLemma": "wrong",
@@ -4135,43 +4609,6 @@
       "sentenceEnd": 63
     },
     {
-      "entityKey": "first_ordinal",
-      "text": "first",
-      "normalizedText": "first",
-      "entityType": "ORDINAL",
-      "spacyLabel": "ORDINAL",
-      "entityCategory": "quantity",
-      "learningType": "named_entity",
-      "difficultyMarker": "entity_value",
-      "source": "spacy_ner",
-      "start": 199,
-      "end": 204,
-      "tokenIndexes": [
-        49
-      ],
-      "sentenceStart": 196,
-      "sentenceEnd": 313
-    },
-    {
-      "entityKey": "a_day_date",
-      "text": "a day",
-      "normalizedText": "a day",
-      "entityType": "DATE",
-      "spacyLabel": "DATE",
-      "entityCategory": "date_time",
-      "learningType": "named_entity",
-      "difficultyMarker": "entity_value",
-      "source": "spacy_ner",
-      "start": 266,
-      "end": 271,
-      "tokenIndexes": [
-        61,
-        62
-      ],
-      "sentenceStart": 196,
-      "sentenceEnd": 313
-    },
-    {
       "entityKey": "gwendolen_person",
       "text": "Gwendolen",
       "normalizedText": "gwendolen",
@@ -4206,62 +4643,6 @@
       ],
       "sentenceStart": 314,
       "sentenceEnd": 453
-    },
-    {
-      "entityKey": "sunday_date",
-      "text": "Sunday",
-      "normalizedText": "sunday",
-      "entityType": "DATE",
-      "spacyLabel": "DATE",
-      "entityCategory": "date_time",
-      "learningType": "named_entity",
-      "difficultyMarker": "entity_value",
-      "source": "spacy_ner",
-      "start": 439,
-      "end": 445,
-      "tokenIndexes": [
-        98
-      ],
-      "sentenceStart": 314,
-      "sentenceEnd": 453
-    },
-    {
-      "entityKey": "a_hot_day_date",
-      "text": "a hot day",
-      "normalizedText": "a hot day",
-      "entityType": "DATE",
-      "spacyLabel": "DATE",
-      "entityCategory": "date_time",
-      "learningType": "named_entity",
-      "difficultyMarker": "entity_value",
-      "source": "spacy_ner",
-      "start": 460,
-      "end": 469,
-      "tokenIndexes": [
-        103,
-        104,
-        105
-      ],
-      "sentenceStart": 454,
-      "sentenceEnd": 471
-    },
-    {
-      "entityKey": "sunday_date",
-      "text": "Sunday",
-      "normalizedText": "sunday",
-      "entityType": "DATE",
-      "spacyLabel": "DATE",
-      "entityCategory": "date_time",
-      "learningType": "named_entity",
-      "difficultyMarker": "entity_value",
-      "source": "spacy_ner",
-      "start": 836,
-      "end": 842,
-      "tokenIndexes": [
-        178
-      ],
-      "sentenceStart": 803,
-      "sentenceEnd": 901
     },
     {
       "entityKey": "nancy_disaster_person",

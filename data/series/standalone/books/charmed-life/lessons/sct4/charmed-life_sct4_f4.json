@@ -21,12 +21,12 @@
       "wordCount": 558,
       "uniqueWordCount": 302,
       "paragraphCount": 7,
-      "vocabularyCount": 148,
+      "vocabularyCount": 166,
       "levelDistribution": {
         "A1": 61,
-        "A2": 27,
-        "B1": 15,
-        "B2": 35,
+        "A2": 34,
+        "B1": 21,
+        "B2": 40,
         "C1": 10,
         "C2": 0
       }
@@ -43,7 +43,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "Счета"
+          "translation": "счёт"
         }
       },
       "_spacyLemma": "account",
@@ -65,7 +65,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Рука"
+          "translation": "рука"
         }
       },
       "_spacyLemma": "arm",
@@ -78,6 +78,58 @@
       "difficultySource": "zipf"
     },
     {
+      "word": "at all the schools",
+      "lemma": "at all (the schools)",
+      "lemmaId": "at_all_the_schools",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "at_all_the_schools_phrase",
+      "level": "B1",
+      "levelSource": "phrase_fallback",
+      "translations": {
+        "ru": {
+          "translation": "вообще во всех школах"
+        }
+      },
+      "definition": "fixed expression: “At all” here strengthens the meaning: it happened in every place mentioned.",
+      "example": "But they did that at all the schools Cat had been to, and he was used to it.",
+      "exampleStart": 1483,
+      "exampleEnd": 1559,
+      "exampleTranslation": "во всех школах",
+      "phraseMatch": {
+        "text": "at all the schools",
+        "startInExample": 18,
+        "endInExample": 36
+      }
+    },
+    {
+      "word": "at the heart of everything",
+      "lemma": "at the heart of",
+      "lemmaId": "at_the_heart_of",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "at_the_heart_of_phrase",
+      "level": "B2",
+      "levelSource": "phrase_fallback",
+      "translations": {
+        "ru": {
+          "translation": "в глубине всего"
+        }
+      },
+      "definition": "metaphor: This metaphor means the main feeling or truth behind everything.",
+      "example": "All the same, at the heart of everything, he felt lost and lonely.",
+      "exampleStart": 1586,
+      "exampleEnd": 1652,
+      "exampleTranslation": "в глубине всего",
+      "phraseMatch": {
+        "text": "at the heart of everything",
+        "startInExample": 14,
+        "endInExample": 40
+      }
+    },
+    {
       "word": "away",
       "lemma": "away",
       "lemmaId": "away",
@@ -87,7 +139,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Вдали"
+          "translation": "прочь"
         }
       },
       "_spacyLemma": "away",
@@ -98,6 +150,58 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.254286,
       "difficultySource": "zipf"
+    },
+    {
+      "word": "rather dishonest",
+      "lemma": "be dishonest",
+      "lemmaId": "be_dishonest",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "be_dishonest_phrase",
+      "level": "B2",
+      "levelSource": "phrase_fallback",
+      "translations": {
+        "ru": {
+          "translation": "довольно нечестно"
+        }
+      },
+      "definition": "other: “Dishonest” means not fair or not truthful; “rather” softens the judgment.",
+      "example": "Since Mr. Nostrum never got paid, except by the letters, Cat thought this was rather dishonest of Mrs. Sharp.",
+      "exampleStart": 2923,
+      "exampleEnd": 3032,
+      "exampleTranslation": "довольно нечестно",
+      "phraseMatch": {
+        "text": "rather dishonest",
+        "startInExample": 78,
+        "endInExample": 94
+      }
+    },
+    {
+      "word": "was left-handed",
+      "lemma": "be left-handed",
+      "lemmaId": "be_left_handed",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "be_left_handed_phrase",
+      "level": "A2",
+      "levelSource": "phrase_fallback",
+      "translations": {
+        "ru": {
+          "translation": "быть левшой"
+        }
+      },
+      "definition": "fixed expression: “Left-handed” describes someone who writes/uses their left hand more.",
+      "example": "The only drawback was that Cat was left-handed, and schoolmasters always punished him if they caught him writing with his left hand.",
+      "exampleStart": 1350,
+      "exampleEnd": 1482,
+      "exampleTranslation": "Кот был левшой",
+      "phraseMatch": {
+        "text": "was left-handed",
+        "startInExample": 31,
+        "endInExample": 46
+      }
     },
     {
       "word": "began",
@@ -153,7 +257,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Книга"
+          "translation": "книга"
         }
       },
       "_spacyLemma": "book",
@@ -175,7 +279,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Коробка"
+          "translation": "коробка"
         }
       },
       "_spacyLemma": "box",
@@ -197,7 +301,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "ярче"
+          "translation": "более яркий"
         }
       },
       "_spacyLemma": "bright",
@@ -241,7 +345,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "сожжен"
+          "translation": "сгорел"
         }
       },
       "_spacyLemma": "burn",
@@ -263,7 +367,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Бизнес"
+          "translation": "занятие"
         }
       },
       "_spacyLemma": "business",
@@ -285,7 +389,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "занят"
+          "translation": "занятой"
         }
       },
       "_spacyLemma": "busy",
@@ -307,7 +411,7 @@
       "level": "C1",
       "translations": {
         "ru": {
-          "translation": "Петлиця"
+          "translation": "петлица"
         }
       },
       "_spacyLemma": "buttonhole",
@@ -329,7 +433,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Призыв"
+          "translation": "назвали"
         }
       },
       "_spacyLemma": "call",
@@ -351,7 +455,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Картон"
+          "translation": "картон"
         }
       },
       "_spacyLemma": "cardboard",
@@ -373,7 +477,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Осторожно"
+          "translation": "осторожно"
         }
       },
       "_spacyLemma": "carefully",
@@ -395,7 +499,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "Случай"
+          "translation": "футляр"
         }
       },
       "_spacyLemma": "case",
@@ -408,6 +512,32 @@
       "difficultySource": "zipf"
     },
     {
+      "word": "if they caught him",
+      "lemma": "catch someone doing",
+      "lemmaId": "catch_someone_doing",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "catch_someone_doing_phrase",
+      "level": "B1",
+      "levelSource": "phrase_fallback",
+      "translations": {
+        "ru": {
+          "translation": "если они ловили его, как он"
+        }
+      },
+      "definition": "fixed expression: “Catch someone doing” means you discover them in the act.",
+      "example": "The only drawback was that Cat was left-handed, and schoolmasters always punished him if they caught him writing with his left hand.",
+      "exampleStart": 1350,
+      "exampleEnd": 1482,
+      "exampleTranslation": "если ловили, как он пишет левой рукой",
+      "phraseMatch": {
+        "text": "if they caught him",
+        "startInExample": 86,
+        "endInExample": 104
+      }
+    },
+    {
       "word": "caught",
       "lemma": "catch",
       "lemmaId": "catch",
@@ -417,7 +547,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "пойман"
+          "translation": "поймали"
         }
       },
       "_spacyLemma": "catch",
@@ -439,7 +569,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Утверждение"
+          "translation": "претензия"
         }
       },
       "_spacyLemma": "claim",
@@ -462,7 +592,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "цеплялся"
+          "translation": "держаться за"
         }
       },
       "example": "So he clung to Gwendolen, because she was the only family he had.",
@@ -485,7 +615,7 @@
       "level": "C1",
       "translations": {
         "ru": {
-          "translation": "цеплялся"
+          "translation": "прилип"
         }
       },
       "_spacyLemma": "cling",
@@ -553,7 +683,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "уверен в себе"
+          "translation": "уверенный"
         }
       },
       "_spacyLemma": "confident",
@@ -575,7 +705,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "немного сократился, чтобы освободить место для неё — он не знал"
+          "translation": "сжался"
         }
       },
       "_spacyLemma": "contract",
@@ -597,7 +727,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "крест"
+          "translation": "сердитый"
         }
       },
       "_spacyLemma": "cross",
@@ -619,7 +749,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "дорогой"
+          "translation": "дорогуша"
         }
       },
       "_spacyLemma": "dearie",
@@ -663,7 +793,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Очень рад"
+          "translation": "в восторге"
         }
       },
       "_spacyLemma": "delighted",
@@ -685,7 +815,7 @@
       "level": "C1",
       "translations": {
         "ru": {
-          "translation": "Нечестно"
+          "translation": "нечестный"
         }
       },
       "_spacyLemma": "dishonest",
@@ -729,7 +859,7 @@
       "level": "C1",
       "translations": {
         "ru": {
-          "translation": "Прямо"
+          "translation": "совсем"
         }
       },
       "_spacyLemma": "downright",
@@ -742,6 +872,32 @@
       "difficultySource": "zipf"
     },
     {
+      "word": "downright cross",
+      "lemma": "downright cross",
+      "lemmaId": "downright_cross",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "downright_cross_phrase",
+      "level": "B2",
+      "levelSource": "phrase_fallback",
+      "translations": {
+        "ru": {
+          "translation": "прямо-таки грубой"
+        }
+      },
+      "definition": "fixed expression: “Downright cross” means seriously annoyed/irritable.",
+      "example": "Gwendolen was often rather impatient with him, though usually she was too busy and happy to be downright cross.",
+      "exampleStart": 1720,
+      "exampleEnd": 1831,
+      "exampleTranslation": "быть прямо-таки грубой",
+      "phraseMatch": {
+        "text": "downright cross",
+        "startInExample": 95,
+        "endInExample": 110
+      }
+    },
+    {
       "word": "dozens",
       "lemma": "dozen",
       "lemmaId": "dozen",
@@ -751,7 +907,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Десятки"
+          "translation": "десяток"
         }
       },
       "_spacyLemma": "dozen",
@@ -773,7 +929,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Недостаток"
+          "translation": "недостаток"
         }
       },
       "_spacyLemma": "drawback",
@@ -795,7 +951,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Одежда"
+          "translation": "платье"
         }
       },
       "_spacyLemma": "dress",
@@ -839,7 +995,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "вечера в неделю"
+          "translation": "вечер"
         }
       },
       "_spacyLemma": "evening",
@@ -861,7 +1017,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Экзамен"
+          "translation": "экзамен"
         }
       },
       "_spacyLemma": "exam",
@@ -883,7 +1039,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "Отлично"
+          "translation": "превосходный"
         }
       },
       "_spacyLemma": "excellent",
@@ -905,7 +1061,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Физическая активность"
+          "translation": "упражнение"
         }
       },
       "_spacyLemma": "exercise",
@@ -927,7 +1083,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "Расширить"
+          "translation": "расширился"
         }
       },
       "_spacyLemma": "expand",
@@ -971,7 +1127,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Факт"
+          "translation": "факт"
         }
       },
       "_spacyLemma": "fact",
@@ -994,7 +1150,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "выпали"
+          "translation": "выпал"
         }
       },
       "example": "” A little red book of matches had fallen out of the bundle of business letters.",
@@ -1018,7 +1174,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "упал до"
+          "translation": "развалилось"
         }
       },
       "example": "Cat wore it in his buttonhole until it fell to pieces.",
@@ -1041,7 +1197,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "падших"
+          "translation": "упал"
         }
       },
       "_spacyLemma": "fall",
@@ -1063,7 +1219,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Семья"
+          "translation": "семья"
         }
       },
       "_spacyLemma": "family",
@@ -1085,7 +1241,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Любимый"
+          "translation": "любимый"
         }
       },
       "_spacyLemma": "favorite",
@@ -1107,7 +1263,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "почувствовал"
+          "translation": "чувствовал"
         }
       },
       "_spacyLemma": "feel",
@@ -1151,7 +1307,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Следуя"
+          "translation": "следующий"
         }
       },
       "_spacyLemma": "follow",
@@ -1173,7 +1329,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Четвёртый"
+          "translation": "четвёртый"
         }
       },
       "_spacyLemma": "fourth",
@@ -1195,7 +1351,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Друзья"
+          "translation": "друзья"
         }
       },
       "_spacyLemma": "friend",
@@ -1217,7 +1373,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Получает"
+          "translation": "получает"
         }
       },
       "_spacyLemma": "get",
@@ -1283,7 +1439,7 @@
       "level": "C1",
       "translations": {
         "ru": {
-          "translation": "С радостью"
+          "translation": "с восторгом"
         }
       },
       "_spacyLemma": "gleefully",
@@ -1305,7 +1461,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "светящийся"
+          "translation": "сверкающий"
         }
       },
       "_spacyLemma": "glowing",
@@ -1328,7 +1484,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "продолжил"
+          "translation": "продолжать"
         }
       },
       "example": "Such a promising witch was she, indeed, that she skipped the First Grade Magic exam and went straight on to the Second.",
@@ -1342,6 +1498,32 @@
       "levelSource": "phrase_index"
     },
     {
+      "word": "go to music lessons",
+      "lemma": "go to (music) lessons",
+      "lemmaId": "go_to_music_lessons",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "go_to_music_lessons_phrase",
+      "level": "A2",
+      "levelSource": "phrase_fallback",
+      "translations": {
+        "ru": {
+          "translation": "ходить на уроки музыки"
+        }
+      },
+      "definition": "collocation: A natural way to say someone attends lessons.",
+      "example": "She went to Mr. Nostrum two evenings a week, with her magic case under her arm, just as many people might go to music lessons.",
+      "exampleStart": 2675,
+      "exampleEnd": 2801,
+      "exampleTranslation": "ходят другие на уроки музыки",
+      "phraseMatch": {
+        "text": "go to music lessons",
+        "startInExample": 106,
+        "endInExample": 125
+      }
+    },
+    {
       "word": "went",
       "lemma": "go",
       "lemmaId": "go",
@@ -1351,7 +1533,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "ушёл"
+          "translation": "шёл"
         }
       },
       "_spacyLemma": "go",
@@ -1395,7 +1577,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Золотой"
+          "translation": "золотистый"
         }
       },
       "_spacyLemma": "golden",
@@ -1417,7 +1599,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Лучшее"
+          "translation": "лучший"
         }
       },
       "_spacyLemma": "good",
@@ -1439,7 +1621,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Оценка"
+          "translation": "классы"
         }
       },
       "_spacyLemma": "grade",
@@ -1461,7 +1643,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "жадность"
+          "translation": "жадный"
         }
       },
       "_spacyLemma": "greedy",
@@ -1483,7 +1665,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Волосы"
+          "translation": "волосы"
         }
       },
       "_spacyLemma": "hair",
@@ -1527,7 +1709,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Рука"
+          "translation": "рука"
         }
       },
       "_spacyLemma": "hand",
@@ -1549,7 +1731,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Счастлив"
+          "translation": "счастливый"
         }
       },
       "_spacyLemma": "happy",
@@ -1571,7 +1753,7 @@
       "level": "C1",
       "translations": {
         "ru": {
-          "translation": "Ускоряйтесь"
+          "translation": "поспешить"
         }
       },
       "_spacyLemma": "hasten",
@@ -1593,7 +1775,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "имеют"
+          "translation": "есть"
         }
       },
       "_spacyLemma": "have",
@@ -1615,7 +1797,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Голова"
+          "translation": "голова"
         }
       },
       "_spacyLemma": "head",
@@ -1659,7 +1841,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Хизер"
+          "translation": "вереск"
         }
       },
       "_spacyLemma": "heather",
@@ -1694,6 +1876,84 @@
       "difficultySource": "zipf"
     },
     {
+      "word": "in case he gets greedy",
+      "lemma": "in case (someone) gets greedy",
+      "lemmaId": "in_case_someone_gets_greedy",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "in_case_someone_gets_greedy_phrase",
+      "level": "B1",
+      "levelSource": "phrase_fallback",
+      "translations": {
+        "ru": {
+          "translation": "на случай, если он начнёт жадничать"
+        }
+      },
+      "definition": "discourse marker: “In case” introduces a precaution in case something happens.",
+      "example": "“Not all at once, in case he gets greedy,” she said.",
+      "exampleStart": 2125,
+      "exampleEnd": 2177,
+      "exampleTranslation": "на случай, если он начнёт жадничать",
+      "phraseMatch": {
+        "text": "in case he gets greedy",
+        "startInExample": 18,
+        "endInExample": 40
+      }
+    },
+    {
+      "word": "In fact",
+      "lemma": "in fact",
+      "lemmaId": "in_fact",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "in_fact_phrase",
+      "level": "A2",
+      "levelSource": "phrase_fallback",
+      "translations": {
+        "ru": {
+          "translation": "собственно говоря"
+        }
+      },
+      "definition": "discourse marker: Used to correct or add clarifying information.",
+      "example": "In fact, music lessons were what Mrs. Sharp put Gwendolen down as having, on the accounts she kept for the Town Council.",
+      "exampleStart": 2802,
+      "exampleEnd": 2922,
+      "exampleTranslation": "Собственно, именно под «уроки музыки»",
+      "phraseMatch": {
+        "text": "In fact",
+        "startInExample": 0,
+        "endInExample": 7
+      }
+    },
+    {
+      "word": "kept for the Town Council",
+      "lemma": "keep (accounts) for",
+      "lemmaId": "keep_accounts_for",
+      "pos": "prepositional_verb",
+      "type": "prepositional_verb",
+      "source": "fixed_expression",
+      "wordKey": "keep_accounts_for_prepositional_verb",
+      "level": "B1",
+      "levelSource": "phrase_fallback",
+      "translations": {
+        "ru": {
+          "translation": "вести (отчёты) для"
+        }
+      },
+      "definition": "prepositional verb: To “keep accounts for” is to record financial information for a person/organization.",
+      "example": "In fact, music lessons were what Mrs. Sharp put Gwendolen down as having, on the accounts she kept for the Town Council.",
+      "exampleStart": 2802,
+      "exampleEnd": 2922,
+      "exampleTranslation": "в отчётах для Городского совета",
+      "phraseMatch": {
+        "text": "kept for the Town Council",
+        "startInExample": 94,
+        "endInExample": 119
+      }
+    },
+    {
       "word": "kept",
       "lemma": "keep",
       "lemmaId": "keep",
@@ -1703,7 +1963,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Держи"
+          "translation": "держи"
         }
       },
       "_spacyLemma": "keep",
@@ -1725,7 +1985,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "добрым"
+          "translation": "добрый"
         }
       },
       "_spacyLemma": "kind",
@@ -1747,7 +2007,7 @@
       "level": "C1",
       "translations": {
         "ru": {
-          "translation": "Знаешь"
+          "translation": "знать"
         }
       },
       "_spacyLemma": "know",
@@ -1760,6 +2020,32 @@
       "difficultySource": "zipf"
     },
     {
+      "word": "Just leave me alone",
+      "lemma": "leave someone alone",
+      "lemmaId": "leave_someone_alone",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "leave_someone_alone_phrase",
+      "level": "A2",
+      "levelSource": "phrase_fallback",
+      "translations": {
+        "ru": {
+          "translation": "оставь меня в покое"
+        }
+      },
+      "definition": "fixed expression: A common request meaning “stop bothering me.”",
+      "example": "“Just leave me alone, Cat,” she would say.",
+      "exampleStart": 1832,
+      "exampleEnd": 1874,
+      "exampleTranslation": "Просто оставь меня в покое",
+      "phraseMatch": {
+        "text": "Just leave me alone",
+        "startInExample": 1,
+        "endInExample": 20
+      }
+    },
+    {
       "word": "left",
       "lemma": "leave",
       "lemmaId": "leave",
@@ -1769,7 +2055,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Слева"
+          "translation": "оставалась"
         }
       },
       "_spacyLemma": "leave",
@@ -1791,7 +2077,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Слева"
+          "translation": "левый"
         }
       },
       "_spacyLemma": "left",
@@ -1804,6 +2090,32 @@
       "difficultySource": "zipf"
     },
     {
+      "word": "less than half full",
+      "lemma": "less than half full",
+      "lemmaId": "less_than_half_full",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "less_than_half_full_phrase",
+      "level": "B1",
+      "levelSource": "phrase_fallback",
+      "translations": {
+        "ru": {
+          "translation": "меньше чем наполовину полна"
+        }
+      },
+      "definition": "collocation: A description of quantity: not even half of the space/contents filled.",
+      "example": "It was less than half full of flimsy cardboard matches.",
+      "exampleStart": 238,
+      "exampleEnd": 293,
+      "exampleTranslation": "оставалось меньше половины",
+      "phraseMatch": {
+        "text": "less than half full",
+        "startInExample": 7,
+        "endInExample": 26
+      }
+    },
+    {
       "word": "lesson",
       "lemma": "lesson",
       "lemmaId": "lesson",
@@ -1813,7 +2125,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "Урок"
+          "translation": "урок"
         }
       },
       "_spacyLemma": "lesson",
@@ -1835,7 +2147,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Письма"
+          "translation": "письма"
         }
       },
       "_spacyLemma": "letter",
@@ -1857,7 +2169,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Свет"
+          "translation": "огонь"
         }
       },
       "_spacyLemma": "light",
@@ -1879,7 +2191,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "маленький"
+          "translation": "немного"
         }
       },
       "_spacyLemma": "little",
@@ -1901,7 +2213,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Жизнь"
+          "translation": "проживание"
         }
       },
       "_spacyLemma": "live",
@@ -1924,7 +2236,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Жить с"
+          "translation": "жить с"
         }
       },
       "example": "• • •\n\nLiving with Mrs.",
@@ -1947,7 +2259,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "одиноким"
+          "translation": "одинокий"
         }
       },
       "_spacyLemma": "lonely",
@@ -1969,7 +2281,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "потеряно"
+          "translation": "потерянный"
         }
       },
       "_spacyLemma": "lost",
@@ -1991,7 +2303,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "любовь"
+          "translation": "дорогой"
         }
       },
       "_spacyLemma": "love",
@@ -2013,7 +2325,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Магия"
+          "translation": "магический"
         }
       },
       "_spacyLemma": "magic",
@@ -2036,7 +2348,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "Освободите место"
+          "translation": "освободить место"
         }
       },
       "example": "Perhaps Cat contracted a little to make room for her—he did not know.",
@@ -2059,7 +2371,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Манера"
+          "translation": "манера"
         }
       },
       "_spacyLemma": "manner",
@@ -2081,7 +2393,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Матчи"
+          "translation": "спички"
         }
       },
       "_spacyLemma": "match",
@@ -2103,7 +2415,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Музыка"
+          "translation": "музыкальный"
         }
       },
       "_spacyLemma": "music",
@@ -2125,7 +2437,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Открыто"
+          "translation": "открыл"
         }
       },
       "_spacyLemma": "open",
@@ -2138,6 +2450,32 @@
       "difficultySource": "zipf"
     },
     {
+      "word": "over the wall",
+      "lemma": "over the wall",
+      "lemmaId": "over_the_wall",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "over_the_wall_phrase",
+      "level": "B1",
+      "levelSource": "phrase_fallback",
+      "translations": {
+        "ru": {
+          "translation": "через стену"
+        }
+      },
+      "definition": "other: Here it means communicating between houses through/over the wall area.",
+      "example": "Mr. Nostrum regarded her as his favorite pupil—he told Mrs. Sharp so over the wall—and Gwendolen always came back from her lessons with him pleased and golden and glowing.",
+      "exampleStart": 2503,
+      "exampleEnd": 2674,
+      "exampleTranslation": "через стену",
+      "phraseMatch": {
+        "text": "over the wall",
+        "startInExample": 69,
+        "endInExample": 82
+      }
+    },
+    {
       "word": "packing away",
       "lemma": "pack away",
       "lemmaId": "pack_away",
@@ -2148,7 +2486,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Собираюсь"
+          "translation": "убирать вещи"
         }
       },
       "example": "Sharp began packing the things away in the box again.",
@@ -2171,7 +2509,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Снова убирая вещи в коробку"
+          "translation": "упаковывала"
         }
       },
       "_spacyLemma": "pack",
@@ -2193,7 +2531,7 @@
       "level": "C1",
       "translations": {
         "ru": {
-          "translation": "салон"
+          "translation": "гостиная"
         }
       },
       "_spacyLemma": "parlor",
@@ -2228,6 +2566,32 @@
       "difficultySource": "zipf"
     },
     {
+      "word": "patted him on the head",
+      "lemma": "pat someone on the head",
+      "lemmaId": "pat_someone_on_the_head",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "pat_someone_on_the_head_phrase",
+      "level": "A2",
+      "levelSource": "phrase_fallback",
+      "translations": {
+        "ru": {
+          "translation": "гладили его по голове"
+        }
+      },
+      "definition": "fixed expression: A friendly gesture meaning someone touches another person’s head to show kindness.",
+      "example": "Town Councillors and their wives called several times a week and patted him on the head in the parlor.",
+      "exampleStart": 1164,
+      "exampleEnd": 1266,
+      "exampleTranslation": "гладили его по голове",
+      "phraseMatch": {
+        "text": "patted him on the head",
+        "startInExample": 65,
+        "endInExample": 87
+      }
+    },
+    {
       "word": "patted",
       "lemma": "pat",
       "lemmaId": "pat",
@@ -2237,7 +2601,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Погладили"
+          "translation": "погладил"
         }
       },
       "_spacyLemma": "pat",
@@ -2259,7 +2623,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "оплачиваемая"
+          "translation": "платили"
         }
       },
       "_spacyLemma": "pay",
@@ -2281,7 +2645,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Люди"
+          "translation": "люди"
         }
       },
       "_spacyLemma": "people",
@@ -2303,7 +2667,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Произведения"
+          "translation": "кусок"
         }
       },
       "_spacyLemma": "piece",
@@ -2325,7 +2689,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Доволен"
+          "translation": "довольный"
         }
       },
       "_spacyLemma": "pleased",
@@ -2347,7 +2711,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Карман"
+          "translation": "карман"
         }
       },
       "_spacyLemma": "pocket",
@@ -2369,7 +2733,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "Прогресс"
+          "translation": "прогресс"
         }
       },
       "_spacyLemma": "progress",
@@ -2391,7 +2755,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "многообещающим"
+          "translation": "многообещающий"
         }
       },
       "_spacyLemma": "promising",
@@ -2413,7 +2777,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "наказан"
+          "translation": "наказывать"
         }
       },
       "_spacyLemma": "punish",
@@ -2435,7 +2799,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Ученик"
+          "translation": "ученик"
         }
       },
       "_spacyLemma": "pupil",
@@ -2458,7 +2822,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Положи"
+          "translation": "записать (в счёт, в ответах); зачеркнуть (в обвинении)"
         }
       },
       "example": "Sharp put Gwendolen down as having, on the accounts she kept for the Town Council.",
@@ -2503,7 +2867,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "считал её своей любимой ученицей — сказал он миссис"
+          "translation": "считать"
         }
       },
       "_spacyLemma": "regard",
@@ -2525,7 +2889,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "вспоминая, что у него тоже есть право"
+          "translation": "помнить"
         }
       },
       "_spacyLemma": "remember",
@@ -2547,7 +2911,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "комната"
+          "translation": "место"
         }
       },
       "_spacyLemma": "room",
@@ -2569,7 +2933,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "сказал"
+          "translation": "сказать"
         }
       },
       "_spacyLemma": "say",
@@ -2591,7 +2955,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Школа"
+          "translation": "школа"
         }
       },
       "_spacyLemma": "school",
@@ -2613,7 +2977,7 @@
       "level": "C1",
       "translations": {
         "ru": {
-          "translation": "Школьные учителя"
+          "translation": "школьный учитель"
         }
       },
       "_spacyLemma": "schoolmaster",
@@ -2635,7 +2999,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Второе"
+          "translation": "второй"
         }
       },
       "_spacyLemma": "second",
@@ -2648,6 +3012,32 @@
       "difficultySource": "zipf"
     },
     {
+      "word": "sent him and Gwendolen",
+      "lemma": "send someone to",
+      "lemmaId": "send_someone_to",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "send_someone_to_phrase",
+      "level": "A2",
+      "levelSource": "phrase_fallback",
+      "translations": {
+        "ru": {
+          "translation": "отправлять кого-то в"
+        }
+      },
+      "definition": "collocation: To “send someone to” means to arrange for them to go to a place (here, a school).",
+      "example": "They sent him and Gwendolen to the best school in Wolvercote.",
+      "exampleStart": 1267,
+      "exampleEnd": 1328,
+      "exampleTranslation": "отправлять кого-то в",
+      "phraseMatch": {
+        "text": "sent him and Gwendolen",
+        "startInExample": 5,
+        "endInExample": 27
+      }
+    },
+    {
       "word": "sent",
       "lemma": "send",
       "lemmaId": "send",
@@ -2657,7 +3047,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "отправлен"
+          "translation": "отправить"
         }
       },
       "_spacyLemma": "send",
@@ -2670,6 +3060,32 @@
       "difficultySource": "zipf"
     },
     {
+      "word": "set light to",
+      "lemma": "set light to",
+      "lemmaId": "set_light_to",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "set_light_to_phrase",
+      "level": "B2",
+      "levelSource": "phrase_fallback",
+      "translations": {
+        "ru": {
+          "translation": "поджечь, подпалить"
+        }
+      },
+      "definition": "idiom: To “set light to” something means to cause it to catch fire.",
+      "example": "The third one along was so very burned that Cat supposed it must have set light to the other two.",
+      "exampleStart": 378,
+      "exampleEnd": 475,
+      "exampleTranslation": "подпалила остальные две",
+      "phraseMatch": {
+        "text": "set light to",
+        "startInExample": 70,
+        "endInExample": 82
+      }
+    },
+    {
       "word": "set",
       "lemma": "set",
       "lemmaId": "set",
@@ -2679,7 +3095,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Набор"
+          "translation": "поджечь"
         }
       },
       "_spacyLemma": "set",
@@ -2701,7 +3117,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "пропустил экзамен по магии первого класса и сразу перешёл ко второму"
+          "translation": "пропустить"
         }
       },
       "_spacyLemma": "skip",
@@ -2723,7 +3139,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Спрей"
+          "translation": "струя"
         }
       },
       "_spacyLemma": "spray",
@@ -2746,7 +3162,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "начиная с"
+          "translation": "начинать (с чего-то)"
         }
       },
       "example": "She took the Third and Fourth grades together just after Christmas and, by the following summer, she was starting on Advanced Magic.",
@@ -2769,7 +3185,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Начало"
+          "translation": "начинать"
         }
       },
       "_spacyLemma": "start",
@@ -2782,6 +3198,32 @@
       "difficultySource": "zipf"
     },
     {
+      "word": "starting with the last",
+      "lemma": "start with",
+      "lemmaId": "start_with",
+      "pos": "prepositional_verb",
+      "type": "prepositional_verb",
+      "source": "fixed_expression",
+      "wordKey": "start_with_prepositional_verb",
+      "level": "A2",
+      "levelSource": "phrase_fallback",
+      "translations": {
+        "ru": {
+          "translation": "начинать с (последнего)"
+        }
+      },
+      "definition": "prepositional verb: To “start with” means begin from the specified first point.",
+      "example": "Mrs. Sharp gave him one every term for a year, starting with the last.",
+      "exampleStart": 2054,
+      "exampleEnd": 2124,
+      "exampleTranslation": "причём начинала с последнего",
+      "phraseMatch": {
+        "text": "starting with the last",
+        "startInExample": 47,
+        "endInExample": 69
+      }
+    },
+    {
       "word": "straight",
       "lemma": "straight",
       "lemmaId": "straight",
@@ -2791,7 +3233,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "Прямая"
+          "translation": "прямо"
         }
       },
       "_spacyLemma": "straight",
@@ -2813,7 +3255,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Лето"
+          "translation": "лето"
         }
       },
       "_spacyLemma": "summer",
@@ -2835,7 +3277,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "предполагалось"
+          "translation": "полагать"
         }
       },
       "_spacyLemma": "suppose",
@@ -2858,7 +3300,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Взял на себя"
+          "translation": "взять"
         }
       },
       "example": "Sharp took it up carefully and, quite as carefully, opened it.",
@@ -2881,7 +3323,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "взял"
+          "translation": "взять"
         }
       },
       "_spacyLemma": "take",
@@ -2926,7 +3368,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "вырван"
+          "translation": "вырвать (с корнем)"
         }
       },
       "example": "But three of the matches had been burned, without being torn out of the book first.",
@@ -2949,7 +3391,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "разорван"
+          "translation": "рвать"
         }
       },
       "_spacyLemma": "tear",
@@ -2971,7 +3413,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "рассказали"
+          "translation": "сказать"
         }
       },
       "_spacyLemma": "tell",
@@ -2993,7 +3435,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Термин"
+          "translation": "четверть"
         }
       },
       "_spacyLemma": "term",
@@ -3006,6 +3448,32 @@
       "difficultySource": "zipf"
     },
     {
+      "word": "The only drawback was that",
+      "lemma": "the only drawback is that",
+      "lemmaId": "the_only_drawback_is_that",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "fixed_expression",
+      "wordKey": "the_only_drawback_is_that_phrase",
+      "level": "B2",
+      "levelSource": "phrase_fallback",
+      "translations": {
+        "ru": {
+          "translation": "Единственный минус был в том, что"
+        }
+      },
+      "definition": "fixed expression: A phrase used to introduce the one disadvantage.",
+      "example": "The only drawback was that Cat was left-handed, and schoolmasters always punished him if they caught him writing with his left hand.",
+      "exampleStart": 1350,
+      "exampleEnd": 1482,
+      "exampleTranslation": "Единственный минус был в том, что",
+      "phraseMatch": {
+        "text": "The only drawback was that",
+        "startInExample": 0,
+        "endInExample": 26
+      }
+    },
+    {
       "word": "things",
       "lemma": "thing",
       "lemmaId": "thing",
@@ -3015,7 +3483,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Вещи"
+          "translation": "вещь"
         }
       },
       "_spacyLemma": "thing",
@@ -3037,7 +3505,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Думай"
+          "translation": "думать"
         }
       },
       "_spacyLemma": "think",
@@ -3059,7 +3527,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Раз в неделю и погладил его по голове в гостиной"
+          "translation": "раз"
         }
       },
       "_spacyLemma": "time",
@@ -3081,7 +3549,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "несчастны"
+          "translation": "несчастный"
         }
       },
       "_spacyLemma": "unhappy",
@@ -3147,7 +3615,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "носил"
+          "translation": "носить"
         }
       },
       "_spacyLemma": "wear",
@@ -3191,7 +3659,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Лучше"
+          "translation": "лучше"
         }
       },
       "_spacyLemma": "well",
@@ -3235,7 +3703,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Жёны"
+          "translation": "жена"
         }
       },
       "_spacyLemma": "wife",
@@ -3279,7 +3747,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Творчество"
+          "translation": "писать"
         }
       },
       "_spacyLemma": "write",
@@ -3352,80 +3820,6 @@
       "sentenceEnd": 237
     },
     {
-      "entityKey": "less_than_half_cardinal",
-      "text": "less than half",
-      "normalizedText": "less than half",
-      "entityType": "CARDINAL",
-      "spacyLabel": "CARDINAL",
-      "entityCategory": "quantity",
-      "learningType": "named_entity",
-      "difficultyMarker": "entity_value",
-      "source": "spacy_ner",
-      "start": 245,
-      "end": 259,
-      "tokenIndexes": [
-        54,
-        55,
-        56
-      ],
-      "sentenceStart": 238,
-      "sentenceEnd": 293
-    },
-    {
-      "entityKey": "three_cardinal",
-      "text": "three",
-      "normalizedText": "three",
-      "entityType": "CARDINAL",
-      "spacyLabel": "CARDINAL",
-      "entityCategory": "quantity",
-      "learningType": "named_entity",
-      "difficultyMarker": "entity_value",
-      "source": "spacy_ner",
-      "start": 298,
-      "end": 303,
-      "tokenIndexes": [
-        64
-      ],
-      "sentenceStart": 294,
-      "sentenceEnd": 377
-    },
-    {
-      "entityKey": "first_ordinal",
-      "text": "first",
-      "normalizedText": "first",
-      "entityType": "ORDINAL",
-      "spacyLabel": "ORDINAL",
-      "entityCategory": "quantity",
-      "learningType": "named_entity",
-      "difficultyMarker": "entity_value",
-      "source": "spacy_ner",
-      "start": 371,
-      "end": 376,
-      "tokenIndexes": [
-        79
-      ],
-      "sentenceStart": 294,
-      "sentenceEnd": 377
-    },
-    {
-      "entityKey": "third_ordinal",
-      "text": "third",
-      "normalizedText": "third",
-      "entityType": "ORDINAL",
-      "spacyLabel": "ORDINAL",
-      "entityCategory": "quantity",
-      "learningType": "named_entity",
-      "difficultyMarker": "entity_value",
-      "source": "spacy_ner",
-      "start": 382,
-      "end": 387,
-      "tokenIndexes": [
-        82
-      ],
-      "sentenceStart": 378,
-      "sentenceEnd": 477
-    },
-    {
       "entityKey": "cat_org",
       "text": "Cat",
       "normalizedText": "cat",
@@ -3439,24 +3833,6 @@
       "end": 425,
       "tokenIndexes": [
         90
-      ],
-      "sentenceStart": 378,
-      "sentenceEnd": 477
-    },
-    {
-      "entityKey": "two_cardinal",
-      "text": "two",
-      "normalizedText": "two",
-      "entityType": "CARDINAL",
-      "spacyLabel": "CARDINAL",
-      "entityCategory": "quantity",
-      "learningType": "named_entity",
-      "difficultyMarker": "entity_value",
-      "source": "spacy_ner",
-      "start": 471,
-      "end": 474,
-      "tokenIndexes": [
-        100
       ],
       "sentenceStart": 378,
       "sentenceEnd": 477
@@ -3697,24 +4073,6 @@
       "sentenceEnd": 1559
     },
     {
-      "entityKey": "dozens_cardinal",
-      "text": "dozens",
-      "normalizedText": "dozens",
-      "entityType": "CARDINAL",
-      "spacyLabel": "CARDINAL",
-      "entityCategory": "quantity",
-      "learningType": "named_entity",
-      "difficultyMarker": "entity_value",
-      "source": "spacy_ner",
-      "start": 1567,
-      "end": 1573,
-      "tokenIndexes": [
-        349
-      ],
-      "sentenceStart": 1560,
-      "sentenceEnd": 1585
-    },
-    {
       "entityKey": "gwendolen_person",
       "text": "Gwendolen",
       "normalizedText": "gwendolen",
@@ -3841,25 +4199,6 @@
       "sentenceEnd": 2124
     },
     {
-      "entityKey": "a_year_date",
-      "text": "a year",
-      "normalizedText": "a year",
-      "entityType": "DATE",
-      "spacyLabel": "DATE",
-      "entityCategory": "date_time",
-      "learningType": "named_entity",
-      "difficultyMarker": "entity_value",
-      "source": "spacy_ner",
-      "start": 2093,
-      "end": 2099,
-      "tokenIndexes": [
-        465,
-        466
-      ],
-      "sentenceStart": 2054,
-      "sentenceEnd": 2124
-    },
-    {
       "entityKey": "gwendolen_person",
       "text": "Gwendolen",
       "normalizedText": "gwendolen",
@@ -3876,116 +4215,6 @@
       ],
       "sentenceStart": 2215,
       "sentenceEnd": 2249
-    },
-    {
-      "entityKey": "first_ordinal",
-      "text": "First",
-      "normalizedText": "first",
-      "entityType": "ORDINAL",
-      "spacyLabel": "ORDINAL",
-      "entityCategory": "quantity",
-      "learningType": "named_entity",
-      "difficultyMarker": "entity_value",
-      "source": "spacy_ner",
-      "start": 2311,
-      "end": 2316,
-      "tokenIndexes": [
-        519
-      ],
-      "sentenceStart": 2250,
-      "sentenceEnd": 2369
-    },
-    {
-      "entityKey": "second_ordinal",
-      "text": "Second",
-      "normalizedText": "second",
-      "entityType": "ORDINAL",
-      "spacyLabel": "ORDINAL",
-      "entityCategory": "quantity",
-      "learningType": "named_entity",
-      "difficultyMarker": "entity_value",
-      "source": "spacy_ner",
-      "start": 2362,
-      "end": 2368,
-      "tokenIndexes": [
-        529
-      ],
-      "sentenceStart": 2250,
-      "sentenceEnd": 2369
-    },
-    {
-      "entityKey": "third_ordinal",
-      "text": "Third",
-      "normalizedText": "third",
-      "entityType": "ORDINAL",
-      "spacyLabel": "ORDINAL",
-      "entityCategory": "quantity",
-      "learningType": "named_entity",
-      "difficultyMarker": "entity_value",
-      "source": "spacy_ner",
-      "start": 2383,
-      "end": 2388,
-      "tokenIndexes": [
-        534
-      ],
-      "sentenceStart": 2370,
-      "sentenceEnd": 2502
-    },
-    {
-      "entityKey": "fourth_ordinal",
-      "text": "Fourth",
-      "normalizedText": "fourth",
-      "entityType": "ORDINAL",
-      "spacyLabel": "ORDINAL",
-      "entityCategory": "quantity",
-      "learningType": "named_entity",
-      "difficultyMarker": "entity_value",
-      "source": "spacy_ner",
-      "start": 2393,
-      "end": 2399,
-      "tokenIndexes": [
-        536
-      ],
-      "sentenceStart": 2370,
-      "sentenceEnd": 2502
-    },
-    {
-      "entityKey": "christmas_date",
-      "text": "Christmas",
-      "normalizedText": "christmas",
-      "entityType": "DATE",
-      "spacyLabel": "DATE",
-      "entityCategory": "date_time",
-      "learningType": "named_entity",
-      "difficultyMarker": "entity_value",
-      "source": "spacy_ner",
-      "start": 2427,
-      "end": 2436,
-      "tokenIndexes": [
-        541
-      ],
-      "sentenceStart": 2370,
-      "sentenceEnd": 2502
-    },
-    {
-      "entityKey": "the_following_summer_date",
-      "text": "the following summer",
-      "normalizedText": "the following summer",
-      "entityType": "DATE",
-      "spacyLabel": "DATE",
-      "entityCategory": "date_time",
-      "learningType": "named_entity",
-      "difficultyMarker": "entity_value",
-      "source": "spacy_ner",
-      "start": 2445,
-      "end": 2465,
-      "tokenIndexes": [
-        545,
-        546,
-        547
-      ],
-      "sentenceStart": 2370,
-      "sentenceEnd": 2502
     },
     {
       "entityKey": "magic_product",
@@ -4073,24 +4302,6 @@
       "end": 2698,
       "tokenIndexes": [
         594
-      ],
-      "sentenceStart": 2675,
-      "sentenceEnd": 2801
-    },
-    {
-      "entityKey": "two_cardinal",
-      "text": "two",
-      "normalizedText": "two",
-      "entityType": "CARDINAL",
-      "spacyLabel": "CARDINAL",
-      "entityCategory": "quantity",
-      "learningType": "named_entity",
-      "difficultyMarker": "entity_value",
-      "source": "spacy_ner",
-      "start": 2699,
-      "end": 2702,
-      "tokenIndexes": [
-        595
       ],
       "sentenceStart": 2675,
       "sentenceEnd": 2801

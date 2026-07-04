@@ -12745,31 +12745,63 @@
   ],
   "namedEntitySpans": [
     {
-      "id": "ne-charmed-life_sct4_f1-cat_chant_person-charmed-life_sct4_f1-s1-0-9-1",
+      "id": "ne-charmed-life_sct4_f1-cat_chant_person-charmed-life_sct4_f1-s1-0-3-1-1",
       "entityKey": "cat_chant_person",
-      "text": "Cat Chant",
-      "normalizedText": "cat chant",
+      "text": "Cat",
+      "normalizedText": "cat",
       "entityType": "PERSON",
       "entityCategory": "character_candidate",
       "difficultyMarker": "proper_name",
       "sourceSentenceId": "charmed-life_sct4_f1:s1",
       "sourceSpan": {
         "start": 0,
-        "end": 9
+        "end": 3
       },
       "targetSentenceId": "charmed-life_sct4_f1:s1",
       "targetSpan": {
         "start": 0,
-        "end": 8
+        "end": 3
       },
-      "targetText": "Кот Чант",
-      "contextTranslation": "Кот Чант",
+      "targetText": "Кот",
+      "contextTranslation": "Кот",
       "alignmentMethod": "simalign",
       "alignmentConfidence": "high",
       "status": "ok",
       "canonicalText": "Cat Chant",
       "canonicalNormalizedText": "cat chant",
-      "canonicalTargetText": "Кот Чант"
+      "canonicalTargetText": "Кот Чант",
+      "displayText": "Cat",
+      "displayNormalizedText": "cat"
+    },
+    {
+      "id": "ne-charmed-life_sct4_f1-chant_family-charmed-life_sct4_f1-s1-4-9-1-2",
+      "entityKey": "chant_family",
+      "text": "Chant",
+      "normalizedText": "chant",
+      "entityType": "PERSON",
+      "entityCategory": "character_candidate",
+      "difficultyMarker": "proper_name",
+      "sourceSentenceId": "charmed-life_sct4_f1:s1",
+      "sourceSpan": {
+        "start": 4,
+        "end": 9
+      },
+      "targetSentenceId": "charmed-life_sct4_f1:s1",
+      "targetSpan": {
+        "start": 4,
+        "end": 8
+      },
+      "targetText": "Чант",
+      "contextTranslation": "Чант",
+      "alignmentMethod": "simalign",
+      "alignmentConfidence": "high",
+      "status": "ok",
+      "canonicalText": "Chant",
+      "canonicalNormalizedText": "chant",
+      "canonicalTargetText": "Чант",
+      "displayText": "Chant",
+      "displayNormalizedText": "chant",
+      "sourceEntityKey": "cat_chant_person"
     },
     {
       "id": "ne-charmed-life_sct4_f1-gwendolen_person-charmed-life_sct4_f1-s1-35-44-2",

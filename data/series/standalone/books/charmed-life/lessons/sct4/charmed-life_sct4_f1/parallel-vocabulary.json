@@ -10362,23 +10362,22 @@
       "sourceText": "his elder sister",
       "dictionaryTranslation": "",
       "rowTranslation": "",
-      "targetText": "старшей; сестрой",
-      "contextTranslation": "старшей; сестрой",
+      "targetText": "своей; старшей; сестрой",
+      "contextTranslation": "своей; старшей; сестрой",
       "sourceSentenceId": "charmed-life_sct4_f1:s1",
       "sourceSpan": {
         "start": 18,
         "end": 34
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "accepted",
-      "phraseReviewReasons": [],
-      "includeInVocabularySelection": true,
       "targetSpans": [
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s1",
+          "targetSpan": {
+            "start": 20,
+            "end": 25
+          },
+          "targetText": "своей"
+        },
         {
           "targetSentenceId": "charmed-life_sct4_f1:s1",
           "targetSpan": {
@@ -10395,7 +10394,16 @@
           },
           "targetText": "сестрой"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "accepted",
+      "phraseReviewReasons": [],
+      "includeInVocabularySelection": true
     },
     {
       "id": "lexical-phrase-sct4_f1-54-61-phrase-pytextrank",
@@ -10416,17 +10424,11 @@
         "start": 8,
         "end": 15
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "fewer_than_two_meaningful_tokens"
-      ],
-      "includeInVocabularySelection": false,
+      "targetSentenceId": "charmed-life_sct4_f1:s2",
+      "targetSpan": {
+        "start": 9,
+        "end": 16
+      },
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s2",
@@ -10436,7 +10438,18 @@
           },
           "targetText": "ведьмой"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "fewer_than_two_meaningful_tokens"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-99-112-phrase-pytextrank",
@@ -10457,15 +10470,6 @@
         "start": 0,
         "end": 13
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "accepted",
-      "phraseReviewReasons": [],
-      "includeInVocabularySelection": true,
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s4",
@@ -10483,7 +10487,16 @@
           },
           "targetText": "перемены"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "accepted",
+      "phraseReviewReasons": [],
+      "includeInVocabularySelection": true
     },
     {
       "id": "lexical-phrase-sct4_f1-127-138-phrase-pytextrank",
@@ -10497,25 +10510,22 @@
       "sourceText": "their lives",
       "dictionaryTranslation": "",
       "rowTranslation": "",
-      "targetText": "жизни",
-      "contextTranslation": "жизни",
+      "targetText": "их; жизни",
+      "contextTranslation": "их; жизни",
       "sourceSentenceId": "charmed-life_sct4_f1:s4",
       "sourceSpan": {
         "start": 28,
         "end": 39
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "fewer_than_two_meaningful_tokens"
-      ],
-      "includeInVocabularySelection": false,
       "targetSpans": [
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s4",
+          "targetSpan": {
+            "start": 8,
+            "end": 10
+          },
+          "targetText": "их"
+        },
         {
           "targetSentenceId": "charmed-life_sct4_f1:s4",
           "targetSpan": {
@@ -10524,7 +10534,18 @@
           },
           "targetText": "жизни"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "fewer_than_two_meaningful_tokens"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-152-158-phrase-pytextrank",
@@ -10538,17 +10559,32 @@
       "sourceText": "no one",
       "dictionaryTranslation": "",
       "rowTranslation": "",
-      "targetText": "",
-      "contextTranslation": "",
+      "targetText": "что",
+      "contextTranslation": "что",
       "sourceSentenceId": "charmed-life_sct4_f1:s4",
       "sourceSpan": {
         "start": 53,
         "end": 59
       },
-      "alignmentMethod": "phrase_lexical_sync",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_target_span_unmaterialized",
-      "alignmentWarning": "Phrase imported from importer live lexical preview; target span is not materialized in the reader sidecar yet.",
+      "targetSentenceId": "charmed-life_sct4_f1:s4",
+      "targetSpan": {
+        "start": 58,
+        "end": 61
+      },
+      "targetSpans": [
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s4",
+          "targetSpan": {
+            "start": 58,
+            "end": 61
+          },
+          "targetText": "что"
+        }
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
       "status": "review",
       "phraseProvider": "pytextrank",
       "phraseStatus": "review",
@@ -10569,25 +10605,22 @@
       "sourceText": "The first great change",
       "dictionaryTranslation": "",
       "rowTranslation": "",
-      "targetText": "большая; перемена",
-      "contextTranslation": "большая; перемена",
+      "targetText": "Первая; большая; перемена",
+      "contextTranslation": "Первая; большая; перемена",
       "sourceSentenceId": "charmed-life_sct4_f1:s5",
       "sourceSpan": {
         "start": 0,
         "end": 22
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "contains_named_entity"
-      ],
-      "includeInVocabularySelection": false,
       "targetSpans": [
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s5",
+          "targetSpan": {
+            "start": 0,
+            "end": 6
+          },
+          "targetText": "Первая"
+        },
         {
           "targetSentenceId": "charmed-life_sct4_f1:s5",
           "targetSpan": {
@@ -10604,7 +10637,18 @@
           },
           "targetText": "перемена"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "contains_named_entity"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-217-230-phrase-pytextrank",
@@ -10618,25 +10662,22 @@
       "sourceText": "their parents",
       "dictionaryTranslation": "",
       "rowTranslation": "",
-      "targetText": "родители",
-      "contextTranslation": "родители",
+      "targetText": "их; родители",
+      "contextTranslation": "их; родители",
       "sourceSentenceId": "charmed-life_sct4_f1:s5",
       "sourceSpan": {
         "start": 39,
         "end": 52
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "fewer_than_two_meaningful_tokens"
-      ],
-      "includeInVocabularySelection": false,
       "targetSpans": [
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s5",
+          "targetSpan": {
+            "start": 41,
+            "end": 43
+          },
+          "targetText": "их"
+        },
         {
           "targetSentenceId": "charmed-life_sct4_f1:s5",
           "targetSpan": {
@@ -10645,7 +10686,18 @@
           },
           "targetText": "родители"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "fewer_than_two_meaningful_tokens"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-249-259-phrase-pytextrank",
@@ -10659,24 +10711,13 @@
       "sourceText": "a day trip",
       "dictionaryTranslation": "",
       "rowTranslation": "",
-      "targetText": "поездку",
-      "contextTranslation": "поездку",
+      "targetText": "поездку; поездку",
+      "contextTranslation": "поездку; поездку",
       "sourceSentenceId": "charmed-life_sct4_f1:s5",
       "sourceSpan": {
         "start": 71,
         "end": 81
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "contains_named_entity"
-      ],
-      "includeInVocabularySelection": false,
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s5",
@@ -10685,8 +10726,27 @@
             "end": 92
           },
           "targetText": "поездку"
+        },
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s5",
+          "targetSpan": {
+            "start": 85,
+            "end": 92
+          },
+          "targetText": "поездку"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "contains_named_entity"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-265-274-phrase-pytextrank",
@@ -10707,17 +10767,11 @@
         "start": 87,
         "end": 96
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "fewer_than_two_meaningful_tokens"
-      ],
-      "includeInVocabularySelection": false,
+      "targetSentenceId": "charmed-life_sct4_f1:s5",
+      "targetSpan": {
+        "start": 101,
+        "end": 105
+      },
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s5",
@@ -10727,7 +10781,18 @@
           },
           "targetText": "реке"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "fewer_than_two_meaningful_tokens"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-278-294-phrase-pytextrank",
@@ -10741,31 +10806,14 @@
       "sourceText": "a paddle steamer",
       "dictionaryTranslation": "",
       "rowTranslation": "",
-      "targetText": "паровом шлюпке; шлюпке",
-      "contextTranslation": "паровом шлюпке; шлюпке",
+      "targetText": "шлюпке; паровом шлюпке",
+      "contextTranslation": "шлюпке; паровом шлюпке",
       "sourceSentenceId": "charmed-life_sct4_f1:s5",
       "sourceSpan": {
         "start": 100,
         "end": 116
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "accepted",
-      "phraseReviewReasons": [],
-      "includeInVocabularySelection": true,
       "targetSpans": [
-        {
-          "targetSentenceId": "charmed-life_sct4_f1:s5",
-          "targetSpan": {
-            "start": 108,
-            "end": 122
-          },
-          "targetText": "паровом шлюпке"
-        },
         {
           "targetSentenceId": "charmed-life_sct4_f1:s5",
           "targetSpan": {
@@ -10773,8 +10821,25 @@
             "end": 122
           },
           "targetText": "шлюпке"
+        },
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s5",
+          "targetSpan": {
+            "start": 108,
+            "end": 122
+          },
+          "targetText": "паровом шлюпке"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "accepted",
+      "phraseReviewReasons": [],
+      "includeInVocabularySelection": true
     },
     {
       "id": "lexical-phrase-sct4_f1-312-323-phrase-pytextrank",
@@ -10788,22 +10853,13 @@
       "sourceText": "great style",
       "dictionaryTranslation": "",
       "rowTranslation": "",
-      "targetText": "размахом",
-      "contextTranslation": "размахом",
+      "targetText": "размахом; размахом",
+      "contextTranslation": "размахом; размахом",
       "sourceSentenceId": "charmed-life_sct4_f1:s6",
       "sourceSpan": {
         "start": 16,
         "end": 27
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "accepted",
-      "phraseReviewReasons": [],
-      "includeInVocabularySelection": true,
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s6",
@@ -10812,8 +10868,25 @@
             "end": 26
           },
           "targetText": "размахом"
+        },
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s6",
+          "targetSpan": {
+            "start": 18,
+            "end": 26
+          },
+          "targetText": "размахом"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "accepted",
+      "phraseReviewReasons": [],
+      "includeInVocabularySelection": true
     },
     {
       "id": "lexical-phrase-sct4_f1-353-366-phrase-pytextrank",
@@ -10834,15 +10907,6 @@
         "start": 57,
         "end": 70
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "accepted",
-      "phraseReviewReasons": [],
-      "includeInVocabularySelection": true,
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s6",
@@ -10860,7 +10924,16 @@
           },
           "targetText": "платьях"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "accepted",
+      "phraseReviewReasons": [],
+      "includeInVocabularySelection": true
     },
     {
       "id": "lexical-phrase-sct4_f1-389-399-phrase-pytextrank",
@@ -10874,25 +10947,22 @@
       "sourceText": "his father",
       "dictionaryTranslation": "",
       "rowTranslation": "",
-      "targetText": "отец",
-      "contextTranslation": "отец",
+      "targetText": "его; отец",
+      "contextTranslation": "его; отец",
       "sourceSentenceId": "charmed-life_sct4_f1:s6",
       "sourceSpan": {
         "start": 93,
         "end": 103
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "fewer_than_two_meaningful_tokens"
-      ],
-      "includeInVocabularySelection": false,
       "targetSpans": [
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s6",
+          "targetSpan": {
+            "start": 85,
+            "end": 88
+          },
+          "targetText": "его"
+        },
         {
           "targetSentenceId": "charmed-life_sct4_f1:s6",
           "targetSpan": {
@@ -10901,7 +10971,18 @@
           },
           "targetText": "отец"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "fewer_than_two_meaningful_tokens"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-403-434-phrase-pytextrank",
@@ -10915,24 +10996,13 @@
       "sourceText": "prickly blue-serge Sunday suits",
       "dictionaryTranslation": "",
       "rowTranslation": "",
-      "targetText": "колючих; синих; костюмах",
-      "contextTranslation": "колючих; синих; костюмах",
+      "targetText": "колючих; синих; синих; костюмах",
+      "contextTranslation": "колючих; синих; синих; костюмах",
       "sourceSentenceId": "charmed-life_sct4_f1:s6",
       "sourceSpan": {
         "start": 107,
         "end": 138
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "contains_named_entity"
-      ],
-      "includeInVocabularySelection": false,
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s6",
@@ -10953,12 +11023,31 @@
         {
           "targetSentenceId": "charmed-life_sct4_f1:s6",
           "targetSpan": {
+            "start": 106,
+            "end": 111
+          },
+          "targetText": "синих"
+        },
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s6",
+          "targetSpan": {
             "start": 123,
             "end": 131
           },
           "targetText": "костюмах"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "contains_named_entity"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-454-465-phrase-pytextrank",
@@ -10979,17 +11068,11 @@
         "start": 0,
         "end": 11
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "fewer_than_two_meaningful_tokens"
-      ],
-      "includeInVocabularySelection": false,
+      "targetSentenceId": "charmed-life_sct4_f1:s8",
+      "targetSpan": {
+        "start": 0,
+        "end": 6
+      },
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s8",
@@ -10999,7 +11082,18 @@
           },
           "targetText": "Шлюпка"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "fewer_than_two_meaningful_tokens"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-483-495-phrase-pytextrank",
@@ -11013,23 +11107,22 @@
       "sourceText": "other people",
       "dictionaryTranslation": "",
       "rowTranslation": "",
-      "targetText": "людьми",
-      "contextTranslation": "людьми",
+      "targetText": "другими; людьми",
+      "contextTranslation": "другими; людьми",
       "sourceSentenceId": "charmed-life_sct4_f1:s8",
       "sourceSpan": {
         "start": 29,
         "end": 41
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "accepted",
-      "phraseReviewReasons": [],
-      "includeInVocabularySelection": true,
       "targetSpans": [
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s8",
+          "targetSpan": {
+            "start": 19,
+            "end": 26
+          },
+          "targetText": "другими"
+        },
         {
           "targetSentenceId": "charmed-life_sct4_f1:s8",
           "targetSpan": {
@@ -11038,7 +11131,16 @@
           },
           "targetText": "людьми"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "accepted",
+      "phraseReviewReasons": [],
+      "includeInVocabularySelection": true
     },
     {
       "id": "lexical-phrase-sct4_f1-499-514-phrase-pytextrank",
@@ -11052,22 +11154,13 @@
       "sourceText": "holiday clothes",
       "dictionaryTranslation": "",
       "rowTranslation": "",
-      "targetText": "праздничной; одежде",
-      "contextTranslation": "праздничной; одежде",
+      "targetText": "праздничной; одежде; :",
+      "contextTranslation": "праздничной; одежде; :",
       "sourceSentenceId": "charmed-life_sct4_f1:s8",
       "sourceSpan": {
         "start": 45,
         "end": 60
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "accepted",
-      "phraseReviewReasons": [],
-      "includeInVocabularySelection": true,
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s8",
@@ -11084,8 +11177,25 @@
             "end": 54
           },
           "targetText": "одежде"
+        },
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s8",
+          "targetSpan": {
+            "start": 54,
+            "end": 55
+          },
+          "targetText": ":"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "accepted",
+      "phraseReviewReasons": [],
+      "includeInVocabularySelection": true
     },
     {
       "id": "lexical-phrase-sct4_f1-554-565-phrase-pytextrank",
@@ -11106,15 +11216,6 @@
         "start": 100,
         "end": 111
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "accepted",
-      "phraseReviewReasons": [],
-      "includeInVocabularySelection": true,
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s8",
@@ -11132,7 +11233,16 @@
           },
           "targetText": "ломтиками"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "accepted",
+      "phraseReviewReasons": [],
+      "includeInVocabularySelection": true
     },
     {
       "id": "lexical-phrase-sct4_f1-569-580-phrase-pytextrank",
@@ -11180,23 +11290,22 @@
       "sourceText": "the paddleboat steam organ",
       "dictionaryTranslation": "",
       "rowTranslation": "",
-      "targetText": "прогулочный; орган",
-      "contextTranslation": "прогулочный; орган",
+      "targetText": "прогулочный; прогулочный; орган",
+      "contextTranslation": "прогулочный; прогулочный; орган",
       "sourceSentenceId": "charmed-life_sct4_f1:s8",
       "sourceSpan": {
         "start": 145,
         "end": 171
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "accepted",
-      "phraseReviewReasons": [],
-      "includeInVocabularySelection": true,
       "targetSpans": [
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s8",
+          "targetSpan": {
+            "start": 148,
+            "end": 159
+          },
+          "targetText": "прогулочный"
+        },
         {
           "targetSentenceId": "charmed-life_sct4_f1:s8",
           "targetSpan": {
@@ -11213,7 +11322,16 @@
           },
           "targetText": "орган"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "accepted",
+      "phraseReviewReasons": [],
+      "includeInVocabularySelection": true
     },
     {
       "id": "lexical-phrase-sct4_f1-638-651-phrase-pytextrank",
@@ -11234,15 +11352,6 @@
         "start": 184,
         "end": 197
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "accepted",
-      "phraseReviewReasons": [],
-      "includeInVocabularySelection": true,
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s8",
@@ -11260,7 +11369,16 @@
           },
           "targetText": "мелодиями"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "accepted",
+      "phraseReviewReasons": [],
+      "includeInVocabularySelection": true
     },
     {
       "id": "lexical-phrase-sct4_f1-660-666-phrase-pytextrank",
@@ -11312,17 +11430,11 @@
         "start": 8,
         "end": 19
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "fewer_than_two_meaningful_tokens"
-      ],
-      "includeInVocabularySelection": false,
+      "targetSentenceId": "charmed-life_sct4_f1:s9",
+      "targetSpan": {
+        "start": 15,
+        "end": 21
+      },
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s9",
@@ -11332,7 +11444,18 @@
           },
           "targetText": "шлюпка"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "fewer_than_two_meaningful_tokens"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-771-783-phrase-pytextrank",
@@ -11353,17 +11476,11 @@
         "start": 26,
         "end": 38
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "fewer_than_two_meaningful_tokens"
-      ],
-      "includeInVocabularySelection": false,
+      "targetSentenceId": "charmed-life_sct4_f1:s10",
+      "targetSpan": {
+        "start": 22,
+        "end": 33
+      },
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s10",
@@ -11373,7 +11490,18 @@
           },
           "targetText": "управлением"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "fewer_than_two_meaningful_tokens"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-785-839-phrase-pytextrank",
@@ -11387,25 +11515,22 @@
       "sourceText": "The whole laughing, whelk-eating, Sunday-dressed crowd",
       "dictionaryTranslation": "",
       "rowTranslation": "",
-      "targetText": "смеющийся; поедающий вёдер-улиток; народ",
-      "contextTranslation": "смеющийся; поедающий вёдер-улиток; народ",
+      "targetText": "Весь; смеющийся; поедающий вёдер-улиток; поедающий вёдер-улиток; народ",
+      "contextTranslation": "Весь; смеющийся; поедающий вёдер-улиток; поедающий вёдер-улиток; народ",
       "sourceSentenceId": "charmed-life_sct4_f1:s11",
       "sourceSpan": {
         "start": 0,
         "end": 54
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "contains_named_entity"
-      ],
-      "includeInVocabularySelection": false,
       "targetSpans": [
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s11",
+          "targetSpan": {
+            "start": 0,
+            "end": 4
+          },
+          "targetText": "Весь"
+        },
         {
           "targetSentenceId": "charmed-life_sct4_f1:s11",
           "targetSpan": {
@@ -11425,12 +11550,31 @@
         {
           "targetSentenceId": "charmed-life_sct4_f1:s11",
           "targetSpan": {
+            "start": 16,
+            "end": 38
+          },
+          "targetText": "поедающий вёдер-улиток"
+        },
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s11",
+          "targetSpan": {
             "start": 62,
             "end": 67
           },
           "targetText": "народ"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "contains_named_entity"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-858-869-phrase-pytextrank",
@@ -11451,17 +11595,11 @@
         "start": 73,
         "end": 84
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "fewer_than_two_meaningful_tokens"
-      ],
-      "includeInVocabularySelection": false,
+      "targetSentenceId": "charmed-life_sct4_f1:s11",
+      "targetSpan": {
+        "start": 86,
+        "end": 93
+      },
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s11",
@@ -11471,7 +11609,18 @@
           },
           "targetText": "плотины"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "fewer_than_two_meaningful_tokens"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-875-882-phrase-pytextrank",
@@ -11492,17 +11641,11 @@
         "start": 90,
         "end": 97
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "fewer_than_two_meaningful_tokens"
-      ],
-      "includeInVocabularySelection": false,
+      "targetSentenceId": "charmed-life_sct4_f1:s11",
+      "targetSpan": {
+        "start": 86,
+        "end": 93
+      },
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s11",
@@ -11512,7 +11655,18 @@
           },
           "targetText": "плотины"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "fewer_than_two_meaningful_tokens"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-900-909-phrase-pytextrank",
@@ -11533,17 +11687,11 @@
         "start": 16,
         "end": 25
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "fewer_than_two_meaningful_tokens"
-      ],
-      "includeInVocabularySelection": false,
+      "targetSentenceId": "charmed-life_sct4_f1:s12",
+      "targetSpan": {
+        "start": 25,
+        "end": 32
+      },
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s12",
@@ -11553,7 +11701,18 @@
           },
           "targetText": "столбов"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "fewer_than_two_meaningful_tokens"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-967-977-phrase-pytextrank",
@@ -11598,31 +11757,14 @@
       "sourceText": "the organ playing",
       "dictionaryTranslation": "",
       "rowTranslation": "",
-      "targetText": "играл; орган",
-      "contextTranslation": "играл; орган",
+      "targetText": "орган; играл",
+      "contextTranslation": "орган; играл",
       "sourceSentenceId": "charmed-life_sct4_f1:s13",
       "sourceSpan": {
         "start": 15,
         "end": 32
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "accepted",
-      "phraseReviewReasons": [],
-      "includeInVocabularySelection": true,
       "targetSpans": [
-        {
-          "targetSentenceId": "charmed-life_sct4_f1:s13",
-          "targetSpan": {
-            "start": 18,
-            "end": 23
-          },
-          "targetText": "играл"
-        },
         {
           "targetSentenceId": "charmed-life_sct4_f1:s13",
           "targetSpan": {
@@ -11630,8 +11772,25 @@
             "end": 29
           },
           "targetText": "орган"
+        },
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s13",
+          "targetSpan": {
+            "start": 18,
+            "end": 23
+          },
+          "targetText": "играл"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "accepted",
+      "phraseReviewReasons": [],
+      "includeInVocabularySelection": true
     },
     {
       "id": "lexical-phrase-sct4_f1-1061-1072-phrase-pytextrank",
@@ -11683,15 +11842,6 @@
         "start": 57,
         "end": 69
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "accepted",
-      "phraseReviewReasons": [],
-      "includeInVocabularySelection": true,
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s13",
@@ -11709,7 +11859,16 @@
           },
           "targetText": "небу"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "accepted",
+      "phraseReviewReasons": [],
+      "includeInVocabularySelection": true
     },
     {
       "id": "lexical-phrase-sct4_f1-1125-1137-phrase-pytextrank",
@@ -11730,15 +11889,6 @@
         "start": 30,
         "end": 42
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "accepted",
-      "phraseReviewReasons": [],
-      "includeInVocabularySelection": true,
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s14",
@@ -11756,7 +11906,16 @@
           },
           "targetText": "труб"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "accepted",
+      "phraseReviewReasons": [],
+      "includeInVocabularySelection": true
     },
     {
       "id": "lexical-phrase-sct4_f1-1150-1161-phrase-pytextrank",
@@ -11777,17 +11936,11 @@
         "start": 55,
         "end": 66
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "fewer_than_two_meaningful_tokens"
-      ],
-      "includeInVocabularySelection": false,
+      "targetSentenceId": "charmed-life_sct4_f1:s14",
+      "targetSpan": {
+        "start": 48,
+        "end": 53
+      },
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s14",
@@ -11797,7 +11950,18 @@
           },
           "targetText": "крики"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "fewer_than_two_meaningful_tokens"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-1167-1176-phrase-pytextrank",
@@ -11818,17 +11982,11 @@
         "start": 72,
         "end": 81
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "fewer_than_two_meaningful_tokens"
-      ],
-      "includeInVocabularySelection": false,
+      "targetSentenceId": "charmed-life_sct4_f1:s14",
+      "targetSpan": {
+        "start": 54,
+        "end": 59
+      },
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s14",
@@ -11838,7 +11996,18 @@
           },
           "targetText": "толпы"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "fewer_than_two_meaningful_tokens"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-1181-1200-phrase-pytextrank",
@@ -11852,30 +12021,21 @@
       "sourceText": "every single person",
       "dictionaryTranslation": "",
       "rowTranslation": "",
-      "targetText": "каждый; человек",
-      "contextTranslation": "каждый; человек",
+      "targetText": "на; человек",
+      "contextTranslation": "на; человек",
       "sourceSentenceId": "charmed-life_sct4_f1:s14",
       "sourceSpan": {
         "start": 86,
         "end": 105
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "accepted",
-      "phraseReviewReasons": [],
-      "includeInVocabularySelection": true,
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s14",
           "targetSpan": {
-            "start": 72,
-            "end": 78
+            "start": 87,
+            "end": 89
           },
-          "targetText": "каждый"
+          "targetText": "на"
         },
         {
           "targetSentenceId": "charmed-life_sct4_f1:s14",
@@ -11885,7 +12045,16 @@
           },
           "targetText": "человек"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "accepted",
+      "phraseReviewReasons": [],
+      "includeInVocabularySelection": true
     },
     {
       "id": "lexical-phrase-sct4_f1-1231-1238-phrase-pytextrank",
@@ -11906,17 +12075,11 @@
         "start": 136,
         "end": 143
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "fewer_than_two_meaningful_tokens"
-      ],
-      "includeInVocabularySelection": false,
+      "targetSentenceId": "charmed-life_sct4_f1:s14",
+      "targetSpan": {
+        "start": 111,
+        "end": 118
+      },
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s14",
@@ -11926,7 +12089,18 @@
           },
           "targetText": "плотину"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "fewer_than_two_meaningful_tokens"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-1247-1266-phrase-pytextrank",
@@ -11947,15 +12121,6 @@
         "start": 7,
         "end": 26
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "accepted",
-      "phraseReviewReasons": [],
-      "includeInVocabularySelection": true,
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s15",
@@ -11973,7 +12138,16 @@
           },
           "targetText": "авария"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "accepted",
+      "phraseReviewReasons": [],
+      "includeInVocabularySelection": true
     },
     {
       "id": "lexical-phrase-sct4_f1-1268-1278-phrase-pytextrank",
@@ -11994,17 +12168,11 @@
         "start": 0,
         "end": 10
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "fewer_than_two_meaningful_tokens"
-      ],
-      "includeInVocabularySelection": false,
+      "targetSentenceId": "charmed-life_sct4_f1:s16",
+      "targetSpan": {
+        "start": 0,
+        "end": 6
+      },
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s16",
@@ -12014,7 +12182,18 @@
           },
           "targetText": "Газеты"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "fewer_than_two_meaningful_tokens"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-1289-1313-phrase-pytextrank",
@@ -12028,17 +12207,43 @@
       "sourceText": "the Saucy Nancy Disaster",
       "dictionaryTranslation": "",
       "rowTranslation": "",
-      "targetText": "",
-      "contextTranslation": "",
+      "targetText": "Нэнси-Замарашки; Несчастьем; .",
+      "contextTranslation": "Нэнси-Замарашки; Несчастьем; .",
       "sourceSentenceId": "charmed-life_sct4_f1:s16",
       "sourceSpan": {
         "start": 21,
         "end": 45
       },
-      "alignmentMethod": "phrase_lexical_sync",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_target_span_unmaterialized",
-      "alignmentWarning": "Phrase imported from importer live lexical preview; target span is not materialized in the reader sidecar yet.",
+      "targetSpans": [
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s16",
+          "targetSpan": {
+            "start": 30,
+            "end": 45
+          },
+          "targetText": "Нэнси-Замарашки"
+        },
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s16",
+          "targetSpan": {
+            "start": 19,
+            "end": 29
+          },
+          "targetText": "Несчастьем"
+        },
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s16",
+          "targetSpan": {
+            "start": 46,
+            "end": 47
+          },
+          "targetText": "."
+        }
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
       "status": "review",
       "phraseProvider": "pytextrank",
       "phraseStatus": "review",
@@ -12066,17 +12271,11 @@
         "start": 0,
         "end": 10
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "fewer_than_two_meaningful_tokens"
-      ],
-      "includeInVocabularySelection": false,
+      "targetSentenceId": "charmed-life_sct4_f1:s17",
+      "targetSpan": {
+        "start": 0,
+        "end": 4
+      },
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s17",
@@ -12086,7 +12285,18 @@
           },
           "targetText": "Дамы"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "fewer_than_two_meaningful_tokens"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-1329-1350-phrase-pytextrank",
@@ -12100,23 +12310,22 @@
       "sourceText": "their clinging skirts",
       "dictionaryTranslation": "",
       "rowTranslation": "",
-      "targetText": "обтягивающих; юбках",
-      "contextTranslation": "обтягивающих; юбках",
+      "targetText": "их; обтягивающих; юбках",
+      "contextTranslation": "их; обтягивающих; юбках",
       "sourceSentenceId": "charmed-life_sct4_f1:s17",
       "sourceSpan": {
         "start": 14,
         "end": 35
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "accepted",
-      "phraseReviewReasons": [],
-      "includeInVocabularySelection": true,
       "targetSpans": [
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s17",
+          "targetSpan": {
+            "start": 7,
+            "end": 9
+          },
+          "targetText": "их"
+        },
         {
           "targetSentenceId": "charmed-life_sct4_f1:s17",
           "targetSpan": {
@@ -12133,7 +12342,16 @@
           },
           "targetText": "юбках"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "accepted",
+      "phraseReviewReasons": [],
+      "includeInVocabularySelection": true
     },
     {
       "id": "lexical-phrase-sct4_f1-1378-1385-phrase-pytextrank",
@@ -12154,17 +12372,11 @@
         "start": 0,
         "end": 7
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "fewer_than_two_meaningful_tokens"
-      ],
-      "includeInVocabularySelection": false,
+      "targetSentenceId": "charmed-life_sct4_f1:s18",
+      "targetSpan": {
+        "start": 0,
+        "end": 7
+      },
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s18",
@@ -12174,7 +12386,18 @@
           },
           "targetText": "Мужчины"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "fewer_than_two_meaningful_tokens"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-1389-1405-phrase-pytextrank",
@@ -12188,22 +12411,13 @@
       "sourceText": "tight blue serge",
       "dictionaryTranslation": "",
       "rowTranslation": "",
-      "targetText": "тесных; синих; суконных костюмах",
-      "contextTranslation": "тесных; синих; суконных костюмах",
+      "targetText": "тесных; синих; суконных; костюмах",
+      "contextTranslation": "тесных; синих; суконных; костюмах",
       "sourceSentenceId": "charmed-life_sct4_f1:s18",
       "sourceSpan": {
         "start": 11,
         "end": 27
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "accepted",
-      "phraseReviewReasons": [],
-      "includeInVocabularySelection": true,
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s18",
@@ -12225,11 +12439,28 @@
           "targetSentenceId": "charmed-life_sct4_f1:s18",
           "targetSpan": {
             "start": 23,
+            "end": 31
+          },
+          "targetText": "суконных"
+        },
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s18",
+          "targetSpan": {
+            "start": 32,
             "end": 40
           },
-          "targetText": "суконных костюмах"
+          "targetText": "костюмах"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "accepted",
+      "phraseReviewReasons": [],
+      "includeInVocabularySelection": true
     },
     {
       "id": "lexical-phrase-sct4_f1-1453-1460-phrase-pytextrank",
@@ -12250,17 +12481,11 @@
         "start": 18,
         "end": 25
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "fewer_than_two_meaningful_tokens"
-      ],
-      "includeInVocabularySelection": false,
+      "targetSentenceId": "charmed-life_sct4_f1:s19",
+      "targetSpan": {
+        "start": 18,
+        "end": 25
+      },
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s19",
@@ -12270,7 +12495,18 @@
           },
           "targetText": "ведьмой"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "fewer_than_two_meaningful_tokens"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-1505-1513-phrase-pytextrank",
@@ -12291,17 +12527,11 @@
         "start": 19,
         "end": 27
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "fewer_than_two_meaningful_tokens"
-      ],
-      "includeInVocabularySelection": false,
+      "targetSentenceId": "charmed-life_sct4_f1:s20",
+      "targetSpan": {
+        "start": 41,
+        "end": 47
+      },
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s20",
@@ -12311,7 +12541,18 @@
           },
           "targetText": "руками"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "fewer_than_two_meaningful_tokens"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-1536-1544-phrase-pytextrank",
@@ -12332,17 +12573,11 @@
         "start": 50,
         "end": 58
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "fewer_than_two_meaningful_tokens"
-      ],
-      "includeInVocabularySelection": false,
+      "targetSentenceId": "charmed-life_sct4_f1:s20",
+      "targetSpan": {
+        "start": 55,
+        "end": 60
+      },
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s20",
@@ -12352,7 +12587,18 @@
           },
           "targetText": "лодка"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "fewer_than_two_meaningful_tokens"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-1549-1557-phrase-pytextrank",
@@ -12373,17 +12619,11 @@
         "start": 63,
         "end": 71
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "fewer_than_two_meaningful_tokens"
-      ],
-      "includeInVocabularySelection": false,
+      "targetSentenceId": "charmed-life_sct4_f1:s20",
+      "targetSpan": {
+        "start": 73,
+        "end": 78
+      },
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s20",
@@ -12393,7 +12633,18 @@
           },
           "targetText": "столб"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "fewer_than_two_meaningful_tokens"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-1584-1608-phrase-pytextrank",
@@ -12407,23 +12658,38 @@
       "sourceText": "very few other survivors",
       "dictionaryTranslation": "",
       "rowTranslation": "",
-      "targetText": "выживших",
-      "contextTranslation": "выживших",
+      "targetText": "совсем; мало; других; выживших",
+      "contextTranslation": "совсем; мало; других; выживших",
       "sourceSentenceId": "charmed-life_sct4_f1:s21",
       "sourceSpan": {
         "start": 11,
         "end": 35
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "accepted",
-      "phraseReviewReasons": [],
-      "includeInVocabularySelection": true,
       "targetSpans": [
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s21",
+          "targetSpan": {
+            "start": 9,
+            "end": 15
+          },
+          "targetText": "совсем"
+        },
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s21",
+          "targetSpan": {
+            "start": 16,
+            "end": 20
+          },
+          "targetText": "мало"
+        },
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s21",
+          "targetSpan": {
+            "start": 21,
+            "end": 27
+          },
+          "targetText": "других"
+        },
         {
           "targetSentenceId": "charmed-life_sct4_f1:s21",
           "targetSpan": {
@@ -12432,7 +12698,16 @@
           },
           "targetText": "выживших"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "accepted",
+      "phraseReviewReasons": [],
+      "includeInVocabularySelection": true
     },
     {
       "id": "lexical-phrase-sct4_f1-1611-1628-phrase-pytextrank",
@@ -12453,15 +12728,11 @@
         "start": 0,
         "end": 17
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "accepted",
-      "phraseReviewReasons": [],
-      "includeInVocabularySelection": true,
+      "targetSentenceId": "charmed-life_sct4_f1:s22",
+      "targetSpan": {
+        "start": 4,
+        "end": 10
+      },
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s22",
@@ -12471,7 +12742,16 @@
           },
           "targetText": "страна"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "accepted",
+      "phraseReviewReasons": [],
+      "includeInVocabularySelection": true
     },
     {
       "id": "lexical-phrase-sct4_f1-1648-1670-phrase-pytextrank",
@@ -12485,31 +12765,14 @@
       "sourceText": "The paddleboat company",
       "dictionaryTranslation": "",
       "rowTranslation": "",
-      "targetText": "Компания; пароходов",
-      "contextTranslation": "Компания; пароходов",
+      "targetText": "пароходов; Компания",
+      "contextTranslation": "пароходов; Компания",
       "sourceSentenceId": "charmed-life_sct4_f1:s23",
       "sourceSpan": {
         "start": 0,
         "end": 22
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "accepted",
-      "phraseReviewReasons": [],
-      "includeInVocabularySelection": true,
       "targetSpans": [
-        {
-          "targetSentenceId": "charmed-life_sct4_f1:s23",
-          "targetSpan": {
-            "start": 0,
-            "end": 8
-          },
-          "targetText": "Компания"
-        },
         {
           "targetSentenceId": "charmed-life_sct4_f1:s23",
           "targetSpan": {
@@ -12517,8 +12780,25 @@
             "end": 18
           },
           "targetText": "пароходов"
+        },
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s23",
+          "targetSpan": {
+            "start": 0,
+            "end": 8
+          },
+          "targetText": "Компания"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "accepted",
+      "phraseReviewReasons": [],
+      "includeInVocabularySelection": true
     },
     {
       "id": "lexical-phrase-sct4_f1-1675-1683-phrase-pytextrank",
@@ -12539,17 +12819,11 @@
         "start": 27,
         "end": 35
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "fewer_than_two_meaningful_tokens"
-      ],
-      "includeInVocabularySelection": false,
+      "targetSentenceId": "charmed-life_sct4_f1:s23",
+      "targetSpan": {
+        "start": 21,
+        "end": 26
+      },
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s23",
@@ -12559,7 +12833,18 @@
           },
           "targetText": "город"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "fewer_than_two_meaningful_tokens"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-1720-1732-phrase-pytextrank",
@@ -12580,17 +12865,11 @@
         "start": 72,
         "end": 84
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "fewer_than_two_meaningful_tokens"
-      ],
-      "includeInVocabularySelection": false,
+      "targetSentenceId": "charmed-life_sct4_f1:s23",
+      "targetSpan": {
+        "start": 53,
+        "end": 61
+      },
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s23",
@@ -12600,7 +12879,18 @@
           },
           "targetText": "похороны"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "fewer_than_two_meaningful_tokens"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-1763-1782-phrase-pytextrank",
@@ -12621,15 +12911,6 @@
         "start": 29,
         "end": 48
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "accepted",
-      "phraseReviewReasons": [],
-      "includeInVocabularySelection": true,
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s24",
@@ -12655,7 +12936,16 @@
           },
           "targetText": "одежду"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "accepted",
+      "phraseReviewReasons": [],
+      "includeInVocabularySelection": true
     },
     {
       "id": "lexical-phrase-sct4_f1-1786-1800-phrase-pytextrank",
@@ -12669,22 +12959,13 @@
       "sourceText": "public expense",
       "dictionaryTranslation": "",
       "rowTranslation": "",
-      "targetText": "общественный; общественный счёт",
-      "contextTranslation": "общественный; общественный счёт",
+      "targetText": "общественный; счёт",
+      "contextTranslation": "общественный; счёт",
       "sourceSentenceId": "charmed-life_sct4_f1:s24",
       "sourceSpan": {
         "start": 52,
         "end": 66
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "accepted",
-      "phraseReviewReasons": [],
-      "includeInVocabularySelection": true,
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s24",
@@ -12697,12 +12978,21 @@
         {
           "targetSentenceId": "charmed-life_sct4_f1:s24",
           "targetSpan": {
-            "start": 27,
+            "start": 40,
             "end": 44
           },
-          "targetText": "общественный счёт"
+          "targetText": "счёт"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "accepted",
+      "phraseReviewReasons": [],
+      "includeInVocabularySelection": true
     },
     {
       "id": "lexical-phrase-sct4_f1-1818-1832-phrase-pytextrank",
@@ -12723,17 +13013,11 @@
         "start": 84,
         "end": 98
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "fewer_than_two_meaningful_tokens"
-      ],
-      "includeInVocabularySelection": false,
+      "targetSentenceId": "charmed-life_sct4_f1:s24",
+      "targetSpan": {
+        "start": 83,
+        "end": 93
+      },
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s24",
@@ -12743,7 +13027,18 @@
           },
           "targetText": "процессией"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "fewer_than_two_meaningful_tokens"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-1847-1857-phrase-pytextrank",
@@ -12764,17 +13059,11 @@
         "start": 113,
         "end": 123
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "fewer_than_two_meaningful_tokens"
-      ],
-      "includeInVocabularySelection": false,
+      "targetSentenceId": "charmed-life_sct4_f1:s24",
+      "targetSpan": {
+        "start": 103,
+        "end": 109
+      },
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s24",
@@ -12784,7 +13073,18 @@
           },
           "targetText": "карете"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "fewer_than_two_meaningful_tokens"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-1868-1880-phrase-pytextrank",
@@ -12798,30 +13098,21 @@
       "sourceText": "black horses",
       "dictionaryTranslation": "",
       "rowTranslation": "",
-      "targetText": "чёрную; лошадьми",
-      "contextTranslation": "чёрную; лошадьми",
+      "targetText": "чёрными; лошадьми; султанами",
+      "contextTranslation": "чёрными; лошадьми; султанами",
       "sourceSentenceId": "charmed-life_sct4_f1:s24",
       "sourceSpan": {
         "start": 134,
         "end": 146
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "accepted",
-      "phraseReviewReasons": [],
-      "includeInVocabularySelection": true,
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s24",
           "targetSpan": {
-            "start": 53,
-            "end": 59
+            "start": 123,
+            "end": 130
           },
-          "targetText": "чёрную"
+          "targetText": "чёрными"
         },
         {
           "targetSentenceId": "charmed-life_sct4_f1:s24",
@@ -12830,8 +13121,25 @@
             "end": 139
           },
           "targetText": "лошадьми"
+        },
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s24",
+          "targetSpan": {
+            "start": 150,
+            "end": 159
+          },
+          "targetText": "султанами"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "accepted",
+      "phraseReviewReasons": [],
+      "includeInVocabularySelection": true
     },
     {
       "id": "lexical-phrase-sct4_f1-1886-1898-phrase-pytextrank",
@@ -12845,30 +13153,21 @@
       "sourceText": "black plumes",
       "dictionaryTranslation": "",
       "rowTranslation": "",
-      "targetText": "чёрную; лошадьми",
-      "contextTranslation": "чёрную; лошадьми",
+      "targetText": "чёрными; лошадьми",
+      "contextTranslation": "чёрными; лошадьми",
       "sourceSentenceId": "charmed-life_sct4_f1:s24",
       "sourceSpan": {
         "start": 152,
         "end": 164
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "accepted",
-      "phraseReviewReasons": [],
-      "includeInVocabularySelection": true,
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s24",
           "targetSpan": {
-            "start": 53,
-            "end": 59
+            "start": 142,
+            "end": 149
           },
-          "targetText": "чёрную"
+          "targetText": "чёрными"
         },
         {
           "targetSentenceId": "charmed-life_sct4_f1:s24",
@@ -12878,7 +13177,16 @@
           },
           "targetText": "лошадьми"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "accepted",
+      "phraseReviewReasons": [],
+      "includeInVocabularySelection": true
     },
     {
       "id": "lexical-phrase-sct4_f1-1902-1913-phrase-pytextrank",
@@ -12892,25 +13200,22 @@
       "sourceText": "their heads",
       "dictionaryTranslation": "",
       "rowTranslation": "",
-      "targetText": "головах",
-      "contextTranslation": "головах",
+      "targetText": "них; головах",
+      "contextTranslation": "них; головах",
       "sourceSentenceId": "charmed-life_sct4_f1:s24",
       "sourceSpan": {
         "start": 168,
         "end": 179
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "fewer_than_two_meaningful_tokens"
-      ],
-      "includeInVocabularySelection": false,
       "targetSpans": [
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s24",
+          "targetSpan": {
+            "start": 162,
+            "end": 165
+          },
+          "targetText": "них"
+        },
         {
           "targetSentenceId": "charmed-life_sct4_f1:s24",
           "targetSpan": {
@@ -12919,7 +13224,18 @@
           },
           "targetText": "головах"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "fewer_than_two_meaningful_tokens"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-1915-1934-phrase-pytextrank",
@@ -12940,15 +13256,11 @@
         "start": 0,
         "end": 19
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "accepted",
-      "phraseReviewReasons": [],
-      "includeInVocabularySelection": true,
+      "targetSentenceId": "charmed-life_sct4_f1:s25",
+      "targetSpan": {
+        "start": 10,
+        "end": 18
+      },
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s25",
@@ -12958,7 +13270,16 @@
           },
           "targetText": "выжившие"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "accepted",
+      "phraseReviewReasons": [],
+      "includeInVocabularySelection": true
     },
     {
       "id": "lexical-phrase-sct4_f1-2088-2101-phrase-pytextrank",
@@ -12979,17 +13300,11 @@
         "start": 46,
         "end": 59
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "fewer_than_two_meaningful_tokens"
-      ],
-      "includeInVocabularySelection": false,
+      "targetSentenceId": "charmed-life_sct4_f1:s27",
+      "targetSpan": {
+        "start": 32,
+        "end": 40
+      },
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s27",
@@ -12999,7 +13314,18 @@
           },
           "targetText": "выживших"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "fewer_than_two_meaningful_tokens"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-2133-2144-phrase-pytextrank",
@@ -13020,17 +13346,11 @@
         "start": 30,
         "end": 41
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "fewer_than_two_meaningful_tokens"
-      ],
-      "includeInVocabularySelection": false,
+      "targetSentenceId": "charmed-life_sct4_f1:s28",
+      "targetSpan": {
+        "start": 21,
+        "end": 27
+      },
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s28",
@@ -13040,7 +13360,18 @@
           },
           "targetText": "страны"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "fewer_than_two_meaningful_tokens"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-2146-2169-phrase-pytextrank",
@@ -13054,23 +13385,22 @@
       "sourceText": "All the other survivors",
       "dictionaryTranslation": "",
       "rowTranslation": "",
-      "targetText": "выжившие",
-      "contextTranslation": "выжившие",
+      "targetText": "остальные; выжившие",
+      "contextTranslation": "остальные; выжившие",
       "sourceSentenceId": "charmed-life_sct4_f1:s29",
       "sourceSpan": {
         "start": 0,
         "end": 23
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "accepted",
-      "phraseReviewReasons": [],
-      "includeInVocabularySelection": true,
       "targetSpans": [
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s29",
+          "targetSpan": {
+            "start": 4,
+            "end": 13
+          },
+          "targetText": "остальные"
+        },
         {
           "targetSentenceId": "charmed-life_sct4_f1:s29",
           "targetSpan": {
@@ -13079,7 +13409,16 @@
           },
           "targetText": "выжившие"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "accepted",
+      "phraseReviewReasons": [],
+      "includeInVocabularySelection": true
     },
     {
       "id": "lexical-phrase-sct4_f1-2175-2186-phrase-pytextrank",
@@ -13093,25 +13432,22 @@
       "sourceText": "their share",
       "dictionaryTranslation": "",
       "rowTranslation": "",
-      "targetText": "долю",
-      "contextTranslation": "долю",
+      "targetText": "свою; долю",
+      "contextTranslation": "свою; долю",
       "sourceSentenceId": "charmed-life_sct4_f1:s29",
       "sourceSpan": {
         "start": 29,
         "end": 40
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "fewer_than_two_meaningful_tokens"
-      ],
-      "includeInVocabularySelection": false,
       "targetSpans": [
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s29",
+          "targetSpan": {
+            "start": 29,
+            "end": 33
+          },
+          "targetText": "свою"
+        },
         {
           "targetSentenceId": "charmed-life_sct4_f1:s29",
           "targetSpan": {
@@ -13120,7 +13456,18 @@
           },
           "targetText": "долю"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "fewer_than_two_meaningful_tokens"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-2210-2219-phrase-pytextrank",
@@ -13141,15 +13488,6 @@
         "start": 64,
         "end": 73
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "accepted",
-      "phraseReviewReasons": [],
-      "includeInVocabularySelection": true,
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s29",
@@ -13167,7 +13505,16 @@
           },
           "targetText": "жизнь"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "accepted",
+      "phraseReviewReasons": [],
+      "includeInVocabularySelection": true
     },
     {
       "id": "lexical-phrase-sct4_f1-2231-2239-phrase-pytextrank",
@@ -13181,18 +13528,36 @@
       "sourceText": "Only Cat",
       "dictionaryTranslation": "",
       "rowTranslation": "",
-      "targetText": "",
-      "contextTranslation": "",
+      "targetText": "Только; Кот",
+      "contextTranslation": "Только; Кот",
       "sourceSentenceId": "charmed-life_sct4_f1:s30",
       "sourceSpan": {
         "start": 0,
         "end": 8
       },
-      "alignmentMethod": "phrase_lexical_sync",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_target_span_unmaterialized",
-      "alignmentWarning": "Phrase imported from importer live lexical preview; target span is not materialized in the reader sidecar yet.",
-      "status": "review",
+      "targetSpans": [
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s30",
+          "targetSpan": {
+            "start": 0,
+            "end": 6
+          },
+          "targetText": "Только"
+        },
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s30",
+          "targetSpan": {
+            "start": 7,
+            "end": 10
+          },
+          "targetText": "Кот"
+        }
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
       "phraseProvider": "pytextrank",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
@@ -13210,25 +13575,22 @@
       "sourceText": "their relations",
       "dictionaryTranslation": "",
       "rowTranslation": "",
-      "targetText": "родственников",
-      "contextTranslation": "родственников",
+      "targetText": "их; родственников",
+      "contextTranslation": "их; родственников",
       "sourceSentenceId": "charmed-life_sct4_f1:s30",
       "sourceSpan": {
         "start": 73,
         "end": 88
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "fewer_than_two_meaningful_tokens"
-      ],
-      "includeInVocabularySelection": false,
       "targetSpans": [
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s30",
+          "targetSpan": {
+            "start": 62,
+            "end": 64
+          },
+          "targetText": "их"
+        },
         {
           "targetSentenceId": "charmed-life_sct4_f1:s30",
           "targetSpan": {
@@ -13237,7 +13599,18 @@
           },
           "targetText": "родственников"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "fewer_than_two_meaningful_tokens"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-2377-2383-phrase-pytextrank",
@@ -13258,17 +13631,11 @@
         "start": 28,
         "end": 34
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "fewer_than_two_meaningful_tokens"
-      ],
-      "includeInVocabularySelection": false,
+      "targetSentenceId": "charmed-life_sct4_f1:s31",
+      "targetSpan": {
+        "start": 10,
+        "end": 15
+      },
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s31",
@@ -13278,7 +13645,18 @@
           },
           "targetText": "время"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "fewer_than_two_meaningful_tokens"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-2423-2452-phrase-pytextrank",
@@ -13292,23 +13670,22 @@
       "sourceText": "what beautiful little orphans",
       "dictionaryTranslation": "",
       "rowTranslation": "",
-      "targetText": "красивые; маленькие; сиротки",
-      "contextTranslation": "красивые; маленькие; сиротки",
+      "targetText": "какие; красивые; маленькие; сиротки",
+      "contextTranslation": "какие; красивые; маленькие; сиротки",
       "sourceSentenceId": "charmed-life_sct4_f1:s33",
       "sourceSpan": {
         "start": 14,
         "end": 43
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "accepted",
-      "phraseReviewReasons": [],
-      "includeInVocabularySelection": true,
       "targetSpans": [
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s33",
+          "targetSpan": {
+            "start": 14,
+            "end": 19
+          },
+          "targetText": "какие"
+        },
         {
           "targetSentenceId": "charmed-life_sct4_f1:s33",
           "targetSpan": {
@@ -13333,7 +13710,16 @@
           },
           "targetText": "сиротки"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "accepted",
+      "phraseReviewReasons": [],
+      "includeInVocabularySelection": true
     },
     {
       "id": "lexical-phrase-sct4_f1-2512-2521-phrase-pytextrank",
@@ -13347,23 +13733,22 @@
       "sourceText": "blue eyes",
       "dictionaryTranslation": "",
       "rowTranslation": "",
-      "targetText": "голубыми; глазами",
-      "contextTranslation": "голубыми; глазами",
+      "targetText": "бледные; голубыми; глазами",
+      "contextTranslation": "бледные; голубыми; глазами",
       "sourceSentenceId": "charmed-life_sct4_f1:s35",
       "sourceSpan": {
         "start": 35,
         "end": 44
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "accepted",
-      "phraseReviewReasons": [],
-      "includeInVocabularySelection": true,
       "targetSpans": [
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s35",
+          "targetSpan": {
+            "start": 23,
+            "end": 30
+          },
+          "targetText": "бледные"
+        },
         {
           "targetSentenceId": "charmed-life_sct4_f1:s35",
           "targetSpan": {
@@ -13380,7 +13765,16 @@
           },
           "targetText": "глазами"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "accepted",
+      "phraseReviewReasons": [],
+      "includeInVocabularySelection": true
     },
     {
       "id": "lexical-phrase-sct4_f1-2589-2596-phrase-pytextrank",
@@ -13394,25 +13788,22 @@
       "sourceText": "her age",
       "dictionaryTranslation": "",
       "rowTranslation": "",
-      "targetText": "возраста",
-      "contextTranslation": "возраста",
+      "targetText": "своего; возраста",
+      "contextTranslation": "своего; возраста",
       "sourceSentenceId": "charmed-life_sct4_f1:s36",
       "sourceSpan": {
         "start": 40,
         "end": 47
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "fewer_than_two_meaningful_tokens"
-      ],
-      "includeInVocabularySelection": false,
       "targetSpans": [
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s36",
+          "targetSpan": {
+            "start": 46,
+            "end": 52
+          },
+          "targetText": "своего"
+        },
         {
           "targetSentenceId": "charmed-life_sct4_f1:s36",
           "targetSpan": {
@@ -13421,7 +13812,18 @@
           },
           "targetText": "возраста"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "fewer_than_two_meaningful_tokens"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-2616-2623-phrase-pytextrank",
@@ -13435,25 +13837,22 @@
       "sourceText": "his age",
       "dictionaryTranslation": "",
       "rowTranslation": "",
-      "targetText": "лет",
-      "contextTranslation": "лет",
+      "targetText": "своих; лет",
+      "contextTranslation": "своих; лет",
       "sourceSentenceId": "charmed-life_sct4_f1:s37",
       "sourceSpan": {
         "start": 18,
         "end": 25
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "fewer_than_two_meaningful_tokens"
-      ],
-      "includeInVocabularySelection": false,
       "targetSpans": [
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s37",
+          "targetSpan": {
+            "start": 22,
+            "end": 27
+          },
+          "targetText": "своих"
+        },
         {
           "targetSentenceId": "charmed-life_sct4_f1:s37",
           "targetSpan": {
@@ -13462,7 +13861,18 @@
           },
           "targetText": "лет"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "fewer_than_two_meaningful_tokens"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-2889-2897-phrase-pytextrank",
@@ -13483,17 +13893,11 @@
         "start": 94,
         "end": 102
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "fewer_than_two_meaningful_tokens"
-      ],
-      "includeInVocabularySelection": false,
+      "targetSentenceId": "charmed-life_sct4_f1:s42",
+      "targetSpan": {
+        "start": 101,
+        "end": 107
+      },
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s42",
@@ -13503,7 +13907,18 @@
           },
           "targetText": "голове"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "fewer_than_two_meaningful_tokens"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-2924-2933-phrase-pytextrank",
@@ -13524,17 +13939,11 @@
         "start": 25,
         "end": 34
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "fewer_than_two_meaningful_tokens"
-      ],
-      "includeInVocabularySelection": false,
+      "targetSentenceId": "charmed-life_sct4_f1:s43",
+      "targetSpan": {
+        "start": 18,
+        "end": 24
+      },
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s43",
@@ -13544,7 +13953,18 @@
           },
           "targetText": "деньги"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "fewer_than_two_meaningful_tokens"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-3021-3029-phrase-pytextrank",
@@ -13565,17 +13985,11 @@
         "start": 11,
         "end": 19
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "fewer_than_two_meaningful_tokens"
-      ],
-      "includeInVocabularySelection": false,
+      "targetSentenceId": "charmed-life_sct4_f1:s44",
+      "targetSpan": {
+        "start": 15,
+        "end": 20
+      },
       "targetSpans": [
         {
           "targetSentenceId": "charmed-life_sct4_f1:s44",
@@ -13585,7 +13999,18 @@
           },
           "targetText": "город"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "fewer_than_two_meaningful_tokens"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-3044-3059-phrase-pytextrank",
@@ -13599,25 +14024,22 @@
       "sourceText": "their education",
       "dictionaryTranslation": "",
       "rowTranslation": "",
-      "targetText": "учёбу",
-      "contextTranslation": "учёбу",
+      "targetText": "их; учёбу",
+      "contextTranslation": "их; учёбу",
       "sourceSentenceId": "charmed-life_sct4_f1:s44",
       "sourceSpan": {
         "start": 34,
         "end": 49
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
-      "status": "review",
-      "phraseProvider": "pytextrank",
-      "phraseStatus": "review",
-      "phraseReviewReasons": [
-        "fewer_than_two_meaningful_tokens"
-      ],
-      "includeInVocabularySelection": false,
       "targetSpans": [
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s44",
+          "targetSpan": {
+            "start": 29,
+            "end": 31
+          },
+          "targetText": "их"
+        },
         {
           "targetSentenceId": "charmed-life_sct4_f1:s44",
           "targetSpan": {
@@ -13626,7 +14048,18 @@
           },
           "targetText": "учёбу"
         }
-      ]
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "review",
+      "phraseProvider": "pytextrank",
+      "phraseStatus": "review",
+      "phraseReviewReasons": [
+        "fewer_than_two_meaningful_tokens"
+      ],
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-3094-3111-phrase-pytextrank",
@@ -13640,34 +14073,39 @@
       "sourceText": "you little people",
       "dictionaryTranslation": "",
       "rowTranslation": "",
-      "targetText": "маленькие",
-      "contextTranslation": "маленькие",
+      "targetText": "немного",
+      "contextTranslation": "немного",
       "sourceSentenceId": "charmed-life_sct4_f1:s45",
       "sourceSpan": {
         "start": 15,
         "end": 32
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
+      "targetSentenceId": "charmed-life_sct4_f1:s52",
+      "targetSpan": {
+        "start": 4,
+        "end": 11
+      },
+      "targetSpans": [
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s52",
+          "targetSpan": {
+            "start": 4,
+            "end": 11
+          },
+          "targetText": "немного"
+        }
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
       "status": "review",
       "phraseProvider": "pytextrank",
       "phraseStatus": "review",
       "phraseReviewReasons": [
         "manual_review_phrase"
       ],
-      "includeInVocabularySelection": false,
-      "targetSpans": [
-        {
-          "targetSentenceId": "charmed-life_sct4_f1:s45",
-          "targetSpan": {
-            "start": 11,
-            "end": 20
-          },
-          "targetText": "маленькие"
-        }
-      ]
+      "includeInVocabularySelection": false
     },
     {
       "id": "lexical-phrase-sct4_f1-3173-3198-phrase-pytextrank",
@@ -13681,34 +14119,39 @@
       "sourceText": "old Mrs. Sharp downstairs",
       "dictionaryTranslation": "",
       "rowTranslation": "",
-      "targetText": "старая",
-      "contextTranslation": "старая",
+      "targetText": "внизу",
+      "contextTranslation": "внизу",
       "sourceSentenceId": "charmed-life_sct4_f1:s47",
       "sourceSpan": {
         "start": 24,
         "end": 49
       },
-      "alignmentMethod": "component_target_spans",
-      "alignmentConfidence": "review",
-      "alignmentWarningCode": "phrase_component_target_spans",
-      "alignmentWarning": "Phrase target spans materialized from component vocabulary links.",
+      "targetSentenceId": "charmed-life_sct4_f1:s47",
+      "targetSpan": {
+        "start": 48,
+        "end": 53
+      },
+      "targetSpans": [
+        {
+          "targetSentenceId": "charmed-life_sct4_f1:s47",
+          "targetSpan": {
+            "start": 48,
+            "end": 53
+          },
+          "targetText": "внизу"
+        }
+      ],
+      "alignmentMethod": "component_aggregate",
+      "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
       "status": "review",
       "phraseProvider": "pytextrank",
       "phraseStatus": "review",
       "phraseReviewReasons": [
         "contains_named_entity"
       ],
-      "includeInVocabularySelection": false,
-      "targetSpans": [
-        {
-          "targetSentenceId": "charmed-life_sct4_f1:s47",
-          "targetSpan": {
-            "start": 29,
-            "end": 35
-          },
-          "targetText": "старая"
-        }
-      ]
+      "includeInVocabularySelection": false
     }
   ],
   "namedEntitySpans": [
@@ -58924,6 +59367,7 @@
   ],
   "parallelReaderLexicalPhraseSync": {
     "source": "epub-ai-importer/temp/debug/live-lexical-generated-charmed-life_sct4_f1.json",
-    "phraseCount": 79
+    "phraseCount": 79,
+    "alignmentSource": "epub-ai-importer/ui/buildParallelLexicalViewModel"
   }
 }

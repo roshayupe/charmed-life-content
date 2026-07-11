@@ -21,12 +21,12 @@
       "wordCount": 513,
       "uniqueWordCount": 292,
       "paragraphCount": 15,
-      "vocabularyCount": 144,
+      "vocabularyCount": 161,
       "levelDistribution": {
         "A1": 53,
         "A2": 30,
-        "B1": 11,
-        "B2": 41,
+        "B1": 27,
+        "B2": 42,
         "C1": 6,
         "C2": 3
       }
@@ -65,7 +65,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "яблоко"
+          "translation": "яблоки"
         }
       },
       "_spacyLemma": "apple",
@@ -73,7 +73,7 @@
       "exampleStart": 183,
       "exampleEnd": 279,
       "matchedForm": "apples",
-      "levelSource": "cefr_frequency",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.5,
       "difficultySource": "zipf"
     },
@@ -87,7 +87,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "пепел"
+          "translation": "зола"
         }
       },
       "_spacyLemma": "ash",
@@ -109,7 +109,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "просить"
+          "translation": "спросил"
         }
       },
       "_spacyLemma": "ask",
@@ -131,7 +131,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "присутствовать"
+          "translation": "посещать"
         }
       },
       "_spacyLemma": "attend",
@@ -175,7 +175,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "строго"
+          "translation": "строгий"
         }
       },
       "_spacyLemma": "austere",
@@ -183,7 +183,7 @@
       "exampleStart": 2305,
       "exampleEnd": 2354,
       "matchedForm": "austere",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -198,7 +198,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "был в"
+          "translation": "находиться"
         }
       },
       "example": "And he should not have been in the kitchen at all.",
@@ -243,7 +243,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "ставка"
+          "translation": "держать пари"
         }
       },
       "_spacyLemma": "bet",
@@ -265,7 +265,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "ботинок"
+          "translation": "ботинки"
         }
       },
       "_spacyLemma": "boot",
@@ -273,7 +273,7 @@
       "exampleStart": 521,
       "exampleEnd": 673,
       "matchedForm": "boots",
-      "levelSource": "cefr_frequency",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.662857,
       "difficultySource": "zipf"
     },
@@ -288,7 +288,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "врываться в"
+          "translation": "врываться"
         }
       },
       "example": "He went to the side door and burst into the kitchen with his hatful of apples, shouting, “I say!",
@@ -299,7 +299,7 @@
         "startInExample": 29,
         "endInExample": 39
       },
-      "levelSource": "dictionary_phrase"
+      "levelSource": "phrase_index"
     },
     {
       "word": "burst",
@@ -311,7 +311,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "взрыв"
+          "translation": "взорваться"
         }
       },
       "_spacyLemma": "burst",
@@ -346,6 +346,30 @@
       "difficultySource": "zipf"
     },
     {
+      "word": "busy thinking",
+      "lemma": "busy thinking",
+      "lemmaId": "busy_thinking",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "spacy_phrase",
+      "wordKey": "busy_thinking_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "задумавшийся"
+        }
+      },
+      "example": "Cat was so busy thinking of all this that, though he noticed a four-wheel cab standing in the road as he turned the corner by the Willing Warlock’s house, he paid no attention to it.",
+      "exampleStart": 0,
+      "exampleEnd": 182,
+      "phraseMatch": {
+        "text": "busy thinking",
+        "startInExample": 11,
+        "endInExample": 24
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
       "word": "cab",
       "lemma": "cab",
       "lemmaId": "cab",
@@ -363,7 +387,7 @@
       "exampleStart": 0,
       "exampleEnd": 182,
       "matchedForm": "cab",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.731429,
       "difficultySource": "zipf"
     },
@@ -377,7 +401,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "перевозить"
+          "translation": "нести"
         }
       },
       "_spacyLemma": "carry",
@@ -399,7 +423,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "ловить"
+          "translation": "поймал"
         }
       },
       "_spacyLemma": "catch",
@@ -421,7 +445,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "изменение"
+          "translation": "сменил"
         }
       },
       "_spacyLemma": "change",
@@ -443,7 +467,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "чистить"
+          "translation": "чище"
         }
       },
       "_spacyLemma": "clean",
@@ -451,7 +475,7 @@
       "exampleStart": 2815,
       "exampleEnd": 2841,
       "matchedForm": "cleaner",
-      "levelSource": "cefr_frequency",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.44,
       "difficultySource": "zipf"
     },
@@ -473,7 +497,7 @@
       "exampleStart": 478,
       "exampleEnd": 520,
       "matchedForm": "clearly",
-      "levelSource": "cefr_frequency",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.454286,
       "difficultySource": "zipf"
     },
@@ -509,7 +533,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "приходить"
+          "translation": "пришел"
         }
       },
       "_spacyLemma": "come",
@@ -553,7 +577,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "кашель"
+          "translation": "кашлянул"
         }
       },
       "_spacyLemma": "cough",
@@ -583,7 +607,7 @@
       "exampleStart": 674,
       "exampleEnd": 698,
       "matchedForm": "dark",
-      "levelSource": "cefr_frequency",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.42,
       "difficultySource": "zipf"
     },
@@ -619,7 +643,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "тревога"
+          "translation": "ужас"
         }
       },
       "_spacyLemma": "dismay",
@@ -641,7 +665,7 @@
       "level": "C2",
       "translations": {
         "ru": {
-          "translation": "рассеянно"
+          "translation": "отвлеченно"
         }
       },
       "_spacyLemma": "distractedly",
@@ -649,7 +673,7 @@
       "exampleStart": 1039,
       "exampleEnd": 1099,
       "matchedForm": "distractedly",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -707,7 +731,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "тонуть"
+          "translation": "утонул"
         }
       },
       "_spacyLemma": "drown",
@@ -759,7 +783,7 @@
       "exampleStart": 340,
       "exampleEnd": 442,
       "matchedForm": "extraordinarily",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.882857,
       "difficultySource": "zipf"
     },
@@ -773,7 +797,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "далеко"
+          "translation": "далекий"
         }
       },
       "_spacyLemma": "far",
@@ -781,9 +805,33 @@
       "exampleStart": 1425,
       "exampleEnd": 1535,
       "matchedForm": "far",
-      "levelSource": "cefr_frequency",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.288571,
       "difficultySource": "zipf"
+    },
+    {
+      "word": "far end",
+      "lemma": "far end",
+      "lemmaId": "far_end",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "spacy_phrase",
+      "wordKey": "far_end_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "далекий конец"
+        }
+      },
+      "example": "At the far end, the flies were gathering around the meat for lunch, which looked nearly as messy as the spell.",
+      "exampleStart": 1425,
+      "exampleEnd": 1535,
+      "phraseMatch": {
+        "text": "far end",
+        "startInExample": 7,
+        "endInExample": 14
+      },
+      "levelSource": "phrase_fallback"
     },
     {
       "word": "feeling",
@@ -817,7 +865,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "летать"
+          "translation": "мухи"
         }
       },
       "_spacyLemma": "fly",
@@ -825,7 +873,7 @@
       "exampleStart": 1425,
       "exampleEnd": 1535,
       "matchedForm": "flies",
-      "levelSource": "cefr_frequency",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.502857,
       "difficultySource": "zipf"
     },
@@ -847,7 +895,7 @@
       "exampleStart": 1865,
       "exampleEnd": 1910,
       "matchedForm": "form",
-      "levelSource": "cefr_frequency",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.342857,
       "difficultySource": "zipf"
     },
@@ -861,7 +909,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "вздох"
+          "translation": "задыхался"
         }
       },
       "_spacyLemma": "gasp",
@@ -883,7 +931,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "собирать"
+          "translation": "собираться"
         }
       },
       "_spacyLemma": "gather",
@@ -906,7 +954,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Убирайся отсюда"
+          "translation": "выйти из"
         }
       },
       "example": "” Cat said, hoping to get the Stranger out of it.",
@@ -929,7 +977,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "получать"
+          "translation": "получил"
         }
       },
       "_spacyLemma": "get",
@@ -951,7 +999,7 @@
       "level": "C2",
       "translations": {
         "ru": {
-          "translation": "пряник"
+          "translation": "пряничный"
         }
       },
       "_spacyLemma": "gingerbread",
@@ -959,9 +1007,33 @@
       "exampleStart": 1209,
       "exampleEnd": 1247,
       "matchedForm": "gingerbread",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.994286,
       "difficultySource": "zipf"
+    },
+    {
+      "word": "gingerbread men",
+      "lemma": "gingerbread man",
+      "lemmaId": "gingerbread_man",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "spacy_phrase",
+      "wordKey": "gingerbread_man_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "пряничные человечки"
+        }
+      },
+      "example": "Sharp had been making gingerbread men.",
+      "exampleStart": 1209,
+      "exampleEnd": 1247,
+      "phraseMatch": {
+        "text": "gingerbread men",
+        "startInExample": 22,
+        "endInExample": 37
+      },
+      "levelSource": "phrase_fallback"
     },
     {
       "word": "gave",
@@ -973,7 +1045,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "давать"
+          "translation": "дал"
         }
       },
       "_spacyLemma": "give",
@@ -995,7 +1067,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "идти"
+          "translation": "пошел"
         }
       },
       "_spacyLemma": "go",
@@ -1017,7 +1089,7 @@
       "level": "C1",
       "translations": {
         "ru": {
-          "translation": "могила"
+          "translation": "серьезный"
         }
       },
       "_spacyLemma": "grave",
@@ -1083,7 +1155,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "шляпа"
+          "translation": "шляпы"
         }
       },
       "_spacyLemma": "hat",
@@ -1105,7 +1177,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "любящий"
+          "translation": "полная шляпа"
         }
       },
       "_spacyLemma": "hatful",
@@ -1113,7 +1185,7 @@
       "exampleStart": 183,
       "exampleEnd": 279,
       "matchedForm": "hatful",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -1127,7 +1199,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "помочь"
+          "translation": "помогать"
         }
       },
       "_spacyLemma": "help",
@@ -1140,6 +1212,102 @@
       "difficultySource": "zipf"
     },
     {
+      "word": "his further dismay",
+      "lemma": "his further dismay",
+      "lemmaId": "his_further_dismay",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "spacy_phrase",
+      "wordKey": "his_further_dismay_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "его дальнейшее огорчение"
+        }
+      },
+      "example": "On the table, Cat saw, to his further dismay, Mrs.",
+      "exampleStart": 1158,
+      "exampleEnd": 1208,
+      "phraseMatch": {
+        "text": "his further dismay",
+        "startInExample": 26,
+        "endInExample": 44
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "his hat",
+      "lemma": "his hat",
+      "lemmaId": "his_hat",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "spacy_phrase",
+      "wordKey": "his_hat_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "его шляпа"
+        }
+      },
+      "example": "It was smooth as his hat.",
+      "exampleStart": 699,
+      "exampleEnd": 724,
+      "phraseMatch": {
+        "text": "his hat",
+        "startInExample": 17,
+        "endInExample": 24
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "his hatful",
+      "lemma": "his hatful",
+      "lemmaId": "his_hatful",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "spacy_phrase",
+      "wordKey": "his_hatful_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "его полная шляпа"
+        }
+      },
+      "example": "He went to the side door and burst into the kitchen with his hatful of apples, shouting, “I say!",
+      "exampleStart": 183,
+      "exampleEnd": 279,
+      "phraseMatch": {
+        "text": "his hatful",
+        "startInExample": 57,
+        "endInExample": 67
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "His pleasure",
+      "lemma": "his pleasure",
+      "lemmaId": "his_pleasure",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "spacy_phrase",
+      "wordKey": "his_pleasure_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "его удовольствие"
+        }
+      },
+      "example": "His pleasure returned.",
+      "exampleStart": 1731,
+      "exampleEnd": 1753,
+      "phraseMatch": {
+        "text": "His pleasure",
+        "startInExample": 0,
+        "endInExample": 12
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
       "word": "holding on to",
       "lemma": "hold on to",
       "lemmaId": "hold_on_to",
@@ -1150,7 +1318,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Держась"
+          "translation": "держаться за"
         }
       },
       "example": "“I didn’t drown because I was holding on to Gwendolen, and she’s a witch.",
@@ -1161,7 +1329,7 @@
         "startInExample": 30,
         "endInExample": 43
       },
-      "levelSource": "dictionary_phrase"
+      "levelSource": "phrase_index"
     },
     {
       "word": "holding",
@@ -1195,7 +1363,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "прыгать"
+          "translation": "надеяться"
         }
       },
       "_spacyLemma": "hop",
@@ -1261,7 +1429,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "ингредиент"
+          "translation": "ингредиенты"
         }
       },
       "_spacyLemma": "ingredient",
@@ -1283,7 +1451,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "вместо"
+          "translation": "вместо этого"
         }
       },
       "_spacyLemma": "instead",
@@ -1291,9 +1459,33 @@
       "exampleStart": 340,
       "exampleEnd": 442,
       "matchedForm": "Instead",
-      "levelSource": "cefr_frequency",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.362857,
       "difficultySource": "zipf"
+    },
+    {
+      "word": "its usual mess",
+      "lemma": "its usual mess",
+      "lemmaId": "its_usual_mess",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "spacy_phrase",
+      "wordKey": "its_usual_mess_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "обычный беспорядок"
+        }
+      },
+      "example": "The kitchen was in its usual mess.",
+      "exampleStart": 1100,
+      "exampleEnd": 1134,
+      "phraseMatch": {
+        "text": "its usual mess",
+        "startInExample": 19,
+        "endInExample": 33
+      },
+      "levelSource": "phrase_fallback"
     },
     {
       "word": "jars",
@@ -1305,7 +1497,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "банку"
+          "translation": "банки"
         }
       },
       "_spacyLemma": "jar",
@@ -1313,7 +1505,7 @@
       "exampleStart": 1248,
       "exampleEnd": 1424,
       "matchedForm": "jars",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.737143,
       "difficultySource": "zipf"
     },
@@ -1327,7 +1519,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "радостный"
+          "translation": "печальный"
         }
       },
       "_spacyLemma": "joyless",
@@ -1335,7 +1527,7 @@
       "exampleStart": 1946,
       "exampleEnd": 2022,
       "matchedForm": "joyless",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -1349,7 +1541,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "добрый"
+          "translation": "тип"
         }
       },
       "_spacyLemma": "kind",
@@ -1357,7 +1549,7 @@
       "exampleStart": 521,
       "exampleEnd": 673,
       "matchedForm": "kind",
-      "levelSource": "cefr_frequency",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.302857,
       "difficultySource": "zipf"
     },
@@ -1406,6 +1598,30 @@
       "difficultySource": "zipf"
     },
     {
+      "word": "last question",
+      "lemma": "last question",
+      "lemmaId": "last_question",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "spacy_phrase",
+      "wordKey": "last_question_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "последний вопрос"
+        }
+      },
+      "example": "”\n\nCat was too busy staring around to attend properly, but he caught the last question.",
+      "exampleStart": 1643,
+      "exampleEnd": 1730,
+      "phraseMatch": {
+        "text": "last question",
+        "startInExample": 73,
+        "endInExample": 86
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
       "word": "lay on",
       "lemma": "lay on",
       "lemmaId": "lay_on",
@@ -1416,7 +1632,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Положи"
+          "translation": "лежать на"
         }
       },
       "example": "The ingredients for the spell lay on one end of the table—all grubby newspaper packets and seedy little jars—and the gingerbread itself was strewn over the middle of the table.",
@@ -1427,7 +1643,7 @@
         "startInExample": 30,
         "endInExample": 36
       },
-      "levelSource": "dictionary_phrase"
+      "levelSource": "phrase_index"
     },
     {
       "word": "letter",
@@ -1461,7 +1677,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "ложь"
+          "translation": "лежать"
         }
       },
       "_spacyLemma": "lie",
@@ -1506,7 +1722,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "оглядываясь вокруг"
+          "translation": "оглядываться"
         }
       },
       "example": "And well he might, Cat thought, looking around distractedly.",
@@ -1529,7 +1745,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "смотреть"
+          "translation": "взгляд"
         }
       },
       "_spacyLemma": "look",
@@ -1573,7 +1789,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "милый"
+          "translation": "прекрасный"
         }
       },
       "_spacyLemma": "lovely",
@@ -1581,7 +1797,7 @@
       "exampleStart": 1795,
       "exampleEnd": 1814,
       "matchedForm": "Lovely",
-      "levelSource": "cefr_frequency",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.505714,
       "difficultySource": "zipf"
     },
@@ -1603,7 +1819,7 @@
       "exampleStart": 1425,
       "exampleEnd": 1535,
       "matchedForm": "lunch",
-      "levelSource": "cefr_frequency",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.528571,
       "difficultySource": "zipf"
     },
@@ -1639,7 +1855,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "человек"
+          "translation": "мужчина"
         }
       },
       "_spacyLemma": "man",
@@ -1669,7 +1885,7 @@
       "exampleStart": 1425,
       "exampleEnd": 1535,
       "matchedForm": "meat",
-      "levelSource": "cefr_frequency",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.537143,
       "difficultySource": "zipf"
     },
@@ -1691,7 +1907,7 @@
       "exampleStart": 1100,
       "exampleEnd": 1134,
       "matchedForm": "mess",
-      "levelSource": "cefr_frequency",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.554286,
       "difficultySource": "zipf"
     },
@@ -1735,7 +1951,7 @@
       "exampleStart": 340,
       "exampleEnd": 442,
       "matchedForm": "middle",
-      "levelSource": "cefr_frequency",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.38,
       "difficultySource": "zipf"
     },
@@ -1762,6 +1978,30 @@
       "difficultySource": "zipf"
     },
     {
+      "word": "my age",
+      "lemma": "my age",
+      "lemmaId": "my_age",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "spacy_phrase",
+      "wordKey": "my_age_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "мой возраст"
+        }
+      },
+      "example": "But I bet you did it when you were my age.",
+      "exampleStart": 2032,
+      "exampleEnd": 2074,
+      "phraseMatch": {
+        "text": "my age",
+        "startInExample": 35,
+        "endInExample": 41
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
       "word": "nearly",
       "lemma": "nearly",
       "lemmaId": "nearly",
@@ -1779,7 +2019,7 @@
       "exampleStart": 1425,
       "exampleEnd": 1535,
       "matchedForm": "nearly",
-      "levelSource": "cefr_frequency",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.431429,
       "difficultySource": "zipf"
     },
@@ -1793,7 +2033,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "аккуратнее"
+          "translation": "аккуратный"
         }
       },
       "_spacyLemma": "neater",
@@ -1801,7 +2041,7 @@
       "exampleStart": 2515,
       "exampleEnd": 2541,
       "matchedForm": "neater",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -1845,7 +2085,7 @@
       "exampleStart": 1248,
       "exampleEnd": 1424,
       "matchedForm": "newspaper",
-      "levelSource": "cefr_frequency",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.545714,
       "difficultySource": "zipf"
     },
@@ -1859,7 +2099,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "уведомление"
+          "translation": "заметить"
         }
       },
       "_spacyLemma": "notice",
@@ -1882,7 +2122,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "с одного конца"
+          "translation": "на одном конце"
         }
       },
       "example": "The ingredients for the spell lay on one end of the table—all grubby newspaper packets and seedy little jars—and the gingerbread itself was strewn over the middle of the table.",
@@ -1893,7 +2133,7 @@
         "startInExample": 34,
         "endInExample": 44
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_index"
     },
     {
       "word": "ones",
@@ -1913,7 +2153,7 @@
       "exampleStart": 1248,
       "exampleEnd": 1424,
       "matchedForm": "one",
-      "levelSource": "cefr_frequency",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.011429,
       "difficultySource": "zipf"
     },
@@ -1927,7 +2167,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "пакет"
+          "translation": "пакеты"
         }
       },
       "_spacyLemma": "packet",
@@ -1949,7 +2189,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "родитель"
+          "translation": "родители"
         }
       },
       "_spacyLemma": "parent",
@@ -1994,7 +2234,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "не обращал внимания"
+          "translation": "не обращать внимания"
         }
       },
       "example": "Cat was so busy thinking of all this that, though he noticed a four-wheel cab standing in the road as he turned the corner by the Willing Warlock’s house, he paid no attention to it.",
@@ -2005,7 +2245,7 @@
         "startInExample": 158,
         "endInExample": 175
       },
-      "levelSource": "head_verb_index"
+      "levelSource": "phrase_index"
     },
     {
       "word": "paid",
@@ -2039,7 +2279,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "жемчужный"
+          "translation": "перламутровый"
         }
       },
       "_spacyLemma": "pearly",
@@ -2083,7 +2323,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "жалость"
+          "translation": "сжалиться"
         }
       },
       "_spacyLemma": "pity",
@@ -2091,7 +2331,7 @@
       "exampleStart": 2305,
       "exampleEnd": 2354,
       "matchedForm": "pitying",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.722857,
       "difficultySource": "zipf"
     },
@@ -2128,7 +2368,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Обратитесь"
+          "translation": "указывать"
         }
       },
       "example": "He thought it was very joyless, even for a Town Councillor, to point it out.",
@@ -2151,7 +2391,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "точка"
+          "translation": "указывать"
         }
       },
       "_spacyLemma": "point",
@@ -2159,7 +2399,7 @@
       "exampleStart": 1946,
       "exampleEnd": 2022,
       "matchedForm": "point",
-      "levelSource": "cefr_frequency",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.277143,
       "difficultySource": "zipf"
     },
@@ -2173,7 +2413,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "правильно"
+          "translation": "как следует"
         }
       },
       "_spacyLemma": "properly",
@@ -2181,7 +2421,7 @@
       "exampleStart": 1643,
       "exampleEnd": 1730,
       "matchedForm": "properly",
-      "levelSource": "cefr_frequency",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.534286,
       "difficultySource": "zipf"
     },
@@ -2217,7 +2457,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "диапазон"
+          "translation": "полоса"
         }
       },
       "_spacyLemma": "range",
@@ -2225,7 +2465,7 @@
       "exampleStart": 1135,
       "exampleEnd": 1157,
       "matchedForm": "range",
-      "levelSource": "cefr_frequency",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.397143,
       "difficultySource": "zipf"
     },
@@ -2239,7 +2479,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "возвращение"
+          "translation": "возвращаться"
         }
       },
       "_spacyLemma": "return",
@@ -2247,7 +2487,7 @@
       "exampleStart": 1731,
       "exampleEnd": 1753,
       "matchedForm": "returned",
-      "levelSource": "cefr_frequency",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.377143,
       "difficultySource": "zipf"
     },
@@ -2283,7 +2523,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "правильно"
+          "translation": "правильный"
         }
       },
       "_spacyLemma": "right",
@@ -2313,7 +2553,7 @@
       "exampleStart": 0,
       "exampleEnd": 182,
       "matchedForm": "road",
-      "levelSource": "cefr_frequency",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.362857,
       "difficultySource": "zipf"
     },
@@ -2327,7 +2567,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "правило"
+          "translation": "управлять"
         }
       },
       "_spacyLemma": "rule",
@@ -2349,7 +2589,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "говорить"
+          "translation": "сказать"
         }
       },
       "_spacyLemma": "say",
@@ -2371,7 +2611,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "скремп"
+          "translation": "воровать фрукты"
         }
       },
       "_spacyLemma": "scrumpe",
@@ -2379,7 +2619,7 @@
       "exampleStart": 1815,
       "exampleEnd": 1835,
       "matchedForm": "scrumping",
-      "levelSource": "difficulty_heuristic"
+      "levelSource": "vocabulary_index"
     },
     {
       "word": "saw",
@@ -2391,7 +2631,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "смотреть"
+          "translation": "увидел"
         }
       },
       "_spacyLemma": "see",
@@ -2413,7 +2653,7 @@
       "level": "C1",
       "translations": {
         "ru": {
-          "translation": "сочный"
+          "translation": "убогий"
         }
       },
       "_spacyLemma": "seedy",
@@ -2479,7 +2719,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "шоу"
+          "translation": "показывать"
         }
       },
       "_spacyLemma": "show",
@@ -2487,9 +2727,33 @@
       "exampleStart": 1754,
       "exampleEnd": 1794,
       "matchedForm": "showing",
-      "levelSource": "cefr_frequency",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.237143,
       "difficultySource": "zipf"
+    },
+    {
+      "word": "side door",
+      "lemma": "side door",
+      "lemmaId": "side_door",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "spacy_phrase",
+      "wordKey": "side_door_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "боковая дверь"
+        }
+      },
+      "example": "He went to the side door and burst into the kitchen with his hatful of apples, shouting, “I say!",
+      "exampleStart": 183,
+      "exampleEnd": 279,
+      "phraseMatch": {
+        "text": "side door",
+        "startInExample": 15,
+        "endInExample": 24
+      },
+      "levelSource": "phrase_fallback"
     },
     {
       "word": "sir",
@@ -2509,7 +2773,7 @@
       "exampleStart": 927,
       "exampleEnd": 951,
       "matchedForm": "sir",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.414286,
       "difficultySource": "zipf"
     },
@@ -2553,7 +2817,7 @@
       "exampleStart": 2074,
       "exampleEnd": 2131,
       "matchedForm": "slightly",
-      "levelSource": "cefr_frequency",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.502857,
       "difficultySource": "zipf"
     },
@@ -2575,7 +2839,7 @@
       "exampleStart": 699,
       "exampleEnd": 724,
       "matchedForm": "smooth",
-      "levelSource": "cefr_frequency",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.602857,
       "difficultySource": "zipf"
     },
@@ -2612,7 +2876,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "стоя в"
+          "translation": "стоять в"
         }
       },
       "example": "Cat was so busy thinking of all this that, though he noticed a four-wheel cab standing in the road as he turned the corner by the Willing Warlock’s house, he paid no attention to it.",
@@ -2623,7 +2887,7 @@
         "startInExample": 78,
         "endInExample": 89
       },
-      "levelSource": "dictionary_phrase"
+      "levelSource": "phrase_index"
     },
     {
       "word": "standing",
@@ -2657,7 +2921,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "звезда"
+          "translation": "пялиться"
         }
       },
       "_spacyLemma": "star",
@@ -2723,7 +2987,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "прямой"
+          "translation": "прямиком"
         }
       },
       "_spacyLemma": "straight",
@@ -2745,7 +3009,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "штопор"
+          "translation": "рассыпать"
         }
       },
       "_spacyLemma": "strew",
@@ -2753,7 +3017,7 @@
       "exampleStart": 1248,
       "exampleEnd": 1424,
       "matchedForm": "strewn",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -2767,7 +3031,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "полосатый"
+          "translation": "полосы"
         }
       },
       "_spacyLemma": "stripe",
@@ -2775,7 +3039,7 @@
       "exampleStart": 521,
       "exampleEnd": 673,
       "matchedForm": "stripes",
-      "levelSource": "cefr_frequency",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.857143,
       "difficultySource": "zipf"
     },
@@ -2789,7 +3053,7 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "предмет"
+          "translation": "тема"
         }
       },
       "_spacyLemma": "subject",
@@ -2797,7 +3061,7 @@
       "exampleStart": 2074,
       "exampleEnd": 2131,
       "matchedForm": "subject",
-      "levelSource": "cefr_frequency",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.442857,
       "difficultySource": "zipf"
     },
@@ -2811,7 +3075,7 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "подозреваемый"
+          "translation": "подозревать"
         }
       },
       "_spacyLemma": "suspect",
@@ -2841,7 +3105,7 @@
       "exampleStart": 1795,
       "exampleEnd": 1814,
       "matchedForm": "sweet",
-      "levelSource": "cefr_frequency",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.457143,
       "difficultySource": "zipf"
     },
@@ -2912,6 +3176,54 @@
       "difficultySource": "zipf"
     },
     {
+      "word": "tall hats",
+      "lemma": "tall hat",
+      "lemmaId": "tall_hat",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "spacy_phrase",
+      "wordKey": "tall_hat_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "высокие шляпы"
+        }
+      },
+      "example": "Nobody but those kind of people wore trousers with such pearly stripes, or coats of such beautiful velvet, or carried tall hats as shiny as their boots.",
+      "exampleStart": 521,
+      "exampleEnd": 673,
+      "phraseMatch": {
+        "text": "tall hats",
+        "startInExample": 118,
+        "endInExample": 127
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "their boots",
+      "lemma": "their boot",
+      "lemmaId": "their_boot",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "spacy_phrase",
+      "wordKey": "their_boot_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "их сапоги"
+        }
+      },
+      "example": "Nobody but those kind of people wore trousers with such pearly stripes, or coats of such beautiful velvet, or carried tall hats as shiny as their boots.",
+      "exampleStart": 521,
+      "exampleEnd": 673,
+      "phraseMatch": {
+        "text": "their boots",
+        "startInExample": 140,
+        "endInExample": 151
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
       "word": "thought",
       "lemma": "think",
       "lemmaId": "think",
@@ -2951,7 +3263,7 @@
       "exampleStart": 0,
       "exampleEnd": 182,
       "matchedForm": "thinking",
-      "levelSource": "cefr_frequency",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.362857,
       "difficultySource": "zipf"
     },
@@ -2973,7 +3285,7 @@
       "exampleStart": 521,
       "exampleEnd": 673,
       "matchedForm": "trousers",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.802857,
       "difficultySource": "zipf"
     },
@@ -2987,7 +3299,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "поворот"
+          "translation": "повернуть"
         }
       },
       "_spacyLemma": "turn",
@@ -3017,7 +3329,7 @@
       "exampleStart": 1100,
       "exampleEnd": 1134,
       "matchedForm": "usual",
-      "levelSource": "cefr_frequency",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.54,
       "difficultySource": "zipf"
     },
@@ -3031,7 +3343,7 @@
       "level": "C1",
       "translations": {
         "ru": {
-          "translation": "бархатный"
+          "translation": "бархат"
         }
       },
       "_spacyLemma": "velvet",
@@ -3053,7 +3365,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "вице"
+          "translation": "порок"
         }
       },
       "_spacyLemma": "vice",
@@ -3061,7 +3373,7 @@
       "exampleStart": 2390,
       "exampleEnd": 2424,
       "matchedForm": "vice",
-      "levelSource": "cefr_frequency",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.514286,
       "difficultySource": "zipf"
     },
@@ -3075,7 +3387,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "посетитель"
+          "translation": "посетители"
         }
       },
       "_spacyLemma": "visitor",
@@ -3083,7 +3395,7 @@
       "exampleStart": 875,
       "exampleEnd": 925,
       "matchedForm": "Visitors",
-      "levelSource": "cefr_frequency",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.714286,
       "difficultySource": "zipf"
     },
@@ -3097,7 +3409,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "путь"
+          "translation": "этот путь"
         }
       },
       "_spacyLemma": "way",
@@ -3105,7 +3417,7 @@
       "exampleStart": 952,
       "exampleEnd": 980,
       "matchedForm": "way",
-      "levelSource": "cefr_frequency",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.142857,
       "difficultySource": "zipf"
     },
@@ -3119,7 +3431,7 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "носить"
+          "translation": "носил"
         }
       },
       "_spacyLemma": "wear",
@@ -3132,6 +3444,30 @@
       "difficultySource": "zipf"
     },
     {
+      "word": "wheel cab",
+      "lemma": "wheel cab",
+      "lemmaId": "wheel_cab",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "spacy_phrase",
+      "wordKey": "wheel_cab_phrase",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "повозка на колёсах"
+        }
+      },
+      "example": "Cat was so busy thinking of all this that, though he noticed a four-wheel cab standing in the road as he turned the corner by the Willing Warlock’s house, he paid no attention to it.",
+      "exampleStart": 0,
+      "exampleEnd": 182,
+      "phraseMatch": {
+        "text": "wheel cab",
+        "startInExample": 68,
+        "endInExample": 77
+      },
+      "levelSource": "head_verb_index"
+    },
+    {
       "word": "Wo",
       "lemma": "will",
       "lemmaId": "will",
@@ -3141,7 +3477,7 @@
       "level": "C1",
       "translations": {
         "ru": {
-          "translation": "будет"
+          "translation": "готовый"
         }
       },
       "_spacyLemma": "will",
@@ -3185,7 +3521,7 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "чудо"
+          "translation": "задающийся вопросом"
         }
       },
       "_spacyLemma": "wonder",
@@ -3193,7 +3529,7 @@
       "exampleStart": 994,
       "exampleEnd": 1038,
       "matchedForm": "wondering",
-      "levelSource": "cefr_frequency",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.451429,
       "difficultySource": "zipf"
     },
@@ -3218,27 +3554,81 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.177143,
       "difficultySource": "zipf"
+    },
+    {
+      "word": "your hat",
+      "lemma": "your hat",
+      "lemmaId": "your_hat",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "spacy_phrase",
+      "wordKey": "your_hat_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "твоя шляпа"
+        }
+      },
+      "example": "What have you got in your hat?",
+      "exampleStart": 1613,
+      "exampleEnd": 1643,
+      "phraseMatch": {
+        "text": "your hat",
+        "startInExample": 21,
+        "endInExample": 29
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "your parents",
+      "lemma": "your parent",
+      "lemmaId": "your_parent",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "spacy_phrase",
+      "wordKey": "your_parent_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "твои родители"
+        }
+      },
+      "example": "“She gave me the impression you had drowned with your parents.",
+      "exampleStart": 2621,
+      "exampleEnd": 2683,
+      "phraseMatch": {
+        "text": "your parents",
+        "startInExample": 49,
+        "endInExample": 61
+      },
+      "levelSource": "phrase_fallback"
+    },
+    {
+      "word": "your sister",
+      "lemma": "your sister",
+      "lemmaId": "your_sister",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "spacy_phrase",
+      "wordKey": "your_sister_phrase",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "твоя сестра"
+        }
+      },
+      "example": "”\n\n“Then is Gwendolen Chant your sister?",
+      "exampleStart": 2243,
+      "exampleEnd": 2283,
+      "phraseMatch": {
+        "text": "your sister",
+        "startInExample": 28,
+        "endInExample": 39
+      },
+      "levelSource": "phrase_fallback"
     }
   ],
   "namedEntities": [
-    {
-      "entityKey": "four_cardinal",
-      "text": "four",
-      "normalizedText": "four",
-      "entityType": "CARDINAL",
-      "spacyLabel": "CARDINAL",
-      "entityCategory": "quantity",
-      "learningType": "named_entity",
-      "difficultyMarker": "entity_value",
-      "source": "spacy_ner",
-      "start": 63,
-      "end": 67,
-      "tokenIndexes": [
-        14
-      ],
-      "sentenceStart": 0,
-      "sentenceEnd": 182
-    },
     {
       "entityKey": "the_willing_warlock_s_org",
       "text": "the Willing Warlock’s",
@@ -3373,24 +3763,6 @@
       ],
       "sentenceStart": 1158,
       "sentenceEnd": 1247
-    },
-    {
-      "entityKey": "one_cardinal",
-      "text": "one",
-      "normalizedText": "one",
-      "entityType": "CARDINAL",
-      "spacyLabel": "CARDINAL",
-      "entityCategory": "quantity",
-      "learningType": "named_entity",
-      "difficultyMarker": "entity_value",
-      "source": "spacy_ner",
-      "start": 1285,
-      "end": 1288,
-      "tokenIndexes": [
-        292
-      ],
-      "sentenceStart": 1248,
-      "sentenceEnd": 1424
     },
     {
       "entityKey": "the_dark_stranger_org",

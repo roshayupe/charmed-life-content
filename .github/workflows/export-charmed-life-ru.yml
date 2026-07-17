@@ -1,0 +1,118 @@
+name: Export Charmed Life Russian text
+
+on:
+  push:
+    branches:
+      - assistant/charmed-life-ru-epub-export
+    paths:
+      - .github/workflows/export-charmed-life-ru.yml
+
+permissions:
+  contents: write
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: assistant/charmed-life-ru-epub-export
+
+      - name: Build translation export
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          import re
+          from pathlib import Path
+
+          root = Path('data/series/standalone/books/charmed-life')
+          book = json.loads((root / 'book.json').read_text(encoding='utf-8'))
+          chapters = []
+          missing = []
+
+          for chapter_ref in book.get('chapters', []):
+              section_id = chapter_ref['id']
+              manifest_path = root / chapter_ref['manifest']
+              manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+              title = str(manifest.get('title', '')).strip()
+              match = re.fullmatch(r'Chapter\s+(\d+)', title, flags=re.IGNORECASE)
+              if manifest.get('type') != 'chapter' or not match:
+                  continue
+
+              chapter_number = int(match.group(1))
+              paragraphs = []
+              fragment_ids = manifest.get('fragments', [])
+
+              for fragment_id in fragment_ids:
+                  parallel_path = root / 'lessons' / section_id / fragment_id / 'parallel-vocabulary.json'
+                  if not parallel_path.exists():
+                      missing.append(str(parallel_path))
+                      continue
+                  data = json.loads(parallel_path.read_text(encoding='utf-8'))
+
+                  target_paragraphs = data.get('targetParagraphs') or []
+                  if target_paragraphs:
+                      for paragraph in target_paragraphs:
+                          text = str(paragraph.get('text', '')).strip()
+                          if text:
+                              paragraphs.append(text)
+                      continue
+
+                  for pair in data.get('paragraphPairs') or []:
+                      text = str(pair.get('translatedText', '')).strip()
+                      if text:
+                          paragraphs.append(text)
+
+              chapters.append({
+                  'number': chapter_number,
+                  'sourceSectionId': section_id,
+                  'sourceTitle': title,
+                  'title': f'Глава {chapter_number}',
+                  'fragmentCount': len(fragment_ids),
+                  'paragraphs': paragraphs,
+              })
+
+          chapters.sort(key=lambda item: item['number'])
+          if len(chapters) != 16:
+              raise RuntimeError(f'Expected 16 chapters, found {len(chapters)}')
+          if missing:
+              raise RuntimeError('Missing parallel files:\n' + '\n'.join(missing))
+          if any(not chapter['paragraphs'] for chapter in chapters):
+              empty = [str(chapter['number']) for chapter in chapters if not chapter['paragraphs']]
+              raise RuntimeError('Empty translated chapters: ' + ', '.join(empty))
+
+          payload = {
+              'format': 'gwendolen-translation-export-v1',
+              'bookId': 'charmed-life',
+              'title': 'Заколдованная жизнь',
+              'originalTitle': 'Charmed Life',
+              'author': 'Диана Уинн Джонс',
+              'sourceLanguage': 'en',
+              'targetLanguage': 'ru',
+              'chapterCount': len(chapters),
+              'chapters': chapters,
+          }
+
+          out_dir = Path('exports')
+          out_dir.mkdir(parents=True, exist_ok=True)
+          out_path = out_dir / 'charmed-life-ru-export.txt'
+          out_path.write_text(
+              'GWENDOLEN_TRANSLATION_EXPORT_V1\n' +
+              json.dumps(payload, ensure_ascii=False, indent=2) + '\n',
+              encoding='utf-8',
+          )
+
+          paragraph_count = sum(len(chapter['paragraphs']) for chapter in chapters)
+          character_count = sum(sum(len(p) for p in chapter['paragraphs']) for chapter in chapters)
+          print(f'Exported {len(chapters)} chapters, {paragraph_count} paragraphs, {character_count} characters')
+          PY
+
+      - name: Commit export
+        shell: bash
+        run: |
+          git config user.name "Gwendolen Export Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add exports/charmed-life-ru-export.txt
+          git commit -m "chore: export Charmed Life Russian text [skip export]"
+          git push origin HEAD:assistant/charmed-life-ru-epub-export

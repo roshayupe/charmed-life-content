@@ -23,16 +23,18 @@ jobs:
         with:
           ref: assistant/charmed-life-ru-epub-export
 
-      - name: Verify Russian EPUB
+      - name: Prepare Russian EPUB
         shell: bash
         run: |
-          test -f 'source/EPUB/RU/Djons_Diana_Uinn_[Miryi_Krestomansi#1]_Zakoldovannaya_jizn.epub'
-          ls -lh 'source/EPUB/RU/Djons_Diana_Uinn_[Miryi_Krestomansi#1]_Zakoldovannaya_jizn.epub'
+          source_file='source/EPUB/RU/Djons_Diana_Uinn_[Miryi_Krestomansi#1]_Zakoldovannaya_jizn.epub'
+          test -f "$source_file"
+          cp "$source_file" /tmp/charmed-life-ru.epub
+          ls -lh /tmp/charmed-life-ru.epub
 
       - name: Upload Russian EPUB
         uses: actions/upload-artifact@v4
         with:
           name: charmed-life-ru-source
-          path: source/EPUB/RU/Djons_Diana_Uinn_[Miryi_Krestomansi#1]_Zakoldovannaya_jizn.epub
+          path: /tmp/charmed-life-ru.epub
           if-no-files-found: error
           retention-days: 1

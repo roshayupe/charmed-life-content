@@ -22,10 +22,19 @@ jobs:
           set -euo pipefail
           test -f source/EPUB/EN/Charmed_Life_bundle_EPUB3_Chrestomanci.zip
           test -f source/EPUB/EN/Charmed_Life_mapped_translation_bundle_v6_EPUB3.zip
-          file source/EPUB/EN/Charmed_Life_bundle_EPUB3_Chrestomanci.zip
-          file source/EPUB/EN/Charmed_Life_mapped_translation_bundle_v6_EPUB3.zip
           unzip -t source/EPUB/EN/Charmed_Life_bundle_EPUB3_Chrestomanci.zip >/dev/null
           unzip -t source/EPUB/EN/Charmed_Life_mapped_translation_bundle_v6_EPUB3.zip >/dev/null
+
+      - name: Archive generated full-book Raw SimAlign payloads
+        shell: bash
+        run: |
+          set -euo pipefail
+          root="data/series/chrestomanci/books/mapped-bundle-charmed-life-en-ru-v6-epub3-dropcaps-fixed"
+          test -d "$root"
+          mapfile -d '' files < <(find "$root" -type f -name parallel-vocabulary.json -print0 | sort -z)
+          test "${#files[@]}" -gt 0
+          printf '%s\0' "${files[@]}" | xargs -0 zip -q Charmed_Life_full_book_parallel_vocabulary.zip
+          printf '%s\n' "parallel-vocabulary files: ${#files[@]}"
 
       - name: Upload source EPUB3 bundle
         uses: actions/upload-artifact@v4
@@ -40,5 +49,13 @@ jobs:
         with:
           name: Charmed_Life_mapped_translation_bundle_v6_EPUB3
           path: source/EPUB/EN/Charmed_Life_mapped_translation_bundle_v6_EPUB3.zip
+          if-no-files-found: error
+          retention-days: 1
+
+      - name: Upload full-book Raw SimAlign payloads
+        uses: actions/upload-artifact@v4
+        with:
+          name: Charmed_Life_full_book_parallel_vocabulary
+          path: Charmed_Life_full_book_parallel_vocabulary.zip
           if-no-files-found: error
           retention-days: 1

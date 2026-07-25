@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - artifact/export-charmed-life-epub3-bundle
+  pull_request:
+    branches:
+      - main
 
 jobs:
   export:

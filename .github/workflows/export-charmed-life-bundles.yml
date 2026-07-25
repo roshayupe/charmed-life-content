@@ -1,0 +1,38 @@
+name: Export Charmed Life source bundles
+
+on:
+  push:
+    branches:
+      - artifact/export-charmed-life-epub3-bundle
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Verify source packages
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f source/EPUB/EN/Charmed_Life_bundle_EPUB3_Chrestomanci.zip
+          test -f source/EPUB/EN/Charmed_Life_mapped_translation_bundle_v6_EPUB3.zip
+          ls -lh \
+            source/EPUB/EN/Charmed_Life_bundle_EPUB3_Chrestomanci.zip \
+            source/EPUB/EN/Charmed_Life_mapped_translation_bundle_v6_EPUB3.zip
+
+      - name: Upload source EPUB3 bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: Charmed_Life_bundle_EPUB3_Chrestomanci
+          path: source/EPUB/EN/Charmed_Life_bundle_EPUB3_Chrestomanci.zip
+          if-no-files-found: error
+          retention-days: 1
+
+      - name: Upload mapped translation bundle v6
+        uses: actions/upload-artifact@v4
+        with:
+          name: Charmed_Life_mapped_translation_bundle_v6_EPUB3
+          path: source/EPUB/EN/Charmed_Life_mapped_translation_bundle_v6_EPUB3.zip
+          if-no-files-found: error
+          retention-days: 1

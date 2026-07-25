@@ -12,24 +12,33 @@ jobs:
   export:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout current content
+        uses: actions/checkout@v4
         with:
           lfs: true
+          path: current
+
+      - name: Checkout last content revision containing mapped v6
+        uses: actions/checkout@v4
+        with:
+          ref: 67b39536da0a25880b8a9c5af43460ef6494f385
+          lfs: true
+          path: historical
 
       - name: Verify source packages
         shell: bash
         run: |
           set -euo pipefail
-          test -f source/EPUB/EN/Charmed_Life_bundle_EPUB3_Chrestomanci.zip
-          test -f source/EPUB/EN/Charmed_Life_mapped_translation_bundle_v6_EPUB3.zip
-          unzip -t source/EPUB/EN/Charmed_Life_bundle_EPUB3_Chrestomanci.zip >/dev/null
-          unzip -t source/EPUB/EN/Charmed_Life_mapped_translation_bundle_v6_EPUB3.zip >/dev/null
+          test -f current/source/EPUB/EN/Charmed_Life_bundle_EPUB3_Chrestomanci.zip
+          test -f historical/source/EPUB/EN/Charmed_Life_mapped_translation_bundle_v6_EPUB3.zip
+          unzip -t current/source/EPUB/EN/Charmed_Life_bundle_EPUB3_Chrestomanci.zip >/dev/null
+          unzip -t historical/source/EPUB/EN/Charmed_Life_mapped_translation_bundle_v6_EPUB3.zip >/dev/null
 
       - name: Archive generated full-book Raw SimAlign payloads
         shell: bash
         run: |
           set -euo pipefail
-          root="data/series/chrestomanci/books/mapped-bundle-charmed-life-en-ru-v6-epub3-dropcaps-fixed"
+          root="historical/data/series/chrestomanci/books/mapped-bundle-charmed-life-en-ru-v6-epub3-dropcaps-fixed"
           test -d "$root"
           mapfile -d '' files < <(find "$root" -type f -name parallel-vocabulary.json -print0 | sort -z)
           test "${#files[@]}" -gt 0
@@ -40,7 +49,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Charmed_Life_bundle_EPUB3_Chrestomanci
-          path: source/EPUB/EN/Charmed_Life_bundle_EPUB3_Chrestomanci.zip
+          path: current/source/EPUB/EN/Charmed_Life_bundle_EPUB3_Chrestomanci.zip
           if-no-files-found: error
           retention-days: 1
 
@@ -48,7 +57,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Charmed_Life_mapped_translation_bundle_v6_EPUB3
-          path: source/EPUB/EN/Charmed_Life_mapped_translation_bundle_v6_EPUB3.zip
+          path: historical/source/EPUB/EN/Charmed_Life_mapped_translation_bundle_v6_EPUB3.zip
           if-no-files-found: error
           retention-days: 1
 

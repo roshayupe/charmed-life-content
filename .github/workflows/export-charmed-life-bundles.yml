@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          lfs: true
 
       - name: Verify source packages
         shell: bash
@@ -20,9 +22,10 @@ jobs:
           set -euo pipefail
           test -f source/EPUB/EN/Charmed_Life_bundle_EPUB3_Chrestomanci.zip
           test -f source/EPUB/EN/Charmed_Life_mapped_translation_bundle_v6_EPUB3.zip
-          ls -lh \
-            source/EPUB/EN/Charmed_Life_bundle_EPUB3_Chrestomanci.zip \
-            source/EPUB/EN/Charmed_Life_mapped_translation_bundle_v6_EPUB3.zip
+          file source/EPUB/EN/Charmed_Life_bundle_EPUB3_Chrestomanci.zip
+          file source/EPUB/EN/Charmed_Life_mapped_translation_bundle_v6_EPUB3.zip
+          unzip -t source/EPUB/EN/Charmed_Life_bundle_EPUB3_Chrestomanci.zip >/dev/null
+          unzip -t source/EPUB/EN/Charmed_Life_mapped_translation_bundle_v6_EPUB3.zip >/dev/null
 
       - name: Upload source EPUB3 bundle
         uses: actions/upload-artifact@v4

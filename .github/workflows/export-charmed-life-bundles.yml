@@ -18,13 +18,6 @@ jobs:
           lfs: true
           path: current
 
-      - name: Checkout mapped v6 source archive revision
-        uses: actions/checkout@v4
-        with:
-          ref: 67c974e8067b9b800cae2daa569629e5acbaf442
-          lfs: true
-          path: mapped-bundle-source
-
       - name: Checkout final dropcaps-fixed generated content revision
         uses: actions/checkout@v4
         with:
@@ -32,19 +25,13 @@ jobs:
           lfs: false
           path: generated-content
 
-      - name: Diagnose source packages
+      - name: Verify source package
         shell: bash
         run: |
-          set -u
+          set -euo pipefail
           source_zip="current/source/EPUB/EN/Charmed_Life_bundle_EPUB3_Chrestomanci.zip"
-          mapped_zip="mapped-bundle-source/source/EPUB/EN/Charmed_Life_mapped_translation_bundle_v6_EPUB3.zip"
-          for path in "$source_zip" "$mapped_zip"; do
-            echo "=== $path"
-            ls -lh "$path" || true
-            file "$path" || true
-            unzip -t "$path" >/dev/null && echo "ZIP_OK" || echo "ZIP_INVALID_OR_POINTER"
-            head -c 160 "$path" | xxd || true
-          done
+          test -f "$source_zip"
+          unzip -t "$source_zip" >/dev/null
 
       - name: Archive generated full-book Raw SimAlign payloads
         shell: bash
@@ -62,14 +49,6 @@ jobs:
         with:
           name: Charmed_Life_bundle_EPUB3_Chrestomanci
           path: current/source/EPUB/EN/Charmed_Life_bundle_EPUB3_Chrestomanci.zip
-          if-no-files-found: error
-          retention-days: 1
-
-      - name: Upload mapped translation bundle v6
-        uses: actions/upload-artifact@v4
-        with:
-          name: Charmed_Life_mapped_translation_bundle_v6_EPUB3
-          path: mapped-bundle-source/source/EPUB/EN/Charmed_Life_mapped_translation_bundle_v6_EPUB3.zip
           if-no-files-found: error
           retention-days: 1
 

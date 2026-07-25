@@ -29,17 +29,22 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: 67b39536da0a25880b8a9c5af43460ef6494f385
-          lfs: true
+          lfs: false
           path: generated-content
 
-      - name: Verify source packages
+      - name: Diagnose source packages
         shell: bash
         run: |
-          set -euo pipefail
-          test -f current/source/EPUB/EN/Charmed_Life_bundle_EPUB3_Chrestomanci.zip
-          test -f mapped-bundle-source/source/EPUB/EN/Charmed_Life_mapped_translation_bundle_v6_EPUB3.zip
-          unzip -t current/source/EPUB/EN/Charmed_Life_bundle_EPUB3_Chrestomanci.zip >/dev/null
-          unzip -t mapped-bundle-source/source/EPUB/EN/Charmed_Life_mapped_translation_bundle_v6_EPUB3.zip >/dev/null
+          set -u
+          source_zip="current/source/EPUB/EN/Charmed_Life_bundle_EPUB3_Chrestomanci.zip"
+          mapped_zip="mapped-bundle-source/source/EPUB/EN/Charmed_Life_mapped_translation_bundle_v6_EPUB3.zip"
+          for path in "$source_zip" "$mapped_zip"; do
+            echo "=== $path"
+            ls -lh "$path" || true
+            file "$path" || true
+            unzip -t "$path" >/dev/null && echo "ZIP_OK" || echo "ZIP_INVALID_OR_POINTER"
+            head -c 160 "$path" | xxd || true
+          done
 
       - name: Archive generated full-book Raw SimAlign payloads
         shell: bash

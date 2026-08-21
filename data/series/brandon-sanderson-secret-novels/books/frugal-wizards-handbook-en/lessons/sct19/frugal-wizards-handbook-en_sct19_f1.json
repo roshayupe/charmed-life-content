@@ -42,7 +42,14 @@
       "source": "spacy_phrase",
       "wordKey": "1_legal_note_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "1 Юридическая записка"
+        },
+        "uk": {
+          "translation": "1 Легалська нотатка"
+        }
+      },
       "example": "1 Legal Note: Please be advised that if your dimension features an “extraordinary attribute” (as defined by paragraph 10.",
       "exampleStart": 3784,
       "exampleEnd": 3905,
@@ -51,7 +58,8 @@
         "startInExample": 0,
         "endInExample": 12
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ˌwɒn ˌliːɡəl ˈnəʊt"
     },
     {
       "word": "advised",
@@ -64,6 +72,9 @@
       "translations": {
         "ru": {
           "translation": "советовать"
+        },
+        "uk": {
+          "translation": "консультувати"
         }
       },
       "_spacyLemma": "advise",
@@ -71,7 +82,7 @@
       "exampleStart": 3784,
       "exampleEnd": 3905,
       "matchedForm": "advised",
-      "ipa": "ədˈvaɪz",
+      "ipa": "ədˈvaɪzd",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.691429,
       "difficultySource": "zipf"
@@ -87,6 +98,9 @@
       "translations": {
         "ru": {
           "translation": "назад"
+        },
+        "uk": {
+          "translation": "тому"
         }
       },
       "_spacyLemma": "ago",
@@ -110,6 +124,9 @@
       "translations": {
         "ru": {
           "translation": "чередующийся; запасной"
+        },
+        "uk": {
+          "translation": "альтернативні"
         }
       },
       "_spacyLemma": "alternate",
@@ -131,7 +148,14 @@
       "source": "spacy_phrase",
       "wordKey": "alternate_dimension_phrase",
       "level": "B2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "альтернативный размер"
+        },
+        "uk": {
+          "translation": "альтернативний розмір"
+        }
+      },
       "example": "”\n\nSuch questions display a fundamental misunderstanding of both alternate dimensions and probability.",
       "exampleStart": 258,
       "exampleEnd": 360,
@@ -140,7 +164,8 @@
         "startInExample": 65,
         "endInExample": 85
       },
-      "levelSource": "head_verb_index"
+      "levelSource": "head_verb_index",
+      "ipa": "ɔːlˌtɜːnət daɪˈmenʃənz"
     },
     {
       "word": "amazing",
@@ -150,7 +175,14 @@
       "source": "word",
       "wordKey": "amaze_verb",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Удивительно"
+        },
+        "uk": {
+          "translation": "Захоплююче"
+        }
+      },
       "_spacyLemma": "amaze",
       "example": "Furthermore, the Middle Ages are so different from the modern experience that you’re sure to find plenty to delight and amaze you.",
       "exampleStart": 3652,
@@ -158,7 +190,8 @@
       "matchedForm": "amaze",
       "levelSource": "difficulty_heuristic",
       "difficultyScore": 0.948571,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "əˈmeɪzɪŋ"
     },
     {
       "word": "asteroid",
@@ -168,7 +201,14 @@
       "source": "word",
       "wordKey": "asteroid_noun",
       "level": "A2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "астероид"
+        },
+        "uk": {
+          "translation": "астероїд"
+        }
+      },
       "_spacyLemma": "asteroid",
       "example": "If it was the result of a huge event (such as an asteroid hitting a dimension’s Earth in the 2020s when it missed ours), then the changes could be significant, even if the branching point was recent.",
       "exampleStart": 924,
@@ -176,7 +216,8 @@
       "matchedForm": "asteroid",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.842857,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈæstəˌrɔɪd"
     },
     {
       "word": "attributes",
@@ -186,7 +227,14 @@
       "source": "word",
       "wordKey": "attribute_noun",
       "level": "A2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "атрибут"
+        },
+        "uk": {
+          "translation": "рисами"
+        }
+      },
       "_spacyLemma": "attribute",
       "example": "Dimensions near each other on the dimensional spectrum tend to have similar attributes.",
       "exampleStart": 1125,
@@ -194,7 +242,8 @@
       "matchedForm": "attributes",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.782857,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈætrɪˌbjuːts"
     },
     {
       "word": "bananas",
@@ -207,6 +256,9 @@
       "translations": {
         "ru": {
           "translation": "банан"
+        },
+        "uk": {
+          "translation": "банан"
         }
       },
       "_spacyLemma": "banana",
@@ -214,7 +266,7 @@
       "exampleStart": 0,
       "exampleEnd": 64,
       "matchedForm": "Bananas",
-      "ipa": "bəˈnɑːnə",
+      "ipa": "bəˈnɑːnəz",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.717143,
       "difficultySource": "zipf"
@@ -230,6 +282,9 @@
       "translations": {
         "ru": {
           "translation": "оркестр"
+        },
+        "uk": {
+          "translation": "групи"
         }
       },
       "_spacyLemma": "band",
@@ -237,7 +292,7 @@
       "exampleStart": 2029,
       "exampleEnd": 2077,
       "matchedForm": "band",
-      "ipa": "band",
+      "ipa": "bænd",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.454286,
       "difficultySource": "zipf"
@@ -253,6 +308,9 @@
       "translations": {
         "ru": {
           "translation": "бесплодный"
+        },
+        "uk": {
+          "translation": "безплідний"
         }
       },
       "_spacyLemma": "barren",
@@ -260,7 +318,7 @@
       "exampleStart": 3361,
       "exampleEnd": 3457,
       "matchedForm": "barren",
-      "ipa": "bˈɛɹən",
+      "ipa": "ˈbærən",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.888571,
       "difficultySource": "zipf"
@@ -274,7 +332,14 @@
       "source": "spacy_phrase",
       "wordKey": "barren_earth_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Бесплодные Земли"
+        },
+        "uk": {
+          "translation": "Нижня земля"
+        }
+      },
       "example": "We have, however, found thousands of barren Earths destroyed by asteroids or other catastrophes.",
       "exampleStart": 3361,
       "exampleEnd": 3457,
@@ -283,7 +348,8 @@
         "startInExample": 37,
         "endInExample": 50
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ˌbærən ˈɜːθs"
     },
     {
       "word": "based",
@@ -296,6 +362,9 @@
       "translations": {
         "ru": {
           "translation": "основанный на"
+        },
+        "uk": {
+          "translation": "Згідно"
         }
       },
       "_spacyLemma": "base",
@@ -303,7 +372,7 @@
       "exampleStart": 361,
       "exampleEnd": 441,
       "matchedForm": "based",
-      "ipa": "bˈeɪst",
+      "ipa": "beɪst",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.417143,
       "difficultySource": "zipf"
@@ -316,7 +385,14 @@
       "source": "word",
       "wordKey": "beacon_noun",
       "level": "A2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "маяк"
+        },
+        "uk": {
+          "translation": "маяк"
+        }
+      },
       "_spacyLemma": "beacon",
       "example": "(To be paid after your mandatory, non-negotiable relinquishment of the beacon and codes to that dimension.",
       "exampleStart": 4028,
@@ -324,7 +400,8 @@
       "matchedForm": "beacon",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.791429,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈbiːkən"
     },
     {
       "word": "bell curve",
@@ -338,6 +415,9 @@
       "translations": {
         "ru": {
           "translation": "колокольная кривая"
+        },
+        "uk": {
+          "translation": "крива дзвінка"
         }
       },
       "example": "But dimensional distribution works on a bell curve.",
@@ -348,7 +428,7 @@
         "startInExample": 40,
         "endInExample": 50
       },
-      "ipa": "bˈɛl kˈəv",
+      "ipa": "ˌbel ˈkɜːv",
       "levelSource": "phrase_index"
     },
     {
@@ -362,6 +442,9 @@
       "translations": {
         "ru": {
           "translation": "колокол; звонок"
+        },
+        "uk": {
+          "translation": "Белл"
         }
       },
       "_spacyLemma": "bell",
@@ -382,7 +465,14 @@
       "source": "word",
       "wordKey": "bizarre_adjective",
       "level": "B2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "извращения"
+        },
+        "uk": {
+          "translation": "Дивні"
+        }
+      },
       "_spacyLemma": "bizarre",
       "example": "The unfortunate truth is that while, technically, dimensions can contain anything, the more unusual or bizarre something is, the more unlikely it is that anyone will ever find such a dimension.",
       "exampleStart": 2816,
@@ -390,7 +480,8 @@
       "matchedForm": "bizarre",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.711429,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "bɪˈzɑː"
     },
     {
       "word": "branch",
@@ -403,6 +494,9 @@
       "translations": {
         "ru": {
           "translation": "ветвь; ветка"
+        },
+        "uk": {
+          "translation": "відділення"
         }
       },
       "_spacyLemma": "branch",
@@ -410,7 +504,7 @@
       "exampleStart": 1250,
       "exampleEnd": 1321,
       "matchedForm": "branch",
-      "ipa": "brantʃ",
+      "ipa": "bræntʃ",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.551429,
       "difficultySource": "zipf"
@@ -423,7 +517,14 @@
       "source": "word",
       "wordKey": "branching_adjective",
       "level": "B2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "ветвь"
+        },
+        "uk": {
+          "translation": "Розгалуження"
+        }
+      },
       "_spacyLemma": "branching",
       "example": "The prevailing dimensional theory is based around the idea of “branching points.",
       "exampleStart": 361,
@@ -431,7 +532,8 @@
       "matchedForm": "branching",
       "levelSource": "cefr_frequency",
       "difficultyScore": 0.934286,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈbræntʃɪŋ"
     },
     {
       "word": "branching points",
@@ -442,7 +544,14 @@
       "source": "spacy_phrase",
       "wordKey": "branching_point_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Ветровые точки"
+        },
+        "uk": {
+          "translation": "точки розгалуження"
+        }
+      },
       "example": "The prevailing dimensional theory is based around the idea of “branching points.",
       "exampleStart": 361,
       "exampleEnd": 441,
@@ -451,7 +560,8 @@
         "startInExample": 63,
         "endInExample": 79
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ˌbræntʃɪŋ ˈpɔɪnts"
     },
     {
       "word": "carefully",
@@ -464,6 +574,9 @@
       "translations": {
         "ru": {
           "translation": "осторожно"
+        },
+        "uk": {
+          "translation": "ретельно"
         }
       },
       "_spacyLemma": "carefully",
@@ -471,7 +584,7 @@
       "exampleStart": 4134,
       "exampleEnd": 4247,
       "matchedForm": "carefully",
-      "ipa": "ˈkeəf(ə)li",
+      "ipa": "ˈkeəfəli",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.585714,
       "difficultySource": "zipf"
@@ -484,7 +597,14 @@
       "source": "word",
       "wordKey": "cataclysmic_adjective",
       "level": "B2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "катастрофического"
+        },
+        "uk": {
+          "translation": "Катастрофічна"
+        }
+      },
       "_spacyLemma": "cataclysmic",
       "example": "Because unlike sapient bananas, cataclysmic failure is incredibly likely.",
       "exampleStart": 3458,
@@ -492,7 +612,8 @@
       "matchedForm": "cataclysmic",
       "levelSource": "vocabulary_index",
       "difficultyScore": 1,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˌkætəˈklɪsmɪk"
     },
     {
       "word": "cataclysmic failure",
@@ -503,7 +624,14 @@
       "source": "spacy_phrase",
       "wordKey": "cataclysmic_failure_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Катаклизмическая неисправность"
+        },
+        "uk": {
+          "translation": "катастрофічна невдача"
+        }
+      },
       "example": "Because unlike sapient bananas, cataclysmic failure is incredibly likely.",
       "exampleStart": 3458,
       "exampleEnd": 3531,
@@ -512,7 +640,8 @@
         "startInExample": 32,
         "endInExample": 51
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ˌkætəˌklɪsmɪk ˈfeɪliə"
     },
     {
       "word": "cataloged",
@@ -522,7 +651,14 @@
       "source": "word",
       "wordKey": "catalog_verb",
       "level": "B2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "каталог"
+        },
+        "uk": {
+          "translation": "каталог"
+        }
+      },
       "_spacyLemma": "catalog",
       "example": "Let’s say we cataloged a thousand dimensions and rated them by how similar they are to our own.",
       "exampleStart": 1654,
@@ -530,7 +666,8 @@
       "matchedForm": "cataloged",
       "levelSource": "difficulty_heuristic",
       "difficultyScore": 0.742857,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈkætəˌlɒɡd"
     },
     {
       "word": "catastrophes",
@@ -540,7 +677,14 @@
       "source": "word",
       "wordKey": "catastrophe_noun",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "катастрофы"
+        },
+        "uk": {
+          "translation": "катастрофа"
+        }
+      },
       "_spacyLemma": "catastrophe",
       "example": "We have, however, found thousands of barren Earths destroyed by asteroids or other catastrophes.",
       "exampleStart": 3361,
@@ -548,7 +692,8 @@
       "matchedForm": "catastrophes",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.842857,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "kəˈtæstrəfiz"
     },
     {
       "word": "caused",
@@ -577,7 +722,7 @@
       "exampleStart": 441,
       "exampleEnd": 627,
       "matchedForm": "caused",
-      "ipa": "kɔːz",
+      "ipa": "kɔːzd",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.331429,
       "difficultySource": "zipf"
@@ -592,6 +737,9 @@
       "level": "A2",
       "translations": {
         "ru": {
+          "translation": "центр"
+        },
+        "uk": {
           "translation": "центр"
         }
       },
@@ -616,6 +764,9 @@
       "translations": {
         "ru": {
           "translation": "изменение"
+        },
+        "uk": {
+          "translation": "зміна"
         }
       },
       "_spacyLemma": "change",
@@ -623,7 +774,7 @@
       "exampleStart": 924,
       "exampleEnd": 1123,
       "matchedForm": "changes",
-      "ipa": "tʃeɪndʒ",
+      "ipa": "ˈtʃeɪndʒɪz",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.277143,
       "difficultySource": "zipf"
@@ -639,6 +790,9 @@
       "translations": {
         "ru": {
           "translation": "код"
+        },
+        "uk": {
+          "translation": "код"
         }
       },
       "_spacyLemma": "code",
@@ -646,7 +800,7 @@
       "exampleStart": 4028,
       "exampleEnd": 4134,
       "matchedForm": "codes",
-      "ipa": "kəʊd",
+      "ipa": "kəʊdz",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.408571,
       "difficultySource": "zipf"
@@ -663,6 +817,9 @@
       "translations": {
         "ru": {
           "translation": "входить"
+        },
+        "uk": {
+          "translation": "Увійти"
         }
       },
       "example": "The important part comes in noting the right end of the graph.",
@@ -673,7 +830,7 @@
         "startInExample": 19,
         "endInExample": 27
       },
-      "ipa": "kʌm ɪn",
+      "ipa": "ˌkʌmz ˈɪn",
       "levelSource": "phrase_index"
     },
     {
@@ -687,6 +844,9 @@
       "translations": {
         "ru": {
           "translation": "приходить"
+        },
+        "uk": {
+          "translation": "приходять"
         }
       },
       "_spacyLemma": "come",
@@ -694,7 +854,7 @@
       "exampleStart": 2422,
       "exampleEnd": 2484,
       "matchedForm": "comes",
-      "ipa": "kʌm",
+      "ipa": "kʌmz",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.208571,
       "difficultySource": "zipf"
@@ -710,6 +870,9 @@
       "translations": {
         "ru": {
           "translation": "Поздравляю."
+        },
+        "uk": {
+          "translation": "Вітаю"
         }
       },
       "_spacyLemma": "congratulation",
@@ -717,7 +880,7 @@
       "exampleStart": 3905,
       "exampleEnd": 3981,
       "matchedForm": "congratulations",
-      "ipa": "kəŋɡɹˌæt͡ʃəlˈeɪʃənz",
+      "ipa": "kəŋɡˈrætʃʊˈleɪʃənz",
       "levelSource": "vocabulary_index",
       "difficultyScore": 1,
       "difficultySource": "zipf"
@@ -733,6 +896,9 @@
       "translations": {
         "ru": {
           "translation": "содержать"
+        },
+        "uk": {
+          "translation": "містити"
         }
       },
       "_spacyLemma": "contain",
@@ -756,6 +922,9 @@
       "translations": {
         "ru": {
           "translation": "контракт"
+        },
+        "uk": {
+          "translation": "контракт"
         }
       },
       "_spacyLemma": "contract",
@@ -776,7 +945,14 @@
       "source": "word",
       "wordKey": "cultural_adjective",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "культурных"
+        },
+        "uk": {
+          "translation": "культурна"
+        }
+      },
       "_spacyLemma": "cultural",
       "example": "Those are somewhat similar to ours, but with interesting cultural deviations.",
       "exampleStart": 2246,
@@ -784,7 +960,8 @@
       "matchedForm": "cultural",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.502857,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈkʌltʃərəl"
     },
     {
       "word": "Cultural changes",
@@ -795,7 +972,14 @@
       "source": "spacy_phrase",
       "wordKey": "cultural_change_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Культурные изменения"
+        },
+        "uk": {
+          "translation": "Зміни у культурі"
+        }
+      },
       "example": "Cultural changes (like Greeks who speak Latin) are far more plausible, and we find those all the time.",
       "exampleStart": 3549,
       "exampleEnd": 3651,
@@ -804,7 +988,8 @@
         "startInExample": 0,
         "endInExample": 16
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ˌkʌltʃərəl ˈtʃeɪndʒɪz"
     },
     {
       "word": "curve",
@@ -817,6 +1002,9 @@
       "translations": {
         "ru": {
           "translation": "Кривая"
+        },
+        "uk": {
+          "translation": "вигин"
         }
       },
       "_spacyLemma": "curve",
@@ -824,7 +1012,7 @@
       "exampleStart": 1602,
       "exampleEnd": 1653,
       "matchedForm": "curve",
-      "ipa": "kˈəv",
+      "ipa": "kɜːv",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.677143,
       "difficultySource": "zipf"
@@ -840,6 +1028,9 @@
       "translations": {
         "ru": {
           "translation": "дата; свидание; финик"
+        },
+        "uk": {
+          "translation": "дата"
         }
       },
       "_spacyLemma": "date",
@@ -860,7 +1051,14 @@
       "source": "word",
       "wordKey": "datum_noun",
       "level": "A2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "базы"
+        },
+        "uk": {
+          "translation": "дані"
+        }
+      },
       "_spacyLemma": "datum",
       "example": "Then we graphed that data with the x-axis indicating similarity to our own dimension, while the y-axis indicates the number of dimensions we found of that level of similarity.",
       "exampleStart": 1750,
@@ -868,7 +1066,8 @@
       "matchedForm": "data",
       "levelSource": "vocabulary_index",
       "difficultyScore": 1,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈdeɪtə"
     },
     {
       "word": "defined",
@@ -881,6 +1080,9 @@
       "translations": {
         "ru": {
           "translation": "Определено"
+        },
+        "uk": {
+          "translation": "чіткими"
         }
       },
       "_spacyLemma": "define",
@@ -888,7 +1090,7 @@
       "exampleStart": 3784,
       "exampleEnd": 3905,
       "matchedForm": "defined",
-      "ipa": "dɪfˈaɪnd",
+      "ipa": "dɪˈfaɪnd",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.628571,
       "difficultySource": "zipf"
@@ -904,6 +1106,9 @@
       "translations": {
         "ru": {
           "translation": "восторг; удовольствие"
+        },
+        "uk": {
+          "translation": "захват"
         }
       },
       "_spacyLemma": "delight",
@@ -927,6 +1132,9 @@
       "translations": {
         "ru": {
           "translation": "зависело"
+        },
+        "uk": {
+          "translation": "залежить"
         }
       },
       "_spacyLemma": "depend",
@@ -934,7 +1142,7 @@
       "exampleStart": 629,
       "exampleEnd": 719,
       "matchedForm": "depends",
-      "ipa": "dɪpˈɛndɪd",
+      "ipa": "dɪˈpendz",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.66,
       "difficultySource": "zipf"
@@ -950,6 +1158,9 @@
       "translations": {
         "ru": {
           "translation": "уничтожать"
+        },
+        "uk": {
+          "translation": "знищити"
         }
       },
       "_spacyLemma": "destroy",
@@ -957,7 +1168,7 @@
       "exampleStart": 3361,
       "exampleEnd": 3457,
       "matchedForm": "destroyed",
-      "ipa": "dɪˈstrɔɪ",
+      "ipa": "dɪˈstrɔɪd",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.568571,
       "difficultySource": "zipf"
@@ -970,7 +1181,14 @@
       "source": "word",
       "wordKey": "deviate_verb",
       "level": "B2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "отклонение"
+        },
+        "uk": {
+          "translation": "Відхилити"
+        }
+      },
       "_spacyLemma": "deviate",
       "example": "” Each dimension shared our dimension’s history up until some branching point, where a single event caused their futures to deviate—sometimes in tiny ways, sometimes in fundamental ways.",
       "exampleStart": 441,
@@ -978,7 +1196,8 @@
       "matchedForm": "deviate",
       "levelSource": "difficulty_heuristic",
       "difficultyScore": 0.985714,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈdiːvɪˌeɪt"
     },
     {
       "word": "deviation",
@@ -988,7 +1207,14 @@
       "source": "word",
       "wordKey": "deviation_noun",
       "level": "C1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "отклонение"
+        },
+        "uk": {
+          "translation": "відхилення"
+        }
+      },
       "_spacyLemma": "deviation",
       "example": "The trunk is our dimension, and each “branch” is formed by a deviation.",
       "exampleStart": 1250,
@@ -996,7 +1222,8 @@
       "matchedForm": "deviation",
       "levelSource": "difficulty_heuristic",
       "difficultyScore": 0.888571,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˌdiːvɪˈeɪʃən"
     },
     {
       "word": "differences",
@@ -1009,6 +1236,9 @@
       "translations": {
         "ru": {
           "translation": "разница"
+        },
+        "uk": {
+          "translation": "різниця"
         }
       },
       "_spacyLemma": "difference",
@@ -1016,7 +1246,7 @@
       "exampleStart": 629,
       "exampleEnd": 719,
       "matchedForm": "differences",
-      "ipa": "ˈdɪfrəns",
+      "ipa": "ˈdɪfrənsɪz",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.428571,
       "difficultySource": "zipf"
@@ -1032,6 +1262,9 @@
       "translations": {
         "ru": {
           "translation": "разный"
+        },
+        "uk": {
+          "translation": "різних"
         }
       },
       "_spacyLemma": "different",
@@ -1052,7 +1285,14 @@
       "source": "word",
       "wordKey": "dimension_noun",
       "level": "B2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "измерение"
+        },
+        "uk": {
+          "translation": "розмірність"
+        }
+      },
       "_spacyLemma": "dimension",
       "example": "All Right, WHY Can’t I Have a Dimension Full of Talking Bananas?",
       "exampleStart": 0,
@@ -1060,7 +1300,8 @@
       "matchedForm": "Dimension",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.711429,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "daɪˈmenʃən"
     },
     {
       "word": "dimensional",
@@ -1070,7 +1311,14 @@
       "source": "word",
       "wordKey": "dimensional_adjective",
       "level": "B2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "размерные"
+        },
+        "uk": {
+          "translation": "Розмірний"
+        }
+      },
       "_spacyLemma": "dimensional",
       "example": "The prevailing dimensional theory is based around the idea of “branching points.",
       "exampleStart": 361,
@@ -1078,7 +1326,8 @@
       "matchedForm": "dimensional",
       "levelSource": "cefr_frequency",
       "difficultyScore": 0.708571,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "daɪˈmenʃənəl"
     },
     {
       "word": "dimensional bands",
@@ -1089,7 +1338,14 @@
       "source": "spacy_phrase",
       "wordKey": "dimensional_band_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "размерные полосы"
+        },
+        "uk": {
+          "translation": "Вимірні смуги"
+        }
+      },
       "example": "(Note that in some dimensional bands, the center of the curve can be moved left or right.",
       "exampleStart": 2078,
       "exampleEnd": 2167,
@@ -1098,7 +1354,8 @@
         "startInExample": 19,
         "endInExample": 36
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "daɪˌmenʃənəl ˈbændz"
     },
     {
       "word": "dimensional distribution",
@@ -1109,7 +1366,14 @@
       "source": "spacy_phrase",
       "wordKey": "dimensional_distribution_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "размерное распределение"
+        },
+        "uk": {
+          "translation": "Розмірний розподіл"
+        }
+      },
       "example": "But dimensional distribution works on a bell curve.",
       "exampleStart": 1602,
       "exampleEnd": 1653,
@@ -1118,7 +1382,8 @@
         "startInExample": 4,
         "endInExample": 28
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "daɪˌmenʃənəl ˌdɪstrɪˈbjuːʃən"
     },
     {
       "word": "dimensional spectrum",
@@ -1129,7 +1394,14 @@
       "source": "spacy_phrase",
       "wordKey": "dimensional_spectrum_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "размерный спектр"
+        },
+        "uk": {
+          "translation": "розмірний спектр"
+        }
+      },
       "example": "Dimensions near each other on the dimensional spectrum tend to have similar attributes.",
       "exampleStart": 1125,
       "exampleEnd": 1212,
@@ -1138,7 +1410,8 @@
         "startInExample": 34,
         "endInExample": 54
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "daɪˌmenʃənəl ˈspektrəm"
     },
     {
       "word": "direct",
@@ -1151,6 +1424,9 @@
       "translations": {
         "ru": {
           "translation": "направленный"
+        },
+        "uk": {
+          "translation": "спрямований"
         }
       },
       "_spacyLemma": "direct",
@@ -1158,7 +1434,7 @@
       "exampleStart": 4134,
       "exampleEnd": 4247,
       "matchedForm": "direct",
-      "ipa": "dɪɹˈɛktɪd",
+      "ipa": "daɪˈrekt",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.457143,
       "difficultySource": "zipf"
@@ -1203,7 +1479,14 @@
       "source": "word",
       "wordKey": "distribution_noun",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "распространения"
+        },
+        "uk": {
+          "translation": "розподіл"
+        }
+      },
       "_spacyLemma": "distribution",
       "example": "But dimensional distribution works on a bell curve.",
       "exampleStart": 1602,
@@ -1211,7 +1494,8 @@
       "matchedForm": "distribution",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.534286,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˌdɪstrɪˈbjuːʃən"
     },
     {
       "word": "dominant",
@@ -1224,6 +1508,9 @@
       "translations": {
         "ru": {
           "translation": "господствующий"
+        },
+        "uk": {
+          "translation": "домінуючим"
         }
       },
       "_spacyLemma": "dominant",
@@ -1245,7 +1532,14 @@
       "source": "spacy_phrase",
       "wordKey": "dominant_specie_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "доминирующие виды"
+        },
+        "uk": {
+          "translation": "домінантний вид"
+        }
+      },
       "example": "1\n\nScientists have, to date, found a few precious dimensions where Neanderthals became the dominant species of human.",
       "exampleStart": 3009,
       "exampleEnd": 3126,
@@ -1254,7 +1548,8 @@
         "startInExample": 91,
         "endInExample": 107
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ˌdɒmɪnənt ˈspiːsiːz"
     },
     {
       "word": "dominate",
@@ -1267,6 +1562,9 @@
       "translations": {
         "ru": {
           "translation": "Доминирование"
+        },
+        "uk": {
+          "translation": "де"
         }
       },
       "_spacyLemma": "dominate",
@@ -1274,7 +1572,7 @@
       "exampleStart": 3009,
       "exampleEnd": 3126,
       "matchedForm": "dominant",
-      "ipa": "dˈɑmənˌeɪtɪŋ",
+      "ipa": "ˈdɒmɪˌneɪt",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.754286,
       "difficultySource": "zipf"
@@ -1288,7 +1586,14 @@
       "source": "spacy_phrase",
       "wordKey": "earth_lite_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Земной свет"
+        },
+        "uk": {
+          "translation": "Імітація Землі"
+        }
+      },
       "example": ") In the center of the graph, you’ll find what we call Earth-lite™ dimensions.",
       "exampleStart": 2167,
       "exampleEnd": 2245,
@@ -1298,7 +1603,8 @@
         "startInExample": 55,
         "endInExample": 65
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ˈɜːθˈlaɪt"
     },
     {
       "word": "Earth",
@@ -1311,6 +1617,9 @@
       "translations": {
         "ru": {
           "translation": "земля"
+        },
+        "uk": {
+          "translation": "землі"
         }
       },
       "_spacyLemma": "earth",
@@ -1334,6 +1643,9 @@
       "translations": {
         "ru": {
           "translation": "слон"
+        },
+        "uk": {
+          "translation": "слон"
         }
       },
       "_spacyLemma": "elephant",
@@ -1341,7 +1653,7 @@
       "exampleStart": 3268,
       "exampleEnd": 3359,
       "matchedForm": "elephants",
-      "ipa": "ˈɛləfənt",
+      "ipa": "ˈelɪfənts",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.694286,
       "difficultySource": "zipf"
@@ -1357,6 +1669,9 @@
       "translations": {
         "ru": {
           "translation": "конец"
+        },
+        "uk": {
+          "translation": "кінці"
         }
       },
       "_spacyLemma": "end",
@@ -1378,7 +1693,14 @@
       "source": "spacy_phrase",
       "wordKey": "era_people_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Люди"
+        },
+        "uk": {
+          "translation": "епоха людей"
+        }
+      },
       "example": "®, we have purchased a branch of this tree where Britain tends to be inhabited with medieval-era people speaking languages we can understand.",
       "exampleStart": 1460,
       "exampleEnd": 1601,
@@ -1387,7 +1709,8 @@
         "startInExample": 93,
         "endInExample": 103
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ˌiərə ˈpiːpəl"
     },
     {
       "word": "event",
@@ -1400,6 +1723,9 @@
       "translations": {
         "ru": {
           "translation": "событие"
+        },
+        "uk": {
+          "translation": "подія"
         }
       },
       "_spacyLemma": "event",
@@ -1423,6 +1749,9 @@
       "translations": {
         "ru": {
           "translation": "Эволюция"
+        },
+        "uk": {
+          "translation": "еволутіон"
         }
       },
       "_spacyLemma": "evolution",
@@ -1430,7 +1759,7 @@
       "exampleStart": 853,
       "exampleEnd": 881,
       "matchedForm": "evolution",
-      "ipa": "ˌɛvəlˈuʃən",
+      "ipa": "ɪvəˈluːʃən",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.6,
       "difficultySource": "zipf"
@@ -1443,7 +1772,14 @@
       "source": "word",
       "wordKey": "evolve_verb",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "развиваться"
+        },
+        "uk": {
+          "translation": "еволюціонували"
+        }
+      },
       "_spacyLemma": "evolve",
       "example": ") evolved to dominate Earth.",
       "exampleStart": 3239,
@@ -1451,7 +1787,8 @@
       "matchedForm": "evolved",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.774286,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ɪˈvɒlvd"
     },
     {
       "word": "experience",
@@ -1480,7 +1817,7 @@
       "exampleStart": 3652,
       "exampleEnd": 3782,
       "matchedForm": "experience",
-      "ipa": "ɪkˈspɪəriəns",
+      "ipa": "ekˈspiərɪəns",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.354286,
       "difficultySource": "zipf"
@@ -1496,6 +1833,9 @@
       "translations": {
         "ru": {
           "translation": "Расширение"
+        },
+        "uk": {
+          "translation": "простягнув"
         }
       },
       "_spacyLemma": "extend",
@@ -1503,7 +1843,7 @@
       "exampleStart": 2485,
       "exampleEnd": 2644,
       "matchedForm": "extends",
-      "ipa": "ɪkstˈɛndɪd",
+      "ipa": "ekˈstendz",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.62,
       "difficultySource": "zipf"
@@ -1519,6 +1859,9 @@
       "translations": {
         "ru": {
           "translation": "Необыкновенно"
+        },
+        "uk": {
+          "translation": "надзвичайне"
         }
       },
       "_spacyLemma": "extraordinary",
@@ -1526,7 +1869,7 @@
       "exampleStart": 3784,
       "exampleEnd": 3905,
       "matchedForm": "extraordinary",
-      "ipa": "ɪkstɹˈɔɹdɪnˌɛɹi",
+      "ipa": "ekˈstrɔːdɪnəri",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.614286,
       "difficultySource": "zipf"
@@ -1540,7 +1883,14 @@
       "source": "spacy_phrase",
       "wordKey": "extraordinary_attribute_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Необычный атрибут"
+        },
+        "uk": {
+          "translation": "надзвичайний атрибут"
+        }
+      },
       "example": "1 Legal Note: Please be advised that if your dimension features an “extraordinary attribute” (as defined by paragraph 10.",
       "exampleStart": 3784,
       "exampleEnd": 3905,
@@ -1549,7 +1899,8 @@
         "startInExample": 68,
         "endInExample": 91
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ekˌstrɔːdɪnəri ˈætrɪˌbjuːt"
     },
     {
       "word": "factors",
@@ -1559,7 +1910,14 @@
       "source": "word",
       "wordKey": "factor_noun",
       "level": "A2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "фактор"
+        },
+        "uk": {
+          "translation": "коефіцієнт"
+        }
+      },
       "_spacyLemma": "factor",
       "example": "The scale of the differences between a given dimension and our own depends on two factors.",
       "exampleStart": 629,
@@ -1567,7 +1925,8 @@
       "matchedForm": "factors",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.525714,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈfæktəz"
     },
     {
       "word": "failure",
@@ -1596,7 +1955,7 @@
       "exampleStart": 3458,
       "exampleEnd": 3531,
       "matchedForm": "failure",
-      "ipa": "ˈfeɪljər",
+      "ipa": "ˈfeɪliə",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.511429,
       "difficultySource": "zipf"
@@ -1612,6 +1971,9 @@
       "translations": {
         "ru": {
           "translation": "справедливо"
+        },
+        "uk": {
+          "translation": "досить"
         }
       },
       "_spacyLemma": "fairly",
@@ -1636,6 +1998,9 @@
       "translations": {
         "ru": {
           "translation": "упасть в; впасть в"
+        },
+        "uk": {
+          "translation": "вишикуватися; впасти в"
         }
       },
       "example": "Statistically, most of the dimensions in our band will fall into this portion of the bell curve.",
@@ -1646,7 +2011,7 @@
         "startInExample": 55,
         "endInExample": 64
       },
-      "ipa": "fɔːl ˌɪntʊ",
+      "ipa": "ˈfɔːl ˌɪntʊ",
       "levelSource": "phrase_index"
     },
     {
@@ -1660,6 +2025,9 @@
       "translations": {
         "ru": {
           "translation": "падало"
+        },
+        "uk": {
+          "translation": "потрапляють"
         }
       },
       "_spacyLemma": "fall",
@@ -1683,6 +2051,9 @@
       "translations": {
         "ru": {
           "translation": "слишком"
+        },
+        "uk": {
+          "translation": "далеко"
         }
       },
       "_spacyLemma": "far",
@@ -1722,7 +2093,7 @@
       "exampleStart": 3533,
       "exampleEnd": 3548,
       "matchedForm": "fear",
-      "ipa": "fɪər",
+      "ipa": "ˈfiə",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.445714,
       "difficultySource": "zipf"
@@ -1735,7 +2106,14 @@
       "source": "word",
       "wordKey": "feature_verb",
       "level": "A2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "оснащены"
+        },
+        "uk": {
+          "translation": "була"
+        }
+      },
       "_spacyLemma": "feature",
       "example": "1 Legal Note: Please be advised that if your dimension features an “extraordinary attribute” (as defined by paragraph 10.",
       "exampleStart": 3784,
@@ -1743,7 +2121,8 @@
       "matchedForm": "features",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.482857,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈfiːtʃəz"
     },
     {
       "word": "fee",
@@ -1753,7 +2132,14 @@
       "source": "word",
       "wordKey": "fee_noun",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "плату"
+        },
+        "uk": {
+          "translation": "мита"
+        }
+      },
       "_spacyLemma": "fee",
       "example": "You will be given a finder’s fee of $100,000!",
       "exampleStart": 3982,
@@ -1761,7 +2147,8 @@
       "matchedForm": "fee",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.571429,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "fiː"
     },
     {
       "word": "find",
@@ -1790,7 +2177,7 @@
       "exampleStart": 142,
       "exampleEnd": 208,
       "matchedForm": "find",
-      "ipa": "ˈfaɪndɪŋ",
+      "ipa": "faɪnd",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.214286,
       "difficultySource": "zipf"
@@ -1806,6 +2193,9 @@
       "translations": {
         "ru": {
           "translation": "летать"
+        },
+        "uk": {
+          "translation": "літати"
         }
       },
       "_spacyLemma": "fly",
@@ -1829,6 +2219,9 @@
       "translations": {
         "ru": {
           "translation": "образовывать; формировать"
+        },
+        "uk": {
+          "translation": "утворюють"
         }
       },
       "_spacyLemma": "form",
@@ -1836,7 +2229,7 @@
       "exampleStart": 1250,
       "exampleEnd": 1321,
       "matchedForm": "formed",
-      "ipa": "fɔːm",
+      "ipa": "fɔːmd",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.342857,
       "difficultySource": "zipf"
@@ -1850,7 +2243,14 @@
       "source": "dictionary_phrasal",
       "wordKey": "freak_out_phrasal_verb",
       "level": "B2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "С ума сойти."
+        },
+        "uk": {
+          "translation": "перекрити"
+        }
+      },
       "example": "” or “Please find me a dimension without frogs; they freak me out.",
       "exampleStart": 142,
       "exampleEnd": 208,
@@ -1859,7 +2259,8 @@
         "startInExample": 53,
         "endInExample": 65
       },
-      "levelSource": "dictionary_phrase"
+      "levelSource": "dictionary_phrase",
+      "ipa": "ˌfriːk ˈaʊt"
     },
     {
       "word": "freak",
@@ -1869,7 +2270,14 @@
       "source": "word",
       "wordKey": "freak_verb",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Урод."
+        },
+        "uk": {
+          "translation": "бреак"
+        }
+      },
       "_spacyLemma": "freak",
       "example": "” or “Please find me a dimension without frogs; they freak me out.",
       "exampleStart": 142,
@@ -1877,7 +2285,8 @@
       "matchedForm": "freak",
       "levelSource": "difficulty_heuristic",
       "difficultyScore": 0.694286,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "friːk"
     },
     {
       "word": "frogs",
@@ -1890,6 +2299,9 @@
       "translations": {
         "ru": {
           "translation": "лягушка"
+        },
+        "uk": {
+          "translation": "жаба"
         }
       },
       "_spacyLemma": "frog",
@@ -1897,7 +2309,7 @@
       "exampleStart": 142,
       "exampleEnd": 208,
       "matchedForm": "frogs",
-      "ipa": "frɒɡ",
+      "ipa": "frɒɡz",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.748571,
       "difficultySource": "zipf"
@@ -1910,7 +2322,14 @@
       "source": "word",
       "wordKey": "fundamental_adjective",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "фундаментальных"
+        },
+        "uk": {
+          "translation": "ідеї"
+        }
+      },
       "_spacyLemma": "fundamental",
       "example": "”\n\nSuch questions display a fundamental misunderstanding of both alternate dimensions and probability.",
       "exampleStart": 258,
@@ -1918,7 +2337,8 @@
       "matchedForm": "fundamental",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.622857,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˌfʌndəˈmentəl"
     },
     {
       "word": "fundamental misunderstanding",
@@ -1929,7 +2349,14 @@
       "source": "spacy_phrase",
       "wordKey": "fundamental_misunderstanding_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "фундаментальное недопонимание"
+        },
+        "uk": {
+          "translation": "Основне непорозуміння"
+        }
+      },
       "example": "”\n\nSuch questions display a fundamental misunderstanding of both alternate dimensions and probability.",
       "exampleStart": 258,
       "exampleEnd": 360,
@@ -1938,7 +2365,8 @@
         "startInExample": 28,
         "endInExample": 56
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ˌfʌndəˌmentəl mɪˌsʌndəˈstændɪŋ"
     },
     {
       "word": "fundamental ways",
@@ -1949,7 +2377,14 @@
       "source": "spacy_phrase",
       "wordKey": "fundamental_way_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "основополагающие пути"
+        },
+        "uk": {
+          "translation": "Основні шляхи"
+        }
+      },
       "example": "” Each dimension shared our dimension’s history up until some branching point, where a single event caused their futures to deviate—sometimes in tiny ways, sometimes in fundamental ways.",
       "exampleStart": 441,
       "exampleEnd": 627,
@@ -1958,7 +2393,8 @@
         "startInExample": 169,
         "endInExample": 185
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ˌfʌndəˌmentəl ˈweɪz"
     },
     {
       "word": "Furthermore",
@@ -1971,6 +2407,9 @@
       "translations": {
         "ru": {
           "translation": "кроме того"
+        },
+        "uk": {
+          "translation": "Крім того"
         }
       },
       "_spacyLemma": "furthermore",
@@ -1994,6 +2433,9 @@
       "translations": {
         "ru": {
           "translation": "будущее"
+        },
+        "uk": {
+          "translation": "майбутнє"
         }
       },
       "_spacyLemma": "future",
@@ -2001,7 +2443,7 @@
       "exampleStart": 441,
       "exampleEnd": 627,
       "matchedForm": "futures",
-      "ipa": "ˈfjuːtʃə",
+      "ipa": "ˈfjuːtʃəz",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.337143,
       "difficultySource": "zipf"
@@ -2017,6 +2459,9 @@
       "translations": {
         "ru": {
           "translation": "отданный"
+        },
+        "uk": {
+          "translation": "будь-якому"
         }
       },
       "_spacyLemma": "give",
@@ -2024,7 +2469,7 @@
       "exampleStart": 629,
       "exampleEnd": 719,
       "matchedForm": "given",
-      "ipa": "ɡˈɪvən",
+      "ipa": "ˈɡɪvən",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.228571,
       "difficultySource": "zipf"
@@ -2040,6 +2485,9 @@
       "translations": {
         "ru": {
           "translation": "давать"
+        },
+        "uk": {
+          "translation": "дати"
         }
       },
       "_spacyLemma": "give",
@@ -2047,7 +2495,7 @@
       "exampleStart": 629,
       "exampleEnd": 719,
       "matchedForm": "given",
-      "ipa": "ɡɪv",
+      "ipa": "ˈɡɪvən",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.228571,
       "difficultySource": "zipf"
@@ -2060,7 +2508,14 @@
       "source": "word",
       "wordKey": "graph_noun",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "График"
+        },
+        "uk": {
+          "translation": "графік"
+        }
+      },
       "_spacyLemma": "graph",
       "example": "As you can see, at the leftmost part of the graph, you’d find the dimensions most similar to our own.",
       "exampleStart": 1927,
@@ -2068,7 +2523,8 @@
       "matchedForm": "graph",
       "levelSource": "cefr_frequency",
       "difficultyScore": 0.702857,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ɡræf"
     },
     {
       "word": "graphed",
@@ -2078,7 +2534,14 @@
       "source": "word",
       "wordKey": "graph_verb",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "График"
+        },
+        "uk": {
+          "translation": "графік"
+        }
+      },
       "_spacyLemma": "graph",
       "example": "Then we graphed that data with the x-axis indicating similarity to our own dimension, while the y-axis indicates the number of dimensions we found of that level of similarity.",
       "exampleStart": 1750,
@@ -2086,7 +2549,8 @@
       "matchedForm": "graphed",
       "levelSource": "cefr_frequency",
       "difficultyScore": 0.702857,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ɡræft"
     },
     {
       "word": "guaranteed",
@@ -2096,7 +2560,14 @@
       "source": "word",
       "wordKey": "guarantee_verb",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "гарантировать"
+        },
+        "uk": {
+          "translation": "гарантувати"
+        }
+      },
       "_spacyLemma": "guarantee",
       "example": "If it was long, long ago, then significant differences are likely, though not guaranteed.",
       "exampleStart": 763,
@@ -2104,7 +2575,8 @@
       "matchedForm": "guaranteed",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.591429,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˌɡærənˈtiːd"
     },
     {
       "word": "happens",
@@ -2117,6 +2589,9 @@
       "translations": {
         "ru": {
           "translation": "происходить"
+        },
+        "uk": {
+          "translation": "відбудеться"
         }
       },
       "_spacyLemma": "happen",
@@ -2124,7 +2599,7 @@
       "exampleStart": 853,
       "exampleEnd": 881,
       "matchedForm": "happens",
-      "ipa": "ˈhapən",
+      "ipa": "ˈhæpənz",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.377143,
       "difficultySource": "zipf"
@@ -2140,6 +2615,9 @@
       "translations": {
         "ru": {
           "translation": "история"
+        },
+        "uk": {
+          "translation": "історії"
         }
       },
       "_spacyLemma": "history",
@@ -2163,6 +2641,9 @@
       "translations": {
         "ru": {
           "translation": "удариться"
+        },
+        "uk": {
+          "translation": "вдарив"
         }
       },
       "_spacyLemma": "hit",
@@ -2170,7 +2651,7 @@
       "exampleStart": 924,
       "exampleEnd": 1123,
       "matchedForm": "hitting",
-      "ipa": "hɪt",
+      "ipa": "ˈhɪtɪŋ",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.325714,
       "difficultySource": "zipf"
@@ -2216,7 +2697,14 @@
       "source": "spacy_phrase",
       "wordKey": "huge_event_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Крупное событие"
+        },
+        "uk": {
+          "translation": "величезний подія"
+        }
+      },
       "example": "If it was the result of a huge event (such as an asteroid hitting a dimension’s Earth in the 2020s when it missed ours), then the changes could be significant, even if the branching point was recent.",
       "exampleStart": 924,
       "exampleEnd": 1123,
@@ -2225,7 +2713,8 @@
         "startInExample": 26,
         "endInExample": 36
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ˌhjuːdʒ ɪˈvent"
     },
     {
       "word": "humans",
@@ -2238,6 +2727,9 @@
       "translations": {
         "ru": {
           "translation": "Человек"
+        },
+        "uk": {
+          "translation": "людину"
         }
       },
       "_spacyLemma": "human",
@@ -2245,7 +2737,7 @@
       "exampleStart": 99,
       "exampleEnd": 142,
       "matchedForm": "humans",
-      "ipa": "hjˈumən",
+      "ipa": "ˈhjuːmənz",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.331429,
       "difficultySource": "zipf"
@@ -2261,6 +2753,9 @@
       "translations": {
         "ru": {
           "translation": "идея"
+        },
+        "uk": {
+          "translation": "ідея"
         }
       },
       "_spacyLemma": "idea",
@@ -2316,6 +2811,9 @@
       "translations": {
         "ru": {
           "translation": "важный"
+        },
+        "uk": {
+          "translation": "важливо"
         }
       },
       "_spacyLemma": "important",
@@ -2339,6 +2837,9 @@
       "translations": {
         "ru": {
           "translation": "Невероятно"
+        },
+        "uk": {
+          "translation": "неймовірно"
         }
       },
       "_spacyLemma": "incredibly",
@@ -2346,7 +2847,7 @@
       "exampleStart": 2485,
       "exampleEnd": 2644,
       "matchedForm": "incredibly",
-      "ipa": "ɪŋkɹˈɛdəbli",
+      "ipa": "ɪŋˈkredɪbli",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.608571,
       "difficultySource": "zipf"
@@ -2359,7 +2860,14 @@
       "source": "word",
       "wordKey": "indicate_adjective",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "указать"
+        },
+        "uk": {
+          "translation": "знак"
+        }
+      },
       "_spacyLemma": "indicate",
       "example": "Then we graphed that data with the x-axis indicating similarity to our own dimension, while the y-axis indicates the number of dimensions we found of that level of similarity.",
       "exampleStart": 1750,
@@ -2367,7 +2875,8 @@
       "matchedForm": "indicating",
       "levelSource": "cefr_frequency",
       "difficultyScore": 0.617143,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈɪndɪˌkeɪtɪŋ"
     },
     {
       "word": "infinity",
@@ -2380,6 +2889,9 @@
       "translations": {
         "ru": {
           "translation": "бесконечность"
+        },
+        "uk": {
+          "translation": "нескінченність"
         }
       },
       "_spacyLemma": "infinity",
@@ -2387,7 +2899,7 @@
       "exampleStart": 2485,
       "exampleEnd": 2644,
       "matchedForm": "infinity",
-      "ipa": "ɪnfˈɪnɪti",
+      "ipa": "ɪnˈfɪnɪti",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.768571,
       "difficultySource": "zipf"
@@ -2403,6 +2915,9 @@
       "translations": {
         "ru": {
           "translation": "обитать; населять"
+        },
+        "uk": {
+          "translation": "населяють"
         }
       },
       "_spacyLemma": "inhabit",
@@ -2410,7 +2925,7 @@
       "exampleStart": 1460,
       "exampleEnd": 1601,
       "matchedForm": "inhabited",
-      "ipa": "ɪnˈhabɪt",
+      "ipa": "ɪnˈhæbɪtɪd",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.908571,
       "difficultySource": "zipf"
@@ -2426,6 +2941,9 @@
       "translations": {
         "ru": {
           "translation": "начальный"
+        },
+        "uk": {
+          "translation": "початкові"
         }
       },
       "_spacyLemma": "initial",
@@ -2433,7 +2951,7 @@
       "exampleStart": 3905,
       "exampleEnd": 3981,
       "matchedForm": "initial",
-      "ipa": "ɪnˈɪʃəl",
+      "ipa": "ɪˈnɪʃəl",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.511429,
       "difficultySource": "zipf"
@@ -2449,6 +2967,9 @@
       "translations": {
         "ru": {
           "translation": "интересный"
+        },
+        "uk": {
+          "translation": "цікаво"
         }
       },
       "_spacyLemma": "interesting",
@@ -2456,7 +2977,7 @@
       "exampleStart": 2246,
       "exampleEnd": 2323,
       "matchedForm": "interesting",
-      "ipa": "ˈɪntrəstɪŋ",
+      "ipa": "ˈɪntrestɪŋ",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.431429,
       "difficultySource": "zipf"
@@ -2472,6 +2993,9 @@
       "translations": {
         "ru": {
           "translation": "язык"
+        },
+        "uk": {
+          "translation": "мову"
         }
       },
       "_spacyLemma": "language",
@@ -2479,7 +3003,7 @@
       "exampleStart": 1460,
       "exampleEnd": 1601,
       "matchedForm": "languages",
-      "ipa": "ˈlaŋɡwɪdʒ",
+      "ipa": "ˈlæŋɡwɪdʒɪz",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.402857,
       "difficultySource": "zipf"
@@ -2495,6 +3019,9 @@
       "translations": {
         "ru": {
           "translation": "левый"
+        },
+        "uk": {
+          "translation": "вліво"
         }
       },
       "_spacyLemma": "left",
@@ -2515,7 +3042,14 @@
       "source": "word",
       "wordKey": "leftmost_noun",
       "level": "B2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Самая левая"
+        },
+        "uk": {
+          "translation": "найлівіший"
+        }
+      },
       "_spacyLemma": "leftmost",
       "example": "As you can see, at the leftmost part of the graph, you’d find the dimensions most similar to our own.",
       "exampleStart": 1927,
@@ -2523,7 +3057,8 @@
       "matchedForm": "leftmost",
       "levelSource": "cefr_frequency",
       "difficultyScore": 1,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈleftməʊst"
     },
     {
       "word": "Legal",
@@ -2536,6 +3071,9 @@
       "translations": {
         "ru": {
           "translation": "Юридически"
+        },
+        "uk": {
+          "translation": "легальною"
         }
       },
       "_spacyLemma": "legal",
@@ -2543,7 +3081,7 @@
       "exampleStart": 3784,
       "exampleEnd": 3905,
       "matchedForm": "Legal",
-      "ipa": "lˈiɡəl",
+      "ipa": "ˈliːɡəl",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.408571,
       "difficultySource": "zipf"
@@ -2559,6 +3097,9 @@
       "translations": {
         "ru": {
           "translation": "уровень"
+        },
+        "uk": {
+          "translation": "рівень"
         }
       },
       "_spacyLemma": "level",
@@ -2614,6 +3155,9 @@
       "translations": {
         "ru": {
           "translation": "длинный"
+        },
+        "uk": {
+          "translation": "довгий"
         }
       },
       "_spacyLemma": "long",
@@ -2637,6 +3181,9 @@
       "translations": {
         "ru": {
           "translation": "скоро"
+        },
+        "uk": {
+          "translation": "довго"
         }
       },
       "_spacyLemma": "long",
@@ -2657,7 +3204,14 @@
       "source": "word",
       "wordKey": "mandatory_adjective",
       "level": "B2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "обязательна"
+        },
+        "uk": {
+          "translation": "обов' язкова"
+        }
+      },
       "_spacyLemma": "mandatory",
       "example": "(To be paid after your mandatory, non-negotiable relinquishment of the beacon and codes to that dimension.",
       "exampleStart": 4028,
@@ -2665,7 +3219,8 @@
       "matchedForm": "mandatory",
       "levelSource": "cefr_frequency",
       "difficultyScore": 0.68,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈmændətəri"
     },
     {
       "word": "medieval-era",
@@ -2676,7 +3231,14 @@
       "source": "spacy_phrase",
       "wordKey": "medieval_era_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "средневековая эра"
+        },
+        "uk": {
+          "translation": "Середньовіччя"
+        }
+      },
       "example": "®, we have purchased a branch of this tree where Britain tends to be inhabited with medieval-era people speaking languages we can understand.",
       "exampleStart": 1460,
       "exampleEnd": 1601,
@@ -2686,7 +3248,8 @@
         "startInExample": 84,
         "endInExample": 96
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ˈmedɪˌiːvəˈliərə"
     },
     {
       "word": "millions",
@@ -2696,7 +3259,14 @@
       "source": "word",
       "wordKey": "million_noun",
       "level": "A1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "миллион"
+        },
+        "uk": {
+          "translation": "мільйон"
+        }
+      },
       "_spacyLemma": "million",
       "example": "And sapient elephants are millions upon millions of times more likely than sapient bananas.",
       "exampleStart": 3268,
@@ -2704,7 +3274,8 @@
       "matchedForm": "millions",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.337143,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈmɪliənz"
     },
     {
       "word": "missed",
@@ -2733,7 +3304,7 @@
       "exampleStart": 924,
       "exampleEnd": 1123,
       "matchedForm": "missed",
-      "ipa": "ˈmɪsɪŋ",
+      "ipa": "mɪst",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.368571,
       "difficultySource": "zipf"
@@ -2746,7 +3317,14 @@
       "source": "word",
       "wordKey": "misunderstanding_noun",
       "level": "A2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "неверно"
+        },
+        "uk": {
+          "translation": "розуміти"
+        }
+      },
       "_spacyLemma": "misunderstanding",
       "example": "”\n\nSuch questions display a fundamental misunderstanding of both alternate dimensions and probability.",
       "exampleStart": 258,
@@ -2754,7 +3332,8 @@
       "matchedForm": "misunderstanding",
       "levelSource": "cefr_frequency",
       "difficultyScore": 0.802857,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "mɪˌsʌndəˈstændɪŋ"
     },
     {
       "word": "modern",
@@ -2767,6 +3346,9 @@
       "translations": {
         "ru": {
           "translation": "современный"
+        },
+        "uk": {
+          "translation": "сучасні"
         }
       },
       "_spacyLemma": "modern",
@@ -2788,7 +3370,14 @@
       "source": "spacy_phrase",
       "wordKey": "modern_experience_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "опыт современной жизни"
+        },
+        "uk": {
+          "translation": "сучасний досвід"
+        }
+      },
       "example": "Furthermore, the Middle Ages are so different from the modern experience that you’re sure to find plenty to delight and amaze you.",
       "exampleStart": 3652,
       "exampleEnd": 3782,
@@ -2797,7 +3386,8 @@
         "startInExample": 55,
         "endInExample": 72
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ˌmɒdən ekˈspiərɪəns"
     },
     {
       "word": "moved",
@@ -2810,6 +3400,9 @@
       "translations": {
         "ru": {
           "translation": "переезжать"
+        },
+        "uk": {
+          "translation": "переміщення"
         }
       },
       "_spacyLemma": "move",
@@ -2817,7 +3410,7 @@
       "exampleStart": 2078,
       "exampleEnd": 2167,
       "matchedForm": "moved",
-      "ipa": "muːv",
+      "ipa": "muːvd",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.331429,
       "difficultySource": "zipf"
@@ -2833,6 +3426,9 @@
       "translations": {
         "ru": {
           "translation": "примечание"
+        },
+        "uk": {
+          "translation": "Примітка"
         }
       },
       "_spacyLemma": "note",
@@ -2856,6 +3452,9 @@
       "translations": {
         "ru": {
           "translation": "примечание"
+        },
+        "uk": {
+          "translation": "помітила"
         }
       },
       "_spacyLemma": "note",
@@ -2878,6 +3477,9 @@
       "level": "A1",
       "translations": {
         "ru": {
+          "translation": "номер"
+        },
+        "uk": {
           "translation": "номер"
         }
       },
@@ -2918,7 +3520,7 @@
       "exampleStart": 720,
       "exampleEnd": 762,
       "matchedForm": "occur",
-      "ipa": "əˈkɜːr",
+      "ipa": "əˈkɜː",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.582857,
       "difficultySource": "zipf"
@@ -2934,6 +3536,9 @@
       "translations": {
         "ru": {
           "translation": "тот"
+        },
+        "uk": {
+          "translation": "Ось що"
         }
       },
       "_spacyLemma": "one",
@@ -2941,7 +3546,7 @@
       "exampleStart": 3127,
       "exampleEnd": 3239,
       "matchedForm": "one",
-      "ipa": "wɒn",
+      "ipa": "wɒnz",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.011429,
       "difficultySource": "zipf"
@@ -2957,6 +3562,9 @@
       "translations": {
         "ru": {
           "translation": "возможность"
+        },
+        "uk": {
+          "translation": "можливість"
         }
       },
       "_spacyLemma": "opportunity",
@@ -2978,7 +3586,14 @@
       "source": "spacy_phrase",
       "wordKey": "other_catastrophe_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "другие катастрофы"
+        },
+        "uk": {
+          "translation": "інші катастрофи"
+        }
+      },
       "example": "We have, however, found thousands of barren Earths destroyed by asteroids or other catastrophes.",
       "exampleStart": 3361,
       "exampleEnd": 3457,
@@ -2987,7 +3602,8 @@
         "startInExample": 77,
         "endInExample": 95
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ˌʌðə kəˈtæstrəfiz"
     },
     {
       "word": "our band",
@@ -2998,7 +3614,14 @@
       "source": "spacy_phrase",
       "wordKey": "our_band_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "наша группа"
+        },
+        "uk": {
+          "translation": "наша група"
+        }
+      },
       "example": "These are fairly rare in our band of dimensions.",
       "exampleStart": 2029,
       "exampleEnd": 2077,
@@ -3007,7 +3630,8 @@
         "startInExample": 25,
         "endInExample": 33
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ˌaʊə ˈbænd"
     },
     {
       "word": "our dimension",
@@ -3018,7 +3642,14 @@
       "source": "spacy_phrase",
       "wordKey": "our_dimension_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Наши измерения"
+        },
+        "uk": {
+          "translation": "Наші розміри"
+        }
+      },
       "example": "” Each dimension shared our dimension’s history up until some branching point, where a single event caused their futures to deviate—sometimes in tiny ways, sometimes in fundamental ways.",
       "exampleStart": 441,
       "exampleEnd": 627,
@@ -3027,7 +3658,8 @@
         "startInExample": 24,
         "endInExample": 37
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ˌaʊə daɪˈmenʃən"
     },
     {
       "word": "our initial survey",
@@ -3038,7 +3670,14 @@
       "source": "spacy_phrase",
       "wordKey": "our_initial_survey_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "наше первоначальное обследование"
+        },
+        "uk": {
+          "translation": "наше початкове опитування"
+        }
+      },
       "example": "ii of your contract) that was missed in our initial survey, congratulations!",
       "exampleStart": 3905,
       "exampleEnd": 3981,
@@ -3047,7 +3686,8 @@
         "startInExample": 40,
         "endInExample": 58
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ˌaʊər ɪˌnɪʃəl ˈsɜːveɪ"
     },
     {
       "word": "our legal team",
@@ -3058,7 +3698,14 @@
       "source": "spacy_phrase",
       "wordKey": "our_legal_team_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "наша юридическая группа"
+        },
+        "uk": {
+          "translation": "наша юридична команда"
+        }
+      },
       "example": ") Please read your contract carefully, and direct any questions about this amazing opportunity to our legal team.",
       "exampleStart": 4134,
       "exampleEnd": 4247,
@@ -3067,7 +3714,8 @@
         "startInExample": 98,
         "endInExample": 112
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ˌaʊə ˌliːɡəl ˈtiːm"
     },
     {
       "word": "our own dimension",
@@ -3078,7 +3726,14 @@
       "source": "spacy_phrase",
       "wordKey": "our_own_dimension_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "наше собственное измерение"
+        },
+        "uk": {
+          "translation": "наш власний вимір"
+        }
+      },
       "example": "Then we graphed that data with the x-axis indicating similarity to our own dimension, while the y-axis indicates the number of dimensions we found of that level of similarity.",
       "exampleStart": 1750,
       "exampleEnd": 1925,
@@ -3087,7 +3742,8 @@
         "startInExample": 67,
         "endInExample": 84
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ˌaʊər ˌəʊn daɪˈmenʃən"
     },
     {
       "word": "our proprietary band",
@@ -3098,7 +3754,14 @@
       "source": "spacy_phrase",
       "wordKey": "our_proprietary_band_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "наша запатентованная группа"
+        },
+        "uk": {
+          "translation": "наша пропрічена група"
+        }
+      },
       "example": "It extends into infinity, and therefore it is technically possible to find dimensions that are incredibly different from our own, even in our proprietary band.",
       "exampleStart": 2485,
       "exampleEnd": 2644,
@@ -3107,7 +3770,8 @@
         "startInExample": 138,
         "endInExample": 158
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ˌaʊə prəˌpraɪətəri ˈbænd"
     },
     {
       "word": "paragraph",
@@ -3117,7 +3781,14 @@
       "source": "word",
       "wordKey": "paragraph_noun",
       "level": "C1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "абзац"
+        },
+        "uk": {
+          "translation": "абзац"
+        }
+      },
       "_spacyLemma": "paragraph",
       "example": "1 Legal Note: Please be advised that if your dimension features an “extraordinary attribute” (as defined by paragraph 10.",
       "exampleStart": 3784,
@@ -3125,7 +3796,8 @@
       "matchedForm": "paragraph",
       "levelSource": "difficulty_heuristic",
       "difficultyScore": 0.708571,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈpærəɡˌræf"
     },
     {
       "word": "Parallel",
@@ -3135,7 +3807,14 @@
       "source": "word",
       "wordKey": "parallel_adjective",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "параллельной"
+        },
+        "uk": {
+          "translation": "паралельною"
+        }
+      },
       "_spacyLemma": "parallel",
       "example": "(Parallel evolution happens!",
       "exampleStart": 853,
@@ -3143,7 +3822,8 @@
       "matchedForm": "Parallel",
       "levelSource": "cefr_frequency",
       "difficultyScore": 0.64,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈpærəˌlel"
     },
     {
       "word": "Parallel evolution",
@@ -3154,7 +3834,14 @@
       "source": "spacy_phrase",
       "wordKey": "parallel_evolution_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Параллельные изменения"
+        },
+        "uk": {
+          "translation": "Паралельна еволюція"
+        }
+      },
       "example": "(Parallel evolution happens!",
       "exampleStart": 853,
       "exampleEnd": 881,
@@ -3163,7 +3850,8 @@
         "startInExample": 1,
         "endInExample": 19
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ˌpærəˌlel ɪvəˈluːʃən"
     },
     {
       "word": "parent",
@@ -3176,6 +3864,9 @@
       "translations": {
         "ru": {
           "translation": "родители"
+        },
+        "uk": {
+          "translation": "батьків"
         }
       },
       "_spacyLemma": "parent",
@@ -3199,6 +3890,9 @@
       "translations": {
         "ru": {
           "translation": "платить"
+        },
+        "uk": {
+          "translation": "платити"
         }
       },
       "_spacyLemma": "pay",
@@ -3206,7 +3900,7 @@
       "exampleStart": 4028,
       "exampleEnd": 4134,
       "matchedForm": "paid",
-      "ipa": "peɪ",
+      "ipa": "peɪd",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.317143,
       "difficultySource": "zipf"
@@ -3222,6 +3916,9 @@
       "translations": {
         "ru": {
           "translation": "люди"
+        },
+        "uk": {
+          "translation": "людей"
         }
       },
       "_spacyLemma": "people",
@@ -3242,7 +3939,14 @@
       "source": "word",
       "wordKey": "plaid_verb",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Клетка"
+        },
+        "uk": {
+          "translation": "плабел"
+        }
+      },
       "_spacyLemma": "plaid",
       "example": "” Or “I’d like a dimension where the sky is plaid!",
       "exampleStart": 208,
@@ -3250,7 +3954,8 @@
       "matchedForm": "plaid",
       "levelSource": "difficulty_heuristic",
       "difficultyScore": 0.908571,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "plæd"
     },
     {
       "word": "plausible",
@@ -3260,7 +3965,14 @@
       "source": "word",
       "wordKey": "plausible_adjective",
       "level": "C1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "правдоподобно"
+        },
+        "uk": {
+          "translation": "правдоподібним"
+        }
+      },
       "_spacyLemma": "plausible",
       "example": "Cultural changes (like Greeks who speak Latin) are far more plausible, and we find those all the time.",
       "exampleStart": 3549,
@@ -3268,7 +3980,8 @@
       "matchedForm": "plausible",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.82,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈplɔːzɪbəl"
     },
     {
       "word": "plenty",
@@ -3297,7 +4010,7 @@
       "exampleStart": 3652,
       "exampleEnd": 3782,
       "matchedForm": "plenty",
-      "ipa": "ˈplɛn.ti",
+      "ipa": "ˈplenti",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.511429,
       "difficultySource": "zipf"
@@ -3329,7 +4042,7 @@
       "exampleStart": 361,
       "exampleEnd": 441,
       "matchedForm": "points",
-      "ipa": "ˈpɔɪntɪd",
+      "ipa": "pɔɪnts",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.277143,
       "difficultySource": "zipf"
@@ -3345,6 +4058,9 @@
       "translations": {
         "ru": {
           "translation": "Часть"
+        },
+        "uk": {
+          "translation": "частині"
         }
       },
       "_spacyLemma": "portion",
@@ -3352,7 +4068,7 @@
       "exampleStart": 2324,
       "exampleEnd": 2420,
       "matchedForm": "portion",
-      "ipa": "pˈɔɹʃənz",
+      "ipa": "ˈpɔːʃən",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.565714,
       "difficultySource": "zipf"
@@ -3368,6 +4084,9 @@
       "translations": {
         "ru": {
           "translation": "возможный"
+        },
+        "uk": {
+          "translation": "можливо"
         }
       },
       "_spacyLemma": "possible",
@@ -3375,7 +4094,7 @@
       "exampleStart": 2485,
       "exampleEnd": 2644,
       "matchedForm": "possible",
-      "ipa": "ˈpɒsəbəl",
+      "ipa": "ˈpɒsɪbəl",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.328571,
       "difficultySource": "zipf"
@@ -3388,7 +4107,14 @@
       "source": "word",
       "wordKey": "precious_adjective",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "драгоценные"
+        },
+        "uk": {
+          "translation": "цінне"
+        }
+      },
       "_spacyLemma": "precious",
       "example": "1\n\nScientists have, to date, found a few precious dimensions where Neanderthals became the dominant species of human.",
       "exampleStart": 3009,
@@ -3396,7 +4122,8 @@
       "matchedForm": "precious",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.622857,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈpreʃəs"
     },
     {
       "word": "prevailing",
@@ -3409,6 +4136,9 @@
       "translations": {
         "ru": {
           "translation": "преобладать"
+        },
+        "uk": {
+          "translation": "Перемогти"
         }
       },
       "_spacyLemma": "prevail",
@@ -3416,7 +4146,7 @@
       "exampleStart": 361,
       "exampleEnd": 441,
       "matchedForm": "prevailing",
-      "ipa": "prɪˈveɪl",
+      "ipa": "prɪˈveɪlɪŋ",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.845714,
       "difficultySource": "zipf"
@@ -3429,7 +4159,14 @@
       "source": "word",
       "wordKey": "probability_noun",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "вероятность"
+        },
+        "uk": {
+          "translation": "ймовірність"
+        }
+      },
       "_spacyLemma": "probability",
       "example": "”\n\nSuch questions display a fundamental misunderstanding of both alternate dimensions and probability.",
       "exampleStart": 258,
@@ -3437,7 +4174,8 @@
       "matchedForm": "probability",
       "levelSource": "cefr_frequency",
       "difficultyScore": 0.711429,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˌprɒbəˈbɪlɪti"
     },
     {
       "word": "proprietary",
@@ -3447,7 +4185,14 @@
       "source": "word",
       "wordKey": "proprietary_adjective",
       "level": "B2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "закрытые"
+        },
+        "uk": {
+          "translation": "алхімічні"
+        }
+      },
       "_spacyLemma": "proprietary",
       "example": "It extends into infinity, and therefore it is technically possible to find dimensions that are incredibly different from our own, even in our proprietary band.",
       "exampleStart": 2485,
@@ -3455,7 +4200,8 @@
       "matchedForm": "proprietary",
       "levelSource": "cefr_frequency",
       "difficultyScore": 0.811429,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "prəˈpraɪətəri"
     },
     {
       "word": "purchased",
@@ -3468,6 +4214,9 @@
       "translations": {
         "ru": {
           "translation": "Куплен"
+        },
+        "uk": {
+          "translation": "купував"
         }
       },
       "_spacyLemma": "purchase",
@@ -3475,7 +4224,7 @@
       "exampleStart": 1460,
       "exampleEnd": 1601,
       "matchedForm": "purchased",
-      "ipa": "pˈət͡ʃəst",
+      "ipa": "ˈpɜːtʃɪst",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.514286,
       "difficultySource": "zipf"
@@ -3491,6 +4240,9 @@
       "translations": {
         "ru": {
           "translation": "качество"
+        },
+        "uk": {
+          "translation": "якість"
         }
       },
       "_spacyLemma": "quality",
@@ -3498,7 +4250,7 @@
       "exampleStart": 1322,
       "exampleEnd": 1437,
       "matchedForm": "qualities",
-      "ipa": "kwˈɑləti",
+      "ipa": "ˈkwɒlɪtiz",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.4,
       "difficultySource": "zipf"
@@ -3514,6 +4266,9 @@
       "translations": {
         "ru": {
           "translation": "вопросы"
+        },
+        "uk": {
+          "translation": "питання"
         }
       },
       "_spacyLemma": "question",
@@ -3521,7 +4276,7 @@
       "exampleStart": 258,
       "exampleEnd": 360,
       "matchedForm": "questions",
-      "ipa": "ˈkwestʃən",
+      "ipa": "ˈkwestʃənz",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.331429,
       "difficultySource": "zipf"
@@ -3537,6 +4292,9 @@
       "translations": {
         "ru": {
           "translation": "редкий"
+        },
+        "uk": {
+          "translation": "рідкісні"
         }
       },
       "_spacyLemma": "rare",
@@ -3560,6 +4318,9 @@
       "translations": {
         "ru": {
           "translation": "крысы"
+        },
+        "uk": {
+          "translation": "рікк"
         }
       },
       "_spacyLemma": "rat",
@@ -3567,7 +4328,7 @@
       "exampleStart": 1654,
       "exampleEnd": 1749,
       "matchedForm": "rated",
-      "ipa": "ɹˈæts",
+      "ipa": "ˈreɪtɪd",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.668571,
       "difficultySource": "zipf"
@@ -3583,6 +4344,9 @@
       "translations": {
         "ru": {
           "translation": "читать"
+        },
+        "uk": {
+          "translation": "читати"
         }
       },
       "_spacyLemma": "read",
@@ -3606,6 +4370,9 @@
       "translations": {
         "ru": {
           "translation": "недавний"
+        },
+        "uk": {
+          "translation": "останні"
         }
       },
       "_spacyLemma": "recent",
@@ -3626,7 +4393,14 @@
       "source": "word",
       "wordKey": "relinquishment_noun",
       "level": "C2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Отказ"
+        },
+        "uk": {
+          "translation": "Відмова"
+        }
+      },
       "_spacyLemma": "relinquishment",
       "example": "(To be paid after your mandatory, non-negotiable relinquishment of the beacon and codes to that dimension.",
       "exampleStart": 4028,
@@ -3634,7 +4408,8 @@
       "matchedForm": "relinquishment",
       "levelSource": "difficulty_heuristic",
       "difficultyScore": 1,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "rɪˈlɪŋkwɪʃmənt"
     },
     {
       "word": "requests",
@@ -3647,6 +4422,9 @@
       "translations": {
         "ru": {
           "translation": "Запрос"
+        },
+        "uk": {
+          "translation": "прохання"
         }
       },
       "_spacyLemma": "request",
@@ -3654,7 +4432,7 @@
       "exampleStart": 66,
       "exampleEnd": 98,
       "matchedForm": "requests",
-      "ipa": "ɹɪkwˈɛst",
+      "ipa": "rɪˈkwests",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.5,
       "difficultySource": "zipf"
@@ -3669,6 +4447,9 @@
       "level": "A2",
       "translations": {
         "ru": {
+          "translation": "результат"
+        },
+        "uk": {
           "translation": "результат"
         }
       },
@@ -3693,6 +4474,9 @@
       "translations": {
         "ru": {
           "translation": "правильный"
+        },
+        "uk": {
+          "translation": "правому"
         }
       },
       "_spacyLemma": "right",
@@ -3716,6 +4500,9 @@
       "translations": {
         "ru": {
           "translation": "прямо"
+        },
+        "uk": {
+          "translation": "прямо"
         }
       },
       "_spacyLemma": "right",
@@ -3737,7 +4524,14 @@
       "source": "spacy_phrase",
       "wordKey": "right_end_phrase",
       "level": "A1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "правый конец"
+        },
+        "uk": {
+          "translation": "права кінець"
+        }
+      },
       "example": "The important part comes in noting the right end of the graph.",
       "exampleStart": 2422,
       "exampleEnd": 2484,
@@ -3746,7 +4540,8 @@
         "startInExample": 39,
         "endInExample": 48
       },
-      "levelSource": "head_verb_index"
+      "levelSource": "head_verb_index",
+      "ipa": "ˌraɪt ˈend"
     },
     {
       "word": "sapient bananas",
@@ -3757,7 +4552,14 @@
       "source": "spacy_phrase",
       "wordKey": "sapient_banana_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Сладкие бананы"
+        },
+        "uk": {
+          "translation": "Сумні банани"
+        }
+      },
       "example": "That’s because sapient bananas simply aren’t very likely.",
       "exampleStart": 2757,
       "exampleEnd": 2814,
@@ -3766,7 +4568,8 @@
         "startInExample": 15,
         "endInExample": 30
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ˌsæpiənt bəˈnɑːnəz"
     },
     {
       "word": "sapient elephants",
@@ -3777,7 +4580,14 @@
       "source": "spacy_phrase",
       "wordKey": "sapient_elephant_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Сногсшибательные слоны"
+        },
+        "uk": {
+          "translation": "Слони - умілі тварини."
+        }
+      },
       "example": "And sapient elephants are millions upon millions of times more likely than sapient bananas.",
       "exampleStart": 3268,
       "exampleEnd": 3359,
@@ -3786,7 +4596,8 @@
         "startInExample": 4,
         "endInExample": 21
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ˌsæpiənt ˈelɪfənts"
     },
     {
       "word": "sapient",
@@ -3796,7 +4607,14 @@
       "source": "word",
       "wordKey": "sapient_noun",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Скукотища"
+        },
+        "uk": {
+          "translation": "Паскалів"
+        }
+      },
       "_spacyLemma": "sapient",
       "example": "That’s because sapient bananas simply aren’t very likely.",
       "exampleStart": 2757,
@@ -3804,7 +4622,8 @@
       "matchedForm": "sapient",
       "levelSource": "difficulty_heuristic",
       "difficultyScore": 1,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈsæpiənt"
     },
     {
       "word": "scale",
@@ -3817,6 +4636,9 @@
       "translations": {
         "ru": {
           "translation": "Масштаб"
+        },
+        "uk": {
+          "translation": "масштабу"
         }
       },
       "_spacyLemma": "scale",
@@ -3824,7 +4646,7 @@
       "exampleStart": 629,
       "exampleEnd": 719,
       "matchedForm": "scale",
-      "ipa": "skˈeɪl",
+      "ipa": "skeɪl",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.48,
       "difficultySource": "zipf"
@@ -3837,7 +4659,14 @@
       "source": "word",
       "wordKey": "scientist_noun",
       "level": "A1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "ученый"
+        },
+        "uk": {
+          "translation": "ученим"
+        }
+      },
       "_spacyLemma": "scientist",
       "example": "1\n\nScientists have, to date, found a few precious dimensions where Neanderthals became the dominant species of human.",
       "exampleStart": 3009,
@@ -3845,7 +4674,8 @@
       "matchedForm": "Scientists",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.657143,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈsaɪəntɪsts"
     },
     {
       "word": "search",
@@ -3858,6 +4688,9 @@
       "translations": {
         "ru": {
           "translation": "искать; обыскивать"
+        },
+        "uk": {
+          "translation": "пошук"
         }
       },
       "_spacyLemma": "search",
@@ -3881,6 +4714,9 @@
       "translations": {
         "ru": {
           "translation": "во-вторых; вторым"
+        },
+        "uk": {
+          "translation": "По-друге; Другий"
         }
       },
       "_spacyLemma": "second",
@@ -3904,6 +4740,9 @@
       "translations": {
         "ru": {
           "translation": "Совместное использование"
+        },
+        "uk": {
+          "translation": "поділився"
         }
       },
       "_spacyLemma": "share",
@@ -3911,7 +4750,7 @@
       "exampleStart": 441,
       "exampleEnd": 627,
       "matchedForm": "shared",
-      "ipa": "ʃˈɛɹ",
+      "ipa": "ʃeəd",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.374286,
       "difficultySource": "zipf"
@@ -3924,7 +4763,14 @@
       "source": "word",
       "wordKey": "significant_adjective",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "значительных"
+        },
+        "uk": {
+          "translation": "найважливіших"
+        }
+      },
       "_spacyLemma": "significant",
       "example": "If it was long, long ago, then significant differences are likely, though not guaranteed.",
       "exampleStart": 763,
@@ -3932,7 +4778,8 @@
       "matchedForm": "significant",
       "levelSource": "cefr_frequency",
       "difficultyScore": 0.437143,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "sɪɡˈnɪfɪkənt"
     },
     {
       "word": "significant differences",
@@ -3943,7 +4790,14 @@
       "source": "spacy_phrase",
       "wordKey": "significant_difference_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "существенные различия"
+        },
+        "uk": {
+          "translation": "значні відмінності"
+        }
+      },
       "example": "If it was long, long ago, then significant differences are likely, though not guaranteed.",
       "exampleStart": 763,
       "exampleEnd": 852,
@@ -3952,7 +4806,8 @@
         "startInExample": 31,
         "endInExample": 54
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "sɪɡˌnɪfɪkənt ˈdɪfrənsɪz"
     },
     {
       "word": "similar",
@@ -3965,6 +4820,9 @@
       "translations": {
         "ru": {
           "translation": "Похоже"
+        },
+        "uk": {
+          "translation": "схоже"
         }
       },
       "_spacyLemma": "similar",
@@ -3972,7 +4830,7 @@
       "exampleStart": 1125,
       "exampleEnd": 1212,
       "matchedForm": "similar",
-      "ipa": "sˈɪmɪlə",
+      "ipa": "ˈsɪmɪlə",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.371429,
       "difficultySource": "zipf"
@@ -3986,7 +4844,14 @@
       "source": "spacy_phrase",
       "wordKey": "similar_attribute_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "схожие атрибуты"
+        },
+        "uk": {
+          "translation": "подібні атрибути"
+        }
+      },
       "example": "Dimensions near each other on the dimensional spectrum tend to have similar attributes.",
       "exampleStart": 1125,
       "exampleEnd": 1212,
@@ -3995,7 +4860,8 @@
         "startInExample": 68,
         "endInExample": 86
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ˌsɪmɪlər ˈætrɪˌbjuːts"
     },
     {
       "word": "similarity",
@@ -4005,7 +4871,14 @@
       "source": "word",
       "wordKey": "similarity_noun",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "иметь сходство"
+        },
+        "uk": {
+          "translation": "матиме подібність"
+        }
+      },
       "_spacyLemma": "similarity",
       "example": "Then we graphed that data with the x-axis indicating similarity to our own dimension, while the y-axis indicates the number of dimensions we found of that level of similarity.",
       "exampleStart": 1750,
@@ -4013,7 +4886,8 @@
       "matchedForm": "similarity",
       "levelSource": "cefr_frequency",
       "difficultyScore": 0.837143,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˌsɪmɪˈlærɪti"
     },
     {
       "word": "simply",
@@ -4025,6 +4899,9 @@
       "level": "A2",
       "translations": {
         "ru": {
+          "translation": "просто"
+        },
+        "uk": {
           "translation": "просто"
         }
       },
@@ -4049,6 +4926,9 @@
       "translations": {
         "ru": {
           "translation": "каждый"
+        },
+        "uk": {
+          "translation": "єдиного"
         }
       },
       "_spacyLemma": "single",
@@ -4070,7 +4950,14 @@
       "source": "spacy_phrase",
       "wordKey": "single_event_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "одно мероприятие"
+        },
+        "uk": {
+          "translation": "єдина подія"
+        }
+      },
       "example": "” Each dimension shared our dimension’s history up until some branching point, where a single event caused their futures to deviate—sometimes in tiny ways, sometimes in fundamental ways.",
       "exampleStart": 441,
       "exampleEnd": 627,
@@ -4079,7 +4966,8 @@
         "startInExample": 87,
         "endInExample": 99
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ˌsɪŋɡəl ɪˈvent"
     },
     {
       "word": "sky",
@@ -4091,6 +4979,9 @@
       "level": "A1",
       "translations": {
         "ru": {
+          "translation": "небо"
+        },
+        "uk": {
           "translation": "небо"
         }
       },
@@ -4115,6 +5006,9 @@
       "translations": {
         "ru": {
           "translation": "маленький"
+        },
+        "uk": {
+          "translation": "невеликі"
         }
       },
       "_spacyLemma": "small",
@@ -4122,7 +5016,7 @@
       "exampleStart": 1322,
       "exampleEnd": 1437,
       "matchedForm": "smaller",
-      "ipa": "smɔːl",
+      "ipa": "ˈsmɔːlə",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.285714,
       "difficultySource": "zipf"
@@ -4138,6 +5032,9 @@
       "translations": {
         "ru": {
           "translation": "В некоторой степени"
+        },
+        "uk": {
+          "translation": "дещо"
         }
       },
       "_spacyLemma": "somewhat",
@@ -4145,7 +5042,7 @@
       "exampleStart": 2246,
       "exampleEnd": 2323,
       "matchedForm": "somewhat",
-      "ipa": "sˈʌmwˈʌt",
+      "ipa": "ˈsʌmwɒt",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.56,
       "difficultySource": "zipf"
@@ -4161,6 +5058,9 @@
       "translations": {
         "ru": {
           "translation": "сожалеющий"
+        },
+        "uk": {
+          "translation": "вибачте"
         }
       },
       "_spacyLemma": "sorry",
@@ -4200,7 +5100,7 @@
       "exampleStart": 1460,
       "exampleEnd": 1601,
       "matchedForm": "speaking",
-      "ipa": "spiːk",
+      "ipa": "ˈspiːkɪŋ",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.422857,
       "difficultySource": "zipf"
@@ -4216,6 +5116,9 @@
       "translations": {
         "ru": {
           "translation": "Виды"
+        },
+        "uk": {
+          "translation": "видів"
         }
       },
       "_spacyLemma": "specie",
@@ -4223,7 +5126,7 @@
       "exampleStart": 3009,
       "exampleEnd": 3126,
       "matchedForm": "species",
-      "ipa": "spˈiʃiz",
+      "ipa": "ˈspiːsiːz",
       "levelSource": "vocabulary_index",
       "difficultyScore": 1,
       "difficultySource": "zipf"
@@ -4236,7 +5139,14 @@
       "source": "word",
       "wordKey": "spectrum_noun",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "диапазон"
+        },
+        "uk": {
+          "translation": "спаке"
+        }
+      },
       "_spacyLemma": "spectrum",
       "example": "Dimensions near each other on the dimensional spectrum tend to have similar attributes.",
       "exampleStart": 1125,
@@ -4244,7 +5154,8 @@
       "matchedForm": "spectrum",
       "levelSource": "cefr_frequency",
       "difficultyScore": 0.642857,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈspektrəm"
     },
     {
       "word": "Statistically",
@@ -4254,7 +5165,14 @@
       "source": "word",
       "wordKey": "statistically_adverb",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Статистические данные"
+        },
+        "uk": {
+          "translation": "Статистика"
+        }
+      },
       "_spacyLemma": "statistically",
       "example": "Statistically, most of the dimensions in our band will fall into this portion of the bell curve.",
       "exampleStart": 2324,
@@ -4262,7 +5180,8 @@
       "matchedForm": "Statistically",
       "levelSource": "cefr_frequency",
       "difficultyScore": 0.811429,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "stəˈtɪstɪkli"
     },
     {
       "word": "subtle",
@@ -4275,6 +5194,9 @@
       "translations": {
         "ru": {
           "translation": "Тонко"
+        },
+        "uk": {
+          "translation": "тонкими"
         }
       },
       "_spacyLemma": "subtle",
@@ -4282,7 +5204,7 @@
       "exampleStart": 1322,
       "exampleEnd": 1437,
       "matchedForm": "subtle",
-      "ipa": "sˈʌtəl",
+      "ipa": "ˈsʌtəl",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.694286,
       "difficultySource": "zipf"
@@ -4296,7 +5218,14 @@
       "source": "spacy_phrase",
       "wordKey": "such_question_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Такие вопросы"
+        },
+        "uk": {
+          "translation": "Такі запитання"
+        }
+      },
       "example": "”\n\nSuch questions display a fundamental misunderstanding of both alternate dimensions and probability.",
       "exampleStart": 258,
       "exampleEnd": 360,
@@ -4305,7 +5234,8 @@
         "startInExample": 3,
         "endInExample": 17
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ˌsʌtʃ ˈkwestʃənz"
     },
     {
       "word": "sure",
@@ -4318,6 +5248,9 @@
       "translations": {
         "ru": {
           "translation": "уверенный"
+        },
+        "uk": {
+          "translation": "впевнений"
         }
       },
       "_spacyLemma": "sure",
@@ -4338,7 +5271,14 @@
       "source": "word",
       "wordKey": "survey_adjective",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Обследование"
+        },
+        "uk": {
+          "translation": "опитування"
+        }
+      },
       "_spacyLemma": "survey",
       "example": "ii of your contract) that was missed in our initial survey, congratulations!",
       "exampleStart": 3905,
@@ -4346,7 +5286,8 @@
       "matchedForm": "survey",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.52,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈsɜːveɪ"
     },
     {
       "word": "Talking",
@@ -4359,6 +5300,9 @@
       "translations": {
         "ru": {
           "translation": "говорить"
+        },
+        "uk": {
+          "translation": "говорити"
         }
       },
       "_spacyLemma": "talk",
@@ -4366,7 +5310,7 @@
       "exampleStart": 0,
       "exampleEnd": 64,
       "matchedForm": "Talking",
-      "ipa": "tɔːk",
+      "ipa": "ˈtɔːkɪŋ",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.311429,
       "difficultySource": "zipf"
@@ -4382,6 +5326,9 @@
       "translations": {
         "ru": {
           "translation": "команда"
+        },
+        "uk": {
+          "translation": "групи"
         }
       },
       "_spacyLemma": "team",
@@ -4405,6 +5352,9 @@
       "translations": {
         "ru": {
           "translation": "технически"
+        },
+        "uk": {
+          "translation": "технічно"
         }
       },
       "_spacyLemma": "technically",
@@ -4412,7 +5362,7 @@
       "exampleStart": 2485,
       "exampleEnd": 2644,
       "matchedForm": "technically",
-      "ipa": "tˈɛknɪkli",
+      "ipa": "ˈteknɪkli",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.688571,
       "difficultySource": "zipf"
@@ -4428,6 +5378,9 @@
       "translations": {
         "ru": {
           "translation": "ухаживать"
+        },
+        "uk": {
+          "translation": "схильні"
         }
       },
       "_spacyLemma": "tend",
@@ -4435,7 +5388,7 @@
       "exampleStart": 1125,
       "exampleEnd": 1212,
       "matchedForm": "tend",
-      "ipa": "tˈɛnd",
+      "ipa": "tend",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.554286,
       "difficultySource": "zipf"
@@ -4449,7 +5402,14 @@
       "source": "spacy_phrase",
       "wordKey": "their_future_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "их будущее"
+        },
+        "uk": {
+          "translation": "їхнє майбутнє"
+        }
+      },
       "example": "” Each dimension shared our dimension’s history up until some branching point, where a single event caused their futures to deviate—sometimes in tiny ways, sometimes in fundamental ways.",
       "exampleStart": 441,
       "exampleEnd": 627,
@@ -4458,7 +5418,8 @@
         "startInExample": 107,
         "endInExample": 120
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ðeə ˈfjuːtʃəz"
     },
     {
       "word": "their parent branch",
@@ -4469,7 +5430,14 @@
       "source": "spacy_phrase",
       "wordKey": "their_parent_branch_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "их родная ветвь"
+        },
+        "uk": {
+          "translation": "батьківська гілка"
+        }
+      },
       "example": "Then those branches branch smaller to other subtle changes that tend to share the qualities of their parent branch.",
       "exampleStart": 1322,
       "exampleEnd": 1437,
@@ -4478,7 +5446,8 @@
         "startInExample": 95,
         "endInExample": 114
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ðeə ˌpeərənt ˈbræntʃ"
     },
     {
       "word": "theory",
@@ -4507,7 +5476,7 @@
       "exampleStart": 361,
       "exampleEnd": 441,
       "matchedForm": "theory",
-      "ipa": "ˈθɪəri",
+      "ipa": "ˈθiəri",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.465714,
       "difficultySource": "zipf"
@@ -4523,6 +5492,9 @@
       "translations": {
         "ru": {
           "translation": "вещи"
+        },
+        "uk": {
+          "translation": "річ"
         }
       },
       "_spacyLemma": "thing",
@@ -4546,6 +5518,9 @@
       "translations": {
         "ru": {
           "translation": "тысячи"
+        },
+        "uk": {
+          "translation": "тисячі"
         }
       },
       "_spacyLemma": "thousand",
@@ -4553,7 +5528,7 @@
       "exampleStart": 1654,
       "exampleEnd": 1749,
       "matchedForm": "thousand",
-      "ipa": "θˈaʊzəndz",
+      "ipa": "ˈθaʊzəndz",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.534286,
       "difficultySource": "zipf"
@@ -4569,6 +5544,9 @@
       "translations": {
         "ru": {
           "translation": "время"
+        },
+        "uk": {
+          "translation": "час"
         }
       },
       "_spacyLemma": "time",
@@ -4576,7 +5554,7 @@
       "exampleStart": 3268,
       "exampleEnd": 3359,
       "matchedForm": "times",
-      "ipa": "taɪm",
+      "ipa": "taɪmz",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.062857,
       "difficultySource": "zipf"
@@ -4592,6 +5570,9 @@
       "translations": {
         "ru": {
           "translation": "крошечный"
+        },
+        "uk": {
+          "translation": "крихітні"
         }
       },
       "_spacyLemma": "tiny",
@@ -4613,7 +5594,14 @@
       "source": "spacy_phrase",
       "wordKey": "tiny_way_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "крошечные пути"
+        },
+        "uk": {
+          "translation": "мініатюрні шляхи"
+        }
+      },
       "example": "” Each dimension shared our dimension’s history up until some branching point, where a single event caused their futures to deviate—sometimes in tiny ways, sometimes in fundamental ways.",
       "exampleStart": 441,
       "exampleEnd": 627,
@@ -4622,7 +5610,8 @@
         "startInExample": 145,
         "endInExample": 154
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ˌtaɪni ˈweɪz"
     },
     {
       "word": "to date",
@@ -4633,7 +5622,14 @@
       "source": "spacy_phrase",
       "wordKey": "to_date_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "На сегодняшний день"
+        },
+        "uk": {
+          "translation": "До дати"
+        }
+      },
       "example": "1\n\nScientists have, to date, found a few precious dimensions where Neanderthals became the dominant species of human.",
       "exampleStart": 3009,
       "exampleEnd": 3126,
@@ -4642,7 +5638,8 @@
         "startInExample": 20,
         "endInExample": 27
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "tə ˈdeɪt"
     },
     {
       "word": "tree",
@@ -4654,6 +5651,9 @@
       "level": "A1",
       "translations": {
         "ru": {
+          "translation": "дерево"
+        },
+        "uk": {
           "translation": "дерево"
         }
       },
@@ -4678,6 +5678,9 @@
       "translations": {
         "ru": {
           "translation": "сундук; хобот; багажник"
+        },
+        "uk": {
+          "translation": "стовбур"
         }
       },
       "_spacyLemma": "trunk",
@@ -4701,6 +5704,9 @@
       "translations": {
         "ru": {
           "translation": "правда"
+        },
+        "uk": {
+          "translation": "істина"
         }
       },
       "_spacyLemma": "truth",
@@ -4724,6 +5730,9 @@
       "translations": {
         "ru": {
           "translation": "понимать"
+        },
+        "uk": {
+          "translation": "розумію"
         }
       },
       "_spacyLemma": "understand",
@@ -4763,7 +5772,7 @@
       "exampleStart": 2816,
       "exampleEnd": 3009,
       "matchedForm": "unfortunate",
-      "ipa": "ʌnˈfɔːrtʃənət",
+      "ipa": "ʌnˈfɔːtʃənət",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.682857,
       "difficultySource": "zipf"
@@ -4777,7 +5786,14 @@
       "source": "spacy_phrase",
       "wordKey": "unfortunate_truth_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Несчастная правда"
+        },
+        "uk": {
+          "translation": "Невдала правда"
+        }
+      },
       "example": "The unfortunate truth is that while, technically, dimensions can contain anything, the more unusual or bizarre something is, the more unlikely it is that anyone will ever find such a dimension.",
       "exampleStart": 2816,
       "exampleEnd": 3009,
@@ -4786,7 +5802,8 @@
         "startInExample": 4,
         "endInExample": 21
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ʌnˌfɔːtʃənət ˈtruːθ"
     },
     {
       "word": "unlikely",
@@ -4799,6 +5816,9 @@
       "translations": {
         "ru": {
           "translation": "маловероятный"
+        },
+        "uk": {
+          "translation": "малоймовірно"
         }
       },
       "_spacyLemma": "unlikely",
@@ -4822,6 +5842,9 @@
       "translations": {
         "ru": {
           "translation": "необычный"
+        },
+        "uk": {
+          "translation": "незвичайний"
         }
       },
       "_spacyLemma": "unusual",
@@ -4829,7 +5852,7 @@
       "exampleStart": 2816,
       "exampleEnd": 3009,
       "matchedForm": "unusual",
-      "ipa": "ʌnˈjuːʒʊəl",
+      "ipa": "ʌˈnjuːʒuːəl",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.588571,
       "difficultySource": "zipf"
@@ -4845,6 +5868,9 @@
       "translations": {
         "ru": {
           "translation": "способ"
+        },
+        "uk": {
+          "translation": "шлях"
         }
       },
       "_spacyLemma": "way",
@@ -4852,7 +5878,7 @@
       "exampleStart": 441,
       "exampleEnd": 627,
       "matchedForm": "ways",
-      "ipa": "weɪ",
+      "ipa": "weɪz",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.142857,
       "difficultySource": "zipf"
@@ -4869,6 +5895,9 @@
       "translations": {
         "ru": {
           "translation": "работать над; воздействовать на"
+        },
+        "uk": {
+          "translation": "працювати над; Аффект"
         }
       },
       "example": "But dimensional distribution works on a bell curve.",
@@ -4879,7 +5908,7 @@
         "startInExample": 29,
         "endInExample": 37
       },
-      "ipa": "wɜːk ɒn",
+      "ipa": "ˌwɜːks ˈɒn",
       "levelSource": "phrase_index"
     },
     {
@@ -4893,6 +5922,9 @@
       "translations": {
         "ru": {
           "translation": "работали"
+        },
+        "uk": {
+          "translation": "працювати"
         }
       },
       "_spacyLemma": "work",
@@ -4900,7 +5932,7 @@
       "exampleStart": 1602,
       "exampleEnd": 1653,
       "matchedForm": "works",
-      "ipa": "wɜːk",
+      "ipa": "wɜːks",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.157143,
       "difficultySource": "zipf"
@@ -4916,6 +5948,9 @@
       "translations": {
         "ru": {
           "translation": "год"
+        },
+        "uk": {
+          "translation": "рік"
         }
       },
       "_spacyLemma": "year",
@@ -4923,7 +5958,7 @@
       "exampleStart": 2645,
       "exampleEnd": 2756,
       "matchedForm": "years",
-      "ipa": "jiə",
+      "ipa": "ˈjiəz",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.157143,
       "difficultySource": "zipf"
@@ -4937,7 +5972,14 @@
       "source": "spacy_phrase",
       "wordKey": "your_contract_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "ваш контракт"
+        },
+        "uk": {
+          "translation": "ваш контракт"
+        }
+      },
       "example": "ii of your contract) that was missed in our initial survey, congratulations!",
       "exampleStart": 3905,
       "exampleEnd": 3981,
@@ -4946,7 +5988,8 @@
         "startInExample": 6,
         "endInExample": 19
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "jɔː ˈkɒntrækt"
     },
     {
       "word": "your dimension",
@@ -4957,7 +6000,14 @@
       "source": "spacy_phrase",
       "wordKey": "your_dimension_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Ваш размер"
+        },
+        "uk": {
+          "translation": "ваш розмір"
+        }
+      },
       "example": "1 Legal Note: Please be advised that if your dimension features an “extraordinary attribute” (as defined by paragraph 10.",
       "exampleStart": 3784,
       "exampleEnd": 3905,
@@ -4966,7 +6016,8 @@
         "startInExample": 40,
         "endInExample": 54
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "jɔː daɪˈmenʃən"
     },
     {
       "word": "your mandatory, non-negotiable relinquishment",
@@ -4977,7 +6028,14 @@
       "source": "spacy_phrase",
       "wordKey": "your_mandatory_non_negotiable_relinquishment_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "ваш обязательный, необоротный отказ"
+        },
+        "uk": {
+          "translation": "ваше обов' язкове, несуттєве звільнення"
+        }
+      },
       "example": "(To be paid after your mandatory, non-negotiable relinquishment of the beacon and codes to that dimension.",
       "exampleStart": 4028,
       "exampleEnd": 4134,
@@ -4986,7 +6044,8 @@
         "startInExample": 18,
         "endInExample": 63
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "jɔː ˌmændətəri ˌnɒnnɪˌɡəʊʃɪəbəl rɪˈlɪŋkwɪʃmənt"
     }
   ],
   "namedEntities": [

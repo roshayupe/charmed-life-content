@@ -44,6 +44,9 @@
       "translations": {
         "ru": {
           "translation": "резко"
+        },
+        "uk": {
+          "translation": "раптово"
         }
       },
       "_spacyLemma": "abruptly",
@@ -67,6 +70,9 @@
       "translations": {
         "ru": {
           "translation": "Точно"
+        },
+        "uk": {
+          "translation": "хибний"
         }
       },
       "_spacyLemma": "accurate",
@@ -74,7 +80,7 @@
       "exampleStart": 1835,
       "exampleEnd": 1860,
       "matchedForm": "accurate",
-      "ipa": "ˈækjəɪt",
+      "ipa": "ˈækjʊrət",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.554286,
       "difficultySource": "zipf"
@@ -88,7 +94,14 @@
       "source": "spacy_phrase",
       "wordKey": "accurate_throw_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "точный бросок"
+        },
+        "uk": {
+          "translation": "точні жбурляння"
+        }
+      },
       "example": "It was an accurate throw.",
       "exampleStart": 1835,
       "exampleEnd": 1860,
@@ -97,7 +110,8 @@
         "startInExample": 10,
         "endInExample": 24
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ˌækjʊrət ˈθrəʊ"
     },
     {
       "word": "added",
@@ -110,6 +124,9 @@
       "translations": {
         "ru": {
           "translation": "добавлять"
+        },
+        "uk": {
+          "translation": "додати"
         }
       },
       "_spacyLemma": "add",
@@ -117,7 +134,7 @@
       "exampleStart": 2932,
       "exampleEnd": 2962,
       "matchedForm": "added",
-      "ipa": "ad",
+      "ipa": "ˈædɪd",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.405714,
       "difficultySource": "zipf"
@@ -130,7 +147,14 @@
       "source": "word",
       "wordKey": "advance_adjective",
       "level": "A2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Наступление"
+        },
+        "uk": {
+          "translation": "форвард"
+        }
+      },
       "_spacyLemma": "advance",
       "example": "’ screamed Doreen, prodding an advancing trolley with her makeshift club.",
       "exampleStart": 2043,
@@ -138,7 +162,8 @@
       "matchedForm": "advancing",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.531429,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ədˈvænsɪŋ"
     },
     {
       "word": "aim",
@@ -151,6 +176,9 @@
       "translations": {
         "ru": {
           "translation": "Цель"
+        },
+        "uk": {
+          "translation": "Мета"
         }
       },
       "_spacyLemma": "aim",
@@ -158,7 +186,7 @@
       "exampleStart": 1660,
       "exampleEnd": 1740,
       "matchedForm": "aim",
-      "ipa": "ˈeɪm",
+      "ipa": "eɪm",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.571429,
       "difficultySource": "zipf"
@@ -171,7 +199,14 @@
       "source": "word",
       "wordKey": "aimlessly_adverb",
       "level": "C1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Бесцельно"
+        },
+        "uk": {
+          "translation": "Безглузде"
+        }
+      },
       "_spacyLemma": "aimlessly",
       "example": "They were milling around aimlessly.",
       "exampleStart": 3602,
@@ -179,7 +214,8 @@
       "matchedForm": "aimlessly",
       "levelSource": "difficulty_heuristic",
       "difficultyScore": 1,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈeɪmləsli"
     },
     {
       "word": "airspeed",
@@ -189,7 +225,14 @@
       "source": "word",
       "wordKey": "airspeed_noun",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "скорость воздушного потока"
+        },
+        "uk": {
+          "translation": "аеродромна швидкість"
+        }
+      },
       "_spacyLemma": "airspeed",
       "example": "’\n\n‘I can’t get the airspeed!",
       "exampleStart": 1268,
@@ -197,7 +240,8 @@
       "matchedForm": "airspeed",
       "levelSource": "difficulty_heuristic",
       "difficultyScore": 1,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈeəspiːd"
     },
     {
       "word": "arm",
@@ -210,6 +254,9 @@
       "translations": {
         "ru": {
           "translation": "руки"
+        },
+        "uk": {
+          "translation": "руку"
         }
       },
       "_spacyLemma": "arm",
@@ -230,13 +277,21 @@
       "source": "word",
       "wordKey": "artor_noun",
       "level": "A2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "артор"
+        },
+        "uk": {
+          "translation": "артор"
+        }
+      },
       "_spacyLemma": "artor",
       "example": "‘Artor!",
       "exampleStart": 764,
       "exampleEnd": 771,
       "matchedForm": "Artor",
-      "levelSource": "difficulty_heuristic"
+      "levelSource": "difficulty_heuristic",
+      "ipa": "ˈɑːtə"
     },
     {
       "word": "ball",
@@ -249,6 +304,9 @@
       "translations": {
         "ru": {
           "translation": "шар"
+        },
+        "uk": {
+          "translation": "м'яч"
         }
       },
       "_spacyLemma": "ball",
@@ -269,7 +327,14 @@
       "source": "word",
       "wordKey": "bat_noun",
       "level": "A2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "битой"
+        },
+        "uk": {
+          "translation": "кажан"
+        }
+      },
       "_spacyLemma": "bat",
       "example": "’\n\n‘I thought you could turn into a bat?",
       "exampleStart": 441,
@@ -277,7 +342,8 @@
       "matchedForm": "bat",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.631429,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "bæt"
     },
     {
       "word": "bit",
@@ -290,6 +356,9 @@
       "translations": {
         "ru": {
           "translation": "кусочек; немного"
+        },
+        "uk": {
+          "translation": "розрядних"
         }
       },
       "_spacyLemma": "bit",
@@ -313,6 +382,9 @@
       "translations": {
         "ru": {
           "translation": "чёрный"
+        },
+        "uk": {
+          "translation": "чорний"
         }
       },
       "_spacyLemma": "black",
@@ -320,7 +392,7 @@
       "exampleStart": 270,
       "exampleEnd": 313,
       "matchedForm": "black",
-      "ipa": "blak",
+      "ipa": "blæk",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.3,
       "difficultySource": "zipf"
@@ -334,7 +406,14 @@
       "source": "spacy_phrase",
       "wordKey": "black_step_phrase",
       "level": "A1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "черные ступеньки"
+        },
+        "uk": {
+          "translation": "чорні кроки"
+        }
+      },
       "example": "The black steps glistened in the shadowless light.",
       "exampleStart": 3309,
       "exampleEnd": 3359,
@@ -343,7 +422,8 @@
         "startInExample": 4,
         "endInExample": 15
       },
-      "levelSource": "head_verb_index"
+      "levelSource": "head_verb_index",
+      "ipa": "ˌblæk ˈsteps"
     },
     {
       "word": "bloody",
@@ -356,6 +436,9 @@
       "translations": {
         "ru": {
           "translation": "кровавый"
+        },
+        "uk": {
+          "translation": "крові"
         }
       },
       "_spacyLemma": "bloody",
@@ -363,7 +446,7 @@
       "exampleStart": 1100,
       "exampleEnd": 1142,
       "matchedForm": "bloody",
-      "ipa": "blˈʌdi",
+      "ipa": "ˈblʌdi",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.637143,
       "difficultySource": "zipf"
@@ -377,7 +460,14 @@
       "source": "spacy_phrase",
       "wordKey": "bloody_thing_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Чёрт побери."
+        },
+        "uk": {
+          "translation": "чорт забирай"
+        }
+      },
       "example": "And I can’t reach the bloody thing anyway!",
       "exampleStart": 1100,
       "exampleEnd": 1142,
@@ -386,7 +476,8 @@
         "startInExample": 22,
         "endInExample": 34
       },
-      "levelSource": "head_verb_index"
+      "levelSource": "head_verb_index",
+      "ipa": "ˌblʌdi ˈθɪŋ"
     },
     {
       "word": "Blow",
@@ -415,7 +506,7 @@
       "exampleStart": 1370,
       "exampleEnd": 1384,
       "matchedForm": "Blow",
-      "ipa": "bləʊd",
+      "ipa": "bləʊ",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.548571,
       "difficultySource": "zipf"
@@ -428,7 +519,14 @@
       "source": "word",
       "wordKey": "bowling_adjective",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Боулинг"
+        },
+        "uk": {
+          "translation": "Боулінг"
+        }
+      },
       "_spacyLemma": "bowling",
       "example": "Windle held him by the ears like a misshapen bowling ball and tried to take aim.",
       "exampleStart": 1660,
@@ -436,7 +534,8 @@
       "matchedForm": "bowling",
       "levelSource": "cefr_frequency",
       "difficultyScore": 0.702857,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈbəʊlɪŋ"
     },
     {
       "word": "brought back",
@@ -450,6 +549,9 @@
       "translations": {
         "ru": {
           "translation": "Вернули"
+        },
+        "uk": {
+          "translation": "Повернення"
         }
       },
       "example": "’ the Count squeaked, as Windle brought his arm back.",
@@ -460,7 +562,7 @@
         "startInExample": 32,
         "endInExample": 52
       },
-      "ipa": "brɪŋ bak",
+      "ipa": "ˌbrɔːt ˈbæk",
       "levelSource": "phrase_index"
     },
     {
@@ -474,6 +576,9 @@
       "translations": {
         "ru": {
           "translation": "принес"
+        },
+        "uk": {
+          "translation": "принести"
         }
       },
       "_spacyLemma": "bring",
@@ -481,7 +586,7 @@
       "exampleStart": 1780,
       "exampleEnd": 1833,
       "matchedForm": "brought",
-      "ipa": "brɪŋ",
+      "ipa": "brɔːt",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.354286,
       "difficultySource": "zipf"
@@ -497,6 +602,9 @@
       "translations": {
         "ru": {
           "translation": "коричневый"
+        },
+        "uk": {
+          "translation": "коричневі"
         }
       },
       "_spacyLemma": "brown",
@@ -520,6 +628,9 @@
       "translations": {
         "ru": {
           "translation": "поймал"
+        },
+        "uk": {
+          "translation": "зловити"
         }
       },
       "_spacyLemma": "catch",
@@ -527,7 +638,7 @@
       "exampleStart": 2005,
       "exampleEnd": 2025,
       "matchedForm": "catch",
-      "ipa": "kæʧ",
+      "ipa": "kætʃ",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.468571,
       "difficultySource": "zipf"
@@ -559,7 +670,7 @@
       "exampleStart": 1861,
       "exampleEnd": 1933,
       "matchedForm": "ceiling",
-      "ipa": "ˈsilɪŋ",
+      "ipa": "ˈsiːlɪŋ",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.665714,
       "difficultySource": "zipf"
@@ -576,6 +687,9 @@
       "translations": {
         "ru": {
           "translation": "Вернуться обратно"
+        },
+        "uk": {
+          "translation": "Назад"
         }
       },
       "example": "’\n\n‘Then hang on tight and change back.",
@@ -586,7 +700,7 @@
         "startInExample": 27,
         "endInExample": 38
       },
-      "ipa": "tʃeɪndʒ bak",
+      "ipa": "ˌtʃeɪndʒ ˈbæk",
       "levelSource": "phrase_index"
     },
     {
@@ -600,6 +714,9 @@
       "translations": {
         "ru": {
           "translation": "сменил"
+        },
+        "uk": {
+          "translation": "змінити"
         }
       },
       "_spacyLemma": "change",
@@ -623,6 +740,9 @@
       "translations": {
         "ru": {
           "translation": "самый дешёвый"
+        },
+        "uk": {
+          "translation": "дешево"
         }
       },
       "_spacyLemma": "cheap",
@@ -630,7 +750,7 @@
       "exampleStart": 2320,
       "exampleEnd": 2465,
       "matchedForm": "cheap",
-      "ipa": "t͡ʃˈipɪst",
+      "ipa": "tʃiːp",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.514286,
       "difficultySource": "zipf"
@@ -644,7 +764,14 @@
       "source": "spacy_phrase",
       "wordKey": "cheap_plate_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "дешевая тарелка"
+        },
+        "uk": {
+          "translation": "дешева плита"
+        }
+      },
       "example": "Pink tubing poured out of the ravaged hole above them and coiled upon Arthur, making him look like a very cheap plate of spaghetti and meatballs.",
       "exampleStart": 2320,
       "exampleEnd": 2465,
@@ -653,7 +780,8 @@
         "startInExample": 106,
         "endInExample": 117
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ˌtʃiːp ˈpleɪt"
     },
     {
       "word": "chest",
@@ -666,6 +794,9 @@
       "translations": {
         "ru": {
           "translation": "грудь; сундук"
+        },
+        "uk": {
+          "translation": "груди"
         }
       },
       "_spacyLemma": "chest",
@@ -721,6 +852,9 @@
       "translations": {
         "ru": {
           "translation": "бросать; швырять"
+        },
+        "uk": {
+          "translation": "кидати; Кидай"
         }
       },
       "_spacyLemma": "chuck",
@@ -728,7 +862,7 @@
       "exampleStart": 1460,
       "exampleEnd": 1563,
       "matchedForm": "chucked",
-      "ipa": "tʃʌk",
+      "ipa": "tʃʌkt",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.668571,
       "difficultySource": "zipf"
@@ -741,7 +875,14 @@
       "source": "word",
       "wordKey": "clanking_adjective",
       "level": "B2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": ":: скальпирование"
+        },
+        "uk": {
+          "translation": "клангування"
+        }
+      },
       "_spacyLemma": "clanking",
       "example": "The ones at the back ran into the ones at the front, and there was a chorus of pathetic clanking noises.",
       "exampleStart": 2564,
@@ -749,7 +890,8 @@
       "matchedForm": "clanking",
       "levelSource": "difficulty_heuristic",
       "difficultyScore": 1,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈklæŋkɪŋ"
     },
     {
       "word": "clasped",
@@ -778,7 +920,7 @@
       "exampleStart": 2133,
       "exampleEnd": 2290,
       "matchedForm": "clasped",
-      "ipa": "klɑːsp",
+      "ipa": "klæspt",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.974286,
       "difficultySource": "zipf"
@@ -794,6 +936,9 @@
       "translations": {
         "ru": {
           "translation": "коготь; клешня"
+        },
+        "uk": {
+          "translation": "кіготь"
         }
       },
       "_spacyLemma": "claw",
@@ -801,7 +946,7 @@
       "exampleStart": 1861,
       "exampleEnd": 1933,
       "matchedForm": "claws",
-      "ipa": "klɔː",
+      "ipa": "klɔːz",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.834286,
       "difficultySource": "zipf"
@@ -833,7 +978,7 @@
       "exampleStart": 2133,
       "exampleEnd": 2290,
       "matchedForm": "clinging",
-      "ipa": "klɪŋ",
+      "ipa": "ˈklɪŋɪŋ",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.862857,
       "difficultySource": "zipf"
@@ -846,7 +991,14 @@
       "source": "word",
       "wordKey": "club_noun",
       "level": "A2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "клуб"
+        },
+        "uk": {
+          "translation": "дубинку"
+        }
+      },
       "_spacyLemma": "club",
       "example": "’\n\n‘Whatever you’re thinking of doing,’ said Doreen, picking up a potted plant and holding it like a club, ‘I hope you do it fast.",
       "exampleStart": 140,
@@ -854,7 +1006,8 @@
       "matchedForm": "club",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.374286,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "klʌb"
     },
     {
       "word": "code",
@@ -866,6 +1019,9 @@
       "level": "B2",
       "translations": {
         "ru": {
+          "translation": "код"
+        },
+        "uk": {
           "translation": "код"
         }
       },
@@ -890,6 +1046,9 @@
       "translations": {
         "ru": {
           "translation": "сворачивать кольцами; обвиваться"
+        },
+        "uk": {
+          "translation": "згорнутися в кільця; Огляд"
         }
       },
       "_spacyLemma": "coil",
@@ -897,7 +1056,7 @@
       "exampleStart": 2320,
       "exampleEnd": 2465,
       "matchedForm": "coiled",
-      "ipa": "kɔɪl",
+      "ipa": "kɔɪld",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.794286,
       "difficultySource": "zipf"
@@ -914,6 +1073,9 @@
       "translations": {
         "ru": {
           "translation": "входить"
+        },
+        "uk": {
+          "translation": "Увійти"
         }
       },
       "example": "I should have known nothing good ever comes in a long brown envelope!",
@@ -924,7 +1086,7 @@
         "startInExample": 38,
         "endInExample": 46
       },
-      "ipa": "kʌm ɪn",
+      "ipa": "ˌkʌmz ˈɪn",
       "levelSource": "phrase_index"
     },
     {
@@ -939,6 +1101,9 @@
       "translations": {
         "ru": {
           "translation": "Давай"
+        },
+        "uk": {
+          "translation": "Ходімо"
         }
       },
       "example": "Come on, granddad.",
@@ -949,7 +1114,7 @@
         "startInExample": 0,
         "endInExample": 7
       },
-      "ipa": "kʌm ɒn",
+      "ipa": "ˌkʌm ˈɒn",
       "levelSource": "phrase_index"
     },
     {
@@ -964,6 +1129,9 @@
       "translations": {
         "ru": {
           "translation": "выйти из"
+        },
+        "uk": {
+          "translation": "Вийти з системи"
         }
       },
       "example": "‘They’re coming out of it,’ said Ludmilla.",
@@ -974,7 +1142,7 @@
         "startInExample": 9,
         "endInExample": 22
       },
-      "ipa": "kʌm ˌaʊtəv",
+      "ipa": "ˈkʌmɪŋ ˌaʊtəv",
       "levelSource": "phrase_index"
     },
     {
@@ -988,6 +1156,9 @@
       "translations": {
         "ru": {
           "translation": "приходить"
+        },
+        "uk": {
+          "translation": "приходять"
         }
       },
       "_spacyLemma": "come",
@@ -995,7 +1166,7 @@
       "exampleStart": 65,
       "exampleEnd": 108,
       "matchedForm": "coming",
-      "ipa": "kʌm",
+      "ipa": "ˈkʌmɪŋ",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.208571,
       "difficultySource": "zipf"
@@ -1027,7 +1198,7 @@
       "exampleStart": 514,
       "exampleEnd": 535,
       "matchedForm": "complaining",
-      "ipa": "kəmˈpleɪnd",
+      "ipa": "kəmˈpleɪnɪŋ",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.651429,
       "difficultySource": "zipf"
@@ -1073,7 +1244,14 @@
       "source": "spacy_phrase",
       "wordKey": "contrary_instruction_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "неправильные инструкции"
+        },
+        "uk": {
+          "translation": "протилежні інструкції"
+        }
+      },
       "example": "The trolley fought for a moment and then, lacking any contrary instructions, settled down docilely.",
       "exampleStart": 3723,
       "exampleEnd": 3822,
@@ -1082,7 +1260,8 @@
         "startInExample": 54,
         "endInExample": 75
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ˌkɒntrəri ɪnˈstrʌkʃənz"
     },
     {
       "word": "count",
@@ -1095,6 +1274,9 @@
       "translations": {
         "ru": {
           "translation": "граф"
+        },
+        "uk": {
+          "translation": "кількість"
         }
       },
       "_spacyLemma": "count",
@@ -1118,6 +1300,9 @@
       "translations": {
         "ru": {
           "translation": "считать"
+        },
+        "uk": {
+          "translation": "розраховувати"
         }
       },
       "_spacyLemma": "count",
@@ -1141,6 +1326,9 @@
       "translations": {
         "ru": {
           "translation": "ползучий"
+        },
+        "uk": {
+          "translation": "повзучий"
         }
       },
       "_spacyLemma": "creep",
@@ -1148,7 +1336,7 @@
       "exampleStart": 714,
       "exampleEnd": 762,
       "matchedForm": "creeping",
-      "ipa": "kriːp",
+      "ipa": "ˈkriːpɪŋ",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.762857,
       "difficultySource": "zipf"
@@ -1164,6 +1352,9 @@
       "translations": {
         "ru": {
           "translation": "опасно"
+        },
+        "uk": {
+          "translation": "небезпечно"
         }
       },
       "_spacyLemma": "dangerously",
@@ -1171,7 +1362,7 @@
       "exampleStart": 945,
       "exampleEnd": 983,
       "matchedForm": "dangerously",
-      "ipa": "dˈeɪnd͡ʒəəsli",
+      "ipa": "ˈdeɪndʒərəsli",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.868571,
       "difficultySource": "zipf"
@@ -1187,6 +1378,9 @@
       "translations": {
         "ru": {
           "translation": "Дартс"
+        },
+        "uk": {
+          "translation": "вхеат"
         }
       },
       "_spacyLemma": "dart",
@@ -1194,7 +1388,7 @@
       "exampleStart": 1341,
       "exampleEnd": 1370,
       "matchedForm": "dart",
-      "ipa": "dˈɑɹt",
+      "ipa": "dɑːt",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.854286,
       "difficultySource": "zipf"
@@ -1210,6 +1404,9 @@
       "translations": {
         "ru": {
           "translation": "мёртвый"
+        },
+        "uk": {
+          "translation": "мертвих"
         }
       },
       "_spacyLemma": "dead",
@@ -1249,7 +1446,7 @@
       "exampleStart": 2133,
       "exampleEnd": 2290,
       "matchedForm": "desperately",
-      "ipa": "ˈdɛspə rətli",
+      "ipa": "ˈdespərətli",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.722857,
       "difficultySource": "zipf"
@@ -1262,7 +1459,14 @@
       "source": "word",
       "wordKey": "disc_noun",
       "level": "A1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "диск"
+        },
+        "uk": {
+          "translation": "диск"
+        }
+      },
       "_spacyLemma": "disc",
       "example": "Arthur fluttered to the disc in the ceiling and gripped it in his claws.",
       "exampleStart": 1861,
@@ -1270,7 +1474,8 @@
       "matchedForm": "disc",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.68,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "dɪsk"
     },
     {
       "word": "docilely",
@@ -1280,7 +1485,14 @@
       "source": "word",
       "wordKey": "docilely_adverb",
       "level": "B2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "По-доброму"
+        },
+        "uk": {
+          "translation": "Слухняно"
+        }
+      },
       "_spacyLemma": "docilely",
       "example": "The trolley fought for a moment and then, lacking any contrary instructions, settled down docilely.",
       "exampleStart": 3723,
@@ -1288,7 +1500,8 @@
       "matchedForm": "docilely",
       "levelSource": "difficulty_heuristic",
       "difficultyScore": 1,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈdɒsəlli"
     },
     {
       "word": "drop",
@@ -1301,6 +1514,9 @@
       "translations": {
         "ru": {
           "translation": "ронуть"
+        },
+        "uk": {
+          "translation": "залиште"
         }
       },
       "_spacyLemma": "drop",
@@ -1322,7 +1538,14 @@
       "source": "dictionary_phrasal",
       "wordKey": "dry_up_phrasal_verb",
       "level": "B2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "высохшие"
+        },
+        "uk": {
+          "translation": "сушений"
+        }
+      },
       "example": "The fountains seemed to operate in reverse for a moment, and then dried up.",
       "exampleStart": 2466,
       "exampleEnd": 2541,
@@ -1331,7 +1554,8 @@
         "startInExample": 66,
         "endInExample": 74
       },
-      "levelSource": "dictionary_phrase"
+      "levelSource": "dictionary_phrase",
+      "ipa": "ˌdraɪd ˈʌp"
     },
     {
       "word": "dried",
@@ -1344,6 +1568,9 @@
       "translations": {
         "ru": {
           "translation": "сушить; высыхать"
+        },
+        "uk": {
+          "translation": "сухий; Сухий"
         }
       },
       "_spacyLemma": "dry",
@@ -1351,7 +1578,7 @@
       "exampleStart": 2466,
       "exampleEnd": 2541,
       "matchedForm": "dried",
-      "ipa": "draɪ",
+      "ipa": "draɪd",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.505714,
       "difficultySource": "zipf"
@@ -1367,6 +1594,9 @@
       "translations": {
         "ru": {
           "translation": "слух"
+        },
+        "uk": {
+          "translation": "вухо"
         }
       },
       "_spacyLemma": "ear",
@@ -1374,7 +1604,7 @@
       "exampleStart": 1660,
       "exampleEnd": 1740,
       "matchedForm": "ears",
-      "ipa": "iə",
+      "ipa": "ˈiəz",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.594286,
       "difficultySource": "zipf"
@@ -1387,7 +1617,14 @@
       "source": "word",
       "wordKey": "endanger_adjective",
       "level": "B2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "угроза"
+        },
+        "uk": {
+          "translation": "Небезпечно"
+        }
+      },
       "_spacyLemma": "endanger",
       "example": "‘Remember – I’m an endangered species!",
       "exampleStart": 1742,
@@ -1395,7 +1632,8 @@
       "matchedForm": "endangered",
       "levelSource": "difficulty_heuristic",
       "difficultyScore": 0.937143,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "enˈdeɪndʒəd"
     },
     {
       "word": "envelope",
@@ -1407,6 +1645,9 @@
       "level": "B1",
       "translations": {
         "ru": {
+          "translation": "конверт"
+        },
+        "uk": {
           "translation": "конверт"
         }
       },
@@ -1431,6 +1672,9 @@
       "translations": {
         "ru": {
           "translation": "глаза"
+        },
+        "uk": {
+          "translation": "очей"
         }
       },
       "_spacyLemma": "eye",
@@ -1438,7 +1682,7 @@
       "exampleStart": 3991,
       "exampleEnd": 4038,
       "matchedForm": "eyes",
-      "ipa": "aɪ",
+      "ipa": "aɪz",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.425714,
       "difficultySource": "zipf"
@@ -1454,6 +1698,9 @@
       "translations": {
         "ru": {
           "translation": "глаза"
+        },
+        "uk": {
+          "translation": "очі"
         }
       },
       "_spacyLemma": "eye",
@@ -1461,7 +1708,7 @@
       "exampleStart": 3571,
       "exampleEnd": 3601,
       "matchedForm": "eyed",
-      "ipa": "ˈaɪd",
+      "ipa": "aɪd",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.425714,
       "difficultySource": "zipf"
@@ -1477,6 +1724,9 @@
       "translations": {
         "ru": {
           "translation": "слабо, едва"
+        },
+        "uk": {
+          "translation": "злегка"
         }
       },
       "_spacyLemma": "faintly",
@@ -1500,6 +1750,9 @@
       "translations": {
         "ru": {
           "translation": "быстро"
+        },
+        "uk": {
+          "translation": "швидко"
         }
       },
       "_spacyLemma": "fast",
@@ -1507,7 +1760,7 @@
       "exampleStart": 140,
       "exampleEnd": 270,
       "matchedForm": "fast",
-      "ipa": "fast",
+      "ipa": "fæst",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.394286,
       "difficultySource": "zipf"
@@ -1523,6 +1776,9 @@
       "translations": {
         "ru": {
           "translation": "бороться"
+        },
+        "uk": {
+          "translation": "боротися"
         }
       },
       "_spacyLemma": "fight",
@@ -1530,7 +1786,7 @@
       "exampleStart": 3723,
       "exampleEnd": 3822,
       "matchedForm": "fought",
-      "ipa": "faɪt",
+      "ipa": "fɔːt",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.365714,
       "difficultySource": "zipf"
@@ -1546,6 +1802,9 @@
       "translations": {
         "ru": {
           "translation": "пол"
+        },
+        "uk": {
+          "translation": "поверсі"
         }
       },
       "_spacyLemma": "floor",
@@ -1617,7 +1876,7 @@
       "exampleStart": 1861,
       "exampleEnd": 1933,
       "matchedForm": "fluttered",
-      "ipa": "ˈflʌtər",
+      "ipa": "ˈflʌtəd",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.985714,
       "difficultySource": "zipf"
@@ -1633,6 +1892,9 @@
       "translations": {
         "ru": {
           "translation": "летать"
+        },
+        "uk": {
+          "translation": "літати"
         }
       },
       "_spacyLemma": "fly",
@@ -1656,6 +1918,9 @@
       "translations": {
         "ru": {
           "translation": "нога"
+        },
+        "uk": {
+          "translation": "фут"
         }
       },
       "_spacyLemma": "foot",
@@ -1678,6 +1943,9 @@
       "level": "A2",
       "translations": {
         "ru": {
+          "translation": "вперед"
+        },
+        "uk": {
           "translation": "вперед"
         }
       },
@@ -1702,6 +1970,9 @@
       "translations": {
         "ru": {
           "translation": "Фонтан"
+        },
+        "uk": {
+          "translation": "пальцях"
         }
       },
       "_spacyLemma": "fountain",
@@ -1709,7 +1980,7 @@
       "exampleStart": 2466,
       "exampleEnd": 2541,
       "matchedForm": "fountains",
-      "ipa": "fˈaʊntən",
+      "ipa": "ˈfaʊntɪnz",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.742857,
       "difficultySource": "zipf"
@@ -1722,7 +1993,14 @@
       "source": "word",
       "wordKey": "frisbee_noun",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Фрисби"
+        },
+        "uk": {
+          "translation": "Фрісбікіти ін нев йорк уса"
+        }
+      },
       "_spacyLemma": "frisbee",
       "example": "‘On the ground I don’t want to be, but when it comes to being chucked around like a frisbee—’\n\n‘Arthur!",
       "exampleStart": 1460,
@@ -1730,7 +2008,8 @@
       "matchedForm": "frisbee",
       "levelSource": "difficulty_heuristic",
       "difficultyScore": 1,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈfrɪsbiː"
     },
     {
       "word": "get around",
@@ -1744,6 +2023,9 @@
       "translations": {
         "ru": {
           "translation": "Передвигайся"
+        },
+        "uk": {
+          "translation": "обійтись"
         }
       },
       "example": "There must be some way for the trolleys to get around.",
@@ -1754,7 +2036,7 @@
         "startInExample": 43,
         "endInExample": 53
       },
-      "ipa": "ɡˈɛt əˈaʊnd",
+      "ipa": "ɡet əˈraʊnd",
       "levelSource": "phrase_index"
     },
     {
@@ -1769,6 +2051,9 @@
       "translations": {
         "ru": {
           "translation": "избавиться от"
+        },
+        "uk": {
+          "translation": "позбудься"
         }
       },
       "example": "‘I think,’ said Windle, ‘that we’d better get out of here now.",
@@ -1779,7 +2064,7 @@
         "startInExample": 42,
         "endInExample": 52
       },
-      "ipa": "ɡet ˌaʊtəv",
+      "ipa": "ˈɡet ˌaʊtəv",
       "levelSource": "phrase_index"
     },
     {
@@ -1793,6 +2078,9 @@
       "translations": {
         "ru": {
           "translation": "получил"
+        },
+        "uk": {
+          "translation": "отримати"
         }
       },
       "_spacyLemma": "get",
@@ -1800,7 +2088,7 @@
       "exampleStart": 1268,
       "exampleEnd": 1297,
       "matchedForm": "get",
-      "ipa": "ɡet",
+      "ipa": "ɡɒt",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.065714,
       "difficultySource": "zipf"
@@ -1832,7 +2120,7 @@
       "exampleStart": 714,
       "exampleEnd": 762,
       "matchedForm": "glaring",
-      "ipa": "ɡlɛər",
+      "ipa": "ˈɡleərɪŋ",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.9,
       "difficultySource": "zipf"
@@ -1864,7 +2152,7 @@
       "exampleStart": 3309,
       "exampleEnd": 3359,
       "matchedForm": "glistened",
-      "ipa": "ˈɡlɪsənɪŋ",
+      "ipa": "ˈɡlɪsənd",
       "levelSource": "vocabulary_index",
       "difficultyScore": 1,
       "difficultySource": "zipf"
@@ -1881,6 +2169,9 @@
       "translations": {
         "ru": {
           "translation": "Проходите"
+        },
+        "uk": {
+          "translation": "Заходьте"
         }
       },
       "example": "Right – one foot here, now your hand here, now put your foot on Reg’s shoulder—’\n\n‘And don’t go through,’ said Reg.",
@@ -1891,7 +2182,7 @@
         "startInExample": 93,
         "endInExample": 103
       },
-      "ipa": "ɡəʊ θruː",
+      "ipa": "ˌɡəʊ ˈθruː",
       "levelSource": "phrase_index"
     },
     {
@@ -1905,6 +2196,9 @@
       "translations": {
         "ru": {
           "translation": "хороший"
+        },
+        "uk": {
+          "translation": "хороший"
         }
       },
       "_spacyLemma": "good",
@@ -1912,7 +2206,7 @@
       "exampleStart": 1030,
       "exampleEnd": 1099,
       "matchedForm": "good",
-      "ipa": "ɡʊd",
+      "ipa": "ˈbetə",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.111429,
       "difficultySource": "zipf"
@@ -1929,6 +2223,9 @@
       "translations": {
         "ru": {
           "translation": "хорошая идея"
+        },
+        "uk": {
+          "translation": "Гарна ідея"
         }
       },
       "example": "’\n\n‘Good idea.",
@@ -1939,7 +2236,7 @@
         "startInExample": 4,
         "endInExample": 13
       },
-      "ipa": "ɡʊd aɪˈdiə",
+      "ipa": "ˌɡʊd aɪˈdiə",
       "levelSource": "phrase_index"
     },
     {
@@ -1953,6 +2250,9 @@
       "translations": {
         "ru": {
           "translation": "схватить"
+        },
+        "uk": {
+          "translation": "захопити"
         }
       },
       "_spacyLemma": "grab",
@@ -1960,7 +2260,7 @@
       "exampleStart": 3638,
       "exampleEnd": 3721,
       "matchedForm": "grabbed",
-      "ipa": "ɡrab",
+      "ipa": "ɡræbd",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.568571,
       "difficultySource": "zipf"
@@ -1992,7 +2292,7 @@
       "exampleStart": 1861,
       "exampleEnd": 1933,
       "matchedForm": "gripped",
-      "ipa": "ˈɡɹɪpɪŋ",
+      "ipa": "ɡrɪpt",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.685714,
       "difficultySource": "zipf"
@@ -2008,6 +2308,9 @@
       "translations": {
         "ru": {
           "translation": "стон"
+        },
+        "uk": {
+          "translation": "стогін"
         }
       },
       "_spacyLemma": "groan",
@@ -2015,7 +2318,7 @@
       "exampleStart": 2964,
       "exampleEnd": 3006,
       "matchedForm": "groan",
-      "ipa": "ɡɹˈəʊn",
+      "ipa": "ɡrəʊn",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.968571,
       "difficultySource": "zipf"
@@ -2047,7 +2350,7 @@
       "exampleStart": 1460,
       "exampleEnd": 1563,
       "matchedForm": "ground",
-      "ipa": "ˈɡraʊndɪŋ",
+      "ipa": "ɡraʊnd",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.388571,
       "difficultySource": "zipf"
@@ -2060,7 +2363,14 @@
       "source": "word",
       "wordKey": "gush_verb",
       "level": "A2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Шум"
+        },
+        "uk": {
+          "translation": "хлинула"
+        }
+      },
       "_spacyLemma": "gush",
       "example": "Steam gushed from the fountain.",
       "exampleStart": 2899,
@@ -2068,7 +2378,8 @@
       "matchedForm": "gushed",
       "levelSource": "vocabulary_index",
       "difficultyScore": 1,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ɡʌʃt"
     },
     {
       "word": "halted",
@@ -2078,7 +2389,14 @@
       "source": "word",
       "wordKey": "halt_verb",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "остановить"
+        },
+        "uk": {
+          "translation": "зупинився"
+        }
+      },
       "_spacyLemma": "halt",
       "example": "The trolleys halted.",
       "exampleStart": 2543,
@@ -2086,7 +2404,8 @@
       "matchedForm": "halted",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.737143,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈhɒltɪd"
     },
     {
       "word": "hand",
@@ -2131,6 +2450,9 @@
       "translations": {
         "ru": {
           "translation": "ручка"
+        },
+        "uk": {
+          "translation": "ручку"
         }
       },
       "_spacyLemma": "handle",
@@ -2138,7 +2460,7 @@
       "exampleStart": 3638,
       "exampleEnd": 3721,
       "matchedForm": "handle",
-      "ipa": "hˈændəl",
+      "ipa": "ˈhændəl",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.491429,
       "difficultySource": "zipf"
@@ -2155,6 +2477,9 @@
       "translations": {
         "ru": {
           "translation": "Держусь"
+        },
+        "uk": {
+          "translation": "Тримаюся"
         }
       },
       "example": "’\n\n‘Then hang on tight and change back.",
@@ -2165,7 +2490,7 @@
         "startInExample": 9,
         "endInExample": 16
       },
-      "ipa": "haŋ ɒn",
+      "ipa": "ˌhæŋ ˈɒn",
       "levelSource": "phrase_index"
     },
     {
@@ -2179,6 +2504,9 @@
       "translations": {
         "ru": {
           "translation": "вешать"
+        },
+        "uk": {
+          "translation": "повісити"
         }
       },
       "_spacyLemma": "hang",
@@ -2186,7 +2514,7 @@
       "exampleStart": 1959,
       "exampleEnd": 1998,
       "matchedForm": "hang",
-      "ipa": "haŋ",
+      "ipa": "hæŋ",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.545714,
       "difficultySource": "zipf"
@@ -2202,6 +2530,9 @@
       "translations": {
         "ru": {
           "translation": "тяжёлый"
+        },
+        "uk": {
+          "translation": "важких"
         }
       },
       "_spacyLemma": "heavy",
@@ -2225,6 +2556,9 @@
       "translations": {
         "ru": {
           "translation": "Высота"
+        },
+        "uk": {
+          "translation": "висот"
         }
       },
       "_spacyLemma": "height",
@@ -2232,7 +2566,7 @@
       "exampleStart": 415,
       "exampleEnd": 441,
       "matchedForm": "heights",
-      "ipa": "hˈaɪts",
+      "ipa": "haɪts",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.565714,
       "difficultySource": "zipf"
@@ -2248,6 +2582,9 @@
       "translations": {
         "ru": {
           "translation": "помогать"
+        },
+        "uk": {
+          "translation": "допомогти"
         }
       },
       "_spacyLemma": "help",
@@ -2269,7 +2606,14 @@
       "source": "spacy_phrase",
       "wordKey": "her_makeshift_club_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "её сменный клуб"
+        },
+        "uk": {
+          "translation": "Її тимчасовий клуб"
+        }
+      },
       "example": "’ screamed Doreen, prodding an advancing trolley with her makeshift club.",
       "exampleStart": 2043,
       "exampleEnd": 2116,
@@ -2278,7 +2622,8 @@
         "startInExample": 54,
         "endInExample": 72
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "hɜː ˌmeɪkʃɪft ˈklʌb"
     },
     {
       "word": "his arm",
@@ -2292,6 +2637,9 @@
       "translations": {
         "ru": {
           "translation": "его руки"
+        },
+        "uk": {
+          "translation": "Його руки"
         }
       },
       "example": "’ the Count squeaked, as Windle brought his arm back.",
@@ -2302,7 +2650,7 @@
         "startInExample": 40,
         "endInExample": 47
       },
-      "ipa": "hɪz ɑːm",
+      "ipa": "hɪz ˈɑːm",
       "levelSource": "phrase_index"
     },
     {
@@ -2317,6 +2665,9 @@
       "translations": {
         "ru": {
           "translation": "его грудь"
+        },
+        "uk": {
+          "translation": "Його груди"
         }
       },
       "example": "’\n\nThere was a momentary vision of Arthur Winkings clinging desperately to the ceiling, and then he dropped on Windle and Reg, the disc clasped to his chest.",
@@ -2327,7 +2678,7 @@
         "startInExample": 147,
         "endInExample": 156
       },
-      "ipa": "hɪz tʃest",
+      "ipa": "hɪz ˈtʃest",
       "levelSource": "phrase_index"
     },
     {
@@ -2342,6 +2693,9 @@
       "translations": {
         "ru": {
           "translation": "его когти"
+        },
+        "uk": {
+          "translation": "Його кігті."
         }
       },
       "example": "Arthur fluttered to the disc in the ceiling and gripped it in his claws.",
@@ -2352,7 +2706,7 @@
         "startInExample": 62,
         "endInExample": 71
       },
-      "ipa": "hˈɪz klˈɔ",
+      "ipa": "hɪz ˈklɔːz",
       "levelSource": "phrase_index"
     },
     {
@@ -2367,6 +2721,9 @@
       "translations": {
         "ru": {
           "translation": "его глаза"
+        },
+        "uk": {
+          "translation": "його очі"
         }
       },
       "example": "He said ‘yo’, faintly, and shut his eyes again.",
@@ -2377,7 +2734,7 @@
         "startInExample": 32,
         "endInExample": 40
       },
-      "ipa": "hɪz aɪ",
+      "ipa": "hɪz ˈaɪz",
       "levelSource": "phrase_index"
     },
     {
@@ -2391,6 +2748,9 @@
       "translations": {
         "ru": {
           "translation": "Подъемник"
+        },
+        "uk": {
+          "translation": "піднімали"
         }
       },
       "_spacyLemma": "hoist",
@@ -2398,7 +2758,7 @@
       "exampleStart": 672,
       "exampleEnd": 712,
       "matchedForm": "hoisted",
-      "ipa": "hˈɔɪst",
+      "ipa": "ˈhɔɪstɪd",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.968571,
       "difficultySource": "zipf"
@@ -2414,6 +2774,9 @@
       "translations": {
         "ru": {
           "translation": "держать"
+        },
+        "uk": {
+          "translation": "утримуйте"
         }
       },
       "_spacyLemma": "hold",
@@ -2421,7 +2784,7 @@
       "exampleStart": 140,
       "exampleEnd": 270,
       "matchedForm": "holding",
-      "ipa": "həʊld",
+      "ipa": "ˈhəʊldɪŋ",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.377143,
       "difficultySource": "zipf"
@@ -2453,7 +2816,7 @@
       "exampleStart": 2320,
       "exampleEnd": 2465,
       "matchedForm": "hole",
-      "ipa": "hoʊl",
+      "ipa": "həʊl",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.528571,
       "difficultySource": "zipf"
@@ -2485,7 +2848,7 @@
       "exampleStart": 140,
       "exampleEnd": 270,
       "matchedForm": "hope",
-      "ipa": "hoʊp",
+      "ipa": "həʊp",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.305714,
       "difficultySource": "zipf"
@@ -2501,6 +2864,9 @@
       "translations": {
         "ru": {
           "translation": "идея"
+        },
+        "uk": {
+          "translation": "ідея"
         }
       },
       "_spacyLemma": "idea",
@@ -2556,6 +2922,9 @@
       "translations": {
         "ru": {
           "translation": "прыгать"
+        },
+        "uk": {
+          "translation": "стрибати"
         }
       },
       "_spacyLemma": "jump",
@@ -2595,7 +2964,7 @@
       "exampleStart": 1030,
       "exampleEnd": 1099,
       "matchedForm": "known",
-      "ipa": "ˈnoʊɪŋ",
+      "ipa": "nəʊn",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.117143,
       "difficultySource": "zipf"
@@ -2611,6 +2980,9 @@
       "translations": {
         "ru": {
           "translation": "недостаток"
+        },
+        "uk": {
+          "translation": "бракувало"
         }
       },
       "_spacyLemma": "lack",
@@ -2618,7 +2990,7 @@
       "exampleStart": 3723,
       "exampleEnd": 3822,
       "matchedForm": "lacking",
-      "ipa": "lˈækɪŋ",
+      "ipa": "ˈlækɪŋ",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.454286,
       "difficultySource": "zipf"
@@ -2631,7 +3003,14 @@
       "source": "word",
       "wordKey": "lawyer_noun",
       "level": "A2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "адвокат"
+        },
+        "uk": {
+          "translation": "адвокат"
+        }
+      },
       "_spacyLemma": "lawyer",
       "example": "‘I never should have listened to that lawyer!",
       "exampleStart": 984,
@@ -2639,7 +3018,8 @@
       "matchedForm": "lawyer",
       "levelSource": "cefr_frequency",
       "difficultyScore": 0.525714,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈlɔɪə"
     },
     {
       "word": "light",
@@ -2652,6 +3032,9 @@
       "translations": {
         "ru": {
           "translation": "огонь"
+        },
+        "uk": {
+          "translation": "світло"
         }
       },
       "_spacyLemma": "light",
@@ -2675,6 +3058,9 @@
       "translations": {
         "ru": {
           "translation": "слушать"
+        },
+        "uk": {
+          "translation": "слухати"
         }
       },
       "_spacyLemma": "listen",
@@ -2682,7 +3068,7 @@
       "exampleStart": 984,
       "exampleEnd": 1029,
       "matchedForm": "listened",
-      "ipa": "ˈlɪsən",
+      "ipa": "ˈlɪsənd",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.414286,
       "difficultySource": "zipf"
@@ -2698,6 +3084,9 @@
       "translations": {
         "ru": {
           "translation": "длинный"
+        },
+        "uk": {
+          "translation": "довгий"
         }
       },
       "_spacyLemma": "long",
@@ -2722,6 +3111,9 @@
       "translations": {
         "ru": {
           "translation": "смотреть на"
+        },
+        "uk": {
+          "translation": "Подивись на"
         }
       },
       "example": "‘Look at them.",
@@ -2732,7 +3124,7 @@
         "startInExample": 1,
         "endInExample": 8
       },
-      "ipa": "lʊk at",
+      "ipa": "ˈlʊk æt",
       "levelSource": "phrase_index"
     },
     {
@@ -2747,6 +3139,9 @@
       "translations": {
         "ru": {
           "translation": "ищите"
+        },
+        "uk": {
+          "translation": "шукати"
         }
       },
       "example": "Look for something it could be coming from!",
@@ -2757,7 +3152,7 @@
         "startInExample": 0,
         "endInExample": 8
       },
-      "ipa": "lʊk fɔː",
+      "ipa": "ˈlʊk fɔː",
       "levelSource": "phrase_index"
     },
     {
@@ -2771,6 +3166,9 @@
       "translations": {
         "ru": {
           "translation": "выглядеть"
+        },
+        "uk": {
+          "translation": "виглядати"
         }
       },
       "_spacyLemma": "look",
@@ -2794,6 +3192,9 @@
       "translations": {
         "ru": {
           "translation": "делать"
+        },
+        "uk": {
+          "translation": "зробити"
         }
       },
       "_spacyLemma": "make",
@@ -2801,7 +3202,7 @@
       "exampleStart": 2320,
       "exampleEnd": 2465,
       "matchedForm": "making",
-      "ipa": "meɪk",
+      "ipa": "ˈmeɪkɪŋ",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.122857,
       "difficultySource": "zipf"
@@ -2814,7 +3215,14 @@
       "source": "word",
       "wordKey": "makeshift_noun",
       "level": "B2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "самодельных"
+        },
+        "uk": {
+          "translation": "саморобних"
+        }
+      },
       "_spacyLemma": "makeshift",
       "example": "’ screamed Doreen, prodding an advancing trolley with her makeshift club.",
       "exampleStart": 2043,
@@ -2822,7 +3230,8 @@
       "matchedForm": "makeshift",
       "levelSource": "difficulty_heuristic",
       "difficultyScore": 0.951429,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈmeɪkʃɪft"
     },
     {
       "word": "manage",
@@ -2851,7 +3260,7 @@
       "exampleStart": 3128,
       "exampleEnd": 3173,
       "matchedForm": "manage",
-      "ipa": "ˈmænɪdʒd",
+      "ipa": "ˈmænɪdʒ",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.562857,
       "difficultySource": "zipf"
@@ -2864,7 +3273,14 @@
       "source": "word",
       "wordKey": "manhandle_verb",
       "level": "C1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "раздражал"
+        },
+        "uk": {
+          "translation": "Геленою"
+        }
+      },
       "_spacyLemma": "manhandle",
       "example": "The Dean was manhandled on top of him.",
       "exampleStart": 4040,
@@ -2872,7 +3288,8 @@
       "matchedForm": "manhandled",
       "levelSource": "difficulty_heuristic",
       "difficultyScore": 1,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈmænhændəld"
     },
     {
       "word": "Maybe",
@@ -2885,6 +3302,9 @@
       "translations": {
         "ru": {
           "translation": "возможно"
+        },
+        "uk": {
+          "translation": "можливо"
         }
       },
       "_spacyLemma": "maybe",
@@ -2908,6 +3328,9 @@
       "translations": {
         "ru": {
           "translation": "означать"
+        },
+        "uk": {
+          "translation": "означає"
         }
       },
       "_spacyLemma": "mean",
@@ -2915,7 +3338,7 @@
       "exampleStart": 853,
       "exampleEnd": 936,
       "matchedForm": "means",
-      "ipa": "miːn",
+      "ipa": "miːnz",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.28,
       "difficultySource": "zipf"
@@ -2928,7 +3351,14 @@
       "source": "word",
       "wordKey": "meatball_noun",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Фрикадельки"
+        },
+        "uk": {
+          "translation": "м'ясний м' ячик"
+        }
+      },
       "_spacyLemma": "meatball",
       "example": "Pink tubing poured out of the ravaged hole above them and coiled upon Arthur, making him look like a very cheap plate of spaghetti and meatballs.",
       "exampleStart": 2320,
@@ -2936,7 +3366,8 @@
       "matchedForm": "meatballs",
       "levelSource": "difficulty_heuristic",
       "difficultyScore": 1,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈmiːtbɔːlz"
     },
     {
       "word": "milling around",
@@ -2947,7 +3378,14 @@
       "source": "dictionary_phrasal",
       "wordKey": "mill_around_phrasal_verb",
       "level": "B2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Мельница вокруг"
+        },
+        "uk": {
+          "translation": "розливання навколо"
+        }
+      },
       "example": "They were milling around aimlessly.",
       "exampleStart": 3602,
       "exampleEnd": 3637,
@@ -2956,7 +3394,8 @@
         "startInExample": 10,
         "endInExample": 24
       },
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "ipa": "ˌmɪlɪŋ əˈraʊnd"
     },
     {
       "word": "milling",
@@ -2966,7 +3405,14 @@
       "source": "word",
       "wordKey": "mill_verb",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "мельница"
+        },
+        "uk": {
+          "translation": "рухалися"
+        }
+      },
       "_spacyLemma": "mill",
       "example": "They were milling around aimlessly.",
       "exampleStart": 3602,
@@ -2974,7 +3420,8 @@
       "matchedForm": "milling",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.608571,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈmɪlɪŋ"
     },
     {
       "word": "misshapen",
@@ -2984,7 +3431,14 @@
       "source": "word",
       "wordKey": "misshapen_adjective",
       "level": "C1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Неисправность"
+        },
+        "uk": {
+          "translation": "махапін"
+        }
+      },
       "_spacyLemma": "misshapen",
       "example": "Windle held him by the ears like a misshapen bowling ball and tried to take aim.",
       "exampleStart": 1660,
@@ -2992,7 +3446,8 @@
       "matchedForm": "misshapen",
       "levelSource": "difficulty_heuristic",
       "difficultyScore": 1,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "mɪsˈʃeɪpən"
     },
     {
       "word": "moaned",
@@ -3021,7 +3476,7 @@
       "exampleStart": 672,
       "exampleEnd": 712,
       "matchedForm": "moaned",
-      "ipa": "moʊn",
+      "ipa": "məʊnd",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.897143,
       "difficultySource": "zipf"
@@ -3037,6 +3492,9 @@
       "translations": {
         "ru": {
           "translation": "мгновение"
+        },
+        "uk": {
+          "translation": "момент"
         }
       },
       "_spacyLemma": "moment",
@@ -3057,7 +3515,14 @@
       "source": "word",
       "wordKey": "momentary_adjective",
       "level": "C1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "сиюминутное"
+        },
+        "uk": {
+          "translation": "миттєве"
+        }
+      },
       "_spacyLemma": "momentary",
       "example": "’\n\nThere was a momentary vision of Arthur Winkings clinging desperately to the ceiling, and then he dropped on Windle and Reg, the disc clasped to his chest.",
       "exampleStart": 2133,
@@ -3065,7 +3530,8 @@
       "matchedForm": "momentary",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.98,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈməʊməntəri"
     },
     {
       "word": "momentary vision",
@@ -3076,7 +3542,14 @@
       "source": "spacy_phrase",
       "wordKey": "momentary_vision_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "мгновенное зрение"
+        },
+        "uk": {
+          "translation": "Тимчасове бачення"
+        }
+      },
       "example": "’\n\nThere was a momentary vision of Arthur Winkings clinging desperately to the ceiling, and then he dropped on Windle and Reg, the disc clasped to his chest.",
       "exampleStart": 2133,
       "exampleEnd": 2290,
@@ -3085,7 +3558,8 @@
         "startInExample": 15,
         "endInExample": 31
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ˌməʊməntəri ˈvɪʒən"
     },
     {
       "word": "moving",
@@ -3098,6 +3572,9 @@
       "translations": {
         "ru": {
           "translation": "двигаться"
+        },
+        "uk": {
+          "translation": "хід"
         }
       },
       "_spacyLemma": "move",
@@ -3105,7 +3582,7 @@
       "exampleStart": 1935,
       "exampleEnd": 1952,
       "matchedForm": "move",
-      "ipa": "mˈuvɪŋ",
+      "ipa": "ˈmuːvɪŋ",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.331429,
       "difficultySource": "zipf"
@@ -3121,6 +3598,9 @@
       "translations": {
         "ru": {
           "translation": "музыка"
+        },
+        "uk": {
+          "translation": "музика"
         }
       },
       "_spacyLemma": "music",
@@ -3160,7 +3640,7 @@
       "exampleStart": 481,
       "exampleEnd": 514,
       "matchedForm": "nervous",
-      "ipa": "ˈnɜːrvəs",
+      "ipa": "ˈnɜːvəs",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.597143,
       "difficultySource": "zipf"
@@ -3176,6 +3656,9 @@
       "translations": {
         "ru": {
           "translation": "шум"
+        },
+        "uk": {
+          "translation": "шум"
         }
       },
       "_spacyLemma": "noise",
@@ -3183,7 +3666,7 @@
       "exampleStart": 2564,
       "exampleEnd": 2668,
       "matchedForm": "noises",
-      "ipa": "nɔɪz",
+      "ipa": "ˈnɔɪzɪz",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.56,
       "difficultySource": "zipf"
@@ -3196,13 +3679,21 @@
       "source": "word",
       "wordKey": "obligay_noun",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "не перегибать"
+        },
+        "uk": {
+          "translation": "обліґіа"
+        }
+      },
       "_spacyLemma": "obligay",
       "example": "Nobblyesse obligay!",
       "exampleStart": 772,
       "exampleEnd": 791,
       "matchedForm": "obligay",
-      "levelSource": "difficulty_heuristic"
+      "levelSource": "difficulty_heuristic",
+      "ipa": "ˈɒblɪˌɡeɪ"
     },
     {
       "word": "OK",
@@ -3212,7 +3703,14 @@
       "source": "word",
       "wordKey": "ok_adjective",
       "level": "A2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Хорошо."
+        },
+        "uk": {
+          "translation": "Гаразд"
+        }
+      },
       "_spacyLemma": "ok",
       "example": "‘OK, Reg and me will help you up, come on—’\n\n‘Me?",
       "exampleStart": 365,
@@ -3220,7 +3718,8 @@
       "matchedForm": "OK",
       "levelSource": "difficulty_heuristic",
       "difficultyScore": 0.391429,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˌəʊˈkeɪ"
     },
     {
       "word": "ones",
@@ -3233,6 +3732,9 @@
       "translations": {
         "ru": {
           "translation": "тот"
+        },
+        "uk": {
+          "translation": "Ось що"
         }
       },
       "_spacyLemma": "one",
@@ -3240,7 +3742,7 @@
       "exampleStart": 481,
       "exampleEnd": 514,
       "matchedForm": "one",
-      "ipa": "wɒn",
+      "ipa": "wɒnz",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.011429,
       "difficultySource": "zipf"
@@ -3256,6 +3758,9 @@
       "translations": {
         "ru": {
           "translation": "действующий"
+        },
+        "uk": {
+          "translation": "діяв"
         }
       },
       "_spacyLemma": "operate",
@@ -3263,7 +3768,7 @@
       "exampleStart": 2466,
       "exampleEnd": 2541,
       "matchedForm": "operate",
-      "ipa": "ˈɑpəˌeɪtɪŋ",
+      "ipa": "ˈɒpəˌreɪt",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.574286,
       "difficultySource": "zipf"
@@ -3277,7 +3782,14 @@
       "source": "spacy_phrase",
       "wordKey": "other_wizard_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "другие волшебники"
+        },
+        "uk": {
+          "translation": "інші чарівники"
+        }
+      },
       "example": "The other wizards remained upright, but only just.",
       "exampleStart": 3033,
       "exampleEnd": 3083,
@@ -3286,7 +3798,8 @@
         "startInExample": 4,
         "endInExample": 17
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ˌʌðə ˈwɪzədz"
     },
     {
       "word": "panels",
@@ -3299,6 +3812,9 @@
       "translations": {
         "ru": {
           "translation": "панели"
+        },
+        "uk": {
+          "translation": "панелі"
         }
       },
       "_spacyLemma": "panel",
@@ -3306,7 +3822,7 @@
       "exampleStart": 0,
       "exampleEnd": 46,
       "matchedForm": "panels",
-      "ipa": "pˈænəlz",
+      "ipa": "ˈpænəlz",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.56,
       "difficultySource": "zipf"
@@ -3320,7 +3836,14 @@
       "source": "spacy_phrase",
       "wordKey": "paper_dart_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "бумажный дротик"
+        },
+        "uk": {
+          "translation": "паперові стрілки"
+        }
+      },
       "example": "‘You know, like a paper dart.",
       "exampleStart": 1341,
       "exampleEnd": 1370,
@@ -3329,7 +3852,8 @@
         "startInExample": 18,
         "endInExample": 28
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ˌpeɪpə ˈdɑːt"
     },
     {
       "word": "paper",
@@ -3342,6 +3866,9 @@
       "translations": {
         "ru": {
           "translation": "газеты"
+        },
+        "uk": {
+          "translation": "паперу"
         }
       },
       "_spacyLemma": "paper",
@@ -3362,7 +3889,14 @@
       "source": "word",
       "wordKey": "passing_adjective",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "прохождение"
+        },
+        "uk": {
+          "translation": "прохід"
+        }
+      },
       "_spacyLemma": "passing",
       "example": "‘I think I might have an even better one …’ she said, and grabbed a passing handle.",
       "exampleStart": 3638,
@@ -3370,7 +3904,8 @@
       "matchedForm": "passing",
       "levelSource": "cefr_frequency",
       "difficultyScore": 0.537143,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈpæsɪŋ"
     },
     {
       "word": "passing handle",
@@ -3381,7 +3916,14 @@
       "source": "spacy_phrase",
       "wordKey": "passing_handle_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "ручка прохождения"
+        },
+        "uk": {
+          "translation": "пропускна ручка"
+        }
+      },
       "example": "‘I think I might have an even better one …’ she said, and grabbed a passing handle.",
       "exampleStart": 3638,
       "exampleEnd": 3721,
@@ -3390,7 +3932,8 @@
         "startInExample": 68,
         "endInExample": 82
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ˌpæsɪŋ ˈhændəl"
     },
     {
       "word": "pathetic",
@@ -3400,7 +3943,14 @@
       "source": "word",
       "wordKey": "pathetic_adjective",
       "level": "B2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "жалки"
+        },
+        "uk": {
+          "translation": "жалюгідний"
+        }
+      },
       "_spacyLemma": "pathetic",
       "example": "The ones at the back ran into the ones at the front, and there was a chorus of pathetic clanking noises.",
       "exampleStart": 2564,
@@ -3408,7 +3958,8 @@
       "matchedForm": "pathetic",
       "levelSource": "difficulty_heuristic",
       "difficultyScore": 0.685714,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "pəˈθetɪk"
     },
     {
       "word": "persuaded",
@@ -3437,7 +3988,7 @@
       "exampleStart": 3919,
       "exampleEnd": 3990,
       "matchedForm": "persuaded",
-      "ipa": "pəˈsweɪd",
+      "ipa": "pəˈsweɪdɪd",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.768571,
       "difficultySource": "zipf"
@@ -3454,6 +4005,9 @@
       "translations": {
         "ru": {
           "translation": "подобрать"
+        },
+        "uk": {
+          "translation": "Візьми трубку"
         }
       },
       "example": "Windle picked up a bit.",
@@ -3464,7 +4018,7 @@
         "startInExample": 7,
         "endInExample": 16
       },
-      "ipa": "pɪk ʌp",
+      "ipa": "ˌpɪkt ˈʌp",
       "levelSource": "phrase_index"
     },
     {
@@ -3478,6 +4032,9 @@
       "translations": {
         "ru": {
           "translation": "брать"
+        },
+        "uk": {
+          "translation": "забрати"
         }
       },
       "_spacyLemma": "pick",
@@ -3485,7 +4042,7 @@
       "exampleStart": 140,
       "exampleEnd": 270,
       "matchedForm": "picking",
-      "ipa": "pɪk",
+      "ipa": "ˈpɪkɪŋ",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.408571,
       "difficultySource": "zipf"
@@ -3501,6 +4058,9 @@
       "translations": {
         "ru": {
           "translation": "розовый"
+        },
+        "uk": {
+          "translation": "рожевий"
         }
       },
       "_spacyLemma": "pink",
@@ -3522,7 +4082,14 @@
       "source": "spacy_phrase",
       "wordKey": "pink_tubing_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Розовые трубы"
+        },
+        "uk": {
+          "translation": "Рожеве ванніння"
+        }
+      },
       "example": "Pink tubing poured out of the ravaged hole above them and coiled upon Arthur, making him look like a very cheap plate of spaghetti and meatballs.",
       "exampleStart": 2320,
       "exampleEnd": 2465,
@@ -3531,7 +4098,8 @@
         "startInExample": 0,
         "endInExample": 11
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ˌpɪŋk ˈtjuːbɪŋ"
     },
     {
       "word": "plant",
@@ -3544,6 +4112,9 @@
       "translations": {
         "ru": {
           "translation": "растение; завод"
+        },
+        "uk": {
+          "translation": "завод"
         }
       },
       "_spacyLemma": "plant",
@@ -3551,7 +4122,7 @@
       "exampleStart": 140,
       "exampleEnd": 270,
       "matchedForm": "plant",
-      "ipa": "plant",
+      "ipa": "plænt",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.462857,
       "difficultySource": "zipf"
@@ -3567,6 +4138,9 @@
       "translations": {
         "ru": {
           "translation": "тарелка"
+        },
+        "uk": {
+          "translation": "пластини"
         }
       },
       "_spacyLemma": "plate",
@@ -3590,6 +4164,9 @@
       "translations": {
         "ru": {
           "translation": "указывать"
+        },
+        "uk": {
+          "translation": "вказати"
         }
       },
       "_spacyLemma": "point",
@@ -3597,7 +4174,7 @@
       "exampleStart": 346,
       "exampleEnd": 363,
       "matchedForm": "pointed",
-      "ipa": "pɔɪnt",
+      "ipa": "ˈpɔɪntɪd",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.277143,
       "difficultySource": "zipf"
@@ -3613,6 +4190,9 @@
       "translations": {
         "ru": {
           "translation": "В горшке"
+        },
+        "uk": {
+          "translation": "горщик"
         }
       },
       "_spacyLemma": "potted",
@@ -3620,7 +4200,7 @@
       "exampleStart": 140,
       "exampleEnd": 270,
       "matchedForm": "potted",
-      "ipa": "pˈɑtɪd",
+      "ipa": "ˈpɒtɪd",
       "levelSource": "vocabulary_index",
       "difficultyScore": 1,
       "difficultySource": "zipf"
@@ -3637,6 +4217,9 @@
       "translations": {
         "ru": {
           "translation": "Горшечные растения"
+        },
+        "uk": {
+          "translation": "посипані рослини."
         }
       },
       "example": "’\n\n‘Whatever you’re thinking of doing,’ said Doreen, picking up a potted plant and holding it like a club, ‘I hope you do it fast.",
@@ -3647,7 +4230,7 @@
         "startInExample": 66,
         "endInExample": 78
       },
-      "ipa": "pˈɑtɪd plˈænts",
+      "ipa": "ˌpɒtɪd ˈplænt",
       "levelSource": "phrase_index"
     },
     {
@@ -3662,6 +4245,9 @@
       "translations": {
         "ru": {
           "translation": "вылил"
+        },
+        "uk": {
+          "translation": "Вилив"
         }
       },
       "example": "Pink tubing poured out of the ravaged hole above them and coiled upon Arthur, making him look like a very cheap plate of spaghetti and meatballs.",
@@ -3672,7 +4258,7 @@
         "startInExample": 12,
         "endInExample": 22
       },
-      "ipa": "pɔːr aʊt",
+      "ipa": "ˌpɔːd ˈaʊt",
       "levelSource": "phrase_index"
     },
     {
@@ -3687,6 +4273,9 @@
       "translations": {
         "ru": {
           "translation": "выливать"
+        },
+        "uk": {
+          "translation": "виливається"
         }
       },
       "example": "Tubing still poured out of the hole.",
@@ -3697,7 +4286,7 @@
         "startInExample": 13,
         "endInExample": 23
       },
-      "ipa": "pˈɔɹɪŋ ˈaʊt",
+      "ipa": "ˌpɔːd ˈaʊt",
       "levelSource": "phrase_index"
     },
     {
@@ -3711,6 +4300,9 @@
       "translations": {
         "ru": {
           "translation": "хлынуть"
+        },
+        "uk": {
+          "translation": "налити"
         }
       },
       "_spacyLemma": "pour",
@@ -3718,7 +4310,7 @@
       "exampleStart": 2320,
       "exampleEnd": 2465,
       "matchedForm": "poured",
-      "ipa": "pɔː",
+      "ipa": "pɔːd",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.688571,
       "difficultySource": "zipf"
@@ -3734,6 +4326,9 @@
       "translations": {
         "ru": {
           "translation": "вероятно"
+        },
+        "uk": {
+          "translation": "ймовірно"
         }
       },
       "_spacyLemma": "probably",
@@ -3773,7 +4368,7 @@
       "exampleStart": 2043,
       "exampleEnd": 2116,
       "matchedForm": "prodding",
-      "ipa": "prɒd",
+      "ipa": "ˈprɒdɪŋ",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.931429,
       "difficultySource": "zipf"
@@ -3805,7 +4400,7 @@
       "exampleStart": 3824,
       "exampleEnd": 3900,
       "matchedForm": "pushed",
-      "ipa": "pʊʃ",
+      "ipa": "pʊʃt",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.482857,
       "difficultySource": "zipf"
@@ -3818,7 +4413,14 @@
       "source": "word",
       "wordKey": "quicksand_noun",
       "level": "B2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Быстрый песок"
+        },
+        "uk": {
+          "translation": "сімплесанд"
+        }
+      },
       "_spacyLemma": "quicksand",
       "example": "‘I’d rather try and walk on quicksand.",
       "exampleStart": 3399,
@@ -3826,7 +4428,8 @@
       "matchedForm": "quicksand",
       "levelSource": "difficulty_heuristic",
       "difficultyScore": 1,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈkwɪksænd"
     },
     {
       "word": "ramp",
@@ -3839,6 +4442,9 @@
       "translations": {
         "ru": {
           "translation": "выступ"
+        },
+        "uk": {
+          "translation": "схил"
         }
       },
       "_spacyLemma": "ramp",
@@ -3846,7 +4452,7 @@
       "exampleStart": 3480,
       "exampleEnd": 3502,
       "matchedForm": "ramp",
-      "ipa": "ɹˈæmp",
+      "ipa": "ræmp",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.765714,
       "difficultySource": "zipf"
@@ -3859,7 +4465,14 @@
       "source": "word",
       "wordKey": "ravage_adjective",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "сожжённые"
+        },
+        "uk": {
+          "translation": "спустошені"
+        }
+      },
       "_spacyLemma": "ravage",
       "example": "Pink tubing poured out of the ravaged hole above them and coiled upon Arthur, making him look like a very cheap plate of spaghetti and meatballs.",
       "exampleStart": 2320,
@@ -3867,7 +4480,8 @@
       "matchedForm": "ravaged",
       "levelSource": "difficulty_heuristic",
       "difficultyScore": 1,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈrævɪdʒd"
     },
     {
       "word": "reach",
@@ -3880,6 +4494,9 @@
       "translations": {
         "ru": {
           "translation": "достигать"
+        },
+        "uk": {
+          "translation": "досягти"
         }
       },
       "_spacyLemma": "reach",
@@ -3903,6 +4520,9 @@
       "translations": {
         "ru": {
           "translation": "оставаться"
+        },
+        "uk": {
+          "translation": "залишаються"
         }
       },
       "_spacyLemma": "remain",
@@ -3910,7 +4530,7 @@
       "exampleStart": 3033,
       "exampleEnd": 3083,
       "matchedForm": "remained",
-      "ipa": "rɪˈmeɪn",
+      "ipa": "rɪˈmeɪnd",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.48,
       "difficultySource": "zipf"
@@ -3926,6 +4546,9 @@
       "translations": {
         "ru": {
           "translation": "вспоминал"
+        },
+        "uk": {
+          "translation": "пам'ятайте"
         }
       },
       "_spacyLemma": "remember",
@@ -3946,7 +4569,14 @@
       "source": "word",
       "wordKey": "reverse_noun",
       "level": "B2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "наоборот"
+        },
+        "uk": {
+          "translation": "навпаки"
+        }
+      },
       "_spacyLemma": "reverse",
       "example": "The fountains seemed to operate in reverse for a moment, and then dried up.",
       "exampleStart": 2466,
@@ -3954,7 +4584,8 @@
       "matchedForm": "reverse",
       "levelSource": "cefr_frequency",
       "difficultyScore": 0.611429,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "rɪˈvɜːs"
     },
     {
       "word": "right",
@@ -3967,6 +4598,9 @@
       "translations": {
         "ru": {
           "translation": "правильный"
+        },
+        "uk": {
+          "translation": "правому"
         }
       },
       "_spacyLemma": "right",
@@ -3990,6 +4624,9 @@
       "translations": {
         "ru": {
           "translation": "круглый"
+        },
+        "uk": {
+          "translation": "круглих"
         }
       },
       "_spacyLemma": "round",
@@ -4014,6 +4651,9 @@
       "translations": {
         "ru": {
           "translation": "сталкиваться"
+        },
+        "uk": {
+          "translation": "настала"
         }
       },
       "example": "The ones at the back ran into the ones at the front, and there was a chorus of pathetic clanking noises.",
@@ -4024,7 +4664,7 @@
         "startInExample": 21,
         "endInExample": 29
       },
-      "ipa": "ɹˈʌn ˈɪntu",
+      "ipa": "ˈræn ˌɪntʊ",
       "levelSource": "phrase_index"
     },
     {
@@ -4038,6 +4678,9 @@
       "translations": {
         "ru": {
           "translation": "бежать"
+        },
+        "uk": {
+          "translation": "запустити"
         }
       },
       "_spacyLemma": "run",
@@ -4045,7 +4688,7 @@
       "exampleStart": 2564,
       "exampleEnd": 2668,
       "matchedForm": "ran",
-      "ipa": "rʌn",
+      "ipa": "ræn",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.291429,
       "difficultySource": "zipf"
@@ -4061,6 +4704,9 @@
       "translations": {
         "ru": {
           "translation": "безопасный"
+        },
+        "uk": {
+          "translation": "безпечний"
         }
       },
       "_spacyLemma": "safe",
@@ -4068,7 +4714,7 @@
       "exampleStart": 3437,
       "exampleEnd": 3478,
       "matchedForm": "safer",
-      "ipa": "seɪf",
+      "ipa": "ˈseɪfə",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.411429,
       "difficultySource": "zipf"
@@ -4084,6 +4730,9 @@
       "translations": {
         "ru": {
           "translation": "сказать"
+        },
+        "uk": {
+          "translation": "сказати"
         }
       },
       "_spacyLemma": "say",
@@ -4091,7 +4740,7 @@
       "exampleStart": 0,
       "exampleEnd": 46,
       "matchedForm": "said",
-      "ipa": "seɪ",
+      "ipa": "sed",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.177143,
       "difficultySource": "zipf"
@@ -4123,7 +4772,7 @@
       "exampleStart": 2043,
       "exampleEnd": 2116,
       "matchedForm": "screamed",
-      "ipa": "skriːm",
+      "ipa": "skriːmd",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.677143,
       "difficultySource": "zipf"
@@ -4140,6 +4789,9 @@
       "translations": {
         "ru": {
           "translation": "Успокойтесь"
+        },
+        "uk": {
+          "translation": "Заспокойся"
         }
       },
       "example": "The trolley fought for a moment and then, lacking any contrary instructions, settled down docilely.",
@@ -4150,7 +4802,7 @@
         "startInExample": 77,
         "endInExample": 89
       },
-      "ipa": "ˈsetəl daʊn",
+      "ipa": "ˌsetəld ˈdaʊn",
       "levelSource": "phrase_index"
     },
     {
@@ -4180,7 +4832,7 @@
       "exampleStart": 3723,
       "exampleEnd": 3822,
       "matchedForm": "settled",
-      "ipa": "ˈsɛtld",
+      "ipa": "ˈsetəld",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.611429,
       "difficultySource": "zipf"
@@ -4193,7 +4845,14 @@
       "source": "word",
       "wordKey": "shadowless_adjective",
       "level": "C1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Без темноты"
+        },
+        "uk": {
+          "translation": "без тіні"
+        }
+      },
       "_spacyLemma": "shadowless",
       "example": "The black steps glistened in the shadowless light.",
       "exampleStart": 3309,
@@ -4201,7 +4860,8 @@
       "matchedForm": "shadowless",
       "levelSource": "difficulty_heuristic",
       "difficultyScore": 1,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈʃædəʊləs"
     },
     {
       "word": "shadowless light",
@@ -4212,7 +4872,14 @@
       "source": "spacy_phrase",
       "wordKey": "shadowless_light_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "безтемневый свет"
+        },
+        "uk": {
+          "translation": "безтілесне світло"
+        }
+      },
       "example": "The black steps glistened in the shadowless light.",
       "exampleStart": 3309,
       "exampleEnd": 3359,
@@ -4221,7 +4888,8 @@
         "startInExample": 33,
         "endInExample": 49
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ˌʃædəʊləs ˈlaɪt"
     },
     {
       "word": "shoulder",
@@ -4234,6 +4902,9 @@
       "translations": {
         "ru": {
           "translation": "плечи"
+        },
+        "uk": {
+          "translation": "плече"
         }
       },
       "_spacyLemma": "shoulder",
@@ -4305,7 +4976,7 @@
       "exampleStart": 3007,
       "exampleEnd": 3032,
       "matchedForm": "slumped",
-      "ipa": "slʌmp",
+      "ipa": "slʌmpt",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.9,
       "difficultySource": "zipf"
@@ -4337,7 +5008,7 @@
       "exampleStart": 945,
       "exampleEnd": 983,
       "matchedForm": "snarled",
-      "ipa": "snɑːrl",
+      "ipa": "snɑːld",
       "levelSource": "vocabulary_index",
       "difficultyScore": 1,
       "difficultySource": "zipf"
@@ -4353,6 +5024,9 @@
       "translations": {
         "ru": {
           "translation": "скоро"
+        },
+        "uk": {
+          "translation": "незабаром"
         }
       },
       "_spacyLemma": "soon",
@@ -4360,7 +5034,7 @@
       "exampleStart": 2932,
       "exampleEnd": 2962,
       "matchedForm": "sooner",
-      "ipa": "suːn",
+      "ipa": "ˈsuːnə",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.34,
       "difficultySource": "zipf"
@@ -4376,6 +5050,9 @@
       "translations": {
         "ru": {
           "translation": "сортировать"
+        },
+        "uk": {
+          "translation": "сортування"
         }
       },
       "_spacyLemma": "sort",
@@ -4396,7 +5073,14 @@
       "source": "word",
       "wordKey": "spaghetti_noun",
       "level": "A1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Спагетти"
+        },
+        "uk": {
+          "translation": "спагеті"
+        }
+      },
       "_spacyLemma": "spaghetti",
       "example": "Pink tubing poured out of the ravaged hole above them and coiled upon Arthur, making him look like a very cheap plate of spaghetti and meatballs.",
       "exampleStart": 2320,
@@ -4404,7 +5088,8 @@
       "matchedForm": "spaghetti",
       "levelSource": "cefr_frequency",
       "difficultyScore": 0.817143,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "spəˈɡeti"
     },
     {
       "word": "species",
@@ -4417,6 +5102,9 @@
       "translations": {
         "ru": {
           "translation": "Виды"
+        },
+        "uk": {
+          "translation": "видів"
         }
       },
       "_spacyLemma": "specie",
@@ -4424,7 +5112,7 @@
       "exampleStart": 1742,
       "exampleEnd": 1780,
       "matchedForm": "species",
-      "ipa": "spˈiʃiz",
+      "ipa": "ˈspiːsiːz",
       "levelSource": "vocabulary_index",
       "difficultyScore": 1,
       "difficultySource": "zipf"
@@ -4440,6 +5128,9 @@
       "translations": {
         "ru": {
           "translation": "пищать; скрипеть"
+        },
+        "uk": {
+          "translation": "скрип; Скрип"
         }
       },
       "_spacyLemma": "squeak",
@@ -4447,7 +5138,7 @@
       "exampleStart": 1780,
       "exampleEnd": 1833,
       "matchedForm": "squeaked",
-      "ipa": "skwiːk",
+      "ipa": "skwiːkt",
       "levelSource": "vocabulary_index",
       "difficultyScore": 1,
       "difficultySource": "zipf"
@@ -4463,6 +5154,9 @@
       "translations": {
         "ru": {
           "translation": "ступень; лестница"
+        },
+        "uk": {
+          "translation": "перила"
         }
       },
       "_spacyLemma": "stair",
@@ -4470,7 +5164,7 @@
       "exampleStart": 3128,
       "exampleEnd": 3173,
       "matchedForm": "stairs",
-      "ipa": "steə",
+      "ipa": "steəz",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.928571,
       "difficultySource": "zipf"
@@ -4486,6 +5180,9 @@
       "translations": {
         "ru": {
           "translation": "стоять"
+        },
+        "uk": {
+          "translation": "стояти"
         }
       },
       "_spacyLemma": "stand",
@@ -4493,7 +5190,7 @@
       "exampleStart": 415,
       "exampleEnd": 441,
       "matchedForm": "stand",
-      "ipa": "stand",
+      "ipa": "stænd",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.391429,
       "difficultySource": "zipf"
@@ -4509,6 +5206,9 @@
       "translations": {
         "ru": {
           "translation": "шаг"
+        },
+        "uk": {
+          "translation": "крок"
         }
       },
       "_spacyLemma": "step",
@@ -4516,7 +5216,7 @@
       "exampleStart": 3309,
       "exampleEnd": 3359,
       "matchedForm": "steps",
-      "ipa": "step",
+      "ipa": "steps",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.394286,
       "difficultySource": "zipf"
@@ -4564,6 +5264,9 @@
       "translations": {
         "ru": {
           "translation": "остановиться"
+        },
+        "uk": {
+          "translation": "зупинити"
         }
       },
       "_spacyLemma": "stop",
@@ -4635,7 +5338,7 @@
       "exampleStart": 945,
       "exampleEnd": 983,
       "matchedForm": "swaying",
-      "ipa": "sweɪd",
+      "ipa": "ˈsweɪɪŋ",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.817143,
       "difficultySource": "zipf"
@@ -4649,7 +5352,14 @@
       "source": "spacy_phrase",
       "wordKey": "take_aim_phrase",
       "level": "A2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Цельтесь"
+        },
+        "uk": {
+          "translation": "готова мета"
+        }
+      },
       "example": "Windle held him by the ears like a misshapen bowling ball and tried to take aim.",
       "exampleStart": 1660,
       "exampleEnd": 1740,
@@ -4658,7 +5368,8 @@
         "startInExample": 71,
         "endInExample": 79
       },
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "ipa": "ˌteɪk ˈeɪm"
     },
     {
       "word": "thing",
@@ -4671,6 +5382,9 @@
       "translations": {
         "ru": {
           "translation": "вещи"
+        },
+        "uk": {
+          "translation": "річ"
         }
       },
       "_spacyLemma": "thing",
@@ -4694,6 +5408,9 @@
       "translations": {
         "ru": {
           "translation": "думать"
+        },
+        "uk": {
+          "translation": "думаю"
         }
       },
       "_spacyLemma": "think",
@@ -4701,7 +5418,7 @@
       "exampleStart": 140,
       "exampleEnd": 270,
       "matchedForm": "thinking",
-      "ipa": "θɪŋk",
+      "ipa": "ˈθɪŋkɪŋ",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.122857,
       "difficultySource": "zipf"
@@ -4717,6 +5434,9 @@
       "translations": {
         "ru": {
           "translation": "брось"
+        },
+        "uk": {
+          "translation": "кинути"
         }
       },
       "_spacyLemma": "throw",
@@ -4724,7 +5444,7 @@
       "exampleStart": 1297,
       "exampleEnd": 1340,
       "matchedForm": "throw",
-      "ipa": "θɹˈəʊ",
+      "ipa": "θrəʊ",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.48,
       "difficultySource": "zipf"
@@ -4741,6 +5461,9 @@
       "translations": {
         "ru": {
           "translation": "подбрасывать"
+        },
+        "uk": {
+          "translation": "блює"
         }
       },
       "example": "’\n\n‘You could throw him up,’ said Ludmilla.",
@@ -4751,7 +5474,7 @@
         "startInExample": 14,
         "endInExample": 26
       },
-      "ipa": "θɹˈəʊɪŋ ˈʌp",
+      "ipa": "ˌθrəʊ ˈʌp",
       "levelSource": "phrase_index"
     },
     {
@@ -4765,6 +5488,9 @@
       "translations": {
         "ru": {
           "translation": "бросать"
+        },
+        "uk": {
+          "translation": "кинути"
         }
       },
       "_spacyLemma": "throw",
@@ -4836,7 +5562,7 @@
       "exampleStart": 2876,
       "exampleEnd": 2898,
       "matchedForm": "trembled",
-      "ipa": "ˈtrɛmblɪŋ",
+      "ipa": "ˈtrembəld",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.991429,
       "difficultySource": "zipf"
@@ -4849,7 +5575,14 @@
       "source": "word",
       "wordKey": "trolley_noun",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "тележка"
+        },
+        "uk": {
+          "translation": "тролейбус"
+        }
+      },
       "_spacyLemma": "trolley",
       "example": "Doreen stopped glaring at the creeping trolleys.",
       "exampleStart": 714,
@@ -4857,7 +5590,8 @@
       "matchedForm": "trolleys",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.877143,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈtrɒliz"
     },
     {
       "word": "tried",
@@ -4870,6 +5604,9 @@
       "translations": {
         "ru": {
           "translation": "пытаться"
+        },
+        "uk": {
+          "translation": "спробуйте"
         }
       },
       "_spacyLemma": "try",
@@ -4877,7 +5614,7 @@
       "exampleStart": 1660,
       "exampleEnd": 1740,
       "matchedForm": "tried",
-      "ipa": "traɪ",
+      "ipa": "traɪd",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.288571,
       "difficultySource": "zipf"
@@ -4890,7 +5627,14 @@
       "source": "word",
       "wordKey": "tubing_noun",
       "level": "B2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Трубопроводы"
+        },
+        "uk": {
+          "translation": "трубка"
+        }
+      },
       "_spacyLemma": "tubing",
       "example": "Pink tubing poured out of the ravaged hole above them and coiled upon Arthur, making him look like a very cheap plate of spaghetti and meatballs.",
       "exampleStart": 2320,
@@ -4898,7 +5642,8 @@
       "matchedForm": "tubing",
       "levelSource": "cefr_frequency",
       "difficultyScore": 0.92,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈtjuːbɪŋ"
     },
     {
       "word": "turn into",
@@ -4912,6 +5657,9 @@
       "translations": {
         "ru": {
           "translation": "превратился в"
+        },
+        "uk": {
+          "translation": "перетворився"
         }
       },
       "example": "’\n\n‘I thought you could turn into a bat?",
@@ -4922,7 +5670,7 @@
         "startInExample": 24,
         "endInExample": 33
       },
-      "ipa": "tɜːn ˌɪntʊ",
+      "ipa": "ˈtɜːn ˌɪntʊ",
       "levelSource": "phrase_index"
     },
     {
@@ -4936,6 +5684,9 @@
       "translations": {
         "ru": {
           "translation": "повернуть"
+        },
+        "uk": {
+          "translation": "перетворити"
         }
       },
       "_spacyLemma": "turn",
@@ -4975,7 +5726,7 @@
       "exampleStart": 2731,
       "exampleEnd": 2769,
       "matchedForm": "unpleasant",
-      "ipa": "ʌnˈplɛzənt",
+      "ipa": "ʌnˈplezənt",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.774286,
       "difficultySource": "zipf"
@@ -4988,7 +5739,14 @@
       "source": "word",
       "wordKey": "upright_adjective",
       "level": "B2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "вертикальное"
+        },
+        "uk": {
+          "translation": "тримаючи"
+        }
+      },
       "_spacyLemma": "upright",
       "example": "The other wizards remained upright, but only just.",
       "exampleStart": 3033,
@@ -4996,7 +5754,8 @@
       "matchedForm": "upright",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.791429,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈʌpraɪt"
     },
     {
       "word": "vampire",
@@ -5006,7 +5765,14 @@
       "source": "word",
       "wordKey": "vampire_adjective",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Вампир"
+        },
+        "uk": {
+          "translation": "вампер"
+        }
+      },
       "_spacyLemma": "vampire",
       "example": "Is that some sort of vampire code?",
       "exampleStart": 801,
@@ -5014,7 +5780,8 @@
       "matchedForm": "vampire",
       "levelSource": "cefr_frequency",
       "difficultyScore": 0.708571,
-      "difficultySource": "zipf"
+      "difficultySource": "zipf",
+      "ipa": "ˈvæmpaɪə"
     },
     {
       "word": "vampire code",
@@ -5025,7 +5792,14 @@
       "source": "spacy_phrase",
       "wordKey": "vampire_code_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Вампирский код"
+        },
+        "uk": {
+          "translation": "вампірський код"
+        }
+      },
       "example": "Is that some sort of vampire code?",
       "exampleStart": 801,
       "exampleEnd": 835,
@@ -5034,7 +5808,8 @@
         "startInExample": 21,
         "endInExample": 33
       },
-      "levelSource": "phrase_fallback"
+      "levelSource": "phrase_fallback",
+      "ipa": "ˌvæmpaɪə ˈkəʊd"
     },
     {
       "word": "vision",
@@ -5047,6 +5822,9 @@
       "translations": {
         "ru": {
           "translation": "видение"
+        },
+        "uk": {
+          "translation": "зір"
         }
       },
       "_spacyLemma": "vision",
@@ -5054,7 +5832,7 @@
       "exampleStart": 2133,
       "exampleEnd": 2290,
       "matchedForm": "vision",
-      "ipa": "vˈɪʒən",
+      "ipa": "ˈvɪʒən",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.537143,
       "difficultySource": "zipf"
@@ -5071,6 +5849,9 @@
       "translations": {
         "ru": {
           "translation": "Иди дальше"
+        },
+        "uk": {
+          "translation": "ходила по"
         }
       },
       "example": "‘I’d rather try and walk on quicksand.",
@@ -5081,7 +5862,7 @@
         "startInExample": 20,
         "endInExample": 27
       },
-      "ipa": "wˈɔk ˈɔn",
+      "ipa": "ˌwɔːk ˈɒn",
       "levelSource": "phrase_index"
     },
     {
@@ -5095,6 +5876,9 @@
       "translations": {
         "ru": {
           "translation": "ходить"
+        },
+        "uk": {
+          "translation": "ходити"
         }
       },
       "_spacyLemma": "walk",
@@ -5118,6 +5902,9 @@
       "translations": {
         "ru": {
           "translation": "хотеть"
+        },
+        "uk": {
+          "translation": "хочете"
         }
       },
       "_spacyLemma": "want",
@@ -5141,6 +5928,9 @@
       "translations": {
         "ru": {
           "translation": "способ"
+        },
+        "uk": {
+          "translation": "шлях"
         }
       },
       "_spacyLemma": "way",
@@ -5164,6 +5954,9 @@
       "translations": {
         "ru": {
           "translation": "лучше"
+        },
+        "uk": {
+          "translation": "добре"
         }
       },
       "_spacyLemma": "well",
@@ -5171,7 +5964,7 @@
       "exampleStart": 2814,
       "exampleEnd": 2876,
       "matchedForm": "better",
-      "ipa": "wel",
+      "ipa": "ˈbetə",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.137143,
       "difficultySource": "zipf"
@@ -5203,7 +5996,7 @@
       "exampleStart": 835,
       "exampleEnd": 851,
       "matchedForm": "whispered",
-      "ipa": "ˈwɪspə",
+      "ipa": "ˈwɪspəd",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.791429,
       "difficultySource": "zipf"
@@ -5235,7 +6028,7 @@
       "exampleStart": 3033,
       "exampleEnd": 3083,
       "matchedForm": "wizards",
-      "ipa": "ˈwɪzərd",
+      "ipa": "ˈwɪzədz",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.737143,
       "difficultySource": "zipf"
@@ -5252,6 +6045,9 @@
       "translations": {
         "ru": {
           "translation": "ваша ступня"
+        },
+        "uk": {
+          "translation": "Твоя нога"
         }
       },
       "example": "Right – one foot here, now your hand here, now put your foot on Reg’s shoulder—’\n\n‘And don’t go through,’ said Reg.",
@@ -5262,7 +6058,7 @@
         "startInExample": 51,
         "endInExample": 60
       },
-      "ipa": "jɔː fʊt",
+      "ipa": "jɔː ˈfʊt",
       "levelSource": "phrase_index"
     },
     {
@@ -5277,6 +6073,9 @@
       "translations": {
         "ru": {
           "translation": "ваша рука"
+        },
+        "uk": {
+          "translation": "Твоя рука"
         }
       },
       "example": "Right – one foot here, now your hand here, now put your foot on Reg’s shoulder—’\n\n‘And don’t go through,’ said Reg.",
@@ -5287,7 +6086,7 @@
         "startInExample": 27,
         "endInExample": 36
       },
-      "ipa": "jɔː hand",
+      "ipa": "jɔː ˈhænd",
       "levelSource": "phrase_index"
     }
   ],

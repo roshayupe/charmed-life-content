@@ -47105,17 +47105,17 @@
       "dictionaryTranslation": "думать",
       "rowTranslation": "думать",
       "sourceSentenceId": "ch16_p036_s002",
-      "targetSentenceId": "ch16_p036_t002",
       "sourceSpan": {
         "start": 3,
         "end": 10
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
+      "alignmentMethod": "manual_unmatched",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": "manual_omission",
+      "alignmentWarning": "Manually confirmed: this source item is omitted from the published translation.",
       "status": "missing_target",
-      "reason": "target span unavailable"
+      "reason": "Manually confirmed omission in the published translation.",
+      "contextTranslation": ""
     },
     {
       "id": "pv-charmed-life-en_sct16_f3-ought_verb-ch16_p036_s002-14-19-115",
@@ -47374,7 +47374,7 @@
       "pos": "verb",
       "level": "A1",
       "sourceText": "get",
-      "targetText": "получил",
+      "targetText": "защиту от ожогов",
       "dictionaryTranslation": "получил",
       "rowTranslation": "получил",
       "sourceSentenceId": "ch16_p036_s003",
@@ -47383,12 +47383,16 @@
         "start": 78,
         "end": 81
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 80,
+        "end": 96
+      },
+      "contextTranslation": "защиту от ожогов"
     },
     {
       "id": "pv-charmed-life-en_sct16_f3-burn_verb-ch16_p036_s003-82-88-18",
@@ -47816,7 +47820,7 @@
       "pos": "verb",
       "level": "C1",
       "sourceText": "finding",
-      "targetText": "обнаружил",
+      "targetText": "жар стал",
       "dictionaryTranslation": "обнаружил",
       "rowTranslation": "обнаружил",
       "sourceSentenceId": "ch16_p040_s002",
@@ -47825,12 +47829,16 @@
         "start": 8,
         "end": 15
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 16,
+        "end": 24
+      },
+      "contextTranslation": "жар стал"
     },
     {
       "id": "pv-charmed-life-en_sct16_f3-heat_noun-ch16_p040_s002-20-24-65",
@@ -48146,7 +48154,7 @@
       "pos": "verb",
       "level": "A1",
       "sourceText": "joining",
-      "targetText": "соединять; присоединяться",
+      "targetText": "на неправильной стороне",
       "dictionaryTranslation": "соединять; присоединяться",
       "rowTranslation": "соединять; присоединяться",
       "sourceSentenceId": "ch16_p040_s006",
@@ -48155,12 +48163,16 @@
         "start": 12,
         "end": 19
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 7,
+        "end": 30
+      },
+      "contextTranslation": "на неправильной стороне"
     },
     {
       "id": "pv-charmed-life-en_sct16_f3-wrong_adjective-ch16_p040_s006-30-35-188",
@@ -48198,7 +48210,7 @@
       "pos": "adverb",
       "level": "B1",
       "sourceText": "barely",
-      "targetText": "едва",
+      "targetText": "почти",
       "dictionaryTranslation": "едва",
       "rowTranslation": "едва",
       "sourceSentenceId": "ch16_p040_s007",
@@ -48207,12 +48219,16 @@
         "start": 39,
         "end": 45
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign target tokens were empty or only common function words after compact clustering.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 19,
+        "end": 24
+      },
+      "contextTranslation": "почти"
     },
     {
       "id": "pv-charmed-life-en_sct16_f3-notice_verb-ch16_p040_s007-46-53-112",
@@ -48278,7 +48294,7 @@
       "pos": "verb",
       "level": "A1",
       "sourceText": "stop",
-      "targetText": "остановиться",
+      "targetText": "не дать",
       "dictionaryTranslation": "остановиться",
       "rowTranslation": "остановиться",
       "sourceSentenceId": "ch16_p040_s009",
@@ -48287,12 +48303,16 @@
         "start": 38,
         "end": 42
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign target tokens were empty or only common function words after compact clustering.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 37,
+        "end": 44
+      },
+      "contextTranslation": "не дать"
     },
     {
       "id": "pv-charmed-life-en_sct16_f3-get_verb-ch16_p040_s009-85-92-54",
@@ -49331,7 +49351,7 @@
       "pos": "verb",
       "level": "B1",
       "sourceText": "supposed",
-      "targetText": "предполагать",
+      "targetText": "Наверное",
       "dictionaryTranslation": "предполагать",
       "rowTranslation": "предполагать",
       "sourceSentenceId": "ch16_p044_s004",
@@ -49339,12 +49359,17 @@
         "start": 57,
         "end": 65
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "translated sentence unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSentenceId": "ch16_p044_t005",
+      "targetSpan": {
+        "start": 0,
+        "end": 8
+      },
+      "contextTranslation": "Наверное"
     },
     {
       "id": "pv-charmed-life-en_sct16_f3-trick_noun-ch16_p044_s004-78-83-166",
@@ -49354,7 +49379,7 @@
       "pos": "noun",
       "level": "B2",
       "sourceText": "trick",
-      "targetText": "трюк",
+      "targetText": "из-за склона",
       "dictionaryTranslation": "трюк",
       "rowTranslation": "трюк",
       "sourceSentenceId": "ch16_p044_s004",
@@ -49362,12 +49387,17 @@
         "start": 78,
         "end": 83
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "translated sentence unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSentenceId": "ch16_p044_t005",
+      "targetSpan": {
+        "start": 10,
+        "end": 22
+      },
+      "contextTranslation": "из-за склона"
     },
     {
       "id": "pv-charmed-life-en_sct16_f3-hillside_noun-ch16_p044_s004-91-99-69",
@@ -49933,7 +49963,7 @@
       "pos": "adjective",
       "level": "A2",
       "sourceText": "poor",
-      "targetText": "бедный",
+      "targetText": "бедняга",
       "dictionaryTranslation": "бедный",
       "rowTranslation": "бедный",
       "sourceSentenceId": "ch16_p045_s003",
@@ -49942,12 +49972,16 @@
         "start": 5,
         "end": 9
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 5,
+        "end": 12
+      },
+      "contextTranslation": "бедняга"
     },
     {
       "id": "pv-charmed-life-en_sct16_f3-beast_noun-ch16_p045_s003-10-15-12",
@@ -50376,7 +50410,7 @@
       "pos": "verb",
       "level": "A1",
       "sourceText": "get",
-      "targetText": "получил",
+      "targetText": "пора за работу",
       "dictionaryTranslation": "получил",
       "rowTranslation": "получил",
       "sourceSentenceId": "ch16_p046_s005",
@@ -50385,12 +50419,16 @@
         "start": 13,
         "end": 16
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 12,
+        "end": 26
+      },
+      "contextTranslation": "пора за работу"
     },
     {
       "id": "pv-charmed-life-en_sct16_f3-work_verb-ch16_p046_s005-20-24-187",
@@ -50761,7 +50799,7 @@
       "pos": "adjective",
       "level": "A2",
       "sourceText": "tall",
-      "targetText": "высокий",
+      "targetText": "до самого неба",
       "dictionaryTranslation": "высокий",
       "rowTranslation": "высокий",
       "sourceSentenceId": "ch16_p047_s003",
@@ -50769,12 +50807,17 @@
         "start": 111,
         "end": 115
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "translated sentence unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSentenceId": "ch16_p047_t004",
+      "targetSpan": {
+        "start": 44,
+        "end": 58
+      },
+      "contextTranslation": "до самого неба"
     },
     {
       "id": "pv-charmed-life-en_sct16_f3-sky_noun-ch16_p047_s003-123-126-136",
@@ -50951,7 +50994,7 @@
       "pos": "verb",
       "level": "A1",
       "sourceText": "make",
-      "targetText": "делать",
+      "targetText": "успокоить",
       "dictionaryTranslation": "делать",
       "rowTranslation": "делать",
       "sourceSentenceId": "ch16_p047_s003",
@@ -50959,12 +51002,17 @@
         "start": 231,
         "end": 235
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "translated sentence unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSentenceId": "ch16_p047_t004",
+      "targetSpan": {
+        "start": 170,
+        "end": 179
+      },
+      "contextTranslation": "успокоить"
     },
     {
       "id": "pv-charmed-life-en_sct16_f3-safe_adjective-ch16_p047_s003-244-249-128",
@@ -51058,7 +51106,7 @@
       "pos": "noun",
       "level": "A1",
       "sourceText": "time",
-      "targetText": "время",
+      "targetText": "временами",
       "dictionaryTranslation": "время",
       "rowTranslation": "время",
       "sourceSentenceId": "ch16_p047_s004",
@@ -51067,12 +51115,16 @@
         "start": 42,
         "end": 46
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 10,
+        "end": 19
+      },
+      "contextTranslation": "временами"
     },
     {
       "id": "pv-charmed-life-en_sct16_f3-stride_verb-ch16_p047_s004-48-56-154",
@@ -51746,7 +51798,7 @@
       "pos": "verb",
       "level": "C1",
       "sourceText": "whirling",
-      "targetText": "кружиться",
+      "targetText": "вихря",
       "dictionaryTranslation": "кружиться",
       "rowTranslation": "кружиться",
       "sourceSentenceId": "ch16_p047_s009",
@@ -51755,12 +51807,16 @@
         "start": 10,
         "end": 18
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 16,
+        "end": 21
+      },
+      "contextTranslation": "вихря"
     },
     {
       "id": "pv-charmed-life-en_sct16_f3-whiteness_noun-ch16_p047_s009-27-36-181",
@@ -51993,7 +52049,7 @@
       "pos": "adverb",
       "level": "A1",
       "sourceText": "past",
-      "targetText": "прошлое",
+      "targetText": "Мимо",
       "dictionaryTranslation": "прошлое",
       "rowTranslation": "прошлое",
       "sourceSentenceId": "ch16_p047_s010",
@@ -52002,12 +52058,16 @@
         "start": 10,
         "end": 14
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 0,
+        "end": 4
+      },
+      "contextTranslation": "Мимо"
     },
     {
       "id": "pv-charmed-life-en_sct16_f3-make_verb-ch16_p047_s010-16-22-101",
@@ -52210,7 +52270,7 @@
       "pos": "noun",
       "level": "B1",
       "sourceText": "butler",
-      "targetText": "дворецкий",
+      "targetText": "дворецкого",
       "dictionaryTranslation": "дворецкий",
       "rowTranslation": "дворецкий",
       "sourceSentenceId": "ch16_p047_s012",
@@ -52219,12 +52279,16 @@
         "start": 27,
         "end": 33
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 68,
+        "end": 78
+      },
+      "contextTranslation": "дворецкого"
     },
     {
       "id": "pv-charmed-life-en_sct16_f3-footman_noun-ch16_p047_s012-37-44-50",
@@ -52234,7 +52298,7 @@
       "pos": "noun",
       "level": "C1",
       "sourceText": "footman",
-      "targetText": "дворецкий",
+      "targetText": "лакея",
       "dictionaryTranslation": "дворецкий",
       "rowTranslation": "дворецкий",
       "sourceSentenceId": "ch16_p047_s012",
@@ -52243,12 +52307,16 @@
         "start": 37,
         "end": 44
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 80,
+        "end": 85
+      },
+      "contextTranslation": "лакея"
     },
     {
       "id": "pv-charmed-life-en_sct16_f3-gardener_noun-ch16_p047_s012-50-59-53",
@@ -52398,7 +52466,7 @@
       "pos": "verb",
       "level": "B2",
       "sourceText": "spinning",
-      "targetText": "вращаться",
+      "targetText": "вращающемся",
       "dictionaryTranslation": "вращаться",
       "rowTranslation": "вращаться",
       "sourceSentenceId": "ch16_p047_s012",
@@ -52407,12 +52475,16 @@
         "start": 138,
         "end": 146
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 14,
+        "end": 25
+      },
+      "contextTranslation": "вращающемся"
     },
     {
       "id": "pv-charmed-life-en_sct16_f3-scream_verb-ch16_p047_s012-148-157-131",
@@ -53645,11 +53717,11 @@
           "targetText": "бедняга"
         }
       ],
-      "alignmentMethod": "component_aggregate",
-      "alignmentConfidence": "medium",
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
       "alignmentWarningCode": null,
       "alignmentWarning": "",
-      "status": "review",
+      "status": "ok",
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
@@ -54261,20 +54333,24 @@
       "sourceText": "joining in",
       "dictionaryTranslation": "Присоединяйтесь",
       "rowTranslation": "Присоединяйтесь",
-      "targetText": "Присоединяйтесь",
-      "contextTranslation": "",
+      "targetText": "на неправильной стороне",
+      "contextTranslation": "на неправильной стороне",
       "sourceSentenceId": "ch16_p040_s006",
       "sourceSpan": {
         "start": 12,
         "end": 22
       },
       "targetSentenceId": "ch16_p040_t006",
-      "alignmentMethod": "mwe_lexical_inventory",
-      "alignmentConfidence": "low",
-      "alignmentWarningCode": "target_span_missing",
-      "alignmentWarning": "MWE materialized from lexical inventory; target span is not available.",
-      "status": "review",
-      "includeInVocabularySelection": true
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "includeInVocabularySelection": true,
+      "targetSpan": {
+        "start": 7,
+        "end": 30
+      }
     },
     {
       "id": "lexical-mwe-sct16_f3-1309-1328-mwe-dictionary_phrasal",
@@ -55521,15 +55597,15 @@
       "vocabularyRows": 273,
       "sourceSpanFoundRows": 273,
       "sourceSpanMissingRows": 0,
-      "targetSpanFoundRows": 254,
-      "targetSpanMissingRows": 19,
+      "targetSpanFoundRows": 272,
+      "targetSpanMissingRows": 1,
       "phraseRows": 42,
       "phraseSourceSpanFoundRows": 42,
-      "phraseTargetSpanFoundRows": 41,
-      "phraseTargetSpanMissingRows": 1,
+      "phraseTargetSpanFoundRows": 42,
+      "phraseTargetSpanMissingRows": 0,
       "ordinaryRows": 231,
-      "ordinaryTargetSpanFoundRows": 213,
-      "ordinaryTargetSpanMissingRows": 18,
+      "ordinaryTargetSpanFoundRows": 230,
+      "ordinaryTargetSpanMissingRows": 1,
       "targetSpanMissingExamples": [
         {
           "lessonId": "charmed-life-en_sct16_f3",
@@ -55543,236 +55619,6 @@
           "sourceSentenceText": "He thought he ought to help, since they needed her so much, but he did not know what to do.",
           "translatedParagraphText": "Кэту казалось, что все пытаются призвать Милли. Раз она так нужна, ему тоже следовало бы помочь, но он не знал как. Кроме того, пламя дракона становилось таким горячим, что вся энергия уходила на защиту от ожогов.",
           "reason": "target_span_missing"
-        },
-        {
-          "lessonId": "charmed-life-en_sct16_f3",
-          "wordKey": "get_verb",
-          "word": "getting",
-          "lemma": "get",
-          "pos": "verb",
-          "type": "verb",
-          "rowTranslation": "получил",
-          "sourceText": "get",
-          "sourceSentenceText": "Besides, the dragon’s flames were so hot that he needed all his energy not to get burned.",
-          "translatedParagraphText": "Кэту казалось, что все пытаются призвать Милли. Раз она так нужна, ему тоже следовало бы помочь, но он не знал как. Кроме того, пламя дракона становилось таким горячим, что вся энергия уходила на защиту от ожогов.",
-          "reason": "target_span_missing"
-        },
-        {
-          "lessonId": "charmed-life-en_sct16_f3",
-          "wordKey": "find_verb",
-          "word": "finding",
-          "lemma": "find",
-          "pos": "verb",
-          "type": "verb",
-          "rowTranslation": "обнаружил",
-          "sourceText": "finding",
-          "sourceSentenceText": "Cat was finding the heat of it really troublesome by now.",
-          "translatedParagraphText": "— Ты участвуешь в магии? — спросил дракон Кэта. К этому времени жар стал по-настоящему мучительным. Лицо Кэта покраснело и болело. Но едва дракон заговорил, Кэт понял. Да, он участвовал в магии. Только на неправильной стороне: Гвендолен снова им пользовалась. Он так привык, что почти не замечал. Но теперь чувствовал. Она забирала столько его силы, чтобы не дать Крестоманси вызвать Милли, что Кэт начинал обгорать.",
-          "reason": "target_span_missing"
-        },
-        {
-          "lessonId": "charmed-life-en_sct16_f3",
-          "wordKey": "join_verb",
-          "word": "joining",
-          "lemma": "join",
-          "pos": "verb",
-          "type": "verb",
-          "rowTranslation": "соединять; присоединяться",
-          "sourceText": "joining",
-          "sourceSentenceText": "Only he was joining in on the wrong side, because Gwendolen was using him again.",
-          "translatedParagraphText": "— Ты участвуешь в магии? — спросил дракон Кэта. К этому времени жар стал по-настоящему мучительным. Лицо Кэта покраснело и болело. Но едва дракон заговорил, Кэт понял. Да, он участвовал в магии. Только на неправильной стороне: Гвендолен снова им пользовалась. Он так привык, что почти не замечал. Но теперь чувствовал. Она забирала столько его силы, чтобы не дать Крестоманси вызвать Милли, что Кэт начинал обгорать.",
-          "reason": "target_span_missing"
-        },
-        {
-          "lessonId": "charmed-life-en_sct16_f3",
-          "wordKey": "join_in_phrasal_verb",
-          "word": "joining in",
-          "lemma": "join in",
-          "pos": "phrasal_verb",
-          "type": "phrasal_verb",
-          "rowTranslation": "Присоединяйтесь",
-          "sourceText": "joining in",
-          "sourceSentenceText": "Only he was joining in on the wrong side, because Gwendolen was using him again.",
-          "translatedParagraphText": "— Ты участвуешь в магии? — спросил дракон Кэта. К этому времени жар стал по-настоящему мучительным. Лицо Кэта покраснело и болело. Но едва дракон заговорил, Кэт понял. Да, он участвовал в магии. Только на неправильной стороне: Гвендолен снова им пользовалась. Он так привык, что почти не замечал. Но теперь чувствовал. Она забирала столько его силы, чтобы не дать Крестоманси вызвать Милли, что Кэт начинал обгорать.",
-          "reason": "translation_paraphrased"
-        },
-        {
-          "lessonId": "charmed-life-en_sct16_f3",
-          "wordKey": "barely_adverb",
-          "word": "barely",
-          "lemma": "barely",
-          "pos": "adverb",
-          "type": "adverb",
-          "rowTranslation": "едва",
-          "sourceText": "barely",
-          "sourceSentenceText": "He was so used to her doing it that he barely noticed.",
-          "translatedParagraphText": "— Ты участвуешь в магии? — спросил дракон Кэта. К этому времени жар стал по-настоящему мучительным. Лицо Кэта покраснело и болело. Но едва дракон заговорил, Кэт понял. Да, он участвовал в магии. Только на неправильной стороне: Гвендолен снова им пользовалась. Он так привык, что почти не замечал. Но теперь чувствовал. Она забирала столько его силы, чтобы не дать Крестоманси вызвать Милли, что Кэт начинал обгорать.",
-          "reason": "target_span_missing"
-        },
-        {
-          "lessonId": "charmed-life-en_sct16_f3",
-          "wordKey": "stop_verb",
-          "word": "stopping",
-          "lemma": "stop",
-          "pos": "verb",
-          "type": "verb",
-          "rowTranslation": "остановиться",
-          "sourceText": "stop",
-          "sourceSentenceText": "She was using so much of his power to stop Chrestomanci fetching Millie that Cat was getting burned.",
-          "translatedParagraphText": "— Ты участвуешь в магии? — спросил дракон Кэта. К этому времени жар стал по-настоящему мучительным. Лицо Кэта покраснело и болело. Но едва дракон заговорил, Кэт понял. Да, он участвовал в магии. Только на неправильной стороне: Гвендолен снова им пользовалась. Он так привык, что почти не замечал. Но теперь чувствовал. Она забирала столько его силы, чтобы не дать Крестоманси вызвать Милли, что Кэт начинал обгорать.",
-          "reason": "target_span_missing"
-        },
-        {
-          "lessonId": "charmed-life-en_sct16_f3",
-          "wordKey": "suppose_verb",
-          "word": "supposed",
-          "lemma": "suppose",
-          "pos": "verb",
-          "type": "verb",
-          "rowTranslation": "предполагать",
-          "sourceText": "supposed",
-          "sourceSentenceText": "Cat turned around and found Millie was there at last. He supposed it was some trick of the hillside that made her look tall as the apple tree.",
-          "reason": "alignment_missing"
-        },
-        {
-          "lessonId": "charmed-life-en_sct16_f3",
-          "wordKey": "trick_noun",
-          "word": "trick",
-          "lemma": "trick",
-          "pos": "noun",
-          "type": "noun",
-          "rowTranslation": "трюк",
-          "sourceText": "trick",
-          "sourceSentenceText": "Cat turned around and found Millie was there at last. He supposed it was some trick of the hillside that made her look tall as the apple tree.",
-          "reason": "alignment_missing"
-        },
-        {
-          "lessonId": "charmed-life-en_sct16_f3",
-          "wordKey": "poor_adjective",
-          "word": "poor",
-          "lemma": "poor",
-          "pos": "adjective",
-          "type": "adjective",
-          "rowTranslation": "бедный",
-          "sourceText": "poor",
-          "sourceSentenceText": "This poor beast had fallen off the garden wall and I wasn’t thinking of anything else.”",
-          "translatedParagraphText": "— Простите, — сказала Милли. — Я пришла бы раньше, если бы знала. Этот бедняга упал со стены сада, и я ни о чём другом не могла думать.",
-          "reason": "target_span_missing"
-        },
-        {
-          "lessonId": "charmed-life-en_sct16_f3",
-          "wordKey": "get_verb",
-          "word": "getting",
-          "lemma": "get",
-          "pos": "verb",
-          "type": "verb",
-          "rowTranslation": "получил",
-          "sourceText": "get",
-          "sourceSentenceText": "“But we must get to work now.”",
-          "translatedParagraphText": "Крестоманси улыбнулся и опустил руку. Похоже, теперь она не требовалась, чтобы сдерживать толпу. Люди замерли на месте, а бормотание прекратилось. — Ничего, — сказал он. — Но теперь пора за работу.",
-          "reason": "target_span_missing"
-        },
-        {
-          "lessonId": "charmed-life-en_sct16_f3",
-          "wordKey": "tall_adjective",
-          "word": "tall",
-          "lemma": "tall",
-          "pos": "adjective",
-          "type": "adjective",
-          "rowTranslation": "высокий",
-          "sourceText": "tall",
-          "sourceSentenceText": "He remembered claps and peals of thunder, darkness, and mist. He thought Chrestomanci grew taller than Millie, tall as the sky — but that could have been because the dragon got extremely scared and Cat was kneeling in the grass to make it feel safer.",
-          "reason": "alignment_missing"
-        },
-        {
-          "lessonId": "charmed-life-en_sct16_f3",
-          "wordKey": "make_verb",
-          "word": "making",
-          "lemma": "make",
-          "pos": "verb",
-          "type": "verb",
-          "rowTranslation": "делать",
-          "sourceText": "make",
-          "sourceSentenceText": "He remembered claps and peals of thunder, darkness, and mist. He thought Chrestomanci grew taller than Millie, tall as the sky — but that could have been because the dragon got extremely scared and Cat was kneeling in the grass to make it feel safer.",
-          "reason": "alignment_missing"
-        },
-        {
-          "lessonId": "charmed-life-en_sct16_f3",
-          "wordKey": "time_noun",
-          "word": "time",
-          "lemma": "time",
-          "pos": "noun",
-          "type": "noun",
-          "rowTranslation": "время",
-          "sourceText": "time",
-          "sourceSentenceText": "From there he saw the Family from time to time, striding about like giants.",
-          "translatedParagraphText": "Семья сразу взялась за дело. Впоследствии Кэту было трудно описать или даже вспомнить, как именно они действовали. Он помнил удары и раскаты грома, тьму и туман. Ему казалось, Крестоманси вырос выше Милли, до самого неба, — хотя, возможно, дело было в том, что дракон страшно испугался, и Кэт опустился на колени в траву, чтобы его успокоить. Оттуда он временами видел, как члены Семьи шагают великанами. Ведьмы визжали без конца. Колдуны и маги ревели и выли. Иногда вихрем неслись белый дождь или белый снег, а может, просто белый дым — кружился, кружился, кружился. Кэт был уверен, что весь сад вращается всё быстрее. Среди белизны и вихря пролетали некроманты, вышагивал Бернард или раздувался мистер Сондерс со снегом в волосах. Мимо пробежала Джулия, завязывая на платке узел за узлом. Милли, должно быть, привела подкрепление. В завывающем, вращающемся, кричащем саду Кэт мельком увидел Юфимию, дворецкого, лакея, двух садовников и, к своему беспокойству, Уилла Саггинса, пробивавшихся сквозь белизну.",
-          "reason": "target_span_missing"
-        },
-        {
-          "lessonId": "charmed-life-en_sct16_f3",
-          "wordKey": "whirl_verb",
-          "word": "whirling",
-          "lemma": "whirl",
-          "pos": "verb",
-          "type": "verb",
-          "rowTranslation": "кружиться",
-          "sourceText": "whirling",
-          "sourceSentenceText": "Among the whirling and the whiteness came flying necromancers, or Bernard striding, or Mr. Saunders, billowing, with snow in his hair.",
-          "translatedParagraphText": "Семья сразу взялась за дело. Впоследствии Кэту было трудно описать или даже вспомнить, как именно они действовали. Он помнил удары и раскаты грома, тьму и туман. Ему казалось, Крестоманси вырос выше Милли, до самого неба, — хотя, возможно, дело было в том, что дракон страшно испугался, и Кэт опустился на колени в траву, чтобы его успокоить. Оттуда он временами видел, как члены Семьи шагают великанами. Ведьмы визжали без конца. Колдуны и маги ревели и выли. Иногда вихрем неслись белый дождь или белый снег, а может, просто белый дым — кружился, кружился, кружился. Кэт был уверен, что весь сад вращается всё быстрее. Среди белизны и вихря пролетали некроманты, вышагивал Бернард или раздувался мистер Сондерс со снегом в волосах. Мимо пробежала Джулия, завязывая на платке узел за узлом. Милли, должно быть, привела подкрепление. В завывающем, вращающемся, кричащем саду Кэт мельком увидел Юфимию, дворецкого, лакея, двух садовников и, к своему беспокойству, Уилла Саггинса, пробивавшихся сквозь белизну.",
-          "reason": "target_span_missing"
-        },
-        {
-          "lessonId": "charmed-life-en_sct16_f3",
-          "wordKey": "past_adverb",
-          "word": "past",
-          "lemma": "past",
-          "pos": "adverb",
-          "type": "adverb",
-          "rowTranslation": "прошлое",
-          "sourceText": "past",
-          "sourceSentenceText": "Julia ran past, making knot after knot in her handkerchief.",
-          "translatedParagraphText": "Семья сразу взялась за дело. Впоследствии Кэту было трудно описать или даже вспомнить, как именно они действовали. Он помнил удары и раскаты грома, тьму и туман. Ему казалось, Крестоманси вырос выше Милли, до самого неба, — хотя, возможно, дело было в том, что дракон страшно испугался, и Кэт опустился на колени в траву, чтобы его успокоить. Оттуда он временами видел, как члены Семьи шагают великанами. Ведьмы визжали без конца. Колдуны и маги ревели и выли. Иногда вихрем неслись белый дождь или белый снег, а может, просто белый дым — кружился, кружился, кружился. Кэт был уверен, что весь сад вращается всё быстрее. Среди белизны и вихря пролетали некроманты, вышагивал Бернард или раздувался мистер Сондерс со снегом в волосах. Мимо пробежала Джулия, завязывая на платке узел за узлом. Милли, должно быть, привела подкрепление. В завывающем, вращающемся, кричащем саду Кэт мельком увидел Юфимию, дворецкого, лакея, двух садовников и, к своему беспокойству, Уилла Саггинса, пробивавшихся сквозь белизну.",
-          "reason": "target_span_missing"
-        },
-        {
-          "lessonId": "charmed-life-en_sct16_f3",
-          "wordKey": "butler_noun",
-          "word": "butler",
-          "lemma": "butler",
-          "pos": "noun",
-          "type": "noun",
-          "rowTranslation": "дворецкий",
-          "sourceText": "butler",
-          "sourceSentenceText": "Cat glimpsed Euphemia, the butler, a footman, two gardeners and, to his alarm, Will Suggins once, breasting the whiteness in the howling, spinning, screaming garden.",
-          "translatedParagraphText": "Семья сразу взялась за дело. Впоследствии Кэту было трудно описать или даже вспомнить, как именно они действовали. Он помнил удары и раскаты грома, тьму и туман. Ему казалось, Крестоманси вырос выше Милли, до самого неба, — хотя, возможно, дело было в том, что дракон страшно испугался, и Кэт опустился на колени в траву, чтобы его успокоить. Оттуда он временами видел, как члены Семьи шагают великанами. Ведьмы визжали без конца. Колдуны и маги ревели и выли. Иногда вихрем неслись белый дождь или белый снег, а может, просто белый дым — кружился, кружился, кружился. Кэт был уверен, что весь сад вращается всё быстрее. Среди белизны и вихря пролетали некроманты, вышагивал Бернард или раздувался мистер Сондерс со снегом в волосах. Мимо пробежала Джулия, завязывая на платке узел за узлом. Милли, должно быть, привела подкрепление. В завывающем, вращающемся, кричащем саду Кэт мельком увидел Юфимию, дворецкого, лакея, двух садовников и, к своему беспокойству, Уилла Саггинса, пробивавшихся сквозь белизну.",
-          "reason": "target_span_missing"
-        },
-        {
-          "lessonId": "charmed-life-en_sct16_f3",
-          "wordKey": "footman_noun",
-          "word": "footman",
-          "lemma": "footman",
-          "pos": "noun",
-          "type": "noun",
-          "rowTranslation": "дворецкий",
-          "sourceText": "footman",
-          "sourceSentenceText": "Cat glimpsed Euphemia, the butler, a footman, two gardeners and, to his alarm, Will Suggins once, breasting the whiteness in the howling, spinning, screaming garden.",
-          "translatedParagraphText": "Семья сразу взялась за дело. Впоследствии Кэту было трудно описать или даже вспомнить, как именно они действовали. Он помнил удары и раскаты грома, тьму и туман. Ему казалось, Крестоманси вырос выше Милли, до самого неба, — хотя, возможно, дело было в том, что дракон страшно испугался, и Кэт опустился на колени в траву, чтобы его успокоить. Оттуда он временами видел, как члены Семьи шагают великанами. Ведьмы визжали без конца. Колдуны и маги ревели и выли. Иногда вихрем неслись белый дождь или белый снег, а может, просто белый дым — кружился, кружился, кружился. Кэт был уверен, что весь сад вращается всё быстрее. Среди белизны и вихря пролетали некроманты, вышагивал Бернард или раздувался мистер Сондерс со снегом в волосах. Мимо пробежала Джулия, завязывая на платке узел за узлом. Милли, должно быть, привела подкрепление. В завывающем, вращающемся, кричащем саду Кэт мельком увидел Юфимию, дворецкого, лакея, двух садовников и, к своему беспокойству, Уилла Саггинса, пробивавшихся сквозь белизну.",
-          "reason": "target_span_missing"
-        },
-        {
-          "lessonId": "charmed-life-en_sct16_f3",
-          "wordKey": "spin_verb",
-          "word": "spinning",
-          "lemma": "spin",
-          "pos": "verb",
-          "type": "verb",
-          "rowTranslation": "вращаться",
-          "sourceText": "spinning",
-          "sourceSentenceText": "Cat glimpsed Euphemia, the butler, a footman, two gardeners and, to his alarm, Will Suggins once, breasting the whiteness in the howling, spinning, screaming garden.",
-          "translatedParagraphText": "Семья сразу взялась за дело. Впоследствии Кэту было трудно описать или даже вспомнить, как именно они действовали. Он помнил удары и раскаты грома, тьму и туман. Ему казалось, Крестоманси вырос выше Милли, до самого неба, — хотя, возможно, дело было в том, что дракон страшно испугался, и Кэт опустился на колени в траву, чтобы его успокоить. Оттуда он временами видел, как члены Семьи шагают великанами. Ведьмы визжали без конца. Колдуны и маги ревели и выли. Иногда вихрем неслись белый дождь или белый снег, а может, просто белый дым — кружился, кружился, кружился. Кэт был уверен, что весь сад вращается всё быстрее. Среди белизны и вихря пролетали некроманты, вышагивал Бернард или раздувался мистер Сондерс со снегом в волосах. Мимо пробежала Джулия, завязывая на платке узел за узлом. Милли, должно быть, привела подкрепление. В завывающем, вращающемся, кричащем саду Кэт мельком увидел Юфимию, дворецкого, лакея, двух садовников и, к своему беспокойству, Уилла Саггинса, пробивавшихся сквозь белизну.",
-          "reason": "target_span_missing"
         }
       ],
       "simAlign": {
@@ -55780,13 +55626,13 @@
         "used": true
       },
       "alignmentMethodCounts": {
-        "exact": 36,
-        "normalized": 0,
+        "simalign": 154,
         "translation_inflected": 30,
-        "simalign": 188,
-        "openai": 0,
-        "openai_translation_anchor": 0,
-        "none": 19
+        "exact": 29,
+        "manual_unmatched": 1,
+        "manual": 19,
+        "component_aggregate": 30,
+        "mwe_component_aggregate": 10
       }
     },
     "openAiTranslationAnchorDiagnostics": {
@@ -55834,8 +55680,8 @@
       "bundledSpanLinkCount": 499
     },
     "contextTranslationDiagnostics": {
-      "rowsWithContextTranslation": 254,
-      "rowsWhereDictionaryDiffersFromContext": 198,
+      "rowsWithContextTranslation": 267,
+      "rowsWhereDictionaryDiffersFromContext": 234,
       "suspiciousPhraseRows": 0,
       "examples": [
         {

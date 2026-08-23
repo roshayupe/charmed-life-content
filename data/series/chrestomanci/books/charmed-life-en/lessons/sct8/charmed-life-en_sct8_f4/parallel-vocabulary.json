@@ -65429,7 +65429,7 @@
       "pos": "adverb",
       "level": "A2",
       "sourceText": "away",
-      "targetText": "прочь",
+      "targetText": "усердно",
       "dictionaryTranslation": "прочь",
       "rowTranslation": "прочь",
       "sourceSentenceId": "ch08_p027_s001",
@@ -65438,12 +65438,16 @@
         "start": 27,
         "end": 31
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 20,
+        "end": 27
+      },
+      "contextTranslation": "усердно"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-scream_verb-ch08_p027_s001-47-55-202",
@@ -65730,7 +65734,7 @@
       "pos": "verb",
       "level": "A2",
       "sourceText": "hit",
-      "targetText": "удариться",
+      "targetText": "удар",
       "dictionaryTranslation": "удариться",
       "rowTranslation": "удариться",
       "sourceSentenceId": "ch08_p027_s002",
@@ -65739,12 +65743,16 @@
         "start": 74,
         "end": 77
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 59,
+        "end": 63
+      },
+      "contextTranslation": "удар"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-side_noun-ch08_p027_s002-88-92-210",
@@ -65805,7 +65813,7 @@
       "pos": "noun",
       "level": "A1",
       "sourceText": "time",
-      "targetText": "следующий",
+      "targetText": "каждый следующий",
       "dictionaryTranslation": "время",
       "rowTranslation": "время",
       "sourceSentenceId": "ch08_p027_s002",
@@ -65814,16 +65822,16 @@
         "start": 110,
         "end": 114
       },
-      "alignmentMethod": "simalign",
+      "alignmentMethod": "manual",
       "alignmentConfidence": "high",
       "alignmentWarningCode": null,
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. Dictionary translation differs from contextual block translation.",
+      "alignmentWarning": "",
       "status": "ok",
       "targetSpan": {
-        "start": 49,
+        "start": 42,
         "end": 58
       },
-      "contextTranslation": "следующий"
+      "contextTranslation": "каждый следующий"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-bring_verb-ch08_p027_s002-119-126-26",
@@ -65972,7 +65980,7 @@
       "pos": "noun",
       "level": "A1",
       "sourceText": "sides",
-      "targetText": "стороны",
+      "targetText": "обе",
       "dictionaryTranslation": "стороны",
       "rowTranslation": "стороны",
       "sourceSentenceId": "ch08_p028_s002",
@@ -65981,12 +65989,16 @@
         "start": 37,
         "end": 42
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 47,
+        "end": 50
+      },
+      "contextTranslation": "обе"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-ring_adjective-ch08_p028_s002-50-57-196",
@@ -66415,25 +66427,21 @@
       "pos": "noun",
       "level": "A2",
       "sourceText": "floor",
-      "targetText": "колени",
+      "targetText": "пол",
       "dictionaryTranslation": "пол",
       "rowTranslation": "пол",
       "sourceSentenceId": "ch08_p030_s002",
-      "targetSentenceId": "ch08_p030_t002",
       "sourceSpan": {
         "start": 35,
         "end": 40
       },
-      "alignmentMethod": "simalign",
+      "alignmentMethod": "manual_unmatched",
       "alignmentConfidence": "high",
-      "alignmentWarningCode": null,
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. Dictionary translation differs from contextual block translation.",
-      "status": "ok",
-      "targetSpan": {
-        "start": 26,
-        "end": 32
-      },
-      "contextTranslation": "колени"
+      "alignmentWarningCode": "manual_omission",
+      "alignmentWarning": "Manually confirmed: this source item is omitted from the published translation.",
+      "status": "missing_target",
+      "contextTranslation": "",
+      "reason": "Manually confirmed omission in the published translation."
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-sob_verb-ch08_p030_s002-42-49-222",
@@ -66499,7 +66507,7 @@
       "pos": "verb",
       "level": "A1",
       "sourceText": "making",
-      "targetText": "делать",
+      "targetText": "вопила",
       "dictionaryTranslation": "делать",
       "rowTranslation": "делать",
       "sourceSentenceId": "ch08_p030_s002",
@@ -66508,12 +66516,16 @@
         "start": 65,
         "end": 71
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 67,
+        "end": 73
+      },
+      "contextTranslation": "вопила"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-scream_noun-ch08_p030_s002-72-79-201",
@@ -66523,7 +66535,7 @@
       "pos": "noun",
       "level": "B1",
       "sourceText": "screams",
-      "targetText": "всхлипами",
+      "targetText": "вопила",
       "dictionaryTranslation": "крики",
       "rowTranslation": "крики",
       "sourceSentenceId": "ch08_p030_s002",
@@ -66532,16 +66544,16 @@
         "start": 72,
         "end": 79
       },
-      "alignmentMethod": "simalign",
+      "alignmentMethod": "manual",
       "alignmentConfidence": "high",
       "alignmentWarningCode": null,
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. Dictionary translation differs from contextual block translation.",
+      "alignmentWarning": "",
       "status": "ok",
       "targetSpan": {
-        "start": 57,
-        "end": 66
+        "start": 67,
+        "end": 73
       },
-      "contextTranslation": "всхлипами"
+      "contextTranslation": "вопила"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-sob_noun-ch08_p030_s002-95-99-221",
@@ -66579,7 +66591,7 @@
       "pos": "verb",
       "level": "B2",
       "sourceText": "treated",
-      "targetText": "лечить",
+      "targetText": "обращением",
       "dictionaryTranslation": "лечить",
       "rowTranslation": "лечить",
       "sourceSentenceId": "ch08_p030_s002",
@@ -66588,12 +66600,16 @@
         "start": 109,
         "end": 116
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 94,
+        "end": 104
+      },
+      "contextTranslation": "обращением"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-go_verb-ch08_p031_s001-13-17-89",
@@ -67188,7 +67204,7 @@
       "pos": "adverb",
       "level": "A2",
       "sourceText": "away",
-      "targetText": "прочь",
+      "targetText": "забрал",
       "dictionaryTranslation": "прочь",
       "rowTranslation": "прочь",
       "sourceSentenceId": "ch08_p031_s005",
@@ -67197,12 +67213,16 @@
         "start": 48,
         "end": 52
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 35,
+        "end": 41
+      },
+      "contextTranslation": "забрал"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-witchcraft_noun-ch08_p031_s005-58-68-284",
@@ -67350,7 +67370,7 @@
       "pos": "verb",
       "level": "A1",
       "sourceText": "work",
-      "targetText": "работали",
+      "targetText": "произнесёшь",
       "dictionaryTranslation": "работали",
       "rowTranslation": "работали",
       "sourceSentenceId": "ch08_p031_s007",
@@ -67359,12 +67379,16 @@
         "start": 32,
         "end": 36
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 13,
+        "end": 24
+      },
+      "contextTranslation": "произнесёшь"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-spell_noun-ch08_p031_s007-41-46-226",
@@ -67598,7 +67622,7 @@
       "pos": "noun",
       "level": "B1",
       "sourceText": "sake",
-      "targetText": "ради; польза",
+      "targetText": "ради",
       "dictionaryTranslation": "ради; польза",
       "rowTranslation": "ради; польза",
       "sourceSentenceId": "ch08_p031_s009",
@@ -67607,12 +67631,16 @@
         "start": 32,
         "end": 36
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 25,
+        "end": 29
+      },
+      "contextTranslation": "ради"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-try_verb-ch08_p031_s009-37-40-263",
@@ -68427,7 +68455,7 @@
       "pos": "adverb",
       "level": "A2",
       "sourceText": "away",
-      "targetText": "прочь",
+      "targetText": "Уходи",
       "dictionaryTranslation": "прочь",
       "rowTranslation": "прочь",
       "sourceSentenceId": "ch08_p035_s001",
@@ -68436,12 +68464,16 @@
         "start": 4,
         "end": 8
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 2,
+        "end": 7
+      },
+      "contextTranslation": "Уходи"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-scream_verb-ch08_p035_s002-10-18-202",
@@ -68507,7 +68539,7 @@
       "pos": "adjective",
       "level": "A1",
       "sourceText": "bad",
-      "targetText": "хуже",
+      "targetText": "такой же",
       "dictionaryTranslation": "хуже",
       "rowTranslation": "хуже",
       "sourceSentenceId": "ch08_p035_s004",
@@ -68516,12 +68548,16 @@
         "start": 10,
         "end": 13
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 3,
+        "end": 11
+      },
+      "contextTranslation": "такой же"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-rest_noun-ch08_p035_s004-21-25-193",
@@ -68531,7 +68567,7 @@
       "pos": "noun",
       "level": "A2",
       "sourceText": "rest",
-      "targetText": "отдыхать",
+      "targetText": "они",
       "dictionaryTranslation": "отдыхать",
       "rowTranslation": "отдыхать",
       "sourceSentenceId": "ch08_p035_s004",
@@ -68540,12 +68576,16 @@
         "start": 21,
         "end": 25
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 17,
+        "end": 20
+      },
+      "contextTranslation": "они"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-go_verb-ch08_p035_s005-12-16-89",
@@ -68832,7 +68872,7 @@
       "pos": "adjective",
       "level": "A1",
       "sourceText": "bad",
-      "targetText": "хуже",
+      "targetText": "кошмары",
       "dictionaryTranslation": "хуже",
       "rowTranslation": "хуже",
       "sourceSentenceId": "ch08_p036_s001",
@@ -68841,12 +68881,16 @@
         "start": 26,
         "end": 29
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 38,
+        "end": 45
+      },
+      "contextTranslation": "кошмары"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-dream_noun-ch08_p036_s001-30-36-54",
@@ -69079,7 +69123,7 @@
       "pos": "adjective",
       "level": "A1",
       "sourceText": "great",
-      "targetText": "великий",
+      "targetText": "огромных",
       "dictionaryTranslation": "великий",
       "rowTranslation": "великий",
       "sourceSentenceId": "ch08_p036_s002",
@@ -69088,12 +69132,16 @@
         "start": 56,
         "end": 61
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 40,
+        "end": 48
+      },
+      "contextTranslation": "огромных"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-slimy_adjective-ch08_p036_s002-63-68-216",
@@ -69326,7 +69374,7 @@
       "pos": "verb",
       "level": "A1",
       "sourceText": "feeling",
-      "targetText": "чувствовал",
+      "targetText": "мокрым",
       "dictionaryTranslation": "чувствовал",
       "rowTranslation": "чувствовал",
       "sourceSentenceId": "ch08_p036_s004",
@@ -69335,12 +69383,16 @@
         "start": 44,
         "end": 51
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 38,
+        "end": 44
+      },
+      "contextTranslation": "мокрым"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-wet_adjective-ch08_p036_s004-52-55-279",
@@ -69434,7 +69486,7 @@
       "pos": "adjective",
       "level": "A1",
       "sourceText": "bad",
-      "targetText": "хуже",
+      "targetText": "тяжёлой",
       "dictionaryTranslation": "хуже",
       "rowTranslation": "хуже",
       "sourceSentenceId": "ch08_p036_s004",
@@ -69443,12 +69495,16 @@
         "start": 126,
         "end": 129
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 101,
+        "end": 108
+      },
+      "contextTranslation": "тяжёлой"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-illness_noun-ch08_p036_s004-130-137-127",
@@ -69598,7 +69654,7 @@
       "pos": "adjective",
       "level": "A1",
       "sourceText": "little",
-      "targetText": "маленький",
+      "targetText": "Некоторое",
       "dictionaryTranslation": "маленький",
       "rowTranslation": "маленький",
       "sourceSentenceId": "ch08_p036_s005",
@@ -69607,12 +69663,16 @@
         "start": 13,
         "end": 19
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 0,
+        "end": 9
+      },
+      "contextTranslation": "Некоторое"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-feel_verb-ch08_p036_s005-26-33-67",
@@ -69622,7 +69682,7 @@
       "pos": "verb",
       "level": "A1",
       "sourceText": "feeling",
-      "targetText": "чувствовал",
+      "targetText": "несчастный",
       "dictionaryTranslation": "чувствовал",
       "rowTranslation": "чувствовал",
       "sourceSentenceId": "ch08_p036_s005",
@@ -69631,12 +69691,16 @@
         "start": 26,
         "end": 33
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 25,
+        "end": 35
+      },
+      "contextTranslation": "несчастный"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-wretched_adjective-ch08_p036_s005-34-42-286",
@@ -69702,7 +69766,7 @@
       "pos": "verb",
       "level": "A1",
       "sourceText": "feel",
-      "targetText": "чувствовал",
+      "targetText": "легче",
       "dictionaryTranslation": "чувствовал",
       "rowTranslation": "чувствовал",
       "sourceSentenceId": "ch08_p036_s006",
@@ -69711,12 +69775,16 @@
         "start": 17,
         "end": 21
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 12,
+        "end": 17
+      },
+      "contextTranslation": "легче"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-well_adverb-ch08_p036_s006-22-28-278",
@@ -70197,7 +70265,7 @@
       "pos": "adverb",
       "level": "A2",
       "sourceText": "away",
-      "targetText": "прочь",
+      "targetText": "отнял",
       "dictionaryTranslation": "прочь",
       "rowTranslation": "прочь",
       "sourceSentenceId": "ch08_p038_s005",
@@ -70206,12 +70274,16 @@
         "start": 55,
         "end": 59
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 34,
+        "end": 39
+      },
+      "contextTranslation": "отнял"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-thing_noun-ch08_p038_s005-96-101-254",
@@ -71303,7 +71375,7 @@
       "pos": "verb",
       "level": "A1",
       "sourceText": "went",
-      "targetText": "идти",
+      "targetText": "колдовства",
       "dictionaryTranslation": "идти",
       "rowTranslation": "идти",
       "sourceSentenceId": "ch08_p040_s001",
@@ -71312,12 +71384,16 @@
         "start": 90,
         "end": 94
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 77,
+        "end": 87
+      },
+      "contextTranslation": "колдовства"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-witchcraft_noun-ch08_p040_s001-100-110-284",
@@ -71578,7 +71654,7 @@
       "pos": "adverb",
       "level": "A2",
       "sourceText": "away",
-      "targetText": "прочь",
+      "targetText": "унесли",
       "dictionaryTranslation": "прочь",
       "rowTranslation": "прочь",
       "sourceSentenceId": "ch08_p040_s004",
@@ -71587,12 +71663,16 @@
         "start": 56,
         "end": 60
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 35,
+        "end": 41
+      },
+      "contextTranslation": "унесли"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-thing_noun-ch08_p040_s005-9-14-254",
@@ -71602,7 +71682,7 @@
       "pos": "noun",
       "level": "A1",
       "sourceText": "thing",
-      "targetText": "вещи",
+      "targetText": "ящик",
       "dictionaryTranslation": "вещи",
       "rowTranslation": "вещи",
       "sourceSentenceId": "ch08_p040_s005",
@@ -71611,12 +71691,16 @@
         "start": 9,
         "end": 14
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 7,
+        "end": 11
+      },
+      "contextTranslation": "ящик"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-place_noun-ch08_p040_s005-22-27-180",
@@ -71794,7 +71878,7 @@
       "pos": "verb",
       "level": "A2",
       "sourceText": "stood",
-      "targetText": "стоять",
+      "targetText": "стоял",
       "dictionaryTranslation": "стоять",
       "rowTranslation": "стоять",
       "sourceSentenceId": "ch08_p040_s005",
@@ -71803,12 +71887,16 @@
         "start": 103,
         "end": 108
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 22,
+        "end": 27
+      },
+      "contextTranslation": "стоял"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-lid_noun-ch08_p040_s005-118-121-143",
@@ -71874,7 +71962,7 @@
       "pos": "noun",
       "level": "A1",
       "sourceText": "bed",
-      "targetText": "кровать; постель",
+      "targetText": "кровати",
       "dictionaryTranslation": "кровать; постель",
       "rowTranslation": "кровать; постель",
       "sourceSentenceId": "ch08_p040_s005",
@@ -71883,12 +71971,16 @@
         "start": 140,
         "end": 143
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 91,
+        "end": 98
+      },
+      "contextTranslation": "кровати"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-sleeping_adjective-ch08_p041_s001-16-24-213",
@@ -71898,7 +71990,7 @@
       "pos": "adjective",
       "level": "A1",
       "sourceText": "sleeping",
-      "targetText": "спящий; предназначенный для сна",
+      "targetText": "спал",
       "dictionaryTranslation": "спящий; предназначенный для сна",
       "rowTranslation": "спящий; предназначенный для сна",
       "sourceSentenceId": "ch08_p041_s001",
@@ -71907,12 +71999,16 @@
         "start": 16,
         "end": 24
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 31,
+        "end": 35
+      },
+      "contextTranslation": "спал"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-hump_noun-ch08_p041_s001-25-29-124",
@@ -72200,7 +72296,7 @@
       "pos": "verb",
       "level": "A1",
       "sourceText": "sat",
-      "targetText": "сидеть",
+      "targetText": "села",
       "dictionaryTranslation": "сидеть",
       "rowTranslation": "сидеть",
       "sourceSentenceId": "ch08_p041_s004",
@@ -72209,12 +72305,16 @@
         "start": 4,
         "end": 7
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 21,
+        "end": 25
+      },
+      "contextTranslation": "села"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-bed_noun-ch08_p041_s004-14-17-13",
@@ -72252,7 +72352,7 @@
       "pos": "noun",
       "level": "A2",
       "sourceText": "bounce",
-      "targetText": "отскок; прыжок",
+      "targetText": "рывком",
       "dictionaryTranslation": "отскок; прыжок",
       "rowTranslation": "отскок; прыжок",
       "sourceSentenceId": "ch08_p041_s004",
@@ -72261,12 +72361,16 @@
         "start": 25,
         "end": 31
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 14,
+        "end": 20
+      },
+      "contextTranslation": "рывком"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-soon_adverb-ch08_p042_s001-3-7-223",
@@ -72582,7 +72686,7 @@
       "pos": "noun",
       "level": "A1",
       "sourceText": "thing",
-      "targetText": "вещи",
+      "targetText": "отличием",
       "dictionaryTranslation": "вещи",
       "rowTranslation": "вещи",
       "sourceSentenceId": "ch08_p042_s004",
@@ -72591,12 +72695,16 @@
         "start": 18,
         "end": 23
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 32,
+        "end": 40
+      },
+      "contextTranslation": "отличием"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-obviously_adverb-ch08_p042_s004-24-33-165",
@@ -72634,7 +72742,7 @@
       "pos": "adjective",
       "level": "A2",
       "sourceText": "wrong",
-      "targetText": "неправильный",
+      "targetText": "отличием",
       "dictionaryTranslation": "неправильный",
       "rowTranslation": "неправильный",
       "sourceSentenceId": "ch08_p042_s004",
@@ -72643,12 +72751,16 @@
         "start": 34,
         "end": 39
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 32,
+        "end": 40
+      },
+      "contextTranslation": "отличием"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-wrong_verb-ch08_p042_s004-34-39-288",
@@ -72658,7 +72770,7 @@
       "pos": "verb",
       "level": "A2",
       "sourceText": "wrong",
-      "targetText": "обидеть; поступить несправедливо",
+      "targetText": "отличием",
       "dictionaryTranslation": "обидеть; поступить несправедливо",
       "rowTranslation": "обидеть; поступить несправедливо",
       "sourceSentenceId": "ch08_p042_s004",
@@ -72667,12 +72779,16 @@
         "start": 34,
         "end": 39
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 32,
+        "end": 40
+      },
+      "contextTranslation": "отличием"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-odd_adjective-ch08_p042_s005-24-27-166",
@@ -72710,7 +72826,7 @@
       "pos": "noun",
       "level": "A1",
       "sourceText": "way",
-      "targetText": "способ",
+      "targetText": "странно",
       "dictionaryTranslation": "способ",
       "rowTranslation": "способ",
       "sourceSentenceId": "ch08_p042_s005",
@@ -72719,12 +72835,16 @@
         "start": 38,
         "end": 41
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 18,
+        "end": 25
+      },
+      "contextTranslation": "странно"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-star_verb-ch08_p042_s005-56-63-231",
@@ -72956,7 +73076,7 @@
       "pos": "verb",
       "level": "A1",
       "sourceText": "lost",
-      "targetText": "терять",
+      "targetText": "лишаясь",
       "dictionaryTranslation": "терять",
       "rowTranslation": "терять",
       "sourceSentenceId": "ch08_p046_s001",
@@ -72965,12 +73085,16 @@
         "start": 31,
         "end": 35
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 11,
+        "end": 18
+      },
+      "contextTranslation": "лишаясь"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-witchcraft_noun-ch08_p046_s001-42-52-284",
@@ -73755,7 +73879,7 @@
       "pos": "noun",
       "level": "A1",
       "sourceText": "kind",
-      "targetText": "вид",
+      "targetText": "какой-то",
       "dictionaryTranslation": "вид",
       "rowTranslation": "вид",
       "sourceSentenceId": "ch08_p047_s007",
@@ -73764,12 +73888,16 @@
         "start": 28,
         "end": 32
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 4,
+        "end": 12
+      },
+      "contextTranslation": "какой-то"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-begin_verb-ch08_p048_s002-3-8-15",
@@ -74055,7 +74183,7 @@
       "pos": "adjective",
       "level": "A1",
       "sourceText": "right",
-      "targetText": "правильный",
+      "targetText": "то же",
       "dictionaryTranslation": "правильный",
       "rowTranslation": "правильный",
       "sourceSentenceId": "ch08_p048_s005",
@@ -74064,12 +74192,16 @@
         "start": 17,
         "end": 22
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign target tokens were empty or only common function words after compact clustering.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 7,
+        "end": 12
+      },
+      "contextTranslation": "то же"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-pretty_adjective-ch08_p048_s005-23-29-184",
@@ -74134,7 +74266,7 @@
       "pos": "adjective",
       "level": "A1",
       "sourceText": "right",
-      "targetText": "правильный",
+      "targetText": "те же",
       "dictionaryTranslation": "правильный",
       "rowTranslation": "правильный",
       "sourceSentenceId": "ch08_p048_s005",
@@ -74143,12 +74275,16 @@
         "start": 45,
         "end": 50
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign target tokens were empty or only common function words after compact clustering.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 28,
+        "end": 33
+      },
+      "contextTranslation": "те же"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-blue_adjective-ch08_p048_s005-51-55-18",
@@ -74352,7 +74488,7 @@
       "pos": "verb",
       "level": "A2",
       "sourceText": "hanging",
-      "targetText": "вешать",
+      "targetText": "на плечах",
       "dictionaryTranslation": "вешать",
       "rowTranslation": "вешать",
       "sourceSentenceId": "ch08_p048_s006",
@@ -74361,12 +74497,16 @@
         "start": 16,
         "end": 23
       },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "target span unavailable"
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "targetSpan": {
+        "start": 15,
+        "end": 24
+      },
+      "contextTranslation": "на плечах"
     },
     {
       "id": "pv-charmed-life-en_sct8_f4-shoulder_noun-ch08_p048_s006-33-42-207",
@@ -74692,16 +74832,16 @@
         "start": 96,
         "end": 104
       },
-      "targetSentenceId": "ch08_p027_t002",
-      "alignmentMethod": "phrase_lexical_inventory",
-      "alignmentConfidence": "low",
-      "alignmentWarningCode": "target_span_missing",
-      "alignmentWarning": "Phrase materialized from lexical inventory; target span is not available.",
-      "status": "review",
+      "alignmentMethod": "manual_unmatched",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": "manual_omission",
+      "alignmentWarning": "Manually confirmed: this source item is omitted from the published translation.",
+      "status": "missing_target",
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "reason": "Manually confirmed omission in the published translation."
     },
     {
       "id": "lexical-phrase-sct8_f4-693-702-phrase-spacy_phrase",
@@ -74897,8 +75037,8 @@
       "sourceText": "goodness sake",
       "dictionaryTranslation": "ради бога",
       "rowTranslation": "ради бога",
-      "targetText": "всего святого",
-      "contextTranslation": "всего святого",
+      "targetText": "ради всего святого",
+      "contextTranslation": "ради всего святого",
       "sourceSentenceId": "ch08_p031_s009",
       "sourceSpan": {
         "start": 23,
@@ -74906,24 +75046,24 @@
       },
       "targetSentenceId": "ch08_p031_t009",
       "targetSpan": {
-        "start": 30,
+        "start": 25,
         "end": 43
       },
       "targetSpans": [
         {
           "targetSentenceId": "ch08_p031_t009",
           "targetSpan": {
-            "start": 30,
+            "start": 25,
             "end": 43
           },
-          "targetText": "всего святого"
+          "targetText": "ради всего святого"
         }
       ],
-      "alignmentMethod": "component_aggregate",
-      "alignmentConfidence": "medium",
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
       "alignmentWarningCode": null,
       "alignmentWarning": "",
-      "status": "review",
+      "status": "ok",
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
@@ -75187,11 +75327,11 @@
           "targetText": "кошмары"
         }
       ],
-      "alignmentMethod": "component_aggregate",
-      "alignmentConfidence": "medium",
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
       "alignmentWarningCode": null,
       "alignmentWarning": "",
-      "status": "review",
+      "status": "ok",
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
@@ -75303,8 +75443,8 @@
       "sourceText": "bad illness",
       "dictionaryTranslation": "тяжёлая болезнь",
       "rowTranslation": "тяжёлая болезнь",
-      "targetText": "болезни",
-      "contextTranslation": "болезни",
+      "targetText": "тяжёлой болезни",
+      "contextTranslation": "тяжёлой болезни",
       "sourceSentenceId": "ch08_p036_s004",
       "sourceSpan": {
         "start": 126,
@@ -75312,24 +75452,24 @@
       },
       "targetSentenceId": "ch08_p036_t004",
       "targetSpan": {
-        "start": 109,
+        "start": 101,
         "end": 116
       },
       "targetSpans": [
         {
           "targetSentenceId": "ch08_p036_t004",
           "targetSpan": {
-            "start": 109,
+            "start": 101,
             "end": 116
           },
-          "targetText": "болезни"
+          "targetText": "тяжёлой болезни"
         }
       ],
-      "alignmentMethod": "component_aggregate",
-      "alignmentConfidence": "medium",
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
       "alignmentWarningCode": null,
       "alignmentWarning": "",
-      "status": "review",
+      "status": "ok",
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
@@ -75485,8 +75625,8 @@
       "sourceText": "pearly gray-green",
       "dictionaryTranslation": "перламутровый серо-зелёный",
       "rowTranslation": "перламутровый серо-зелёный",
-      "targetText": "жемчужно-серо-зелёную траву",
-      "contextTranslation": "жемчужно-серо-зелёную траву",
+      "targetText": "жемчужно-серо-зелёную",
+      "contextTranslation": "жемчужно-серо-зелёную",
       "sourceSentenceId": "ch08_p039_s005",
       "sourceSpan": {
         "start": 80,
@@ -75495,24 +75635,23 @@
       "targetSentenceId": "ch08_p039_t005",
       "targetSpan": {
         "start": 60,
-        "end": 87
+        "end": 81
       },
       "targetSpans": [
         {
           "targetSentenceId": "ch08_p039_t005",
           "targetSpan": {
             "start": 60,
-            "end": 87
+            "end": 81
           },
-          "targetText": "жемчужно-серо-зелёную траву",
-          "broad": true
+          "targetText": "жемчужно-серо-зелёную"
         }
       ],
-      "alignmentMethod": "component_aggregate",
-      "alignmentConfidence": "medium",
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
       "alignmentWarningCode": null,
       "alignmentWarning": "",
-      "status": "review",
+      "status": "ok",
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
@@ -75624,8 +75763,8 @@
       "sourceText": "only thing",
       "dictionaryTranslation": "единственная вещь",
       "rowTranslation": "единственная вещь",
-      "targetText": "Только",
-      "contextTranslation": "Только",
+      "targetText": "Только ящик",
+      "contextTranslation": "Только ящик",
       "sourceSentenceId": "ch08_p040_s005",
       "sourceSpan": {
         "start": 4,
@@ -75634,23 +75773,23 @@
       "targetSentenceId": "ch08_p040_t005",
       "targetSpan": {
         "start": 0,
-        "end": 6
+        "end": 11
       },
       "targetSpans": [
         {
           "targetSentenceId": "ch08_p040_t005",
           "targetSpan": {
             "start": 0,
-            "end": 6
+            "end": 11
           },
-          "targetText": "Только"
+          "targetText": "Только ящик"
         }
       ],
-      "alignmentMethod": "component_aggregate",
-      "alignmentConfidence": "medium",
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
       "alignmentWarningCode": null,
       "alignmentWarning": "",
-      "status": "review",
+      "status": "ok",
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
@@ -75712,23 +75851,27 @@
       "sourceText": "her bed",
       "dictionaryTranslation": "её кровать",
       "rowTranslation": "её кровать",
-      "targetText": "её кровать",
-      "contextTranslation": "",
+      "targetText": "возле кровати",
+      "contextTranslation": "возле кровати",
       "sourceSentenceId": "ch08_p040_s005",
       "sourceSpan": {
         "start": 136,
         "end": 143
       },
       "targetSentenceId": "ch08_p040_t005",
-      "alignmentMethod": "phrase_lexical_inventory",
-      "alignmentConfidence": "low",
-      "alignmentWarningCode": "target_span_missing",
-      "alignmentWarning": "Phrase materialized from lexical inventory; target span is not available.",
-      "status": "review",
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "targetSpan": {
+        "start": 85,
+        "end": 98
+      }
     },
     {
       "id": "lexical-phrase-sct8_f4-3767-3780-phrase-spacy_phrase",
@@ -75742,8 +75885,8 @@
       "sourceText": "sleeping hump",
       "dictionaryTranslation": "спящий горб",
       "rowTranslation": "спящий горб",
-      "targetText": "бугорок",
-      "contextTranslation": "бугорок",
+      "targetText": "спал бугорок",
+      "contextTranslation": "спал бугорок",
       "sourceSentenceId": "ch08_p041_s001",
       "sourceSpan": {
         "start": 16,
@@ -75751,24 +75894,24 @@
       },
       "targetSentenceId": "ch08_p041_t001",
       "targetSpan": {
-        "start": 36,
+        "start": 31,
         "end": 43
       },
       "targetSpans": [
         {
           "targetSentenceId": "ch08_p041_t001",
           "targetSpan": {
-            "start": 36,
+            "start": 31,
             "end": 43
           },
-          "targetText": "бугорок"
+          "targetText": "спал бугорок"
         }
       ],
-      "alignmentMethod": "component_aggregate",
-      "alignmentConfidence": "medium",
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
       "alignmentWarningCode": null,
       "alignmentWarning": "",
-      "status": "review",
+      "status": "ok",
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
@@ -76763,15 +76906,14 @@
             "start": 34,
             "end": 57
           },
-          "targetText": "отнял у Гвендолен магию",
-          "broad": true
+          "targetText": "отнял у Гвендолен магию"
         }
       ],
-      "alignmentMethod": "mwe_component_aggregate",
-      "alignmentConfidence": "low",
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
       "alignmentWarningCode": null,
       "alignmentWarning": "",
-      "status": "review",
+      "status": "ok",
       "includeInVocabularySelection": true
     },
     {
@@ -76786,20 +76928,24 @@
       "sourceText": "went with",
       "dictionaryTranslation": "идти с; сочетаться с",
       "rowTranslation": "идти с; сочетаться с",
-      "targetText": "идти с; сочетаться с",
-      "contextTranslation": "",
+      "targetText": "колдовства",
+      "contextTranslation": "колдовства",
       "sourceSentenceId": "ch08_p040_s001",
       "sourceSpan": {
         "start": 90,
         "end": 99
       },
       "targetSentenceId": "ch08_p040_t001",
-      "alignmentMethod": "mwe_lexical_inventory",
-      "alignmentConfidence": "low",
-      "alignmentWarningCode": "target_span_missing",
-      "alignmentWarning": "MWE materialized from lexical inventory; target span is not available.",
-      "status": "review",
-      "includeInVocabularySelection": true
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "includeInVocabularySelection": true,
+      "targetSpan": {
+        "start": 77,
+        "end": 87
+      }
     },
     {
       "id": "lexical-mwe-sct8_f4-3491-3500-mwe-dictionary_phrasal",
@@ -77022,8 +77168,8 @@
       "sourceText": "hanging over",
       "dictionaryTranslation": "нависать над",
       "rowTranslation": "нависать над",
-      "targetText": "на",
-      "contextTranslation": "на",
+      "targetText": "на плечах",
+      "contextTranslation": "на плечах",
       "sourceSentenceId": "ch08_p048_s006",
       "sourceSpan": {
         "start": 16,
@@ -77032,23 +77178,23 @@
       "targetSentenceId": "ch08_p048_t006",
       "targetSpan": {
         "start": 15,
-        "end": 17
+        "end": 24
       },
       "targetSpans": [
         {
           "targetSentenceId": "ch08_p048_t006",
           "targetSpan": {
             "start": 15,
-            "end": 17
+            "end": 24
           },
-          "targetText": "на"
+          "targetText": "на плечах"
         }
       ],
-      "alignmentMethod": "mwe_component_aggregate",
-      "alignmentConfidence": "low",
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
       "alignmentWarningCode": null,
       "alignmentWarning": "",
-      "status": "review",
+      "status": "ok",
       "includeInVocabularySelection": true
     }
   ],
@@ -77957,55 +78103,16 @@
       "vocabularyRows": 411,
       "sourceSpanFoundRows": 411,
       "sourceSpanMissingRows": 0,
-      "targetSpanFoundRows": 369,
-      "targetSpanMissingRows": 42,
+      "targetSpanFoundRows": 407,
+      "targetSpanMissingRows": 4,
       "phraseRows": 72,
       "phraseSourceSpanFoundRows": 72,
-      "phraseTargetSpanFoundRows": 68,
-      "phraseTargetSpanMissingRows": 4,
+      "phraseTargetSpanFoundRows": 71,
+      "phraseTargetSpanMissingRows": 1,
       "ordinaryRows": 339,
-      "ordinaryTargetSpanFoundRows": 301,
-      "ordinaryTargetSpanMissingRows": 38,
+      "ordinaryTargetSpanFoundRows": 336,
+      "ordinaryTargetSpanMissingRows": 3,
       "targetSpanMissingExamples": [
-        {
-          "lessonId": "charmed-life-en_sct8_f4",
-          "wordKey": "away_adverb",
-          "word": "away",
-          "lemma": "away",
-          "pos": "adverb",
-          "type": "adverb",
-          "rowTranslation": "прочь",
-          "sourceText": "away",
-          "sourceSentenceText": "While Mr. Saunders labored away, and Gwendolen screamed and squirmed and kicked, Chrestomanci marched up to Cat and boxed Cat’s ears, twice on each side.",
-          "translatedParagraphText": "Пока мистер Сондерс усердно трудился, а Гвендолен визжала, извивалась и лягалась, Крестоманси подошёл к Кэту и дал ему пощёчину — дважды с каждой стороны. Кэт был так удивлён, что упал бы, если бы каждый следующий удар с другой стороны не возвращал его в вертикальное положение.",
-          "reason": "target_span_missing"
-        },
-        {
-          "lessonId": "charmed-life-en_sct8_f4",
-          "wordKey": "hit_verb",
-          "word": "hit",
-          "lemma": "hit",
-          "pos": "verb",
-          "type": "verb",
-          "rowTranslation": "удариться",
-          "sourceText": "hit",
-          "sourceSentenceText": "Cat was so surprised that he would have fallen over, had not Chrestomanci hit the other side of his head each time and brought him upright again.",
-          "translatedParagraphText": "Пока мистер Сондерс усердно трудился, а Гвендолен визжала, извивалась и лягалась, Крестоманси подошёл к Кэту и дал ему пощёчину — дважды с каждой стороны. Кэт был так удивлён, что упал бы, если бы каждый следующий удар с другой стороны не возвращал его в вертикальное положение.",
-          "reason": "target_span_missing"
-        },
-        {
-          "lessonId": "charmed-life-en_sct8_f4",
-          "wordKey": "his_head_phrase",
-          "word": "his head",
-          "lemma": "his head",
-          "pos": "phrase",
-          "type": "phrase",
-          "rowTranslation": "его голова",
-          "sourceText": "his head",
-          "sourceSentenceText": "Cat was so surprised that he would have fallen over, had not Chrestomanci hit the other side of his head each time and brought him upright again.",
-          "translatedParagraphText": "Пока мистер Сондерс усердно трудился, а Гвендолен визжала, извивалась и лягалась, Крестоманси подошёл к Кэту и дал ему пощёчину — дважды с каждой стороны. Кэт был так удивлён, что упал бы, если бы каждый следующий удар с другой стороны не возвращал его в вертикальное положение.",
-          "reason": "translation_paraphrased"
-        },
         {
           "lessonId": "charmed-life-en_sct8_f4",
           "wordKey": "head_noun",
@@ -78018,214 +78125,6 @@
           "sourceSentenceText": "Cat was so surprised that he would have fallen over, had not Chrestomanci hit the other side of his head each time and brought him upright again.",
           "translatedParagraphText": "Пока мистер Сондерс усердно трудился, а Гвендолен визжала, извивалась и лягалась, Крестоманси подошёл к Кэту и дал ему пощёчину — дважды с каждой стороны. Кэт был так удивлён, что упал бы, если бы каждый следующий удар с другой стороны не возвращал его в вертикальное положение.",
           "reason": "target_span_missing"
-        },
-        {
-          "lessonId": "charmed-life-en_sct8_f4",
-          "wordKey": "side_noun",
-          "word": "sides",
-          "lemma": "side",
-          "pos": "noun",
-          "type": "noun",
-          "rowTranslation": "стороны",
-          "sourceText": "sides",
-          "sourceSentenceText": "Cat said indignantly, clutching both sides of his ringing face.",
-          "translatedParagraphText": "— За что? — возмущённо спросил Кэт, держась за обе звенящие щеки. — Я ничего не сделал.",
-          "reason": "target_span_missing"
-        },
-        {
-          "lessonId": "charmed-life-en_sct8_f4",
-          "wordKey": "make_verb",
-          "word": "making",
-          "lemma": "make",
-          "pos": "verb",
-          "type": "verb",
-          "rowTranslation": "делать",
-          "sourceText": "making",
-          "sourceSentenceText": "Gwendolen slid to her knees on the floor, sobbing with pain, and making screams in between her sobs at being treated like this.",
-          "translatedParagraphText": "Мистер Сондерс прекратил шлёпать, слегка сожалея. Гвендолен соскользнула на колени, рыдала от боли и между всхлипами вопила от возмущения таким обращением.",
-          "reason": "target_span_missing"
-        },
-        {
-          "lessonId": "charmed-life-en_sct8_f4",
-          "wordKey": "treat_verb",
-          "word": "treated",
-          "lemma": "treat",
-          "pos": "verb",
-          "type": "verb",
-          "rowTranslation": "лечить",
-          "sourceText": "treated",
-          "sourceSentenceText": "Gwendolen slid to her knees on the floor, sobbing with pain, and making screams in between her sobs at being treated like this.",
-          "translatedParagraphText": "Мистер Сондерс прекратил шлёпать, слегка сожалея. Гвендолен соскользнула на колени, рыдала от боли и между всхлипами вопила от возмущения таким обращением.",
-          "reason": "target_span_missing"
-        },
-        {
-          "lessonId": "charmed-life-en_sct8_f4",
-          "wordKey": "away_adverb",
-          "word": "away",
-          "lemma": "away",
-          "pos": "adverb",
-          "type": "adverb",
-          "rowTranslation": "прочь",
-          "sourceText": "away",
-          "sourceSentenceText": "And, as you probably realize, Michael has taken away your witchcraft too.",
-          "translatedParagraphText": "Крестоманси подошёл и ткнул её блестящей туфлей. — Прекрати. Встань и веди себя прилично. — Когда Гвендолен приподнялась на коленях и посмотрела жалобно, словно с ней обошлись чудовищно несправедливо, он сказал: — Эту порку ты полностью заслужила. И, как, вероятно, понимаешь, Майкл забрал твоё колдовство. Ты больше не ведьма. Отныне ты не произнесёшь ни одного заклинания, пока не докажешь нам обоим, что не собираешься использовать его для пакостей. Ясно? А теперь ложись спать и, ради всего святого, попробуй подумать о том, что делала.",
-          "reason": "target_span_missing"
-        },
-        {
-          "lessonId": "charmed-life-en_sct8_f4",
-          "wordKey": "work_verb",
-          "word": "work",
-          "lemma": "work",
-          "pos": "verb",
-          "type": "verb",
-          "rowTranslation": "работали",
-          "sourceText": "work",
-          "sourceSentenceText": "In future, you are not going to work one spell, unless you can prove to both of us that you are not going to do mischief with it.",
-          "translatedParagraphText": "Крестоманси подошёл и ткнул её блестящей туфлей. — Прекрати. Встань и веди себя прилично. — Когда Гвендолен приподнялась на коленях и посмотрела жалобно, словно с ней обошлись чудовищно несправедливо, он сказал: — Эту порку ты полностью заслужила. И, как, вероятно, понимаешь, Майкл забрал твоё колдовство. Ты больше не ведьма. Отныне ты не произнесёшь ни одного заклинания, пока не докажешь нам обоим, что не собираешься использовать его для пакостей. Ясно? А теперь ложись спать и, ради всего святого, попробуй подумать о том, что делала.",
-          "reason": "target_span_missing"
-        },
-        {
-          "lessonId": "charmed-life-en_sct8_f4",
-          "wordKey": "sake_noun",
-          "word": "sake",
-          "lemma": "sake",
-          "pos": "noun",
-          "type": "noun",
-          "rowTranslation": "ради; польза",
-          "sourceText": "sake",
-          "sourceSentenceText": "Now go to bed, and for goodness sake try and think about what you’ve been doing.”",
-          "translatedParagraphText": "Крестоманси подошёл и ткнул её блестящей туфлей. — Прекрати. Встань и веди себя прилично. — Когда Гвендолен приподнялась на коленях и посмотрела жалобно, словно с ней обошлись чудовищно несправедливо, он сказал: — Эту порку ты полностью заслужила. И, как, вероятно, понимаешь, Майкл забрал твоё колдовство. Ты больше не ведьма. Отныне ты не произнесёшь ни одного заклинания, пока не докажешь нам обоим, что не собираешься использовать его для пакостей. Ясно? А теперь ложись спать и, ради всего святого, попробуй подумать о том, что делала.",
-          "reason": "target_span_missing"
-        },
-        {
-          "lessonId": "charmed-life-en_sct8_f4",
-          "wordKey": "away_adverb",
-          "word": "away",
-          "lemma": "away",
-          "pos": "adverb",
-          "type": "adverb",
-          "rowTranslation": "прочь",
-          "sourceText": "away",
-          "sourceSentenceText": "“Go away!”",
-          "translatedParagraphText": "— Уходи! — завизжала Гвендолен. — Оставь меня! Ты такой же, как они! — Кэт направился к двери, оставляя её барабанить ногами и рыдать, а она подняла голову и крикнула вслед: — Я ещё не побеждена! Вот увидишь!",
-          "reason": "target_span_missing"
-        },
-        {
-          "lessonId": "charmed-life-en_sct8_f4",
-          "wordKey": "bad_adjective",
-          "word": "worse",
-          "lemma": "bad",
-          "pos": "adjective",
-          "type": "adjective",
-          "rowTranslation": "хуже",
-          "sourceText": "bad",
-          "sourceSentenceText": "You’re as bad as the rest of them!”",
-          "translatedParagraphText": "— Уходи! — завизжала Гвендолен. — Оставь меня! Ты такой же, как они! — Кэт направился к двери, оставляя её барабанить ногами и рыдать, а она подняла голову и крикнула вслед: — Я ещё не побеждена! Вот увидишь!",
-          "reason": "target_span_missing"
-        },
-        {
-          "lessonId": "charmed-life-en_sct8_f4",
-          "wordKey": "rest_noun",
-          "word": "rest",
-          "lemma": "rest",
-          "pos": "noun",
-          "type": "noun",
-          "rowTranslation": "отдыхать",
-          "sourceText": "rest",
-          "sourceSentenceText": "You’re as bad as the rest of them!”",
-          "translatedParagraphText": "— Уходи! — завизжала Гвендолен. — Оставь меня! Ты такой же, как они! — Кэт направился к двери, оставляя её барабанить ногами и рыдать, а она подняла голову и крикнула вслед: — Я ещё не побеждена! Вот увидишь!",
-          "reason": "target_span_missing"
-        },
-        {
-          "lessonId": "charmed-life-en_sct8_f4",
-          "wordKey": "bad_adjective",
-          "word": "worse",
-          "lemma": "bad",
-          "pos": "adjective",
-          "type": "adjective",
-          "rowTranslation": "хуже",
-          "sourceText": "bad",
-          "sourceSentenceText": "Not surprisingly, Cat had bad dreams that night.",
-          "translatedParagraphText": "Неудивительно, что ночью Кэту снились кошмары. Ужасные сны, полные гигантских червей и огромных слизистых дырчатых лягушек. Они становились всё горячее и лихорадочнее. Кэт потел, стонал и наконец проснулся мокрым, слабым и каким-то слишком костлявым — как бывает после тяжёлой болезни или страшного сна. Некоторое время он лежал несчастный. Потом стало легче, и он снова уснул.",
-          "reason": "target_span_missing"
-        },
-        {
-          "lessonId": "charmed-life-en_sct8_f4",
-          "wordKey": "great_adjective",
-          "word": "great",
-          "lemma": "great",
-          "pos": "adjective",
-          "type": "adjective",
-          "rowTranslation": "великий",
-          "sourceText": "great",
-          "sourceSentenceText": "They were terrible dreams, full of giant earthworms and great, slimy, porous frogs.",
-          "translatedParagraphText": "Неудивительно, что ночью Кэту снились кошмары. Ужасные сны, полные гигантских червей и огромных слизистых дырчатых лягушек. Они становились всё горячее и лихорадочнее. Кэт потел, стонал и наконец проснулся мокрым, слабым и каким-то слишком костлявым — как бывает после тяжёлой болезни или страшного сна. Некоторое время он лежал несчастный. Потом стало легче, и он снова уснул.",
-          "reason": "target_span_missing"
-        },
-        {
-          "lessonId": "charmed-life-en_sct8_f4",
-          "wordKey": "feel_verb",
-          "word": "feeling",
-          "lemma": "feel",
-          "pos": "verb",
-          "type": "verb",
-          "rowTranslation": "чувствовал",
-          "sourceText": "feeling",
-          "sourceSentenceText": "Cat sweated and moaned and finally woke up, feeling wet and weak and rather too bony, the way you do when you have just had a bad illness or a fearsome dream.",
-          "translatedParagraphText": "Неудивительно, что ночью Кэту снились кошмары. Ужасные сны, полные гигантских червей и огромных слизистых дырчатых лягушек. Они становились всё горячее и лихорадочнее. Кэт потел, стонал и наконец проснулся мокрым, слабым и каким-то слишком костлявым — как бывает после тяжёлой болезни или страшного сна. Некоторое время он лежал несчастный. Потом стало легче, и он снова уснул.",
-          "reason": "target_span_missing"
-        },
-        {
-          "lessonId": "charmed-life-en_sct8_f4",
-          "wordKey": "bad_adjective",
-          "word": "worse",
-          "lemma": "bad",
-          "pos": "adjective",
-          "type": "adjective",
-          "rowTranslation": "хуже",
-          "sourceText": "bad",
-          "sourceSentenceText": "Cat sweated and moaned and finally woke up, feeling wet and weak and rather too bony, the way you do when you have just had a bad illness or a fearsome dream.",
-          "translatedParagraphText": "Неудивительно, что ночью Кэту снились кошмары. Ужасные сны, полные гигантских червей и огромных слизистых дырчатых лягушек. Они становились всё горячее и лихорадочнее. Кэт потел, стонал и наконец проснулся мокрым, слабым и каким-то слишком костлявым — как бывает после тяжёлой болезни или страшного сна. Некоторое время он лежал несчастный. Потом стало легче, и он снова уснул.",
-          "reason": "target_span_missing"
-        },
-        {
-          "lessonId": "charmed-life-en_sct8_f4",
-          "wordKey": "little_adjective",
-          "word": "little",
-          "lemma": "little",
-          "pos": "adjective",
-          "type": "adjective",
-          "rowTranslation": "маленький",
-          "sourceText": "little",
-          "sourceSentenceText": "He lay for a little while feeling wretched.",
-          "translatedParagraphText": "Неудивительно, что ночью Кэту снились кошмары. Ужасные сны, полные гигантских червей и огромных слизистых дырчатых лягушек. Они становились всё горячее и лихорадочнее. Кэт потел, стонал и наконец проснулся мокрым, слабым и каким-то слишком костлявым — как бывает после тяжёлой болезни или страшного сна. Некоторое время он лежал несчастный. Потом стало легче, и он снова уснул.",
-          "reason": "target_span_missing"
-        },
-        {
-          "lessonId": "charmed-life-en_sct8_f4",
-          "wordKey": "feel_verb",
-          "word": "feeling",
-          "lemma": "feel",
-          "pos": "verb",
-          "type": "verb",
-          "rowTranslation": "чувствовал",
-          "sourceText": "feeling",
-          "sourceSentenceText": "He lay for a little while feeling wretched.",
-          "translatedParagraphText": "Неудивительно, что ночью Кэту снились кошмары. Ужасные сны, полные гигантских червей и огромных слизистых дырчатых лягушек. Они становились всё горячее и лихорадочнее. Кэт потел, стонал и наконец проснулся мокрым, слабым и каким-то слишком костлявым — как бывает после тяжёлой болезни или страшного сна. Некоторое время он лежал несчастный. Потом стало легче, и он снова уснул.",
-          "reason": "target_span_missing"
-        },
-        {
-          "lessonId": "charmed-life-en_sct8_f4",
-          "wordKey": "feel_verb",
-          "word": "feeling",
-          "lemma": "feel",
-          "pos": "verb",
-          "type": "verb",
-          "rowTranslation": "чувствовал",
-          "sourceText": "feel",
-          "sourceSentenceText": "Then he began to feel better and fell asleep again.",
-          "translatedParagraphText": "Неудивительно, что ночью Кэту снились кошмары. Ужасные сны, полные гигантских червей и огромных слизистых дырчатых лягушек. Они становились всё горячее и лихорадочнее. Кэт потел, стонал и наконец проснулся мокрым, слабым и каким-то слишком костлявым — как бывает после тяжёлой болезни или страшного сна. Некоторое время он лежал несчастный. Потом стало легче, и он снова уснул.",
-          "reason": "target_span_missing"
         }
       ],
       "simAlign": {
@@ -78233,13 +78132,15 @@
         "used": true
       },
       "alignmentMethodCounts": {
-        "exact": 48,
-        "normalized": 1,
+        "simalign": 224,
+        "manual": 48,
         "translation_inflected": 31,
-        "simalign": 289,
-        "openai": 0,
-        "openai_translation_anchor": 0,
-        "none": 42
+        "exact": 42,
+        "none": 3,
+        "normalized": 1,
+        "manual_unmatched": 2,
+        "component_aggregate": 43,
+        "mwe_component_aggregate": 17
       }
     },
     "openAiTranslationAnchorDiagnostics": {
@@ -78287,8 +78188,8 @@
       "bundledSpanLinkCount": 692
     },
     "contextTranslationDiagnostics": {
-      "rowsWithContextTranslation": 369,
-      "rowsWhereDictionaryDiffersFromContext": 289,
+      "rowsWithContextTranslation": 390,
+      "rowsWhereDictionaryDiffersFromContext": 349,
       "suspiciousPhraseRows": 0,
       "examples": [
         {

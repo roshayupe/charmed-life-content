@@ -21,14 +21,14 @@
       "wordCount": 565,
       "uniqueWordCount": 346,
       "paragraphCount": 22,
-      "vocabularyCount": 193,
+      "vocabularyCount": 192,
       "levelDistribution": {
         "A1": 48,
-        "A2": 45,
+        "A2": 43,
         "B1": 49,
         "B2": 44,
         "C1": 6,
-        "C2": 1
+        "C2": 2
       }
     }
   },
@@ -756,25 +756,25 @@
     },
     {
       "word": "cling",
-      "lemma": "cle",
-      "lemmaId": "cle",
+      "lemma": "cling",
+      "lemmaId": "cling",
       "pos": "verb",
       "source": "word",
-      "wordKey": "cle_verb",
-      "level": "A2",
+      "wordKey": "cling_verb",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "цепляться"
         }
       },
-      "_spacyLemma": "cle",
+      "_spacyLemma": "cling",
       "example": "“Shadows cling to this dimple here,” he said, his voice softer, “and the grain goes this direction here—rougher near the top, creating tiny jagged shadows.",
       "exampleStart": 336,
       "exampleEnd": 491,
       "matchedForm": "cling",
       "ipa": "klɪŋ",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 1,
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.862857,
       "difficultySource": "zipf"
     },
     {
@@ -1010,10 +1010,10 @@
       "word": "dimple",
       "lemma": "dimple",
       "lemmaId": "dimple",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "dimple_adjective",
-      "level": "B1",
+      "wordKey": "dimple_noun",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "Ямочка"
@@ -1024,7 +1024,7 @@
       "exampleStart": 336,
       "exampleEnd": 491,
       "matchedForm": "dimple",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf",
       "ipa": "ˈdɪmpəl"
@@ -3242,26 +3242,26 @@
     },
     {
       "word": "rougher",
-      "lemma": "rougher",
-      "lemmaId": "rougher",
-      "pos": "noun",
+      "lemma": "rough",
+      "lemmaId": "rough",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "rougher_noun",
-      "level": "B2",
+      "wordKey": "rough_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "Более грубое"
         }
       },
-      "_spacyLemma": "rougher",
+      "_spacyLemma": "rough",
       "example": "“Shadows cling to this dimple here,” he said, his voice softer, “and the grain goes this direction here—rougher near the top, creating tiny jagged shadows.",
       "exampleStart": 336,
       "exampleEnd": 491,
       "matchedForm": "rougher",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 1,
+      "levelSource": "cefr_reference",
+      "difficultyScore": 0.577143,
       "difficultySource": "zipf",
-      "ipa": "ˈrʌfə"
+      "ipa": "rʌf"
     },
     {
       "word": "runs",
@@ -3675,31 +3675,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.485714,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "speak to",
-      "lemma": "speak to",
-      "lemmaId": "speak_to",
-      "pos": "phrasal_verb",
-      "type": "phrasal_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "speak_to_phrasal_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "поговорить"
-        }
-      },
-      "example": "“You may speak to answer me.",
-      "exampleStart": 43,
-      "exampleEnd": 71,
-      "phraseMatch": {
-        "text": "speak to",
-        "startInExample": 9,
-        "endInExample": 17
-      },
-      "ipa": "ˈspiːk tuː",
-      "levelSource": "phrase_index"
     },
     {
       "word": "speak",
@@ -4242,10 +4217,10 @@
       "word": "topple",
       "lemma": "topple",
       "lemmaId": "topple",
-      "pos": "noun",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "topple_noun",
-      "level": "A2",
+      "wordKey": "topple_verb",
+      "level": "C2",
       "translations": {
         "ru": {
           "translation": "Опрокинь"
@@ -4256,7 +4231,7 @@
       "exampleStart": 2728,
       "exampleEnd": 2765,
       "matchedForm": "topple",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_reference",
       "difficultyScore": 1,
       "difficultySource": "zipf",
       "ipa": "ˈtɒpəl"

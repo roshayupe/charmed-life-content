@@ -21,14 +21,14 @@
       "wordCount": 523,
       "uniqueWordCount": 313,
       "paragraphCount": 15,
-      "vocabularyCount": 179,
+      "vocabularyCount": 176,
       "levelDistribution": {
         "A1": 47,
-        "A2": 33,
-        "B1": 43,
+        "A2": 31,
+        "B1": 40,
         "B2": 43,
-        "C1": 13,
-        "C2": 0
+        "C1": 14,
+        "C2": 1
       }
     }
   },
@@ -594,27 +594,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "deadrunners",
-      "lemma": "deadrunner",
-      "lemmaId": "deadrunner",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "deadrunner_noun",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "Мёртвые бегущие"
-        }
-      },
-      "_spacyLemma": "deadrunner",
-      "example": "It was so much more dangerous to be deadrunners, and it denied them loot.",
-      "exampleStart": 959,
-      "exampleEnd": 1032,
-      "matchedForm": "deadrunners",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "ˈdedrʌnəz"
-    },
-    {
       "word": "deck",
       "lemma": "deck",
       "lemmaId": "deck",
@@ -1076,26 +1055,26 @@
     },
     {
       "word": "glaring",
-      "lemma": "glaring",
-      "lemmaId": "glaring",
-      "pos": "noun",
+      "lemma": "glare",
+      "lemmaId": "glare",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "glaring_noun",
-      "level": "B1",
+      "wordKey": "glare_verb",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "Слепый"
         }
       },
-      "_spacyLemma": "glaring",
+      "_spacyLemma": "glare",
       "example": "It…” He trailed off, noticing her glaring at him.",
       "exampleStart": 2180,
       "exampleEnd": 2229,
       "matchedForm": "glaring",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 0.914286,
+      "levelSource": "cefr_reference",
+      "difficultyScore": 0.9,
       "difficultySource": "zipf",
-      "ipa": "ˈɡleərɪŋ"
+      "ipa": "ɡleə"
     },
     {
       "word": "went in",
@@ -1465,24 +1444,24 @@
     },
     {
       "word": "hidden",
-      "lemma": "hide",
-      "lemmaId": "hide",
+      "lemma": "hidden",
+      "lemmaId": "hidden",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "hide_adjective",
+      "wordKey": "hidden_adjective",
       "level": "B1",
       "translations": {
         "ru": {
           "translation": "Скрыто"
         }
       },
-      "_spacyLemma": "hide",
+      "_spacyLemma": "hidden",
       "example": "He kept rigged cannonballs in the hidden compartment.",
       "exampleStart": 860,
       "exampleEnd": 913,
       "matchedForm": "hidden",
-      "levelSource": "cefr_frequency",
-      "difficultyScore": 0.562857,
+      "levelSource": "cefr_reference",
+      "difficultyScore": 0.565714,
       "difficultySource": "zipf",
       "ipa": "ˈhɪdən"
     },
@@ -1867,27 +1846,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.442857,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "Laggart",
-      "lemma": "laggart",
-      "lemmaId": "laggart",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "laggart_noun",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "Лаггарт"
-        }
-      },
-      "_spacyLemma": "laggart",
-      "example": "Laggart swooped over to the cannon and craned his long neck over the barrel, eyeing the bundles of spores.",
-      "exampleStart": 0,
-      "exampleEnd": 106,
-      "matchedForm": "Laggart",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "ˈlæɡɑːt"
     },
     {
       "word": "last night",
@@ -2969,26 +2927,25 @@
     },
     {
       "word": "rigged",
-      "lemma": "rig",
-      "lemmaId": "rig",
+      "lemma": "rigged",
+      "lemmaId": "rigged",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "rig_adjective",
-      "level": "A2",
+      "wordKey": "rigged_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "Подстроенная"
         }
       },
-      "_spacyLemma": "rig",
+      "_spacyLemma": "rigged",
       "example": "He kept rigged cannonballs in the hidden compartment.",
       "exampleStart": 860,
       "exampleEnd": 913,
       "matchedForm": "rigged",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.757143,
-      "difficultySource": "zipf",
-      "ipa": "rɪɡd"
+      "difficultySource": "zipf"
     },
     {
       "word": "right",
@@ -3939,10 +3896,10 @@
       "word": "tavern",
       "lemma": "tavern",
       "lemmaId": "tavern",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "tavern_adjective",
-      "level": "B1",
+      "wordKey": "tavern_noun",
+      "level": "C2",
       "translations": {
         "ru": {
           "translation": "Таверна"
@@ -3953,7 +3910,7 @@
       "exampleStart": 1441,
       "exampleEnd": 1631,
       "matchedForm": "tavern",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.845714,
       "difficultySource": "zipf",
       "ipa": "ˈtævən"
@@ -4135,29 +4092,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.588571,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "Tress",
-      "lemma": "tress",
-      "lemmaId": "tress",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "tress_noun",
-      "level": "A2",
-      "translations": {
-        "ru": {
-          "translation": "Тресс"
-        }
-      },
-      "_spacyLemma": "tress",
-      "example": "Tress didn’t mind.",
-      "exampleStart": 336,
-      "exampleEnd": 354,
-      "matchedForm": "Tress",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "tres"
     },
     {
       "word": "tromp",

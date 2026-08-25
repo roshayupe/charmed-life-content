@@ -21,13 +21,13 @@
       "wordCount": 707,
       "uniqueWordCount": 410,
       "paragraphCount": 53,
-      "vocabularyCount": 242,
+      "vocabularyCount": 234,
       "levelDistribution": {
-        "A1": 60,
-        "A2": 48,
-        "B1": 63,
-        "B2": 56,
-        "C1": 13,
+        "A1": 59,
+        "A2": 45,
+        "B1": 60,
+        "B2": 53,
+        "C1": 15,
         "C2": 2
       }
     }
@@ -512,46 +512,6 @@
       "ipa": "ˌsɜːtən ekˈsaɪtmənt"
     },
     {
-      "word": "city",
-      "lemma": "city",
-      "lemmaId": "city",
-      "pos": "adjective",
-      "source": "word",
-      "wordKey": "city_adjective",
-      "level": "A1",
-      "translations": {},
-      "_spacyLemma": "city",
-      "example": "I think they’re city eggs.",
-      "exampleStart": 3549,
-      "exampleEnd": 3575,
-      "matchedForm": "city",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.257143,
-      "difficultySource": "zipf",
-      "ipa": "ˈsɪti"
-    },
-    {
-      "word": "city eggs",
-      "lemma": "city egg",
-      "lemmaId": "city_egg",
-      "pos": "phrase",
-      "type": "phrase",
-      "source": "spacy_phrase",
-      "wordKey": "city_egg_phrase",
-      "level": "B1",
-      "translations": {},
-      "example": "I think they’re city eggs.",
-      "exampleStart": 3549,
-      "exampleEnd": 3575,
-      "phraseMatch": {
-        "text": "city eggs",
-        "startInExample": 16,
-        "endInExample": 25
-      },
-      "levelSource": "phrase_fallback",
-      "ipa": "ˌsɪti ˈeɡz"
-    },
-    {
       "word": "cities",
       "lemma": "city",
       "lemmaId": "city",
@@ -573,6 +533,27 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.257143,
       "difficultySource": "zipf"
+    },
+    {
+      "word": "city eggs",
+      "lemma": "city egg",
+      "lemmaId": "city_egg",
+      "pos": "phrase",
+      "type": "phrase",
+      "source": "spacy_phrase",
+      "wordKey": "city_egg_phrase",
+      "level": "B1",
+      "translations": {},
+      "example": "I think they’re city eggs.",
+      "exampleStart": 3549,
+      "exampleEnd": 3575,
+      "phraseMatch": {
+        "text": "city eggs",
+        "startInExample": 16,
+        "endInExample": 25
+      },
+      "levelSource": "phrase_fallback",
+      "ipa": "ˌsɪti ˈeɡz"
     },
     {
       "word": "civilians",
@@ -756,17 +737,17 @@
       "pos": "verb",
       "source": "word",
       "wordKey": "crow_verb",
-      "level": "A2",
+      "level": "C1",
       "translations": {},
       "_spacyLemma": "crow",
       "example": "’ crowed Windle.",
       "exampleStart": 2248,
       "exampleEnd": 2264,
       "matchedForm": "crowed",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.774286,
       "difficultySource": "zipf",
-      "ipa": "krəʊd"
+      "ipa": "krəʊ"
     },
     {
       "word": "cruel",
@@ -2281,23 +2262,6 @@
       "ipa": "hɪz ˈwɪzəd"
     },
     {
-      "word": "hngh",
-      "lemma": "hngh",
-      "lemmaId": "hngh",
-      "pos": "adjective",
-      "source": "word",
-      "wordKey": "hngh_adjective",
-      "level": "A2",
-      "translations": {},
-      "_spacyLemma": "hngh",
-      "example": "hngh, hngh, hngh.",
-      "exampleStart": 422,
-      "exampleEnd": 439,
-      "matchedForm": "hngh",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "ˌeɪˌtʃenˌdʒiːˈeɪtʃ"
-    },
-    {
       "word": "housekeeper",
       "lemma": "housekeeper",
       "lemmaId": "housekeeper",
@@ -3325,23 +3289,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "octarine",
-      "lemma": "octarine",
-      "lemmaId": "octarine",
-      "pos": "adjective",
-      "source": "word",
-      "wordKey": "octarine_adjective",
-      "level": "B2",
-      "translations": {},
-      "_spacyLemma": "octarine",
-      "example": "There was a small octarine spark and a smell of greasy tin.",
-      "exampleStart": 2473,
-      "exampleEnd": 2532,
-      "matchedForm": "octarine",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "ˈɒktɑːˌriːn"
-    },
-    {
       "word": "oddity",
       "lemma": "oddity",
       "lemmaId": "oddity",
@@ -3739,23 +3686,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "Ridcully",
-      "lemma": "ridcully",
-      "lemmaId": "ridcully",
-      "pos": "adverb",
-      "source": "word",
-      "wordKey": "ridcully_adverb",
-      "level": "B2",
-      "translations": {},
-      "_spacyLemma": "ridcully",
-      "example": "’\n\nMustrum Ridcully trotted into his study and took his wizard’s staff from its rack over the fireplace.",
-      "exampleStart": 2304,
-      "exampleEnd": 2408,
-      "matchedForm": "Ridcully",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "ˈrɪdkʌli"
-    },
-    {
       "word": "right",
       "lemma": "right",
       "lemmaId": "right",
@@ -3840,23 +3770,6 @@
       },
       "levelSource": "phrase_fallback",
       "ipa": "ˌraɪtʃəs ˈzæp"
-    },
-    {
-      "word": "Roight",
-      "lemma": "roight",
-      "lemmaId": "roight",
-      "pos": "adjective",
-      "source": "word",
-      "wordKey": "roight_adjective",
-      "level": "B1",
-      "translations": {},
-      "_spacyLemma": "roight",
-      "example": "‘Roight!",
-      "exampleStart": 2115,
-      "exampleEnd": 2123,
-      "matchedForm": "Roight",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "rɔɪt"
     },
     {
       "word": "rolled",
@@ -5211,23 +5124,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "Twoice",
-      "lemma": "twoice",
-      "lemmaId": "twoice",
-      "pos": "verb",
-      "source": "word",
-      "wordKey": "twoice_verb",
-      "level": "B1",
-      "translations": {},
-      "_spacyLemma": "twoice",
-      "example": "‘Twoice!",
-      "exampleStart": 1971,
-      "exampleEnd": 1979,
-      "matchedForm": "Twoice",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "ˈtuːaɪs"
-    },
-    {
       "word": "unfinished",
       "lemma": "unfinished",
       "lemmaId": "unfinished",
@@ -5288,22 +5184,21 @@
     },
     {
       "word": "unsporting",
-      "lemma": "unsporte",
-      "lemmaId": "unsporte",
-      "pos": "verb",
+      "lemma": "unsporting",
+      "lemmaId": "unsporting",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "unsporte_verb",
-      "level": "B2",
+      "wordKey": "unsporting_adjective",
+      "level": "C1",
       "translations": {},
-      "_spacyLemma": "unsporte",
+      "_spacyLemma": "unsporting",
       "example": "It was considered bad form to use magic against fellow wizards, and using it against civilians was unsporting.",
       "exampleStart": 3689,
       "exampleEnd": 3799,
       "matchedForm": "unsporting",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "ʌnˈspɔːtɪŋ"
+      "difficultySource": "zipf"
     },
     {
       "word": "use",
@@ -5485,25 +5380,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "wheely",
-      "lemma": "wheely",
-      "lemmaId": "wheely",
-      "pos": "adjective",
-      "source": "word",
-      "wordKey": "wheely_adjective",
-      "level": "B1",
-      "translations": {},
-      "_spacyLemma": "wheely",
-      "example": "‘Damn wire wheely things are gettin’ everywhere,’ he muttered.",
-      "exampleStart": 3082,
-      "exampleEnd": 3144,
-      "matchedForm": "wheely",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "ˈwiːli"
-    },
-    {
       "word": "wine",
       "lemma": "wine",
       "lemmaId": "wine",
@@ -5654,25 +5530,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.477143,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "ye",
-      "lemma": "ye",
-      "lemmaId": "ye",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "ye_noun",
-      "level": "A2",
-      "translations": {},
-      "_spacyLemma": "ye",
-      "example": "‘Just knock twice for yes and once for no, like in the old days.",
-      "exampleStart": 1551,
-      "exampleEnd": 1615,
-      "matchedForm": "yes",
-      "levelSource": "cefr_frequency",
-      "difficultyScore": 0.645714,
-      "difficultySource": "zipf",
-      "ipa": "jiː"
     },
     {
       "word": "yes",

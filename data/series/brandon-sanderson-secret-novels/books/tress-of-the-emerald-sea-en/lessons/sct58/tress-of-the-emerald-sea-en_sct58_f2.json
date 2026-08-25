@@ -21,13 +21,13 @@
       "wordCount": 603,
       "uniqueWordCount": 332,
       "paragraphCount": 21,
-      "vocabularyCount": 182,
+      "vocabularyCount": 178,
       "levelDistribution": {
         "A1": 46,
-        "A2": 45,
-        "B1": 35,
-        "B2": 48,
-        "C1": 7,
+        "A2": 42,
+        "B1": 36,
+        "B2": 45,
+        "C1": 8,
         "C2": 1
       }
     }
@@ -225,9 +225,9 @@
       "word": "barely",
       "lemma": "barely",
       "lemmaId": "barely",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "barely_adjective",
+      "wordKey": "barely_adverb",
       "level": "B1",
       "translations": {
         "ru": {
@@ -239,7 +239,7 @@
       "exampleStart": 2083,
       "exampleEnd": 2201,
       "matchedForm": "barely",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.577143,
       "difficultySource": "zipf",
       "ipa": "ˈbeəli"
@@ -442,27 +442,26 @@
       "ipa": "ˈkæbɪn"
     },
     {
-      "word": "caged",
-      "lemma": "cage",
-      "lemmaId": "cage",
+      "word": "cage",
+      "lemma": "caged",
+      "lemmaId": "caged",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "cage_adjective",
-      "level": "A2",
+      "wordKey": "caged_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "клетка"
         }
       },
-      "_spacyLemma": "cage",
+      "_spacyLemma": "caged",
       "example": "Tress froze, then turned toward his cage.",
       "exampleStart": 2379,
       "exampleEnd": 2420,
       "matchedForm": "cage",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.68,
-      "difficultySource": "zipf",
-      "ipa": "keɪdʒd"
+      "difficultySource": "zipf"
     },
     {
       "word": "cage",
@@ -578,31 +577,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.36,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "came on",
-      "lemma": "come on",
-      "lemmaId": "come_on",
-      "pos": "prepositional_verb",
-      "type": "prepositional_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "come_on_prepositional_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "зашел"
-        }
-      },
-      "example": "“Ever since you came on this ship,” Salay said, “you’ve done nothing but try to protect and help us.",
-      "exampleStart": 860,
-      "exampleEnd": 960,
-      "phraseMatch": {
-        "text": "came on",
-        "startInExample": 16,
-        "endInExample": 23
-      },
-      "levelSource": "dictionary_phrase",
-      "ipa": "ˌkeɪm ˈɒn"
     },
     {
       "word": "came",
@@ -1421,35 +1395,35 @@
     },
     {
       "word": "froze",
-      "lemma": "froze",
-      "lemmaId": "froze",
-      "pos": "noun",
+      "lemma": "freeze",
+      "lemmaId": "freeze",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "froze_noun",
+      "wordKey": "freeze_verb",
       "level": "A2",
       "translations": {
         "ru": {
           "translation": "заморожен"
         }
       },
-      "_spacyLemma": "froze",
+      "_spacyLemma": "freeze",
       "example": "Tress froze, then turned toward his cage.",
       "exampleStart": 2379,
       "exampleEnd": 2420,
       "matchedForm": "froze",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 0.882857,
+      "levelSource": "cefr_reference",
+      "difficultyScore": 0.685714,
       "difficultySource": "zipf",
-      "ipa": "frəʊz"
+      "ipa": "friːz"
     },
     {
       "word": "furry",
       "lemma": "furry",
       "lemmaId": "furry",
-      "pos": "noun",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "furry_noun",
-      "level": "B2",
+      "wordKey": "furry_adjective",
+      "level": "B1",
       "translations": {
         "de": {
           "translation": "flauschig"
@@ -1470,7 +1444,7 @@
       "exampleEnd": 2201,
       "matchedForm": "furry",
       "ipa": "ˈfɜːri",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.842857,
       "difficultySource": "zipf"
     },
@@ -3100,52 +3074,6 @@
       "ipa": "ˈrəʊbəʊt"
     },
     {
-      "word": "Salay",
-      "lemma": "salay",
-      "lemmaId": "salay",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "salay_noun",
-      "level": "A2",
-      "translations": {
-        "ru": {
-          "translation": "Салай"
-        }
-      },
-      "_spacyLemma": "salay",
-      "example": "”\n\n“I need a good crew to get through these seas,” Salay said.",
-      "exampleStart": 82,
-      "exampleEnd": 144,
-      "matchedForm": "Salay",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "ˈsæleɪ"
-    },
-    {
-      "word": "Salay",
-      "lemma": "salay",
-      "lemmaId": "salay",
-      "pos": "verb",
-      "source": "word",
-      "wordKey": "salay_verb",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "Салай"
-        }
-      },
-      "_spacyLemma": "salay",
-      "example": "”\n\n“I need a good crew to get through these seas,” Salay said.",
-      "exampleStart": 82,
-      "exampleEnd": 144,
-      "matchedForm": "Salay",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "ˈsæleɪ"
-    },
-    {
       "word": "save",
       "lemma": "save",
       "lemmaId": "save",
@@ -3557,10 +3485,10 @@
       "word": "spore",
       "lemma": "spore",
       "lemmaId": "spore",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "spore_adjective",
-      "level": "B2",
+      "wordKey": "spore_noun",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "споры"
@@ -3571,7 +3499,7 @@
       "exampleStart": 1976,
       "exampleEnd": 2083,
       "matchedForm": "spore",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf",
       "ipa": "spɔː"
@@ -4246,29 +4174,6 @@
       },
       "levelSource": "phrase_fallback",
       "ipa": "ˌtres ˈfrəʊz"
-    },
-    {
-      "word": "Tress",
-      "lemma": "tress",
-      "lemmaId": "tress",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "tress_noun",
-      "level": "A2",
-      "translations": {
-        "ru": {
-          "translation": "Тресс"
-        }
-      },
-      "_spacyLemma": "tress",
-      "example": "“Then go,” Tress said softly.",
-      "exampleStart": 0,
-      "exampleEnd": 29,
-      "matchedForm": "Tress",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "tres"
     },
     {
       "word": "try",

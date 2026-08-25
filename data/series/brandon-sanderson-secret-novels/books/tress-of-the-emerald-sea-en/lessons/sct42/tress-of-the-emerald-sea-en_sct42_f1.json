@@ -21,14 +21,14 @@
       "wordCount": 472,
       "uniqueWordCount": 287,
       "paragraphCount": 10,
-      "vocabularyCount": 199,
+      "vocabularyCount": 197,
       "levelDistribution": {
-        "A1": 45,
-        "A2": 40,
+        "A1": 44,
+        "A2": 39,
         "B1": 62,
-        "B2": 37,
-        "C1": 12,
-        "C2": 3
+        "B2": 35,
+        "C1": 13,
+        "C2": 4
       }
     }
   },
@@ -1363,9 +1363,9 @@
       "word": "Enjoy",
       "lemma": "enjoy",
       "lemmaId": "enjoy",
-      "pos": "adjective",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "enjoy_adjective",
+      "wordKey": "enjoy_verb",
       "level": "A1",
       "translations": {
         "ru": {
@@ -1377,7 +1377,7 @@
       "exampleStart": 1550,
       "exampleEnd": 1626,
       "matchedForm": "Enjoy",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.405714,
       "difficultySource": "zipf",
       "ipa": "enˈdʒɔɪ"
@@ -1411,10 +1411,10 @@
       "word": "erodes",
       "lemma": "erode",
       "lemmaId": "erode",
-      "pos": "noun",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "erode_noun",
-      "level": "A2",
+      "wordKey": "erode_verb",
+      "level": "C2",
       "translations": {
         "ru": {
           "translation": "Эрозия"
@@ -1425,10 +1425,10 @@
       "exampleStart": 365,
       "exampleEnd": 452,
       "matchedForm": "erodes",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.994286,
       "difficultySource": "zipf",
-      "ipa": "ɪˈrəʊdz"
+      "ipa": "ɪˈrəʊd"
     },
     {
       "word": "Erupting",
@@ -1535,9 +1535,9 @@
       "word": "fade",
       "lemma": "fade",
       "lemmaId": "fade",
-      "pos": "noun",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "fade_noun",
+      "wordKey": "fade_verb",
       "level": "B1",
       "translations": {
         "ru": {
@@ -1549,32 +1549,32 @@
       "exampleStart": 838,
       "exampleEnd": 951,
       "matchedForm": "fade",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.757143,
       "difficultySource": "zipf",
       "ipa": "feɪd"
     },
     {
       "word": "fallen",
-      "lemma": "fall",
-      "lemmaId": "fall",
+      "lemma": "fallen",
+      "lemmaId": "fallen",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "fall_adjective",
-      "level": "A1",
+      "wordKey": "fallen_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "упавший"
         }
       },
-      "_spacyLemma": "fall",
+      "_spacyLemma": "fallen",
       "example": "As we sailed the Crimson, I felt like a leaf floating on the blood of a fallen giant.",
       "exampleStart": 2013,
       "exampleEnd": 2098,
       "matchedForm": "fallen",
       "ipa": "ˈfɔːlən",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.394286,
+      "levelSource": "cefr_reference",
+      "difficultyScore": 0.605714,
       "difficultySource": "zipf"
     },
     {
@@ -2026,26 +2026,25 @@
     },
     {
       "word": "haloed",
-      "lemma": "haloe",
-      "lemmaId": "haloe",
+      "lemma": "halo",
+      "lemmaId": "halo",
       "pos": "verb",
       "source": "word",
-      "wordKey": "haloe_verb",
-      "level": "B1",
+      "wordKey": "halo_verb",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "гало"
         }
       },
-      "_spacyLemma": "haloe",
+      "_spacyLemma": "halo",
       "example": "The farther we went, the higher the Crimson Moon soared—dark and ominous in the day, often haloed by sunlight.",
       "exampleStart": 2099,
       "exampleEnd": 2209,
       "matchedForm": "haloed",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "ˈheɪləʊd"
+      "difficultySource": "zipf"
     },
     {
       "word": "happy",
@@ -2709,27 +2708,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.197143,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "lunagree",
-      "lemma": "lunagree",
-      "lemmaId": "lunagree",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "lunagree_noun",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "Не согласен"
-        }
-      },
-      "_spacyLemma": "lunagree",
-      "example": "At first we were too far away to see the sporefall, but as we closed the distance, the lunagree appeared.",
-      "exampleStart": 2305,
-      "exampleEnd": 2410,
-      "matchedForm": "lunagree",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "ˈluːnəɡˌriː"
     },
     {
       "word": "make of",
@@ -4358,27 +4336,6 @@
       "ipa": "spɔːz"
     },
     {
-      "word": "sporefall",
-      "lemma": "sporefall",
-      "lemmaId": "sporefall",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "sporefall_noun",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "споропад"
-        }
-      },
-      "_spacyLemma": "sporefall",
-      "example": "At first we were too far away to see the sporefall, but as we closed the distance, the lunagree appeared.",
-      "exampleStart": 2305,
-      "exampleEnd": 2410,
-      "matchedForm": "sporefall",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "ˈspɔːfɔːl"
-    },
-    {
       "word": "sublime",
       "lemma": "sublime",
       "lemmaId": "sublime",
@@ -4428,10 +4385,10 @@
       "word": "supposedly",
       "lemma": "supposedly",
       "lemmaId": "supposedly",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "supposedly_adjective",
-      "level": "B2",
+      "wordKey": "supposedly_adverb",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "предположительно"
@@ -4442,7 +4399,7 @@
       "exampleStart": 838,
       "exampleEnd": 951,
       "matchedForm": "supposedly",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.728571,
       "difficultySource": "zipf",
       "ipa": "səˈpəʊzɪdli"

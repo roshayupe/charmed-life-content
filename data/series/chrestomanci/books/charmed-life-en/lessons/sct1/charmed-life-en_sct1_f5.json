@@ -21,14 +21,14 @@
       "wordCount": 1097,
       "uniqueWordCount": 522,
       "paragraphCount": 18,
-      "vocabularyCount": 295,
+      "vocabularyCount": 300,
       "levelDistribution": {
         "A1": 83,
         "A2": 50,
-        "B1": 65,
-        "B2": 74,
-        "C1": 19,
-        "C2": 4
+        "B1": 69,
+        "B2": 75,
+        "C1": 18,
+        "C2": 5
       }
     }
   },
@@ -435,7 +435,10 @@
         "endInExample": 77
       },
       "ipa": "ˌbæŋɡd ˈɒn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "banged",
@@ -495,7 +498,10 @@
         "endInExample": 37
       },
       "ipa": "biː ˈɪn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "believed in",
@@ -523,7 +529,10 @@
         "endInExample": 15
       },
       "ipa": "bɪˌliːvd ˈɪn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "believed",
@@ -681,7 +690,9 @@
         "endInExample": 63
       },
       "ipa": "ˌbræs ˈbʌtənz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "brass",
@@ -742,7 +753,9 @@
         "endInExample": 170
       },
       "ipa": "ˈbʊlˈzaɪ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "buttons",
@@ -900,7 +913,10 @@
         "endInExample": 45
       },
       "ipa": "ˌkæst ˈɒf",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "cast",
@@ -1238,7 +1254,10 @@
         "endInExample": 17
       },
       "ipa": "ˌkeɪm ˈɪn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "came out of",
@@ -1266,7 +1285,10 @@
         "endInExample": 18
       },
       "ipa": "ˈkeɪm ˌaʊtəv",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "came",
@@ -1320,7 +1342,10 @@
         "endInExample": 49
       },
       "ipa": "kəmˈpleɪn ɒv",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "complain",
@@ -1506,10 +1531,10 @@
       "word": "crystal",
       "lemma": "crystal",
       "lemmaId": "crystal",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "crystal_adjective",
-      "level": "B1",
+      "wordKey": "crystal_noun",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "хрустальный"
@@ -1524,7 +1549,7 @@
       "exampleEnd": 5093,
       "matchedForm": "crystal",
       "ipa": "ˈkrɪstəl",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.602857,
       "difficultySource": "zipf"
     },
@@ -1552,32 +1577,6 @@
       "ipa": "deɪ",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.16,
-      "difficultySource": "zipf"
-    },
-    {
-      "word": "dear",
-      "lemma": "dear",
-      "lemmaId": "dear",
-      "pos": "verb",
-      "source": "word",
-      "wordKey": "dear_verb",
-      "level": "A2",
-      "translations": {
-        "ru": {
-          "translation": "увы"
-        },
-        "uk": {
-          "translation": "На шкоду"
-        }
-      },
-      "_spacyLemma": "dear",
-      "example": "Oh dear me no — I’ve no illusions about that!",
-      "exampleStart": 206,
-      "exampleEnd": 251,
-      "matchedForm": "dear",
-      "ipa": "ˈdiə",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.497143,
       "difficultySource": "zipf"
     },
     {
@@ -1808,12 +1807,12 @@
     },
     {
       "word": "earnings",
-      "lemma": "earning",
-      "lemmaId": "earning",
+      "lemma": "earnings",
+      "lemmaId": "earnings",
       "pos": "noun",
       "source": "word",
-      "wordKey": "earning_noun",
-      "level": "B1",
+      "wordKey": "earnings_noun",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "заработок"
@@ -1822,13 +1821,12 @@
           "translation": "Прибутки"
         }
       },
-      "_spacyLemma": "earning",
+      "_spacyLemma": "earnings",
       "example": "Sharp eked out her earnings by acting as an agent for Mr.",
       "exampleStart": 679,
       "exampleEnd": 736,
       "matchedForm": "earnings",
-      "ipa": "ˈɜːnɪŋz",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.651429,
       "difficultySource": "zipf"
     },
@@ -2426,7 +2424,10 @@
         "endInExample": 75
       },
       "ipa": "ˌɡæðəd ˈʌp",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "gathered",
@@ -2572,12 +2573,12 @@
     },
     {
       "word": "glowing",
-      "lemma": "glow",
-      "lemmaId": "glow",
+      "lemma": "glowing",
+      "lemmaId": "glowing",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "glow_adjective",
-      "level": "C1",
+      "wordKey": "glowing_adjective",
+      "level": "C2",
       "translations": {
         "de": {
           "translation": "glühend"
@@ -2592,14 +2593,14 @@
           "translation": "Сяйв"
         }
       },
-      "_spacyLemma": "glow",
+      "_spacyLemma": "glowing",
       "example": "” There seemed no limit to Gwendolen’s glowing confidence.",
       "exampleStart": 5861,
       "exampleEnd": 5919,
       "matchedForm": "glowing",
       "ipa": "ˈɡləʊɪŋ",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.742857,
+      "levelSource": "cefr_reference",
+      "difficultyScore": 0.788571,
       "difficultySource": "zipf"
     },
     {
@@ -2738,7 +2739,9 @@
         "endInExample": 38
       },
       "ipa": "ˌɡʊd ˈprəʊɡres",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "good witch",
@@ -2766,7 +2769,9 @@
         "endInExample": 117
       },
       "ipa": "ˌɡʊd ˈwɪtʃ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "grateful",
@@ -2846,7 +2851,9 @@
         "endInExample": 21
       },
       "ipa": "ˌɡreɪt ˈpet",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "greatly",
@@ -3010,7 +3017,9 @@
         "endInExample": 34
       },
       "ipa": "hɜː ˈkɒntækts",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her earnings",
@@ -3038,7 +3047,9 @@
         "endInExample": 27
       },
       "ipa": "hɜː ˈɜːnɪŋz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her fortune",
@@ -3066,7 +3077,9 @@
         "endInExample": 35
       },
       "ipa": "hɜː ˈfɔːtʃuːn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her house",
@@ -3094,7 +3107,9 @@
         "endInExample": 68
       },
       "ipa": "hɜː ˈhaʊs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her presents",
@@ -3122,7 +3137,9 @@
         "endInExample": 25
       },
       "ipa": "hɜː ˈprezənts",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "hid",
@@ -3176,7 +3193,9 @@
         "endInExample": 37
       },
       "ipa": "hɪz ˈtʃɪn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his dismay",
@@ -3204,7 +3223,9 @@
         "endInExample": 24
       },
       "ipa": "hɪz dɪˈsmeɪ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his face",
@@ -3232,7 +3253,9 @@
         "endInExample": 93
       },
       "ipa": "hɪz ˈfeɪs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his fortune",
@@ -3260,7 +3283,9 @@
         "endInExample": 100
       },
       "ipa": "hɪz ˈfɔːtʃuːn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his house",
@@ -3288,7 +3313,9 @@
         "endInExample": 100
       },
       "ipa": "hɪz ˈhaʊs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "holding",
@@ -3400,7 +3427,9 @@
         "endInExample": 36
       },
       "ipa": "ˌhɒt pəˈsuːt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "house",
@@ -3680,7 +3709,9 @@
         "endInExample": 15
       },
       "ipa": "ɪts ˈhed",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "junk",
@@ -3734,7 +3765,9 @@
         "endInExample": 24
       },
       "ipa": "ˌdʒʌŋk ˈʃɒp",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "keeping",
@@ -3924,7 +3957,9 @@
         "endInExample": 46
       },
       "ipa": "ˌlæst ˈjiə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "lastly",
@@ -4004,7 +4039,9 @@
         "endInExample": 44
       },
       "ipa": "ˌleɪt dɪˈveləpə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "learn",
@@ -4272,7 +4309,10 @@
         "endInExample": 37
       },
       "ipa": "ˌlʊk ˈæftə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "looking out",
@@ -4300,7 +4340,10 @@
         "endInExample": 43
       },
       "ipa": "ˌlʊkɪŋ ˈaʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "look",
@@ -4620,7 +4663,9 @@
         "endInExample": 23
       },
       "ipa": "ˌmɔː ˈweɪz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "muscular",
@@ -4658,9 +4703,9 @@
       "word": "music",
       "lemma": "music",
       "lemmaId": "music",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "music_adjective",
+      "wordKey": "music_noun",
       "level": "A1",
       "translations": {
         "ru": {
@@ -4676,7 +4721,7 @@
       "exampleEnd": 1702,
       "matchedForm": "music",
       "ipa": "ˈmjuːzɪk",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.282857,
       "difficultySource": "zipf"
     },
@@ -4706,7 +4751,9 @@
         "endInExample": 16
       },
       "ipa": "maɪ ˈfɪdəl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "my fingers",
@@ -4734,7 +4781,9 @@
         "endInExample": 49
       },
       "ipa": "maɪ ˈfɪŋɡəz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "my old age",
@@ -4762,7 +4811,9 @@
         "endInExample": 42
       },
       "ipa": "maɪ ˌəʊld ˈeɪdʒ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "naturally",
@@ -4946,7 +4997,9 @@
         "endInExample": 44
       },
       "ipa": "ˌnjuː ˈpiːpəl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "next day",
@@ -4974,7 +5027,9 @@
         "endInExample": 12
       },
       "ipa": "ˌnekst ˈdeɪ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "nodded",
@@ -5112,7 +5167,9 @@
         "endInExample": 42
       },
       "ipa": "ˌɒd ˈspel",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "offered",
@@ -5198,7 +5255,9 @@
         "endInExample": 62
       },
       "ipa": "ˌəʊld ˈkəʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "ought",
@@ -5472,7 +5531,10 @@
         "endInExample": 87
       },
       "ipa": "ˌpɒpt ˈaʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "popped",
@@ -5724,10 +5786,10 @@
       "word": "pussy",
       "lemma": "pussy",
       "lemmaId": "pussy",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "pussy_adjective",
-      "level": "A2",
+      "wordKey": "pussy_noun",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "нерешительный"
@@ -5742,7 +5804,7 @@
       "exampleEnd": 2679,
       "matchedForm": "pussy",
       "ipa": "ˈpʊsi",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.648571,
       "difficultySource": "zipf"
     },
@@ -6018,7 +6080,9 @@
         "endInExample": 52
       },
       "ipa": "ˌraɪt ˈweɪ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "rule",
@@ -6104,7 +6168,9 @@
         "endInExample": 24
       },
       "ipa": "ˌseɪm ˈtreɪd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "sawing at",
@@ -6132,7 +6198,10 @@
         "endInExample": 59
       },
       "ipa": "ˈsɔːɪŋ æt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "said",
@@ -6308,7 +6377,9 @@
         "endInExample": 46
       },
       "ipa": "ˌsevrəl ˈstriːts",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "shave",
@@ -6504,7 +6575,9 @@
         "endInExample": 57
       },
       "ipa": "ˌsɪmpəl ˈspelz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "sister",
@@ -6968,12 +7041,12 @@
     },
     {
       "word": "stranger",
-      "lemma": "stranger",
-      "lemmaId": "stranger",
+      "lemma": "strange",
+      "lemmaId": "strange",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "stranger_adjective",
-      "level": "B2",
+      "wordKey": "strange_adjective",
+      "level": "A2",
       "translations": {
         "ru": {
           "translation": "необычный"
@@ -6982,14 +7055,14 @@
           "translation": "Незвичайний"
         }
       },
-      "_spacyLemma": "stranger",
+      "_spacyLemma": "strange",
       "example": "She got him Exotic Supplies — that is to say, the stranger ingredients needed for spells — from as far away as London.",
       "exampleStart": 763,
       "exampleEnd": 881,
       "matchedForm": "stranger",
-      "ipa": "ˈstreɪndʒə",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.637143,
+      "ipa": "streɪndʒ",
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.534286,
       "difficultySource": "zipf"
     },
     {
@@ -7018,7 +7091,9 @@
         "endInExample": 70
       },
       "ipa": "ˌstreɪndʒər ɪŋɡˈriːdiənts",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "street",
@@ -7098,7 +7173,9 @@
         "endInExample": 65
       },
       "ipa": "ˌstraɪpt ˈkæt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "stuff",
@@ -7572,7 +7649,10 @@
         "endInExample": 40
       },
       "ipa": "ˌtɜːnd ˈdaʊn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "turned",
@@ -7688,10 +7768,10 @@
       "word": "unfriendly",
       "lemma": "unfriendly",
       "lemmaId": "unfriendly",
-      "pos": "adverb",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "unfriendly_adverb",
-      "level": "B2",
+      "wordKey": "unfriendly_adjective",
+      "level": "A2",
       "translations": {
         "de": {
           "translation": "unfreundlich"
@@ -7712,7 +7792,7 @@
       "exampleEnd": 4010,
       "matchedForm": "unfriendly",
       "ipa": "ʌnˈfrendli",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.974286,
       "difficultySource": "zipf"
     },
@@ -7794,7 +7874,9 @@
         "endInExample": 19
       },
       "ipa": "ˌveəriəs ˈwɪtʃɪz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "violin",
@@ -8178,7 +8260,231 @@
         "endInExample": 29
       },
       "ipa": "jɔː ˈsɪstə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
+    },
+    {
+      "word": "in hot pursuit",
+      "lemma": "in hot pursuit",
+      "lemmaId": "in_hot_pursuit",
+      "pos": "phrase",
+      "type": "collocation",
+      "category": "mwe",
+      "mweType": "collocation",
+      "syntacticForm": "prepositional_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "следом"
+        },
+        "uk": {
+          "translation": "гаряче переслідувала"
+        }
+      },
+      "definition": "collocation used as one lexical expression in this context.",
+      "example": "It ran away, with Cat in hot pursuit, shouting, “Stop it!",
+      "exampleStart": 2784,
+      "exampleEnd": 2841,
+      "exampleTranslation": "следом",
+      "phraseMatch": {
+        "text": "in hot pursuit",
+        "startInExample": 22,
+        "endInExample": 36
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "in_hot_pursuit_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "гаряче переслідувала"
+        }
+      }
+    },
+    {
+      "word": "in spite of",
+      "lemma": "in spite of",
+      "lemmaId": "in_spite_of",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "prepositional_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "несмотря на"
+        },
+        "uk": {
+          "translation": "попри"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "Perhaps, in spite of having no illusions about Gwendolen, Mrs. Sharp was really hoping to become Gwendolen’s manager when Gwendolen grew up.",
+      "exampleStart": 1138,
+      "exampleEnd": 1278,
+      "exampleTranslation": "несмотря на",
+      "phraseMatch": {
+        "text": "in spite of",
+        "startInExample": 9,
+        "endInExample": 20
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "in_spite_of_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "попри"
+        }
+      }
+    },
+    {
+      "word": "killing two birds with one stone",
+      "lemma": "kill two birds with one stone",
+      "lemmaId": "kill_two_birds_with_one_stone",
+      "pos": "phrase",
+      "type": "idiom",
+      "category": "mwe",
+      "mweType": "idiom",
+      "syntacticForm": "verb_phrase",
+      "source": "manual_mwe",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "убивать одним камнем двух птиц"
+        },
+        "uk": {
+          "translation": "вбити двох зайців одним пострілом"
+        }
+      },
+      "definition": "idiom used as one lexical expression in this context.",
+      "example": "She believed in killing two birds with one stone.",
+      "exampleStart": 1765,
+      "exampleEnd": 1814,
+      "exampleTranslation": "убивать одним камнем двух птиц",
+      "phraseMatch": {
+        "text": "killing two birds with one stone",
+        "startInExample": 16,
+        "endInExample": 48
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "kill_two_birds_with_one_stone_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "вбити двох зайців одним пострілом"
+        }
+      }
+    },
+    {
+      "word": "Mind you",
+      "lemma": "mind you",
+      "lemmaId": "mind_you",
+      "pos": "phrase",
+      "type": "discourse_marker",
+      "category": "mwe",
+      "mweType": "discourse_marker",
+      "syntacticForm": "clause",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Правда"
+        },
+        "uk": {
+          "translation": "Зверніть увагу"
+        }
+      },
+      "definition": "discourse marker used as one lexical expression in this context.",
+      "example": "Mind you, there are some snags.",
+      "exampleStart": 5659,
+      "exampleEnd": 5690,
+      "exampleTranslation": "Правда",
+      "phraseMatch": {
+        "text": "Mind you",
+        "startInExample": 0,
+        "endInExample": 8
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "mind_you_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "Зверніть увагу"
+        }
+      }
+    },
+    {
+      "word": "once or twice",
+      "lemma": "once or twice",
+      "lemmaId": "once_or_twice",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "adverb_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "раз или два"
+        },
+        "uk": {
+          "translation": "раз чи двічі"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "But once or twice, Cat found the odd spell lying about.",
+      "exampleStart": 4592,
+      "exampleEnd": 4647,
+      "exampleTranslation": "раз или два",
+      "phraseMatch": {
+        "text": "once or twice",
+        "startInExample": 4,
+        "endInExample": 17
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "once_or_twice_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "раз чи двічі"
+        }
+      }
+    },
+    {
+      "word": "or something",
+      "lemma": "or something",
+      "lemmaId": "or_something",
+      "pos": "phrase",
+      "type": "formulaic_expression",
+      "category": "mwe",
+      "mweType": "formulaic_expression",
+      "syntacticForm": "adverb_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "или что-то"
+        },
+        "uk": {
+          "translation": "чи що"
+        }
+      },
+      "definition": "formulaic expression used as one lexical expression in this context.",
+      "example": "“Do they think I’m a baby or something?",
+      "exampleStart": 4371,
+      "exampleEnd": 4410,
+      "exampleTranslation": "или что-то",
+      "phraseMatch": {
+        "text": "or something",
+        "startInExample": 26,
+        "endInExample": 38
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "or_something_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "чи що"
+        }
+      }
     }
   ],
   "namedEntities": [

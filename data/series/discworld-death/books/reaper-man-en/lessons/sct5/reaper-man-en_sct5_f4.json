@@ -21,14 +21,14 @@
       "wordCount": 709,
       "uniqueWordCount": 417,
       "paragraphCount": 46,
-      "vocabularyCount": 240,
+      "vocabularyCount": 235,
       "levelDistribution": {
         "A1": 63,
-        "A2": 49,
+        "A2": 46,
         "B1": 54,
-        "B2": 61,
-        "C1": 10,
-        "C2": 3
+        "B2": 58,
+        "C1": 12,
+        "C2": 2
       }
     }
   },
@@ -122,25 +122,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.311429,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "ands",
-      "lemma": "and",
-      "lemmaId": "and",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "and_noun",
-      "level": "A1",
-      "translations": {},
-      "_spacyLemma": "and",
-      "example": "’\n\nAnd then he remembered that this was sloppy and superstitious thinking for a man who knew how to bevel a three-eighths Gripley.",
-      "exampleStart": 440,
-      "exampleEnd": 570,
-      "matchedForm": "And",
-      "levelSource": "cefr_frequency",
-      "difficultyScore": 0,
-      "difficultySource": "zipf",
-      "ipa": "ændz"
     },
     {
       "word": "aside",
@@ -385,22 +366,22 @@
     },
     {
       "word": "bight",
-      "lemma": "bight",
-      "lemmaId": "bight",
-      "pos": "noun",
+      "lemma": "bright",
+      "lemmaId": "bright",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "bight_noun",
-      "level": "A2",
+      "wordKey": "bright_adjective",
+      "level": "A1",
       "translations": {},
-      "_spacyLemma": "bight",
+      "_spacyLemma": "bright",
       "example": "Ludmilla gave him the bight, crystalline smile perfected by people who had long ago learned not to let their feelings show.",
       "exampleStart": 2262,
       "exampleEnd": 2385,
       "matchedForm": "bight",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 1,
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.542857,
       "difficultySource": "zipf",
-      "ipa": "baɪt"
+      "ipa": "braɪt"
     },
     {
       "word": "bit",
@@ -966,29 +947,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "course",
-      "lemma": "course",
-      "lemmaId": "course",
-      "pos": "adverb",
-      "source": "word",
-      "wordKey": "course_adverb",
-      "level": "A2",
-      "translations": {
-        "ru": {
-          "translation": "конечно"
-        }
-      },
-      "_spacyLemma": "course",
-      "example": "Of course, you needed a horse to pull it.",
-      "exampleStart": 753,
-      "exampleEnd": 794,
-      "matchedForm": "course",
-      "ipa": "kɔːs",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.305714,
-      "difficultySource": "zipf"
-    },
-    {
       "word": "crowded in",
       "lemma": "crowd in",
       "lemmaId": "crowd_in",
@@ -1045,17 +1003,17 @@
       "word": "crystalline",
       "lemma": "crystalline",
       "lemmaId": "crystalline",
-      "pos": "noun",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "crystalline_noun",
-      "level": "B2",
+      "wordKey": "crystalline_adjective",
+      "level": "C1",
       "translations": {},
       "_spacyLemma": "crystalline",
       "example": "Ludmilla gave him the bight, crystalline smile perfected by people who had long ago learned not to let their feelings show.",
       "exampleStart": 2262,
       "exampleEnd": 2385,
       "matchedForm": "crystalline",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.934286,
       "difficultySource": "zipf",
       "ipa": "ˈkrɪstəˌlaɪn"
@@ -1177,23 +1135,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.317143,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "deathright",
-      "lemma": "deathright",
-      "lemmaId": "deathright",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "deathright_noun",
-      "level": "B2",
-      "translations": {},
-      "_spacyLemma": "deathright",
-      "example": "I bin denied my deathright.",
-      "exampleStart": 3597,
-      "exampleEnd": 3624,
-      "matchedForm": "deathright",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "ˈdeθraɪt"
     },
     {
       "word": "denied",
@@ -2275,23 +2216,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "hellf",
-      "lemma": "hellf",
-      "lemmaId": "hellf",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "hellf_noun",
-      "level": "A2",
-      "translations": {},
-      "_spacyLemma": "hellf",
-      "example": "‘Bloo/dy hellf/ire!",
-      "exampleStart": 421,
-      "exampleEnd": 440,
-      "matchedForm": "hellf",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "helf"
-    },
-    {
       "word": "his throat",
       "lemma": "his throat",
       "lemmaId": "his_throat",
@@ -2657,27 +2581,6 @@
       },
       "levelSource": "head_verb_index",
       "ipa": "ˌlæst ˈætəmz"
-    },
-    {
-      "word": "leading into",
-      "lemma": "lead into",
-      "lemmaId": "lead_into",
-      "pos": "prepositional_verb",
-      "type": "prepositional_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "lead_into_prepositional_verb",
-      "level": "B2",
-      "translations": {},
-      "example": "After a moment or two the bead curtain leading into the kitchen was swept aside and the young woman who had originally opened the door to Windle came in.",
-      "exampleStart": 1912,
-      "exampleEnd": 2065,
-      "phraseMatch": {
-        "text": "leading into",
-        "startInExample": 39,
-        "endInExample": 51
-      },
-      "levelSource": "dictionary_phrase",
-      "ipa": "ˈliːdɪŋ ˌɪntʊ"
     },
     {
       "word": "leading",
@@ -4102,22 +4005,21 @@
     },
     {
       "word": "reciprocating",
-      "lemma": "reciprocate",
-      "lemmaId": "reciprocate",
+      "lemma": "reciprocating",
+      "lemmaId": "reciprocating",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "reciprocate_adjective",
-      "level": "C2",
+      "wordKey": "reciprocating_adjective",
+      "level": "C1",
       "translations": {},
-      "_spacyLemma": "reciprocate",
+      "_spacyLemma": "reciprocating",
       "example": "You knew where you were with a reciprocating linkage.",
       "exampleStart": 571,
       "exampleEnd": 624,
       "matchedForm": "reciprocating",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "rɪˈsɪprəˌkeɪtɪŋ"
+      "difficultySource": "zipf"
     },
     {
       "word": "remembered",

@@ -21,14 +21,14 @@
       "wordCount": 581,
       "uniqueWordCount": 294,
       "paragraphCount": 8,
-      "vocabularyCount": 191,
+      "vocabularyCount": 196,
       "levelDistribution": {
-        "A1": 45,
-        "A2": 39,
-        "B1": 52,
+        "A1": 44,
+        "A2": 38,
+        "B1": 53,
         "B2": 42,
-        "C1": 11,
-        "C2": 2
+        "C1": 16,
+        "C2": 3
       }
     }
   },
@@ -57,32 +57,6 @@
       "ipa": "ˈeɪbəl",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.308571,
-      "difficultySource": "zipf"
-    },
-    {
-      "word": "anglaise",
-      "lemma": "anglaise",
-      "lemmaId": "anglaise",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "anglaise_noun",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "английская вышивка"
-        },
-        "uk": {
-          "translation": "Англійська вишивка"
-        }
-      },
-      "_spacyLemma": "anglaise",
-      "example": "Gwendolen sat next to Cat in the Chrestomanci pew, looking the picture of demure innocence in her broiderie anglaise Sunday dress and hat, and found her place in her prayer book as if she were truly saintly.",
-      "exampleStart": 729,
-      "exampleEnd": 936,
-      "matchedForm": "anglaise",
-      "ipa": "æŋɡˈleɪz",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 1,
       "difficultySource": "zipf"
     },
     {
@@ -475,12 +449,12 @@
     },
     {
       "word": "colored",
-      "lemma": "color",
-      "lemmaId": "color",
+      "lemma": "colored",
+      "lemmaId": "colored",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "color_adjective",
-      "level": "A1",
+      "wordKey": "colored_adjective",
+      "level": "A2",
       "translations": {
         "ru": {
           "translation": "цветной; окрашенный"
@@ -489,14 +463,14 @@
           "translation": "кольоровий; Розпис"
         }
       },
-      "_spacyLemma": "color",
+      "_spacyLemma": "colored",
       "example": "He saw the colored, transparent bishop clouting the nun over the wimple, and the nun giving him as good as she got.",
       "exampleStart": 2231,
       "exampleEnd": 2346,
       "matchedForm": "colored",
       "ipa": "ˈkʌləd",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.457143,
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.662857,
       "difficultySource": "zipf"
     },
     {
@@ -525,7 +499,10 @@
         "endInExample": 37
       },
       "ipa": "ˌkʌm ˈbæk",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "compared",
@@ -665,12 +642,12 @@
     },
     {
       "word": "crosier",
-      "lemma": "crosi",
-      "lemmaId": "crosi",
-      "pos": "adjective",
+      "lemma": "crosier",
+      "lemmaId": "crosier",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "crosi_adjective",
-      "level": "B1",
+      "wordKey": "crosier_noun",
+      "level": "C2",
       "translations": {
         "ru": {
           "translation": "епископский; с посохом"
@@ -679,13 +656,12 @@
           "translation": "єпископський посох"
         }
       },
-      "_spacyLemma": "crosi",
+      "_spacyLemma": "crosier",
       "example": "One of the saints in the stained-glass windows yawned, and put up his crosier elegantly to cover his mouth.",
       "exampleStart": 1837,
       "exampleEnd": 1944,
       "matchedForm": "crosier",
-      "ipa": "ˈkrəʊziə",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -741,16 +717,18 @@
         "endInExample": 90
       },
       "ipa": "dɪˌmjʊər ˈɪnəsəns",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "demure",
       "lemma": "demure",
       "lemmaId": "demure",
-      "pos": "noun",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "demure_noun",
-      "level": "A2",
+      "wordKey": "demure_adjective",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "демур"
@@ -765,7 +743,7 @@
       "exampleEnd": 936,
       "matchedForm": "demure",
       "ipa": "dɪˈmjʊə",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -821,7 +799,9 @@
         "endInExample": 55
       },
       "ipa": "ˌdaɪnɪŋ ˈteɪbəl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "dive",
@@ -1121,7 +1101,9 @@
         "endInExample": 72
       },
       "ipa": "ekˌsepʃənəl ˈtælənts",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "faces",
@@ -1427,7 +1409,9 @@
         "endInExample": 58
       },
       "ipa": "fɔːˌmɪdəbəl ˈnʌn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "frisked",
@@ -1559,7 +1543,9 @@
         "endInExample": 46
       },
       "ipa": "ˌɡlæs ˈwɪndəʊz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "glassy",
@@ -1613,7 +1599,9 @@
         "endInExample": 87
       },
       "ipa": "ˌɡlæsi ˈfiːt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "gleefully",
@@ -1751,7 +1739,9 @@
         "endInExample": 26
       },
       "ipa": "ˌheəri ˈseɪnt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "hung",
@@ -1857,7 +1847,9 @@
         "endInExample": 116
       },
       "ipa": "hɜː ˌbrɔɪdəri æŋɡˈleɪz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her place",
@@ -1885,7 +1877,9 @@
         "endInExample": 158
       },
       "ipa": "hɜː ˈpleɪs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her prayer book",
@@ -1913,7 +1907,9 @@
         "endInExample": 177
       },
       "ipa": "hɜː ˌpreə ˈbʊk",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "Her robes",
@@ -1941,7 +1937,9 @@
         "endInExample": 9
       },
       "ipa": "hɜː ˈrəʊbz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his aunts",
@@ -1969,7 +1967,9 @@
         "endInExample": 166
       },
       "ipa": "hɪz ˈænts",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his early life",
@@ -1997,7 +1997,9 @@
         "endInExample": 84
       },
       "ipa": "hɪz ˌɜːlɪ ˈlaɪf",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his model",
@@ -2025,7 +2027,9 @@
         "endInExample": 34
       },
       "ipa": "hɪz ˈmɒdəl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his mouth",
@@ -2053,7 +2057,9 @@
         "endInExample": 106
       },
       "ipa": "hɪz ˈmaʊθ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his neighbor",
@@ -2081,7 +2087,9 @@
         "endInExample": 32
       },
       "ipa": "hɪz ˈneɪbə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his text",
@@ -2109,7 +2117,9 @@
         "endInExample": 59
       },
       "ipa": "hɪz ˈtekst",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his window",
@@ -2137,7 +2147,9 @@
         "endInExample": 27
       },
       "ipa": "hɪz ˈwɪndəʊ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "hitched up",
@@ -2165,7 +2177,10 @@
         "endInExample": 47
       },
       "ipa": "ˌhɪtʃt ˈʌp",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "hitched",
@@ -2335,7 +2350,10 @@
         "endInExample": 11
       },
       "ipa": "ˌkept ˈʌp",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "kept",
@@ -2367,10 +2385,10 @@
       "word": "kingly",
       "lemma": "kingly",
       "lemmaId": "kingly",
-      "pos": "noun",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "kingly_noun",
-      "level": "A2",
+      "wordKey": "kingly_adjective",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "царственный; королевский"
@@ -2385,7 +2403,7 @@
       "exampleEnd": 2479,
       "matchedForm": "kingly",
       "ipa": "ˈkɪŋli",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -2551,7 +2569,10 @@
         "endInExample": 16
       },
       "ipa": "ˌlʊkt əˈraʊnd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "looking",
@@ -2631,7 +2652,9 @@
         "endInExample": 20
       },
       "ipa": "ˌmeni ˈtaɪmz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "marched",
@@ -2975,7 +2998,9 @@
         "endInExample": 12
       },
       "ipa": "ˌəʊld ˈleɪdi",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "people",
@@ -3301,7 +3326,10 @@
         "endInExample": 65
       },
       "ipa": "ˌpʊt ˈʌp",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "rambled on",
@@ -3329,7 +3357,10 @@
         "endInExample": 119
       },
       "ipa": "ˌræmbəld ˈɒn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "rambled",
@@ -3473,7 +3504,10 @@
         "endInExample": 18
       },
       "ipa": "rɪˈtɜːnd tuː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "returned",
@@ -3583,10 +3617,10 @@
       "word": "saintly",
       "lemma": "saintly",
       "lemmaId": "saintly",
-      "pos": "adverb",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "saintly_adverb",
-      "level": "B2",
+      "wordKey": "saintly_adjective",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "святой"
@@ -3601,7 +3635,7 @@
       "exampleEnd": 936,
       "matchedForm": "saintly",
       "ipa": "ˈseɪntli",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -3767,7 +3801,9 @@
         "endInExample": 30
       },
       "ipa": "sɪˌviə ˈfəʊldz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "shaking",
@@ -3957,16 +3993,18 @@
         "endInExample": 80
       },
       "ipa": "ˌsɪli ˈdænsɪz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "simpering",
-      "lemma": "simper",
-      "lemmaId": "simper",
+      "lemma": "simpering",
+      "lemmaId": "simpering",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "simper_adjective",
-      "level": "B1",
+      "wordKey": "simpering_adjective",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "упрощающий"
@@ -3975,13 +4013,12 @@
           "translation": "Спрощення"
         }
       },
-      "_spacyLemma": "simper",
+      "_spacyLemma": "simpering",
       "example": "The kingly saint dropped his model and fled for protection, in a twinkle of glassy feet, behind the robes of a simpering lady saint.",
       "exampleStart": 2480,
       "exampleEnd": 2612,
       "matchedForm": "simpering",
-      "ipa": "ˈsɪmpərɪŋ",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -4009,32 +4046,6 @@
       "ipa": "sæt",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.46,
-      "difficultySource": "zipf"
-    },
-    {
-      "word": "sort",
-      "lemma": "sort",
-      "lemmaId": "sort",
-      "pos": "adverb",
-      "source": "word",
-      "wordKey": "sort_adverb",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "в некоторой степени"
-        },
-        "uk": {
-          "translation": "В певній мірі"
-        }
-      },
-      "_spacyLemma": "sort",
-      "example": "Meanwhile, the hairy saint next to them made a dive for his neighbor, who was a kingly sort of saint, holding a model of the Castle.",
-      "exampleStart": 2347,
-      "exampleEnd": 2479,
-      "matchedForm": "sort",
-      "ipa": "sɔːt",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.431429,
       "difficultySource": "zipf"
     },
     {
@@ -4173,7 +4184,10 @@
         "endInExample": 24
       },
       "ipa": "ˌstretʃt ˈaʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "stretched",
@@ -4395,7 +4409,9 @@
         "endInExample": 59
       },
       "ipa": "ðeə ˈrəʊbz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "things",
@@ -4585,7 +4601,9 @@
         "endInExample": 131
       },
       "ipa": "trænˌspærənt ˈfeɪsɪz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "triumphant",
@@ -4801,7 +4819,9 @@
         "endInExample": 97
       },
       "ipa": "ˌvɪlɪdʒ ˈtʃɜːtʃ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "village",
@@ -4855,7 +4875,9 @@
         "endInExample": 18
       },
       "ipa": "ˌvɪlɪdʒ ˈpiːpəl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "voice",
@@ -4911,11 +4933,11 @@
     },
     {
       "word": "wandering",
-      "lemma": "wander",
-      "lemmaId": "wander",
+      "lemma": "wandering",
+      "lemmaId": "wandering",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "wander_adjective",
+      "wordKey": "wandering_adjective",
       "level": "B2",
       "translations": {
         "de": {
@@ -4931,14 +4953,14 @@
           "translation": "Блукати"
         }
       },
-      "_spacyLemma": "wander",
+      "_spacyLemma": "wandering",
       "example": "The vicar climbed shakily into the pulpit and gave his text in a weak, wandering voice.",
       "exampleStart": 1129,
       "exampleEnd": 1216,
       "matchedForm": "wandering",
       "ipa": "ˈwɒndərɪŋ",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.811429,
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.774286,
       "difficultySource": "zipf"
     },
     {
@@ -5116,7 +5138,7 @@
       "pos": "verb",
       "source": "word",
       "wordKey": "winkle_verb",
-      "level": "B1",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "выковыривать; извлекать"
@@ -5130,8 +5152,8 @@
       "exampleStart": 3084,
       "exampleEnd": 3240,
       "matchedForm": "winkled",
-      "ipa": "ˈwɪŋkəld",
-      "levelSource": "vocabulary_index",
+      "ipa": "ˈwɪŋkəl",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -5270,6 +5292,265 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.982857,
       "difficultySource": "zipf"
+    },
+    {
+      "word": "at all",
+      "lemma": "at all",
+      "lemmaId": "at_all",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "adverb_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "никогда"
+        },
+        "uk": {
+          "translation": "зовсім"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "But this never bothered Gwendolen at all.",
+      "exampleStart": 594,
+      "exampleEnd": 635,
+      "exampleTranslation": "никогда",
+      "phraseMatch": {
+        "text": "at all",
+        "startInExample": 34,
+        "endInExample": 40
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "at_all_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "зовсім"
+        }
+      }
+    },
+    {
+      "word": "at last",
+      "lemma": "at last",
+      "lemmaId": "at_last",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "adverb_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "наконец"
+        },
+        "uk": {
+          "translation": "нарешті"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "She felt she had made an impression on Chrestomanci at last. So she returned to the attack with a will on Sunday.",
+      "exampleStart": 285,
+      "exampleEnd": 398,
+      "exampleTranslation": "наконец",
+      "phraseMatch": {
+        "text": "at last",
+        "startInExample": 52,
+        "endInExample": 59
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "at_last_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "нарешті"
+        }
+      }
+    },
+    {
+      "word": "had better",
+      "lemma": "had better",
+      "lemmaId": "had_better",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "verb_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "лучше"
+        },
+        "uk": {
+          "translation": "краще"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "He told them they had better be sanctified or all sorts of things — which he forgot to mention — would happen, which reminded him of a weak, wandering thing his aunts used to tell him.",
+      "exampleStart": 1536,
+      "exampleEnd": 1720,
+      "exampleTranslation": "лучше",
+      "phraseMatch": {
+        "text": "had better",
+        "startInExample": 18,
+        "endInExample": 28
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "had_better_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "краще"
+        }
+      }
+    },
+    {
+      "word": "up and down",
+      "lemma": "up and down",
+      "lemmaId": "up_and_down",
+      "pos": "phrase",
+      "type": "binomial",
+      "category": "mwe",
+      "mweType": "binomial",
+      "syntacticForm": "adverb_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "запрыгал"
+        },
+        "uk": {
+          "translation": "вгору-вниз"
+        }
+      },
+      "definition": "binomial used as one lexical expression in this context.",
+      "example": "The hairy saint jumped gleefully up and down on the model of the Castle.",
+      "exampleStart": 2613,
+      "exampleEnd": 2685,
+      "exampleTranslation": "запрыгал",
+      "phraseMatch": {
+        "text": "up and down",
+        "startInExample": 33,
+        "endInExample": 44
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "up_and_down_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "вгору-вниз"
+        }
+      }
+    },
+    {
+      "word": "used to",
+      "lemma": "used to",
+      "lemmaId": "used_to",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "verb_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "рассказывали"
+        },
+        "uk": {
+          "translation": "казали"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "He told them they had better be sanctified or all sorts of things — which he forgot to mention — would happen, which reminded him of a weak, wandering thing his aunts used to tell him.",
+      "exampleStart": 1536,
+      "exampleEnd": 1720,
+      "exampleTranslation": "рассказывали",
+      "phraseMatch": {
+        "text": "used to",
+        "startInExample": 167,
+        "endInExample": 174
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "used_to_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "казали"
+        }
+      }
+    },
+    {
+      "word": "with a will",
+      "lemma": "with a will",
+      "lemmaId": "with_a_will",
+      "pos": "phrase",
+      "type": "idiom",
+      "category": "mwe",
+      "mweType": "idiom",
+      "syntacticForm": "prepositional_phrase",
+      "source": "manual_mwe",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "с новой энергией"
+        },
+        "uk": {
+          "translation": "з заповітом"
+        }
+      },
+      "definition": "idiom used as one lexical expression in this context.",
+      "example": "She felt she had made an impression on Chrestomanci at last. So she returned to the attack with a will on Sunday.",
+      "exampleStart": 285,
+      "exampleEnd": 398,
+      "exampleTranslation": "с новой энергией",
+      "phraseMatch": {
+        "text": "with a will",
+        "startInExample": 91,
+        "endInExample": 102
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "with_a_will_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "з заповітом"
+        }
+      }
+    },
+    {
+      "word": "in and out of all the other fighting couples",
+      "lemma": "in and out of",
+      "lemmaId": "in_and_out_of",
+      "pos": "phrase",
+      "type": "binomial",
+      "category": "mwe",
+      "mweType": "binomial",
+      "syntacticForm": "prepositional_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "между всеми дерущимися парами"
+        },
+        "uk": {
+          "translation": "входячи і виходячи з усіх інших сварливих пар"
+        }
+      },
+      "definition": "binomial used as one lexical expression in this context.",
+      "example": "The hairy saint winkled the kingly one out from behind the simpering lady and chased him from window to window in and out of all the other fighting couples.",
+      "exampleStart": 3084,
+      "exampleEnd": 3240,
+      "exampleTranslation": "между всеми дерущимися парами",
+      "phraseMatch": {
+        "text": "in and out of all the other fighting couples",
+        "startInExample": 111,
+        "endInExample": 155
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "in_and_out_of_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "входячи і виходячи з усіх інших сварливих пар"
+        }
+      }
     }
   ],
   "namedEntities": [

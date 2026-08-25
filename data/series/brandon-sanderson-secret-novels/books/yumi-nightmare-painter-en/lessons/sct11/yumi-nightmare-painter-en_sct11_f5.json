@@ -21,14 +21,13 @@
       "wordCount": 599,
       "uniqueWordCount": 354,
       "paragraphCount": 22,
-      "vocabularyCount": 215,
+      "vocabularyCount": 214,
       "levelDistribution": {
         "A1": 58,
-        "A2": 49,
-        "B1": 48,
-        "B2": 48,
-        "C1": 12,
-        "C2": 0
+        "A2": 50,
+        "B1": 45,
+        "B2": 50,
+        "C1": 11
       }
     }
   },
@@ -230,10 +229,10 @@
       "word": "basically",
       "lemma": "basically",
       "lemmaId": "basically",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "basically_adjective",
-      "level": "C1",
+      "wordKey": "basically_adverb",
+      "level": "A2",
       "translations": {
         "ru": {
           "translation": "в основном"
@@ -245,7 +244,7 @@
       "exampleEnd": 2361,
       "matchedForm": "basically",
       "ipa": "ˈbeɪsɪkli",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.537143,
       "difficultySource": "zipf"
     },
@@ -595,10 +594,10 @@
       "word": "clatter",
       "lemma": "clatter",
       "lemmaId": "clatter",
-      "pos": "noun",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "clatter_noun",
-      "level": "B1",
+      "wordKey": "clatter_verb",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "шум"
@@ -3672,31 +3671,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "see in",
-      "lemma": "see in",
-      "lemmaId": "see_in",
-      "pos": "prepositional_verb",
-      "type": "prepositional_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "see_in_prepositional_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "видеть в"
-        }
-      },
-      "example": "“Your planet is the only thing we can see in the sky here.",
-      "exampleStart": 3023,
-      "exampleEnd": 3081,
-      "phraseMatch": {
-        "text": "see in",
-        "startInExample": 38,
-        "endInExample": 44
-      },
-      "levelSource": "dictionary_phrase",
-      "ipa": "ˌsiː ˈɪn"
-    },
-    {
       "word": "sent",
       "lemma": "send",
       "lemmaId": "send",
@@ -3723,10 +3697,10 @@
       "word": "shatter",
       "lemma": "shatter",
       "lemmaId": "shatter",
-      "pos": "noun",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "shatter_noun",
-      "level": "B1",
+      "wordKey": "shatter_verb",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "разброса"
@@ -3737,7 +3711,7 @@
       "exampleStart": 1764,
       "exampleEnd": 1833,
       "matchedForm": "shatter",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.94,
       "difficultySource": "zipf",
       "ipa": "ˈʃætə"
@@ -5312,26 +5286,25 @@
     },
     {
       "word": "wrecking",
-      "lemma": "wreck",
-      "lemmaId": "wreck",
+      "lemma": "wrecking",
+      "lemmaId": "wrecking",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "wreck_adjective",
-      "level": "B1",
+      "wordKey": "wrecking_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "Крушение"
         }
       },
-      "_spacyLemma": "wreck",
+      "_spacyLemma": "wrecking",
       "example": "I’d rather not let you put a wrecking ball through the rest of my life.",
       "exampleStart": 2430,
       "exampleEnd": 2501,
       "matchedForm": "wrecking",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.728571,
-      "difficultySource": "zipf",
-      "ipa": "ˈrekɪŋ"
+      "difficultySource": "zipf"
     },
     {
       "word": "your excuses",

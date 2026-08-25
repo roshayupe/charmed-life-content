@@ -23,12 +23,12 @@
       "paragraphCount": 14,
       "vocabularyCount": 223,
       "levelDistribution": {
-        "A1": 67,
-        "A2": 43,
-        "B1": 47,
-        "B2": 50,
-        "C1": 14,
-        "C2": 2
+        "A1": 65,
+        "A2": 42,
+        "B1": 49,
+        "B2": 49,
+        "C1": 15,
+        "C2": 3
       }
     }
   },
@@ -111,7 +111,9 @@
         "endInExample": 42
       },
       "ipa": "ˌædʒɪˌteɪtɪd ˈweɪ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "agreed",
@@ -287,7 +289,9 @@
         "endInExample": 28
       },
       "ipa": "ˌæpəl ˈtriː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "arch",
@@ -419,7 +423,10 @@
         "endInExample": 15
       },
       "ipa": "ˌbækt əˈweɪ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "backed",
@@ -705,7 +712,9 @@
         "endInExample": 48
       },
       "ipa": "ˌbrəʊkən ˈɑːtʃ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "broken archway",
@@ -733,7 +742,9 @@
         "endInExample": 35
       },
       "ipa": "ˌbrəʊkən ˈɑːtʃweɪ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "brother",
@@ -950,32 +961,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "church",
-      "lemma": "church",
-      "lemmaId": "church",
-      "pos": "verb",
-      "source": "word",
-      "wordKey": "church_verb",
-      "level": "A1",
-      "translations": {
-        "ru": {
-          "translation": "вводить в церковь; воцерковлять"
-        },
-        "uk": {
-          "translation": "щоб привести його до церкви; Церковна діяльність"
-        }
-      },
-      "_spacyLemma": "church",
-      "example": "She had been to church in her Sunday best: a monster of a hat with fruit and flowers in it, and a black and red satin dress.",
-      "exampleStart": 2854,
-      "exampleEnd": 2978,
-      "matchedForm": "church",
-      "ipa": "tʃɜːtʃ",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.385714,
-      "difficultySource": "zipf"
-    },
-    {
       "word": "clearly",
       "lemma": "clearly",
       "lemmaId": "clearly",
@@ -1105,7 +1090,10 @@
         "endInExample": 85
       },
       "ipa": "ˌkʌm ˈɒn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "Come",
@@ -1303,12 +1291,12 @@
     },
     {
       "word": "dripping",
-      "lemma": "dripping",
-      "lemmaId": "dripping",
-      "pos": "adjective",
+      "lemma": "drip",
+      "lemmaId": "drip",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "dripping_adjective",
-      "level": "B2",
+      "wordKey": "drip_verb",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "мокрый; капающий"
@@ -1317,14 +1305,14 @@
           "translation": "вологий; Капання"
         }
       },
-      "_spacyLemma": "dripping",
+      "_spacyLemma": "drip",
       "example": "The leaves of the apple tree did not stir, and the small, small bubbling from the little spring changed to a soft, slow dripping.",
       "exampleStart": 1648,
       "exampleEnd": 1777,
       "matchedForm": "dripping",
-      "ipa": "ˈdrɪpɪŋ",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.865714,
+      "ipa": "drɪp",
+      "levelSource": "cefr_reference",
+      "difficultyScore": 0.837143,
       "difficultySource": "zipf"
     },
     {
@@ -1353,7 +1341,9 @@
         "endInExample": 75
       },
       "ipa": "ˌempti ˈmedəʊ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "enjoying",
@@ -1555,7 +1545,9 @@
         "endInExample": 69
       },
       "ipa": "ˌfeɪnt əˈnɔɪəns",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "farther",
@@ -1773,12 +1765,12 @@
     },
     {
       "word": "flustered",
-      "lemma": "fluster",
-      "lemmaId": "fluster",
-      "pos": "verb",
+      "lemma": "flustered",
+      "lemmaId": "flustered",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "fluster_verb",
-      "level": "C1",
+      "wordKey": "flustered_adjective",
+      "level": "B2",
       "translations": {
         "de": {
           "translation": "verwirrt"
@@ -1793,13 +1785,13 @@
           "translation": "Соромно"
         }
       },
-      "_spacyLemma": "fluster",
+      "_spacyLemma": "flustered",
       "example": "Sharp, and he was cross and flustered.",
       "exampleStart": 1100,
       "exampleEnd": 1138,
       "matchedForm": "flustered",
       "ipa": "ˈflʌstəd",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -1882,7 +1874,9 @@
         "endInExample": 65
       },
       "ipa": "ˈfɔːtʃuːnˈteləz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "fours",
@@ -1962,7 +1956,9 @@
         "endInExample": 210
       },
       "ipa": "ˌfrɒk ˈkəʊts",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "frock",
@@ -2068,7 +2064,10 @@
         "endInExample": 26
       },
       "ipa": "ˌɡəʊɪŋ əˈraʊnd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "going",
@@ -2156,12 +2155,12 @@
     },
     {
       "word": "growing",
-      "lemma": "grow",
-      "lemmaId": "grow",
+      "lemma": "grown",
+      "lemmaId": "grown",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "grow_adjective",
-      "level": "A1",
+      "wordKey": "grown_adjective",
+      "level": "A2",
       "translations": {
         "ru": {
           "translation": "растущий; выросший"
@@ -2170,14 +2169,14 @@
           "translation": "зростає; Дорослішав"
         }
       },
-      "_spacyLemma": "grow",
+      "_spacyLemma": "grown",
       "example": "Sharp or Miss Larkins — but this may have been simply that, in no time at all, he was being jostled this way and that in the middle of a large and steadily growing crowd.",
       "exampleStart": 3631,
       "exampleEnd": 3801,
       "matchedForm": "growing",
-      "ipa": "ˈɡrəʊɪŋ",
+      "ipa": "ɡrəʊn",
       "levelSource": "vocabulary_index",
-      "difficultyScore": 0.46,
+      "difficultyScore": 0.525714,
       "difficultySource": "zipf"
     },
     {
@@ -2316,7 +2315,9 @@
         "endInExample": 81
       },
       "ipa": "hɜː ˈfeɪs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her hands",
@@ -2344,7 +2345,9 @@
         "endInExample": 43
       },
       "ipa": "hɜː ˈhændz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her mouth",
@@ -2372,7 +2375,9 @@
         "endInExample": 56
       },
       "ipa": "hɜː ˈmaʊθ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "hidden",
@@ -2426,7 +2431,9 @@
         "endInExample": 83
       },
       "ipa": "hɪz ˈbrʌðə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "His eyes",
@@ -2454,7 +2461,9 @@
         "endInExample": 8
       },
       "ipa": "hɪz ˈaɪz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his frock coat",
@@ -2482,7 +2491,9 @@
         "endInExample": 111
       },
       "ipa": "hɪz ˌfrɒk ˈkəʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his shoul-der",
@@ -2510,7 +2521,9 @@
         "endInExample": 41
       },
       "ipa": "hɪz ˌʃaʊlˈdeə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "holding",
@@ -2744,7 +2757,9 @@
         "endInExample": 306
       },
       "ipa": "ɪmˌpresɪv ˈwɪzədz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "jostled",
@@ -2862,7 +2877,9 @@
         "endInExample": 43
       },
       "ipa": "ˌlɑːdʒ ˈfɪɡə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "leaves",
@@ -3046,7 +3063,9 @@
         "endInExample": 95
       },
       "ipa": "ˌlɪtəl ˈsprɪŋ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "long",
@@ -3211,32 +3230,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "meadow",
-      "lemma": "meadow",
-      "lemmaId": "meadow",
-      "pos": "verb",
-      "source": "word",
-      "wordKey": "meadow_verb",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "превращать в луг"
-        },
-        "uk": {
-          "translation": "Перетворитися на луг"
-        }
-      },
-      "_spacyLemma": "meadow",
-      "example": "Whatever it was, the broken archway turned dark again, then milky, then to mist; and finally, there was nothing but meadow again between the pillars, and the air had stopped shimmering.",
-      "exampleStart": 217,
-      "exampleEnd": 402,
-      "matchedForm": "meadow",
-      "ipa": "ˈmedəʊ",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.831429,
-      "difficultySource": "zipf"
-    },
-    {
       "word": "merest",
       "lemma": "mere",
       "lemmaId": "mere",
@@ -3368,12 +3361,12 @@
     },
     {
       "word": "misunderstood",
-      "lemma": "misunderstood",
-      "lemmaId": "misunderstood",
-      "pos": "noun",
+      "lemma": "misunderstand",
+      "lemmaId": "misunderstand",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "misunderstood_noun",
-      "level": "A2",
+      "wordKey": "misunderstand_verb",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "непонятый человек"
@@ -3382,14 +3375,14 @@
           "translation": "Незрозуміла людина"
         }
       },
-      "_spacyLemma": "misunderstood",
+      "_spacyLemma": "misunderstand",
       "example": "The wretched boy seems to have misunderstood me, but the spell is clearly working.",
       "exampleStart": 1394,
       "exampleEnd": 1476,
       "matchedForm": "misunderstood",
-      "ipa": "mɪˌsʌndəˈstʊd",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.828571,
+      "ipa": "mɪˌsʌndəˈstænd",
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.96,
       "difficultySource": "zipf"
     },
     {
@@ -3496,7 +3489,9 @@
         "endInExample": 34
       },
       "ipa": "ˌmʌdi ˈhəʊl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "My dear boy",
@@ -3524,7 +3519,9 @@
         "endInExample": 12
       },
       "ipa": "maɪ ˌdiə ˈbɔɪ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "my hand",
@@ -3552,7 +3549,9 @@
         "endInExample": 43
       },
       "ipa": "maɪ ˈhænd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "my world",
@@ -3580,7 +3579,9 @@
         "endInExample": 28
       },
       "ipa": "maɪ ˈwɜːld",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "necromancers",
@@ -3634,7 +3635,9 @@
         "endInExample": 32
       },
       "ipa": "ˌwɒn ˌmɔː ˈtraɪ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "other people",
@@ -3662,7 +3665,9 @@
         "endInExample": 33
       },
       "ipa": "ˌʌðə ˈpiːpəl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "people",
@@ -3862,10 +3867,10 @@
       "word": "puce",
       "lemma": "puce",
       "lemmaId": "puce",
-      "pos": "verb",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "puce_verb",
-      "level": "A2",
+      "wordKey": "puce_adjective",
+      "level": "C2",
       "translations": {
         "ru": {
           "translation": "пунцовый; багроветь"
@@ -3880,7 +3885,7 @@
       "exampleEnd": 2853,
       "matchedForm": "puce",
       "ipa": "pjuːs",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -4218,10 +4223,10 @@
       "word": "serge",
       "lemma": "serge",
       "lemmaId": "serge",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "serge_adjective",
-      "level": "B1",
+      "wordKey": "serge_noun",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "саржевый"
@@ -4236,7 +4241,7 @@
       "exampleEnd": 3383,
       "matchedForm": "serge",
       "ipa": "sɜːdʒ",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.94,
       "difficultySource": "zipf"
     },
@@ -4244,9 +4249,9 @@
       "word": "sevens",
       "lemma": "seven",
       "lemmaId": "seven",
-      "pos": "verb",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "seven_verb",
+      "wordKey": "seven_noun",
       "level": "A1",
       "translations": {
         "ru": {
@@ -4261,8 +4266,8 @@
       "exampleStart": 3384,
       "exampleEnd": 3511,
       "matchedForm": "sevens",
-      "ipa": "ˈsevənz",
-      "levelSource": "vocabulary_index",
+      "ipa": "ˈsevən",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.408571,
       "difficultySource": "zipf"
     },
@@ -4434,7 +4439,9 @@
         "endInExample": 65
       },
       "ipa": "ˌʃaɪni ˈθɪŋz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "signature",
@@ -4650,7 +4657,9 @@
         "endInExample": 251
       },
       "ipa": "ˌskɪni ˈsɔːsərəz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "slow",
@@ -4872,7 +4881,10 @@
         "endInExample": 32
       },
       "ipa": "ˌstændɪŋ ˈɪn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "standing",
@@ -4988,9 +5000,9 @@
       "word": "steadily",
       "lemma": "steadily",
       "lemmaId": "steadily",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "steadily_adjective",
+      "wordKey": "steadily_adverb",
       "level": "B1",
       "translations": {
         "ru": {
@@ -5006,7 +5018,7 @@
       "exampleEnd": 3801,
       "matchedForm": "steadily",
       "ipa": "ˈstedili",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.762857,
       "difficultySource": "zipf"
     },
@@ -5036,7 +5048,10 @@
         "endInExample": 17
       },
       "ipa": "ˌstept ˈaʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "stepped",
@@ -5063,34 +5078,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.394286,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "sticking out",
-      "lemma": "stick out",
-      "lemmaId": "stick_out",
-      "pos": "prepositional_verb",
-      "type": "prepositional_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "stick_out_prepositional_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "торчать; выделяться"
-        },
-        "uk": {
-          "translation": "виділяється; Виділяйтеся"
-        }
-      },
-      "example": "He had a coil of rope around one arm, and there were shiny things sticking out of the pockets of his frock coat.",
-      "exampleStart": 2057,
-      "exampleEnd": 2169,
-      "phraseMatch": {
-        "text": "sticking out",
-        "startInExample": 66,
-        "endInExample": 78
-      },
-      "ipa": "ˌstɪkɪŋ ˈaʊt",
-      "levelSource": "phrase_index"
     },
     {
       "word": "sticking",
@@ -5240,7 +5227,9 @@
         "endInExample": 26
       },
       "ipa": "ˌstrɒŋ səˈspɪʃən",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "successful",
@@ -5784,7 +5773,10 @@
         "endInExample": 99
       },
       "ipa": "ˌjuːzd ˈʌp",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "walk around",
@@ -5812,7 +5804,10 @@
         "endInExample": 26
       },
       "ipa": "ˌwɔːk əˈraʊnd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "walk",
@@ -6124,7 +6119,9 @@
         "endInExample": 16
       },
       "ipa": "ˌretʃɪd ˈbɔɪ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "your signature",
@@ -6152,7 +6149,120 @@
         "endInExample": 61
       },
       "ipa": "jɔː ˈsɪɡnɪtʃə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
+    },
+    {
+      "word": "not at all",
+      "lemma": "not at all",
+      "lemmaId": "not_at_all",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "adverb_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "совершенно не"
+        },
+        "uk": {
+          "translation": "зовсім не"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "Cat was not at all sure.",
+      "exampleStart": 674,
+      "exampleEnd": 698,
+      "exampleTranslation": "совершенно не",
+      "phraseMatch": {
+        "text": "not at all",
+        "startInExample": 8,
+        "endInExample": 18
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "not_at_all_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "зовсім не"
+        }
+      }
+    },
+    {
+      "word": "Sunday best",
+      "lemma": "sunday best",
+      "lemmaId": "sunday_best",
+      "pos": "phrase",
+      "type": "collocation",
+      "category": "mwe",
+      "mweType": "collocation",
+      "syntacticForm": "noun_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "в воскресном наряде"
+        },
+        "uk": {
+          "translation": "недільних найкращих"
+        }
+      },
+      "definition": "collocation used as one lexical expression in this context.",
+      "example": "Most of the people who followed her were in Sunday best too: warlocks in blue serge and hard hats, witches in silk and bombazine and hats of all shapes and sizes, respectable-looking necromancers in frock coats like William Nostrum’s, skinny sorcerers in black, and quite a sprinkling of impressive wizards, who had either been to church in long black cloaks, or playing golf in very freckled plus fours.",
+      "exampleStart": 2979,
+      "exampleEnd": 3383,
+      "exampleTranslation": "в воскресном наряде",
+      "phraseMatch": {
+        "text": "Sunday best",
+        "startInExample": 44,
+        "endInExample": 55
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "sunday_best_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "недільних найкращих"
+        }
+      }
+    },
+    {
+      "word": "in no time at all",
+      "lemma": "in no time at all",
+      "lemmaId": "in_no_time_at_all",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "adverb_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "почти сразу"
+        },
+        "uk": {
+          "translation": "дуже швидко"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "Among them Cat recognized most of the witches and fortune-tellers from Coven Street, though he did not see either Mrs. Sharp or Miss Larkins — but this may have been simply that, in no time at all, he was being jostled this way and that in the middle of a large and steadily growing crowd.",
+      "exampleStart": 3512,
+      "exampleEnd": 3801,
+      "exampleTranslation": "почти сразу",
+      "phraseMatch": {
+        "text": "in no time at all",
+        "startInExample": 179,
+        "endInExample": 196
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "in_no_time_at_all_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "дуже швидко"
+        }
+      }
     }
   ],
   "namedEntities": [

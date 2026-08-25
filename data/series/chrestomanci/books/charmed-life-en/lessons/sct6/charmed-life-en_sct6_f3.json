@@ -21,14 +21,14 @@
       "wordCount": 558,
       "uniqueWordCount": 332,
       "paragraphCount": 18,
-      "vocabularyCount": 163,
+      "vocabularyCount": 165,
       "levelDistribution": {
         "A1": 45,
-        "A2": 29,
-        "B1": 30,
+        "A2": 25,
+        "B1": 33,
         "B2": 49,
-        "C1": 10,
-        "C2": 0
+        "C1": 11,
+        "C2": 2
       }
     }
   },
@@ -91,7 +91,9 @@
         "endInExample": 88
       },
       "ipa": "ˌæbsəntˌmaɪndɪd ˈflɪk",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "actually",
@@ -311,10 +313,10 @@
       "word": "bawled",
       "lemma": "bawl",
       "lemmaId": "bawl",
-      "pos": "adjective",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "bawl_adjective",
-      "level": "A2",
+      "wordKey": "bawl_verb",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "ворчать"
@@ -328,8 +330,8 @@
       "exampleStart": 2656,
       "exampleEnd": 2705,
       "matchedForm": "bawled",
-      "ipa": "bɔːld",
-      "levelSource": "vocabulary_index",
+      "ipa": "bɔːl",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -521,7 +523,10 @@
         "endInExample": 60
       },
       "ipa": "ˌkætʃ ˈʌp wɪð",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "catch",
@@ -607,7 +612,10 @@
         "endInExample": 66
       },
       "ipa": "ˌkeɪm ˈɪn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "come on",
@@ -635,17 +643,20 @@
         "endInExample": 8
       },
       "ipa": "ˌkʌm ˈɒn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "coming up",
       "lemma": "come up",
       "lemmaId": "come_up",
-      "pos": "prepositional_verb",
+      "pos": "phrasal_verb",
       "type": "prepositional_verb",
       "source": "dictionary_phrasal",
-      "wordKey": "come_up_prepositional_verb",
-      "level": "B2",
+      "wordKey": "come_up_phrasal_verb",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "подойти; возникнуть"
@@ -662,8 +673,11 @@
         "startInExample": 17,
         "endInExample": 26
       },
-      "ipa": "ˌkʌmɪŋ ˈʌp",
-      "levelSource": "phrase_index"
+      "ipa": "ˌkʌm ˈʌp",
+      "levelSource": "cefr_context_review",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "come",
@@ -893,12 +907,12 @@
     },
     {
       "word": "dressing",
-      "lemma": "dress",
-      "lemmaId": "dress",
-      "pos": "adjective",
+      "lemma": "dressing",
+      "lemmaId": "dressing",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "dress_adjective",
-      "level": "A2",
+      "wordKey": "dressing_noun",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "одетый; платьевой"
@@ -907,14 +921,14 @@
           "translation": "одягнений; Одяг"
         }
       },
-      "_spacyLemma": "dress",
+      "_spacyLemma": "dressing",
       "example": "Chrestomanci was coming up the marble staircase in a wide, flowing dressing gown that was partly orange and partly bright pink.",
       "exampleStart": 2707,
       "exampleEnd": 2834,
       "matchedForm": "dressing",
       "ipa": "ˈdresɪŋ",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.5,
+      "levelSource": "cefr_reference",
+      "difficultyScore": 0.668571,
       "difficultySource": "zipf"
     },
     {
@@ -1086,32 +1100,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "faced",
-      "lemma": "face",
-      "lemmaId": "face",
-      "pos": "adjective",
-      "source": "word",
-      "wordKey": "face_adjective",
-      "level": "A2",
-      "translations": {
-        "ru": {
-          "translation": "лицевой; обращённый"
-        },
-        "uk": {
-          "translation": "спереду; Переобладнання"
-        }
-      },
-      "_spacyLemma": "face",
-      "example": "By the suave, vague look on his face, he had not noticed Gwendolen and Cat.",
-      "exampleStart": 2871,
-      "exampleEnd": 2946,
-      "matchedForm": "face",
-      "ipa": "feɪsd",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.302857,
-      "difficultySource": "zipf"
-    },
-    {
       "word": "face",
       "lemma": "face",
       "lemmaId": "face",
@@ -1223,11 +1211,11 @@
     },
     {
       "word": "flowing",
-      "lemma": "flow",
-      "lemmaId": "flow",
+      "lemma": "flowing",
+      "lemmaId": "flowing",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "flow_adjective",
+      "wordKey": "flowing_adjective",
       "level": "B1",
       "translations": {
         "ru": {
@@ -1237,13 +1225,12 @@
           "translation": "Потік"
         }
       },
-      "_spacyLemma": "flow",
+      "_spacyLemma": "flowing",
       "example": "Chrestomanci was coming up the marble staircase in a wide, flowing dressing gown that was partly orange and partly bright pink.",
       "exampleStart": 2707,
       "exampleEnd": 2834,
       "matchedForm": "flowing",
-      "ipa": "ˈfləʊɪŋ",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.522857,
       "difficultySource": "zipf"
     },
@@ -1357,7 +1344,10 @@
         "endInExample": 31
       },
       "ipa": "went əˈbaʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "went up",
@@ -1385,7 +1375,10 @@
         "endInExample": 61
       },
       "ipa": "went ˈʌp",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "gone",
@@ -1465,7 +1458,9 @@
         "endInExample": 50
       },
       "ipa": "ˌɡɒɡlɪŋ ˈaɪz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "gold",
@@ -1597,7 +1592,9 @@
         "endInExample": 28
       },
       "ipa": "ˌɡreɪt rɪˈliːf",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "greedy",
@@ -1709,7 +1706,9 @@
         "endInExample": 150
       },
       "ipa": "hɜː ˌæpəˈrɪʃən",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her door",
@@ -1737,7 +1736,9 @@
         "endInExample": 33
       },
       "ipa": "hɜː ˈdɔː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her letter",
@@ -1765,7 +1766,9 @@
         "endInExample": 79
       },
       "ipa": "hɜː ˈletə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his eyebrows",
@@ -1793,7 +1796,9 @@
         "endInExample": 53
       },
       "ipa": "hɪz ˈaɪbraʊz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his face",
@@ -1821,7 +1826,9 @@
         "endInExample": 36
       },
       "ipa": "hɪz ˈfeɪs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "interested",
@@ -2047,9 +2054,9 @@
       "word": "lifeless",
       "lemma": "lifeless",
       "lemmaId": "lifeless",
-      "pos": "adverb",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "lifeless_adverb",
+      "wordKey": "lifeless_adjective",
       "level": "B2",
       "translations": {
         "ru": {
@@ -2065,7 +2072,7 @@
       "exampleEnd": 848,
       "matchedForm": "lifeless",
       "ipa": "ˈlaɪfləs",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.937143,
       "difficultySource": "zipf"
     },
@@ -2173,7 +2180,10 @@
         "endInExample": 18
       },
       "ipa": "ˈlʊk æt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "look",
@@ -2337,7 +2347,9 @@
         "endInExample": 108
       },
       "ipa": "ˌmɑːbəl ˈsteəkeɪs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "Means",
@@ -2501,7 +2513,9 @@
         "endInExample": 38
       },
       "ipa": "ˌmʌmɪˌfaɪd ˈdræɡən",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "my letters",
@@ -2529,7 +2543,9 @@
         "endInExample": 29
       },
       "ipa": "maɪ ˈletəz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "neatly",
@@ -2583,7 +2599,9 @@
         "endInExample": 15
       },
       "ipa": "ˌnekst ˈməʊmənt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "next morning",
@@ -2611,7 +2629,9 @@
         "endInExample": 27
       },
       "ipa": "ˌnekst ˈmɔːnɪŋ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "noticed",
@@ -2951,12 +2971,12 @@
     },
     {
       "word": "raging",
-      "lemma": "rag",
-      "lemmaId": "rag",
-      "pos": "verb",
+      "lemma": "ragged",
+      "lemmaId": "ragged",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "rag_verb",
-      "level": "C1",
+      "wordKey": "ragged_adjective",
+      "level": "C2",
       "translations": {
         "de": {
           "translation": "zerfetzt"
@@ -2971,14 +2991,14 @@
           "translation": "Шеббі"
         }
       },
-      "_spacyLemma": "rag",
+      "_spacyLemma": "ragged",
       "example": "The next moment, Gwendolen was raging again.",
       "exampleStart": 1792,
       "exampleEnd": 1836,
       "matchedForm": "raging",
-      "ipa": "ˈreɪdʒɪŋ",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.845714,
+      "ipa": "ˈræɡɪd",
+      "levelSource": "cefr_reference",
+      "difficultyScore": 0.948571,
       "difficultySource": "zipf"
     },
     {
@@ -3175,7 +3195,9 @@
         "endInExample": 53
       },
       "ipa": "ˌraɪt ˈweɪ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "ran away",
@@ -3203,7 +3225,10 @@
         "endInExample": 44
       },
       "ipa": "ˌræn əˈweɪ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "ran through",
@@ -3231,7 +3256,10 @@
         "endInExample": 17
       },
       "ipa": "ˌræn ˈθruː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "ran",
@@ -3369,7 +3397,10 @@
         "endInExample": 12
       },
       "ipa": "ˌʃʌt ˈʌp",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "shut",
@@ -3539,7 +3570,10 @@
         "endInExample": 38
       },
       "ipa": "ˈspiːk tuː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "spoke",
@@ -3709,7 +3743,9 @@
         "endInExample": 39
       },
       "ipa": "ˌstreɪndʒ ˈkɒrɪˌdɔːz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "stupid",
@@ -3747,10 +3783,10 @@
       "word": "suave",
       "lemma": "suave",
       "lemmaId": "suave",
-      "pos": "noun",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "suave_noun",
-      "level": "A2",
+      "wordKey": "suave_adjective",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "умный"
@@ -3765,7 +3801,7 @@
       "exampleEnd": 2946,
       "matchedForm": "suave",
       "ipa": "swɑːv",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -4029,7 +4065,10 @@
         "endInExample": 17
       },
       "ipa": "ˌtɜːnd əˈraʊnd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "turned",
@@ -4115,16 +4154,18 @@
         "endInExample": 41
       },
       "ipa": "ˌtuː ˌʌðə ˈθɪŋz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "unechoing",
       "lemma": "unechoing",
       "lemmaId": "unechoing",
-      "pos": "noun",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "unechoing_noun",
-      "level": "B2",
+      "wordKey": "unechoing_adjective",
+      "level": "C2",
       "translations": {
         "ru": {
           "translation": "без эха; не отдающийся эхом"
@@ -4139,7 +4180,7 @@
       "exampleEnd": 2705,
       "matchedForm": "unechoing",
       "ipa": "ʌˈnekəʊɪŋ",
-      "levelSource": "vocabulary_index"
+      "levelSource": "cefr_context_review"
     },
     {
       "word": "unfair",
@@ -4257,7 +4298,9 @@
         "endInExample": 24
       },
       "ipa": "ˌveɪɡ ˈlʊk",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "voice",
@@ -4536,6 +4579,117 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.411429,
       "difficultySource": "zipf"
+    },
+    {
+      "word": "after all",
+      "lemma": "after all",
+      "lemmaId": "after_all",
+      "pos": "phrase",
+      "type": "discourse_marker",
+      "category": "mwe",
+      "mweType": "discourse_marker",
+      "syntacticForm": "adverb_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "всё-таки"
+        },
+        "uk": {
+          "translation": "зрештою"
+        }
+      },
+      "definition": "discourse marker used as one lexical expression in this context.",
+      "example": "As he ran through the strange corridors, he thought he ought to let Gwendolen know that Chrestomanci had, after all, been interested in her apparition, and even angry.",
+      "exampleStart": 1319,
+      "exampleEnd": 1486,
+      "exampleTranslation": "всё-таки",
+      "phraseMatch": {
+        "text": "after all",
+        "startInExample": 106,
+        "endInExample": 115
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "after_all_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "зрештою"
+        }
+      }
+    },
+    {
+      "word": "come to think of it",
+      "lemma": "come to think of it",
+      "lemmaId": "come_to_think_of_it",
+      "pos": "phrase",
+      "type": "idiom",
+      "category": "mwe",
+      "mweType": "idiom",
+      "syntacticForm": "clause",
+      "source": "manual_mwe",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "Если подумать"
+        },
+        "uk": {
+          "translation": "якщо подумати"
+        }
+      },
+      "definition": "idiom used as one lexical expression in this context.",
+      "example": "And, come to think of it, the voice had been not so unlike Mr. Saunders’.",
+      "exampleStart": 986,
+      "exampleEnd": 1059,
+      "exampleTranslation": "Если подумать",
+      "phraseMatch": {
+        "text": "come to think of it",
+        "startInExample": 5,
+        "endInExample": 24
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "come_to_think_of_it_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "якщо подумати"
+        }
+      }
+    },
+    {
+      "word": "once again",
+      "lemma": "once again",
+      "lemmaId": "once_again",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "adverb_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "снова"
+        },
+        "uk": {
+          "translation": "знову"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "Cat panted behind her and, once again, did not catch up with her until they were beside the marble staircase.",
+      "exampleStart": 2532,
+      "exampleEnd": 2641,
+      "exampleTranslation": "снова",
+      "phraseMatch": {
+        "text": "once again",
+        "startInExample": 27,
+        "endInExample": 37
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "once_again_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "знову"
+        }
+      }
     }
   ],
   "namedEntities": [

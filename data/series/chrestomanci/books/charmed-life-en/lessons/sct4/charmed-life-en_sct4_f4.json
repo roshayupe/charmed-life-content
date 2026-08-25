@@ -21,13 +21,13 @@
       "wordCount": 579,
       "uniqueWordCount": 317,
       "paragraphCount": 18,
-      "vocabularyCount": 177,
+      "vocabularyCount": 180,
       "levelDistribution": {
         "A1": 49,
-        "A2": 28,
-        "B1": 40,
-        "B2": 47,
-        "C1": 12,
+        "A2": 30,
+        "B1": 42,
+        "B2": 48,
+        "C1": 10,
         "C2": 1
       }
     }
@@ -193,10 +193,10 @@
       "word": "arithmetic",
       "lemma": "arithmetic",
       "lemmaId": "arithmetic",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "arithmetic_adjective",
-      "level": "B1",
+      "wordKey": "arithmetic_noun",
+      "level": "A2",
       "translations": {
         "ru": {
           "translation": "арифметический"
@@ -211,7 +211,7 @@
       "exampleEnd": 983,
       "matchedForm": "arithmetic",
       "ipa": "əˈrɪθməˌtɪk",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.888571,
       "difficultySource": "zipf"
     },
@@ -295,12 +295,12 @@
     },
     {
       "word": "bent",
-      "lemma": "bent",
-      "lemmaId": "bent",
+      "lemma": "bend",
+      "lemmaId": "bend",
       "pos": "verb",
       "source": "word",
-      "wordKey": "bent_verb",
-      "level": "B1",
+      "wordKey": "bend_verb",
+      "level": "A2",
       "translations": {
         "ru": {
           "translation": "согнул; наклонился"
@@ -309,14 +309,14 @@
           "translation": "Зігнута"
         }
       },
-      "_spacyLemma": "bent",
+      "_spacyLemma": "bend",
       "example": "Saunders bent over Roger, her inkwell sailed up out of the socket in her desk and emptied itself over the back of Mr.",
       "exampleStart": 1205,
       "exampleEnd": 1322,
       "matchedForm": "bent",
-      "ipa": "bent",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.72,
+      "ipa": "bend",
+      "levelSource": "cefr_reference",
+      "difficultyScore": 0.68,
       "difficultySource": "zipf"
     },
     {
@@ -371,7 +371,9 @@
         "endInExample": 64
       },
       "ipa": "ˌbɪɡ ˈflæsk",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "billowing",
@@ -509,7 +511,9 @@
         "endInExample": 32
       },
       "ipa": "ˌkɑːm ˈɪntrest",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "Cat",
@@ -589,7 +593,10 @@
         "endInExample": 52
       },
       "ipa": "ˌtʃeɪndʒd ˈəʊvə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "change",
@@ -1258,32 +1265,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "funnel",
-      "lemma": "funnel",
-      "lemmaId": "funnel",
-      "pos": "verb",
-      "source": "word",
-      "wordKey": "funnel_verb",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "направлять через узкий проход"
-        },
-        "uk": {
-          "translation": "Вирва"
-        }
-      },
-      "_spacyLemma": "funnel",
-      "example": "“Get the ink jar and funnel out of the bottom of the cupboard and refill that inkwell.",
-      "exampleStart": 1567,
-      "exampleEnd": 1653,
-      "matchedForm": "funnel",
-      "ipa": "ˈfʌnəl",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.868571,
-      "difficultySource": "zipf"
-    },
-    {
       "word": "fury",
       "lemma": "fury",
       "lemmaId": "fury",
@@ -1361,7 +1342,10 @@
         "endInExample": 46
       },
       "ipa": "ˌɡɪvən ˈʌp",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "given",
@@ -1415,7 +1399,10 @@
         "endInExample": 35
       },
       "ipa": "ˌɡəʊɪŋ ˈɒn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "go on with",
@@ -1443,7 +1430,10 @@
         "endInExample": 20
       },
       "ipa": "ˌɡəʊ ˈɒn wɪð",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "going",
@@ -1549,7 +1539,9 @@
         "endInExample": 80
       },
       "ipa": "ˌɡreɪt ˈdiːl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "grilling",
@@ -1739,7 +1731,9 @@
         "endInExample": 77
       },
       "ipa": "hɜː ˈdesk",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "Her face",
@@ -1767,7 +1761,9 @@
         "endInExample": 8
       },
       "ipa": "hɜː ˈfeɪs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her inkwell",
@@ -1795,7 +1791,9 @@
         "endInExample": 37
       },
       "ipa": "hɜː ɪŋˈkwel",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his book",
@@ -1823,7 +1821,9 @@
         "endInExample": 43
       },
       "ipa": "hɪz ˈbʊk",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his left hand",
@@ -1851,7 +1851,9 @@
         "endInExample": 99
       },
       "ipa": "hɪz ˌleft ˈhænd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his lip",
@@ -1879,7 +1881,9 @@
         "endInExample": 15
       },
       "ipa": "hɪz ˈlɪp",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his pen",
@@ -1907,7 +1911,9 @@
         "endInExample": 67
       },
       "ipa": "hɪz ˈpen",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his right hand",
@@ -1935,7 +1941,9 @@
         "endInExample": 48
       },
       "ipa": "hɪz ˌraɪt ˈhænd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his right",
@@ -1963,7 +1971,9 @@
         "endInExample": 82
       },
       "ipa": "hɪz ˈraɪt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his teachers",
@@ -1991,7 +2001,9 @@
         "endInExample": 104
       },
       "ipa": "hɪz ˈtiːtʃəz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his way",
@@ -2019,7 +2031,9 @@
         "endInExample": 23
       },
       "ipa": "hɪz ˈweɪ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "History",
@@ -2209,7 +2223,9 @@
         "endInExample": 24
       },
       "ipa": "ɪn ˈɔːdə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "ink jar",
@@ -2237,7 +2253,9 @@
         "endInExample": 16
       },
       "ipa": "ˌɪŋk ˈdʒɑː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "ink",
@@ -2395,7 +2413,9 @@
         "endInExample": 42
       },
       "ipa": "ɪts ˈsɒkɪt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "jacket",
@@ -2507,7 +2527,10 @@
         "endInExample": 7
       },
       "ipa": "ˌkiːp ˈɒn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "keeping",
@@ -2723,7 +2746,10 @@
         "endInExample": 29
       },
       "ipa": "ˈlʊkt æt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "looked",
@@ -2835,7 +2861,9 @@
         "endInExample": 16
       },
       "ipa": "ˌmeɪn ˈtrʌbəl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "minutes",
@@ -2889,7 +2917,9 @@
         "endInExample": 153
       },
       "ipa": "ˌməʊst ˈθɪŋz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "moved on",
@@ -2917,7 +2947,10 @@
         "endInExample": 13
       },
       "ipa": "ˌmuːvd ˈɒn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "moved",
@@ -3003,7 +3036,9 @@
         "endInExample": 84
       },
       "ipa": "ˌɒn ˈfaɪə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "Open your arithmetic book",
@@ -3031,7 +3066,9 @@
         "endInExample": 25
       },
       "ipa": "ˌəʊpən jɔː əˌrɪθməˌtɪk ˈbʊk",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "Open",
@@ -3253,7 +3290,9 @@
         "endInExample": 39
       },
       "ipa": "ˌpaʊəfəl məˈdʒɪʃən",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "pretty",
@@ -3365,7 +3404,10 @@
         "endInExample": 31
       },
       "ipa": "ˌpʊt ˈdaʊn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "puzzled",
@@ -3866,7 +3908,7 @@
       "pos": "verb",
       "source": "word",
       "wordKey": "smudge_verb",
-      "level": "C1",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "пятно"
@@ -3881,7 +3923,7 @@
       "exampleEnd": 3131,
       "matchedForm": "smudge",
       "ipa": "smʌdʒ",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -4163,7 +4205,10 @@
         "endInExample": 16
       },
       "ipa": "ˌteɪk ˈʌp",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "talents",
@@ -4199,12 +4244,12 @@
     },
     {
       "word": "talented",
-      "lemma": "talente",
-      "lemmaId": "talente",
-      "pos": "verb",
+      "lemma": "talented",
+      "lemmaId": "talented",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "talente_verb",
-      "level": "B2",
+      "wordKey": "talented_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "талантливый"
@@ -4213,13 +4258,13 @@
           "translation": "Талановиті"
         }
       },
-      "_spacyLemma": "talente",
+      "_spacyLemma": "talented",
       "example": "“But — but I’m terribly talented!",
       "exampleStart": 746,
       "exampleEnd": 779,
       "matchedForm": "talented",
       "ipa": "ˈtæləntɪd",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.631429,
       "difficultySource": "zipf"
     },
@@ -4327,7 +4372,9 @@
         "endInExample": 50
       },
       "ipa": "ðeə ˈtjuːtə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "things",
@@ -4491,7 +4538,10 @@
         "endInExample": 31
       },
       "ipa": "ˌtɜːnɪŋ əˈraʊnd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "turned away",
@@ -4519,7 +4569,10 @@
         "endInExample": 20
       },
       "ipa": "ˌtɜːnd əˈweɪ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "turning",
@@ -4583,10 +4636,10 @@
       "word": "tweed",
       "lemma": "tweed",
       "lemmaId": "tweed",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "tweed_adjective",
-      "level": "C1",
+      "wordKey": "tweed_noun",
+      "level": "B2",
       "translations": {
         "de": {
           "translation": "Tweed (Stoff)"
@@ -4607,7 +4660,7 @@
       "exampleEnd": 1356,
       "matchedForm": "tweed",
       "ipa": "twiːd",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.931429,
       "difficultySource": "zipf"
     },
@@ -4637,7 +4690,9 @@
         "endInExample": 32
       },
       "ipa": "ˌtwiːd ˈdʒækɪt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "watched",
@@ -4865,7 +4920,9 @@
         "endInExample": 25
       },
       "ipa": "jɔː əˌrɪθməˌtɪk ˈbʊk",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "Your talents",
@@ -4893,7 +4950,157 @@
         "endInExample": 16
       },
       "ipa": "jɔː ˈtælənts",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
+    },
+    {
+      "word": "a great deal",
+      "lemma": "a great deal",
+      "lemmaId": "a_great_deal",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "adverb_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "многое"
+        },
+        "uk": {
+          "translation": "багато чого"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "From the grilling, it emerged that Roger and Julia had forgotten a great deal over the summer but, even so, they were well ahead of Cat in most things, and far ahead of Gwendolen in everything.",
+      "exampleStart": 187,
+      "exampleEnd": 380,
+      "exampleTranslation": "многое",
+      "phraseMatch": {
+        "text": "a great deal",
+        "startInExample": 65,
+        "endInExample": 77
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "a_great_deal_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "багато чого"
+        }
+      }
+    },
+    {
+      "word": "at first",
+      "lemma": "at first",
+      "lemmaId": "at_first",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "adverb_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Сначала"
+        },
+        "uk": {
+          "translation": "Спочатку"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "Her face was puzzled at first, then red, then white with fury again.",
+      "exampleStart": 1840,
+      "exampleEnd": 1908,
+      "exampleTranslation": "Сначала",
+      "phraseMatch": {
+        "text": "at first",
+        "startInExample": 21,
+        "endInExample": 29
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "at_first_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "Спочатку"
+        }
+      }
+    },
+    {
+      "word": "for the time being",
+      "lemma": "for the time being",
+      "lemmaId": "for_the_time_being",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "prepositional_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "на время"
+        },
+        "uk": {
+          "translation": "тимчасово"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "“And I’d already told you that you’ve given up witchcraft for the time being.",
+      "exampleStart": 2228,
+      "exampleEnd": 2305,
+      "exampleTranslation": "на время",
+      "phraseMatch": {
+        "text": "for the time being",
+        "startInExample": 58,
+        "endInExample": 76
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "for_the_time_being_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "тимчасово"
+        }
+      }
+    },
+    {
+      "word": "as soon as Mr. Saunders turned away again",
+      "lemma": "as soon as",
+      "lemmaId": "as_soon_as",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "clause",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "стоило наставнику отвернуться, как"
+        },
+        "uk": {
+          "translation": "щойно містер Сондерс знову відвернувся"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "But as soon as Mr. Saunders turned away again, Cat changed his pen over and got on like a house on fire.",
+      "exampleStart": 2914,
+      "exampleEnd": 3018,
+      "exampleTranslation": "стоило наставнику отвернуться, как",
+      "phraseMatch": {
+        "text": "as soon as Mr. Saunders turned away again",
+        "startInExample": 4,
+        "endInExample": 45
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "as_soon_as_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "щойно містер Сондерс знову відвернувся"
+        }
+      }
     }
   ],
   "namedEntities": [

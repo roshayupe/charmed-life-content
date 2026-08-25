@@ -44822,10 +44822,10 @@
       "status": "ok"
     },
     {
-      "id": "pv-charmed-life-en_sct5_f2-learn_adjective-ch05_p020_s005-23-30-111",
-      "wordKey": "learn_adjective",
+      "id": "pv-charmed-life-en_sct5_f2-learned_adjective-ch05_p020_s005-23-30-111",
+      "wordKey": "learned_adjective",
       "word": "learned",
-      "lemma": "learn",
+      "lemma": "learned",
       "pos": "adjective",
       "level": "C1",
       "sourceText": "learned",
@@ -44847,7 +44847,9 @@
         "start": 57,
         "end": 71
       },
-      "contextTranslation": "великий учёный"
+      "contextTranslation": "великий учёный",
+      "difficultyScore": 0.382857,
+      "difficultySource": "zipf"
     },
     {
       "id": "pv-charmed-life-en_sct5_f2-magician_noun-ch05_p020_s005-31-39-121",
@@ -44961,11 +44963,11 @@
       "status": "ok"
     },
     {
-      "id": "pv-charmed-life-en_sct5_f2-facedown_verb-ch05_p021_s001-27-35-58",
-      "wordKey": "facedown_verb",
+      "id": "pv-charmed-life-en_sct5_f2-facedown_adverb-ch05_p021_s001-27-35-58",
+      "wordKey": "facedown_adverb",
       "word": "facedown",
       "lemma": "facedown",
-      "pos": "verb",
+      "pos": "adverb",
       "level": "B2",
       "sourceText": "facedown",
       "targetText": "вниз",
@@ -44985,7 +44987,10 @@
         "start": 40,
         "end": 44
       },
-      "contextTranslation": "вниз"
+      "contextTranslation": "вниз",
+      "ipa": "ˈfeɪsdaʊn",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "id": "pv-charmed-life-en_sct5_f2-beautiful_adjective-ch05_p021_s001-53-62-18",
@@ -47900,11 +47905,11 @@
       "contextTranslation": "прелестная"
     },
     {
-      "id": "pv-charmed-life-en_sct5_f2-equally_adjective-ch05_p030_s003-75-82-53",
-      "wordKey": "equally_adjective",
+      "id": "pv-charmed-life-en_sct5_f2-equally_adverb-ch05_p030_s003-75-82-53",
+      "wordKey": "equally_adverb",
       "word": "equally",
       "lemma": "equally",
-      "pos": "adjective",
+      "pos": "adverb",
       "level": "B1",
       "sourceText": "equally",
       "targetText": "столь же",
@@ -47925,7 +47930,10 @@
         "start": 73,
         "end": 81
       },
-      "contextTranslation": "столь же"
+      "contextTranslation": "столь же",
+      "ipa": "ˈiːkwəli",
+      "difficultyScore": 0.605714,
+      "difficultySource": "zipf"
     },
     {
       "id": "pv-charmed-life-en_sct5_f2-beautiful_adjective-ch05_p030_s003-83-92-18",
@@ -49019,7 +49027,7 @@
       "word": "his afternoon",
       "lemma": "his afternoon",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "his afternoon",
@@ -49055,7 +49063,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct5_f2-248-258-phrase-spacy_phrase",
@@ -49063,7 +49072,7 @@
       "word": "deck chair",
       "lemma": "deck chair",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "deck chair",
@@ -49089,7 +49098,8 @@
       "targetSpan": {
         "start": 77,
         "end": 85
-      }
+      },
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct5_f2-344-354-phrase-spacy_phrase",
@@ -49097,7 +49107,7 @@
       "word": "great deal",
       "lemma": "great deal",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "great deal",
@@ -49133,7 +49143,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct5_f2-470-482-phrase-spacy_phrase",
@@ -49141,7 +49152,7 @@
       "word": "her bootlace",
       "lemma": "her bootlace",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "her bootlace",
@@ -49177,7 +49188,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct5_f2-509-520-phrase-spacy_phrase",
@@ -49185,7 +49197,7 @@
       "word": "her fingers",
       "lemma": "her finger",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "her fingers",
@@ -49221,7 +49233,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct5_f2-692-700-phrase-spacy_phrase",
@@ -49229,7 +49242,7 @@
       "word": "new turf",
       "lemma": "new turf",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "new turf",
@@ -49268,7 +49281,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct5_f2-1043-1054-phrase-spacy_phrase",
@@ -49276,7 +49290,7 @@
       "word": "yellow book",
       "lemma": "yellow book",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "yellow book",
@@ -49315,7 +49329,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct5_f2-1239-1254-phrase-spacy_phrase",
@@ -49323,7 +49338,7 @@
       "word": "beautiful grass",
       "lemma": "beautiful grass",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "beautiful grass",
@@ -49359,7 +49374,8 @@
       "targetSpan": {
         "start": 54,
         "end": 70
-      }
+      },
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct5_f2-1352-1369-phrase-spacy_phrase",
@@ -49367,7 +49383,7 @@
       "word": "your pocket money",
       "lemma": "your pocket money",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "your pocket money",
@@ -49406,7 +49422,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct5_f2-1455-1466-phrase-spacy_phrase",
@@ -49414,7 +49431,7 @@
       "word": "crown piece",
       "lemma": "crown piece",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "crown piece",
@@ -49450,7 +49467,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct5_f2-1469-1489-phrase-spacy_phrase",
@@ -49458,7 +49476,7 @@
       "word": "five whole shillings",
       "lemma": "five whole shilling",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "five whole shillings",
@@ -49505,7 +49523,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct5_f2-1511-1521-phrase-spacy_phrase",
@@ -49513,7 +49532,7 @@
       "word": "much money",
       "lemma": "much money",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "much money",
@@ -49549,7 +49568,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct5_f2-1534-1542-phrase-spacy_phrase",
@@ -49557,7 +49577,7 @@
       "word": "his life",
       "lemma": "his life",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "his life",
@@ -49593,7 +49613,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct5_f2-1566-1579-phrase-spacy_phrase",
@@ -49601,7 +49622,7 @@
       "word": "his amazement",
       "lemma": "his amazement",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "his amazement",
@@ -49627,7 +49648,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct5_f2-1906-1920-phrase-spacy_phrase",
@@ -49635,7 +49657,7 @@
       "word": "defiant desire",
       "lemma": "defiant desire",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "defiant desire",
@@ -49671,7 +49693,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct5_f2-2713-2728-phrase-spacy_phrase",
@@ -49679,7 +49702,7 @@
       "word": "garden warlocks",
       "lemma": "garden warlock",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "garden warlocks",
@@ -49718,7 +49741,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct5_f2-2866-2878-phrase-spacy_phrase",
@@ -49726,7 +49750,7 @@
       "word": "pretty place",
       "lemma": "pretty place",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "pretty place",
@@ -49765,7 +49789,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct5_f2-2889-2898-phrase-spacy_phrase",
@@ -49773,7 +49798,7 @@
       "word": "big green",
       "lemma": "big green",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "big green",
@@ -49812,7 +49837,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct5_f2-3074-3084-phrase-spacy_phrase",
@@ -49820,7 +49846,7 @@
       "word": "third shop",
       "lemma": "third shop",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "third shop",
@@ -49859,7 +49885,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct5_f2-3098-3107-phrase-spacy_phrase",
@@ -49867,7 +49894,7 @@
       "word": "junk shop",
       "lemma": "junk shop",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "junk shop",
@@ -49906,7 +49933,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct5_f2-3193-3201-phrase-spacy_phrase",
@@ -49914,7 +49942,7 @@
       "word": "her head",
       "lemma": "her head",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "her head",
@@ -49950,7 +49978,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct5_f2-3226-3237-phrase-spacy_phrase",
@@ -49958,7 +49987,7 @@
       "word": "village boy",
       "lemma": "village boy",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "village boy",
@@ -49997,7 +50026,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct5_f2-3538-3547-phrase-spacy_phrase",
@@ -50005,7 +50035,7 @@
       "word": "his pains",
       "lemma": "his pain",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "his pains",
@@ -50041,7 +50071,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-mwe-sct5_f2-120-128-mwe-dictionary_phrasal",
@@ -50082,7 +50113,9 @@
       "alignmentWarningCode": null,
       "alignmentWarning": "",
       "status": "ok",
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "id": "lexical-mwe-sct5_f2-133-145-mwe-dictionary_phrasal",
@@ -50123,7 +50156,9 @@
       "alignmentWarningCode": null,
       "alignmentWarning": "",
       "status": "ok",
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "id": "lexical-mwe-sct5_f2-218-242-mwe-dictionary_phrasal",
@@ -50165,7 +50200,9 @@
       "alignmentWarningCode": null,
       "alignmentWarning": "",
       "status": "ok",
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "id": "lexical-mwe-sct5_f2-682-691-mwe-dictionary_phrasal",
@@ -50206,7 +50243,9 @@
       "alignmentWarningCode": null,
       "alignmentWarning": "",
       "status": "ok",
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "id": "lexical-mwe-sct5_f2-803-808-mwe-dictionary_phrasal",
@@ -50247,7 +50286,9 @@
       "alignmentWarningCode": null,
       "alignmentWarning": "",
       "status": "ok",
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "id": "lexical-mwe-sct5_f2-1090-1098-mwe-dictionary_phrasal",
@@ -50291,7 +50332,9 @@
       "alignmentWarningCode": null,
       "alignmentWarning": "",
       "status": "ok",
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "id": "lexical-mwe-sct5_f2-1287-1296-mwe-dictionary_phrasal",
@@ -50332,7 +50375,9 @@
       "alignmentWarningCode": null,
       "alignmentWarning": "",
       "status": "ok",
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "id": "lexical-mwe-sct5_f2-1339-1351-mwe-dictionary_phrasal",
@@ -50373,7 +50418,9 @@
       "targetSpan": {
         "start": 45,
         "end": 51
-      }
+      },
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "id": "lexical-mwe-sct5_f2-1557-1565-mwe-dictionary_phrasal",
@@ -50414,7 +50461,9 @@
       "alignmentWarningCode": null,
       "alignmentWarning": "",
       "status": "ok",
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "id": "lexical-mwe-sct5_f2-1711-1721-mwe-dictionary_phrasal",
@@ -50458,7 +50507,9 @@
       "alignmentWarningCode": null,
       "alignmentWarning": "",
       "status": "ok",
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "id": "lexical-mwe-sct5_f2-1807-1817-mwe-dictionary_phrasal",
@@ -50502,7 +50553,9 @@
       "alignmentWarningCode": null,
       "alignmentWarning": "",
       "status": "ok",
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "id": "lexical-mwe-sct5_f2-1973-1984-mwe-dictionary_phrasal",
@@ -50543,7 +50596,9 @@
       "alignmentWarningCode": null,
       "alignmentWarning": "",
       "status": "ok",
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "id": "lexical-mwe-sct5_f2-2022-2030-mwe-dictionary_phrasal",
@@ -50584,7 +50639,9 @@
       "alignmentWarningCode": null,
       "alignmentWarning": "",
       "status": "ok",
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "id": "lexical-mwe-sct5_f2-2060-2068-mwe-dictionary_phrasal",
@@ -50628,7 +50685,9 @@
       "alignmentWarningCode": null,
       "alignmentWarning": "",
       "status": "ok",
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "id": "lexical-mwe-sct5_f2-2365-2372-mwe-dictionary_phrasal",
@@ -50669,7 +50728,9 @@
       "alignmentWarningCode": null,
       "alignmentWarning": "",
       "status": "ok",
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "id": "lexical-mwe-sct5_f2-3126-3136-mwe-dictionary_phrasal",
@@ -50710,7 +50771,9 @@
       "alignmentWarningCode": null,
       "alignmentWarning": "",
       "status": "ok",
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "id": "lexical-mwe-sct5_f2-3469-3479-mwe-dictionary_phrasal",
@@ -50748,6 +50811,301 @@
       ],
       "alignmentMethod": "mwe_component_aggregate",
       "alignmentConfidence": "medium",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "includeInVocabularySelection": true,
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
+    },
+    {
+      "id": "manual-mwe-charmed-life-en_sct5_f2-189-201-a_great_deal",
+      "wordKey": "a_great_deal_phrase",
+      "word": "a great deal",
+      "lemma": "a great deal",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "adverb_phrase",
+      "level": "B1",
+      "sourceText": "a great deal",
+      "dictionaryTranslation": "страшно",
+      "rowTranslation": "страшно",
+      "sourceSentenceId": "ch05_p015_s002",
+      "sourceSpan": {
+        "start": 189,
+        "end": 201
+      },
+      "targetSentenceId": "ch05_p015_t002",
+      "targetSpan": {
+        "start": 170,
+        "end": 177
+      },
+      "targetSpans": [
+        {
+          "targetSentenceId": "ch05_p015_t002",
+          "targetSpan": {
+            "start": 170,
+            "end": 177
+          },
+          "targetText": "страшно"
+        }
+      ],
+      "targetText": "страшно",
+      "contextTranslation": "страшно",
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "includeInVocabularySelection": true,
+      "targetOmitted": false
+    },
+    {
+      "id": "manual-mwe-charmed-life-en_sct5_f2-40-63-as_well_as",
+      "wordKey": "as_well_as_phrase",
+      "word": "as well as a strong one",
+      "lemma": "as well as",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "clause",
+      "level": "B1",
+      "sourceText": "as well as a strong one",
+      "dictionaryTranslation": "и великий",
+      "rowTranslation": "и великий",
+      "sourceSentenceId": "ch05_p020_s005",
+      "sourceSpan": {
+        "start": 40,
+        "end": 63
+      },
+      "targetSentenceId": "ch05_p020_t004",
+      "targetSpan": {
+        "start": 55,
+        "end": 64
+      },
+      "targetSpans": [
+        {
+          "targetSentenceId": "ch05_p020_t004",
+          "targetSpan": {
+            "start": 55,
+            "end": 64
+          },
+          "targetText": "и великий"
+        }
+      ],
+      "targetText": "и великий",
+      "contextTranslation": "и великий",
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "includeInVocabularySelection": true,
+      "targetOmitted": false
+    },
+    {
+      "id": "manual-mwe-charmed-life-en_sct5_f2-0-12-here_you_are",
+      "wordKey": "here_you_are_phrase",
+      "word": "Here you are",
+      "lemma": "here you are",
+      "pos": "phrase",
+      "type": "formulaic_expression",
+      "category": "mwe",
+      "mweType": "formulaic_expression",
+      "syntacticForm": "clause",
+      "level": "B1",
+      "sourceText": "Here you are",
+      "dictionaryTranslation": "вот, пожалуйста",
+      "rowTranslation": "вот, пожалуйста",
+      "sourceSentenceId": "ch05_p021_s003",
+      "sourceSpan": {
+        "start": 0,
+        "end": 12
+      },
+      "targetText": "вот, пожалуйста",
+      "contextTranslation": "вот, пожалуйста",
+      "targetOmitted": true,
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "low",
+      "alignmentWarningCode": "target_span_missing",
+      "alignmentWarning": "The expression is omitted or redistributed in the literary translation; a reviewed dictionary gloss is shown.",
+      "status": "missing_target",
+      "includeInVocabularySelection": true
+    },
+    {
+      "id": "manual-mwe-charmed-life-en_sct5_f2-4-15-may_as_well",
+      "wordKey": "may_as_well_phrase",
+      "word": "may as well",
+      "lemma": "may as well",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "verb_phrase",
+      "level": "B1",
+      "sourceText": "may as well",
+      "dictionaryTranslation": "Можно",
+      "rowTranslation": "Можно",
+      "sourceSentenceId": "ch05_p023_s001",
+      "sourceSpan": {
+        "start": 4,
+        "end": 15
+      },
+      "targetSentenceId": "ch05_p023_t001",
+      "targetSpan": {
+        "start": 2,
+        "end": 7
+      },
+      "targetSpans": [
+        {
+          "targetSentenceId": "ch05_p023_t001",
+          "targetSpan": {
+            "start": 2,
+            "end": 7
+          },
+          "targetText": "Можно"
+        }
+      ],
+      "targetText": "Можно",
+      "contextTranslation": "Можно",
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "includeInVocabularySelection": true,
+      "targetOmitted": false
+    },
+    {
+      "id": "manual-mwe-charmed-life-en_sct5_f2-40-50-as_soon_as",
+      "wordKey": "as_soon_as_phrase",
+      "word": "as soon as",
+      "lemma": "as soon as",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "clause",
+      "level": "B1",
+      "sourceText": "as soon as",
+      "dictionaryTranslation": "как только",
+      "rowTranslation": "как только",
+      "sourceSentenceId": "ch05_p023_s003",
+      "sourceSpan": {
+        "start": 40,
+        "end": 50
+      },
+      "targetSentenceId": "ch05_p023_t003",
+      "targetSpan": {
+        "start": 37,
+        "end": 47
+      },
+      "targetSpans": [
+        {
+          "targetSentenceId": "ch05_p023_t003",
+          "targetSpan": {
+            "start": 37,
+            "end": 47
+          },
+          "targetText": "как только"
+        }
+      ],
+      "targetText": "как только",
+      "contextTranslation": "как только",
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "includeInVocabularySelection": true,
+      "targetOmitted": false
+    },
+    {
+      "id": "manual-mwe-charmed-life-en_sct5_f2-1-13-all_the_same",
+      "wordKey": "all_the_same_phrase",
+      "word": "All the same",
+      "lemma": "all the same",
+      "pos": "phrase",
+      "type": "discourse_marker",
+      "category": "mwe",
+      "mweType": "discourse_marker",
+      "syntacticForm": "adverb_phrase",
+      "level": "B1",
+      "sourceText": "All the same",
+      "dictionaryTranslation": "всё же",
+      "rowTranslation": "всё же",
+      "sourceSentenceId": "ch05_p028_s004",
+      "sourceSpan": {
+        "start": 1,
+        "end": 13
+      },
+      "targetSentenceId": "ch05_p028_t004",
+      "targetSpan": {
+        "start": 4,
+        "end": 10
+      },
+      "targetSpans": [
+        {
+          "targetSentenceId": "ch05_p028_t004",
+          "targetSpan": {
+            "start": 4,
+            "end": 10
+          },
+          "targetText": "всё же"
+        }
+      ],
+      "targetText": "всё же",
+      "contextTranslation": "всё же",
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "includeInVocabularySelection": true,
+      "targetOmitted": false
+    },
+    {
+      "id": "manual-mwe-charmed-life-en_sct5_f2-21-63-as_well_as",
+      "wordKey": "as_well_as_phrase",
+      "word": "a learned magician as well as a strong one",
+      "lemma": "as well as",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "noun_phrase",
+      "level": "B1",
+      "sourceText": "a learned magician as well as a strong one",
+      "dictionaryTranslation": "не только сильный маг, но и великий учёный",
+      "rowTranslation": "не только сильный маг, но и великий учёный",
+      "sourceSentenceId": "ch05_p020_s005",
+      "sourceSpan": {
+        "start": 21,
+        "end": 63
+      },
+      "targetSentenceId": "ch05_p020_t004",
+      "targetSpan": {
+        "start": 29,
+        "end": 71
+      },
+      "targetSpans": [
+        {
+          "targetSentenceId": "ch05_p020_t004",
+          "targetSpan": {
+            "start": 29,
+            "end": 71
+          },
+          "targetText": "не только сильный маг, но и великий учёный"
+        }
+      ],
+      "targetText": "не только сильный маг, но и великий учёный",
+      "contextTranslation": "не только сильный маг, но и великий учёный",
+      "targetOmitted": false,
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
       "alignmentWarningCode": null,
       "alignmentWarning": "",
       "status": "ok",

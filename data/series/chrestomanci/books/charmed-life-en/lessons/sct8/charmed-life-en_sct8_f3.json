@@ -21,14 +21,14 @@
       "wordCount": 579,
       "uniqueWordCount": 303,
       "paragraphCount": 10,
-      "vocabularyCount": 208,
+      "vocabularyCount": 207,
       "levelDistribution": {
-        "A1": 54,
-        "A2": 37,
-        "B1": 44,
-        "B2": 59,
-        "C1": 12,
-        "C2": 2
+        "A1": 55,
+        "A2": 36,
+        "B1": 42,
+        "B2": 58,
+        "C1": 13,
+        "C2": 3
       }
     }
   },
@@ -403,7 +403,9 @@
         "endInExample": 82
       },
       "ipa": "ˌbɪɡ ˈhed",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "billow",
@@ -483,7 +485,9 @@
         "endInExample": 55
       },
       "ipa": "ˌblæk ˈkəʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "blindly",
@@ -589,7 +593,9 @@
         "endInExample": 52
       },
       "ipa": "ˌbluː ˈstraɪps",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "boiling",
@@ -883,7 +889,10 @@
         "endInExample": 9
       },
       "ipa": "ˌkæri ˈɒn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "Carry",
@@ -1047,7 +1056,10 @@
         "endInExample": 19
       },
       "ipa": "ˌkeɪm ˈæftə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "came through",
@@ -1075,7 +1087,10 @@
         "endInExample": 63
       },
       "ipa": "ˌkeɪm ˈθruː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "came",
@@ -1363,12 +1378,12 @@
     },
     {
       "word": "draggled",
-      "lemma": "draggle",
-      "lemmaId": "draggle",
-      "pos": "verb",
+      "lemma": "draggled",
+      "lemmaId": "draggled",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "draggle_verb",
-      "level": "B2",
+      "wordKey": "draggled_adjective",
+      "level": "C2",
       "translations": {
         "ru": {
           "translation": "волочить; испачкать"
@@ -1377,13 +1392,12 @@
           "translation": "тягнути; Пляма"
         }
       },
-      "_spacyLemma": "draggle",
+      "_spacyLemma": "draggled",
       "example": "The third was the apparition at the window — pitiful, wrinkled, and draggled.",
       "exampleStart": 1534,
       "exampleEnd": 1611,
       "matchedForm": "draggled",
-      "ipa": "ˈdræɡəld",
-      "levelSource": "vocabulary_index"
+      "levelSource": "cefr_context_review"
     },
     {
       "word": "dropped",
@@ -1493,9 +1507,9 @@
       "word": "facedown",
       "lemma": "facedown",
       "lemmaId": "facedown",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "facedown_adjective",
+      "wordKey": "facedown_adverb",
       "level": "B2",
       "translations": {
         "ru": {
@@ -1511,7 +1525,7 @@
       "exampleEnd": 3182,
       "matchedForm": "facedown",
       "ipa": "ˈfeɪsdaʊn",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -1575,11 +1589,11 @@
     },
     {
       "word": "flaming",
-      "lemma": "flame",
-      "lemmaId": "flame",
+      "lemma": "flaming",
+      "lemmaId": "flaming",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "flame_adjective",
+      "wordKey": "flaming_adjective",
       "level": "B2",
       "translations": {
         "ru": {
@@ -1589,14 +1603,14 @@
           "translation": "Палаюче"
         }
       },
-      "_spacyLemma": "flame",
+      "_spacyLemma": "flaming",
       "example": "Then they fled back to the flaming bowl and vanished.",
       "exampleStart": 2170,
       "exampleEnd": 2223,
       "matchedForm": "flaming",
       "ipa": "ˈfleɪmɪŋ",
       "levelSource": "vocabulary_index",
-      "difficultyScore": 0.697143,
+      "difficultyScore": 0.88,
       "difficultySource": "zipf"
     },
     {
@@ -1793,7 +1807,10 @@
         "endInExample": 49
       },
       "ipa": "ˌɡæðərɪŋ ˈɪn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "gathering",
@@ -1855,12 +1872,12 @@
     },
     {
       "word": "gibbering",
-      "lemma": "gibbering",
-      "lemmaId": "gibbering",
-      "pos": "noun",
+      "lemma": "gibber",
+      "lemmaId": "gibber",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "gibbering_noun",
-      "level": "B2",
+      "wordKey": "gibber_verb",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "бессвязное бормотание"
@@ -1869,13 +1886,12 @@
           "translation": "Незв'язне бурмотіння"
         }
       },
-      "_spacyLemma": "gibbering",
+      "_spacyLemma": "gibber",
       "example": "The apparitions hesitated, gibbering.",
       "exampleStart": 2132,
       "exampleEnd": 2169,
       "matchedForm": "gibbering",
-      "ipa": "ˈdʒɪbərɪŋ",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -2209,7 +2225,9 @@
         "endInExample": 47
       },
       "ipa": "hɜː ˈɑːmz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her feet",
@@ -2237,7 +2255,9 @@
         "endInExample": 79
       },
       "ipa": "hɜː ˈfiːt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "hesitated",
@@ -2297,7 +2317,9 @@
         "endInExample": 170
       },
       "ipa": "hɪz ˈbəʊni",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his knee",
@@ -2325,7 +2347,9 @@
         "endInExample": 138
       },
       "ipa": "hɪz ˈniː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his legs",
@@ -2353,7 +2377,9 @@
         "endInExample": 90
       },
       "ipa": "hɪz ˈleɡz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his own knuckles",
@@ -2381,7 +2407,9 @@
         "endInExample": 64
       },
       "ipa": "hɪz ˌəʊn ˈnʌkəlz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his pocket",
@@ -2409,7 +2437,9 @@
         "endInExample": 46
       },
       "ipa": "hɪz ˈpɒkɪt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his shirt",
@@ -2437,7 +2467,9 @@
         "endInExample": 111
       },
       "ipa": "hɪz ˈʃɜːt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his unlaced, big black boot",
@@ -2465,7 +2497,9 @@
         "endInExample": 48
       },
       "ipa": "hɪz ʌnˌleɪst ˌbɪɡ ˌblæk ˈbuːt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his wrists",
@@ -2493,7 +2527,9 @@
         "endInExample": 81
       },
       "ipa": "hɪz ˈrɪsts",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "hobble",
@@ -2617,7 +2653,9 @@
         "endInExample": 141
       },
       "ipa": "ɪnˌvɪzɪbəl ˈskeɪn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "itching",
@@ -2671,7 +2709,9 @@
         "endInExample": 19
       },
       "ipa": "ɪts ˌbeə ˌpɪŋk ˈfleʃ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "its big head",
@@ -2699,7 +2739,9 @@
         "endInExample": 100
       },
       "ipa": "ɪts ˌbɪɡ ˈhed",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "its white skin",
@@ -2727,7 +2769,9 @@
         "endInExample": 27
       },
       "ipa": "ɪts ˌwaɪt ˈskɪn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "knee",
@@ -2865,7 +2909,9 @@
         "endInExample": 67
       },
       "ipa": "ˌleɪs ˈrʌfəlz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "laughed",
@@ -2997,7 +3043,10 @@
         "endInExample": 22
       },
       "ipa": "ˌlʊkt ˈæftə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "looked back",
@@ -3025,7 +3074,10 @@
         "endInExample": 36
       },
       "ipa": "ˌlʊkt ˈbæk",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "looked",
@@ -3351,7 +3403,9 @@
         "endInExample": 22
       },
       "ipa": "ˌwɒn ˌlæst ˈtʌtʃ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "pattering",
@@ -3521,7 +3575,10 @@
         "endInExample": 85
       },
       "ipa": "ˈpɔɪntɪd tuː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "pointed",
@@ -3551,11 +3608,11 @@
     },
     {
       "word": "quivering",
-      "lemma": "quiver",
-      "lemmaId": "quiver",
+      "lemma": "quivering",
+      "lemmaId": "quivering",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "quiver_adjective",
+      "wordKey": "quivering_adjective",
       "level": "B2",
       "translations": {
         "ru": {
@@ -3565,13 +3622,13 @@
           "translation": "колчан"
         }
       },
-      "_spacyLemma": "quiver",
+      "_spacyLemma": "quivering",
       "example": "After a moment, a shape seemed to be gathering in the quivering air over the flames.",
       "exampleStart": 809,
       "exampleEnd": 893,
       "matchedForm": "quivering",
       "ipa": "ˈkwɪvərɪŋ",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -3653,7 +3710,9 @@
         "endInExample": 181
       },
       "ipa": "ˌraɪt ˈhænd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "rings",
@@ -3811,7 +3870,9 @@
         "endInExample": 36
       },
       "ipa": "ˌseɪm ˈtaɪm",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "said",
@@ -3891,7 +3952,9 @@
         "endInExample": 57
       },
       "ipa": "ˌsiː ˈsɜːpənt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "saw",
@@ -3945,7 +4008,10 @@
         "endInExample": 22
       },
       "ipa": "ˌsend əˈweɪ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "send",
@@ -4025,7 +4091,10 @@
         "endInExample": 12
       },
       "ipa": "ˌset ˈɒf",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "set",
@@ -4277,32 +4346,6 @@
       "ipa": "sɪk",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.465714,
-      "difficultySource": "zipf"
-    },
-    {
-      "word": "sicker",
-      "lemma": "sicker",
-      "lemmaId": "sicker",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "sicker_noun",
-      "level": "A2",
-      "translations": {
-        "ru": {
-          "translation": "более больной"
-        },
-        "uk": {
-          "translation": "Ще більше хворих"
-        }
-      },
-      "_spacyLemma": "sicker",
-      "example": "They burned with a whistling sound — brighter, sicker, yellower.",
-      "exampleStart": 685,
-      "exampleEnd": 749,
-      "matchedForm": "sicker",
-      "ipa": "ˈsɪkə",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 1,
       "difficultySource": "zipf"
     },
     {
@@ -4889,7 +4932,9 @@
         "endInExample": 26
       },
       "ipa": "ˌθriː ˌʌðə ˈsʌmθɪŋz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "time",
@@ -4969,7 +5014,9 @@
         "endInExample": 44
       },
       "ipa": "ˌtaɪni ˈpɪntʃ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "toiling",
@@ -5049,7 +5096,10 @@
         "endInExample": 46
       },
       "ipa": "ˈtɜːnd tuː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "turned",
@@ -5415,12 +5465,12 @@
     },
     {
       "word": "whistling",
-      "lemma": "whistle",
-      "lemmaId": "whistle",
+      "lemma": "whistling",
+      "lemmaId": "whistling",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "whistle_adjective",
-      "level": "B1",
+      "wordKey": "whistling_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "свистящий"
@@ -5429,13 +5479,12 @@
           "translation": "свист"
         }
       },
-      "_spacyLemma": "whistle",
+      "_spacyLemma": "whistling",
       "example": "They burned with a whistling sound — brighter, sicker, yellower.",
       "exampleStart": 685,
       "exampleEnd": 749,
       "matchedForm": "whistling",
-      "ipa": "ˈwɪsəlɪŋ",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.751429,
       "difficultySource": "zipf"
     },
@@ -5699,12 +5748,12 @@
     },
     {
       "word": "yellower",
-      "lemma": "yellower",
-      "lemmaId": "yellower",
-      "pos": "noun",
+      "lemma": "yellow",
+      "lemmaId": "yellow",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "yellower_noun",
-      "level": "B1",
+      "wordKey": "yellow_adjective",
+      "level": "A1",
       "translations": {
         "ru": {
           "translation": "более жёлтый"
@@ -5713,14 +5762,14 @@
           "translation": "Ще більше жовтого"
         }
       },
-      "_spacyLemma": "yellower",
+      "_spacyLemma": "yellow",
       "example": "They burned with a whistling sound — brighter, sicker, yellower.",
       "exampleStart": 685,
       "exampleEnd": 749,
       "matchedForm": "yellower",
-      "ipa": "ˈjeləʊə",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 1,
+      "ipa": "ˈjeləʊ",
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.52,
       "difficultySource": "zipf"
     }
   ],

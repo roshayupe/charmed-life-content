@@ -21,13 +21,13 @@
       "wordCount": 624,
       "uniqueWordCount": 339,
       "paragraphCount": 12,
-      "vocabularyCount": 222,
+      "vocabularyCount": 221,
       "levelDistribution": {
         "A1": 33,
-        "A2": 49,
-        "B1": 78,
+        "A2": 48,
+        "B1": 77,
         "B2": 46,
-        "C1": 12,
+        "C1": 13,
         "C2": 4
       }
     }
@@ -143,25 +143,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.451429,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "add",
-      "lemma": "add",
-      "lemmaId": "add",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "add_noun",
-      "level": "B1",
-      "translations": {},
-      "_spacyLemma": "add",
-      "example": "We catalog what we find, and if it meets our Quantifiably Strict and High-Quality Standards of Dimensional Excellence™,1 we activate a dimensional beacon and add it to our roster of dimensions for sale.",
-      "exampleStart": 524,
-      "exampleEnd": 726,
-      "matchedForm": "add",
-      "levelSource": "cefr_frequency",
-      "difficultyScore": 0.405714,
-      "difficultySource": "zipf",
-      "ipa": "æd"
     },
     {
       "word": "add",
@@ -371,7 +352,7 @@
       "exampleEnd": 3745,
       "matchedForm": "backup",
       "ipa": "ˈbækʌp",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.657143,
       "difficultySource": "zipf"
     },
@@ -1537,17 +1518,17 @@
       "word": "generally",
       "lemma": "generally",
       "lemmaId": "generally",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "generally_adjective",
-      "level": "A2",
+      "wordKey": "generally_adverb",
+      "level": "B1",
       "translations": {},
       "_spacyLemma": "generally",
       "example": "We pick a group of generally similar dimensions, then randomly open a portal to one of them.",
       "exampleStart": 431,
       "exampleEnd": 523,
       "matchedForm": "generally",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.445714,
       "difficultySource": "zipf",
       "ipa": "ˈdʒenərəli"
@@ -1785,23 +1766,32 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "horn",
-      "lemma": "horn",
-      "lemmaId": "horn",
-      "pos": "verb",
-      "source": "word",
-      "wordKey": "horn_verb",
-      "level": "B1",
-      "translations": {},
-      "_spacyLemma": "horn",
+      "word": "horn in on",
+      "lemma": "horn in on",
+      "lemmaId": "horn_in_on",
+      "pos": "prepositional_verb",
+      "source": "manual_mwe",
+      "wordKey": "horn_in_on_prepositional_verb",
+      "level": "C1",
+      "translations": {
+        "ru": {
+          "translation": "вмешиваться; влезать в чужое дело"
+        },
+        "uk": {
+          "translation": "втручатися; влазити в чужу справу"
+        }
+      },
       "example": ")\n\nStill worried that other dimensional travelers will horn in on your fun?",
       "exampleStart": 1047,
       "exampleEnd": 1122,
-      "matchedForm": "horn",
-      "levelSource": "cefr_frequency",
-      "difficultyScore": 0.677143,
-      "difficultySource": "zipf",
-      "ipa": "hɔːn"
+      "levelSource": "cefr_context_review",
+      "ipa": "hɔːn ɪn ɒn",
+      "type": "prepositional_verb",
+      "phraseMatch": {
+        "text": "horn in on",
+        "startInExample": 55,
+        "endInExample": 65
+      }
     },
     {
       "word": "Imagine",
@@ -2561,10 +2551,10 @@
       "word": "literally",
       "lemma": "literally",
       "lemmaId": "literally",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "literally_adjective",
-      "level": "C1",
+      "wordKey": "literally_adverb",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "буквально"
@@ -2576,7 +2566,7 @@
       "exampleEnd": 1305,
       "matchedForm": "literally",
       "ipa": "ˈlɪtərəli",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.457143,
       "difficultySource": "zipf"
     },
@@ -3195,22 +3185,21 @@
     },
     {
       "word": "pending",
-      "lemma": "pende",
-      "lemmaId": "pende",
+      "lemma": "pending",
+      "lemmaId": "pending",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "pende_adjective",
-      "level": "B1",
+      "wordKey": "pending_adjective",
+      "level": "C1",
       "translations": {},
-      "_spacyLemma": "pende",
+      "_spacyLemma": "pending",
       "example": "2 In most nations, legal codes prevent us from giving dimensional keys to anyone who is wanted for a crime or who has an injunction against them preventing interdimensional travel pending investigation or possible trial.",
       "exampleStart": 2749,
       "exampleEnd": 2969,
       "matchedForm": "pending",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "ˈpendɪŋ"
+      "difficultySource": "zipf"
     },
     {
       "word": "people",
@@ -4332,9 +4321,9 @@
       "word": "Specifically",
       "lemma": "specifically",
       "lemmaId": "specifically",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "specifically_adjective",
+      "wordKey": "specifically_adverb",
       "level": "B1",
       "translations": {},
       "_spacyLemma": "specifically",
@@ -4342,7 +4331,7 @@
       "exampleStart": 201,
       "exampleEnd": 225,
       "matchedForm": "Specifically",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.531429,
       "difficultySource": "zipf",
       "ipa": "spəˈsɪfɪkli"
@@ -4859,9 +4848,9 @@
       "word": "woolly",
       "lemma": "woolly",
       "lemmaId": "woolly",
-      "pos": "adverb",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "woolly_adverb",
+      "wordKey": "woolly_adjective",
       "level": "B1",
       "translations": {},
       "_spacyLemma": "woolly",
@@ -4869,7 +4858,7 @@
       "exampleStart": 3109,
       "exampleEnd": 3211,
       "matchedForm": "woolly",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.988571,
       "difficultySource": "zipf",
       "ipa": "ˈwʊli"

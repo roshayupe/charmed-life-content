@@ -21,13 +21,13 @@
       "wordCount": 1023,
       "uniqueWordCount": 540,
       "paragraphCount": 54,
-      "vocabularyCount": 333,
+      "vocabularyCount": 330,
       "levelDistribution": {
-        "A1": 93,
+        "A1": 92,
         "A2": 71,
         "B1": 73,
-        "B2": 76,
-        "C1": 17,
+        "B2": 75,
+        "C1": 16,
         "C2": 3
       }
     }
@@ -101,25 +101,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.291429,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "aers",
-      "lemma": "aer",
-      "lemmaId": "aer",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "aer_noun",
-      "level": "A1",
-      "translations": {},
-      "_spacyLemma": "aer",
-      "example": "“I meant Ealstan, you aers!",
-      "exampleStart": 148,
-      "exampleEnd": 175,
-      "matchedForm": "aers",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "eəz"
     },
     {
       "word": "afraid",
@@ -1059,29 +1040,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "course",
-      "lemma": "course",
-      "lemmaId": "course",
-      "pos": "adverb",
-      "source": "word",
-      "wordKey": "course_adverb",
-      "level": "A2",
-      "translations": {
-        "ru": {
-          "translation": "конечно"
-        }
-      },
-      "_spacyLemma": "course",
-      "example": "“Of course.",
-      "exampleStart": 211,
-      "exampleEnd": 222,
-      "matchedForm": "course",
-      "ipa": "kɔːs",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.305714,
-      "difficultySource": "zipf"
-    },
-    {
       "word": "coward",
       "lemma": "coward",
       "lemmaId": "coward",
@@ -1108,17 +1066,17 @@
       "word": "dangerously",
       "lemma": "dangerously",
       "lemmaId": "dangerously",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "dangerously_adjective",
-      "level": "C1",
+      "wordKey": "dangerously_adverb",
+      "level": "B1",
       "translations": {},
       "_spacyLemma": "dangerously",
       "example": "With my nanites at dangerously low levels, they wouldn’t be able to activate the antisuicide protocols or keep me alive once the water filled my lungs.",
       "exampleStart": 1632,
       "exampleEnd": 1783,
       "matchedForm": "dangerously",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.868571,
       "difficultySource": "zipf",
       "ipa": "ˈdeɪndʒərəsli"
@@ -2915,12 +2873,12 @@
     },
     {
       "word": "hates",
-      "lemma": "hat",
-      "lemmaId": "hat",
+      "lemma": "hate",
+      "lemmaId": "hate",
       "pos": "verb",
       "source": "word",
-      "wordKey": "hat_verb",
-      "level": "B2",
+      "wordKey": "hate_verb",
+      "level": "A2",
       "translations": {
         "de": {
           "translation": "hassend"
@@ -2935,14 +2893,14 @@
           "translation": "ненавидя"
         }
       },
-      "_spacyLemma": "hat",
+      "_spacyLemma": "hate",
       "example": "My brother hates being reminded that—despite being a god—he’ll someday die.",
       "exampleStart": 3741,
       "exampleEnd": 3816,
       "matchedForm": "hates",
-      "ipa": "heɪts",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.565714,
+      "ipa": "heɪt",
+      "levelSource": "cefr_reference",
+      "difficultyScore": 0.4,
       "difficultySource": "zipf"
     },
     {
@@ -6656,9 +6614,9 @@
       "word": "surprisingly",
       "lemma": "surprisingly",
       "lemmaId": "surprisingly",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "surprisingly_adjective",
+      "wordKey": "surprisingly_adverb",
       "level": "B1",
       "translations": {
         "ru": {
@@ -6671,7 +6629,7 @@
       "exampleEnd": 4413,
       "matchedForm": "surprisingly",
       "ipa": "səˈpraɪzɪŋli",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.691429,
       "difficultySource": "zipf"
     },
@@ -7164,22 +7122,22 @@
     },
     {
       "word": "unravels",
-      "lemma": "unravels",
-      "lemmaId": "unravels",
-      "pos": "noun",
+      "lemma": "unravel",
+      "lemmaId": "unravel",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "unravels_noun",
-      "level": "B1",
+      "wordKey": "unravel_verb",
+      "level": "B2",
       "translations": {},
-      "_spacyLemma": "unravels",
+      "_spacyLemma": "unravel",
       "example": "“My existence unravels Sefawynn’s magic.",
       "exampleStart": 2034,
       "exampleEnd": 2074,
       "matchedForm": "unravels",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 1,
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.948571,
       "difficultySource": "zipf",
-      "ipa": "ʌnˈrævəlz"
+      "ipa": "ʌnˈrævəl"
     },
     {
       "word": "use",
@@ -7279,27 +7237,6 @@
       },
       "levelSource": "phrase_index",
       "ipa": "ˌwɔːk ˈaʊt"
-    },
-    {
-      "word": "walked up",
-      "lemma": "walk up",
-      "lemmaId": "walk_up",
-      "pos": "prepositional_verb",
-      "type": "prepositional_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "walk_up_prepositional_verb",
-      "level": "B2",
-      "translations": {},
-      "example": "”\n\nShe grinned, kissed me, then walked up the steps to the city.",
-      "exampleStart": 585,
-      "exampleEnd": 649,
-      "phraseMatch": {
-        "text": "walked up",
-        "startInExample": 32,
-        "endInExample": 41
-      },
-      "levelSource": "phrase_index",
-      "ipa": "ˌwɔːkt ˈʌp"
     },
     {
       "word": "walked",

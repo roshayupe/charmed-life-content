@@ -21,14 +21,14 @@
       "wordCount": 766,
       "uniqueWordCount": 419,
       "paragraphCount": 18,
-      "vocabularyCount": 272,
+      "vocabularyCount": 270,
       "levelDistribution": {
         "A1": 78,
-        "A2": 63,
-        "B1": 57,
-        "B2": 57,
+        "A2": 60,
+        "B1": 58,
+        "B2": 56,
         "C1": 14,
-        "C2": 3
+        "C2": 4
       }
     }
   },
@@ -2407,10 +2407,10 @@
       "word": "gunk",
       "lemma": "gunk",
       "lemmaId": "gunk",
-      "pos": "verb",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "gunk_verb",
-      "level": "A2",
+      "wordKey": "gunk_noun",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "грязь"
@@ -2421,7 +2421,7 @@
       "exampleStart": 1910,
       "exampleEnd": 2016,
       "matchedForm": "gunk",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf",
       "ipa": "ɡʌŋk"
@@ -3683,9 +3683,9 @@
       "word": "Merely",
       "lemma": "merely",
       "lemmaId": "merely",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "merely_adjective",
+      "wordKey": "merely_adverb",
       "level": "B1",
       "translations": {
         "ru": {
@@ -3697,7 +3697,7 @@
       "exampleStart": 4241,
       "exampleEnd": 4261,
       "matchedForm": "Merely",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.611429,
       "difficultySource": "zipf",
       "ipa": "ˈmiəli"
@@ -3752,25 +3752,25 @@
     },
     {
       "word": "nearer",
-      "lemma": "nearer",
-      "lemmaId": "nearer",
-      "pos": "noun",
+      "lemma": "near",
+      "lemmaId": "near",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "nearer_noun",
-      "level": "A2",
+      "wordKey": "near_adverb",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "ближе"
         }
       },
-      "_spacyLemma": "nearer",
+      "_spacyLemma": "near",
       "example": "The deck creaked as the captain stepped nearer.",
       "exampleStart": 3174,
       "exampleEnd": 3221,
       "matchedForm": "nearer",
-      "ipa": "ˈniərə",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.894286,
+      "ipa": "ˈniə",
+      "levelSource": "cefr_reference",
+      "difficultyScore": 0.348571,
       "difficultySource": "zipf"
     },
     {
@@ -3894,9 +3894,9 @@
       "word": "occasionally",
       "lemma": "occasionally",
       "lemmaId": "occasionally",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "occasionally_adjective",
+      "wordKey": "occasionally_adverb",
       "level": "B1",
       "translations": {
         "ru": {
@@ -3908,7 +3908,7 @@
       "exampleStart": 1535,
       "exampleEnd": 1612,
       "matchedForm": "occasionally",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.605714,
       "difficultySource": "zipf",
       "ipa": "əˈkeɪʒənəli"
@@ -4577,10 +4577,10 @@
       "word": "randomly",
       "lemma": "randomly",
       "lemmaId": "randomly",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "randomly_adjective",
-      "level": "B2",
+      "wordKey": "randomly_adverb",
+      "level": "C2",
       "translations": {
         "ru": {
           "translation": "случайным образом"
@@ -4591,7 +4591,7 @@
       "exampleStart": 1392,
       "exampleEnd": 1465,
       "matchedForm": "randomly",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.725714,
       "difficultySource": "zipf",
       "ipa": "ˈrændəmli"
@@ -5637,9 +5637,9 @@
       "word": "stringy",
       "lemma": "stringy",
       "lemmaId": "stringy",
-      "pos": "verb",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "stringy_verb",
+      "wordKey": "stringy_adjective",
       "level": "B2",
       "translations": {
         "ru": {
@@ -5651,7 +5651,7 @@
       "exampleStart": 1835,
       "exampleEnd": 1909,
       "matchedForm": "stringy",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf",
       "ipa": "ˈstrɪŋi"
@@ -5987,31 +5987,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "tossing up",
-      "lemma": "toss up",
-      "lemmaId": "toss_up",
-      "pos": "phrasal_verb",
-      "type": "phrasal_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "toss_up_phrasal_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "Подбрасывание"
-        }
-      },
-      "example": "A wave broke high against the side of the ship, tossing up a burst of spores.",
-      "exampleStart": 1614,
-      "exampleEnd": 1691,
-      "phraseMatch": {
-        "text": "tossing up",
-        "startInExample": 48,
-        "endInExample": 58
-      },
-      "levelSource": "dictionary_phrase",
-      "ipa": "ˌtɒsɪŋ ˈʌp"
-    },
-    {
       "word": "tossing",
       "lemma": "toss",
       "lemmaId": "toss",
@@ -6033,29 +6008,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.742857,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "Tress",
-      "lemma": "tress",
-      "lemmaId": "tress",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "tress_noun",
-      "level": "A2",
-      "translations": {
-        "ru": {
-          "translation": "Тресс"
-        }
-      },
-      "_spacyLemma": "tress",
-      "example": "The only things Tress had brought with her were a small bundle of clothing and a bag of cups.",
-      "exampleStart": 0,
-      "exampleEnd": 93,
-      "matchedForm": "Tress",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "tres"
     },
     {
       "word": "trim",

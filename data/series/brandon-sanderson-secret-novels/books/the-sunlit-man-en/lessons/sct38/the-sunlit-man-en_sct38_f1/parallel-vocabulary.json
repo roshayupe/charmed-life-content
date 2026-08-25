@@ -42202,12 +42202,12 @@
       "contextTranslation": "закрыл"
     },
     {
-      "id": "pv-the-sunlit-man-en_sct38_f1-soak_adjective-ch38_p0007_src_s001-62-69-117",
-      "wordKey": "soak_adjective",
+      "id": "pv-the-sunlit-man-en_sct38_f1-soaking_adjective-ch38_p0007_src_s001-62-69-117",
+      "wordKey": "soaking_adjective",
       "word": "soaking",
-      "lemma": "soak",
+      "lemma": "soaking",
       "pos": "adjective",
-      "level": "B2",
+      "level": "B1",
       "sourceText": "soaking",
       "targetText": "мокрый",
       "dictionaryTranslation": "мокрый",
@@ -42226,14 +42226,17 @@
       "alignmentMethod": "exact",
       "alignmentConfidence": "high",
       "alignmentWarningCode": null,
-      "status": "ok"
+      "status": "ok",
+      "ipa": "ˈsəʊkɪŋ",
+      "difficultyScore": 0.88,
+      "difficultySource": "zipf"
     },
     {
-      "id": "pv-the-sunlit-man-en_sct38_f1-wet_noun-ch38_p0007_src_s001-70-73-141",
-      "wordKey": "wet_noun",
+      "id": "pv-the-sunlit-man-en_sct38_f1-wet_adjective-ch38_p0007_src_s001-70-73-141",
+      "wordKey": "wet_adjective",
       "word": "wet",
       "lemma": "wet",
-      "pos": "noun",
+      "pos": "adjective",
       "level": "A2",
       "sourceText": "wet",
       "targetText": "сырость; влага",
@@ -42250,7 +42253,10 @@
       "alignmentWarningCode": "missing",
       "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
       "status": "missing_target",
-      "reason": "target span unavailable"
+      "reason": "target span unavailable",
+      "ipa": "wet",
+      "difficultyScore": 0.562857,
+      "difficultySource": "zipf"
     },
     {
       "id": "pv-the-sunlit-man-en_sct38_f1-feel_verb-ch38_p0007_src_s002-4-8-41",
@@ -42279,31 +42285,6 @@
         "end": 11
       },
       "contextTranslation": "казалось"
-    },
-    {
-      "id": "pv-the-sunlit-man-en_sct38_f1-cinderheart_noun-ch38_p0007_src_s002-32-43-19",
-      "wordKey": "cinderheart_noun",
-      "word": "cinderheart",
-      "lemma": "cinderheart",
-      "pos": "noun",
-      "level": "C1",
-      "sourceText": "cinderheart",
-      "sourceSentenceId": "ch38_p0007_src_s002",
-      "targetSentenceId": "ch38_p0007_tgt_s002",
-      "sourceSpan": {
-        "start": 32,
-        "end": 43
-      },
-      "alignmentMethod": "simalign",
-      "alignmentConfidence": "high",
-      "alignmentWarningCode": null,
-      "status": "ok",
-      "targetSpan": {
-        "start": 38,
-        "end": 48
-      },
-      "contextTranslation": "углесердце",
-      "targetText": "углесердце"
     },
     {
       "id": "pv-the-sunlit-man-en_sct38_f1-glow_verb-ch38_p0007_src_s002-44-51-48",
@@ -42416,31 +42397,6 @@
         "end": 16
       },
       "contextTranslation": "сражаться"
-    },
-    {
-      "id": "pv-the-sunlit-man-en_sct38_f1-cinderheart_noun-ch38_p0007_src_s004-38-49-19",
-      "wordKey": "cinderheart_noun",
-      "word": "cinderheart",
-      "lemma": "cinderheart",
-      "pos": "noun",
-      "level": "C1",
-      "sourceText": "cinderheart",
-      "sourceSentenceId": "ch38_p0007_src_s004",
-      "targetSentenceId": "ch38_p0007_tgt_s004",
-      "sourceSpan": {
-        "start": 38,
-        "end": 49
-      },
-      "alignmentMethod": "simalign",
-      "alignmentConfidence": "high",
-      "alignmentWarningCode": null,
-      "status": "ok",
-      "targetSpan": {
-        "start": 34,
-        "end": 44
-      },
-      "contextTranslation": "углесердца",
-      "targetText": "углесердца"
     },
     {
       "id": "pv-the-sunlit-man-en_sct38_f1-far_adverb-ch38_p0008_src_s002-4-7-40",
@@ -46964,16 +46920,19 @@
         },
         {
           "lessonId": "the-sunlit-man-en_sct38_f1",
-          "wordKey": "wet_noun",
+          "wordKey": "wet_adjective",
           "word": "wet",
           "lemma": "wet",
-          "pos": "noun",
+          "pos": "adjective",
           "type": "noun",
           "rowTranslation": "сырость; влага",
           "sourceText": "wet",
           "sourceSentenceText": "The killer stepped through the door and closed it behind him, soaking wet, bare-chested.",
           "translatedParagraphText": "Убийца вошёл через дверь и закрыл её за собой — мокрый насквозь, с обнажённой грудью. Ей казалось, что там должно светиться углесердце. Было неправильно, что его не видно. Нельзя сражаться так, как он, без углесердца.",
-          "reason": "target_span_missing"
+          "reason": "target_span_missing",
+          "ipa": "wet",
+          "difficultyScore": 0.562857,
+          "difficultySource": "zipf"
         },
         {
           "lessonId": "the-sunlit-man-en_sct38_f1",

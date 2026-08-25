@@ -21,13 +21,13 @@
       "wordCount": 461,
       "uniqueWordCount": 258,
       "paragraphCount": 10,
-      "vocabularyCount": 168,
+      "vocabularyCount": 164,
       "levelDistribution": {
-        "A1": 39,
+        "A1": 38,
         "A2": 37,
-        "B1": 46,
-        "B2": 36,
-        "C1": 9,
+        "B1": 43,
+        "B2": 34,
+        "C1": 11,
         "C2": 1
       }
     }
@@ -60,10 +60,10 @@
       "word": "ajar",
       "lemma": "ajar",
       "lemmaId": "ajar",
-      "pos": "noun",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "ajar_noun",
-      "level": "A1",
+      "wordKey": "ajar_adjective",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "приоткрытой"
@@ -74,7 +74,7 @@
       "exampleStart": 648,
       "exampleEnd": 760,
       "matchedForm": "ajar",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf",
       "ipa": "əˈdʒɑː"
@@ -244,10 +244,10 @@
       "word": "Bereft",
       "lemma": "bereft",
       "lemmaId": "bereft",
-      "pos": "adverb",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "bereft_adverb",
-      "level": "B1",
+      "wordKey": "bereft_adjective",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "Лишённые"
@@ -258,7 +258,7 @@
       "exampleStart": 308,
       "exampleEnd": 348,
       "matchedForm": "Bereft",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf",
       "ipa": "bɪˈreft"
@@ -356,31 +356,6 @@
       },
       "levelSource": "dictionary_phrase",
       "ipa": "ˌbɜːnd əˈweɪ"
-    },
-    {
-      "word": "burned out",
-      "lemma": "burn out",
-      "lemmaId": "burn_out",
-      "pos": "prepositional_verb",
-      "type": "prepositional_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "burn_out_prepositional_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "Выгорание"
-        }
-      },
-      "example": "Remembering those lights, being towed down this hallway, knowing everything she’d been—everyone she’d loved, everything she’d accomplished—would soon be burned out of her.",
-      "exampleStart": 1356,
-      "exampleEnd": 1527,
-      "phraseMatch": {
-        "text": "burned out",
-        "startInExample": 153,
-        "endInExample": 163
-      },
-      "levelSource": "dictionary_phrase",
-      "ipa": "ˌbɜːnd ˈaʊt"
     },
     {
       "word": "burned",
@@ -555,29 +530,6 @@
       "ipa": "tʃɑːdʒd"
     },
     {
-      "word": "Charred",
-      "lemma": "charred",
-      "lemmaId": "charred",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "charred_noun",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "обугленных"
-        }
-      },
-      "_spacyLemma": "charred",
-      "example": "Not just when she’d been led from this place as a newborn Charred.",
-      "exampleStart": 470,
-      "exampleEnd": 536,
-      "matchedForm": "Charred",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 0.982857,
-      "difficultySource": "zipf",
-      "ipa": "tʃɑːd"
-    },
-    {
       "word": "choice",
       "lemma": "choice",
       "lemmaId": "choice",
@@ -627,9 +579,9 @@
       "word": "coming",
       "lemma": "come",
       "lemmaId": "come",
-      "pos": "adjective",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "come_adjective",
+      "wordKey": "come_verb",
       "level": "A1",
       "translations": {
         "ru": {
@@ -641,8 +593,8 @@
       "exampleStart": 1528,
       "exampleEnd": 1580,
       "matchedForm": "coming",
-      "ipa": "ˈkʌmɪŋ",
-      "levelSource": "vocabulary_index",
+      "ipa": "kʌm",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.208571,
       "difficultySource": "zipf"
     },
@@ -2485,27 +2437,6 @@
       "ipa": "ˌɒfwɜːldə ˈmɒnstə"
     },
     {
-      "word": "offworlder",
-      "lemma": "offworlder",
-      "lemmaId": "offworlder",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "offworlder_noun",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "Внеземные существа"
-        }
-      },
-      "_spacyLemma": "offworlder",
-      "example": "Knowing some offworlder monster in a suit of strange armor was assaulting their city—and Charred were going wild—yet being ordered to go execute a captive?",
-      "exampleStart": 780,
-      "exampleEnd": 935,
-      "matchedForm": "offworlder",
-      "ipa": "ˈɒfwɜːldə",
-      "levelSource": "vocabulary_index"
-    },
-    {
       "word": "Old",
       "lemma": "old",
       "lemmaId": "old",
@@ -3550,27 +3481,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.44,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "sunhearts",
-      "lemma": "sunheart",
-      "lemmaId": "sunheart",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "sunheart_noun",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "Санхарт"
-        }
-      },
-      "_spacyLemma": "sunheart",
-      "example": "Hundreds of sunhearts set into slots on the walls.",
-      "exampleStart": 1025,
-      "exampleEnd": 1075,
-      "matchedForm": "sunhearts",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "ˈsʌnhɑːts"
     },
     {
       "word": "supposedly",

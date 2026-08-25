@@ -21,13 +21,13 @@
       "wordCount": 585,
       "uniqueWordCount": 363,
       "paragraphCount": 26,
-      "vocabularyCount": 226,
+      "vocabularyCount": 223,
       "levelDistribution": {
-        "A1": 54,
-        "A2": 60,
+        "A1": 52,
+        "A2": 61,
         "B1": 50,
-        "B2": 53,
-        "C1": 8,
+        "B2": 52,
+        "C1": 7,
         "C2": 1
       }
     }
@@ -642,10 +642,10 @@
       "word": "burning",
       "lemma": "burn",
       "lemmaId": "burn",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "burn_adjective",
-      "level": "A1",
+      "wordKey": "burn_noun",
+      "level": "A2",
       "translations": {
         "ru": {
           "translation": "обожжённый; горящий"
@@ -656,8 +656,8 @@
       "exampleStart": 1835,
       "exampleEnd": 1909,
       "matchedForm": "burning",
-      "ipa": "ˈbɜːnɪŋ",
-      "levelSource": "vocabulary_index",
+      "ipa": "bɜːn",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.565714,
       "difficultySource": "zipf"
     },
@@ -1125,17 +1125,17 @@
       "word": "Detective",
       "lemma": "detective",
       "lemmaId": "detective",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "detective_adjective",
-      "level": "C1",
+      "wordKey": "detective_noun",
+      "level": "B1",
       "translations": {},
       "_spacyLemma": "detective",
       "example": "Detective work.",
       "exampleStart": 3108,
       "exampleEnd": 3123,
       "matchedForm": "Detective",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.657143,
       "difficultySource": "zipf",
       "ipa": "dɪˈtektɪv"
@@ -1263,29 +1263,6 @@
       "difficultyScore": 0.848571,
       "difficultySource": "zipf",
       "ipa": "ˈdaʊnsaɪd"
-    },
-    {
-      "word": "drown",
-      "lemma": "drown",
-      "lemmaId": "drown",
-      "pos": "adjective",
-      "source": "word",
-      "wordKey": "drown_adjective",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "тонуть"
-        }
-      },
-      "_spacyLemma": "drown",
-      "example": "I managed not to drown, though it was touch and go until Ealstan pulled me out.",
-      "exampleStart": 0,
-      "exampleEnd": 79,
-      "matchedForm": "drown",
-      "ipa": "draʊn",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.808571,
-      "difficultySource": "zipf"
     },
     {
       "word": "drowning",
@@ -2275,10 +2252,10 @@
       "word": "impossibly",
       "lemma": "impossibly",
       "lemmaId": "impossibly",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "impossibly_adjective",
-      "level": "C1",
+      "wordKey": "impossibly_adverb",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "невозможно"
@@ -2290,7 +2267,7 @@
       "exampleEnd": 1909,
       "matchedForm": "impossibly",
       "ipa": "ɪmˈpɒsɪbli",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -3493,25 +3470,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.52,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "otherlands",
-      "lemma": "otherland",
-      "lemmaId": "otherland",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "otherland_noun",
-      "level": "B2",
-      "translations": {},
-      "_spacyLemma": "otherland",
-      "example": "“You’re from the otherlands, I assume,” Sefawynn said.",
-      "exampleStart": 1527,
-      "exampleEnd": 1581,
-      "matchedForm": "otherlands",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "ˈʌðɜːləndz"
     },
     {
       "word": "oxygen",
@@ -4820,22 +4778,21 @@
     },
     {
       "word": "Thermodynamics",
-      "lemma": "thermodynamic",
-      "lemmaId": "thermodynamic",
+      "lemma": "thermodynamics",
+      "lemmaId": "thermodynamics",
       "pos": "noun",
       "source": "word",
-      "wordKey": "thermodynamic_noun",
-      "level": "B2",
+      "wordKey": "thermodynamics_noun",
+      "level": "C1",
       "translations": {},
-      "_spacyLemma": "thermodynamic",
+      "_spacyLemma": "thermodynamics",
       "example": "Thermodynamics were still thermodynamics.",
       "exampleStart": 2062,
       "exampleEnd": 2103,
       "matchedForm": "Thermodynamics",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "ˌθɜːməʊdaɪˈnæmɪks"
+      "difficultySource": "zipf"
     },
     {
       "word": "thing",
@@ -4928,25 +4885,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.062857,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "touch",
-      "lemma": "touch",
-      "lemmaId": "touch",
-      "pos": "adjective",
-      "source": "word",
-      "wordKey": "touch_adjective",
-      "level": "A1",
-      "translations": {},
-      "_spacyLemma": "touch",
-      "example": "I managed not to drown, though it was touch and go until Ealstan pulled me out.",
-      "exampleStart": 0,
-      "exampleEnd": 79,
-      "matchedForm": "touch",
-      "levelSource": "cefr_frequency",
-      "difficultyScore": 0.457143,
-      "difficultySource": "zipf",
-      "ipa": "tʌtʃ"
     },
     {
       "word": "Traders",

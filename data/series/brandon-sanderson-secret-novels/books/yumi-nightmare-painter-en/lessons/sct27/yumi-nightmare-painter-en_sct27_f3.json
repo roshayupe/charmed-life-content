@@ -21,14 +21,13 @@
       "wordCount": 589,
       "uniqueWordCount": 341,
       "paragraphCount": 16,
-      "vocabularyCount": 213,
+      "vocabularyCount": 211,
       "levelDistribution": {
         "A1": 53,
         "A2": 48,
-        "B1": 51,
-        "B2": 49,
-        "C1": 11,
-        "C2": 1
+        "B1": 50,
+        "B2": 48,
+        "C1": 12
       }
     }
   },
@@ -606,9 +605,9 @@
       "word": "city",
       "lemma": "city",
       "lemmaId": "city",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "city_adjective",
+      "wordKey": "city_noun",
       "level": "A1",
       "translations": {
         "ru": {
@@ -620,7 +619,7 @@
       "exampleStart": 1798,
       "exampleEnd": 1888,
       "matchedForm": "city",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.257143,
       "difficultySource": "zipf",
       "ipa": "ˈsɪti"
@@ -746,10 +745,10 @@
       "word": "conveying",
       "lemma": "convey",
       "lemmaId": "convey",
-      "pos": "adjective",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "convey_adjective",
-      "level": "B1",
+      "wordKey": "convey_verb",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "Транспортировка"
@@ -760,10 +759,10 @@
       "exampleStart": 1258,
       "exampleEnd": 1441,
       "matchedForm": "conveying",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.765714,
       "difficultySource": "zipf",
-      "ipa": "kənˈveɪɪŋ"
+      "ipa": "kənˈveɪ"
     },
     {
       "word": "crushing",
@@ -929,31 +928,6 @@
       },
       "levelSource": "phrase_fallback",
       "ipa": "ˌdɪstənt ˈpiːpəl"
-    },
-    {
-      "word": "do in",
-      "lemma": "do in",
-      "lemmaId": "do_in",
-      "pos": "prepositional_verb",
-      "type": "prepositional_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "do_in_prepositional_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "Сделай"
-        }
-      },
-      "example": "Talking about what we’d do in the Dreamwatch—me as the central soldier, them as my companions.",
-      "exampleStart": 3130,
-      "exampleEnd": 3224,
-      "phraseMatch": {
-        "text": "do in",
-        "startInExample": 24,
-        "endInExample": 29
-      },
-      "ipa": "ˌduː ˈɪn",
-      "levelSource": "phrase_index"
     },
     {
       "word": "door",
@@ -1748,26 +1722,25 @@
     },
     {
       "word": "glittering",
-      "lemma": "glitter",
-      "lemmaId": "glitter",
+      "lemma": "glittering",
+      "lemmaId": "glittering",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "glitter_adjective",
+      "wordKey": "glittering_adjective",
       "level": "B2",
       "translations": {
         "ru": {
           "translation": "блестящий"
         }
       },
-      "_spacyLemma": "glitter",
+      "_spacyLemma": "glittering",
       "example": "People with glittering eyes, smiling from the page.",
       "exampleStart": 933,
       "exampleEnd": 984,
       "matchedForm": "glittering",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.842857,
-      "difficultySource": "zipf",
-      "ipa": "ˈɡlɪtərɪŋ"
+      "difficultySource": "zipf"
     },
     {
       "word": "gone",
@@ -1943,12 +1916,12 @@
     },
     {
       "word": "hated",
-      "lemma": "hat",
-      "lemmaId": "hat",
+      "lemma": "hate",
+      "lemmaId": "hate",
       "pos": "verb",
       "source": "word",
-      "wordKey": "hat_verb",
-      "level": "B2",
+      "wordKey": "hate_verb",
+      "level": "A2",
       "translations": {
         "de": {
           "translation": "hassend"
@@ -1963,14 +1936,14 @@
           "translation": "ненавидя"
         }
       },
-      "_spacyLemma": "hat",
+      "_spacyLemma": "hate",
       "example": "They hated that all I wanted was ink and a page…”\n\nHe shrugged.",
       "exampleStart": 2869,
       "exampleEnd": 2932,
       "matchedForm": "hated",
-      "ipa": "ˈheɪtɪd",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.565714,
+      "ipa": "heɪt",
+      "levelSource": "cefr_reference",
+      "difficultyScore": 0.4,
       "difficultySource": "zipf"
     },
     {
@@ -2251,10 +2224,10 @@
       "word": "intricately",
       "lemma": "intricately",
       "lemmaId": "intricately",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "intricately_adjective",
-      "level": "C2",
+      "wordKey": "intricately_adverb",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "сложно"
@@ -2265,7 +2238,7 @@
       "exampleStart": 1024,
       "exampleEnd": 1105,
       "matchedForm": "intricately",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf",
       "ipa": "ˈɪntrɪkətli"
@@ -2944,27 +2917,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.662857,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "Nikaro",
-      "lemma": "nikaro",
-      "lemmaId": "nikaro",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "nikaro_noun",
-      "level": "A2",
-      "translations": {
-        "ru": {
-          "translation": "Никаро"
-        }
-      },
-      "_spacyLemma": "nikaro",
-      "example": "Nikaro would eventually have wandered off and let someone get eaten by a nightmare because he found a neat wall to stare at.",
-      "exampleStart": 128,
-      "exampleEnd": 252,
-      "matchedForm": "Nikaro",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "nɪˈkærəʊ"
     },
     {
       "word": "open",

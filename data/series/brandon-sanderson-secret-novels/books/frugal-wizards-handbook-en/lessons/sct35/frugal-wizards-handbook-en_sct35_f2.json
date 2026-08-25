@@ -21,35 +21,17 @@
       "wordCount": 503,
       "uniqueWordCount": 307,
       "paragraphCount": 18,
-      "vocabularyCount": 176,
+      "vocabularyCount": 174,
       "levelDistribution": {
-        "A1": 47,
-        "A2": 40,
-        "B1": 46,
-        "B2": 29,
-        "C1": 14,
-        "C2": 0
+        "A1": 46,
+        "A2": 39,
+        "B1": 44,
+        "B2": 31,
+        "C1": 14
       }
     }
   },
   "vocabulary": [
-    {
-      "word": "aelv",
-      "lemma": "aelv",
-      "lemmaId": "aelv",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "aelv_noun",
-      "level": "A1",
-      "translations": {},
-      "_spacyLemma": "aelv",
-      "example": "Because—and forgive me—I do not believe that aelvs are real.",
-      "exampleStart": 1602,
-      "exampleEnd": 1662,
-      "matchedForm": "aelvs",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "eɪlv"
-    },
     {
       "word": "air",
       "lemma": "air",
@@ -234,17 +216,17 @@
       "word": "bout",
       "lemma": "bout",
       "lemmaId": "bout",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "bout_adjective",
-      "level": "A2",
+      "wordKey": "bout_noun",
+      "level": "B2",
       "translations": {},
       "_spacyLemma": "bout",
       "example": "Losing that title bout to Quinn.",
       "exampleStart": 0,
       "exampleEnd": 32,
       "matchedForm": "bout",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.702857,
       "difficultySource": "zipf",
       "ipa": "baʊt"
@@ -297,22 +279,21 @@
     },
     {
       "word": "bumbling",
-      "lemma": "bumble",
-      "lemmaId": "bumble",
+      "lemma": "bumbling",
+      "lemmaId": "bumbling",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "bumble_adjective",
-      "level": "B1",
+      "wordKey": "bumbling_adjective",
+      "level": "B2",
       "translations": {},
-      "_spacyLemma": "bumble",
+      "_spacyLemma": "bumbling",
       "example": "Becoming a bumbling door guard.",
       "exampleStart": 33,
       "exampleEnd": 64,
       "matchedForm": "bumbling",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "ˈbʌmblɪŋ"
+      "difficultySource": "zipf"
     },
     {
       "word": "common",
@@ -422,29 +403,6 @@
       "ipa": "kənˈvɪnst",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.642857,
-      "difficultySource": "zipf"
-    },
-    {
-      "word": "course",
-      "lemma": "course",
-      "lemmaId": "course",
-      "pos": "adverb",
-      "source": "word",
-      "wordKey": "course_adverb",
-      "level": "A2",
-      "translations": {
-        "ru": {
-          "translation": "конечно"
-        }
-      },
-      "_spacyLemma": "course",
-      "example": "“Of course.",
-      "exampleStart": 1885,
-      "exampleEnd": 1896,
-      "matchedForm": "course",
-      "ipa": "kɔːs",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.305714,
       "difficultySource": "zipf"
     },
     {
@@ -2565,25 +2523,25 @@
     },
     {
       "word": "nodding",
-      "lemma": "nodding",
-      "lemmaId": "nodding",
-      "pos": "noun",
+      "lemma": "nod",
+      "lemmaId": "nod",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "nodding_noun",
-      "level": "B1",
+      "wordKey": "nod_verb",
+      "level": "A2",
       "translations": {
         "ru": {
           "translation": "кивание"
         }
       },
-      "_spacyLemma": "nodding",
+      "_spacyLemma": "nod",
       "example": "”\n\nI stirred my apple stew, nodding.",
       "exampleStart": 1399,
       "exampleEnd": 1435,
       "matchedForm": "nodding",
-      "ipa": "ˈnɒdɪŋ",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.948571,
+      "ipa": "nɒd",
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.791429,
       "difficultySource": "zipf"
     },
     {

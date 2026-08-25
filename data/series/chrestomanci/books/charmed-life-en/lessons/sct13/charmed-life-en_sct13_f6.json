@@ -21,13 +21,13 @@
       "wordCount": 628,
       "uniqueWordCount": 347,
       "paragraphCount": 16,
-      "vocabularyCount": 161,
+      "vocabularyCount": 162,
       "levelDistribution": {
-        "A1": 49,
-        "A2": 36,
-        "B1": 28,
-        "B2": 34,
-        "C1": 13,
+        "A1": 48,
+        "A2": 33,
+        "B1": 33,
+        "B2": 36,
+        "C1": 11,
         "C2": 1
       }
     }
@@ -271,10 +271,10 @@
       "word": "blackberry",
       "lemma": "blackberry",
       "lemmaId": "blackberry",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "blackberry_adjective",
-      "level": "C1",
+      "wordKey": "blackberry_noun",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "ежевичный"
@@ -289,7 +289,7 @@
       "exampleEnd": 1699,
       "matchedForm": "blackberry",
       "ipa": "ˈblækbəri",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.817143,
       "difficultySource": "zipf"
     },
@@ -319,7 +319,9 @@
         "endInExample": 108
       },
       "ipa": "ˌblækbəri ˈtɑːt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "bookcase",
@@ -567,7 +569,10 @@
         "endInExample": 19
       },
       "ipa": "ˌkʌm ˈbæk",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "come in",
@@ -595,7 +600,10 @@
         "endInExample": 91
       },
       "ipa": "ˌkʌm ˈɪn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "come",
@@ -791,7 +799,9 @@
         "endInExample": 34
       },
       "ipa": "dɪˌsɒnɪst ˈpɜːsən",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "door",
@@ -846,39 +856,13 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "drat",
-      "lemma": "drat",
-      "lemmaId": "drat",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "drat_noun",
-      "level": "A1",
-      "translations": {
-        "ru": {
-          "translation": "чёрт; проклятие"
-        },
-        "uk": {
-          "translation": "Чорт; Прокляття"
-        }
-      },
-      "_spacyLemma": "drat",
-      "example": "“Oh — oh — oh drat!",
-      "exampleStart": 2354,
-      "exampleEnd": 2373,
-      "matchedForm": "drat",
-      "ipa": "dræt",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 1,
-      "difficultySource": "zipf"
-    },
-    {
       "word": "enchanting",
       "lemma": "enchant",
       "lemmaId": "enchant",
-      "pos": "adjective",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "enchant_adjective",
-      "level": "C1",
+      "wordKey": "enchant_verb",
+      "level": "B2",
       "translations": {
         "de": {
           "translation": "verzaubert"
@@ -898,8 +882,8 @@
       "exampleStart": 181,
       "exampleEnd": 244,
       "matchedForm": "enchanting",
-      "ipa": "enˈtʃæntɪŋ",
-      "levelSource": "vocabulary_index",
+      "ipa": "enˈtʃænt",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -1357,7 +1341,10 @@
         "endInExample": 82
       },
       "ipa": "ˌɡəʊ ˈbæk tuː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "go off",
@@ -1385,7 +1372,10 @@
         "endInExample": 106
       },
       "ipa": "ˌɡəʊ ˈɒf",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "going",
@@ -1465,7 +1455,9 @@
         "endInExample": 36
       },
       "ipa": "ˌɡʊd aɪˈdiə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "great",
@@ -1519,7 +1511,9 @@
         "endInExample": 32
       },
       "ipa": "ˌɡreɪt ˈfʌn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "guests",
@@ -1599,7 +1593,9 @@
         "endInExample": 29
       },
       "ipa": "ˌhænd ˈmɪrəz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "hand",
@@ -1847,7 +1843,9 @@
         "endInExample": 23
       },
       "ipa": "hɜː ˈhændz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her head",
@@ -1875,7 +1873,9 @@
         "endInExample": 77
       },
       "ipa": "hɜː ˈhed",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her room",
@@ -1903,16 +1903,18 @@
         "endInExample": 30
       },
       "ipa": "hɜː ˈruːm",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "highly",
       "lemma": "highly",
       "lemmaId": "highly",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "highly_adjective",
-      "level": "A2",
+      "wordKey": "highly_adverb",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "весьма; высоко"
@@ -1927,7 +1929,7 @@
       "exampleEnd": 2684,
       "matchedForm": "highly",
       "ipa": "ˈhaɪli",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.462857,
       "difficultySource": "zipf"
     },
@@ -1957,7 +1959,10 @@
         "endInExample": 18
       },
       "ipa": "ˌhʌrid əˈlɒŋ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "hurried",
@@ -2069,7 +2074,9 @@
         "endInExample": 109
       },
       "ipa": "aɪˌdiəl ˈweɪ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "instead",
@@ -2373,9 +2380,9 @@
       "word": "lovely",
       "lemma": "lovely",
       "lemmaId": "lovely",
-      "pos": "adverb",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "lovely_adverb",
+      "wordKey": "lovely_adjective",
       "level": "A2",
       "translations": {
         "ru": {
@@ -2391,7 +2398,7 @@
       "exampleEnd": 125,
       "matchedForm": "lovely",
       "ipa": "ˈlʌvli",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.505714,
       "difficultySource": "zipf"
     },
@@ -2647,7 +2654,9 @@
         "endInExample": 36
       },
       "ipa": "maɪ ˈlʌvz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "my world",
@@ -2675,7 +2684,9 @@
         "endInExample": 91
       },
       "ipa": "maɪ ˈwɜːld",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "nice",
@@ -2729,7 +2740,9 @@
         "endInExample": 26
       },
       "ipa": "ˌnaɪs ˈtiː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "other worlds",
@@ -2757,7 +2770,9 @@
         "endInExample": 54
       },
       "ipa": "ˌʌðə ˈwɜːldz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "outside",
@@ -2921,7 +2936,10 @@
         "endInExample": 16
       },
       "ipa": "ˈpleɪd wɪð",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "playroom",
@@ -3195,7 +3213,10 @@
         "endInExample": 44
       },
       "ipa": "ˌrʌnɪŋ əˈweɪ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "running",
@@ -3457,7 +3478,10 @@
         "endInExample": 78
       },
       "ipa": "ˈspiːk ɒv",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "speak",
@@ -3647,7 +3671,9 @@
         "endInExample": 75
       },
       "ipa": "ˌsʌtʃ dɪˈspeə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "such speed",
@@ -3675,7 +3701,9 @@
         "endInExample": 75
       },
       "ipa": "ˌsʌtʃ ˈspiːd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "suddenly",
@@ -3702,30 +3730,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.52,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "Suggins",
-      "lemma": "suggin",
-      "lemmaId": "suggin",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "suggin_noun",
-      "level": "A2",
-      "translations": {
-        "ru": {
-          "translation": "предложение"
-        },
-        "uk": {
-          "translation": "Пропозиція"
-        }
-      },
-      "_spacyLemma": "suggin",
-      "example": "Baalamb, and I’m sure Will Suggins couldn’t turn you into a frog there, either, could he?",
-      "exampleStart": 3313,
-      "exampleEnd": 3402,
-      "matchedForm": "Suggins",
-      "ipa": "ˈsʌɡɪnz",
-      "levelSource": "vocabulary_index"
     },
     {
       "word": "supper",
@@ -3761,11 +3765,11 @@
     },
     {
       "word": "supposed",
-      "lemma": "suppose",
-      "lemmaId": "suppose",
+      "lemma": "supposed",
+      "lemmaId": "supposed",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "suppose_adjective",
+      "wordKey": "supposed_adjective",
       "level": "B1",
       "translations": {
         "ru": {
@@ -3775,13 +3779,12 @@
           "translation": "Оцінка"
         }
       },
-      "_spacyLemma": "suppose",
+      "_spacyLemma": "supposed",
       "example": "Roger and Julia knew, but no one had mentioned it to Cat and Janet for fear the supposed Gwendolen might try to ruin it again.",
       "exampleStart": 1416,
       "exampleEnd": 1542,
       "matchedForm": "supposed",
-      "ipa": "səˈpəʊzd",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.557143,
       "difficultySource": "zipf"
     },
@@ -4053,12 +4056,12 @@
     },
     {
       "word": "trotting",
-      "lemma": "trot",
-      "lemmaId": "trot",
+      "lemma": "trotting",
+      "lemmaId": "trotting",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "trot_adjective",
-      "level": "A2",
+      "wordKey": "trotting_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "бегущий рысью"
@@ -4067,13 +4070,12 @@
           "translation": "що біжить підтюпцем"
         }
       },
-      "_spacyLemma": "trot",
+      "_spacyLemma": "trotting",
       "example": "Sharp’s trotting black figure.",
       "exampleStart": 492,
       "exampleEnd": 522,
       "matchedForm": "trotting",
-      "ipa": "ˈtrɒtɪŋ",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.942857,
       "difficultySource": "zipf"
     },
@@ -4418,6 +4420,117 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.32,
       "difficultySource": "zipf"
+    },
+    {
+      "word": "at all",
+      "lemma": "at all",
+      "lemmaId": "at_all",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "adverb_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "совсем не в"
+        },
+        "uk": {
+          "translation": "зовсім"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "It’s not that at all.”",
+      "exampleStart": 1945,
+      "exampleEnd": 1967,
+      "exampleTranslation": "совсем не в",
+      "phraseMatch": {
+        "text": "at all",
+        "startInExample": 14,
+        "endInExample": 20
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "at_all_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "зовсім"
+        }
+      }
+    },
+    {
+      "word": "up and down",
+      "lemma": "up and down",
+      "lemmaId": "up_and_down",
+      "pos": "phrase",
+      "type": "binomial",
+      "category": "mwe",
+      "mweType": "binomial",
+      "syntacticForm": "adverb_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "взад-вперёд"
+        },
+        "uk": {
+          "translation": "вгору-вниз"
+        }
+      },
+      "definition": "binomial used as one lexical expression in this context.",
+      "example": "She clasped her hands behind her back and marched up and down with her head bent.",
+      "exampleStart": 2375,
+      "exampleEnd": 2456,
+      "exampleTranslation": "взад-вперёд",
+      "phraseMatch": {
+        "text": "up and down",
+        "startInExample": 50,
+        "endInExample": 61
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "up_and_down_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "вгору-вниз"
+        }
+      }
+    },
+    {
+      "word": "not to speak of",
+      "lemma": "not to speak of",
+      "lemmaId": "not_to_speak_of",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "prepositional_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "не говоря уже"
+        },
+        "uk": {
+          "translation": "не кажучи вже про"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "Until supper, they had great fun whizzing around the playroom, not to speak of up and down the passage outside.",
+      "exampleStart": 1216,
+      "exampleEnd": 1327,
+      "exampleTranslation": "не говоря уже",
+      "phraseMatch": {
+        "text": "not to speak of",
+        "startInExample": 63,
+        "endInExample": 78
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "not_to_speak_of_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "не кажучи вже про"
+        }
+      }
     }
   ],
   "namedEntities": [

@@ -21,14 +21,14 @@
       "wordCount": 495,
       "uniqueWordCount": 306,
       "paragraphCount": 21,
-      "vocabularyCount": 162,
+      "vocabularyCount": 158,
       "levelDistribution": {
-        "A1": 39,
-        "A2": 38,
-        "B1": 42,
-        "B2": 34,
+        "A1": 40,
+        "A2": 37,
+        "B1": 39,
+        "B2": 32,
         "C1": 8,
-        "C2": 1
+        "C2": 2
       }
     }
   },
@@ -501,31 +501,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.36,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "came on",
-      "lemma": "come on",
-      "lemmaId": "come_on",
-      "pos": "prepositional_verb",
-      "type": "prepositional_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "come_on_prepositional_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "зашел"
-        }
-      },
-      "example": "You’re lord of an entire village, yet you came on this mission yourself.",
-      "exampleStart": 1385,
-      "exampleEnd": 1457,
-      "phraseMatch": {
-        "text": "came on",
-        "startInExample": 42,
-        "endInExample": 49
-      },
-      "ipa": "ˌkeɪm ˈɒn",
-      "levelSource": "phrase_index"
     },
     {
       "word": "came",
@@ -1129,10 +1104,10 @@
       "word": "evening",
       "lemma": "evening",
       "lemmaId": "evening",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "evening_adjective",
-      "level": "A2",
+      "wordKey": "evening_noun",
+      "level": "A1",
       "translations": {
         "ru": {
           "translation": "вечерний"
@@ -1144,7 +1119,7 @@
       "exampleEnd": 218,
       "matchedForm": "evening",
       "ipa": "ˈiːvnɪŋ",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.471429,
       "difficultySource": "zipf"
     },
@@ -1697,23 +1672,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "Hordamen",
-      "lemma": "hordaman",
-      "lemmaId": "hordaman",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "hordaman_noun",
-      "level": "B1",
-      "translations": {},
-      "_spacyLemma": "hordaman",
-      "example": "“Hordamen press against our runestones, and there is the Black Bear and his dark beasts and…” He took a deep breath.",
-      "exampleStart": 1841,
-      "exampleEnd": 1957,
-      "matchedForm": "Hordamen",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "ˈhɔːdeɪˌmen"
-    },
-    {
       "word": "imagined",
       "lemma": "imagine",
       "lemmaId": "imagine",
@@ -2067,23 +2025,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.197143,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "Maelport",
-      "lemma": "maelport",
-      "lemmaId": "maelport",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "maelport_noun",
-      "level": "B1",
-      "translations": {},
-      "_spacyLemma": "maelport",
-      "example": "“Beyond that, another day’s ride, is Maelport—the earl’s seat.",
-      "exampleStart": 411,
-      "exampleEnd": 473,
-      "matchedForm": "Maelport",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "ˈmeɪlpɔːt"
     },
     {
       "word": "Maybe",
@@ -3485,10 +3426,10 @@
       "word": "terribly",
       "lemma": "terribly",
       "lemmaId": "terribly",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "terribly_adjective",
-      "level": "B2",
+      "wordKey": "terribly_adverb",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "ужасно"
@@ -3500,7 +3441,7 @@
       "exampleEnd": 1077,
       "matchedForm": "terribly",
       "ipa": "ˈterɪbli",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.742857,
       "difficultySource": "zipf"
     },
@@ -3508,36 +3449,17 @@
       "word": "thegn",
       "lemma": "thegn",
       "lemmaId": "thegn",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "thegn_adjective",
-      "level": "B1",
+      "wordKey": "thegn_noun",
+      "level": "C2",
       "translations": {},
       "_spacyLemma": "thegn",
       "example": "Ten villages, each with a thegn like me.",
       "exampleStart": 639,
       "exampleEnd": 679,
       "matchedForm": "thegn",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "θen"
-    },
-    {
-      "word": "thegn",
-      "lemma": "thegn",
-      "lemmaId": "thegn",
-      "pos": "adverb",
-      "source": "word",
-      "wordKey": "thegn_adverb",
-      "level": "B1",
-      "translations": {},
-      "_spacyLemma": "thegn",
-      "example": "Ten villages, each with a thegn like me.",
-      "exampleStart": 639,
-      "exampleEnd": 679,
-      "matchedForm": "thegn",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf",
       "ipa": "θen"

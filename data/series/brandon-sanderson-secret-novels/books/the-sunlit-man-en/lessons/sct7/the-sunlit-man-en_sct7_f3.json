@@ -21,12 +21,12 @@
       "wordCount": 507,
       "uniqueWordCount": 325,
       "paragraphCount": 16,
-      "vocabularyCount": 187,
+      "vocabularyCount": 185,
       "levelDistribution": {
         "A1": 54,
-        "A2": 43,
-        "B1": 39,
-        "B2": 38,
+        "A2": 42,
+        "B1": 40,
+        "B2": 36,
         "C1": 11,
         "C2": 2
       }
@@ -331,49 +331,47 @@
     },
     {
       "word": "blazing",
-      "lemma": "blaze",
-      "lemmaId": "blaze",
+      "lemma": "blazing",
+      "lemmaId": "blazing",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "blaze_adjective",
-      "level": "B1",
+      "wordKey": "blazing_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "Пылающий"
         }
       },
-      "_spacyLemma": "blaze",
+      "_spacyLemma": "blazing",
       "example": "He was pleased, then, when some fires appeared up ahead—the light of blazing engines underneath a city.",
       "exampleStart": 1613,
       "exampleEnd": 1716,
       "matchedForm": "blazing",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.805714,
-      "difficultySource": "zipf",
-      "ipa": "ˈbleɪzɪŋ"
+      "difficultySource": "zipf"
     },
     {
       "word": "blowing",
-      "lemma": "blow",
-      "lemmaId": "blow",
+      "lemma": "blowing",
+      "lemmaId": "blowing",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "blow_adjective",
-      "level": "A2",
+      "wordKey": "blowing_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "Дует"
         }
       },
-      "_spacyLemma": "blow",
+      "_spacyLemma": "blowing",
       "example": "A few people waited for them in the blowing drizzle, lit by the deep red hand-lantern carried by the lead man, who was tall, stern, and dour.",
       "exampleStart": 2736,
       "exampleEnd": 2877,
       "matchedForm": "blowing",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.548571,
-      "difficultySource": "zipf",
-      "ipa": "ˈbləʊɪŋ"
+      "difficultySource": "zipf"
     },
     {
       "word": "brought down",
@@ -560,31 +558,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.585714,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "come out in",
-      "lemma": "come out in",
-      "lemmaId": "come_out_in",
-      "pos": "prepositional_verb",
-      "type": "prepositional_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "come_out_in_prepositional_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "Выходите"
-        }
-      },
-      "example": "Shades come out in the darkness, and we’ve been in nothing but darkness since getting here.",
-      "exampleStart": 1135,
-      "exampleEnd": 1226,
-      "phraseMatch": {
-        "text": "come out in",
-        "startInExample": 7,
-        "endInExample": 18
-      },
-      "levelSource": "dictionary_phrase",
-      "ipa": "ˌkʌm ˌaʊt ˈɪn"
     },
     {
       "word": "come",
@@ -1049,10 +1022,10 @@
       "word": "enemy",
       "lemma": "enemy",
       "lemmaId": "enemy",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "enemy_adjective",
-      "level": "B2",
+      "wordKey": "enemy_noun",
+      "level": "B1",
       "translations": {
         "de": {
           "translation": "Feind"
@@ -1073,7 +1046,7 @@
       "exampleEnd": 102,
       "matchedForm": "enemy",
       "ipa": "ˈenəmi",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.517143,
       "difficultySource": "zipf"
     },
@@ -1260,25 +1233,25 @@
     },
     {
       "word": "feed",
-      "lemma": "fee",
-      "lemmaId": "fee",
+      "lemma": "feed",
+      "lemmaId": "feed",
       "pos": "verb",
       "source": "word",
-      "wordKey": "fee_verb",
+      "wordKey": "feed_verb",
       "level": "B1",
       "translations": {
         "ru": {
           "translation": "кормить"
         }
       },
-      "_spacyLemma": "fee",
+      "_spacyLemma": "feed",
       "example": "“Green eyes, then red when they want to feed.",
       "exampleStart": 1016,
       "exampleEnd": 1061,
       "matchedForm": "feed",
       "ipa": "fiːd",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.571429,
+      "levelSource": "cefr_reference",
+      "difficultyScore": 0.525714,
       "difficultySource": "zipf"
     },
     {
@@ -1816,27 +1789,6 @@
       },
       "levelSource": "phrase_fallback",
       "ipa": "hɪz ˌwaɪz əˈsesmənt"
-    },
-    {
-      "word": "hovercycle",
-      "lemma": "hovercycle",
-      "lemmaId": "hovercycle",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "hovercycle_noun",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "Ховерцикл"
-        }
-      },
-      "_spacyLemma": "hovercycle",
-      "example": "Rebeke flew the hovercycle up to the agglomeration and locked it into place at the side of the city—the place known as Beacon, he assumed.",
-      "exampleStart": 2131,
-      "exampleEnd": 2269,
-      "matchedForm": "hovercycle",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "ˈhɒvəˌsaɪkəl"
     },
     {
       "word": "immediately",

@@ -21,14 +21,13 @@
       "wordCount": 440,
       "uniqueWordCount": 262,
       "paragraphCount": 8,
-      "vocabularyCount": 158,
+      "vocabularyCount": 156,
       "levelDistribution": {
         "A1": 35,
-        "A2": 36,
+        "A2": 35,
         "B1": 40,
-        "B2": 37,
-        "C1": 9,
-        "C2": 1
+        "B2": 36,
+        "C1": 10
       }
     }
   },
@@ -387,31 +386,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "climbing down",
-      "lemma": "climb down",
-      "lemmaId": "climb_down",
-      "pos": "prepositional_verb",
-      "type": "prepositional_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "climb_down_prepositional_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "спускаться вниз"
-        }
-      },
-      "example": "Crow carried a lantern, and the way the light glistened off the crimson tunnel made it seem as if they were climbing down the dragon’s own gullet.",
-      "exampleStart": 419,
-      "exampleEnd": 565,
-      "phraseMatch": {
-        "text": "climbing down",
-        "startInExample": 108,
-        "endInExample": 121
-      },
-      "levelSource": "dictionary_phrase",
-      "ipa": "ˌklaɪmɪŋ ˈdaʊn"
-    },
-    {
       "word": "climbing",
       "lemma": "climb",
       "lemmaId": "climb",
@@ -679,7 +653,7 @@
       "pos": "noun",
       "source": "word",
       "wordKey": "cursing_noun",
-      "level": "B1",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "проклятие"
@@ -690,7 +664,7 @@
       "exampleStart": 1846,
       "exampleEnd": 1926,
       "matchedForm": "cursing",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.914286,
       "difficultySource": "zipf",
       "ipa": "ˈkɜːsɪŋ"
@@ -1296,11 +1270,11 @@
     },
     {
       "word": "glistened",
-      "lemma": "glisten",
-      "lemmaId": "glisten",
-      "pos": "verb",
+      "lemma": "glistening",
+      "lemmaId": "glistening",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "glisten_verb",
+      "wordKey": "glistening_adjective",
       "level": "C1",
       "translations": {
         "de": {
@@ -1316,12 +1290,12 @@
           "translation": "блискучий"
         }
       },
-      "_spacyLemma": "glisten",
+      "_spacyLemma": "glistening",
       "example": "Crow carried a lantern, and the way the light glistened off the crimson tunnel made it seem as if they were climbing down the dragon’s own gullet.",
       "exampleStart": 419,
       "exampleEnd": 565,
       "matchedForm": "glistened",
-      "ipa": "ˈɡlɪsənd",
+      "ipa": "ˈɡlɪsənɪŋ",
       "levelSource": "vocabulary_index",
       "difficultyScore": 1,
       "difficultySource": "zipf"
@@ -2093,9 +2067,9 @@
       "word": "merely",
       "lemma": "merely",
       "lemmaId": "merely",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "merely_adjective",
+      "wordKey": "merely_adverb",
       "level": "B1",
       "translations": {
         "ru": {
@@ -2107,7 +2081,7 @@
       "exampleStart": 1068,
       "exampleEnd": 1170,
       "matchedForm": "merely",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.611429,
       "difficultySource": "zipf",
       "ipa": "ˈmiəli"
@@ -2410,10 +2384,10 @@
       "word": "practically",
       "lemma": "practically",
       "lemmaId": "practically",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "practically_adjective",
-      "level": "C2",
+      "wordKey": "practically_adverb",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "практически"
@@ -2424,7 +2398,7 @@
       "exampleStart": 54,
       "exampleEnd": 161,
       "matchedForm": "practically",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.662857,
       "difficultySource": "zipf",
       "ipa": "ˈpræktɪkli"
@@ -2796,26 +2770,25 @@
     },
     {
       "word": "solidified",
-      "lemma": "solidify",
-      "lemmaId": "solidify",
+      "lemma": "solidified",
+      "lemmaId": "solidified",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "solidify_adjective",
+      "wordKey": "solidified_adjective",
       "level": "B2",
       "translations": {
         "ru": {
           "translation": "твердый"
         }
       },
-      "_spacyLemma": "solidify",
+      "_spacyLemma": "solidified",
       "example": "Eventually the tunnel leveled out, then opened into a vast chamber—also made completely out of solidified spores.",
       "exampleStart": 875,
       "exampleEnd": 988,
       "matchedForm": "solidified",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "səˈlɪdɪˌfaɪd"
+      "difficultySource": "zipf"
     },
     {
       "word": "speaking",
@@ -2937,13 +2910,13 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "spores",
+      "word": "spore",
       "lemma": "spore",
       "lemmaId": "spore",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "spore_adjective",
-      "level": "B2",
+      "wordKey": "spore_noun",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "споры"
@@ -2954,10 +2927,10 @@
       "exampleStart": 0,
       "exampleEnd": 53,
       "matchedForm": "spore",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf",
-      "ipa": "spɔːz"
+      "ipa": "spɔː"
     },
     {
       "word": "spore seas",
@@ -3480,29 +3453,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.991429,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "Tress",
-      "lemma": "tress",
-      "lemmaId": "tress",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "tress_noun",
-      "level": "A2",
-      "translations": {
-        "ru": {
-          "translation": "Тресс"
-        }
-      },
-      "_spacyLemma": "tress",
-      "example": "Tress wondered what would happen if the stiff walls were exposed to water.",
-      "exampleStart": 566,
-      "exampleEnd": 640,
-      "matchedForm": "Tress",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "tres"
     },
     {
       "word": "triumphant",

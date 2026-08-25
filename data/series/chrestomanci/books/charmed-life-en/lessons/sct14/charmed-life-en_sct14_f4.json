@@ -23,12 +23,11 @@
       "paragraphCount": 12,
       "vocabularyCount": 168,
       "levelDistribution": {
-        "A1": 60,
+        "A1": 59,
         "A2": 26,
         "B1": 34,
         "B2": 43,
-        "C1": 5,
-        "C2": 0
+        "C1": 6
       }
     }
   },
@@ -259,7 +258,10 @@
         "endInExample": 58
       },
       "ipa": "ˈæsk fɔː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "ask",
@@ -501,7 +503,10 @@
         "endInExample": 161
       },
       "ipa": "ˈkeəd fɔː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "cared",
@@ -697,7 +702,10 @@
         "endInExample": 26
       },
       "ipa": "ˌkeɪm ˈɪn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "came",
@@ -803,7 +811,9 @@
         "endInExample": 84
       },
       "ipa": "ˌdeɪndʒərəs ˈstʌf",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "darling",
@@ -917,11 +927,11 @@
     },
     {
       "word": "dressed",
-      "lemma": "dress",
-      "lemmaId": "dress",
+      "lemma": "dressed",
+      "lemmaId": "dressed",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "dress_adjective",
+      "wordKey": "dressed_adjective",
       "level": "A2",
       "translations": {
         "ru": {
@@ -931,24 +941,24 @@
           "translation": "одягнений; Одяг"
         }
       },
-      "_spacyLemma": "dress",
+      "_spacyLemma": "dressed",
       "example": "”\n\nJulia and Roger came in next, dressed ready for church, with armfuls of books and toys and a great many interested questions.",
       "exampleStart": 2082,
       "exampleEnd": 2210,
       "matchedForm": "dressed",
       "ipa": "drest",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.5,
+      "levelSource": "cefr_reference",
+      "difficultyScore": 0.597143,
       "difficultySource": "zipf"
     },
     {
       "word": "dressing",
       "lemma": "dressing",
       "lemmaId": "dressing",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "dressing_adjective",
-      "level": "B2",
+      "wordKey": "dressing_noun",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "одевающийся; перевязочный"
@@ -963,7 +973,7 @@
       "exampleEnd": 2682,
       "matchedForm": "dressing",
       "ipa": "ˈdresɪŋ",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.668571,
       "difficultySource": "zipf"
     },
@@ -1019,33 +1029,9 @@
         "endInExample": 58
       },
       "ipa": "ɪˌnʌf ˈmædʒɪk",
-      "levelSource": "phrase_index"
-    },
-    {
-      "word": "Euphemia",
-      "lemma": "euphemia",
-      "lemmaId": "euphemia",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "euphemia_noun",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "Юфимия"
-        },
-        "uk": {
-          "translation": "Євфемія"
-        }
-      },
-      "_spacyLemma": "euphemia",
-      "example": "Euphemia came in with his breakfast on a tray, and he had to climb back into bed again.",
-      "exampleStart": 858,
-      "exampleEnd": 945,
-      "matchedForm": "Euphemia",
-      "ipa": "juːˈfiːmiə",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 1,
-      "difficultySource": "zipf"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "face",
@@ -1099,7 +1085,9 @@
         "endInExample": 38
       },
       "ipa": "ˌfiəsʌm ˈæksɪdənt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "fearsome",
@@ -1179,7 +1167,9 @@
         "endInExample": 26
       },
       "ipa": "ˌfjuː ˈθɪŋz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "finished",
@@ -1259,7 +1249,9 @@
         "endInExample": 34
       },
       "ipa": "ˌfleɪmɪŋ ˈsɔːd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "fog",
@@ -1289,11 +1281,11 @@
     },
     {
       "word": "forbidden",
-      "lemma": "forbid",
-      "lemmaId": "forbid",
+      "lemma": "forbidden",
+      "lemmaId": "forbidden",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "forbid_adjective",
+      "wordKey": "forbidden_adjective",
       "level": "B1",
       "translations": {
         "ru": {
@@ -1303,14 +1295,14 @@
           "translation": "Заборонено"
         }
       },
-      "_spacyLemma": "forbid",
+      "_spacyLemma": "forbidden",
       "example": "The only hope seemed to be to take Janet and some dragons’ blood to the forbidden garden and try to get away.",
       "exampleStart": 661,
       "exampleEnd": 770,
       "matchedForm": "forbidden",
       "ipa": "fəˈbɪdən",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.814286,
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.728571,
       "difficultySource": "zipf"
     },
     {
@@ -1443,7 +1435,10 @@
         "endInExample": 108
       },
       "ipa": "ɡet əˈweɪ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "got",
@@ -1529,7 +1524,10 @@
         "endInExample": 106
       },
       "ipa": "went ˈɒn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "went",
@@ -1615,7 +1613,9 @@
         "endInExample": 200
       },
       "ipa": "ˌɡəʊldən ˈlaɪənz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "Good",
@@ -1669,7 +1669,9 @@
         "endInExample": 13
       },
       "ipa": "ˌɡʊd ˈhevənz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "goodness",
@@ -2061,7 +2063,9 @@
         "endInExample": 35
       },
       "ipa": "hɪz ˈbrekfəst",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his pillows",
@@ -2089,7 +2093,9 @@
         "endInExample": 31
       },
       "ipa": "hɪz ˈpɪləʊz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "holes",
@@ -2265,7 +2271,9 @@
         "endInExample": 26
       },
       "ipa": "ɪn ˈbed",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "interested",
@@ -2377,7 +2385,9 @@
         "endInExample": 53
       },
       "ipa": "ˌlæst ˈnaɪt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "laughed",
@@ -2567,7 +2577,9 @@
         "endInExample": 194
       },
       "ipa": "ˌlɪtəl ˈhəʊlz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "lump",
@@ -2757,7 +2769,9 @@
         "endInExample": 63
       },
       "ipa": "maɪ ˈmaʊθ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "needed",
@@ -2869,7 +2883,9 @@
         "endInExample": 13
       },
       "ipa": "ˌəʊnli ˈhəʊp",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "open",
@@ -2949,7 +2965,9 @@
         "endInExample": 83
       },
       "ipa": "ˌʌðə ˈpiːpəl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "our poor guests",
@@ -2977,7 +2995,9 @@
         "endInExample": 89
       },
       "ipa": "ˌaʊə ˌpʊə ˈɡests",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "pillows",
@@ -3119,9 +3139,9 @@
       "word": "quivering",
       "lemma": "quivering",
       "lemmaId": "quivering",
-      "pos": "noun",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "quivering_noun",
+      "wordKey": "quivering_adjective",
       "level": "B2",
       "translations": {
         "ru": {
@@ -3137,7 +3157,7 @@
       "exampleEnd": 230,
       "matchedForm": "quivering",
       "ipa": "ˈkwɪvərɪŋ",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -3349,7 +3369,10 @@
         "endInExample": 32
       },
       "ipa": "ˌsetəlɪŋ ˈɪn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "settling",
@@ -3517,10 +3540,10 @@
       "word": "snug",
       "lemma": "snug",
       "lemmaId": "snug",
-      "pos": "noun",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "snug_noun",
-      "level": "A1",
+      "wordKey": "snug_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "уютное местечко"
@@ -3535,7 +3558,7 @@
       "exampleEnd": 162,
       "matchedForm": "snug",
       "ipa": "snʌɡ",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.974286,
       "difficultySource": "zipf"
     },
@@ -3565,7 +3588,10 @@
         "endInExample": 22
       },
       "ipa": "ˌsteɪ ˈɪn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "stay",
@@ -3619,7 +3645,10 @@
         "endInExample": 73
       },
       "ipa": "ˈsteɪ wɪð",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "strong",
@@ -4165,7 +4194,10 @@
         "endInExample": 43
       },
       "ipa": "ˈtɜːnd ˌɪntʊ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "turned",
@@ -4589,7 +4621,46 @@
         "endInExample": 49
       },
       "ipa": "jɔː ˈkɑːpɪt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
+    },
+    {
+      "word": "old as the hills",
+      "lemma": "old as the hills",
+      "lemmaId": "old_as_the_hills",
+      "pos": "phrase",
+      "type": "idiom",
+      "category": "mwe",
+      "mweType": "idiom",
+      "syntacticForm": "adjective_phrase",
+      "source": "manual_mwe",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "древний, как холмы"
+        },
+        "uk": {
+          "translation": "старий, як пагорби"
+        }
+      },
+      "definition": "idiom used as one lexical expression in this context.",
+      "example": "“The garden is old as the hills and stuffed with magic of every kind.",
+      "exampleStart": 1758,
+      "exampleEnd": 1827,
+      "exampleTranslation": "древний, как холмы",
+      "phraseMatch": {
+        "text": "old as the hills",
+        "startInExample": 15,
+        "endInExample": 31
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "old_as_the_hills_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "старий, як пагорби"
+        }
+      }
     }
   ],
   "namedEntities": [

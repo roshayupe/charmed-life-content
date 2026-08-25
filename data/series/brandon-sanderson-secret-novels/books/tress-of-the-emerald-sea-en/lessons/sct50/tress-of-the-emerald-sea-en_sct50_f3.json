@@ -21,14 +21,14 @@
       "wordCount": 1034,
       "uniqueWordCount": 545,
       "paragraphCount": 42,
-      "vocabularyCount": 373,
+      "vocabularyCount": 368,
       "levelDistribution": {
-        "A1": 75,
-        "A2": 91,
-        "B1": 98,
-        "B2": 91,
-        "C1": 17,
-        "C2": 1
+        "A1": 73,
+        "A2": 84,
+        "B1": 103,
+        "B2": 88,
+        "C1": 18,
+        "C2": 2
       }
     }
   },
@@ -970,10 +970,10 @@
       "word": "bullet",
       "lemma": "bullet",
       "lemmaId": "bullet",
-      "pos": "verb",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "bullet_verb",
-      "level": "A2",
+      "wordKey": "bullet_noun",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "пуля"
@@ -984,7 +984,7 @@
       "exampleStart": 701,
       "exampleEnd": 759,
       "matchedForm": "bullet",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.648571,
       "difficultySource": "zipf",
       "ipa": "ˈbʊlɪt"
@@ -1638,24 +1638,24 @@
     },
     {
       "word": "dazed",
-      "lemma": "daze",
-      "lemmaId": "daze",
-      "pos": "verb",
+      "lemma": "dazed",
+      "lemmaId": "dazed",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "daze_verb",
-      "level": "A2",
+      "wordKey": "dazed_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "ошеломленный"
         }
       },
-      "_spacyLemma": "daze",
+      "_spacyLemma": "dazed",
       "example": "Crow checked on Fort last—his face was a mess of blood, and he still seemed dazed.",
       "exampleStart": 2001,
       "exampleEnd": 2083,
       "matchedForm": "dazed",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 1,
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.965714,
       "difficultySource": "zipf",
       "ipa": "deɪzd"
     },
@@ -1784,31 +1784,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.411429,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "do in",
-      "lemma": "do in",
-      "lemmaId": "do_in",
-      "pos": "prepositional_verb",
-      "type": "prepositional_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "do_in_prepositional_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "Сделай"
-        }
-      },
-      "example": "It didn’t break, like they sometimes do in stories of bar fights.",
-      "exampleStart": 235,
-      "exampleEnd": 300,
-      "phraseMatch": {
-        "text": "do in",
-        "startInExample": 37,
-        "endInExample": 42
-      },
-      "levelSource": "dictionary_phrase",
-      "ipa": "ˌduː ˈɪn"
     },
     {
       "word": "draining",
@@ -2175,25 +2150,25 @@
     },
     {
       "word": "falling",
-      "lemma": "fall",
-      "lemmaId": "fall",
+      "lemma": "fallen",
+      "lemmaId": "fallen",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "fall_adjective",
-      "level": "A1",
+      "wordKey": "fallen_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "упавший"
         }
       },
-      "_spacyLemma": "fall",
+      "_spacyLemma": "fallen",
       "example": "The ship fell quiet—but it wasn’t the quiet of a night of falling snow.",
       "exampleStart": 2786,
       "exampleEnd": 2857,
       "matchedForm": "falling",
-      "ipa": "ˈfɔːlɪŋ",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.394286,
+      "ipa": "ˈfɔːlən",
+      "levelSource": "cefr_reference",
+      "difficultyScore": 0.605714,
       "difficultySource": "zipf"
     },
     {
@@ -2436,10 +2411,10 @@
       "word": "flare",
       "lemma": "flare",
       "lemmaId": "flare",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "flare_adjective",
-      "level": "B1",
+      "wordKey": "flare_noun",
+      "level": "C2",
       "translations": {
         "ru": {
           "translation": "вспышка"
@@ -2450,7 +2425,7 @@
       "exampleStart": 1502,
       "exampleEnd": 1520,
       "matchedForm": "flare",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.82,
       "difficultySource": "zipf",
       "ipa": "fleə"
@@ -3854,9 +3829,9 @@
       "word": "hospital",
       "lemma": "hospital",
       "lemmaId": "hospital",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "hospital_adjective",
+      "wordKey": "hospital_noun",
       "level": "A1",
       "translations": {
         "ru": {
@@ -3868,7 +3843,7 @@
       "exampleStart": 2858,
       "exampleEnd": 2917,
       "matchedForm": "hospital",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.411429,
       "difficultySource": "zipf",
       "ipa": "ˈhɒspɪtəl"
@@ -4755,24 +4730,23 @@
     },
     {
       "word": "loved",
-      "lemma": "love",
-      "lemmaId": "love",
+      "lemma": "loved",
+      "lemmaId": "loved",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "love_adjective",
-      "level": "A1",
+      "wordKey": "loved_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "любимый"
         }
       },
-      "_spacyLemma": "love",
+      "_spacyLemma": "loved",
       "example": "It was the quiet of a hospital room after a loved one died.",
       "exampleStart": 2858,
       "exampleEnd": 2917,
       "matchedForm": "loved",
-      "ipa": "lʌvd",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.197143,
       "difficultySource": "zipf"
     },
@@ -5050,29 +5024,6 @@
       "difficultyScore": 0.871429,
       "difficultySource": "zipf",
       "ipa": "ˈmɑːtəz"
-    },
-    {
-      "word": "matter",
-      "lemma": "matter",
-      "lemmaId": "matter",
-      "pos": "adverb",
-      "source": "word",
-      "wordKey": "matter_adverb",
-      "level": "A2",
-      "translations": {
-        "ru": {
-          "translation": "важно; имеет значение"
-        }
-      },
-      "_spacyLemma": "matter",
-      "example": "In that moment Ann was the smart one, because she realized that no matter what she did—whether she hit or not—Crow wasn’t going to let herself lose this fight.",
-      "exampleStart": 869,
-      "exampleEnd": 1028,
-      "matchedForm": "matter",
-      "ipa": "ˈmætə",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.322857,
-      "difficultySource": "zipf"
     },
     {
       "word": "means",
@@ -6587,29 +6538,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "Salay",
-      "lemma": "salay",
-      "lemmaId": "salay",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "salay_noun",
-      "level": "A2",
-      "translations": {
-        "ru": {
-          "translation": "Салай"
-        }
-      },
-      "_spacyLemma": "salay",
-      "example": "She felt useless—at least until she saw Salay looking at her.",
-      "exampleStart": 4483,
-      "exampleEnd": 4544,
-      "matchedForm": "Salay",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "ˈsæleɪ"
-    },
-    {
       "word": "said",
       "lemma": "say",
       "lemmaId": "say",
@@ -7600,13 +7528,13 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "spores",
+      "word": "spore",
       "lemma": "spore",
       "lemmaId": "spore",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "spore_adjective",
-      "level": "B2",
+      "wordKey": "spore_noun",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "споры"
@@ -7617,10 +7545,10 @@
       "exampleStart": 2919,
       "exampleEnd": 3020,
       "matchedForm": "spore",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf",
-      "ipa": "spɔːz"
+      "ipa": "spɔː"
     },
     {
       "word": "sprawling",
@@ -7821,10 +7749,10 @@
       "word": "strangely",
       "lemma": "strangely",
       "lemmaId": "strangely",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "strangely_adjective",
-      "level": "A2",
+      "wordKey": "strangely_adverb",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "странно"
@@ -7835,7 +7763,7 @@
       "exampleStart": 5787,
       "exampleEnd": 5900,
       "matchedForm": "strangely",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.811429,
       "difficultySource": "zipf",
       "ipa": "ˈstreɪndʒli"
@@ -8321,29 +8249,6 @@
       "difficultyScore": 0.477143,
       "difficultySource": "zipf",
       "ipa": "trəˈdɪʃənəl"
-    },
-    {
-      "word": "Tress",
-      "lemma": "tress",
-      "lemmaId": "tress",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "tress_noun",
-      "level": "A2",
-      "translations": {
-        "ru": {
-          "translation": "Тресс"
-        }
-      },
-      "_spacyLemma": "tress",
-      "example": "Through the tears in her eyes—still stunned from the punch—Tress saw the captain fire it and hit Ann in the chest.",
-      "exampleStart": 1522,
-      "exampleEnd": 1636,
-      "matchedForm": "Tress",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "tres"
     },
     {
       "word": "trigger",
@@ -9083,10 +8988,10 @@
       "word": "wounded",
       "lemma": "wound",
       "lemmaId": "wound",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "wound_adjective",
-      "level": "B2",
+      "wordKey": "wound_noun",
+      "level": "B1",
       "translations": {
         "de": {
           "translation": "verletzt"
@@ -9106,8 +9011,8 @@
       "exampleStart": 1912,
       "exampleEnd": 2000,
       "matchedForm": "wounded",
-      "ipa": "ˈwuːndɪd",
-      "levelSource": "vocabulary_index",
+      "ipa": "wuːnd",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.648571,
       "difficultySource": "zipf"
     },
@@ -9172,9 +9077,9 @@
       "word": "writing",
       "lemma": "writing",
       "lemmaId": "writing",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "writing_adjective",
+      "wordKey": "writing_noun",
       "level": "A2",
       "translations": {
         "ru": {
@@ -9186,31 +9091,10 @@
       "exampleStart": 2085,
       "exampleEnd": 2213,
       "matchedForm": "writing",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.411429,
       "difficultySource": "zipf",
       "ipa": "ˈraɪtɪŋ"
-    },
-    {
-      "word": "Xisis",
-      "lemma": "xisis",
-      "lemmaId": "xisis",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "xisis_noun",
-      "level": "A2",
-      "translations": {
-        "ru": {
-          "translation": "Сиси"
-        }
-      },
-      "_spacyLemma": "xisis",
-      "example": "Xisis had received the message.",
-      "exampleStart": 5180,
-      "exampleEnd": 5211,
-      "matchedForm": "Xisis",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "ˈzɪsiz"
     },
     {
       "word": "your friends",

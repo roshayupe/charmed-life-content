@@ -21,14 +21,14 @@
       "wordCount": 613,
       "uniqueWordCount": 335,
       "paragraphCount": 9,
-      "vocabularyCount": 192,
+      "vocabularyCount": 191,
       "levelDistribution": {
         "A1": 38,
         "A2": 32,
         "B1": 49,
-        "B2": 58,
-        "C1": 15,
-        "C2": 0
+        "B2": 57,
+        "C1": 14,
+        "C2": 1
       }
     }
   },
@@ -227,7 +227,9 @@
         "endInExample": 97
       },
       "ipa": "ˌæpəl ˈtriː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "arts",
@@ -289,11 +291,11 @@
     },
     {
       "word": "assembled",
-      "lemma": "assemble",
-      "lemmaId": "assemble",
+      "lemma": "assembled",
+      "lemmaId": "assembled",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "assemble_adjective",
+      "wordKey": "assembled_adjective",
       "level": "B2",
       "translations": {
         "ru": {
@@ -303,13 +305,12 @@
           "translation": "Збирати"
         }
       },
-      "_spacyLemma": "assemble",
+      "_spacyLemma": "assembled",
       "example": "But his voice was drowned in the yelling from the assembled witches and necromancers.",
       "exampleStart": 1995,
       "exampleEnd": 2080,
       "matchedForm": "assembled",
-      "ipa": "əˈsembəld",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.82,
       "difficultySource": "zipf"
     },
@@ -619,12 +620,12 @@
     },
     {
       "word": "charmed",
-      "lemma": "charm",
-      "lemmaId": "charm",
+      "lemma": "charmed",
+      "lemmaId": "charmed",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "charm_adjective",
-      "level": "B1",
+      "wordKey": "charmed_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "заколдованный; очарованный"
@@ -633,13 +634,12 @@
           "translation": "зачарований; Зачарований"
         }
       },
-      "_spacyLemma": "charm",
+      "_spacyLemma": "charmed",
       "example": "William Nostrum hastily twisted the ends into two charmed knots and stood back rubbing his hands.",
       "exampleStart": 1090,
       "exampleEnd": 1187,
       "matchedForm": "charmed",
-      "ipa": "tʃɑːmd",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.682857,
       "difficultySource": "zipf"
     },
@@ -757,32 +757,6 @@
       "ipa": "kəmˈpəʊzd",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.871429,
-      "difficultySource": "zipf"
-    },
-    {
-      "word": "conquers",
-      "lemma": "conquer",
-      "lemmaId": "conquer",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "conquer_noun",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "завоевание; победа"
-        },
-        "uk": {
-          "translation": "володарюй"
-        }
-      },
-      "_spacyLemma": "conquer",
-      "example": "“The touch of silver conquers Chrestomanci — the great Chrestomanci!",
-      "exampleStart": 702,
-      "exampleEnd": 770,
-      "matchedForm": "conquers",
-      "ipa": "ˈkɒŋkəz",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.782857,
       "difficultySource": "zipf"
     },
     {
@@ -973,7 +947,9 @@
         "endInExample": 24
       },
       "ipa": "ˈdiə ˌsɜː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "destroy",
@@ -1053,7 +1029,10 @@
         "endInExample": 76
       },
       "ipa": "ˌdræɡd ˈaʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "dragged",
@@ -1113,7 +1092,10 @@
         "endInExample": 28
       },
       "ipa": "ˌdraʊnd ˈɪn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "drowned",
@@ -1231,16 +1213,18 @@
         "endInExample": 39
       },
       "ipa": "ˌeldrɪtʃ ˈlæftə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "eldritch",
       "lemma": "eldritch",
       "lemmaId": "eldritch",
-      "pos": "noun",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "eldritch_noun",
-      "level": "B2",
+      "wordKey": "eldritch_adjective",
+      "level": "C2",
       "translations": {
         "ru": {
           "translation": "жуткий; потусторонний"
@@ -1255,7 +1239,7 @@
       "exampleEnd": 1240,
       "matchedForm": "eldritch",
       "ipa": "ˈeldrɪtʃ",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -1629,7 +1613,10 @@
         "endInExample": 20
       },
       "ipa": "ɡet ˈaʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "got",
@@ -1715,7 +1702,10 @@
         "endInExample": 23
       },
       "ipa": "ˌɡəʊ ˈaʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "going out to",
@@ -1743,7 +1733,10 @@
         "endInExample": 50
       },
       "ipa": "ˌɡəʊɪŋ ˈaʊt tuː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "going",
@@ -1823,7 +1816,9 @@
         "endInExample": 16
       },
       "ipa": "ˌɡʊd ˈdiːl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "grass",
@@ -2207,7 +2202,9 @@
         "endInExample": 43
       },
       "ipa": "hɪz ˈbrʌðə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his face",
@@ -2235,7 +2232,9 @@
         "endInExample": 27
       },
       "ipa": "hɪz ˈfeɪs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his free hand",
@@ -2263,7 +2262,9 @@
         "endInExample": 25
       },
       "ipa": "hɪz ˌfriː ˈhænd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "His hair",
@@ -2291,7 +2292,9 @@
         "endInExample": 8
       },
       "ipa": "hɪz ˈheə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his hands",
@@ -2319,7 +2322,9 @@
         "endInExample": 96
       },
       "ipa": "hɪz ˈhændz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his left ear",
@@ -2347,7 +2352,9 @@
         "endInExample": 59
       },
       "ipa": "hɪz ˌleft ˈiə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his shoulder",
@@ -2375,7 +2382,9 @@
         "endInExample": 73
       },
       "ipa": "hɪz ˈʃəʊldə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "His tall gray hat",
@@ -2403,7 +2412,9 @@
         "endInExample": 17
       },
       "ipa": "hɪz ˌtɔːl ˌɡreɪ ˈhæt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his tie",
@@ -2431,7 +2442,9 @@
         "endInExample": 36
       },
       "ipa": "hɪz ˈtaɪ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his voice",
@@ -2459,7 +2472,9 @@
         "endInExample": 13
       },
       "ipa": "hɪz ˈvɔɪs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "hurried",
@@ -2699,7 +2714,10 @@
         "endInExample": 70
       },
       "ipa": "ˌleɪ ˈɪn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "left",
@@ -2837,7 +2855,10 @@
         "endInExample": 35
       },
       "ipa": "ˈlʊk æt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "look",
@@ -2969,7 +2990,9 @@
         "endInExample": 43
       },
       "ipa": "maɪ ˌdiə ˈfeləʊ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "my dear sir",
@@ -2997,7 +3020,9 @@
         "endInExample": 34
       },
       "ipa": "maɪ ˈdiə ˌsɜː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "my wily sir",
@@ -3025,7 +3050,9 @@
         "endInExample": 75
       },
       "ipa": "maɪ ˈwaɪli ˌsɜː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "necromancers",
@@ -3105,7 +3132,9 @@
         "endInExample": 57
       },
       "ipa": "ˌnɒdɪŋ ˈhæts",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "nuisance",
@@ -3165,7 +3194,9 @@
         "endInExample": 63
       },
       "ipa": "ˌʌðə ˈʃəʊldə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "other worlds",
@@ -3193,7 +3224,9 @@
         "endInExample": 48
       },
       "ipa": "ˌʌðə ˈwɜːldz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "ought",
@@ -3247,7 +3280,9 @@
         "endInExample": 51
       },
       "ipa": "ˌaʊər ˌəʊn ˈhændz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "pillars",
@@ -3449,7 +3484,10 @@
         "endInExample": 74
       },
       "ipa": "ˌpʊld ˈɒf",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "pulled",
@@ -4013,7 +4051,9 @@
         "endInExample": 29
       },
       "ipa": "ˌsɪlvə ˈkɒŋkəz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "silver handcuffs",
@@ -4041,7 +4081,9 @@
         "endInExample": 93
       },
       "ipa": "ˌsɪlvə ˈhændkʌfs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "silver",
@@ -4094,34 +4136,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.414286,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "stamped on",
-      "lemma": "stamp on",
-      "lemmaId": "stamp_on",
-      "pos": "prepositional_verb",
-      "type": "prepositional_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "stamp_on_prepositional_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "наступить на; растоптать"
-        },
-        "uk": {
-          "translation": "Ступайте; Топтання"
-        }
-      },
-      "example": "His tall gray hat rolled near Cat’s feet and Henry Nostrum stamped on it, with the greatest satisfaction.",
-      "exampleStart": 243,
-      "exampleEnd": 348,
-      "phraseMatch": {
-        "text": "stamped on",
-        "startInExample": 59,
-        "endInExample": 69
-      },
-      "ipa": "ˌstæmpt ˈɒn",
-      "levelSource": "phrase_index"
     },
     {
       "word": "stamped",
@@ -4253,7 +4267,10 @@
         "endInExample": 20
       },
       "ipa": "ˈstraɪkɪŋ æt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "striking",
@@ -4431,12 +4448,12 @@
     },
     {
       "word": "swirled",
-      "lemma": "swirl",
-      "lemmaId": "swirl",
-      "pos": "verb",
+      "lemma": "swirling",
+      "lemmaId": "swirling",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "swirl_verb",
-      "level": "C1",
+      "wordKey": "swirling_adjective",
+      "level": "B2",
       "translations": {
         "de": {
           "translation": "wirbelnd"
@@ -4451,14 +4468,14 @@
           "translation": "Твіст"
         }
       },
-      "_spacyLemma": "swirl",
+      "_spacyLemma": "swirling",
       "example": "William Nostrum’s eyes swirled joyfully about.",
       "exampleStart": 1593,
       "exampleEnd": 1639,
       "matchedForm": "swirled",
-      "ipa": "swɜːld",
+      "ipa": "ˈswɜːlɪŋ",
       "levelSource": "vocabulary_index",
-      "difficultyScore": 0.957143,
+      "difficultyScore": 0.954286,
       "difficultySource": "zipf"
     },
     {
@@ -4649,7 +4666,10 @@
         "endInExample": 30
       },
       "ipa": "ˌtaɪd ˈʌp",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "tie",
@@ -4785,10 +4805,10 @@
       "word": "tremble",
       "lemma": "tremble",
       "lemmaId": "tremble",
-      "pos": "adjective",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "tremble_adjective",
-      "level": "B2",
+      "wordKey": "tremble_verb",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "дрожь"
@@ -4803,7 +4823,7 @@
       "exampleEnd": 139,
       "matchedForm": "tremble",
       "ipa": "ˈtrembəl",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.991429,
       "difficultySource": "zipf"
     },
@@ -4891,7 +4911,9 @@
         "endInExample": 105
       },
       "ipa": "ˌtruː ˈwɪtʃkræft",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "tried",
@@ -4971,7 +4993,9 @@
         "endInExample": 23
       },
       "ipa": "ˌtuː ˌsɪlvə ˌwɒtʃˈtʃeɪnz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "two such ample brothers",
@@ -4999,7 +5023,9 @@
         "endInExample": 52
       },
       "ipa": "ˌtuː ˌsʌtʃ ˌæmpəl ˈbrʌðəz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "use",
@@ -5138,7 +5164,9 @@
         "endInExample": 70
       },
       "ipa": "ˈwɒtʃˈtʃeɪn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "wicked",
@@ -5288,7 +5316,9 @@
         "endInExample": 56
       },
       "ipa": "wɪð ˈpleʒə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "worlds",
@@ -5368,7 +5398,46 @@
         "endInExample": 59
       },
       "ipa": "jɔː ˈpaʊə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
+    },
+    {
+      "word": "a good deal",
+      "lemma": "a good deal",
+      "lemmaId": "a_good_deal",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "adverb_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "намного"
+        },
+        "uk": {
+          "translation": "значно"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "It’s a good deal stronger than I am.",
+      "exampleStart": 2836,
+      "exampleEnd": 2872,
+      "exampleTranslation": "намного",
+      "phraseMatch": {
+        "text": "a good deal",
+        "startInExample": 5,
+        "endInExample": 16
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "a_good_deal_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "значно"
+        }
+      }
     }
   ],
   "namedEntities": [

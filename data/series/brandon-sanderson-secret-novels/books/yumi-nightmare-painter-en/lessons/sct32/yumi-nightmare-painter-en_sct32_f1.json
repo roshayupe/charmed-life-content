@@ -21,14 +21,13 @@
       "wordCount": 566,
       "uniqueWordCount": 359,
       "paragraphCount": 27,
-      "vocabularyCount": 194,
+      "vocabularyCount": 186,
       "levelDistribution": {
-        "A1": 56,
-        "A2": 49,
-        "B1": 42,
-        "B2": 36,
-        "C1": 11,
-        "C2": 0
+        "A1": 52,
+        "A2": 47,
+        "B1": 41,
+        "B2": 34,
+        "C1": 12
       }
     }
   },
@@ -562,10 +561,10 @@
       "word": "carnival",
       "lemma": "carnival",
       "lemmaId": "carnival",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "carnival_adjective",
-      "level": "B2",
+      "wordKey": "carnival_noun",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "Карнавал"
@@ -576,7 +575,7 @@
       "exampleStart": 1135,
       "exampleEnd": 1173,
       "matchedForm": "carnival",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.757143,
       "difficultySource": "zipf",
       "ipa": "ˈkɑːnɪvəl"
@@ -605,31 +604,6 @@
       },
       "levelSource": "phrase_fallback",
       "ipa": "ˌkɑːnɪvəl ˈθɪŋ"
-    },
-    {
-      "word": "came up for",
-      "lemma": "come up for",
-      "lemmaId": "come_up_for",
-      "pos": "prepositional_verb",
-      "type": "prepositional_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "come_up_for_prepositional_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "приближаться"
-        }
-      },
-      "example": "A customer came up for food, and Design shooed him away.",
-      "exampleStart": 1717,
-      "exampleEnd": 1773,
-      "phraseMatch": {
-        "text": "came up for",
-        "startInExample": 11,
-        "endInExample": 22
-      },
-      "ipa": "ˌkeɪm ˈʌp fɔː",
-      "levelSource": "phrase_index"
     },
     {
       "word": "came",
@@ -1241,27 +1215,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "fabrial",
-      "lemma": "fabrial",
-      "lemmaId": "fabrial",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "fabrial_noun",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "фабриаль"
-        }
-      },
-      "_spacyLemma": "fabrial",
-      "example": "“This fabrial will give a far more accurate reading of your spiritweb than I can on my own.",
-      "exampleStart": 2583,
-      "exampleEnd": 2674,
-      "matchedForm": "fabrial",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "ˈfæbrɪəl"
-    },
-    {
       "word": "far",
       "lemma": "far",
       "lemmaId": "far",
@@ -1604,29 +1557,6 @@
       "ipa": "ˈɡɜːlfrend"
     },
     {
-      "word": "Girlfriend",
-      "lemma": "girlfriend",
-      "lemmaId": "girlfriend",
-      "pos": "verb",
-      "source": "word",
-      "wordKey": "girlfriend_verb",
-      "level": "A1",
-      "translations": {
-        "ru": {
-          "translation": "девушка"
-        }
-      },
-      "_spacyLemma": "girlfriend",
-      "example": "Girlfriend?",
-      "exampleStart": 2038,
-      "exampleEnd": 2049,
-      "matchedForm": "Girlfriend",
-      "levelSource": "cefr_frequency",
-      "difficultyScore": 0.522857,
-      "difficultySource": "zipf",
-      "ipa": "ˈɡɜːlfrend"
-    },
-    {
       "word": "glass",
       "lemma": "glass",
       "lemmaId": "glass",
@@ -1861,10 +1791,10 @@
       "word": "haywire",
       "lemma": "haywire",
       "lemmaId": "haywire",
-      "pos": "noun",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "haywire_noun",
-      "level": "B1",
+      "wordKey": "haywire_adjective",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "расстроенный"
@@ -1875,7 +1805,7 @@
       "exampleStart": 2900,
       "exampleEnd": 2979,
       "matchedForm": "haywire",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf",
       "ipa": "ˈheɪwaɪə"
@@ -1950,29 +1880,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.462857,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "hion",
-      "lemma": "hion",
-      "lemmaId": "hion",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "hion_noun",
-      "level": "A1",
-      "translations": {
-        "ru": {
-          "translation": "Привет"
-        }
-      },
-      "_spacyLemma": "hion",
-      "example": ")\n\nDesign moved some dials, then hooked the machine up to the bar’s hion lines for power.",
-      "exampleStart": 2207,
-      "exampleEnd": 2296,
-      "matchedForm": "hion",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "hɪˈɒn"
     },
     {
       "word": "his girlfriend",
@@ -2079,29 +1986,6 @@
       "ipa": "hʊkt",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.611429,
-      "difficultySource": "zipf"
-    },
-    {
-      "word": "Huh",
-      "lemma": "huh",
-      "lemmaId": "huh",
-      "pos": "adjective",
-      "source": "word",
-      "wordKey": "huh_adjective",
-      "level": "A2",
-      "translations": {
-        "ru": {
-          "translation": "Хах"
-        }
-      },
-      "_spacyLemma": "huh",
-      "example": "“Huh,” Design said.",
-      "exampleStart": 2837,
-      "exampleEnd": 2856,
-      "matchedForm": "Huh",
-      "ipa": "hʌ",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.64,
       "difficultySource": "zipf"
     },
     {
@@ -2226,29 +2110,6 @@
       "ipa": "dʒʌŋk",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.708571,
-      "difficultySource": "zipf"
-    },
-    {
-      "word": "kind",
-      "lemma": "kind",
-      "lemmaId": "kind",
-      "pos": "adverb",
-      "source": "word",
-      "wordKey": "kind_adverb",
-      "level": "A1",
-      "translations": {
-        "ru": {
-          "translation": "вроде; отчасти"
-        }
-      },
-      "_spacyLemma": "kind",
-      "example": "Old lady sits in a room and squints at you, then tells you what kind of job you’ll like.",
-      "exampleStart": 1295,
-      "exampleEnd": 1383,
-      "matchedForm": "kind",
-      "ipa": "kaɪnd",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.302857,
       "difficultySource": "zipf"
     },
     {
@@ -2887,9 +2748,9 @@
       "word": "normally",
       "lemma": "normally",
       "lemmaId": "normally",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "normally_adjective",
+      "wordKey": "normally_adverb",
       "level": "A2",
       "translations": {
         "ru": {
@@ -2901,7 +2762,7 @@
       "exampleStart": 1551,
       "exampleEnd": 1589,
       "matchedForm": "normally",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.554286,
       "difficultySource": "zipf",
       "ipa": "ˈnɔːməli"
@@ -3892,26 +3753,25 @@
     },
     {
       "word": "sorting",
-      "lemma": "sort",
-      "lemmaId": "sort",
-      "pos": "adjective",
+      "lemma": "sorting",
+      "lemmaId": "sorting",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "sort_adjective",
+      "wordKey": "sorting_noun",
       "level": "B1",
       "translations": {
         "ru": {
           "translation": "Сортировка"
         }
       },
-      "_spacyLemma": "sort",
+      "_spacyLemma": "sorting",
       "example": "Guy needs a sorting system.",
       "exampleStart": 2143,
       "exampleEnd": 2170,
       "matchedForm": "sorting",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.431429,
-      "difficultySource": "zipf",
-      "ipa": "ˈsɔːtɪŋ"
+      "difficultySource": "zipf"
     },
     {
       "word": "soup",
@@ -4008,34 +3868,13 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "spiritweb",
-      "lemma": "spiritweb",
-      "lemmaId": "spiritweb",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "spiritweb_noun",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "духовная паутина"
-        }
-      },
-      "_spacyLemma": "spiritweb",
-      "example": "Can’t you see that I’m talking to a ghost and reading his girlfriend’s spiritweb?",
-      "exampleStart": 1834,
-      "exampleEnd": 1915,
-      "matchedForm": "spiritweb",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "ˈspɪrɪˌtweb"
-    },
-    {
       "word": "squints",
       "lemma": "squint",
       "lemmaId": "squint",
-      "pos": "noun",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "squint_noun",
-      "level": "A2",
+      "wordKey": "squint_verb",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "косоглазие"
@@ -4046,10 +3885,10 @@
       "exampleStart": 1295,
       "exampleEnd": 1383,
       "matchedForm": "squints",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf",
-      "ipa": "skwɪnts"
+      "ipa": "skwɪnt"
     },
     {
       "word": "stood",
@@ -4325,29 +4164,6 @@
       "exampleEnd": 833,
       "matchedForm": "things",
       "ipa": "θɪŋz",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.225714,
-      "difficultySource": "zipf"
-    },
-    {
-      "word": "thing",
-      "lemma": "thing",
-      "lemmaId": "thing",
-      "pos": "verb",
-      "source": "word",
-      "wordKey": "thing_verb",
-      "level": "A1",
-      "translations": {
-        "ru": {
-          "translation": "вещь"
-        }
-      },
-      "_spacyLemma": "thing",
-      "example": "“Very well,” Yumi replied, “but many things I assumed impossible proved to be entirely possible recently.",
-      "exampleStart": 728,
-      "exampleEnd": 833,
-      "matchedForm": "things",
-      "ipa": "θɪŋ",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.225714,
       "difficultySource": "zipf"
@@ -4668,9 +4484,9 @@
       "word": "waving",
       "lemma": "wave",
       "lemmaId": "wave",
-      "pos": "adjective",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "wave_adjective",
+      "wordKey": "wave_verb",
       "level": "A2",
       "translations": {
         "ru": {
@@ -4682,8 +4498,8 @@
       "exampleStart": 2773,
       "exampleEnd": 2835,
       "matchedForm": "waving",
-      "ipa": "ˈweɪvɪŋ",
-      "levelSource": "vocabulary_index",
+      "ipa": "weɪv",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.54,
       "difficultySource": "zipf"
     },

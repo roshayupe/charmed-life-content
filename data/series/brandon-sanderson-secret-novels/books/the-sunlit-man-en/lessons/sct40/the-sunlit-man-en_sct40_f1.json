@@ -21,12 +21,12 @@
       "wordCount": 485,
       "uniqueWordCount": 285,
       "paragraphCount": 13,
-      "vocabularyCount": 171,
+      "vocabularyCount": 167,
       "levelDistribution": {
         "A1": 57,
-        "A2": 31,
+        "A2": 30,
         "B1": 34,
-        "B2": 41,
+        "B2": 38,
         "C1": 7,
         "C2": 1
       }
@@ -423,9 +423,9 @@
       "word": "coming",
       "lemma": "come",
       "lemmaId": "come",
-      "pos": "adjective",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "come_adjective",
+      "wordKey": "come_verb",
       "level": "A1",
       "translations": {
         "ru": {
@@ -437,8 +437,8 @@
       "exampleStart": 1963,
       "exampleEnd": 2132,
       "matchedForm": "coming",
-      "ipa": "ˈkʌmɪŋ",
-      "levelSource": "vocabulary_index",
+      "ipa": "kʌm",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.208571,
       "difficultySource": "zipf"
     },
@@ -1366,10 +1366,10 @@
       "word": "hoarse",
       "lemma": "hoarse",
       "lemmaId": "hoarse",
-      "pos": "noun",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "hoarse_noun",
-      "level": "A2",
+      "wordKey": "hoarse_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "хриплый"
@@ -1380,7 +1380,7 @@
       "exampleStart": 1431,
       "exampleEnd": 1493,
       "matchedForm": "hoarse",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf",
       "ipa": "hɔːs"
@@ -1843,31 +1843,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "look in",
-      "lemma": "look in",
-      "lemmaId": "look_in",
-      "pos": "prepositional_verb",
-      "type": "prepositional_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "look_in_prepositional_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "заглянуть; посмотреть внутрь"
-        }
-      },
-      "example": "He took it, hesitant, worried about that look in her eyes.",
-      "exampleStart": 2438,
-      "exampleEnd": 2496,
-      "phraseMatch": {
-        "text": "look in",
-        "startInExample": 41,
-        "endInExample": 48
-      },
-      "ipa": "ˌlʊk ˈɪn",
-      "levelSource": "phrase_index"
-    },
-    {
       "word": "looking",
       "lemma": "look",
       "lemmaId": "look",
@@ -2066,26 +2041,25 @@
     },
     {
       "word": "offered",
-      "lemma": "offer",
-      "lemmaId": "offer",
+      "lemma": "offered",
+      "lemmaId": "offered",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "offer_adjective",
-      "level": "A2",
+      "wordKey": "offered_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "предложено"
         }
       },
-      "_spacyLemma": "offer",
+      "_spacyLemma": "offered",
       "example": "Taking this people’s offered warmth and love, all while leading them toward a lie.",
       "exampleStart": 1212,
       "exampleEnd": 1294,
       "matchedForm": "offered",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.417143,
-      "difficultySource": "zipf",
-      "ipa": "ˈɒfəd"
+      "difficultySource": "zipf"
     },
     {
       "word": "ones",
@@ -2558,27 +2532,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "ringlight",
-      "lemma": "ringlight",
-      "lemmaId": "ringlight",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "ringlight_noun",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "Кольцевой свет"
-        }
-      },
-      "_spacyLemma": "ringlight",
-      "example": "And as she joined him—pale face cast in ringlight, holding out that jacket—he realized she hadn’t been there earlier.",
-      "exampleStart": 2210,
-      "exampleEnd": 2327,
-      "matchedForm": "ringlight",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "ˈrɪŋɡlaɪt"
-    },
-    {
       "word": "rise",
       "lemma": "rise",
       "lemmaId": "rise",
@@ -2901,31 +2854,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "slipped off",
-      "lemma": "slip off",
-      "lemmaId": "slip_off",
-      "pos": "prepositional_verb",
-      "type": "prepositional_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "slip_off_prepositional_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "соскользнул"
-        }
-      },
-      "example": "She slipped off her glove, then held out her hand.",
-      "exampleStart": 2498,
-      "exampleEnd": 2548,
-      "phraseMatch": {
-        "text": "slipped off",
-        "startInExample": 4,
-        "endInExample": 15
-      },
-      "ipa": "ˌslɪpt ˈɒf",
-      "levelSource": "phrase_index"
-    },
-    {
       "word": "slipped",
       "lemma": "slip",
       "lemmaId": "slip",
@@ -3009,10 +2937,10 @@
       "word": "softly",
       "lemma": "softly",
       "lemmaId": "softly",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "softly_adjective",
-      "level": "B2",
+      "wordKey": "softly_adverb",
+      "level": "A2",
       "translations": {
         "ru": {
           "translation": "Мягко"
@@ -3024,7 +2952,7 @@
       "exampleEnd": 1663,
       "matchedForm": "softly",
       "ipa": "ˈsɒftli",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.782857,
       "difficultySource": "zipf"
     },
@@ -3823,9 +3751,9 @@
       "word": "underfoot",
       "lemma": "underfoot",
       "lemmaId": "underfoot",
-      "pos": "noun",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "underfoot_noun",
+      "wordKey": "underfoot_adverb",
       "level": "B2",
       "translations": {
         "ru": {
@@ -3838,7 +3766,7 @@
       "exampleEnd": 761,
       "matchedForm": "underfoot",
       "ipa": "ˌʌndəˈfʊt",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -4196,27 +4124,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.502857,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "Zellion",
-      "lemma": "zellion",
-      "lemmaId": "zellion",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "zellion_noun",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "Зеллион"
-        }
-      },
-      "_spacyLemma": "zellion",
-      "example": "Zellion hissed softly, frustration spoiling the moment.",
-      "exampleStart": 1608,
-      "exampleEnd": 1663,
-      "matchedForm": "Zellion",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "ˈzeliən"
     }
   ],
   "namedEntities": [

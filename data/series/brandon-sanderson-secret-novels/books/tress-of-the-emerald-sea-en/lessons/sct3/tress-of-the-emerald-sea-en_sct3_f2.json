@@ -21,13 +21,13 @@
       "wordCount": 500,
       "uniqueWordCount": 286,
       "paragraphCount": 17,
-      "vocabularyCount": 193,
+      "vocabularyCount": 192,
       "levelDistribution": {
         "A1": 53,
-        "A2": 46,
-        "B1": 41,
-        "B2": 41,
-        "C1": 10,
+        "A2": 43,
+        "B1": 42,
+        "B2": 43,
+        "C1": 9,
         "C2": 2
       }
     }
@@ -37,10 +37,10 @@
       "word": "abuzz",
       "lemma": "abuzz",
       "lemmaId": "abuzz",
-      "pos": "noun",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "abuzz_noun",
-      "level": "A2",
+      "wordKey": "abuzz_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "гул"
@@ -51,7 +51,7 @@
       "exampleStart": 2425,
       "exampleEnd": 2484,
       "matchedForm": "abuzz",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf",
       "ipa": "əˈbʌz"
@@ -475,26 +475,25 @@
     },
     {
       "word": "chattering",
-      "lemma": "chatter",
-      "lemmaId": "chatter",
+      "lemma": "chattering",
+      "lemmaId": "chattering",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "chatter_adjective",
+      "wordKey": "chattering_adjective",
       "level": "B2",
       "translations": {
         "ru": {
           "translation": "болтовня"
         }
       },
-      "_spacyLemma": "chatter",
+      "_spacyLemma": "chattering",
       "example": "Men swept dead spores off the path while people gathered in chattering knots.",
       "exampleStart": 2485,
       "exampleEnd": 2562,
       "matchedForm": "chattering",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.894286,
-      "difficultySource": "zipf",
-      "ipa": "ˈtʃætərɪŋ"
+      "difficultySource": "zipf"
     },
     {
       "word": "choked",
@@ -681,9 +680,9 @@
       "word": "day",
       "lemma": "day",
       "lemmaId": "day",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "day_adjective",
+      "wordKey": "day_noun",
       "level": "A1",
       "translations": {
         "ru": {
@@ -695,7 +694,7 @@
       "exampleStart": 2706,
       "exampleEnd": 2806,
       "matchedForm": "day",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.16,
       "difficultySource": "zipf",
       "ipa": "deɪ"
@@ -2256,10 +2255,10 @@
       "word": "lightning",
       "lemma": "lightning",
       "lemmaId": "lightning",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "lightning_adjective",
-      "level": "A2",
+      "wordKey": "lightning_noun",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "молниеносный; грозовой"
@@ -2271,7 +2270,7 @@
       "exampleEnd": 1745,
       "matchedForm": "lightning",
       "ipa": "ˈlaɪtnɪŋ",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.654286,
       "difficultySource": "zipf"
     },
@@ -2626,26 +2625,26 @@
     },
     {
       "word": "mimicking",
-      "lemma": "mimicking",
-      "lemmaId": "mimicking",
-      "pos": "adjective",
+      "lemma": "mimic",
+      "lemmaId": "mimic",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "mimicking_adjective",
-      "level": "C1",
+      "wordKey": "mimic_verb",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "Имитация"
         }
       },
-      "_spacyLemma": "mimicking",
+      "_spacyLemma": "mimic",
       "example": "” She followed it with a laugh that she choked on halfway through, exactly mimicking—by pure chance—the call of an elephant seal.",
       "exampleStart": 455,
       "exampleEnd": 584,
       "matchedForm": "mimicking",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 0.982857,
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.862857,
       "difficultySource": "zipf",
-      "ipa": "ˈmɪmɪkɪŋ"
+      "ipa": "ˈmɪmɪk"
     },
     {
       "word": "moment",
@@ -4398,29 +4397,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.457143,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "Tress",
-      "lemma": "tress",
-      "lemmaId": "tress",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "tress_noun",
-      "level": "A2",
-      "translations": {
-        "ru": {
-          "translation": "Тресс"
-        }
-      },
-      "_spacyLemma": "tress",
-      "example": "Tress searched for the perfect thing to say.",
-      "exampleStart": 0,
-      "exampleEnd": 44,
-      "matchedForm": "Tress",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "tres"
     },
     {
       "word": "trudged",

@@ -24,10 +24,10 @@
       "vocabularyCount": 162,
       "levelDistribution": {
         "A1": 35,
-        "A2": 46,
-        "B1": 37,
-        "B2": 36,
-        "C1": 5,
+        "A2": 45,
+        "B1": 35,
+        "B2": 38,
+        "C1": 6,
         "C2": 3
       }
     }
@@ -37,10 +37,10 @@
       "word": "aether",
       "lemma": "aether",
       "lemmaId": "aether",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "aether_adjective",
-      "level": "B1",
+      "wordKey": "aether_noun",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "эфир"
@@ -51,7 +51,7 @@
       "exampleStart": 1839,
       "exampleEnd": 1921,
       "matchedForm": "aether",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf",
       "ipa": "ˈiːθə"
@@ -801,26 +801,26 @@
     },
     {
       "word": "cringing",
-      "lemma": "cringing",
-      "lemmaId": "cringing",
-      "pos": "noun",
+      "lemma": "cringe",
+      "lemmaId": "cringe",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "cringing_noun",
-      "level": "B1",
+      "wordKey": "cringe_verb",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "Морщиться"
         }
       },
-      "_spacyLemma": "cringing",
+      "_spacyLemma": "cringe",
       "example": "He’d pulled back against the far corner of his cage, cringing and shivering.",
       "exampleStart": 385,
       "exampleEnd": 461,
       "matchedForm": "cringing",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 1,
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.848571,
       "difficultySource": "zipf",
-      "ipa": "ˈkrɪndʒɪŋ"
+      "ipa": "krɪndʒ"
     },
     {
       "word": "crossed",
@@ -2976,26 +2976,25 @@
     },
     {
       "word": "screaming",
-      "lemma": "scream",
-      "lemmaId": "scream",
+      "lemma": "screaming",
+      "lemmaId": "screaming",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "scream_adjective",
-      "level": "B1",
+      "wordKey": "screaming_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "крики"
         }
       },
-      "_spacyLemma": "scream",
+      "_spacyLemma": "screaming",
       "example": "The deck above clamored with the sounds of scrambling feet and screaming men.",
       "exampleStart": 255,
       "exampleEnd": 332,
       "matchedForm": "screaming",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.677143,
-      "difficultySource": "zipf",
-      "ipa": "ˈskriːmɪŋ"
+      "difficultySource": "zipf"
     },
     {
       "word": "second",
@@ -3116,26 +3115,26 @@
     },
     {
       "word": "shivering",
-      "lemma": "shivering",
-      "lemmaId": "shivering",
-      "pos": "noun",
+      "lemma": "shiver",
+      "lemmaId": "shiver",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "shivering_noun",
-      "level": "B2",
+      "wordKey": "shiver_verb",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "дрожь"
         }
       },
-      "_spacyLemma": "shivering",
+      "_spacyLemma": "shiver",
       "example": "He’d pulled back against the far corner of his cage, cringing and shivering.",
       "exampleStart": 385,
       "exampleEnd": 461,
       "matchedForm": "shivering",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 0.962857,
+      "levelSource": "cefr_reference",
+      "difficultyScore": 0.988571,
       "difficultySource": "zipf",
-      "ipa": "ˈʃɪvərɪŋ"
+      "ipa": "ˈʃɪvə"
     },
     {
       "word": "shot",
@@ -3962,10 +3961,10 @@
       "word": "wince",
       "lemma": "wince",
       "lemmaId": "wince",
-      "pos": "noun",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "wince_noun",
-      "level": "A2",
+      "wordKey": "wince_verb",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "Поморщиться"
@@ -3976,7 +3975,7 @@
       "exampleStart": 1416,
       "exampleEnd": 1500,
       "matchedForm": "wince",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf",
       "ipa": "wɪns"

@@ -21,14 +21,14 @@
       "wordCount": 527,
       "uniqueWordCount": 317,
       "paragraphCount": 12,
-      "vocabularyCount": 209,
+      "vocabularyCount": 205,
       "levelDistribution": {
-        "A1": 50,
-        "A2": 51,
-        "B1": 46,
-        "B2": 47,
-        "C1": 10,
-        "C2": 5
+        "A1": 49,
+        "A2": 50,
+        "B1": 44,
+        "B2": 46,
+        "C1": 9,
+        "C2": 7
       }
     }
   },
@@ -376,29 +376,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "BEUs",
-      "lemma": "beu",
-      "lemmaId": "beu",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "beu_noun",
-      "level": "A1",
-      "translations": {
-        "ru": {
-          "translation": "единица Инвеституры"
-        }
-      },
-      "_spacyLemma": "beu",
-      "example": "”\n\nThis will give you a few hundred BEUs.",
-      "exampleStart": 1199,
-      "exampleEnd": 1240,
-      "matchedForm": "BEUs",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "bjuː"
-    },
-    {
       "word": "blocked",
       "lemma": "block",
       "lemmaId": "block",
@@ -425,10 +402,10 @@
       "word": "bo",
       "lemma": "bo",
       "lemmaId": "bo",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "bo_adjective",
-      "level": "A2",
+      "wordKey": "bo_noun",
+      "level": "C2",
       "translations": {
         "ru": {
           "translation": "бо"
@@ -439,7 +416,7 @@
       "exampleStart": 451,
       "exampleEnd": 554,
       "matchedForm": "bo",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.717143,
       "difficultySource": "zipf",
       "ipa": "bəʊ"
@@ -537,48 +514,27 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "cinderheart",
-      "lemma": "cinderheart",
-      "lemmaId": "cinderheart",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "cinderheart_noun",
-      "level": "C1",
-      "translations": {
-        "ru": {
-          "translation": "углесердце"
-        }
-      },
-      "_spacyLemma": "cinderheart",
-      "example": "Even the one he’d punched earlier stood up, his cinderheart flaring with passion.",
-      "exampleStart": 1383,
-      "exampleEnd": 1464,
-      "matchedForm": "cinderheart",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "ˈsɪndəˌhɑːt"
-    },
-    {
       "word": "clambering",
-      "lemma": "clambering",
-      "lemmaId": "clambering",
-      "pos": "noun",
+      "lemma": "clamber",
+      "lemmaId": "clamber",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "clambering_noun",
-      "level": "B2",
+      "wordKey": "clamber_verb",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "Карабкание"
         }
       },
-      "_spacyLemma": "clambering",
+      "_spacyLemma": "clamber",
       "example": "The Charred clambering onto the deck howled and shouted at him, which served—beautifully—to draw the attention of the ones inside the ship.",
       "exampleStart": 0,
       "exampleEnd": 139,
       "matchedForm": "clambering",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf",
-      "ipa": "ˈklæmbərɪŋ"
+      "ipa": "ˈklæmbə"
     },
     {
       "word": "cocked",
@@ -1651,12 +1607,12 @@
     },
     {
       "word": "Glowing",
-      "lemma": "glow",
-      "lemmaId": "glow",
+      "lemma": "glowing",
+      "lemmaId": "glowing",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "glow_adjective",
-      "level": "C1",
+      "wordKey": "glowing_adjective",
+      "level": "C2",
       "translations": {
         "de": {
           "translation": "glühend"
@@ -1671,14 +1627,14 @@
           "translation": "сяючий"
         }
       },
-      "_spacyLemma": "glow",
+      "_spacyLemma": "glowing",
       "example": "Glowing cinderhearts lit the deck like a fading midnight campfire—washed out occasionally by white lightning from above.",
       "exampleStart": 2032,
       "exampleEnd": 2152,
       "matchedForm": "Glowing",
       "ipa": "ˈɡləʊɪŋ",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.742857,
+      "levelSource": "cefr_reference",
+      "difficultyScore": 0.788571,
       "difficultySource": "zipf"
     },
     {
@@ -2966,9 +2922,9 @@
       "word": "occasionally",
       "lemma": "occasionally",
       "lemmaId": "occasionally",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "occasionally_adjective",
+      "wordKey": "occasionally_adverb",
       "level": "B1",
       "translations": {
         "ru": {
@@ -2981,17 +2937,17 @@
       "exampleEnd": 2152,
       "matchedForm": "occasionally",
       "ipa": "əˈkeɪʒənəli",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.605714,
       "difficultySource": "zipf"
     },
     {
       "word": "odds",
-      "lemma": "odd",
-      "lemmaId": "odd",
+      "lemma": "odds",
+      "lemmaId": "odds",
       "pos": "noun",
       "source": "word",
-      "wordKey": "odd_noun",
+      "wordKey": "odds_noun",
       "level": "B2",
       "translations": {
         "de": {
@@ -3007,13 +2963,12 @@
           "translation": "дивний"
         }
       },
-      "_spacyLemma": "odd",
+      "_spacyLemma": "odds",
       "example": "Bad odds, even for one such as him.",
       "exampleStart": 1481,
       "exampleEnd": 1516,
       "matchedForm": "odds",
-      "ipa": "ɒdz",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.597143,
       "difficultySource": "zipf"
     },
@@ -4118,24 +4073,23 @@
     },
     {
       "word": "smothered",
-      "lemma": "smother",
-      "lemmaId": "smother",
+      "lemma": "smothered",
+      "lemmaId": "smothered",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "smother_adjective",
+      "wordKey": "smothered_adjective",
       "level": "B2",
       "translations": {
         "ru": {
           "translation": "удушающий"
         }
       },
-      "_spacyLemma": "smother",
+      "_spacyLemma": "smothered",
       "example": "His worst danger here was getting pulled down, smothered, overwhelmed.",
       "exampleStart": 1632,
       "exampleEnd": 1702,
       "matchedForm": "smothered",
-      "ipa": "ˈsmʌðəd",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -4445,27 +4399,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "sunheart",
-      "lemma": "sunheart",
-      "lemmaId": "sunheart",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "sunheart_noun",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "Санхарт"
-        }
-      },
-      "_spacyLemma": "sunheart",
-      "example": "He made a hole in the haft the proper size, then slid the offworlder’s sunheart inside so he could touch it while holding the weapon.",
-      "exampleStart": 702,
-      "exampleEnd": 835,
-      "matchedForm": "sunheart",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "ˈsʌnhɑːt"
-    },
-    {
       "word": "superior",
       "lemma": "superior",
       "lemmaId": "superior",
@@ -4581,29 +4514,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.62,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "swung",
-      "lemma": "swung",
-      "lemmaId": "swung",
-      "pos": "adjective",
-      "source": "word",
-      "wordKey": "swung_adjective",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "Замахнулся"
-        }
-      },
-      "_spacyLemma": "swung",
-      "example": "Three swung batons, which Nomad expertly deflected, his muscles—and soul—as eager for this as he was.",
-      "exampleStart": 2153,
-      "exampleEnd": 2254,
-      "matchedForm": "swung",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 0.868571,
-      "difficultySource": "zipf",
-      "ipa": "swʌŋ"
     },
     {
       "word": "told",

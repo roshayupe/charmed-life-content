@@ -21,13 +21,13 @@
       "wordCount": 729,
       "uniqueWordCount": 400,
       "paragraphCount": 21,
-      "vocabularyCount": 288,
+      "vocabularyCount": 284,
       "levelDistribution": {
         "A1": 50,
         "A2": 72,
-        "B1": 111,
-        "B2": 43,
-        "C1": 11,
+        "B1": 108,
+        "B2": 41,
+        "C1": 12,
         "C2": 1
       }
     }
@@ -152,23 +152,27 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "add",
+      "word": "adds",
       "lemma": "add",
       "lemmaId": "add",
-      "pos": "noun",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "add_noun",
+      "wordKey": "add_verb",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "добавлять"
+        }
+      },
       "_spacyLemma": "add",
       "example": "It adds to the originality of your Personal Wizard Dimension™.",
       "exampleStart": 3637,
       "exampleEnd": 3699,
       "matchedForm": "adds",
-      "levelSource": "cefr_frequency",
+      "ipa": "ædz",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.405714,
-      "difficultySource": "zipf",
-      "ipa": "æd"
+      "difficultySource": "zipf"
     },
     {
       "word": "add-ons",
@@ -216,29 +220,6 @@
       },
       "ipa": "ˈædz tuː",
       "levelSource": "phrase_index"
-    },
-    {
-      "word": "adds",
-      "lemma": "add",
-      "lemmaId": "add",
-      "pos": "verb",
-      "source": "word",
-      "wordKey": "add_verb",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "добавлять"
-        }
-      },
-      "_spacyLemma": "add",
-      "example": "It adds to the originality of your Personal Wizard Dimension™.",
-      "exampleStart": 3637,
-      "exampleEnd": 3699,
-      "matchedForm": "adds",
-      "ipa": "ædz",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.405714,
-      "difficultySource": "zipf"
     },
     {
       "word": "additional",
@@ -1105,17 +1086,17 @@
       "word": "deeply",
       "lemma": "deeply",
       "lemmaId": "deeply",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "deeply_adjective",
-      "level": "B1",
+      "wordKey": "deeply_adverb",
+      "level": "A2",
       "translations": {},
       "_spacyLemma": "deeply",
       "example": "Short version: We think a large migration of Norman refugees came to Great Britain sometime in the distant past, deeply influencing local linguistics.",
       "exampleStart": 2558,
       "exampleEnd": 2708,
       "matchedForm": "deeply",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.591429,
       "difficultySource": "zipf",
       "ipa": "ˈdiːpli"
@@ -2156,9 +2137,9 @@
       "word": "historian",
       "lemma": "historian",
       "lemmaId": "historian",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "historian_adjective",
+      "wordKey": "historian_noun",
       "level": "B1",
       "translations": {},
       "_spacyLemma": "historian",
@@ -2166,7 +2147,7 @@
       "exampleStart": 2434,
       "exampleEnd": 2557,
       "matchedForm": "historian",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.745714,
       "difficultySource": "zipf",
       "ipa": "hɪˈstɔːriən"
@@ -2253,9 +2234,9 @@
       "word": "imprecise",
       "lemma": "imprecise",
       "lemmaId": "imprecise",
-      "pos": "noun",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "imprecise_noun",
+      "wordKey": "imprecise_adjective",
       "level": "B2",
       "translations": {
         "ru": {
@@ -2268,7 +2249,7 @@
       "exampleEnd": 383,
       "matchedForm": "imprecise",
       "ipa": "ˌɪmprɪˈsaɪs",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -2695,25 +2676,6 @@
       "ipa": "ˈdʒɑːɡən"
     },
     {
-      "word": "jumbo",
-      "lemma": "jumbo",
-      "lemmaId": "jumbo",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "jumbo_noun",
-      "level": "A2",
-      "translations": {},
-      "_spacyLemma": "jumbo",
-      "example": "There’s a lot of dry, scientific, historian mumbo jumbo theorizing on what probably occurred to allow this linguistic feat.",
-      "exampleStart": 2434,
-      "exampleEnd": 2557,
-      "matchedForm": "jumbo",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 0.894286,
-      "difficultySource": "zipf",
-      "ipa": "ˈdʒʌmbəʊ"
-    },
-    {
       "word": "kind",
       "lemma": "kind",
       "lemmaId": "kind",
@@ -3091,29 +3053,6 @@
       },
       "levelSource": "phrase_fallback",
       "ipa": "lɪŋɡˌwɪstɪk ˈfiːt"
-    },
-    {
-      "word": "linguistics",
-      "lemma": "linguistic",
-      "lemmaId": "linguistic",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "linguistic_noun",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "Лингвистика"
-        }
-      },
-      "_spacyLemma": "linguistic",
-      "example": "There’s a lot of dry, scientific, historian mumbo jumbo theorizing on what probably occurred to allow this linguistic feat.",
-      "exampleStart": 2434,
-      "exampleEnd": 2557,
-      "matchedForm": "linguistic",
-      "ipa": "lɪŋɡˈwɪstɪks",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.8,
-      "difficultySource": "zipf"
     },
     {
       "word": "list",
@@ -3510,25 +3449,6 @@
       },
       "ipa": "ˌmʌmbəʊ ˈdʒʌmbəʊ",
       "levelSource": "phrase_index"
-    },
-    {
-      "word": "mumbo",
-      "lemma": "mumbo",
-      "lemmaId": "mumbo",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "mumbo_noun",
-      "level": "A2",
-      "translations": {},
-      "_spacyLemma": "mumbo",
-      "example": "There’s a lot of dry, scientific, historian mumbo jumbo theorizing on what probably occurred to allow this linguistic feat.",
-      "exampleStart": 2434,
-      "exampleEnd": 2557,
-      "matchedForm": "mumbo",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "ˈmʌmbəʊ"
     },
     {
       "word": "nanites",
@@ -4622,24 +4542,23 @@
     },
     {
       "word": "reduced",
-      "lemma": "reduce",
-      "lemmaId": "reduce",
+      "lemma": "reduced",
+      "lemmaId": "reduced",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "reduce_adjective",
+      "wordKey": "reduced_adjective",
       "level": "B1",
       "translations": {
         "ru": {
           "translation": "уменьшен"
         }
       },
-      "_spacyLemma": "reduce",
+      "_spacyLemma": "reduced",
       "example": "3 Dimensions with intelligible variations on Old English, Latin, Gaelic, Middle English, and various Celtic, Germanic, and Brittonic languages are available for a reduced price.",
       "exampleStart": 3701,
       "exampleEnd": 3878,
       "matchedForm": "reduced",
-      "ipa": "rɪˈdjuːst",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.508571,
       "difficultySource": "zipf"
     },
@@ -5416,17 +5335,17 @@
       "word": "steeply",
       "lemma": "steeply",
       "lemmaId": "steeply",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "steeply_adjective",
-      "level": "B2",
+      "wordKey": "steeply_adverb",
+      "level": "C1",
       "translations": {},
       "_spacyLemma": "steeply",
       "example": "Pandemic dimensions are available at a steeply reduced price, depending on the severity of the pandemic.",
       "exampleStart": 4576,
       "exampleEnd": 4680,
       "matchedForm": "steeply",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf",
       "ipa": "ˈstiːpli"
@@ -5904,10 +5823,10 @@
       "word": "unfortunately",
       "lemma": "unfortunately",
       "lemmaId": "unfortunately",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "unfortunately_adjective",
-      "level": "B2",
+      "wordKey": "unfortunately_adverb",
+      "level": "A2",
       "translations": {
         "ru": {
           "translation": "К сожалению"
@@ -5919,7 +5838,7 @@
       "exampleEnd": 383,
       "matchedForm": "unfortunately",
       "ipa": "ʌnˈfɔːtʃənətli",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.54,
       "difficultySource": "zipf"
     },

@@ -21,13 +21,13 @@
       "wordCount": 604,
       "uniqueWordCount": 354,
       "paragraphCount": 23,
-      "vocabularyCount": 203,
+      "vocabularyCount": 199,
       "levelDistribution": {
         "A1": 57,
-        "A2": 44,
-        "B1": 46,
-        "B2": 46,
-        "C1": 9,
+        "A2": 42,
+        "B1": 47,
+        "B2": 44,
+        "C1": 8,
         "C2": 1
       }
     }
@@ -95,23 +95,6 @@
       "difficultyScore": 0.554286,
       "difficultySource": "zipf",
       "ipa": "əˈkædəmi"
-    },
-    {
-      "word": "aelv",
-      "lemma": "aelv",
-      "lemmaId": "aelv",
-      "pos": "adjective",
-      "source": "word",
-      "wordKey": "aelv_adjective",
-      "level": "A2",
-      "translations": {},
-      "_spacyLemma": "aelv",
-      "example": "“Used the aelv stunning device on you.",
-      "exampleStart": 1512,
-      "exampleEnd": 1550,
-      "matchedForm": "aelv",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "eɪlv"
     },
     {
       "word": "age",
@@ -873,17 +856,17 @@
       "word": "detective",
       "lemma": "detective",
       "lemmaId": "detective",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "detective_adjective",
-      "level": "C1",
+      "wordKey": "detective_noun",
+      "level": "B1",
       "translations": {},
       "_spacyLemma": "detective",
       "example": "Ryan Chu, detective extraordinaire, star of the Seattle PD Anti-Cartel and Illegal Augments Division.",
       "exampleStart": 160,
       "exampleEnd": 261,
       "matchedForm": "detective",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.657143,
       "difficultySource": "zipf",
       "ipa": "dɪˈtektɪv"
@@ -1797,38 +1780,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "hated",
-      "lemma": "hat",
-      "lemmaId": "hat",
-      "pos": "verb",
-      "source": "word",
-      "wordKey": "hat_verb",
-      "level": "B2",
-      "translations": {
-        "de": {
-          "translation": "hassend"
-        },
-        "es": {
-          "translation": "odiando"
-        },
-        "ru": {
-          "translation": "шляпа"
-        },
-        "uk": {
-          "translation": "ненавидя"
-        }
-      },
-      "_spacyLemma": "hat",
-      "example": "Worst part was, you couldn’t hate the guy, because he was so damned nice.",
-      "exampleStart": 368,
-      "exampleEnd": 441,
-      "matchedForm": "hate",
-      "ipa": "ˈheɪtɪd",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.565714,
-      "difficultySource": "zipf"
-    },
-    {
       "word": "hate",
       "lemma": "hate",
       "lemmaId": "hate",
@@ -1839,6 +1790,15 @@
       "translations": {
         "ru": {
           "translation": "ненависть"
+        },
+        "de": {
+          "translation": "hassend"
+        },
+        "es": {
+          "translation": "odiando"
+        },
+        "uk": {
+          "translation": "ненавидя"
         }
       },
       "_spacyLemma": "hate",
@@ -3150,25 +3110,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "pointed",
-      "lemma": "point",
-      "lemmaId": "point",
-      "pos": "adjective",
-      "source": "word",
-      "wordKey": "point_adjective",
-      "level": "A2",
-      "translations": {},
-      "_spacyLemma": "point",
-      "example": "”\n\n“That’s the point.",
-      "exampleStart": 3238,
-      "exampleEnd": 3259,
-      "matchedForm": "point",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.277143,
-      "difficultySource": "zipf",
-      "ipa": "ˈpɔɪntɪd"
-    },
-    {
       "word": "point",
       "lemma": "point",
       "lemmaId": "point",
@@ -3243,31 +3184,6 @@
       },
       "levelSource": "phrase_index",
       "ipa": "ˌpʊld ˈɪn"
-    },
-    {
-      "word": "pulled to",
-      "lemma": "pull to",
-      "lemmaId": "pull_to",
-      "pos": "prepositional_verb",
-      "type": "prepositional_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "pull_to_prepositional_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "притягивать к"
-        }
-      },
-      "example": "I pulled to an abrupt stop.",
-      "exampleStart": 0,
-      "exampleEnd": 27,
-      "phraseMatch": {
-        "text": "pulled to",
-        "startInExample": 2,
-        "endInExample": 11
-      },
-      "ipa": "ˈpʊld tuː",
-      "levelSource": "phrase_index"
     },
     {
       "word": "pulled",

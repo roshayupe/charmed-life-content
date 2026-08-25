@@ -24,10 +24,10 @@
       "vocabularyCount": 175,
       "levelDistribution": {
         "A1": 55,
-        "A2": 31,
-        "B1": 29,
-        "B2": 51,
-        "C1": 8,
+        "A2": 29,
+        "B1": 32,
+        "B2": 49,
+        "C1": 9,
         "C2": 1
       }
     }
@@ -221,7 +221,10 @@
         "endInExample": 23
       },
       "ipa": "ˌbækt əˈweɪ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "backed",
@@ -301,7 +304,9 @@
         "endInExample": 103
       },
       "ipa": "ˌbæleɪ ˈskɜːt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "began",
@@ -569,7 +574,10 @@
         "endInExample": 9
       },
       "ipa": "ˌkæri ˈɒn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "Carry",
@@ -649,7 +657,10 @@
         "endInExample": 65
       },
       "ipa": "ˌkliərɪŋ ˈʌp",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "clearing",
@@ -710,32 +721,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "course",
-      "lemma": "course",
-      "lemmaId": "course",
-      "pos": "adverb",
-      "source": "word",
-      "wordKey": "course_adverb",
-      "level": "A2",
-      "translations": {
-        "ru": {
-          "translation": "конечно"
-        },
-        "uk": {
-          "translation": "Звичайно"
-        }
-      },
-      "_spacyLemma": "course",
-      "example": "”\n\n“Of course he has plans — and I heard it — why do you think I wrote to Chrestomanci?",
-      "exampleStart": 1487,
-      "exampleEnd": 1574,
-      "matchedForm": "course",
-      "ipa": "kɔːs",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.305714,
-      "difficultySource": "zipf"
-    },
-    {
       "word": "cross",
       "lemma": "cross",
       "lemmaId": "cross",
@@ -763,12 +748,12 @@
     },
     {
       "word": "darning",
-      "lemma": "darn",
-      "lemmaId": "darn",
+      "lemma": "darning",
+      "lemmaId": "darning",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "darn_adjective",
-      "level": "A2",
+      "wordKey": "darning_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "штопаный"
@@ -777,13 +762,12 @@
           "translation": "Чорт забирай"
         }
       },
-      "_spacyLemma": "darn",
+      "_spacyLemma": "darning",
       "example": "Everyone could see where Julia had torn a flounce of a petticoat building the tree house and mended it in a hurry with red darning wool.",
       "exampleStart": 2617,
       "exampleEnd": 2753,
       "matchedForm": "darning",
-      "ipa": "ˈdɑːnɪŋ",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.828571,
       "difficultySource": "zipf"
     },
@@ -818,16 +802,16 @@
       "lemma": "dead silence",
       "lemmaId": "dead_silence",
       "pos": "phrase",
-      "type": "phrase",
-      "source": "spacy_phrase",
+      "type": "collocation",
+      "source": "manual_mwe",
       "wordKey": "dead_silence_phrase",
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "Мёртвая тишина"
+          "translation": "мёртвая тишина"
         },
         "uk": {
-          "translation": "Мертва тиша"
+          "translation": "мертва тиша"
         }
       },
       "example": "Then there was dead silence, except for the hissing of snakes.",
@@ -839,7 +823,17 @@
         "endInExample": 27
       },
       "ipa": "ˌded ˈsaɪləns",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "syntacticForm": "noun_phrase",
+      "mweType": "collocation",
+      "definition": "collocation used as one lexical expression in this context.",
+      "exampleTranslation": "мёртвая тишина",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "мертва тиша"
+        }
+      }
     },
     {
       "word": "dinner",
@@ -893,7 +887,9 @@
         "endInExample": 162
       },
       "ipa": "ˌdɪnə ˈteɪbəl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "door",
@@ -951,10 +947,10 @@
       "word": "dressing",
       "lemma": "dressing",
       "lemmaId": "dressing",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "dressing_adjective",
-      "level": "B2",
+      "wordKey": "dressing_noun",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "одевающийся; перевязочный"
@@ -969,7 +965,7 @@
       "exampleEnd": 662,
       "matchedForm": "dressing",
       "ipa": "ˈdresɪŋ",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.668571,
       "difficultySource": "zipf"
     },
@@ -999,7 +995,9 @@
         "endInExample": 25
       },
       "ipa": "ˌdresɪŋ ˈɡɒŋ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "exclaimed",
@@ -1149,7 +1147,10 @@
         "endInExample": 55
       },
       "ipa": "ˌfænd ˈaʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "fanned",
@@ -1261,7 +1262,9 @@
         "endInExample": 127
       },
       "ipa": "ˌfæt ˈprɪɡ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "filled",
@@ -1315,7 +1318,10 @@
         "endInExample": 55
       },
       "ipa": "ˌfaɪnd ˈaʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "find",
@@ -1595,7 +1601,10 @@
         "endInExample": 8
       },
       "ipa": "ˌɡəʊ əˈweɪ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "went",
@@ -1649,7 +1658,10 @@
         "endInExample": 77
       },
       "ipa": "ˈwent wɪð",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "gong",
@@ -1703,7 +1715,9 @@
         "endInExample": 25
       },
       "ipa": "ˌɡʊd ˈɡɜːl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "green",
@@ -1887,7 +1901,9 @@
         "endInExample": 40
       },
       "ipa": "hɜː ˈɑːmz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her face",
@@ -1915,7 +1931,9 @@
         "endInExample": 26
       },
       "ipa": "hɜː ˈfeɪs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her knitting needle",
@@ -1943,7 +1961,9 @@
         "endInExample": 53
       },
       "ipa": "hɜː ˌnɪtɪŋ ˈniːdəl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his head",
@@ -1971,7 +1991,9 @@
         "endInExample": 19
       },
       "ipa": "hɪz ˈhed",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "hissing",
@@ -2083,7 +2105,10 @@
         "endInExample": 15
       },
       "ipa": "ˌdʒʌmpt ˈʌp",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "jumped",
@@ -2115,10 +2140,10 @@
       "word": "knitting",
       "lemma": "knitting",
       "lemmaId": "knitting",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "knitting_adjective",
-      "level": "B2",
+      "wordKey": "knitting_noun",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "вязальный; вяжущий"
@@ -2133,7 +2158,7 @@
       "exampleEnd": 205,
       "matchedForm": "knitting",
       "ipa": "ˈnɪtɪŋ",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.874286,
       "difficultySource": "zipf"
     },
@@ -2163,7 +2188,9 @@
         "endInExample": 40
       },
       "ipa": "ˌnɪtɪŋ ˈniːdəl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "know",
@@ -2353,7 +2380,9 @@
         "endInExample": 83
       },
       "ipa": "ˌlɪtəl ˈkrɒs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "lowered",
@@ -2587,7 +2616,9 @@
         "endInExample": 81
       },
       "ipa": "maɪ ˈmaɪnd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "need",
@@ -3095,7 +3126,10 @@
         "endInExample": 146
       },
       "ipa": "ˌsend əˈweɪ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "send",
@@ -3486,32 +3520,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "sorrier",
-      "lemma": "sorrier",
-      "lemmaId": "sorrier",
-      "pos": "adjective",
-      "source": "word",
-      "wordKey": "sorrier_adjective",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "сорриер"
-        },
-        "uk": {
-          "translation": "Вибачте"
-        }
-      },
-      "_spacyLemma": "sorrier",
-      "example": "And piggy-priggy Julia is going to be sorrier even sooner!",
-      "exampleStart": 1688,
-      "exampleEnd": 1746,
-      "matchedForm": "sorrier",
-      "ipa": "ˈsɒriə",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 1,
-      "difficultySource": "zipf"
-    },
-    {
       "word": "sorry",
       "lemma": "sorry",
       "lemmaId": "sorry",
@@ -3675,11 +3683,11 @@
     },
     {
       "word": "spilled",
-      "lemma": "spill",
-      "lemmaId": "spill",
+      "lemma": "spilled",
+      "lemmaId": "spilled",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "spill_adjective",
+      "wordKey": "spilled_adjective",
       "level": "B1",
       "translations": {
         "ru": {
@@ -3689,13 +3697,12 @@
           "translation": "пролитий; розсіяний"
         }
       },
-      "_spacyLemma": "spill",
+      "_spacyLemma": "spilled",
       "example": "While the footmen, all rather green in the face, were clearing up the spilled soup, Chrestomanci said, “Spitefulness is one thing I won’t have at the dinner table.",
       "exampleStart": 2977,
       "exampleEnd": 3140,
       "matchedForm": "spilled",
-      "ipa": "spɪld",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.762857,
       "difficultySource": "zipf"
     },
@@ -3839,9 +3846,9 @@
       "word": "stiffly",
       "lemma": "stiffly",
       "lemmaId": "stiffly",
-      "pos": "verb",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "stiffly_verb",
+      "wordKey": "stiffly_adverb",
       "level": "B2",
       "translations": {
         "ru": {
@@ -3857,7 +3864,7 @@
       "exampleEnd": 2319,
       "matchedForm": "stiffly",
       "ipa": "ˈstɪfli",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -3887,7 +3894,10 @@
         "endInExample": 22
       },
       "ipa": "ˌstretʃt ˈaʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "stretched",
@@ -4103,7 +4113,9 @@
         "endInExample": 32
       },
       "ipa": "ðeə ˈhedz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "their hearts",
@@ -4131,7 +4143,9 @@
         "endInExample": 25
       },
       "ipa": "ðeə ˈhɑːts",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "their tails",
@@ -4159,7 +4173,9 @@
         "endInExample": 49
       },
       "ipa": "ðeə ˈteɪlz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "thing",
@@ -4303,7 +4319,9 @@
         "endInExample": 88
       },
       "ipa": "ˌtriː ˈhaʊs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "tree",
@@ -4383,7 +4401,10 @@
         "endInExample": 105
       },
       "ipa": "ˈtɜːnd tuː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "turned",
@@ -4813,7 +4834,83 @@
         "endInExample": 9
       },
       "ipa": "jɔː ˈfuːd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
+    },
+    {
+      "word": "at first",
+      "lemma": "at first",
+      "lemmaId": "at_first",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "adverb_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "сначала"
+        },
+        "uk": {
+          "translation": "спочатку"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "Gwendolen was very busy reading a fat, new-looking book and could not spare him any attention at first. Cat tipped his head sideways and read the title of the book.",
+      "exampleStart": 663,
+      "exampleEnd": 827,
+      "exampleTranslation": "сначала",
+      "phraseMatch": {
+        "text": "at first",
+        "startInExample": 94,
+        "endInExample": 102
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "at_first_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "спочатку"
+        }
+      }
+    },
+    {
+      "word": "out of reach",
+      "lemma": "out of reach",
+      "lemmaId": "out_of_reach",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "prepositional_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "за пределы досягаемости"
+        },
+        "uk": {
+          "translation": "поза досяжністю"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "Julia stood like a statue, with her arms up out of reach of the snakes.",
+      "exampleStart": 2320,
+      "exampleEnd": 2391,
+      "exampleTranslation": "за пределы досягаемости",
+      "phraseMatch": {
+        "text": "out of reach",
+        "startInExample": 44,
+        "endInExample": 56
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "out_of_reach_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "поза досяжністю"
+        }
+      }
     }
   ],
   "namedEntities": [

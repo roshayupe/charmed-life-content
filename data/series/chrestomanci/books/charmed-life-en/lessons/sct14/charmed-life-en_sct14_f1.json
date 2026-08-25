@@ -21,13 +21,13 @@
       "wordCount": 659,
       "uniqueWordCount": 320,
       "paragraphCount": 11,
-      "vocabularyCount": 206,
+      "vocabularyCount": 203,
       "levelDistribution": {
         "A1": 59,
-        "A2": 35,
-        "B1": 37,
+        "A2": 31,
+        "B1": 39,
         "B2": 60,
-        "C1": 14,
+        "C1": 13,
         "C2": 1
       }
     }
@@ -319,7 +319,9 @@
         "endInExample": 134
       },
       "ipa": "ˌblæk ˌʌndəˈsaɪd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "blazing",
@@ -573,7 +575,10 @@
         "endInExample": 49
       },
       "ipa": "ˈbɜːst ˌɪntʊ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "burst out",
@@ -601,7 +606,10 @@
         "endInExample": 14
       },
       "ipa": "ˌbɜːst ˈaʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "burst out",
@@ -629,7 +637,10 @@
         "endInExample": 16
       },
       "ipa": "ˌbɜːst ˈaʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "burst",
@@ -877,7 +888,9 @@
         "endInExample": 71
       },
       "ipa": "ˌkəʊld ˈwɔːtə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "came down",
@@ -905,7 +918,10 @@
         "endInExample": 12
       },
       "ipa": "ˌkeɪm ˈdaʊn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "came through",
@@ -933,7 +949,10 @@
         "endInExample": 65
       },
       "ipa": "ˌkeɪm ˈθruː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "came",
@@ -994,32 +1013,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "course",
-      "lemma": "course",
-      "lemmaId": "course",
-      "pos": "adverb",
-      "source": "word",
-      "wordKey": "course_adverb",
-      "level": "A2",
-      "translations": {
-        "ru": {
-          "translation": "конечно"
-        },
-        "uk": {
-          "translation": "Звичайно"
-        }
-      },
-      "_spacyLemma": "course",
-      "example": "”\n\n“Of course.",
-      "exampleStart": 2644,
-      "exampleEnd": 2658,
-      "matchedForm": "course",
-      "ipa": "kɔːs",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.305714,
-      "difficultySource": "zipf"
-    },
-    {
       "word": "covering",
       "lemma": "cover",
       "lemmaId": "cover",
@@ -1052,7 +1045,7 @@
       "pos": "noun",
       "source": "word",
       "wordKey": "crimson_noun",
-      "level": "C1",
+      "level": "B2",
       "translations": {
         "de": {
           "translation": "purpurrot"
@@ -1073,7 +1066,7 @@
       "exampleEnd": 1681,
       "matchedForm": "crimson",
       "ipa": "ˈkrɪmsən",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.831429,
       "difficultySource": "zipf"
     },
@@ -1102,34 +1095,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.494286,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "dived into",
-      "lemma": "dive into",
-      "lemmaId": "dive_into",
-      "pos": "prepositional_verb",
-      "type": "prepositional_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "dive_into_prepositional_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "нырнуть в; погрузиться в"
-        },
-        "uk": {
-          "translation": "занурюйся; Занурюйтесь у життя"
-        }
-      },
-      "example": "Chrestomanci dived into the heart of the flames and found the book of matches.",
-      "exampleStart": 2430,
-      "exampleEnd": 2508,
-      "phraseMatch": {
-        "text": "dived into",
-        "startInExample": 13,
-        "endInExample": 23
-      },
-      "ipa": "ˈdaɪvd ˌɪntʊ",
-      "levelSource": "phrase_index"
     },
     {
       "word": "dived",
@@ -1209,7 +1174,10 @@
         "endInExample": 14
       },
       "ipa": "ˌdræɡd ˈʌp",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "dragged",
@@ -1463,7 +1431,10 @@
         "endInExample": 10
       },
       "ipa": "ˌfel ˈɒn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "fell",
@@ -1569,7 +1540,10 @@
         "endInExample": 33
       },
       "ipa": "ˌfɪl ˈʌp",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "fill",
@@ -1657,11 +1631,11 @@
     },
     {
       "word": "flaming",
-      "lemma": "flame",
-      "lemmaId": "flame",
+      "lemma": "flaming",
+      "lemmaId": "flaming",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "flame_adjective",
+      "wordKey": "flaming_adjective",
       "level": "B2",
       "translations": {
         "ru": {
@@ -1671,14 +1645,14 @@
           "translation": "Палаюче"
         }
       },
-      "_spacyLemma": "flame",
+      "_spacyLemma": "flaming",
       "example": "He screamed again, and beat at himself with flaming hands, and went on screaming.",
       "exampleStart": 48,
       "exampleEnd": 129,
       "matchedForm": "flaming",
       "ipa": "ˈfleɪmɪŋ",
       "levelSource": "vocabulary_index",
-      "difficultyScore": 0.697143,
+      "difficultyScore": 0.88,
       "difficultySource": "zipf"
     },
     {
@@ -1959,7 +1933,9 @@
         "endInExample": 97
       },
       "ipa": "ɡet ˌhɪm ˈwet",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "ghostly",
@@ -2013,7 +1989,9 @@
         "endInExample": 43
       },
       "ipa": "ˌɡəʊstli ˈfleɪmz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "glimmered",
@@ -2073,7 +2051,10 @@
         "endInExample": 100
       },
       "ipa": "went ˈɒn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "went",
@@ -2159,7 +2140,9 @@
         "endInExample": 32
       },
       "ipa": "ˌɡəʊldən ˈbʌbəlz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "golden pool",
@@ -2187,7 +2170,9 @@
         "endInExample": 92
       },
       "ipa": "ˌɡəʊldən ˈpuːl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "green",
@@ -2455,7 +2440,9 @@
         "endInExample": 64
       },
       "ipa": "hɜː ˈiəz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her presence",
@@ -2483,7 +2470,9 @@
         "endInExample": 23
       },
       "ipa": "hɜː ˈprezəns",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his clothes",
@@ -2511,7 +2500,9 @@
         "endInExample": 34
       },
       "ipa": "hɪz ˈkləʊðz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his elegant knees",
@@ -2539,7 +2530,9 @@
         "endInExample": 39
       },
       "ipa": "hɪz ˌelɪɡənt ˈniːz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his face",
@@ -2567,7 +2560,9 @@
         "endInExample": 76
       },
       "ipa": "hɪz ˈfeɪs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his hair",
@@ -2595,7 +2590,9 @@
         "endInExample": 59
       },
       "ipa": "hɪz ˈheə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "His head",
@@ -2623,7 +2620,9 @@
         "endInExample": 8
       },
       "ipa": "hɪz ˈhed",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his shoes",
@@ -2651,7 +2650,9 @@
         "endInExample": 49
       },
       "ipa": "hɪz ˈʃuːz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his velvet arms",
@@ -2679,7 +2680,9 @@
         "endInExample": 123
       },
       "ipa": "hɪz ˌvelvɪt ˈɑːmz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "hissing",
@@ -2829,7 +2832,10 @@
         "endInExample": 13
       },
       "ipa": "ˌdʒʌmpt ˈʌp",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "jumped",
@@ -3149,7 +3155,9 @@
         "endInExample": 31
       },
       "ipa": "ˌmeɪkɪŋ ə ˌlɒŋ ˌθɪn ˈnɔɪz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "making",
@@ -3201,32 +3209,6 @@
       "ipa": "ˈmætʃɪz",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.394286,
-      "difficultySource": "zipf"
-    },
-    {
-      "word": "matter",
-      "lemma": "matter",
-      "lemmaId": "matter",
-      "pos": "adverb",
-      "source": "word",
-      "wordKey": "matter_adverb",
-      "level": "A2",
-      "translations": {
-        "ru": {
-          "translation": "важно; имеет значение"
-        },
-        "uk": {
-          "translation": "важливо; Питання"
-        }
-      },
-      "_spacyLemma": "matter",
-      "example": "But no matter how much carpet she wrapped around Cat, the flames still came through, and Cat went on blazing and screaming.",
-      "exampleStart": 867,
-      "exampleEnd": 990,
-      "matchedForm": "matter",
-      "ipa": "ˈmætə",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.322857,
       "difficultySource": "zipf"
     },
     {
@@ -3313,7 +3295,9 @@
         "endInExample": 29
       },
       "ipa": "ˌmʌtʃ ˈkɑːpɪt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "nearest",
@@ -3371,10 +3355,10 @@
       "word": "opal",
       "lemma": "opal",
       "lemmaId": "opal",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "opal_adjective",
-      "level": "A2",
+      "wordKey": "opal_noun",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "опал"
@@ -3389,7 +3373,7 @@
       "exampleEnd": 1681,
       "matchedForm": "opal",
       "ipa": "ˈəʊpəl",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.945714,
       "difficultySource": "zipf"
     },
@@ -3503,7 +3487,9 @@
         "endInExample": 127
       },
       "ipa": "ˌpeɪl ˈfleɪm",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "played on",
@@ -3531,7 +3517,10 @@
         "endInExample": 114
       },
       "ipa": "ˌpleɪd ˈɒn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "played",
@@ -3749,12 +3738,12 @@
     },
     {
       "word": "roaring",
-      "lemma": "roar",
-      "lemmaId": "roar",
+      "lemma": "roaring",
+      "lemmaId": "roaring",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "roar_adjective",
-      "level": "A2",
+      "wordKey": "roaring_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "рев"
@@ -3763,13 +3752,12 @@
           "translation": "рев"
         }
       },
-      "_spacyLemma": "roar",
+      "_spacyLemma": "roaring",
       "example": "She fumbled with the taps and had just got a strong spray of cold water hissing into the sunken blue bath as Chrestomanci hurried in carrying Cat, in a ball of roaring flame.",
       "exampleStart": 2706,
       "exampleEnd": 2880,
       "matchedForm": "roaring",
-      "ipa": "ˈrɔːrɪŋ",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.802857,
       "difficultySource": "zipf"
     },
@@ -3799,35 +3787,10 @@
         "endInExample": 60
       },
       "ipa": "ˌrəʊlɪŋ ˈəʊvə",
-      "levelSource": "phrase_index"
-    },
-    {
-      "word": "rolled over",
-      "lemma": "roll over",
-      "lemmaId": "roll_over",
-      "pos": "prepositional_verb",
-      "type": "prepositional_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "roll_over_prepositional_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "перевернуться; перекатиться"
-        },
-        "uk": {
-          "translation": "перевернитися; Переверніться"
-        }
-      },
-      "example": "They did not burn the carpet, nor did they burn Janet’s hands as she frantically rolled Cat over in the carpet, and then over again.",
-      "exampleStart": 734,
-      "exampleEnd": 866,
-      "phraseMatch": {
-        "text": "rolled Cat over",
-        "startInExample": 81,
-        "endInExample": 96
-      },
-      "ipa": "ˌrəʊld ˈəʊvə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "rolled",
@@ -3933,7 +3896,9 @@
         "endInExample": 21
       },
       "ipa": "ˌseɪm ˈsmel",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "said",
@@ -4045,7 +4010,10 @@
         "endInExample": 31
       },
       "ipa": "ˌsiː ˈθruː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "saw",
@@ -4153,11 +4121,11 @@
     },
     {
       "word": "shone",
-      "lemma": "shone",
-      "lemmaId": "shone",
-      "pos": "noun",
+      "lemma": "shine",
+      "lemmaId": "shine",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "shone_noun",
+      "wordKey": "shine_verb",
       "level": "A2",
       "translations": {
         "ru": {
@@ -4167,14 +4135,14 @@
           "translation": "Сяйво"
         }
       },
-      "_spacyLemma": "shone",
+      "_spacyLemma": "shine",
       "example": "The water coming from the sprayhead shone like water against the sun, golden as the sun itself.",
       "exampleStart": 3014,
       "exampleEnd": 3109,
       "matchedForm": "shone",
-      "ipa": "ʃɒn",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.937143,
+      "ipa": "ʃaɪn",
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.668571,
       "difficultySource": "zipf"
     },
     {
@@ -4279,32 +4247,6 @@
       "ipa": "sməʊk",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.525714,
-      "difficultySource": "zipf"
-    },
-    {
-      "word": "smothered",
-      "lemma": "smother",
-      "lemmaId": "smother",
-      "pos": "adjective",
-      "source": "word",
-      "wordKey": "smother_adjective",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "удушающий"
-        },
-        "uk": {
-          "translation": "Задушення"
-        }
-      },
-      "_spacyLemma": "smother",
-      "example": "She had heard that this smothered flames.",
-      "exampleStart": 496,
-      "exampleEnd": 537,
-      "matchedForm": "smothered",
-      "ipa": "ˈsmʌðəd",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 1,
       "difficultySource": "zipf"
     },
     {
@@ -4499,7 +4441,9 @@
         "endInExample": 41
       },
       "ipa": "ˌspreɪhed ˈʃɒn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "stammered",
@@ -4617,7 +4561,10 @@
         "endInExample": 29
       },
       "ipa": "ˌstɪkɪŋ ˈaʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "sticking",
@@ -4703,7 +4650,9 @@
         "endInExample": 84
       },
       "ipa": "ˌstrɔː ˈfæɡət",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "straw",
@@ -4821,7 +4770,9 @@
         "endInExample": 57
       },
       "ipa": "ˌstrɒŋ ˈspreɪ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "stupid",
@@ -4881,7 +4832,9 @@
         "endInExample": 31
       },
       "ipa": "ˌstjuːpɪd ˈtʃaɪld",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "suit",
@@ -5383,7 +5336,10 @@
         "endInExample": 27
       },
       "ipa": "ˌtɜːn ˈɒn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "underside",
@@ -5605,7 +5561,10 @@
         "endInExample": 48
       },
       "ipa": "ˌræpt əˈraʊnd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "wrapped",
@@ -5691,7 +5650,83 @@
         "endInExample": 24
       },
       "ipa": "jɔː ˈʃaʊə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
+    },
+    {
+      "word": "burst into tears",
+      "lemma": "burst into tears",
+      "lemmaId": "burst_into_tears",
+      "pos": "phrase",
+      "type": "collocation",
+      "category": "mwe",
+      "mweType": "collocation",
+      "syntacticForm": "verb_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "расплакалась"
+        },
+        "uk": {
+          "translation": "розплакалася"
+        }
+      },
+      "definition": "collocation used as one lexical expression in this context.",
+      "example": "Chrestomanci was so angry that Janet burst into tears.",
+      "exampleStart": 2186,
+      "exampleEnd": 2240,
+      "exampleTranslation": "расплакалась",
+      "phraseMatch": {
+        "text": "burst into tears",
+        "startInExample": 37,
+        "endInExample": 53
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "burst_into_tears_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "розплакалася"
+        }
+      }
+    },
+    {
+      "word": "Good God",
+      "lemma": "good god",
+      "lemmaId": "good_god",
+      "pos": "phrase",
+      "type": "formulaic_expression",
+      "category": "mwe",
+      "mweType": "formulaic_expression",
+      "syntacticForm": "clause",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Боже милостивый"
+        },
+        "uk": {
+          "translation": "Боже мій"
+        }
+      },
+      "definition": "formulaic expression used as one lexical expression in this context.",
+      "example": "He took one look at the flaming bundle on the floor and said “Good God!”",
+      "exampleStart": 1735,
+      "exampleEnd": 1807,
+      "exampleTranslation": "Боже милостивый",
+      "phraseMatch": {
+        "text": "Good God",
+        "startInExample": 62,
+        "endInExample": 70
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "good_god_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "Боже мій"
+        }
+      }
     }
   ],
   "namedEntities": [

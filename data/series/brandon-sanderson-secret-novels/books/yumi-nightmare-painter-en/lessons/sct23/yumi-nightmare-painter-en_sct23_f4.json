@@ -21,12 +21,12 @@
       "wordCount": 654,
       "uniqueWordCount": 390,
       "paragraphCount": 27,
-      "vocabularyCount": 225,
+      "vocabularyCount": 223,
       "levelDistribution": {
-        "A1": 53,
-        "A2": 49,
-        "B1": 55,
-        "B2": 58,
+        "A1": 54,
+        "A2": 46,
+        "B1": 56,
+        "B2": 57,
         "C1": 8,
         "C2": 2
       }
@@ -844,31 +844,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "doing in",
-      "lemma": "do in",
-      "lemmaId": "do_in",
-      "pos": "prepositional_verb",
-      "type": "prepositional_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "do_in_prepositional_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "Сделай"
-        }
-      },
-      "example": "“What if,” Painter said, “we figured out what those scholars are doing in that tent of theirs?",
-      "exampleStart": 0,
-      "exampleEnd": 94,
-      "phraseMatch": {
-        "text": "doing in",
-        "startInExample": 65,
-        "endInExample": 73
-      },
-      "ipa": "ˌduːɪŋ ˈɪn",
-      "levelSource": "phrase_index"
-    },
-    {
       "word": "do with",
       "lemma": "do with",
       "lemmaId": "do_with",
@@ -950,26 +925,25 @@
     },
     {
       "word": "drifting",
-      "lemma": "drift",
-      "lemmaId": "drift",
+      "lemma": "drifting",
+      "lemmaId": "drifting",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "drift_adjective",
+      "wordKey": "drifting_adjective",
       "level": "B2",
       "translations": {
         "ru": {
           "translation": "Дрейф"
         }
       },
-      "_spacyLemma": "drift",
+      "_spacyLemma": "drifting",
       "example": "Painter didn’t seem nervous at all as Chaeyung and Hwanji led them down the path into the orchard, among the drifting trees, to the elevated shrine.",
       "exampleStart": 1886,
       "exampleEnd": 2034,
       "matchedForm": "drifting",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.768571,
-      "difficultySource": "zipf",
-      "ipa": "ˈdrɪftɪŋ"
+      "difficultySource": "zipf"
     },
     {
       "word": "drop",
@@ -1131,10 +1105,10 @@
       "word": "elbows",
       "lemma": "elbow",
       "lemmaId": "elbow",
-      "pos": "verb",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "elbow_verb",
-      "level": "A2",
+      "wordKey": "elbow_noun",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "локоть"
@@ -1145,10 +1119,10 @@
       "exampleStart": 1062,
       "exampleEnd": 1199,
       "matchedForm": "elbows",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.762857,
       "difficultySource": "zipf",
-      "ipa": "ˈelbəʊz"
+      "ipa": "ˈelbəʊ"
     },
     {
       "word": "elevated",
@@ -3414,10 +3388,10 @@
       "word": "painting",
       "lemma": "painting",
       "lemmaId": "painting",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "painting_adjective",
-      "level": "A2",
+      "wordKey": "painting_noun",
+      "level": "A1",
       "translations": {
         "ru": {
           "translation": "Живопись"
@@ -3428,7 +3402,7 @@
       "exampleStart": 2035,
       "exampleEnd": 2132,
       "matchedForm": "painting",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.545714,
       "difficultySource": "zipf",
       "ipa": "ˈpeɪntɪŋ"
@@ -3483,26 +3457,26 @@
     },
     {
       "word": "pausing",
-      "lemma": "pausing",
-      "lemmaId": "pausing",
-      "pos": "noun",
+      "lemma": "pause",
+      "lemmaId": "pause",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "pausing_noun",
+      "wordKey": "pause_verb",
       "level": "B1",
       "translations": {
         "ru": {
           "translation": "Пауза"
         }
       },
-      "_spacyLemma": "pausing",
+      "_spacyLemma": "pause",
       "example": "He noticed, pausing, and looked toward her.",
       "exampleStart": 446,
       "exampleEnd": 489,
       "matchedForm": "pausing",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 0.991429,
+      "levelSource": "cefr_reference",
+      "difficultyScore": 0.717143,
       "difficultySource": "zipf",
-      "ipa": "ˈpɔːzɪŋ"
+      "ipa": "pɔːz"
     },
     {
       "word": "people",
@@ -4892,29 +4866,6 @@
       },
       "levelSource": "phrase_fallback",
       "ipa": "ðeə ˈtent"
-    },
-    {
-      "word": "theirs",
-      "lemma": "theirs",
-      "lemmaId": "theirs",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "theirs_noun",
-      "level": "A2",
-      "translations": {
-        "ru": {
-          "translation": "их"
-        }
-      },
-      "_spacyLemma": "theirs",
-      "example": "“What if,” Painter said, “we figured out what those scholars are doing in that tent of theirs?",
-      "exampleStart": 0,
-      "exampleEnd": 94,
-      "matchedForm": "theirs",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 0.728571,
-      "difficultySource": "zipf",
-      "ipa": "ðeəz"
     },
     {
       "word": "thermals",

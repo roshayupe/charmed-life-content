@@ -21,14 +21,13 @@
       "wordCount": 532,
       "uniqueWordCount": 313,
       "paragraphCount": 21,
-      "vocabularyCount": 240,
+      "vocabularyCount": 239,
       "levelDistribution": {
         "A1": 58,
-        "A2": 62,
-        "B1": 59,
-        "B2": 44,
-        "C1": 17,
-        "C2": 0
+        "A2": 61,
+        "B1": 57,
+        "B2": 47,
+        "C1": 16
       }
     }
   },
@@ -780,29 +779,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "burned",
-      "lemma": "burn",
-      "lemmaId": "burn",
-      "pos": "adjective",
-      "source": "word",
-      "wordKey": "burn_adjective",
-      "level": "A1",
-      "translations": {
-        "ru": {
-          "translation": "обожжённый; горящий"
-        }
-      },
-      "_spacyLemma": "burn",
-      "example": "The strange burn marks made a circle, maybe ten feet in diameter, with me in the center.",
-      "exampleStart": 1132,
-      "exampleEnd": 1220,
-      "matchedForm": "burn",
-      "ipa": "bɜːnd",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.565714,
-      "difficultySource": "zipf"
-    },
-    {
       "word": "burn",
       "lemma": "burn",
       "lemmaId": "burn",
@@ -810,7 +786,11 @@
       "source": "word",
       "wordKey": "burn_noun",
       "level": "A1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "обожжённый; горящий"
+        }
+      },
       "_spacyLemma": "burn",
       "example": "The strange burn marks made a circle, maybe ten feet in diameter, with me in the center.",
       "exampleStart": 1132,
@@ -1209,17 +1189,17 @@
       "word": "crispy",
       "lemma": "crispy",
       "lemmaId": "crispy",
-      "pos": "noun",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "crispy_noun",
-      "level": "A2",
+      "wordKey": "crispy_adjective",
+      "level": "B2",
       "translations": {},
       "_spacyLemma": "crispy",
       "example": "I stepped away from the me-stencil, my feet crunching on the crispy remains of the former plants.",
       "exampleStart": 2184,
       "exampleEnd": 2281,
       "matchedForm": "crispy",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.897143,
       "difficultySource": "zipf",
       "ipa": "ˈkrɪspi"
@@ -1913,19 +1893,19 @@
     },
     {
       "word": "furrowed",
-      "lemma": "furrow",
-      "lemmaId": "furrow",
-      "pos": "verb",
+      "lemma": "furrowed",
+      "lemmaId": "furrowed",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "furrow_verb",
-      "level": "B1",
+      "wordKey": "furrowed_adjective",
+      "level": "B2",
       "translations": {},
-      "_spacyLemma": "furrow",
+      "_spacyLemma": "furrowed",
       "example": "Ridged and furrowed, with undulating lines in the earth.",
       "exampleStart": 454,
       "exampleEnd": 510,
       "matchedForm": "furrowed",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 1,
       "difficultySource": "zipf",
       "ipa": "ˈfʌrəʊd"
@@ -2385,22 +2365,21 @@
     },
     {
       "word": "jeans",
-      "lemma": "jean",
-      "lemmaId": "jean",
+      "lemma": "jeans",
+      "lemmaId": "jeans",
       "pos": "noun",
       "source": "word",
-      "wordKey": "jean_noun",
-      "level": "B1",
+      "wordKey": "jeans_noun",
+      "level": "A1",
       "translations": {},
-      "_spacyLemma": "jean",
+      "_spacyLemma": "jeans",
       "example": "Under the tunic…\n\nBlue jeans?",
       "exampleStart": 1693,
       "exampleEnd": 1722,
       "matchedForm": "jeans",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.614286,
-      "difficultySource": "zipf",
-      "ipa": "dʒiːnz"
+      "difficultySource": "zipf"
     },
     {
       "word": "jolt",
@@ -3895,22 +3874,21 @@
     },
     {
       "word": "pyrotechnics",
-      "lemma": "pyrotechnic",
-      "lemmaId": "pyrotechnic",
+      "lemma": "pyrotechnics",
+      "lemmaId": "pyrotechnics",
       "pos": "noun",
       "source": "word",
-      "wordKey": "pyrotechnic_noun",
+      "wordKey": "pyrotechnics_noun",
       "level": "C1",
       "translations": {},
-      "_spacyLemma": "pyrotechnic",
+      "_spacyLemma": "pyrotechnics",
       "example": "I’d brought along pyrotechnics to make for a cooler shot, and I’d accidentally blown myself up.",
       "exampleStart": 1947,
       "exampleEnd": 2042,
       "matchedForm": "pyrotechnics",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "ˌpaɪrəʊˈteknɪks"
+      "difficultySource": "zipf"
     },
     {
       "word": "quickly",
@@ -4434,12 +4412,12 @@
     },
     {
       "word": "smoldering",
-      "lemma": "smolder",
-      "lemmaId": "smolder",
+      "lemma": "smoldering",
+      "lemmaId": "smoldering",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "smolder_adjective",
-      "level": "C1",
+      "wordKey": "smoldering_adjective",
+      "level": "B2",
       "translations": {
         "de": {
           "translation": "glimmend"
@@ -4454,13 +4432,12 @@
           "translation": "тліючий"
         }
       },
-      "_spacyLemma": "smolder",
+      "_spacyLemma": "smoldering",
       "example": "There was a burned-out section around me, marked by charred stalks of grain and smoldering ash.",
       "exampleStart": 511,
       "exampleEnd": 606,
       "matchedForm": "smoldering",
-      "ipa": "ˈsməʊldərɪŋ",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },

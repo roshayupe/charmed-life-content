@@ -48185,12 +48185,12 @@
       "contextTranslation": "устроить"
     },
     {
-      "id": "pv-charmed-life-en_sct10_f1-history_adjective-ch10_p006_s006-50-57-81",
-      "wordKey": "history_adjective",
+      "id": "pv-charmed-life-en_sct10_f1-history_noun-ch10_p006_s006-50-57-81",
+      "wordKey": "history_noun",
       "word": "History",
       "lemma": "history",
-      "pos": "adjective",
-      "level": "A2",
+      "pos": "noun",
+      "level": "A1",
       "sourceText": "History",
       "targetText": "истории",
       "dictionaryTranslation": "исторический",
@@ -48210,7 +48210,10 @@
         "start": 64,
         "end": 71
       },
-      "contextTranslation": "истории"
+      "contextTranslation": "истории",
+      "ipa": "ˈhɪstəri",
+      "difficultyScore": 0.32,
+      "difficultySource": "zipf"
     },
     {
       "id": "pv-charmed-life-en_sct10_f1-test_noun-ch10_p006_s006-58-62-161",
@@ -48680,12 +48683,12 @@
       "contextTranslation": "ответила"
     },
     {
-      "id": "pv-charmed-life-en_sct10_f1-exasperate_verb-ch10_p008_s002-23-34-44",
-      "wordKey": "exasperate_verb",
+      "id": "pv-charmed-life-en_sct10_f1-exasperated_adjective-ch10_p008_s002-23-34-44",
+      "wordKey": "exasperated_adjective",
       "word": "exasperated",
-      "lemma": "exasperate",
-      "pos": "verb",
-      "level": "C1",
+      "lemma": "exasperated",
+      "pos": "adjective",
+      "level": "B2",
       "sourceText": "exasperated",
       "targetText": "раздражённым",
       "dictionaryTranslation": "раздражённый",
@@ -48705,7 +48708,10 @@
         "start": 30,
         "end": 42
       },
-      "contextTranslation": "раздражённым"
+      "contextTranslation": "раздражённым",
+      "ipa": "eɡˈzæspəˌreɪtɪd",
+      "difficultyScore": 1,
+      "difficultySource": "zipf"
     },
     {
       "id": "pv-charmed-life-en_sct10_f1-babble_verb-ch10_p008_s002-44-51-13",
@@ -51736,12 +51742,12 @@
       "contextTranslation": "ухнул"
     },
     {
-      "id": "pv-charmed-life-en_sct10_f1-castle_adjective-ch10_p018_s003-61-67-25",
-      "wordKey": "castle_adjective",
+      "id": "pv-charmed-life-en_sct10_f1-castle_noun-ch10_p018_s003-61-67-25",
+      "wordKey": "castle_noun",
       "word": "Castle",
       "lemma": "castle",
-      "pos": "adjective",
-      "level": "B1",
+      "pos": "noun",
+      "level": "A2",
       "sourceText": "Castle",
       "targetText": "замка",
       "dictionaryTranslation": "замковый",
@@ -51761,7 +51767,10 @@
         "start": 67,
         "end": 72
       },
-      "contextTranslation": "замка"
+      "contextTranslation": "замка",
+      "ipa": "ˈkæsəl",
+      "difficultyScore": 0.588571,
+      "difficultySource": "zipf"
     },
     {
       "id": "pv-charmed-life-en_sct10_f1-cellar_noun-ch10_p018_s003-68-75-29",
@@ -51853,7 +51862,7 @@
       "word": "his moment",
       "lemma": "his moment",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "his moment",
@@ -51889,7 +51898,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct10_f1-174-185-phrase-spacy_phrase",
@@ -51897,7 +51907,7 @@
       "word": "great snore",
       "lemma": "great snore",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "great snore",
@@ -51936,7 +51946,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct10_f1-749-757-phrase-spacy_phrase",
@@ -51944,7 +51955,7 @@
       "word": "his desk",
       "lemma": "his desk",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "his desk",
@@ -51983,22 +51994,23 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct10_f1-758-768-phrase-spacy_phrase",
-      "wordKey": "phrase:by_mistake",
+      "wordKey": "by_mistake_phrase",
       "word": "by mistake",
       "lemma": "by mistake",
       "pos": "phrase",
-      "type": "noun_phrase",
-      "category": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
       "level": "B1",
       "sourceText": "by mistake",
       "dictionaryTranslation": "по ошибке",
       "rowTranslation": "по ошибке",
-      "targetText": "ошибке",
-      "contextTranslation": "ошибке",
+      "targetText": "по ошибке",
+      "contextTranslation": "по ошибке",
       "sourceSentenceId": "ch10_p005_s003",
       "sourceSpan": {
         "start": 47,
@@ -52006,28 +52018,31 @@
       },
       "targetSentenceId": "ch10_p005_t003",
       "targetSpan": {
-        "start": 44,
+        "start": 41,
         "end": 50
       },
       "targetSpans": [
         {
           "targetSentenceId": "ch10_p005_t003",
           "targetSpan": {
-            "start": 44,
+            "start": 41,
             "end": 50
           },
-          "targetText": "ошибке"
+          "targetText": "по ошибке"
         }
       ],
-      "alignmentMethod": "component_aggregate",
-      "alignmentConfidence": "medium",
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
       "alignmentWarningCode": null,
       "alignmentWarning": "",
       "status": "ok",
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "prepositional_phrase",
+      "mweType": "fixed_expression",
+      "targetOmitted": false
     },
     {
       "id": "lexical-phrase-sct10_f1-925-946-phrase-spacy_phrase",
@@ -52035,7 +52050,7 @@
       "word": "uncomfortable morning",
       "lemma": "uncomfortable morning",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "uncomfortable morning",
@@ -52074,7 +52089,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct10_f1-1007-1017-phrase-spacy_phrase",
@@ -52082,7 +52098,7 @@
       "word": "only thing",
       "lemma": "only thing",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "only thing",
@@ -52118,7 +52134,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct10_f1-1147-1160-phrase-spacy_phrase",
@@ -52126,7 +52143,7 @@
       "word": "her own world",
       "lemma": "her own world",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "her own world",
@@ -52173,7 +52190,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct10_f1-1172-1184-phrase-spacy_phrase",
@@ -52181,7 +52199,7 @@
       "word": "only subject",
       "lemma": "only subject",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "only subject",
@@ -52220,7 +52238,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct10_f1-1217-1234-phrase-spacy_phrase",
@@ -52228,7 +52247,7 @@
       "word": "simple arithmetic",
       "lemma": "simple arithmetic",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "simple arithmetic",
@@ -52267,7 +52286,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct10_f1-1286-1298-phrase-spacy_phrase",
@@ -52275,7 +52295,7 @@
       "word": "History test",
       "lemma": "history test",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "History test",
@@ -52312,7 +52332,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct10_f1-1344-1357-phrase-spacy_phrase",
@@ -52320,7 +52341,7 @@
       "word": "English essay",
       "lemma": "english essay",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "English essay",
@@ -52359,7 +52380,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct10_f1-1717-1731-phrase-spacy_phrase",
@@ -52367,7 +52389,7 @@
       "word": "iron underwear",
       "lemma": "iron underwear",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B2",
       "sourceText": "iron underwear",
@@ -52403,7 +52425,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct10_f1-1806-1820-phrase-spacy_phrase",
@@ -52411,7 +52434,7 @@
       "word": "their longbows",
       "lemma": "their longbow",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "their longbows",
@@ -52447,7 +52470,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct10_f1-2012-2021-phrase-spacy_phrase",
@@ -52455,7 +52479,7 @@
       "word": "her world",
       "lemma": "her world",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "her world",
@@ -52494,7 +52518,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct10_f1-2037-2050-phrase-spacy_phrase",
@@ -52502,7 +52527,7 @@
       "word": "stricken look",
       "lemma": "stricken look",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "stricken look",
@@ -52538,7 +52563,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct10_f1-2054-2062-phrase-spacy_phrase",
@@ -52546,7 +52572,7 @@
       "word": "her face",
       "lemma": "her face",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "her face",
@@ -52585,7 +52611,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct10_f1-2188-2197-phrase-spacy_phrase",
@@ -52593,7 +52620,7 @@
       "word": "his hands",
       "lemma": "his hand",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "his hands",
@@ -52619,7 +52646,8 @@
       "targetSpan": {
         "start": 15,
         "end": 24
-      }
+      },
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct10_f1-2201-2209-phrase-spacy_phrase",
@@ -52627,7 +52655,7 @@
       "word": "his head",
       "lemma": "his head",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "his head",
@@ -52663,7 +52691,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct10_f1-2665-2676-phrase-spacy_phrase",
@@ -52671,7 +52700,7 @@
       "word": "marble head",
       "lemma": "marble head",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "marble head",
@@ -52710,7 +52739,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct10_f1-2693-2704-phrase-spacy_phrase",
@@ -52718,7 +52748,7 @@
       "word": "little cell",
       "lemma": "little cell",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "little cell",
@@ -52757,7 +52787,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct10_f1-2708-2719-phrase-spacy_phrase",
@@ -52765,7 +52796,7 @@
       "word": "gray matter",
       "lemma": "gray matter",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "gray matter",
@@ -52804,7 +52835,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct10_f1-2767-2777-phrase-spacy_phrase",
@@ -52812,7 +52844,7 @@
       "word": "her relief",
       "lemma": "her relief",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "her relief",
@@ -52848,7 +52880,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct10_f1-2824-2831-phrase-spacy_phrase",
@@ -52856,7 +52889,7 @@
       "word": "my head",
       "lemma": "my head",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "my head",
@@ -52895,7 +52928,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct10_f1-2906-2914-phrase-spacy_phrase",
@@ -52903,7 +52937,7 @@
       "word": "his eyes",
       "lemma": "his eye",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "his eyes",
@@ -52939,7 +52973,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct10_f1-2920-2935-phrase-spacy_phrase",
@@ -52947,7 +52982,7 @@
       "word": "one knobby hand",
       "lemma": "one knobby hand",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "one knobby hand",
@@ -52994,7 +53029,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct10_f1-3082-3090-phrase-spacy_phrase",
@@ -53002,7 +53038,7 @@
       "word": "his nose",
       "lemma": "his nose",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "his nose",
@@ -53038,7 +53074,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct10_f1-3389-3404-phrase-spacy_phrase",
@@ -53046,7 +53083,7 @@
       "word": "portentous look",
       "lemma": "portentous look",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "portentous look",
@@ -53085,7 +53122,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-phrase-sct10_f1-3562-3576-phrase-spacy_phrase",
@@ -53093,7 +53131,7 @@
       "word": "Castle cellars",
       "lemma": "castle cellar",
       "pos": "phrase",
-      "type": "noun_phrase",
+      "type": "phrase",
       "category": "phrase",
       "level": "B1",
       "sourceText": "Castle cellars",
@@ -53132,7 +53170,8 @@
       "phraseProvider": "spacy_phrase",
       "phraseStatus": "accepted",
       "phraseReviewReasons": [],
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "syntacticForm": "noun_phrase"
     },
     {
       "id": "lexical-mwe-sct10_f1-248-261-mwe-dictionary_phrasal",
@@ -53184,7 +53223,9 @@
       "alignmentWarningCode": null,
       "alignmentWarning": "",
       "status": "ok",
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "id": "lexical-mwe-sct10_f1-321-337-mwe-dictionary_phrasal",
@@ -53228,7 +53269,9 @@
       "alignmentWarningCode": null,
       "alignmentWarning": "",
       "status": "ok",
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "id": "lexical-mwe-sct10_f1-681-691-mwe-dictionary_phrasal",
@@ -53269,7 +53312,9 @@
       "alignmentWarningCode": null,
       "alignmentWarning": "",
       "status": "ok",
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "id": "lexical-mwe-sct10_f1-867-875-mwe-dictionary_phrasal",
@@ -53310,7 +53355,9 @@
       "alignmentWarningCode": null,
       "alignmentWarning": "",
       "status": "ok",
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "id": "lexical-mwe-sct10_f1-1379-1389-mwe-dictionary_phrasal",
@@ -53352,7 +53399,9 @@
       "alignmentWarningCode": null,
       "alignmentWarning": "",
       "status": "ok",
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "id": "lexical-mwe-sct10_f1-1852-1863-mwe-dictionary_phrasal",
@@ -53394,7 +53443,9 @@
       "alignmentWarningCode": null,
       "alignmentWarning": "",
       "status": "ok",
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "id": "lexical-mwe-sct10_f1-2336-2346-mwe-dictionary_phrasal",
@@ -53435,7 +53486,9 @@
       "alignmentWarningCode": null,
       "alignmentWarning": "",
       "status": "ok",
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "id": "lexical-mwe-sct10_f1-3146-3156-mwe-dictionary_phrasal",
@@ -53476,7 +53529,97 @@
       "alignmentWarningCode": null,
       "alignmentWarning": "",
       "status": "ok",
-      "includeInVocabularySelection": true
+      "includeInVocabularySelection": true,
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
+    },
+    {
+      "id": "manual-mwe-charmed-life-en_sct10_f1-73-86-take_the_hint",
+      "wordKey": "take_the_hint_phrase",
+      "word": "take the hint",
+      "lemma": "take the hint",
+      "pos": "phrase",
+      "type": "idiom",
+      "category": "mwe",
+      "mweType": "idiom",
+      "syntacticForm": "verb_phrase",
+      "level": "B2",
+      "sourceText": "take the hint",
+      "dictionaryTranslation": "поймёт намёк",
+      "rowTranslation": "поймёт намёк",
+      "sourceSentenceId": "ch10_p012_s005",
+      "sourceSpan": {
+        "start": 73,
+        "end": 86
+      },
+      "targetSentenceId": "ch10_p012_t005",
+      "targetSpan": {
+        "start": 78,
+        "end": 90
+      },
+      "targetSpans": [
+        {
+          "targetSentenceId": "ch10_p012_t005",
+          "targetSpan": {
+            "start": 78,
+            "end": 90
+          },
+          "targetText": "поймёт намёк"
+        }
+      ],
+      "targetText": "поймёт намёк",
+      "contextTranslation": "поймёт намёк",
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "includeInVocabularySelection": true,
+      "targetOmitted": false
+    },
+    {
+      "id": "manual-mwe-charmed-life-en_sct10_f1-0-7-at_last",
+      "wordKey": "at_last_phrase",
+      "word": "At last",
+      "lemma": "at last",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "adverb_phrase",
+      "level": "B1",
+      "sourceText": "At last",
+      "dictionaryTranslation": "Наконец",
+      "rowTranslation": "Наконец",
+      "sourceSentenceId": "ch10_p018_s001",
+      "sourceSpan": {
+        "start": 0,
+        "end": 7
+      },
+      "targetSentenceId": "ch10_p018_t001",
+      "targetSpan": {
+        "start": 0,
+        "end": 7
+      },
+      "targetSpans": [
+        {
+          "targetSentenceId": "ch10_p018_t001",
+          "targetSpan": {
+            "start": 0,
+            "end": 7
+          },
+          "targetText": "Наконец"
+        }
+      ],
+      "targetText": "Наконец",
+      "contextTranslation": "Наконец",
+      "alignmentMethod": "manual",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "",
+      "status": "ok",
+      "includeInVocabularySelection": true,
+      "targetOmitted": false
     }
   ],
   "namedEntitySpans": [

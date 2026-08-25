@@ -21,13 +21,13 @@
       "wordCount": 597,
       "uniqueWordCount": 348,
       "paragraphCount": 13,
-      "vocabularyCount": 246,
+      "vocabularyCount": 243,
       "levelDistribution": {
         "A1": 53,
-        "A2": 57,
-        "B1": 72,
-        "B2": 52,
-        "C1": 11,
+        "A2": 55,
+        "B1": 69,
+        "B2": 51,
+        "C1": 14,
         "C2": 1
       }
     }
@@ -37,10 +37,10 @@
       "word": "aether",
       "lemma": "aether",
       "lemmaId": "aether",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "aether_adjective",
-      "level": "B1",
+      "wordKey": "aether_noun",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "эфир"
@@ -51,7 +51,7 @@
       "exampleStart": 233,
       "exampleEnd": 329,
       "matchedForm": "aether",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf",
       "ipa": "ˈiːθə"
@@ -1236,10 +1236,10 @@
       "word": "distort",
       "lemma": "distort",
       "lemmaId": "distort",
-      "pos": "noun",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "distort_noun",
-      "level": "B1",
+      "wordKey": "distort_verb",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "искажать"
@@ -1250,7 +1250,7 @@
       "exampleStart": 1177,
       "exampleEnd": 1256,
       "matchedForm": "distort",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.98,
       "difficultySource": "zipf",
       "ipa": "dɪˈstɔːt"
@@ -1395,26 +1395,26 @@
     },
     {
       "word": "elongating",
-      "lemma": "elongating",
-      "lemmaId": "elongating",
-      "pos": "noun",
+      "lemma": "elongate",
+      "lemmaId": "elongate",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "elongating_noun",
-      "level": "B2",
+      "wordKey": "elongate_verb",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "удлиняющий"
         }
       },
-      "_spacyLemma": "elongating",
+      "_spacyLemma": "elongate",
       "example": "The Midnight Essence pulsed with purpose, elongating.",
       "exampleStart": 1773,
       "exampleEnd": 1826,
       "matchedForm": "elongating",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf",
-      "ipa": "ˈiːˌlɒŋɡeɪtɪŋ"
+      "ipa": "ˈiːˌlɒŋɡeɪt"
     },
     {
       "word": "encourages",
@@ -2082,26 +2082,25 @@
     },
     {
       "word": "fuzzing",
-      "lemma": "fuzze",
-      "lemmaId": "fuzze",
+      "lemma": "fuzz",
+      "lemmaId": "fuzz",
       "pos": "verb",
       "source": "word",
-      "wordKey": "fuzze_verb",
-      "level": "B1",
+      "wordKey": "fuzz_verb",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "жужжащий"
         }
       },
-      "_spacyLemma": "fuzze",
+      "_spacyLemma": "fuzz",
       "example": "She lost sight of the world around her, her vision fuzzing.",
       "exampleStart": 2796,
       "exampleEnd": 2855,
       "matchedForm": "fuzzing",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "ˈfʌzɪŋ"
+      "difficultySource": "zipf"
     },
     {
       "word": "gained",
@@ -2226,31 +2225,6 @@
       "difficultyScore": 0.885714,
       "difficultySource": "zipf",
       "ipa": "ɡuː"
-    },
-    {
-      "word": "grow in",
-      "lemma": "grow in",
-      "lemmaId": "grow_in",
-      "pos": "prepositional_verb",
-      "type": "prepositional_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "grow_in_prepositional_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "расти в"
-        }
-      },
-      "example": "Compressed aether drops to the planet in the form of spores, and a little water encourages it to grow in an explosive burst.",
-      "exampleStart": 381,
-      "exampleEnd": 505,
-      "phraseMatch": {
-        "text": "grow in",
-        "startInExample": 97,
-        "endInExample": 104
-      },
-      "levelSource": "dictionary_phrase",
-      "ipa": "ˌɡrəʊ ˈɪn"
     },
     {
       "word": "grow",
@@ -5245,29 +5219,6 @@
       "ipa": "ˈtekstʃə"
     },
     {
-      "word": "themself",
-      "lemma": "themself",
-      "lemmaId": "themself",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "themself_noun",
-      "level": "A2",
-      "translations": {
-        "ru": {
-          "translation": "сам"
-        }
-      },
-      "_spacyLemma": "themself",
-      "example": "Or carved from a tub of lard by a talented artist with no other way to express themself.",
-      "exampleStart": 2205,
-      "exampleEnd": 2293,
-      "matchedForm": "themself",
-      "levelSource": "cefr_frequency",
-      "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "ðemˈself"
-    },
-    {
       "word": "thing",
       "lemma": "thing",
       "lemmaId": "thing",
@@ -5573,29 +5524,6 @@
       "ipa": "trænˈsfɪkst"
     },
     {
-      "word": "Tress",
-      "lemma": "tress",
-      "lemmaId": "tress",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "tress_noun",
-      "level": "A2",
-      "translations": {
-        "ru": {
-          "translation": "Тресс"
-        }
-      },
-      "_spacyLemma": "tress",
-      "example": "Tress felt it as a sudden thirst, a drying of her mouth.",
-      "exampleStart": 849,
-      "exampleEnd": 905,
-      "matchedForm": "Tress",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "tres"
-    },
-    {
       "word": "trying out",
       "lemma": "try out",
       "lemmaId": "try_out",
@@ -5691,26 +5619,26 @@
     },
     {
       "word": "undulated",
-      "lemma": "undulated",
-      "lemmaId": "undulated",
-      "pos": "adjective",
+      "lemma": "undulate",
+      "lemmaId": "undulate",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "undulated_adjective",
+      "wordKey": "undulate_verb",
       "level": "C1",
       "translations": {
         "ru": {
           "translation": "волнистый"
         }
       },
-      "_spacyLemma": "undulated",
+      "_spacyLemma": "undulate",
       "example": "They bubbled and undulated, melting and then enlarging like an inflating balloon.",
       "exampleStart": 992,
       "exampleEnd": 1073,
       "matchedForm": "undulated",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf",
-      "ipa": "ˈʌndjʊˌleɪtɪd"
+      "ipa": "ˈʌndjʊˌleɪt"
     },
     {
       "word": "verdant",

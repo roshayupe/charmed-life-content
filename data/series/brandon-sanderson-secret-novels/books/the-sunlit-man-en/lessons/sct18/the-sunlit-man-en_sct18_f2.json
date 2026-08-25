@@ -21,13 +21,13 @@
       "wordCount": 563,
       "uniqueWordCount": 310,
       "paragraphCount": 19,
-      "vocabularyCount": 204,
+      "vocabularyCount": 202,
       "levelDistribution": {
         "A1": 41,
-        "A2": 35,
-        "B1": 61,
-        "B2": 46,
-        "C1": 19,
+        "A2": 34,
+        "B1": 63,
+        "B2": 44,
+        "C1": 18,
         "C2": 2
       }
     }
@@ -227,27 +227,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.577143,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "Beaconite",
-      "lemma": "beaconite",
-      "lemmaId": "beaconite",
-      "pos": "adjective",
-      "source": "word",
-      "wordKey": "beaconite_adjective",
-      "level": "C1",
-      "translations": {
-        "ru": {
-          "translation": "Биконит"
-        }
-      },
-      "_spacyLemma": "beaconite",
-      "example": "Unfortunately a fleeing Beaconite vessel roared across their vector.",
-      "exampleStart": 528,
-      "exampleEnd": 596,
-      "matchedForm": "Beaconite",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "ˈbiːkəˌnaɪt"
     },
     {
       "word": "belatedly",
@@ -1371,10 +1350,10 @@
       "word": "enemy",
       "lemma": "enemy",
       "lemmaId": "enemy",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "enemy_adjective",
-      "level": "B2",
+      "wordKey": "enemy_noun",
+      "level": "B1",
       "translations": {
         "de": {
           "translation": "Feind"
@@ -1395,7 +1374,7 @@
       "exampleEnd": 1566,
       "matchedForm": "enemy",
       "ipa": "ˈenəmi",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.517143,
       "difficultySource": "zipf"
     },
@@ -1660,24 +1639,23 @@
     },
     {
       "word": "fleeing",
-      "lemma": "flee",
-      "lemmaId": "flee",
+      "lemma": "fleeing",
+      "lemmaId": "fleeing",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "flee_adjective",
-      "level": "A2",
+      "wordKey": "fleeing_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "Бегство"
         }
       },
-      "_spacyLemma": "flee",
+      "_spacyLemma": "fleeing",
       "example": "Unfortunately a fleeing Beaconite vessel roared across their vector.",
       "exampleStart": 528,
       "exampleEnd": 596,
       "matchedForm": "fleeing",
-      "ipa": "ˈfliːɪŋ",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.771429,
       "difficultySource": "zipf"
     },
@@ -2810,31 +2788,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "looked in",
-      "lemma": "look in",
-      "lemmaId": "look_in",
-      "pos": "prepositional_verb",
-      "type": "prepositional_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "look_in_prepositional_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "заглянуть; посмотреть внутрь"
-        }
-      },
-      "example": "She looked in time to see two Charred leaping onto it, their open-fronted robes rippling as they soared.",
-      "exampleStart": 177,
-      "exampleEnd": 281,
-      "phraseMatch": {
-        "text": "looked in",
-        "startInExample": 4,
-        "endInExample": 13
-      },
-      "ipa": "ˌlʊkt ˈɪn",
-      "levelSource": "phrase_index"
-    },
-    {
       "word": "looked",
       "lemma": "look",
       "lemmaId": "look",
@@ -3285,26 +3238,25 @@
     },
     {
       "word": "overturned",
-      "lemma": "overturn",
-      "lemmaId": "overturn",
+      "lemma": "overturned",
+      "lemmaId": "overturned",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "overturn_adjective",
+      "wordKey": "overturned_adjective",
       "level": "B2",
       "translations": {
         "ru": {
           "translation": "перевернутые"
         }
       },
-      "_spacyLemma": "overturn",
+      "_spacyLemma": "overturned",
       "example": "Inside here, though, the two Charred from earlier were terrorizing the three Greater Good, who had pulled back to the far side of the room behind an overturned table.",
       "exampleStart": 2821,
       "exampleEnd": 2987,
       "matchedForm": "overturned",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.94,
-      "difficultySource": "zipf",
-      "ipa": "ˌəʊvəˈtɜːnd"
+      "difficultySource": "zipf"
     },
     {
       "word": "panel",
@@ -3624,9 +3576,9 @@
       "word": "reload",
       "lemma": "reload",
       "lemmaId": "reload",
-      "pos": "adverb",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "reload_adverb",
+      "wordKey": "reload_verb",
       "level": "B1",
       "translations": {
         "ru": {
@@ -3638,7 +3590,7 @@
       "exampleStart": 2225,
       "exampleEnd": 2378,
       "matchedForm": "reload",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.928571,
       "difficultySource": "zipf",
       "ipa": "rɪˈləʊd"

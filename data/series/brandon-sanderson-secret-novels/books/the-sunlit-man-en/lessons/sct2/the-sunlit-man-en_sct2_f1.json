@@ -21,14 +21,13 @@
       "wordCount": 573,
       "uniqueWordCount": 349,
       "paragraphCount": 14,
-      "vocabularyCount": 246,
+      "vocabularyCount": 243,
       "levelDistribution": {
-        "A1": 53,
-        "A2": 52,
-        "B1": 77,
-        "B2": 53,
-        "C1": 11,
-        "C2": 0
+        "A1": 51,
+        "A2": 53,
+        "B1": 76,
+        "B2": 52,
+        "C1": 11
       }
     }
   },
@@ -287,10 +286,10 @@
       "word": "ash",
       "lemma": "ash",
       "lemmaId": "ash",
-      "pos": "verb",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "ash_verb",
-      "level": "B1",
+      "wordKey": "ash_noun",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "Пепел"
@@ -301,7 +300,7 @@
       "exampleStart": 1839,
       "exampleEnd": 1946,
       "matchedForm": "ash",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.671429,
       "difficultySource": "zipf",
       "ipa": "æʃ"
@@ -428,7 +427,7 @@
       "pos": "adjective",
       "source": "word",
       "wordKey": "base_adjective",
-      "level": "A2",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "База"
@@ -439,7 +438,7 @@
       "exampleStart": 493,
       "exampleEnd": 535,
       "matchedForm": "base",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.417143,
       "difficultySource": "zipf",
       "ipa": "beɪs"
@@ -681,29 +680,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "burning",
-      "lemma": "burn",
-      "lemmaId": "burn",
-      "pos": "adjective",
-      "source": "word",
-      "wordKey": "burn_adjective",
-      "level": "A1",
-      "translations": {
-        "ru": {
-          "translation": "обожжённый; горящий"
-        }
-      },
-      "_spacyLemma": "burn",
-      "example": "The hovercycle was fast enough to round the planet ahead of the rising sun, staying out of the dawn’s burning clutches.",
-      "exampleStart": 2537,
-      "exampleEnd": 2656,
-      "matchedForm": "burning",
-      "ipa": "ˈbɜːnɪŋ",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.565714,
-      "difficultySource": "zipf"
-    },
-    {
       "word": "burns",
       "lemma": "burn",
       "lemmaId": "burn",
@@ -918,27 +894,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.434286,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "cosmere",
-      "lemma": "cosmere",
-      "lemmaId": "cosmere",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "cosmere_noun",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "космер"
-        }
-      },
-      "_spacyLemma": "cosmere",
-      "example": "But millions, perhaps billions, of people died each day around the cosmere.",
-      "exampleStart": 2051,
-      "exampleEnd": 2126,
-      "matchedForm": "cosmere",
-      "ipa": "ˈkɒzmiə",
-      "levelSource": "vocabulary_index"
     },
     {
       "word": "crashed",
@@ -2132,12 +2087,12 @@
     },
     {
       "word": "hated",
-      "lemma": "hat",
-      "lemmaId": "hat",
+      "lemma": "hate",
+      "lemmaId": "hate",
       "pos": "verb",
       "source": "word",
-      "wordKey": "hat_verb",
-      "level": "B2",
+      "wordKey": "hate_verb",
+      "level": "A2",
       "translations": {
         "de": {
           "translation": "hassend"
@@ -2152,14 +2107,14 @@
           "translation": "ненавидя"
         }
       },
-      "_spacyLemma": "hat",
+      "_spacyLemma": "hate",
       "example": "Even after years of torment, he still hated watching people die.",
       "exampleStart": 2207,
       "exampleEnd": 2271,
       "matchedForm": "hated",
-      "ipa": "ˈheɪtɪd",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.565714,
+      "ipa": "heɪt",
+      "levelSource": "cefr_reference",
+      "difficultyScore": 0.4,
       "difficultySource": "zipf"
     },
     {
@@ -2652,27 +2607,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.697143,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "hovercycle",
-      "lemma": "hovercycle",
-      "lemmaId": "hovercycle",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "hovercycle_noun",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "Ховерцикл"
-        }
-      },
-      "_spacyLemma": "hovercycle",
-      "example": "Nomad slammed to the ground side-first, dragged with frightening speed after the hovercycle.",
-      "exampleStart": 0,
-      "exampleEnd": 92,
-      "matchedForm": "hovercycle",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "ˈhɒvəˌsaɪkəl"
     },
     {
       "word": "hurt",
@@ -4283,26 +4217,25 @@
     },
     {
       "word": "rising",
-      "lemma": "rise",
-      "lemmaId": "rise",
+      "lemma": "rising",
+      "lemmaId": "rising",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "rise_adjective",
-      "level": "A1",
+      "wordKey": "rising_adjective",
+      "level": "A2",
       "translations": {
         "ru": {
           "translation": "Восхождение"
         }
       },
-      "_spacyLemma": "rise",
+      "_spacyLemma": "rising",
       "example": "The hovercycle was fast enough to round the planet ahead of the rising sun, staying out of the dawn’s burning clutches.",
       "exampleStart": 2537,
       "exampleEnd": 2656,
       "matchedForm": "rising",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.485714,
-      "difficultySource": "zipf",
-      "ipa": "ˈraɪzɪŋ"
+      "difficultySource": "zipf"
     },
     {
       "word": "rose",
@@ -5397,11 +5330,11 @@
       "word": "tucked in",
       "lemma": "tuck in",
       "lemmaId": "tuck_in",
-      "pos": "prepositional_verb",
+      "pos": "phrasal_verb",
       "type": "prepositional_verb",
       "source": "dictionary_phrasal",
-      "wordKey": "tuck_in_prepositional_verb",
-      "level": "B2",
+      "wordKey": "tuck_in_phrasal_verb",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "Угощайтесь"
@@ -5415,8 +5348,8 @@
         "startInExample": 3,
         "endInExample": 12
       },
-      "levelSource": "dictionary_phrase",
-      "ipa": "ˌtʌkt ˈɪn"
+      "levelSource": "cefr_context_review",
+      "ipa": "ˌtʌk ˈɪn"
     },
     {
       "word": "tucked",
@@ -5888,25 +5821,25 @@
     },
     {
       "word": "withered",
-      "lemma": "wither",
-      "lemmaId": "wither",
+      "lemma": "withered",
+      "lemmaId": "withered",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "wither_adjective",
-      "level": "B1",
+      "wordKey": "withered_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "засохший"
         }
       },
-      "_spacyLemma": "wither",
+      "_spacyLemma": "withered",
       "example": "Even as Aux said it, Nomad ripped through barriers of withered plants and smashed repeatedly against rocks, dirt grinding into his skin.",
       "exampleStart": 312,
       "exampleEnd": 448,
       "matchedForm": "withered",
       "ipa": "ˈwɪðəd",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.997143,
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 1,
       "difficultySource": "zipf"
     },
     {

@@ -21,14 +21,14 @@
       "wordCount": 532,
       "uniqueWordCount": 323,
       "paragraphCount": 13,
-      "vocabularyCount": 200,
+      "vocabularyCount": 197,
       "levelDistribution": {
-        "A1": 53,
-        "A2": 49,
+        "A1": 50,
+        "A2": 48,
         "B1": 45,
         "B2": 37,
         "C1": 15,
-        "C2": 1
+        "C2": 2
       }
     }
   },
@@ -161,10 +161,10 @@
       "word": "askew",
       "lemma": "askew",
       "lemmaId": "askew",
-      "pos": "noun",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "askew_noun",
-      "level": "A2",
+      "wordKey": "askew_adjective",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "спрашивать"
@@ -175,7 +175,7 @@
       "exampleStart": 2463,
       "exampleEnd": 2670,
       "matchedForm": "askew",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf",
       "ipa": "əˈskjuː"
@@ -228,26 +228,25 @@
     },
     {
       "word": "budding",
-      "lemma": "bud",
-      "lemmaId": "bud",
+      "lemma": "budding",
+      "lemmaId": "budding",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "bud_adjective",
-      "level": "A2",
+      "wordKey": "budding_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "бутон"
         }
       },
-      "_spacyLemma": "bud",
+      "_spacyLemma": "budding",
       "example": "Her budding plan was far, far more dangerous than her work with the flares.",
       "exampleStart": 87,
       "exampleEnd": 162,
       "matchedForm": "budding",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.694286,
-      "difficultySource": "zipf",
-      "ipa": "ˈbʌdɪŋ"
+      "difficultySource": "zipf"
     },
     {
       "word": "Certain",
@@ -1187,25 +1186,25 @@
     },
     {
       "word": "falling",
-      "lemma": "fall",
-      "lemmaId": "fall",
+      "lemma": "fallen",
+      "lemmaId": "fallen",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "fall_adjective",
-      "level": "A1",
+      "wordKey": "fallen_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "упавший"
         }
       },
-      "_spacyLemma": "fall",
+      "_spacyLemma": "fallen",
       "example": "It’s not immediately obvious in most of the seas, but at the lunagree, falling spores make a pile—like the sand on the bottom of an hourglass.",
       "exampleStart": 2134,
       "exampleEnd": 2276,
       "matchedForm": "falling",
-      "ipa": "ˈfɔːlɪŋ",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.394286,
+      "ipa": "ˈfɔːlən",
+      "levelSource": "cefr_reference",
+      "difficultyScore": 0.605714,
       "difficultySource": "zipf"
     },
     {
@@ -1560,52 +1559,27 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "growing",
-      "lemma": "grow",
-      "lemmaId": "grow",
+      "word": "grow",
+      "lemma": "grown",
+      "lemmaId": "grown",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "grow_adjective",
-      "level": "A1",
+      "wordKey": "grown_adjective",
+      "level": "A2",
       "translations": {
         "ru": {
           "translation": "растущий; выросший"
         }
       },
-      "_spacyLemma": "grow",
+      "_spacyLemma": "grown",
       "example": "Over the days of study, she grew proficient at making the vines grow in spirals, to stretch tall and strong, and even to grow slowly—holding back much of their strength.",
       "exampleStart": 1105,
       "exampleEnd": 1274,
       "matchedForm": "grow",
-      "ipa": "ˈɡrəʊɪŋ",
+      "ipa": "ɡrəʊn",
       "levelSource": "vocabulary_index",
-      "difficultyScore": 0.46,
+      "difficultyScore": 0.525714,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "grow in",
-      "lemma": "grow in",
-      "lemmaId": "grow_in",
-      "pos": "prepositional_verb",
-      "type": "prepositional_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "grow_in_prepositional_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "расти в"
-        }
-      },
-      "example": "Over the days of study, she grew proficient at making the vines grow in spirals, to stretch tall and strong, and even to grow slowly—holding back much of their strength.",
-      "exampleStart": 1105,
-      "exampleEnd": 1274,
-      "phraseMatch": {
-        "text": "grow in",
-        "startInExample": 64,
-        "endInExample": 71
-      },
-      "levelSource": "dictionary_phrase",
-      "ipa": "ˌɡrəʊ ˈɪn"
     },
     {
       "word": "grew",
@@ -2568,27 +2542,6 @@
       "ipa": "ˌlɒŋ ˈjiəz"
     },
     {
-      "word": "lunagree",
-      "lemma": "lunagree",
-      "lemmaId": "lunagree",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "lunagree_noun",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "Не согласен"
-        }
-      },
-      "_spacyLemma": "lunagree",
-      "example": "It’s not immediately obvious in most of the seas, but at the lunagree, falling spores make a pile—like the sand on the bottom of an hourglass.",
-      "exampleStart": 2134,
-      "exampleEnd": 2276,
-      "matchedForm": "lunagree",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "ˈluːnəɡˌriː"
-    },
-    {
       "word": "making",
       "lemma": "make",
       "lemmaId": "make",
@@ -2936,10 +2889,10 @@
       "word": "obviously",
       "lemma": "obviously",
       "lemmaId": "obviously",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "obviously_adjective",
-      "level": "C1",
+      "wordKey": "obviously_adverb",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "очевидно"
@@ -2950,7 +2903,7 @@
       "exampleStart": 580,
       "exampleEnd": 611,
       "matchedForm": "obviously",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.488571,
       "difficultySource": "zipf",
       "ipa": "ˈɒbviəsli"
@@ -3028,24 +2981,24 @@
     },
     {
       "word": "passing",
-      "lemma": "pass",
-      "lemmaId": "pass",
+      "lemma": "passing",
+      "lemmaId": "passing",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "pass_adjective",
-      "level": "A1",
+      "wordKey": "passing_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "Сдал"
         }
       },
-      "_spacyLemma": "pass",
+      "_spacyLemma": "passing",
       "example": "The sporefall had grown bigger and bigger with each passing day, and it had become increasingly obvious that this was the captain’s destination.",
       "exampleStart": 1931,
       "exampleEnd": 2075,
       "matchedForm": "passing",
-      "levelSource": "cefr_frequency",
-      "difficultyScore": 0.417143,
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.537143,
       "difficultySource": "zipf",
       "ipa": "ˈpæsɪŋ"
     },
@@ -3053,10 +3006,10 @@
       "word": "periodically",
       "lemma": "periodically",
       "lemmaId": "periodically",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "periodically_adjective",
-      "level": "B1",
+      "wordKey": "periodically_adverb",
+      "level": "C2",
       "translations": {
         "ru": {
           "translation": "периодически"
@@ -3067,7 +3020,7 @@
       "exampleStart": 2672,
       "exampleEnd": 2858,
       "matchedForm": "periodically",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.834286,
       "difficultySource": "zipf",
       "ipa": "ˌpiərɪˈɒdɪkli"
@@ -4028,27 +3981,6 @@
       "difficultyScore": 1,
       "difficultySource": "zipf",
       "ipa": "spɔːz"
-    },
-    {
-      "word": "sporefall",
-      "lemma": "sporefall",
-      "lemmaId": "sporefall",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "sporefall_noun",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "споропад"
-        }
-      },
-      "_spacyLemma": "sporefall",
-      "example": "The ship was currently tacking in such a way that she could see the sporefall out her porthole.",
-      "exampleStart": 1835,
-      "exampleEnd": 1930,
-      "matchedForm": "sporefall",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "ˈspɔːfɔːl"
     },
     {
       "word": "squeezing",

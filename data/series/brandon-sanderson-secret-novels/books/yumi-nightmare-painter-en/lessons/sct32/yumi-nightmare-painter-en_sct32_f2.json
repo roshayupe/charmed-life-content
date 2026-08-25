@@ -21,14 +21,13 @@
       "wordCount": 566,
       "uniqueWordCount": 350,
       "paragraphCount": 25,
-      "vocabularyCount": 168,
+      "vocabularyCount": 162,
       "levelDistribution": {
         "A1": 38,
-        "A2": 44,
-        "B1": 40,
-        "B2": 35,
-        "C1": 11,
-        "C2": 0
+        "A2": 41,
+        "B1": 41,
+        "B2": 33,
+        "C1": 9
       }
     }
   },
@@ -340,10 +339,10 @@
       "word": "Completely",
       "lemma": "completely",
       "lemmaId": "completely",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "completely_adjective",
-      "level": "A2",
+      "wordKey": "completely_adverb",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "Полностью"
@@ -355,7 +354,7 @@
       "exampleEnd": 3004,
       "matchedForm": "Completely",
       "ipa": "kəmˈpliːtli",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.431429,
       "difficultySource": "zipf"
     },
@@ -530,10 +529,10 @@
       "word": "cowardly",
       "lemma": "cowardly",
       "lemmaId": "cowardly",
-      "pos": "adverb",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "cowardly_adverb",
-      "level": "C1",
+      "wordKey": "cowardly_adjective",
+      "level": "B2",
       "translations": {
         "de": {
           "translation": "feige"
@@ -554,7 +553,7 @@
       "exampleEnd": 3331,
       "matchedForm": "cowardly",
       "ipa": "ˈkaʊədli",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.882857,
       "difficultySource": "zipf"
     },
@@ -608,26 +607,25 @@
     },
     {
       "word": "data",
-      "lemma": "datum",
-      "lemmaId": "datum",
+      "lemma": "data",
+      "lemmaId": "data",
       "pos": "noun",
       "source": "word",
-      "wordKey": "datum_noun",
-      "level": "A2",
+      "wordKey": "data_noun",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "базы"
         }
       },
-      "_spacyLemma": "datum",
+      "_spacyLemma": "data",
       "example": "No more data here.",
       "exampleStart": 2860,
       "exampleEnd": 2878,
       "matchedForm": "data",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "ˈdeɪtə"
+      "difficultySource": "zipf"
     },
     {
       "word": "day",
@@ -1303,9 +1301,9 @@
       "word": "heavily",
       "lemma": "heavily",
       "lemmaId": "heavily",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "heavily_adjective",
+      "wordKey": "heavily_adverb",
       "level": "A2",
       "translations": {
         "ru": {
@@ -1317,7 +1315,7 @@
       "exampleStart": 1222,
       "exampleEnd": 1286,
       "matchedForm": "heavily",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.562857,
       "difficultySource": "zipf",
       "ipa": "ˈhevili"
@@ -1511,52 +1509,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.431429,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "Invested",
-      "lemma": "invest",
-      "lemmaId": "invest",
-      "pos": "adjective",
-      "source": "word",
-      "wordKey": "invest_adjective",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "инвестированный"
-        }
-      },
-      "_spacyLemma": "invest",
-      "example": "Especially the thoughts and emotions of heavily Invested beings.",
-      "exampleStart": 1222,
-      "exampleEnd": 1286,
-      "matchedForm": "Invested",
-      "ipa": "ɪnˈvestɪd",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.625714,
-      "difficultySource": "zipf"
-    },
-    {
-      "word": "Investiture",
-      "lemma": "investiture",
-      "lemmaId": "investiture",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "investiture_noun",
-      "level": "C1",
-      "translations": {
-        "ru": {
-          "translation": "Инвеститура"
-        }
-      },
-      "_spacyLemma": "investiture",
-      "example": "“Investiture is what souls are made out of,” said Design.",
-      "exampleStart": 163,
-      "exampleEnd": 220,
-      "matchedForm": "Investiture",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "ɪnˈvestɪtʃə"
     },
     {
       "word": "jokes",
@@ -2031,38 +1983,15 @@
     },
     {
       "word": "memories",
-      "lemma": "memorie",
-      "lemmaId": "memorie",
-      "pos": "verb",
-      "source": "word",
-      "wordKey": "memorie_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "Мемори"
-        }
-      },
-      "_spacyLemma": "memorie",
-      "example": ") “Yumi, have you experienced any memory loss lately?",
-      "exampleStart": 1914,
-      "exampleEnd": 1967,
-      "matchedForm": "memory",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "ˈmeməriz"
-    },
-    {
-      "word": "memory",
       "lemma": "memory",
       "lemmaId": "memory",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "memory_adjective",
+      "wordKey": "memory_noun",
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "Память"
+          "translation": "память"
         }
       },
       "_spacyLemma": "memory",
@@ -2070,10 +1999,10 @@
       "exampleStart": 1914,
       "exampleEnd": 1967,
       "matchedForm": "memory",
-      "levelSource": "cefr_frequency",
+      "ipa": "ˈmeməriz",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 0.485714,
-      "difficultySource": "zipf",
-      "ipa": "ˈmeməri"
+      "difficultySource": "zipf"
     },
     {
       "word": "memory loss",
@@ -2099,29 +2028,6 @@
       },
       "levelSource": "phrase_fallback",
       "ipa": "ˌmeməri ˈlɒs"
-    },
-    {
-      "word": "memories",
-      "lemma": "memory",
-      "lemmaId": "memory",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "memory_noun",
-      "level": "A2",
-      "translations": {
-        "ru": {
-          "translation": "память"
-        }
-      },
-      "_spacyLemma": "memory",
-      "example": ") “Yumi, have you experienced any memory loss lately?",
-      "exampleStart": 1914,
-      "exampleEnd": 1967,
-      "matchedForm": "memory",
-      "ipa": "ˈmeməriz",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.485714,
-      "difficultySource": "zipf"
     },
     {
       "word": "more data",
@@ -2684,9 +2590,9 @@
       "word": "proudly",
       "lemma": "proudly",
       "lemmaId": "proudly",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "proudly_adjective",
+      "wordKey": "proudly_adverb",
       "level": "B2",
       "translations": {
         "ru": {
@@ -2698,7 +2604,7 @@
       "exampleStart": 1824,
       "exampleEnd": 1914,
       "matchedForm": "proudly",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.8,
       "difficultySource": "zipf",
       "ipa": "ˈpraʊdli"
@@ -3214,27 +3120,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.491429,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "spiritweb",
-      "lemma": "spiritweb",
-      "lemmaId": "spiritweb",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "spiritweb_noun",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "духовная паутина"
-        }
-      },
-      "_spacyLemma": "spiritweb",
-      "example": "”\n\n“It’s difficult to read your spiritweb,” Design said.",
-      "exampleStart": 2015,
-      "exampleEnd": 2071,
-      "matchedForm": "spiritweb",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "ˈspɪrɪˌtweb"
     },
     {
       "word": "spread",
@@ -3827,27 +3712,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.802857,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "wahoopli",
-      "lemma": "wahoopli",
-      "lemmaId": "wahoopli",
-      "pos": "adjective",
-      "source": "word",
-      "wordKey": "wahoopli_adjective",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "Вахупли"
-        }
-      },
-      "_spacyLemma": "wahoopli",
-      "example": "Investiture—raw Investiture in particular—is kinda wahoopli.",
-      "exampleStart": 837,
-      "exampleEnd": 897,
-      "matchedForm": "wahoopli",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "ˈwæhuːpli"
     },
     {
       "word": "ways",

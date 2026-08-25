@@ -21,14 +21,14 @@
       "wordCount": 562,
       "uniqueWordCount": 328,
       "paragraphCount": 18,
-      "vocabularyCount": 178,
+      "vocabularyCount": 169,
       "levelDistribution": {
-        "A1": 40,
-        "A2": 39,
-        "B1": 33,
-        "B2": 43,
-        "C1": 21,
-        "C2": 2
+        "A1": 48,
+        "A2": 30,
+        "B1": 30,
+        "B2": 41,
+        "C1": 19,
+        "C2": 1
       }
     }
   },
@@ -89,10 +89,10 @@
       "word": "anyhows",
       "lemma": "anyhow",
       "lemmaId": "anyhow",
-      "pos": "noun",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "anyhow_noun",
-      "level": "A2",
+      "wordKey": "anyhow_adverb",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "так или иначе"
@@ -106,19 +106,19 @@
       "exampleStart": 2954,
       "exampleEnd": 2997,
       "matchedForm": "anyhows",
-      "ipa": "ˈenɪˌhaʊz",
-      "levelSource": "vocabulary_index",
+      "ipa": "ˈenɪˌhaʊ",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.865714,
       "difficultySource": "zipf"
     },
     {
       "word": "appels",
-      "lemma": "appel",
-      "lemmaId": "appel",
+      "lemma": "apple",
+      "lemmaId": "apple",
       "pos": "noun",
       "source": "word",
-      "wordKey": "appel_noun",
-      "level": "A2",
+      "wordKey": "apple_noun",
+      "level": "A1",
       "translations": {
         "ru": {
           "translation": "призыв; вызов"
@@ -127,14 +127,14 @@
           "translation": "призов до армії; Виклик"
         }
       },
-      "_spacyLemma": "appel",
+      "_spacyLemma": "apple",
       "example": "Thourght I was lookin forward to a bit peace but missin yer voice an wishin you was comin in bringin appels.",
       "exampleStart": 2597,
       "exampleEnd": 2705,
       "matchedForm": "appels",
-      "ipa": "əˈpelz",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 1,
+      "ipa": "ˈæpəl",
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.5,
       "difficultySource": "zipf"
     },
     {
@@ -325,7 +325,9 @@
         "endInExample": 44
       },
       "ipa": "ˌbɪt ˈpiːs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "blandly",
@@ -443,16 +445,18 @@
         "endInExample": 107
       },
       "ipa": "ˌbrɪŋɡɪn əˈpelz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "bringin",
-      "lemma": "bringin",
-      "lemmaId": "bringin",
-      "pos": "noun",
+      "lemma": "bring",
+      "lemmaId": "bring",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "bringin_noun",
-      "level": "B1",
+      "wordKey": "bring_verb",
+      "level": "A1",
       "translations": {
         "ru": {
           "translation": "принесение"
@@ -461,40 +465,14 @@
           "translation": "Привезення"
         }
       },
-      "_spacyLemma": "bringin",
+      "_spacyLemma": "bring",
       "example": "Thourght I was lookin forward to a bit peace but missin yer voice an wishin you was comin in bringin appels.",
       "exampleStart": 2597,
       "exampleEnd": 2705,
       "matchedForm": "bringin",
-      "ipa": "ˈbrɪŋɡɪn",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 1,
-      "difficultySource": "zipf"
-    },
-    {
-      "word": "bringin",
-      "lemma": "bringin",
-      "lemmaId": "bringin",
-      "pos": "verb",
-      "source": "word",
-      "wordKey": "bringin_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "приносить"
-        },
-        "uk": {
-          "translation": "Принеси"
-        }
-      },
-      "_spacyLemma": "bringin",
-      "example": "Thourght I was lookin forward to a bit peace but missin yer voice an wishin you was comin in bringin appels.",
-      "exampleStart": 2597,
-      "exampleEnd": 2705,
-      "matchedForm": "bringin",
-      "ipa": "ˈbrɪŋɡɪn",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 1,
+      "ipa": "brɪŋ",
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.354286,
       "difficultySource": "zipf"
     },
     {
@@ -601,7 +579,10 @@
         "endInExample": 12
       },
       "ipa": "ˌkeɪm ˈʌp",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "come",
@@ -627,32 +608,6 @@
       "ipa": "kʌm",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.208571,
-      "difficultySource": "zipf"
-    },
-    {
-      "word": "comin",
-      "lemma": "comin",
-      "lemmaId": "comin",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "comin_noun",
-      "level": "A2",
-      "translations": {
-        "ru": {
-          "translation": "приход; прибытие"
-        },
-        "uk": {
-          "translation": "приходити"
-        }
-      },
-      "_spacyLemma": "comin",
-      "example": "Thourght I was lookin forward to a bit peace but missin yer voice an wishin you was comin in bringin appels.",
-      "exampleStart": 2597,
-      "exampleEnd": 2705,
-      "matchedForm": "comin",
-      "ipa": "ˈkɒmɪn",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.851429,
       "difficultySource": "zipf"
     },
     {
@@ -741,12 +696,12 @@
     },
     {
       "word": "dazzling",
-      "lemma": "dazzle",
-      "lemmaId": "dazzle",
+      "lemma": "dazzling",
+      "lemmaId": "dazzling",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "dazzle_adjective",
-      "level": "B1",
+      "wordKey": "dazzling_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "ослепительный"
@@ -755,13 +710,12 @@
           "translation": "Блискуче"
         }
       },
-      "_spacyLemma": "dazzle",
+      "_spacyLemma": "dazzling",
       "example": "Gwendolen stared vengefully as the dazzling dressing gown flowed away along the gallery.",
       "exampleStart": 1267,
       "exampleEnd": 1355,
       "matchedForm": "dazzling",
-      "ipa": "ˈdæzlɪŋ",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.997143,
       "difficultySource": "zipf"
     },
@@ -851,12 +805,12 @@
     },
     {
       "word": "doin",
-      "lemma": "doin",
-      "lemmaId": "doin",
+      "lemma": "do",
+      "lemmaId": "do",
       "pos": "verb",
       "source": "word",
-      "wordKey": "doin_verb",
-      "level": "A2",
+      "wordKey": "do_verb",
+      "level": "A1",
       "translations": {
         "ru": {
           "translation": "делать"
@@ -865,13 +819,12 @@
           "translation": "робиш"
         }
       },
-      "_spacyLemma": "doin",
+      "_spacyLemma": "do",
       "example": "She wrote:\n\nMe dear Cat,\n\nOw are you doin then me love?",
       "exampleStart": 2458,
       "exampleEnd": 2513,
       "matchedForm": "doin",
-      "ipa": "ˈduːɪn",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.774286,
       "difficultySource": "zipf"
     },
@@ -911,10 +864,10 @@
       "word": "dressing",
       "lemma": "dressing",
       "lemmaId": "dressing",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "dressing_adjective",
-      "level": "B2",
+      "wordKey": "dressing_noun",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "одевающийся; перевязочный"
@@ -929,7 +882,7 @@
       "exampleEnd": 1252,
       "matchedForm": "dressing",
       "ipa": "ˈdresɪŋ",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.668571,
       "difficultySource": "zipf"
     },
@@ -983,32 +936,6 @@
       "ipa": "fiːl",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.24,
-      "difficultySource": "zipf"
-    },
-    {
-      "word": "fidel",
-      "lemma": "fidel",
-      "lemmaId": "fidel",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "fidel_noun",
-      "level": "A2",
-      "translations": {
-        "ru": {
-          "translation": "скрипка"
-        },
-        "uk": {
-          "translation": "Фідель"
-        }
-      },
-      "_spacyLemma": "fidel",
-      "example": "One thing happen an that was a gennelman come an give five poun for the ole cat that was yer fidel so I feel flush and had idear of packin you up a parsel of jinjerbredmen and mebbe bringin them to you one of these days but Mr.",
-      "exampleStart": 2706,
-      "exampleEnd": 2933,
-      "matchedForm": "fidel",
-      "ipa": "fɪˈdel",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.945714,
       "difficultySource": "zipf"
     },
     {
@@ -1102,7 +1029,7 @@
       "pos": "adjective",
       "source": "word",
       "wordKey": "flush_adjective",
-      "level": "C1",
+      "level": "B2",
       "translations": {
         "de": {
           "translation": "spülen"
@@ -1123,7 +1050,7 @@
       "exampleEnd": 2933,
       "matchedForm": "flush",
       "ipa": "flʌʃ",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.774286,
       "difficultySource": "zipf"
     },
@@ -1303,12 +1230,12 @@
     },
     {
       "word": "gennelman",
-      "lemma": "gennelman",
-      "lemmaId": "gennelman",
+      "lemma": "gentleman",
+      "lemmaId": "gentleman",
       "pos": "noun",
       "source": "word",
-      "wordKey": "gennelman_noun",
-      "level": "B2",
+      "wordKey": "gentleman_noun",
+      "level": "A2",
       "translations": {
         "ru": {
           "translation": "джентльмен"
@@ -1317,13 +1244,15 @@
           "translation": "Пане"
         }
       },
-      "_spacyLemma": "gennelman",
+      "_spacyLemma": "gentleman",
       "example": "One thing happen an that was a gennelman come an give five poun for the ole cat that was yer fidel so I feel flush and had idear of packin you up a parsel of jinjerbredmen and mebbe bringin them to you one of these days but Mr.",
       "exampleStart": 2706,
       "exampleEnd": 2933,
       "matchedForm": "gennelman",
-      "ipa": "ˈdʒenelmən",
-      "levelSource": "vocabulary_index"
+      "ipa": "ˈdʒentəlmən",
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.671429,
+      "difficultySource": "zipf"
     },
     {
       "word": "went on",
@@ -1351,7 +1280,10 @@
         "endInExample": 37
       },
       "ipa": "went ˈɒn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "going",
@@ -1535,7 +1467,9 @@
         "endInExample": 76
       },
       "ipa": "ˌhedʒ ˈwɪzəd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her letter",
@@ -1563,7 +1497,9 @@
         "endInExample": 101
       },
       "ipa": "hɜː ˈletə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "hope",
@@ -1657,12 +1593,12 @@
     },
     {
       "word": "idear",
-      "lemma": "idear",
-      "lemmaId": "idear",
+      "lemma": "idea",
+      "lemmaId": "idea",
       "pos": "noun",
       "source": "word",
-      "wordKey": "idear_noun",
-      "level": "A2",
+      "wordKey": "idea_noun",
+      "level": "A1",
       "translations": {
         "ru": {
           "translation": "идея"
@@ -1671,14 +1607,14 @@
           "translation": "Ідея"
         }
       },
-      "_spacyLemma": "idear",
+      "_spacyLemma": "idea",
       "example": "One thing happen an that was a gennelman come an give five poun for the ole cat that was yer fidel so I feel flush and had idear of packin you up a parsel of jinjerbredmen and mebbe bringin them to you one of these days but Mr.",
       "exampleStart": 2706,
       "exampleEnd": 2933,
       "matchedForm": "idear",
-      "ipa": "aɪˈdiərə",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 1,
+      "ipa": "aɪˈdiə",
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.328571,
       "difficultySource": "zipf"
     },
     {
@@ -1758,30 +1694,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.691429,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "jinjerbredmen",
-      "lemma": "jinjerbredman",
-      "lemmaId": "jinjerbredman",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "jinjerbredman_noun",
-      "level": "C2",
-      "translations": {
-        "ru": {
-          "translation": "пряничный человечек"
-        },
-        "uk": {
-          "translation": "пряниковий чоловічок"
-        }
-      },
-      "_spacyLemma": "jinjerbredman",
-      "example": "One thing happen an that was a gennelman come an give five poun for the ole cat that was yer fidel so I feel flush and had idear of packin you up a parsel of jinjerbredmen and mebbe bringin them to you one of these days but Mr.",
-      "exampleStart": 2706,
-      "exampleEnd": 2933,
-      "matchedForm": "jinjerbredmen",
-      "ipa": "ˈdʒɪndʒəˌbredmen",
-      "levelSource": "vocabulary_index"
     },
     {
       "word": "jokes",
@@ -1973,11 +1885,11 @@
     },
     {
       "word": "lonesum",
-      "lemma": "lonesum",
-      "lemmaId": "lonesum",
-      "pos": "verb",
+      "lemma": "lonesome",
+      "lemmaId": "lonesome",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "lonesum_verb",
+      "wordKey": "lonesome_adjective",
       "level": "B2",
       "translations": {
         "ru": {
@@ -1987,41 +1899,12 @@
           "translation": "самотній"
         }
       },
-      "_spacyLemma": "lonesum",
+      "_spacyLemma": "lonesome",
       "example": "I fine meself lonesum an missin you both particular you the place seems so quiete.",
       "exampleStart": 2514,
       "exampleEnd": 2596,
       "matchedForm": "lonesum",
-      "ipa": "ˈləʊnsəm",
-      "levelSource": "vocabulary_index"
-    },
-    {
-      "word": "looked in",
-      "lemma": "look in",
-      "lemmaId": "look_in",
-      "pos": "prepositional_verb",
-      "type": "prepositional_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "look_in_prepositional_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "заглянуть; посмотреть внутрь"
-        },
-        "uk": {
-          "translation": "підглядати; Подивись всередину"
-        }
-      },
-      "example": "After a bit, she looked in the envelope again.",
-      "exampleStart": 2211,
-      "exampleEnd": 2257,
-      "phraseMatch": {
-        "text": "looked in",
-        "startInExample": 17,
-        "endInExample": 26
-      },
-      "ipa": "ˌlʊkt ˈɪn",
-      "levelSource": "phrase_index"
+      "levelSource": "cefr_context_review"
     },
     {
       "word": "look",
@@ -2073,32 +1956,6 @@
       "ipa": "lʊkt",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.2,
-      "difficultySource": "zipf"
-    },
-    {
-      "word": "lookin",
-      "lemma": "lookin",
-      "lemmaId": "lookin",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "lookin_noun",
-      "level": "A2",
-      "translations": {
-        "ru": {
-          "translation": "взгляд; осмотр"
-        },
-        "uk": {
-          "translation": "дивлюся"
-        }
-      },
-      "_spacyLemma": "lookin",
-      "example": "Thourght I was lookin forward to a bit peace but missin yer voice an wishin you was comin in bringin appels.",
-      "exampleStart": 2597,
-      "exampleEnd": 2705,
-      "matchedForm": "lookin",
-      "ipa": "ˈlʊkɪn",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.785714,
       "difficultySource": "zipf"
     },
     {
@@ -2181,12 +2038,12 @@
     },
     {
       "word": "luckshury",
-      "lemma": "luckshury",
-      "lemmaId": "luckshury",
-      "pos": "adjective",
+      "lemma": "luxury",
+      "lemmaId": "luxury",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "luckshury_adjective",
-      "level": "C1",
+      "wordKey": "luxury_noun",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "роскошный"
@@ -2195,13 +2052,15 @@
           "translation": "Розкіш"
         }
       },
-      "_spacyLemma": "luckshury",
+      "_spacyLemma": "luxury",
       "example": "Spect your in the lap of luckshury anyhows.",
       "exampleStart": 2954,
       "exampleEnd": 2997,
       "matchedForm": "luckshury",
-      "ipa": "ˈlʌkʃjʊri",
-      "levelSource": "vocabulary_index"
+      "ipa": "ˈlʌkʃəri",
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.617143,
+      "difficultySource": "zipf"
     },
     {
       "word": "luckshury anyhows",
@@ -2229,7 +2088,9 @@
         "endInExample": 42
       },
       "ipa": "ˌlʌkʃjʊri ˈenɪˌhaʊz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "makes",
@@ -2315,7 +2176,9 @@
         "endInExample": 42
       },
       "ipa": "ˌmɑːbəl ˈsteəz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "mean",
@@ -2345,12 +2208,12 @@
     },
     {
       "word": "mebbe",
-      "lemma": "mebbe",
-      "lemmaId": "mebbe",
-      "pos": "noun",
+      "lemma": "maybe",
+      "lemmaId": "maybe",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "mebbe_noun",
-      "level": "A2",
+      "wordKey": "maybe_adverb",
+      "level": "A1",
       "translations": {
         "ru": {
           "translation": "может быть"
@@ -2359,14 +2222,14 @@
           "translation": "можливо"
         }
       },
-      "_spacyLemma": "mebbe",
+      "_spacyLemma": "maybe",
       "example": "One thing happen an that was a gennelman come an give five poun for the ole cat that was yer fidel so I feel flush and had idear of packin you up a parsel of jinjerbredmen and mebbe bringin them to you one of these days but Mr.",
       "exampleStart": 2706,
       "exampleEnd": 2933,
       "matchedForm": "mebbe",
-      "ipa": "meb",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 1,
+      "ipa": "ˈmeɪbiː",
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.302857,
       "difficultySource": "zipf"
     },
     {
@@ -2435,12 +2298,12 @@
     },
     {
       "word": "missin",
-      "lemma": "missin",
-      "lemmaId": "missin",
-      "pos": "noun",
+      "lemma": "miss",
+      "lemmaId": "miss",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "missin_noun",
-      "level": "A2",
+      "wordKey": "miss_verb",
+      "level": "A1",
       "translations": {
         "ru": {
           "translation": "пропажа; отсутствие"
@@ -2449,40 +2312,14 @@
           "translation": "сумувати"
         }
       },
-      "_spacyLemma": "missin",
+      "_spacyLemma": "miss",
       "example": "I fine meself lonesum an missin you both particular you the place seems so quiete.",
       "exampleStart": 2514,
       "exampleEnd": 2596,
       "matchedForm": "missin",
-      "ipa": "ˈmɪsɪn",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 1,
-      "difficultySource": "zipf"
-    },
-    {
-      "word": "missin",
-      "lemma": "missin",
-      "lemmaId": "missin",
-      "pos": "verb",
-      "source": "word",
-      "wordKey": "missin_verb",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "скучать; упускать"
-        },
-        "uk": {
-          "translation": "сумувати"
-        }
-      },
-      "_spacyLemma": "missin",
-      "example": "I fine meself lonesum an missin you both particular you the place seems so quiete.",
-      "exampleStart": 2514,
-      "exampleEnd": 2596,
-      "matchedForm": "missin",
-      "ipa": "ˈmɪsɪn",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 1,
+      "ipa": "mɪs",
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.368571,
       "difficultySource": "zipf"
     },
     {
@@ -2537,7 +2374,9 @@
         "endInExample": 18
       },
       "ipa": "ˌmɔː ˈtrʌbəl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "my conscience",
@@ -2565,7 +2404,9 @@
         "endInExample": 43
       },
       "ipa": "maɪ ˈkɒnʃəns",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "my letters",
@@ -2593,7 +2434,9 @@
         "endInExample": 22
       },
       "ipa": "maɪ ˈletəz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "my teacher",
@@ -2621,7 +2464,9 @@
         "endInExample": 21
       },
       "ipa": "maɪ ˈtiːtʃə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "Naturally",
@@ -2709,12 +2554,12 @@
     },
     {
       "word": "nothin",
-      "lemma": "nothin",
-      "lemmaId": "nothin",
-      "pos": "adverb",
+      "lemma": "nothing",
+      "lemmaId": "nothing",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "nothin_adverb",
-      "level": "B1",
+      "wordKey": "nothing_noun",
+      "level": "A1",
       "translations": {
         "ru": {
           "translation": "ничего"
@@ -2723,13 +2568,12 @@
           "translation": "Нічого"
         }
       },
-      "_spacyLemma": "nothin",
+      "_spacyLemma": "nothing",
       "example": "Wish you was back here Cat and the money means nothin.",
       "exampleStart": 3017,
       "exampleEnd": 3071,
       "matchedForm": "nothin",
-      "ipa": "ˈnʌθɪn",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.805714,
       "difficultySource": "zipf"
     },
@@ -2767,12 +2611,12 @@
     },
     {
       "word": "ole",
-      "lemma": "ole",
-      "lemmaId": "ole",
+      "lemma": "old",
+      "lemmaId": "old",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "ole_adjective",
-      "level": "A2",
+      "wordKey": "old_adjective",
+      "level": "A1",
       "translations": {
         "ru": {
           "translation": "старый"
@@ -2781,14 +2625,14 @@
           "translation": "Оле"
         }
       },
-      "_spacyLemma": "ole",
+      "_spacyLemma": "old",
       "example": "One thing happen an that was a gennelman come an give five poun for the ole cat that was yer fidel so I feel flush and had idear of packin you up a parsel of jinjerbredmen and mebbe bringin them to you one of these days but Mr.",
       "exampleStart": 2706,
       "exampleEnd": 2933,
       "matchedForm": "ole",
-      "ipa": "əʊl",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.794286,
+      "ipa": "əʊld",
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.217143,
       "difficultySource": "zipf"
     },
     {
@@ -2817,7 +2661,9 @@
         "endInExample": 79
       },
       "ipa": "ˌəʊl ˈkæt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "open",
@@ -2905,11 +2751,11 @@
     },
     {
       "word": "packin",
-      "lemma": "packin",
-      "lemmaId": "packin",
-      "pos": "noun",
+      "lemma": "pack",
+      "lemmaId": "pack",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "packin_noun",
+      "wordKey": "pack_verb",
       "level": "A2",
       "translations": {
         "ru": {
@@ -2919,14 +2765,14 @@
           "translation": "Пакін"
         }
       },
-      "_spacyLemma": "packin",
+      "_spacyLemma": "pack",
       "example": "One thing happen an that was a gennelman come an give five poun for the ole cat that was yer fidel so I feel flush and had idear of packin you up a parsel of jinjerbredmen and mebbe bringin them to you one of these days but Mr.",
       "exampleStart": 2706,
       "exampleEnd": 2933,
       "matchedForm": "packin",
-      "ipa": "ˈpækɪn",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 1,
+      "ipa": "pæk",
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.528571,
       "difficultySource": "zipf"
     },
     {
@@ -2957,11 +2803,11 @@
     },
     {
       "word": "parsel",
-      "lemma": "parsel",
-      "lemmaId": "parsel",
+      "lemma": "parcel",
+      "lemmaId": "parcel",
       "pos": "noun",
       "source": "word",
-      "wordKey": "parsel_noun",
+      "wordKey": "parcel_noun",
       "level": "A2",
       "translations": {
         "ru": {
@@ -2971,13 +2817,15 @@
           "translation": "парсель"
         }
       },
-      "_spacyLemma": "parsel",
+      "_spacyLemma": "parcel",
       "example": "One thing happen an that was a gennelman come an give five poun for the ole cat that was yer fidel so I feel flush and had idear of packin you up a parsel of jinjerbredmen and mebbe bringin them to you one of these days but Mr.",
       "exampleStart": 2706,
       "exampleEnd": 2933,
       "matchedForm": "parsel",
       "ipa": "ˈpɑːsəl",
-      "levelSource": "vocabulary_index"
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.811429,
+      "difficultySource": "zipf"
     },
     {
       "word": "particular",
@@ -3227,12 +3075,12 @@
     },
     {
       "word": "poun",
-      "lemma": "poun",
-      "lemmaId": "poun",
+      "lemma": "pound",
+      "lemmaId": "pound",
       "pos": "noun",
       "source": "word",
-      "wordKey": "poun_noun",
-      "level": "A1",
+      "wordKey": "pound_noun",
+      "level": "A2",
       "translations": {
         "ru": {
           "translation": "пышный"
@@ -3241,14 +3089,14 @@
           "translation": "пун"
         }
       },
-      "_spacyLemma": "poun",
+      "_spacyLemma": "pound",
       "example": "One thing happen an that was a gennelman come an give five poun for the ole cat that was yer fidel so I feel flush and had idear of packin you up a parsel of jinjerbredmen and mebbe bringin them to you one of these days but Mr.",
       "exampleStart": 2706,
       "exampleEnd": 2933,
       "matchedForm": "poun",
-      "ipa": "paʊn",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 1,
+      "ipa": "paʊnd",
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.625714,
       "difficultySource": "zipf"
     },
     {
@@ -3277,16 +3125,19 @@
         "endInExample": 20
       },
       "ipa": "ˌpʊt ˈʌp wɪð",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "quiete",
-      "lemma": "quiete",
-      "lemmaId": "quiete",
+      "lemma": "quiet",
+      "lemmaId": "quiet",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "quiete_adjective",
-      "level": "B1",
+      "wordKey": "quiet_adjective",
+      "level": "A1",
       "translations": {
         "ru": {
           "translation": "тихий; спокойный"
@@ -3295,14 +3146,14 @@
           "translation": "тихо; Спокій"
         }
       },
-      "_spacyLemma": "quiete",
+      "_spacyLemma": "quiet",
       "example": "I fine meself lonesum an missin you both particular you the place seems so quiete.",
       "exampleStart": 2514,
       "exampleEnd": 2596,
       "matchedForm": "quiete",
       "ipa": "ˈkwaɪət",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 1,
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.531429,
       "difficultySource": "zipf"
     },
     {
@@ -3571,33 +3422,9 @@
         "endInExample": 24
       },
       "ipa": "ˌsiːdi ˈpɜːsən",
-      "levelSource": "phrase_index"
-    },
-    {
-      "word": "sez",
-      "lemma": "sez",
-      "lemmaId": "sez",
-      "pos": "verb",
-      "source": "word",
-      "wordKey": "sez_verb",
-      "level": "A2",
-      "translations": {
-        "ru": {
-          "translation": "говорит"
-        },
-        "uk": {
-          "translation": "каже"
-        }
-      },
-      "_spacyLemma": "sez",
-      "example": "Nostrum sez not to.",
-      "exampleStart": 2934,
-      "exampleEnd": 2953,
-      "matchedForm": "sez",
-      "ipa": "sez",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 1,
-      "difficultySource": "zipf"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "sheet",
@@ -3781,12 +3608,12 @@
     },
     {
       "word": "Spect",
-      "lemma": "spect",
-      "lemmaId": "spect",
+      "lemma": "expect",
+      "lemmaId": "expect",
       "pos": "verb",
       "source": "word",
-      "wordKey": "spect_verb",
-      "level": "B1",
+      "wordKey": "expect_verb",
+      "level": "A2",
       "translations": {
         "ru": {
           "translation": "зрелище"
@@ -3795,14 +3622,14 @@
           "translation": "гадаю"
         }
       },
-      "_spacyLemma": "spect",
+      "_spacyLemma": "expect",
       "example": "Spect your in the lap of luckshury anyhows.",
       "exampleStart": 2954,
       "exampleEnd": 2997,
       "matchedForm": "Spect",
-      "ipa": "spekt",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 1,
+      "ipa": "ekˈspekt",
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.428571,
       "difficultySource": "zipf"
     },
     {
@@ -3921,7 +3748,10 @@
         "endInExample": 63
       },
       "ipa": "ˌstɪk ˈdaʊn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "stick",
@@ -4009,12 +3839,12 @@
     },
     {
       "word": "swirled",
-      "lemma": "swirl",
-      "lemmaId": "swirl",
-      "pos": "verb",
+      "lemma": "swirling",
+      "lemmaId": "swirling",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "swirl_verb",
-      "level": "C1",
+      "wordKey": "swirling_adjective",
+      "level": "B2",
       "translations": {
         "de": {
           "translation": "wirbelnd"
@@ -4029,14 +3859,14 @@
           "translation": "Твіст"
         }
       },
-      "_spacyLemma": "swirl",
+      "_spacyLemma": "swirling",
       "example": "The pink and orange dressing gown swirled, revealing a bright scarlet lining.",
       "exampleStart": 1175,
       "exampleEnd": 1252,
       "matchedForm": "swirled",
-      "ipa": "swɜːld",
+      "ipa": "ˈswɜːlɪŋ",
       "levelSource": "vocabulary_index",
-      "difficultyScore": 0.957143,
+      "difficultyScore": 0.954286,
       "difficultySource": "zipf"
     },
     {
@@ -4195,7 +4025,9 @@
         "endInExample": 18
       },
       "ipa": "ðeə ˈmɜːsi",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "thing",
@@ -4225,12 +4057,12 @@
     },
     {
       "word": "Thourght",
-      "lemma": "thourght",
-      "lemmaId": "thourght",
-      "pos": "adverb",
+      "lemma": "think",
+      "lemmaId": "think",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "thourght_adverb",
-      "level": "B2",
+      "wordKey": "think_verb",
+      "level": "A1",
       "translations": {
         "ru": {
           "translation": "сквозь; через"
@@ -4239,13 +4071,15 @@
           "translation": "Тогт"
         }
       },
-      "_spacyLemma": "thourght",
+      "_spacyLemma": "think",
       "example": "Thourght I was lookin forward to a bit peace but missin yer voice an wishin you was comin in bringin appels.",
       "exampleStart": 2597,
       "exampleEnd": 2705,
       "matchedForm": "Thourght",
-      "ipa": "ˈθaʊət",
-      "levelSource": "vocabulary_index"
+      "ipa": "θɪŋk",
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.122857,
+      "difficultySource": "zipf"
     },
     {
       "word": "tossed",
@@ -4525,7 +4359,10 @@
         "endInExample": 15
       },
       "ipa": "ˌwɒtʃ ˈaʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "watch",
@@ -4670,32 +4507,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "wishin",
-      "lemma": "wishin",
-      "lemmaId": "wishin",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "wishin_noun",
-      "level": "A2",
-      "translations": {
-        "ru": {
-          "translation": "желающий"
-        },
-        "uk": {
-          "translation": "хотіти"
-        }
-      },
-      "_spacyLemma": "wishin",
-      "example": "Thourght I was lookin forward to a bit peace but missin yer voice an wishin you was comin in bringin appels.",
-      "exampleStart": 2597,
-      "exampleEnd": 2705,
-      "matchedForm": "wishin",
-      "ipa": "ˈwɪʃɪn",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 1,
-      "difficultySource": "zipf"
-    },
-    {
       "word": "wizard",
       "lemma": "wizard",
       "lemmaId": "wizard",
@@ -4837,33 +4648,9 @@
         "endInExample": 98
       },
       "ipa": "jə fɪˈdel",
-      "levelSource": "phrase_index"
-    },
-    {
-      "word": "yer",
-      "lemma": "yer",
-      "lemmaId": "yer",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "yer_noun",
-      "level": "A1",
-      "translations": {
-        "ru": {
-          "translation": "твой; ваш"
-        },
-        "uk": {
-          "translation": "Йер"
-        }
-      },
-      "_spacyLemma": "yer",
-      "example": "Thourght I was lookin forward to a bit peace but missin yer voice an wishin you was comin in bringin appels.",
-      "exampleStart": 2597,
-      "exampleEnd": 2705,
-      "matchedForm": "yer",
-      "ipa": "jə",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.9,
-      "difficultySource": "zipf"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "yer voice",
@@ -4891,7 +4678,9 @@
         "endInExample": 65
       },
       "ipa": "jə ˈvɔɪs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "your letters",
@@ -4919,7 +4708,46 @@
         "endInExample": 59
       },
       "ipa": "jɔː ˈletəz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
+    },
+    {
+      "word": "at last",
+      "lemma": "at last",
+      "lemmaId": "at_last",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "adverb_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "наконец"
+        },
+        "uk": {
+          "translation": "нарешті"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "Gwendolen slammed into the playroom, flounced down at the table, and began at last to read her letter.",
+      "exampleStart": 1967,
+      "exampleEnd": 2069,
+      "exampleTranslation": "наконец",
+      "phraseMatch": {
+        "text": "at last",
+        "startInExample": 75,
+        "endInExample": 82
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "at_last_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "нарешті"
+        }
+      }
     }
   ],
   "namedEntities": [

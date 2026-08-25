@@ -21,14 +21,14 @@
       "wordCount": 637,
       "uniqueWordCount": 322,
       "paragraphCount": 13,
-      "vocabularyCount": 202,
+      "vocabularyCount": 203,
       "levelDistribution": {
-        "A1": 53,
+        "A1": 52,
         "A2": 33,
-        "B1": 44,
-        "B2": 58,
-        "C1": 12,
-        "C2": 2
+        "B1": 47,
+        "B2": 57,
+        "C1": 13,
+        "C2": 1
       }
     }
   },
@@ -305,7 +305,9 @@
         "endInExample": 54
       },
       "ipa": "ˌbæd ˈtrʌbəl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "be in",
@@ -333,7 +335,10 @@
         "endInExample": 35
       },
       "ipa": "biː ˈɪn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "bit",
@@ -363,11 +368,11 @@
     },
     {
       "word": "boiled",
-      "lemma": "boil",
-      "lemmaId": "boil",
+      "lemma": "boiled",
+      "lemmaId": "boiled",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "boil_adjective",
+      "wordKey": "boiled_adjective",
       "level": "A2",
       "translations": {
         "ru": {
@@ -377,13 +382,12 @@
           "translation": "варений"
         }
       },
-      "_spacyLemma": "boil",
+      "_spacyLemma": "boiled",
       "example": "After a wholesome lunch of turnips and boiled mutton, they had lessons again.",
       "exampleStart": 106,
       "exampleEnd": 183,
       "matchedForm": "boiled",
-      "ipa": "bɔɪld",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.765714,
       "difficultySource": "zipf"
     },
@@ -665,7 +669,10 @@
         "endInExample": 16
       },
       "ipa": "ˌkeɪm ˈɪn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "come out",
@@ -693,7 +700,10 @@
         "endInExample": 27
       },
       "ipa": "ˌkʌm ˈaʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "come",
@@ -747,7 +757,10 @@
         "endInExample": 70
       },
       "ipa": "ˈkʌm wɪð",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "cost",
@@ -837,10 +850,10 @@
       "word": "dashed",
       "lemma": "dash",
       "lemmaId": "dash",
-      "pos": "adjective",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "dash_adjective",
-      "level": "A2",
+      "wordKey": "dash_verb",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "разбитый; стремительный"
@@ -854,8 +867,8 @@
       "exampleStart": 2028,
       "exampleEnd": 2075,
       "matchedForm": "dashed",
-      "ipa": "dæʃt",
-      "levelSource": "vocabulary_index",
+      "ipa": "dæʃ",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.717143,
       "difficultySource": "zipf"
     },
@@ -1047,16 +1060,19 @@
         "endInExample": 70
       },
       "ipa": "ˈduː wɪð",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "downstairs",
-      "lemma": "downstair",
-      "lemmaId": "downstair",
-      "pos": "noun",
+      "lemma": "downstairs",
+      "lemmaId": "downstairs",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "downstair_noun",
-      "level": "B2",
+      "wordKey": "downstairs_adverb",
+      "level": "A2",
       "translations": {
         "ru": {
           "translation": "внизу"
@@ -1065,14 +1081,14 @@
           "translation": "Дно"
         }
       },
-      "_spacyLemma": "downstair",
+      "_spacyLemma": "downstairs",
       "example": "Cat threw on his clothes and dashed downstairs.",
       "exampleStart": 2028,
       "exampleEnd": 2075,
       "matchedForm": "downstairs",
       "ipa": "ˈdaʊnsteəz",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 1,
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.797143,
       "difficultySource": "zipf"
     },
     {
@@ -1101,7 +1117,9 @@
         "endInExample": 23
       },
       "ipa": "ˌdʌzən ˈɡɑːdənəz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "dozen",
@@ -1205,32 +1223,6 @@
       "ipa": "ɜːθ",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.414286,
-      "difficultySource": "zipf"
-    },
-    {
-      "word": "Euphemia",
-      "lemma": "euphemia",
-      "lemmaId": "euphemia",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "euphemia_noun",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "Юфимия"
-        },
-        "uk": {
-          "translation": "Євфемія"
-        }
-      },
-      "_spacyLemma": "euphemia",
-      "example": "Euphemia came in a minute later, but all she said was, “You’ll both be late for your breakfast again.",
-      "exampleStart": 2623,
-      "exampleEnd": 2724,
-      "matchedForm": "Euphemia",
-      "ipa": "juːˈfiːmiə",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 1,
       "difficultySource": "zipf"
     },
     {
@@ -1581,7 +1573,9 @@
         "endInExample": 56
       },
       "ipa": "ˌɡluːmi ˈhʌdəl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "glowing",
@@ -1635,7 +1629,10 @@
         "endInExample": 73
       },
       "ipa": "ˌɡəʊ əˈweɪ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "going",
@@ -1767,7 +1764,9 @@
         "endInExample": 117
       },
       "ipa": "ˌɡreɪt ˈdiːl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "green",
@@ -1821,7 +1820,9 @@
         "endInExample": 43
       },
       "ipa": "ˌɡriːn ˈvelvɪt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "halfheartedly",
@@ -2017,7 +2018,9 @@
         "endInExample": 36
       },
       "ipa": "hɜː ˈruːm",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her window",
@@ -2045,7 +2048,9 @@
         "endInExample": 39
       },
       "ipa": "hɜː ˈwɪndəʊ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his astonishment",
@@ -2073,7 +2078,9 @@
         "endInExample": 24
       },
       "ipa": "hɪz əˈstɒnɪʃmənt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his clothes",
@@ -2101,7 +2108,9 @@
         "endInExample": 24
       },
       "ipa": "hɪz ˈkləʊðz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his three windows",
@@ -2129,7 +2138,9 @@
         "endInExample": 79
       },
       "ipa": "hɪz ˌθriː ˈwɪndəʊz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "hole",
@@ -2189,7 +2200,9 @@
         "endInExample": 52
       },
       "ipa": "ˌhɔːs ˈtʃestnʌts",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "horse",
@@ -2747,7 +2760,9 @@
         "endInExample": 88
       },
       "ipa": "ˌlɪtəl ˈhiːps",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "locked in",
@@ -2775,7 +2790,10 @@
         "endInExample": 27
       },
       "ipa": "ˌlɒkt ˈɪn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "locked",
@@ -2881,7 +2899,9 @@
         "endInExample": 113
       },
       "ipa": "ˌlɒŋ ˈlaɪnz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "looked at",
@@ -2909,7 +2929,10 @@
         "endInExample": 13
       },
       "ipa": "ˈlʊkt æt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "looked out",
@@ -2937,7 +2960,10 @@
         "endInExample": 20
       },
       "ipa": "ˌlʊkt ˈaʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "looked",
@@ -3166,7 +3192,7 @@
       "pos": "adjective",
       "source": "word",
       "wordKey": "melancholy_adjective",
-      "level": "C2",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "меланхолия"
@@ -3181,7 +3207,7 @@
       "exampleEnd": 105,
       "matchedForm": "melancholy",
       "ipa": "ˈmeləŋˌkɒli",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.891429,
       "difficultySource": "zipf"
     },
@@ -3211,7 +3237,9 @@
         "endInExample": 48
       },
       "ipa": "ˌmeləŋˌkɒli ˈtaɪm",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "mentioned",
@@ -3473,7 +3501,9 @@
         "endInExample": 12
       },
       "ipa": "ˌnekst ˈmɔːnɪŋ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "night",
@@ -3553,7 +3583,9 @@
         "endInExample": 57
       },
       "ipa": "ˌəʊnli ˈθɪŋz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "passed over",
@@ -3581,7 +3613,10 @@
         "endInExample": 77
       },
       "ipa": "ˌpæst ˈəʊvə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "passed",
@@ -3635,7 +3670,10 @@
         "endInExample": 169
       },
       "ipa": "ˌpɪkt ˈʌp",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "picked",
@@ -3741,7 +3779,9 @@
         "endInExample": 43
       },
       "ipa": "ˌpleɪruːm ˈwɪndəʊ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "polite",
@@ -3861,12 +3901,12 @@
     },
     {
       "word": "raised",
-      "lemma": "raise",
-      "lemmaId": "raise",
+      "lemma": "raised",
+      "lemmaId": "raised",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "raise_adjective",
-      "level": "A1",
+      "wordKey": "raised_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "поднятый"
@@ -3875,13 +3915,12 @@
           "translation": "Піднятий"
         }
       },
-      "_spacyLemma": "raise",
+      "_spacyLemma": "raised",
       "example": "As far as Cat could see in both directions, there were little green mounds, little heaps of raw earth, long lines of raw earth and long green furrows of raised grass.",
       "exampleStart": 1707,
       "exampleEnd": 1873,
       "matchedForm": "raised",
-      "ipa": "reɪzd",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.502857,
       "difficultySource": "zipf"
     },
@@ -3937,7 +3976,9 @@
         "endInExample": 101
       },
       "ipa": "ˌrɔː ˈɜːθ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "REFUSED",
@@ -4341,7 +4382,9 @@
         "endInExample": 111
       },
       "ipa": "ˌsmɔːl ˈhəʊl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "smooth",
@@ -4395,7 +4438,9 @@
         "endInExample": 27
       },
       "ipa": "ˌsmuːð ˈstretʃ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "sole",
@@ -4449,7 +4494,9 @@
         "endInExample": 97
       },
       "ipa": "ˌsəʊl ˈθɪŋ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "spoiled",
@@ -4509,7 +4556,10 @@
         "endInExample": 40
       },
       "ipa": "ˌstændɪŋ ˈɪn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "standing",
@@ -4653,7 +4703,9 @@
         "endInExample": 43
       },
       "ipa": "ˌstrɒŋ ˈwɪtʃ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "sure",
@@ -4869,7 +4921,9 @@
         "endInExample": 43
       },
       "ipa": "ˌterɪˌfaɪɪŋ ˈdɪnə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "thank",
@@ -4923,7 +4977,9 @@
         "endInExample": 80
       },
       "ipa": "ðeə ˈhedz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "thing",
@@ -5055,7 +5111,9 @@
         "endInExample": 75
       },
       "ipa": "ˌtriː ˈhaʊs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "tree",
@@ -5361,7 +5419,9 @@
         "endInExample": 23
       },
       "ipa": "ˌhəʊlsʌm ˈlʌntʃ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "windows",
@@ -5509,9 +5569,9 @@
       "word": "yesterday",
       "lemma": "yesterday",
       "lemmaId": "yesterday",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "yesterday_adjective",
+      "wordKey": "yesterday_adverb",
       "level": "A1",
       "translations": {
         "ru": {
@@ -5527,7 +5587,7 @@
       "exampleEnd": 2316,
       "matchedForm": "yesterday",
       "ipa": "ˈjestəˌdeɪ",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.457143,
       "difficultySource": "zipf"
     },
@@ -5557,7 +5617,9 @@
         "endInExample": 34
       },
       "ipa": "ˌjestəˌdeɪ ˈiːvnɪŋ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "your breakfast",
@@ -5585,7 +5647,83 @@
         "endInExample": 94
       },
       "ipa": "jɔː ˈbrekfəst",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
+    },
+    {
+      "word": "a great deal",
+      "lemma": "a great deal",
+      "lemmaId": "a_great_deal",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "adverb_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "очень много"
+        },
+        "uk": {
+          "translation": "дуже"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "He did not know how much a huge stretch of turf like that would cost to replace, but he suspected it was a great deal.",
+      "exampleStart": 2383,
+      "exampleEnd": 2501,
+      "exampleTranslation": "очень много",
+      "phraseMatch": {
+        "text": "a great deal",
+        "startInExample": 105,
+        "endInExample": 117
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "a_great_deal_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "дуже"
+        }
+      }
+    },
+    {
+      "word": "at all",
+      "lemma": "at all",
+      "lemmaId": "at_all",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "adverb_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "вообще"
+        },
+        "uk": {
+          "translation": "взагалі"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "Roger and Julia said nothing at all.",
+      "exampleStart": 2726,
+      "exampleEnd": 2762,
+      "exampleTranslation": "вообще",
+      "phraseMatch": {
+        "text": "at all",
+        "startInExample": 29,
+        "endInExample": 35
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "at_all_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "взагалі"
+        }
+      }
     }
   ],
   "namedEntities": [

@@ -21,13 +21,13 @@
       "wordCount": 695,
       "uniqueWordCount": 376,
       "paragraphCount": 18,
-      "vocabularyCount": 219,
+      "vocabularyCount": 217,
       "levelDistribution": {
-        "A1": 55,
-        "A2": 42,
+        "A1": 56,
+        "A2": 40,
         "B1": 53,
-        "B2": 56,
-        "C1": 10,
+        "B2": 54,
+        "C1": 11,
         "C2": 3
       }
     }
@@ -325,7 +325,9 @@
         "endInExample": 68
       },
       "ipa": "ˌbel ˈnəʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "bell",
@@ -351,32 +353,6 @@
       "ipa": "bel",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.548571,
-      "difficultySource": "zipf"
-    },
-    {
-      "word": "Bernard",
-      "lemma": "bernard",
-      "lemmaId": "bernard",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "bernard_noun",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "Бернард"
-        },
-        "uk": {
-          "translation": "Бернард"
-        }
-      },
-      "_spacyLemma": "bernard",
-      "example": "Bernard patted Janet’s back and the old lady with mittens made soothing noises.",
-      "exampleStart": 3389,
-      "exampleEnd": 3468,
-      "matchedForm": "Bernard",
-      "ipa": "ˈbɜːnəd",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.711429,
       "difficultySource": "zipf"
     },
     {
@@ -509,7 +485,9 @@
         "endInExample": 119
       },
       "ipa": "ˌbrəʊkən ˈɑːtʃ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "brothers",
@@ -563,7 +541,10 @@
         "endInExample": 19
       },
       "ipa": "ˌkɔːld ˈɒf",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "called",
@@ -1063,7 +1044,9 @@
         "endInExample": 136
       },
       "ipa": "ˌded ˈliːvz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "died away",
@@ -1091,7 +1074,10 @@
         "endInExample": 58
       },
       "ipa": "ˌdaɪd əˈweɪ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "died",
@@ -1255,7 +1241,9 @@
         "endInExample": 53
       },
       "ipa": "ˌeɪt ˌʌðə ˈpiːpəl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "emptied",
@@ -1335,7 +1323,10 @@
         "endInExample": 57
       },
       "ipa": "ˌfel ˈɒn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "fell",
@@ -1415,7 +1406,9 @@
         "endInExample": 41
       },
       "ipa": "ˌfɔːlən ˈblɒk",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "father",
@@ -1480,8 +1473,8 @@
       "lemma": "for good",
       "lemmaId": "for_good",
       "pos": "phrase",
-      "type": "phrase",
-      "source": "spacy_phrase",
+      "type": "fixed_expression",
+      "source": "manual_mwe",
       "wordKey": "for_good_phrase",
       "level": "B1",
       "translations": {
@@ -1489,7 +1482,7 @@
           "translation": "навсегда"
         },
         "uk": {
-          "translation": "Назавжди"
+          "translation": "назавжди"
         }
       },
       "example": "Now she was probably in this world for good, and Cat had done it.",
@@ -1501,7 +1494,17 @@
         "endInExample": 43
       },
       "ipa": "fɔː ˈɡʊd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "syntacticForm": "adverb_phrase",
+      "mweType": "fixed_expression",
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "exampleTranslation": "навсегда",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "назавжди"
+        }
+      }
     },
     {
       "word": "forced",
@@ -1593,7 +1596,9 @@
         "endInExample": 14
       },
       "ipa": "ˌfræntɪk ˈpiːpəl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "garden",
@@ -1647,7 +1652,10 @@
         "endInExample": 64
       },
       "ipa": "ˈɡet æt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "got",
@@ -1701,7 +1709,10 @@
         "endInExample": 19
       },
       "ipa": "ˌɡəʊ ˈbæk",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "gone",
@@ -1817,9 +1828,9 @@
       "word": "guiltily",
       "lemma": "guiltily",
       "lemmaId": "guiltily",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "guiltily_adjective",
+      "wordKey": "guiltily_adverb",
       "level": "B2",
       "translations": {
         "ru": {
@@ -1835,7 +1846,7 @@
       "exampleEnd": 107,
       "matchedForm": "guiltily",
       "ipa": "ˈɡɪltili",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -1897,7 +1908,9 @@
         "endInExample": 44
       },
       "ipa": "ˌhænd ˈpɪlə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "handed",
@@ -2119,7 +2132,9 @@
         "endInExample": 56
       },
       "ipa": "hɜː ˈɑːmz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her golden clothes",
@@ -2147,7 +2162,9 @@
         "endInExample": 30
       },
       "ipa": "hɜː ˌɡəʊldən ˈkləʊðz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her mother",
@@ -2175,7 +2192,9 @@
         "endInExample": 25
       },
       "ipa": "hɜː ˈmʌðə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her own world",
@@ -2203,7 +2222,9 @@
         "endInExample": 37
       },
       "ipa": "hɜː ˌəʊn ˈwɜːld",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her pointed shoes",
@@ -2231,7 +2252,9 @@
         "endInExample": 60
       },
       "ipa": "hɜː ˌpɔɪntɪd ˈʃuːz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "hillside",
@@ -2285,7 +2308,9 @@
         "endInExample": 103
       },
       "ipa": "hɪz ˌbɔːld ˈpæteɪ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his crucible",
@@ -2313,7 +2338,9 @@
         "endInExample": 77
       },
       "ipa": "hɪz ˈkruːsɪbəl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his eagles",
@@ -2341,7 +2368,9 @@
         "endInExample": 40
       },
       "ipa": "hɪz ˈiːɡəlz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his face",
@@ -2369,7 +2398,9 @@
         "endInExample": 79
       },
       "ipa": "hɪz ˈfeɪs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his hand",
@@ -2397,7 +2428,9 @@
         "endInExample": 20
       },
       "ipa": "hɪz ˈhænd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "held",
@@ -2599,7 +2632,9 @@
         "endInExample": 54
       },
       "ipa": "ɪn ˈɔːdə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "inquiringly",
@@ -2653,7 +2688,10 @@
         "endInExample": 42
       },
       "ipa": "ˌkɪkt ˈɒf",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "kicked",
@@ -3005,7 +3043,9 @@
         "endInExample": 78
       },
       "ipa": "ˌmeɪd ˌsuːðɪŋ ˈnɔɪzɪz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "meadow",
@@ -3117,7 +3157,9 @@
         "endInExample": 23
       },
       "ipa": "ˌmaɪti ˈbæŋ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "minute",
@@ -3358,32 +3400,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "Nostrums",
-      "lemma": "nostrum",
-      "lemmaId": "nostrum",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "nostrum_noun",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "патентованное снадобье; панацея"
-        },
-        "uk": {
-          "translation": "Нострум"
-        }
-      },
-      "_spacyLemma": "nostrum",
-      "example": "Out of the whirling many, Chrestomanci somehow collected the two Nostrums and put them down for a minute in front of Cat and the dragon.",
-      "exampleStart": 1077,
-      "exampleEnd": 1213,
-      "matchedForm": "Nostrums",
-      "ipa": "ˈnɒstrəmz",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 1,
-      "difficultySource": "zipf"
-    },
-    {
       "word": "note",
       "lemma": "note",
       "lemmaId": "note",
@@ -3467,7 +3483,9 @@
         "endInExample": 19
       },
       "ipa": "ˌəʊld ˈleɪdi",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "order",
@@ -3521,7 +3539,9 @@
         "endInExample": 124
       },
       "ipa": "ˌʌðər ˈiːɡəl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "panting",
@@ -3607,7 +3627,10 @@
         "endInExample": 28
       },
       "ipa": "ˌpæst ˈəʊvə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "passed",
@@ -3718,34 +3741,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 1,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "pecking at",
-      "lemma": "peck at",
-      "lemmaId": "peck_at",
-      "pos": "prepositional_verb",
-      "type": "prepositional_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "peck_at_prepositional_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "клевать; придираться к"
-        },
-        "uk": {
-          "translation": "пек; Знайди недолік"
-        }
-      },
-      "example": "Cat was charmed to see one of his eagles sitting on Henry Nostrum’s shoulders, pecking at his bald pate, and the other eagle fluttering around William, stabbing at the stouter parts of him.",
-      "exampleStart": 1214,
-      "exampleEnd": 1403,
-      "phraseMatch": {
-        "text": "pecking at",
-        "startInExample": 79,
-        "endInExample": 89
-      },
-      "ipa": "ˈpekɪŋ æt",
-      "levelSource": "phrase_index"
     },
     {
       "word": "pecking",
@@ -3883,7 +3878,9 @@
         "endInExample": 22
       },
       "ipa": "ˌpɔɪntɪd ˈʃuːz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "powder",
@@ -4021,16 +4018,19 @@
         "endInExample": 91
       },
       "ipa": "ˌpʊt ˈdaʊn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "queen",
       "lemma": "queen",
       "lemmaId": "queen",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "queen_adjective",
-      "level": "A2",
+      "wordKey": "queen_noun",
+      "level": "A1",
       "translations": {
         "ru": {
           "translation": "королевский"
@@ -4045,7 +4045,7 @@
       "exampleEnd": 2034,
       "matchedForm": "queen",
       "ipa": "kwiːn",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.471429,
       "difficultySource": "zipf"
     },
@@ -4126,34 +4126,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.502857,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "reached out to",
-      "lemma": "reach out to",
-      "lemmaId": "reach_out_to",
-      "pos": "phrasal_verb",
-      "type": "phrasal_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "reach_out_to_phrasal_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "Связался с"
-        },
-        "uk": {
-          "translation": "Зв'язано"
-        }
-      },
-      "example": "Chrestomanci reached out to stop her.",
-      "exampleStart": 2407,
-      "exampleEnd": 2444,
-      "phraseMatch": {
-        "text": "reached out to",
-        "startInExample": 13,
-        "endInExample": 27
-      },
-      "ipa": "ˌriːtʃt ˈaʊt tuː",
-      "levelSource": "phrase_index"
     },
     {
       "word": "reached",
@@ -4344,7 +4316,9 @@
         "endInExample": 37
       },
       "ipa": "ˈraɪtˈhænd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "roar",
@@ -4436,7 +4410,10 @@
         "endInExample": 73
       },
       "ipa": "ˈræn fɔː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "ran",
@@ -4490,7 +4467,10 @@
         "endInExample": 19
       },
       "ipa": "ˌseɪld ˈθruː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "sailed",
@@ -4816,7 +4796,10 @@
         "endInExample": 21
       },
       "ipa": "ˌsɪt ˈdaʊn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "sitting on",
@@ -4844,7 +4827,10 @@
         "endInExample": 51
       },
       "ipa": "ˌsɪtɪŋ ˈɒn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "sitting",
@@ -4996,12 +4982,12 @@
     },
     {
       "word": "soothing",
-      "lemma": "soothe",
-      "lemmaId": "soothe",
+      "lemma": "soothing",
+      "lemmaId": "soothing",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "soothe_adjective",
-      "level": "A2",
+      "wordKey": "soothing_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "успокоить"
@@ -5010,13 +4996,12 @@
           "translation": "Заспокойся"
         }
       },
-      "_spacyLemma": "soothe",
+      "_spacyLemma": "soothing",
       "example": "Bernard patted Janet’s back and the old lady with mittens made soothing noises.",
       "exampleStart": 3389,
       "exampleEnd": 3468,
       "matchedForm": "soothing",
-      "ipa": "ˈsuːðɪŋ",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.951429,
       "difficultySource": "zipf"
     },
@@ -5214,7 +5199,10 @@
         "endInExample": 15
       },
       "ipa": "ˈstept tuː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "stepped",
@@ -5296,12 +5284,12 @@
     },
     {
       "word": "stouter",
-      "lemma": "stouter",
-      "lemmaId": "stouter",
+      "lemma": "stout",
+      "lemmaId": "stout",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "stouter_adjective",
-      "level": "B2",
+      "wordKey": "stout_adjective",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "более крепкий; более полный"
@@ -5310,14 +5298,14 @@
           "translation": "сильнішим; Більш повний"
         }
       },
-      "_spacyLemma": "stouter",
+      "_spacyLemma": "stout",
       "example": "Cat was charmed to see one of his eagles sitting on Henry Nostrum’s shoulders, pecking at his bald pate, and the other eagle fluttering around William, stabbing at the stouter parts of him.",
       "exampleStart": 1214,
       "exampleEnd": 1403,
       "matchedForm": "stouter",
-      "ipa": "ˈstaʊtə",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 1,
+      "ipa": "staʊt",
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.874286,
       "difficultySource": "zipf"
     },
     {
@@ -5346,7 +5334,9 @@
         "endInExample": 181
       },
       "ipa": "ˌstaʊtə ˈpɑːts",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "stumbling",
@@ -5458,7 +5448,9 @@
         "endInExample": 125
       },
       "ipa": "ˌsʌni ˈhɪlsaɪd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "sure",
@@ -5538,7 +5530,10 @@
         "endInExample": 34
       },
       "ipa": "ˌswept əˈweɪ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "swept",
@@ -5624,7 +5619,9 @@
         "endInExample": 63
       },
       "ipa": "ˌterɪbəl ˈbel",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "their MPs",
@@ -5652,7 +5649,9 @@
         "endInExample": 29
       },
       "ipa": "ðeər ˌemˈpiːz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "thought",
@@ -6061,6 +6060,80 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.385714,
       "difficultySource": "zipf"
+    },
+    {
+      "word": "Here you are",
+      "lemma": "here you are",
+      "lemmaId": "here_you_are",
+      "pos": "phrase",
+      "type": "formulaic_expression",
+      "category": "mwe",
+      "mweType": "formulaic_expression",
+      "syntacticForm": "clause",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Вот"
+        },
+        "uk": {
+          "translation": "Ось, тримай"
+        }
+      },
+      "definition": "formulaic expression used as one lexical expression in this context.",
+      "example": "“Here you are.",
+      "exampleStart": 172,
+      "exampleEnd": 186,
+      "exampleTranslation": "Вот",
+      "phraseMatch": {
+        "text": "Here you are",
+        "startInExample": 1,
+        "endInExample": 13
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "here_you_are_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "Ось, тримай"
+        }
+      }
+    },
+    {
+      "word": "soaking-wet",
+      "lemma": "soaking wet",
+      "lemmaId": "soaking_wet",
+      "pos": "phrase",
+      "type": "collocation",
+      "category": "mwe",
+      "mweType": "collocation",
+      "syntacticForm": "adjective_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "промокшей"
+        },
+        "uk": {
+          "translation": "мокрому"
+        }
+      },
+      "definition": "collocation used as one lexical expression in this context.",
+      "example": "Frantic people in soaking-wet Sunday clothes came whirling out of the whiteness and were sucked through the broken arch like dead leaves in a whirlpool.",
+      "exampleStart": 864,
+      "exampleEnd": 1016,
+      "exampleTranslation": "промокшей",
+      "phraseMatch": {
+        "text": "soaking-wet",
+        "startInExample": 18,
+        "endInExample": 29
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "soaking_wet_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "мокрому"
+        }
+      }
     }
   ],
   "namedEntities": [

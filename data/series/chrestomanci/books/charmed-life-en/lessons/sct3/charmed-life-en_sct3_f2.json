@@ -21,14 +21,14 @@
       "wordCount": 678,
       "uniqueWordCount": 335,
       "paragraphCount": 13,
-      "vocabularyCount": 201,
+      "vocabularyCount": 203,
       "levelDistribution": {
-        "A1": 57,
+        "A1": 56,
         "A2": 43,
-        "B1": 42,
-        "B2": 46,
-        "C1": 11,
-        "C2": 2
+        "B1": 46,
+        "B2": 45,
+        "C1": 10,
+        "C2": 3
       }
     }
   },
@@ -111,7 +111,9 @@
         "endInExample": 57
       },
       "ipa": "ˌæftəˌnuːn ˈsʌn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "annoyed",
@@ -871,7 +873,9 @@
         "endInExample": 16
       },
       "ipa": "ˌkɜːvd ˈwɔːlz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "damp",
@@ -951,7 +955,9 @@
         "endInExample": 91
       },
       "ipa": "ˌdiːp ˈwɪndəʊ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "dewy",
@@ -1005,16 +1011,18 @@
         "endInExample": 84
       },
       "ipa": "ˌdjuːi ˈmɔːnɪŋ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "dines",
       "lemma": "dine",
       "lemmaId": "dine",
-      "pos": "noun",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "dine_noun",
-      "level": "A1",
+      "wordKey": "dine_verb",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "обедать"
@@ -1028,8 +1036,8 @@
       "exampleStart": 1516,
       "exampleEnd": 1626,
       "matchedForm": "dines",
-      "ipa": "daɪnz",
-      "levelSource": "vocabulary_index",
+      "ipa": "daɪn",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.862857,
       "difficultySource": "zipf"
     },
@@ -1389,7 +1397,9 @@
         "endInExample": 42
       },
       "ipa": "ˌflæt ˈtɒps",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "floor",
@@ -1443,7 +1453,9 @@
         "endInExample": 122
       },
       "ipa": "ˌflaʊə ˈɡɑːdənz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "flower",
@@ -1551,12 +1563,12 @@
     },
     {
       "word": "glowing",
-      "lemma": "glow",
-      "lemmaId": "glow",
+      "lemma": "glowing",
+      "lemmaId": "glowing",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "glow_adjective",
-      "level": "C1",
+      "wordKey": "glowing_adjective",
+      "level": "C2",
       "translations": {
         "de": {
           "translation": "glühend"
@@ -1571,14 +1583,14 @@
           "translation": "Сяйв"
         }
       },
-      "_spacyLemma": "glow",
+      "_spacyLemma": "glowing",
       "example": "Cat could not resist racing across the glowing carpet to scramble on one of the deep window seats and look out.",
       "exampleStart": 2144,
       "exampleEnd": 2255,
       "matchedForm": "glowing",
       "ipa": "ˈɡləʊɪŋ",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.742857,
+      "levelSource": "cefr_reference",
+      "difficultyScore": 0.788571,
       "difficultySource": "zipf"
     },
     {
@@ -1607,35 +1619,10 @@
         "endInExample": 15
       },
       "ipa": "went ˈbæk tuː",
-      "levelSource": "phrase_index"
-    },
-    {
-      "word": "going down",
-      "lemma": "go down",
-      "lemmaId": "go_down",
-      "pos": "prepositional_verb",
-      "type": "prepositional_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "go_down_prepositional_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "спускаться; происходить"
-        },
-        "uk": {
-          "translation": "спускатися; Відбутися"
-        }
-      },
-      "example": "He found he could see across the flat tops of the cedars to a great lawn like a sheet of green velvet, with flower gardens going down the hillside in steps beyond it.",
-      "exampleStart": 2256,
-      "exampleEnd": 2422,
-      "phraseMatch": {
-        "text": "going down",
-        "startInExample": 123,
-        "endInExample": 133
-      },
-      "ipa": "ˌɡəʊɪŋ ˈdaʊn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "going",
@@ -1741,7 +1728,9 @@
         "endInExample": 72
       },
       "ipa": "ˌɡreɪt ˈlɔːn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "green",
@@ -1795,7 +1784,9 @@
         "endInExample": 101
       },
       "ipa": "ˌɡriːn ˈvelvɪt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "hair",
@@ -1965,7 +1956,9 @@
         "endInExample": 56
       },
       "ipa": "hɜː ˈdres",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her hand",
@@ -1993,7 +1986,9 @@
         "endInExample": 78
       },
       "ipa": "hɜː ˈhænd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "hillside",
@@ -2047,7 +2042,9 @@
         "endInExample": 10
       },
       "ipa": "hɪz ˈɔː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his room",
@@ -2075,7 +2072,9 @@
         "endInExample": 24
       },
       "ipa": "hɪz ˈruːm",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his trouble",
@@ -2103,7 +2102,9 @@
         "endInExample": 35
       },
       "ipa": "hɪz ˈtrʌbəl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "His trunk",
@@ -2131,7 +2132,9 @@
         "endInExample": 9
       },
       "ipa": "hɪz ˈtrʌŋk",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "held",
@@ -2237,7 +2240,9 @@
         "endInExample": 119
       },
       "ipa": "ˌkaɪnd ˈsmaɪl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "know",
@@ -2401,7 +2406,10 @@
         "endInExample": 21
       },
       "ipa": "ˌlʊkt əˈraʊnd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "look",
@@ -2455,7 +2463,10 @@
         "endInExample": 110
       },
       "ipa": "ˌlʊk ˈaʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "looking",
@@ -2671,7 +2682,9 @@
         "endInExample": 63
       },
       "ipa": "ˌmiə ˈhaʊskiːpə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "mind",
@@ -2731,15 +2744,17 @@
         "endInExample": 108
       },
       "ipa": "ˌmɔː ˈsteəz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "morning",
       "lemma": "morning",
       "lemmaId": "morning",
-      "pos": "verb",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "morning_verb",
+      "wordKey": "morning_noun",
       "level": "A1",
       "translations": {
         "ru": {
@@ -2755,7 +2770,7 @@
       "exampleEnd": 1067,
       "matchedForm": "morning",
       "ipa": "ˈmɔːnɪŋ",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.337143,
       "difficultySource": "zipf"
     },
@@ -2907,7 +2922,9 @@
         "endInExample": 63
       },
       "ipa": "ˌəʊld ˈkæsəl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "opened",
@@ -3025,7 +3042,9 @@
         "endInExample": 29
       },
       "ipa": "ˌpætʃwɜːk ˈkwɪlt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "pause",
@@ -3325,7 +3344,9 @@
         "endInExample": 44
       },
       "ipa": "ˌpraɪvət ˈbæθruːm",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "purple",
@@ -3547,7 +3568,9 @@
         "endInExample": 67
       },
       "ipa": "ˌred ˈheə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "red towel",
@@ -3575,7 +3598,9 @@
         "endInExample": 47
       },
       "ipa": "ˌred ˈtaʊəl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "reflected",
@@ -3809,7 +3834,9 @@
         "endInExample": 95
       },
       "ipa": "ˌraɪt ˈpleɪsɪz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "rooms",
@@ -4245,7 +4272,9 @@
         "endInExample": 23
       },
       "ipa": "ˌʃɔːt ˈpɔːz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "showed",
@@ -4715,7 +4744,9 @@
         "endInExample": 55
       },
       "ipa": "ðeər ˌəʊn ˈfiːt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "thick",
@@ -4769,7 +4800,9 @@
         "endInExample": 65
       },
       "ipa": "ˌθɪk ˈfaɪəpleɪs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "thing",
@@ -5037,7 +5070,10 @@
         "endInExample": 92
       },
       "ipa": "ˈtɜːnd tuː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "turned",
@@ -5117,7 +5153,9 @@
         "endInExample": 38
       },
       "ipa": "ˌtwɪstɪŋ ˈsteəkeɪs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "unpacking",
@@ -5417,7 +5455,9 @@
         "endInExample": 30
       },
       "ipa": "ˌhəʊl ˈweɪ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "windows",
@@ -5471,7 +5511,9 @@
         "endInExample": 97
       },
       "ipa": "ˌwɪndəʊ ˈsiːts",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "Your bathroom",
@@ -5499,7 +5541,9 @@
         "endInExample": 13
       },
       "ipa": "jɔː ˈbæθruːm",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "your rooms",
@@ -5527,7 +5571,120 @@
         "endInExample": 54
       },
       "ipa": "jɔː ˈruːmz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
+    },
+    {
+      "word": "all the same",
+      "lemma": "all the same",
+      "lemmaId": "all_the_same",
+      "pos": "phrase",
+      "type": "discourse_marker",
+      "category": "mwe",
+      "mweType": "discourse_marker",
+      "syntacticForm": "adverb_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "всё равно"
+        },
+        "uk": {
+          "translation": "все одно"
+        }
+      },
+      "definition": "discourse marker used as one lexical expression in this context.",
+      "example": "But I expect you’d like some tea all the same.",
+      "exampleStart": 1627,
+      "exampleEnd": 1673,
+      "exampleTranslation": "всё равно",
+      "phraseMatch": {
+        "text": "all the same",
+        "startInExample": 33,
+        "endInExample": 45
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "all_the_same_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "все одно"
+        }
+      }
+    },
+    {
+      "word": "As soon as",
+      "lemma": "as soon as",
+      "lemmaId": "as_soon_as",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "clause",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Как только"
+        },
+        "uk": {
+          "translation": "Як тільки"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "As soon as Miss Bessemer had gone, he hastened along to have a look at it.",
+      "exampleStart": 2884,
+      "exampleEnd": 2958,
+      "exampleTranslation": "Как только",
+      "phraseMatch": {
+        "text": "As soon as",
+        "startInExample": 0,
+        "endInExample": 10
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "as_soon_as_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "Як тільки"
+        }
+      }
+    },
+    {
+      "word": "in the least",
+      "lemma": "in the least",
+      "lemmaId": "in_the_least",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "prepositional_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "нисколько"
+        },
+        "uk": {
+          "translation": "зовсім"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "But, as Cat had never had a private bathroom before, he did not mind in the least.",
+      "exampleStart": 2800,
+      "exampleEnd": 2882,
+      "exampleTranslation": "нисколько",
+      "phraseMatch": {
+        "text": "in the least",
+        "startInExample": 69,
+        "endInExample": 81
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "in_the_least_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "зовсім"
+        }
+      }
     }
   ],
   "namedEntities": [

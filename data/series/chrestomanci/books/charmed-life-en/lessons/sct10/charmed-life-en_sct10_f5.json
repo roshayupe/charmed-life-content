@@ -21,13 +21,13 @@
       "wordCount": 1038,
       "uniqueWordCount": 528,
       "paragraphCount": 35,
-      "vocabularyCount": 303,
+      "vocabularyCount": 299,
       "levelDistribution": {
         "A1": 69,
-        "A2": 45,
-        "B1": 83,
-        "B2": 82,
-        "C1": 23,
+        "A2": 42,
+        "B1": 82,
+        "B2": 84,
+        "C1": 21,
         "C2": 1
       }
     }
@@ -85,7 +85,9 @@
         "endInExample": 137
       },
       "ipa": "ˌæbsəˌluːt ˈhʌni",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "accident",
@@ -365,7 +367,9 @@
         "endInExample": 34
       },
       "ipa": "ˌbæd ˈθɪŋ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "battle",
@@ -425,7 +429,10 @@
         "endInExample": 105
       },
       "ipa": "ˌbiːn ˈɪn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "beamed",
@@ -537,7 +544,10 @@
         "endInExample": 20
       },
       "ipa": "bɪˌliːv ˈɪn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "believe",
@@ -695,7 +705,10 @@
         "endInExample": 25
       },
       "ipa": "ˌbɪld ˈɒn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "build",
@@ -749,7 +762,9 @@
         "endInExample": 50
       },
       "ipa": "baɪ hɪz ˌleft ˈhænd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "carrying",
@@ -804,13 +819,13 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "chestnuts",
+      "word": "chestnut",
       "lemma": "chestnut",
       "lemmaId": "chestnut",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "chestnut_adjective",
-      "level": "B2",
+      "wordKey": "chestnut_noun",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "каштановый"
@@ -824,8 +839,8 @@
       "exampleStart": 47,
       "exampleEnd": 140,
       "matchedForm": "chestnut",
-      "ipa": "ˈtʃestnʌts",
-      "levelSource": "vocabulary_index",
+      "ipa": "ˈtʃestnʌt",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.871429,
       "difficultySource": "zipf"
     },
@@ -855,7 +870,9 @@
         "endInExample": 84
       },
       "ipa": "ˌtʃestnʌt ˈkeɪsɪz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "clever",
@@ -915,7 +932,10 @@
         "endInExample": 20
       },
       "ipa": "ˌkeɪm əˈraʊnd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "came down",
@@ -943,7 +963,10 @@
         "endInExample": 14
       },
       "ipa": "ˌkeɪm ˈdaʊn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "came through",
@@ -971,7 +994,10 @@
         "endInExample": 44
       },
       "ipa": "ˌkeɪm ˈθruː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "came",
@@ -997,32 +1023,6 @@
       "ipa": "keɪm",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.208571,
-      "difficultySource": "zipf"
-    },
-    {
-      "word": "comes",
-      "lemma": "comes",
-      "lemmaId": "comes",
-      "pos": "verb",
-      "source": "word",
-      "wordKey": "comes_verb",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "приходит"
-        },
-        "uk": {
-          "translation": "приходить"
-        }
-      },
-      "_spacyLemma": "comes",
-      "example": "Have you noticed how he always comes when people call him?",
-      "exampleStart": 5237,
-      "exampleEnd": 5295,
-      "matchedForm": "comes",
-      "ipa": "kʌmz",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.328571,
       "difficultySource": "zipf"
     },
     {
@@ -1195,12 +1195,12 @@
     },
     {
       "word": "contours",
-      "lemma": "contours",
-      "lemmaId": "contours",
+      "lemma": "contour",
+      "lemmaId": "contour",
       "pos": "noun",
       "source": "word",
-      "wordKey": "contours_noun",
-      "level": "B1",
+      "wordKey": "contour_noun",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "контуры"
@@ -1209,14 +1209,14 @@
           "translation": "контури"
         }
       },
-      "_spacyLemma": "contours",
+      "_spacyLemma": "contour",
       "example": "They scooped up the chestnuts greedily — wonderful chestnuts with grain on them like the contours in a map.",
       "exampleStart": 508,
       "exampleEnd": 615,
       "matchedForm": "contours",
-      "ipa": "ˈkɒntʊəz",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.971429,
+      "ipa": "ˈkɒntʊə",
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.897143,
       "difficultySource": "zipf"
     },
     {
@@ -1419,7 +1419,9 @@
         "endInExample": 23
       },
       "ipa": "ˌkrɒs ˌbʌnˈræpəz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "crossly",
@@ -1479,7 +1481,10 @@
         "endInExample": 25
       },
       "ipa": "ˌkʌtɪŋ ˈɒf",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "cut",
@@ -1739,7 +1744,10 @@
         "endInExample": 53
       },
       "ipa": "ˈdriːmd ɒv",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "dreamed",
@@ -1851,7 +1859,10 @@
         "endInExample": 23
       },
       "ipa": "ˌdrɒpt ˈɒf",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "dropped",
@@ -1939,12 +1950,12 @@
     },
     {
       "word": "exasperating",
-      "lemma": "exasperate",
-      "lemmaId": "exasperate",
-      "pos": "verb",
+      "lemma": "exasperating",
+      "lemmaId": "exasperating",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "exasperate_verb",
-      "level": "C1",
+      "wordKey": "exasperating_adjective",
+      "level": "B2",
       "translations": {
         "de": {
           "translation": "ärgern"
@@ -1959,13 +1970,12 @@
           "translation": "Роздратований"
         }
       },
-      "_spacyLemma": "exasperate",
+      "_spacyLemma": "exasperating",
       "example": "It was confusing and exasperating the way Chrestomanci would seem friendly when one ought to have been in disgrace.",
       "exampleStart": 3835,
       "exampleEnd": 3950,
       "matchedForm": "exasperating",
-      "ipa": "eɡˈzæspəˌreɪtɪŋ",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -2032,34 +2042,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.591429,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "fallen out",
-      "lemma": "fall out",
-      "lemmaId": "fall_out",
-      "pos": "prepositional_verb",
-      "type": "prepositional_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "fall_out_prepositional_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "выпало"
-        },
-        "uk": {
-          "translation": "Відкинуто"
-        }
-      },
-      "example": "It must have fallen out of the tree house.",
-      "exampleStart": 788,
-      "exampleEnd": 830,
-      "phraseMatch": {
-        "text": "fallen out",
-        "startInExample": 13,
-        "endInExample": 23
-      },
-      "ipa": "ˌfɔːlən ˈaʊt",
-      "levelSource": "phrase_index"
     },
     {
       "word": "fallen",
@@ -2165,7 +2147,9 @@
         "endInExample": 147
       },
       "ipa": "ˌfæʃənd ˈweɪ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "fat",
@@ -2271,7 +2255,10 @@
         "endInExample": 61
       },
       "ipa": "ˌfaɪnd ˈaʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "find",
@@ -2389,16 +2376,18 @@
         "endInExample": 53
       },
       "ipa": "ˌfɜːst ˈkʌzənz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "flowered",
-      "lemma": "flower",
-      "lemmaId": "flower",
+      "lemma": "flowered",
+      "lemmaId": "flowered",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "flower_adjective",
-      "level": "A2",
+      "wordKey": "flowered_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "цветочный; покрытый цветами"
@@ -2407,13 +2396,12 @@
           "translation": "квіткові; вкритий квітами"
         }
       },
-      "_spacyLemma": "flower",
+      "_spacyLemma": "flowered",
       "example": "She had no idea who this plump lady in the beautiful flowered silk dress could be.",
       "exampleStart": 1380,
       "exampleEnd": 1462,
       "matchedForm": "flowered",
-      "ipa": "ˈflaʊəd",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.597143,
       "difficultySource": "zipf"
     },
@@ -2469,7 +2457,9 @@
         "endInExample": 108
       },
       "ipa": "ˌfɔːməl ˈɡɑːdən",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "friendly",
@@ -2641,12 +2631,12 @@
     },
     {
       "word": "gaping",
-      "lemma": "gap",
-      "lemmaId": "gap",
+      "lemma": "gaping",
+      "lemmaId": "gaping",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "gap_adjective",
-      "level": "B1",
+      "wordKey": "gaping_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "зияющий"
@@ -2655,14 +2645,14 @@
           "translation": "Роззявлення"
         }
       },
-      "_spacyLemma": "gap",
+      "_spacyLemma": "gaping",
       "example": "She was horribly conscious of her gaping boots, her twig-filled hair, and the two trailing strips of petticoat.",
       "exampleStart": 1766,
       "exampleEnd": 1877,
       "matchedForm": "gaping",
       "ipa": "ˈɡeɪpɪŋ",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.582857,
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.948571,
       "difficultySource": "zipf"
     },
     {
@@ -2717,7 +2707,9 @@
         "endInExample": 75
       },
       "ipa": "ˌɡɑːdən ˈwɔːl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "gathered",
@@ -2855,7 +2847,10 @@
         "endInExample": 94
       },
       "ipa": "ˌɡəʊɪŋ ˈɒn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "went",
@@ -2993,7 +2988,9 @@
         "endInExample": 157
       },
       "ipa": "ˌɡrævəl ˈpæθ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "great",
@@ -3047,7 +3044,9 @@
         "endInExample": 66
       },
       "ipa": "ˌɡreɪt ˈfʌs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "greedily",
@@ -3457,7 +3456,9 @@
         "endInExample": 66
       },
       "ipa": "hɜː ˈɑːm",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her hair",
@@ -3485,7 +3486,9 @@
         "endInExample": 81
       },
       "ipa": "hɜː ˈheə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her head",
@@ -3513,7 +3516,9 @@
         "endInExample": 26
       },
       "ipa": "hɜː ˈhed",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her open right boot",
@@ -3541,7 +3546,9 @@
         "endInExample": 33
       },
       "ipa": "hɜː ˌəʊpən ˌraɪt ˈbuːt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her petticoats",
@@ -3569,7 +3576,9 @@
         "endInExample": 61
       },
       "ipa": "hɜː ˈpetɪˌkəʊts",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "hid",
@@ -3623,7 +3632,9 @@
         "endInExample": 26
       },
       "ipa": "hɪz bɪˌwɪldəd ˈlʊk",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his left hand",
@@ -3651,7 +3662,9 @@
         "endInExample": 50
       },
       "ipa": "hɪz ˌleft ˈhænd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his shoulder",
@@ -3679,7 +3692,9 @@
         "endInExample": 107
       },
       "ipa": "hɪz ˈʃəʊldə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "held",
@@ -3818,7 +3833,9 @@
         "endInExample": 10
       },
       "ipa": "ˈhɒtˈkrɒs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "house",
@@ -3844,32 +3861,6 @@
       "ipa": "haʊs",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.228571,
-      "difficultySource": "zipf"
-    },
-    {
-      "word": "hurray",
-      "lemma": "hurray",
-      "lemmaId": "hurray",
-      "pos": "verb",
-      "source": "word",
-      "wordKey": "hurray_verb",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "кричать «ура»"
-        },
-        "uk": {
-          "translation": "Кричить «ура»"
-        }
-      },
-      "_spacyLemma": "hurray",
-      "example": "“Oh, hurray!",
-      "exampleStart": 399,
-      "exampleEnd": 411,
-      "matchedForm": "hurray",
-      "ipa": "həˈreɪ",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 1,
       "difficultySource": "zipf"
     },
     {
@@ -3976,7 +3967,10 @@
         "endInExample": 21
       },
       "ipa": "ɪnˌsɪstɪd ˈɒn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "insisted",
@@ -4166,7 +4160,9 @@
         "endInExample": 43
       },
       "ipa": "ˌlæst ˈtʃestnʌt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "lathe",
@@ -4220,7 +4216,10 @@
         "endInExample": 67
       },
       "ipa": "ˈlæfɪŋ æt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "laughing",
@@ -4468,7 +4467,10 @@
         "endInExample": 54
       },
       "ipa": "ˈlɪvd wɪð",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "looked at",
@@ -4496,7 +4498,10 @@
         "endInExample": 18
       },
       "ipa": "ˈlʊkt æt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "look",
@@ -4550,7 +4555,10 @@
         "endInExample": 94
       },
       "ipa": "ˌlʊkt ˈəʊvə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "looked",
@@ -4656,7 +4664,9 @@
         "endInExample": 29
       },
       "ipa": "ˌlʌvli ˈsʌmə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "lucky",
@@ -4930,7 +4940,9 @@
         "endInExample": 133
       },
       "ipa": "ˌmɔː ˌɪnfəˈmeɪʃən",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "mother",
@@ -5010,7 +5022,9 @@
         "endInExample": 34
       },
       "ipa": "maɪ ˈbuːtleɪsɪz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "my cousins",
@@ -5038,7 +5052,9 @@
         "endInExample": 41
       },
       "ipa": "maɪ ˈkʌzənz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "my family",
@@ -5066,7 +5082,9 @@
         "endInExample": 48
       },
       "ipa": "maɪ ˈfæmɪli",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "my husband",
@@ -5094,7 +5112,9 @@
         "endInExample": 15
       },
       "ipa": "maɪ ˈhʌsbənd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "My kingdom",
@@ -5122,7 +5142,9 @@
         "endInExample": 11
       },
       "ipa": "maɪ ˈkɪŋdəm",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "My love",
@@ -5150,7 +5172,9 @@
         "endInExample": 8
       },
       "ipa": "maɪ ˈlʌv",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "my uncles",
@@ -5178,7 +5202,9 @@
         "endInExample": 81
       },
       "ipa": "maɪ ˈʌŋkəlz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "nearly",
@@ -5595,30 +5621,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "plomp",
-      "lemma": "plomp",
-      "lemmaId": "plomp",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "plomp_noun",
-      "level": "A2",
-      "translations": {
-        "ru": {
-          "translation": "плюх"
-        },
-        "uk": {
-          "translation": "сплеск"
-        }
-      },
-      "_spacyLemma": "plomp",
-      "example": "Eight or so dropped off the tree and went plomp on the ground below.",
-      "exampleStart": 182,
-      "exampleEnd": 250,
-      "matchedForm": "plomp",
-      "ipa": "plɒmp",
-      "levelSource": "vocabulary_index"
-    },
-    {
       "word": "plump",
       "lemma": "plump",
       "lemmaId": "plump",
@@ -5670,7 +5672,9 @@
         "endInExample": 35
       },
       "ipa": "ˌplʌmp ˈleɪdi",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "possible",
@@ -5788,7 +5792,9 @@
         "endInExample": 63
       },
       "ipa": "ˌpaʊəfəl enˈtʃæntə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "prepared",
@@ -5894,7 +5900,9 @@
         "endInExample": 22
       },
       "ipa": "ˌpɜːpəl ˈkriːpəz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "questions",
@@ -5980,7 +5988,10 @@
         "endInExample": 42
       },
       "ipa": "rɪˈleɪtɪd tuː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "related",
@@ -6212,9 +6223,9 @@
       "word": "safety",
       "lemma": "safety",
       "lemmaId": "safety",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "safety_adjective",
+      "wordKey": "safety_noun",
       "level": "A2",
       "translations": {
         "ru": {
@@ -6230,7 +6241,7 @@
       "exampleEnd": 1696,
       "matchedForm": "safety",
       "ipa": "ˈseɪfti",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.44,
       "difficultySource": "zipf"
     },
@@ -6312,7 +6323,10 @@
         "endInExample": 15
       },
       "ipa": "ˌskuːpt ˈʌp",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "scooped",
@@ -6507,34 +6521,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "showing in",
-      "lemma": "show in",
-      "lemmaId": "show_in",
-      "pos": "prepositional_verb",
-      "type": "prepositional_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "show_in_prepositional_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "проводить внутрь"
-        },
-        "uk": {
-          "translation": "Проведи всередину"
-        }
-      },
-      "example": "Cat craned out of the tree and saw brown shiny chestnuts showing in the split green cases.",
-      "exampleStart": 308,
-      "exampleEnd": 398,
-      "phraseMatch": {
-        "text": "showing in",
-        "startInExample": 57,
-        "endInExample": 67
-      },
-      "ipa": "ˌʃəʊɪŋ ˈɪn",
-      "levelSource": "phrase_index"
-    },
-    {
       "word": "showing",
       "lemma": "show",
       "lemmaId": "show",
@@ -6586,7 +6572,10 @@
         "endInExample": 82
       },
       "ipa": "ˌʃʌt ˈʌp",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "shut",
@@ -6892,7 +6881,10 @@
         "endInExample": 32
       },
       "ipa": "ˌsnæpt ˈɒf",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "snapped",
@@ -7290,7 +7282,10 @@
         "endInExample": 23
       },
       "ipa": "ˌtʊk ˈaʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "took",
@@ -7370,7 +7365,9 @@
         "endInExample": 72
       },
       "ipa": "ðeə ˈwɜːldz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "things",
@@ -7428,10 +7425,10 @@
       "word": "thoroughly",
       "lemma": "thoroughly",
       "lemmaId": "thoroughly",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "thoroughly_adjective",
-      "level": "C1",
+      "wordKey": "thoroughly_adverb",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "тщательно"
@@ -7446,7 +7443,7 @@
       "exampleEnd": 3541,
       "matchedForm": "thoroughly",
       "ipa": "ˈθʌrəli",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.691429,
       "difficultySource": "zipf"
     },
@@ -7516,12 +7513,12 @@
     },
     {
       "word": "touching",
-      "lemma": "touching",
-      "lemmaId": "touching",
-      "pos": "adjective",
+      "lemma": "touch",
+      "lemmaId": "touch",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "touching_adjective",
-      "level": "B2",
+      "wordKey": "touch_verb",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "трогательный"
@@ -7530,14 +7527,14 @@
           "translation": "зворушливо"
         }
       },
-      "_spacyLemma": "touching",
+      "_spacyLemma": "touch",
       "example": "You show touching concern, Eric.",
       "exampleStart": 4117,
       "exampleEnd": 4149,
       "matchedForm": "touching",
-      "ipa": "ˈtʌtʃɪŋ",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.654286,
+      "ipa": "tʌtʃ",
+      "levelSource": "cefr_reference",
+      "difficultyScore": 0.457143,
       "difficultySource": "zipf"
     },
     {
@@ -7566,16 +7563,18 @@
         "endInExample": 25
       },
       "ipa": "ˌtʌtʃɪŋ kənˈsɜːn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "trailing",
       "lemma": "trail",
       "lemmaId": "trail",
-      "pos": "adjective",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "trail_adjective",
-      "level": "A2",
+      "wordKey": "trail_verb",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "тянущийся; волочащийся"
@@ -7589,8 +7588,8 @@
       "exampleStart": 1766,
       "exampleEnd": 1877,
       "matchedForm": "trailing",
-      "ipa": "ˈtreɪlɪŋ",
-      "levelSource": "vocabulary_index",
+      "ipa": "treɪl",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.588571,
       "difficultySource": "zipf"
     },
@@ -7620,7 +7619,9 @@
         "endInExample": 41
       },
       "ipa": "ˌtriː ˈhaʊs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "tree",
@@ -7778,7 +7779,9 @@
         "endInExample": 37
       },
       "ipa": "ˌtuː kəmˌpliːt ˈæksɪdənts",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "two safety pins",
@@ -7806,7 +7809,9 @@
         "endInExample": 34
       },
       "ipa": "ˌtuː ˌseɪfti ˈpɪnz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "unable",
@@ -7886,7 +7891,10 @@
         "endInExample": 73
       },
       "ipa": "ˌwɔːk ˈaʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "walk",
@@ -8192,7 +8200,9 @@
         "endInExample": 60
       },
       "ipa": "ˌwʌndəfəl ˈtʃestnʌts",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "worlds",
@@ -8330,7 +8340,9 @@
         "endInExample": 45
       },
       "ipa": "ˌjuː ˈtriː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "your fat head",
@@ -8358,7 +8370,9 @@
         "endInExample": 27
       },
       "ipa": "jɔː ˌfæt ˈhed",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "your life",
@@ -8386,7 +8400,46 @@
         "endInExample": 76
       },
       "ipa": "jɔː ˈlaɪf",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
+    },
+    {
+      "word": "out of sight",
+      "lemma": "out of sight",
+      "lemmaId": "out_of_sight",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "prepositional_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "скрылись"
+        },
+        "uk": {
+          "translation": "зникли"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "But, just before they went out of sight behind a yew tree, Chrestomanci turned and looked over his shoulder at Cat and Janet.",
+      "exampleStart": 4385,
+      "exampleEnd": 4510,
+      "exampleTranslation": "скрылись",
+      "phraseMatch": {
+        "text": "out of sight",
+        "startInExample": 27,
+        "endInExample": 39
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "out_of_sight_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "зникли"
+        }
+      }
     }
   ],
   "namedEntities": [

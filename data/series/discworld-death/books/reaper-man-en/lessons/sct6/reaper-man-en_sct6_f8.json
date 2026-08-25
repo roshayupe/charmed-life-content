@@ -21,11 +21,11 @@
       "wordCount": 719,
       "uniqueWordCount": 397,
       "paragraphCount": 52,
-      "vocabularyCount": 206,
+      "vocabularyCount": 203,
       "levelDistribution": {
-        "A1": 52,
-        "A2": 49,
-        "B1": 44,
+        "A1": 51,
+        "A2": 48,
+        "B1": 43,
         "B2": 50,
         "C1": 10,
         "C2": 1
@@ -378,9 +378,9 @@
       "word": "brightly",
       "lemma": "brightly",
       "lemmaId": "brightly",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "brightly_adjective",
+      "wordKey": "brightly_adverb",
       "level": "B1",
       "translations": {
         "ru": {
@@ -393,7 +393,7 @@
       "exampleEnd": 1653,
       "matchedForm": "brightly",
       "ipa": "ˈbraɪtli",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.877143,
       "difficultySource": "zipf"
     },
@@ -1431,24 +1431,23 @@
     },
     {
       "word": "flying",
-      "lemma": "fly",
-      "lemmaId": "fly",
+      "lemma": "flying",
+      "lemmaId": "flying",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "fly_adjective",
-      "level": "A1",
+      "wordKey": "flying_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "летающий"
         }
       },
-      "_spacyLemma": "fly",
+      "_spacyLemma": "flying",
       "example": "To others it was a matched set of flying plaster bats on the wall.",
       "exampleStart": 2025,
       "exampleEnd": 2091,
       "matchedForm": "flying",
-      "ipa": "ˈflaɪɪŋ",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.502857,
       "difficultySource": "zipf"
     },
@@ -1978,17 +1977,17 @@
       "word": "hive",
       "lemma": "hive",
       "lemmaId": "hive",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "hive_adjective",
-      "level": "B1",
+      "wordKey": "hive_noun",
+      "level": "B2",
       "translations": {},
       "_spacyLemma": "hive",
       "example": "Bees in a hive, maybe.",
       "exampleStart": 2894,
       "exampleEnd": 2916,
       "matchedForm": "hive",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.86,
       "difficultySource": "zipf",
       "ipa": "haɪv"
@@ -3138,25 +3137,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.64,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "Passages",
-      "lemma": "passage",
-      "lemmaId": "passage",
-      "pos": "verb",
-      "source": "word",
-      "wordKey": "passage_verb",
-      "level": "B1",
-      "translations": {},
-      "_spacyLemma": "passage",
-      "example": "A trolley whirred out of the mouth of a side corridor and skidded away down another on the opposite side of the passage.",
-      "exampleStart": 2678,
-      "exampleEnd": 2798,
-      "matchedForm": "passage",
-      "levelSource": "cefr_frequency",
-      "difficultyScore": 0.64,
-      "difficultySource": "zipf",
-      "ipa": "ˈpæsɪdʒɪz"
     },
     {
       "word": "people",
@@ -4541,23 +4521,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "vaultette",
-      "lemma": "vaultette",
-      "lemmaId": "vaultette",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "vaultette_noun",
-      "level": "B2",
-      "translations": {},
-      "_spacyLemma": "vaultette",
-      "example": "‘—more of a vaultette, really.",
-      "exampleStart": 1803,
-      "exampleEnd": 1833,
-      "matchedForm": "vaultette",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "vɒlˈtet"
-    },
-    {
       "word": "vision",
       "lemma": "vision",
       "lemmaId": "vision",
@@ -4581,21 +4544,27 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "vorld",
-      "lemma": "vorld",
-      "lemmaId": "vorld",
+      "word": "world",
+      "lemma": "world",
+      "lemmaId": "world",
       "pos": "noun",
       "source": "word",
-      "wordKey": "vorld_noun",
-      "level": "A2",
-      "translations": {},
-      "_spacyLemma": "vorld",
+      "wordKey": "world_noun",
+      "level": "A1",
+      "translations": {
+        "ru": {
+          "translation": "мир"
+        }
+      },
+      "_spacyLemma": "world",
       "example": "There can’t be this much marble in the whole world … vorld,’ said Doreen.",
       "exampleStart": 759,
       "exampleEnd": 832,
-      "matchedForm": "vorld",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "vɔːld"
+      "matchedForm": "world",
+      "ipa": "wɜːld",
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.177143,
+      "difficultySource": "zipf"
     },
     {
       "word": "walked into",
@@ -4876,29 +4845,6 @@
       "ipa": "wɜːd",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.357143,
-      "difficultySource": "zipf"
-    },
-    {
-      "word": "world",
-      "lemma": "world",
-      "lemmaId": "world",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "world_noun",
-      "level": "A1",
-      "translations": {
-        "ru": {
-          "translation": "мир"
-        }
-      },
-      "_spacyLemma": "world",
-      "example": "There can’t be this much marble in the whole world … vorld,’ said Doreen.",
-      "exampleStart": 759,
-      "exampleEnd": 832,
-      "matchedForm": "world",
-      "ipa": "wɜːld",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.177143,
       "difficultySource": "zipf"
     }
   ],

@@ -21,11 +21,11 @@
       "wordCount": 965,
       "uniqueWordCount": 493,
       "paragraphCount": 36,
-      "vocabularyCount": 253,
+      "vocabularyCount": 258,
       "levelDistribution": {
-        "A1": 74,
+        "A1": 73,
         "A2": 34,
-        "B1": 51,
+        "B1": 57,
         "B2": 74,
         "C1": 18,
         "C2": 2
@@ -234,34 +234,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "been up for",
-      "lemma": "be up for",
-      "lemmaId": "be_up_for",
-      "pos": "prepositional_verb",
-      "type": "prepositional_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "be_up_for_prepositional_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "быть готовым к; подлежать"
-        },
-        "uk": {
-          "translation": "Будьте готові до; За умови"
-        }
-      },
-      "example": "”\n\n“Eric’s been up for hours,” said Mary, hovering about.",
-      "exampleStart": 2328,
-      "exampleEnd": 2385,
-      "phraseMatch": {
-        "text": "been up for",
-        "startInExample": 11,
-        "endInExample": 22
-      },
-      "ipa": "ˌbiːn ˈʌp fɔː",
-      "levelSource": "phrase_index"
-    },
-    {
       "word": "been up to",
       "lemma": "be up to",
       "lemmaId": "be_up_to",
@@ -287,7 +259,10 @@
         "endInExample": 44
       },
       "ipa": "ˌbiːn ˈʌp tuː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "believe",
@@ -349,12 +324,12 @@
     },
     {
       "word": "bloomers",
-      "lemma": "bloomer",
-      "lemmaId": "bloomer",
+      "lemma": "bloomers",
+      "lemmaId": "bloomers",
       "pos": "noun",
       "source": "word",
-      "wordKey": "bloomer_noun",
-      "level": "B1",
+      "wordKey": "bloomers_noun",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "цветущий"
@@ -363,13 +338,12 @@
           "translation": "цвітіння"
         }
       },
-      "_spacyLemma": "bloomer",
+      "_spacyLemma": "bloomers",
       "example": "Gwendolen seemed to have taken her best things with her, but he found her older boots, her green stockings and the garters to match, her second-best petticoats, her green cashmere dress with the smocking and — with some embarrassment — her bloomers.",
       "exampleStart": 607,
       "exampleEnd": 856,
       "matchedForm": "bloomers",
-      "ipa": "ˈbluːməz",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -529,7 +503,10 @@
         "endInExample": 50
       },
       "ipa": "ˌbʌtən ˈʌp",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "button",
@@ -635,7 +612,9 @@
         "endInExample": 185
       },
       "ipa": "ˌkæʃmiə ˈdres",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "cashmere",
@@ -747,7 +726,10 @@
         "endInExample": 26
       },
       "ipa": "ˌtʃeɪndʒd ˈbæk",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "change",
@@ -957,7 +939,10 @@
         "endInExample": 11
       },
       "ipa": "ˌkʌm ˈɒn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "came over",
@@ -985,7 +970,10 @@
         "endInExample": 28
       },
       "ipa": "ˌkeɪm ˈəʊvə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "came",
@@ -1123,7 +1111,9 @@
         "endInExample": 27
       },
       "ipa": "kəmˌpliːt ˈtʃeɪndʒ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "compulsory",
@@ -1545,7 +1535,10 @@
         "endInExample": 87
       },
       "ipa": "ˌdrest ˈʌp",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "dressed",
@@ -1657,7 +1650,9 @@
         "endInExample": 37
       },
       "ipa": "eˌdwɔːdiən ˈtʃaɪld",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "elbow",
@@ -1715,32 +1710,6 @@
       "ipa": "emˈbærəsmənt",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.782857,
-      "difficultySource": "zipf"
-    },
-    {
-      "word": "Euphemia",
-      "lemma": "euphemia",
-      "lemmaId": "euphemia",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "euphemia_noun",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "Юфимия"
-        },
-        "uk": {
-          "translation": "Євфемія"
-        }
-      },
-      "_spacyLemma": "euphemia",
-      "example": "Janet lowered Euphemia gently onto the towel.",
-      "exampleStart": 0,
-      "exampleEnd": 45,
-      "matchedForm": "Euphemia",
-      "ipa": "juːˈfiːmiə",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 1,
       "difficultySource": "zipf"
     },
     {
@@ -2131,7 +2100,9 @@
         "endInExample": 114
       },
       "ipa": "ˌfɜːst ˈdeɪ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "flounced",
@@ -2365,7 +2336,10 @@
         "endInExample": 26
       },
       "ipa": "ɡet ˈʌp",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "getting",
@@ -2397,9 +2371,9 @@
       "word": "ghostly",
       "lemma": "ghostly",
       "lemmaId": "ghostly",
-      "pos": "adverb",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "ghostly_adverb",
+      "wordKey": "ghostly_adjective",
       "level": "B2",
       "translations": {
         "ru": {
@@ -2415,7 +2389,7 @@
       "exampleEnd": 2592,
       "matchedForm": "ghostly",
       "ipa": "ˈɡəʊstli",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.962857,
       "difficultySource": "zipf"
     },
@@ -2602,38 +2576,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "hated",
-      "lemma": "hat",
-      "lemmaId": "hat",
-      "pos": "verb",
-      "source": "word",
-      "wordKey": "hat_verb",
-      "level": "B2",
-      "translations": {
-        "de": {
-          "translation": "hassend"
-        },
-        "es": {
-          "translation": "odiando"
-        },
-        "ru": {
-          "translation": "шляпа"
-        },
-        "uk": {
-          "translation": "Капелюх"
-        }
-      },
-      "_spacyLemma": "hat",
-      "example": "I hate cocoa,” she said.",
-      "exampleStart": 3635,
-      "exampleEnd": 3659,
-      "matchedForm": "hate",
-      "ipa": "ˈheɪtɪd",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.565714,
-      "difficultySource": "zipf"
-    },
-    {
       "word": "hate",
       "lemma": "hate",
       "lemmaId": "hate",
@@ -2647,6 +2589,12 @@
         },
         "uk": {
           "translation": "ненавиджу"
+        },
+        "de": {
+          "translation": "hassend"
+        },
+        "es": {
+          "translation": "odiando"
         }
       },
       "_spacyLemma": "hate",
@@ -2789,7 +2737,9 @@
         "endInExample": 248
       },
       "ipa": "hɜː ˈbluːməz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her boots",
@@ -2817,7 +2767,9 @@
         "endInExample": 94
       },
       "ipa": "hɜː ˈbuːts",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her dress",
@@ -2845,7 +2797,9 @@
         "endInExample": 113
       },
       "ipa": "hɜː ˈdres",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her eyes",
@@ -2873,7 +2827,9 @@
         "endInExample": 20
       },
       "ipa": "hɜː ˈaɪz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her face",
@@ -2901,7 +2857,9 @@
         "endInExample": 67
       },
       "ipa": "hɜː ˈfeɪs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her garters",
@@ -2929,7 +2887,9 @@
         "endInExample": 76
       },
       "ipa": "hɜː ˈɡɑːtəz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her green cashmere",
@@ -2957,7 +2917,9 @@
         "endInExample": 179
       },
       "ipa": "hɜː ˌɡriːn ˈkæʃmiə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her green stockings",
@@ -2985,7 +2947,9 @@
         "endInExample": 106
       },
       "ipa": "hɜː ˌɡriːn ˈstɒkɪŋz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her petticoats",
@@ -3013,7 +2977,9 @@
         "endInExample": 28
       },
       "ipa": "hɜː ˈpetɪˌkəʊts",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "hide",
@@ -3067,7 +3033,9 @@
         "endInExample": 64
       },
       "ipa": "hɪz ˈhelp",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his problems",
@@ -3095,7 +3063,9 @@
         "endInExample": 24
       },
       "ipa": "hɪz ˈprɒbləmz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "horribly",
@@ -3259,7 +3229,9 @@
         "endInExample": 33
       },
       "ipa": "ɪn ˈɔːdə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "intention",
@@ -3345,7 +3317,9 @@
         "endInExample": 166
       },
       "ipa": "ɪts ˈsæʃ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "jug",
@@ -3494,22 +3468,26 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "В последний момент"
+          "translation": "последнюю минуту"
         },
         "uk": {
           "translation": "У останній момент"
         }
       },
-      "example": "“Don’t you two ever get up till the last minute?",
+      "example": "“Don’t you two ever get up till the last minute?” said Julia.",
       "exampleStart": 2222,
-      "exampleEnd": 2270,
+      "exampleEnd": 2283,
       "phraseMatch": {
         "text": "last minute",
         "startInExample": 36,
         "endInExample": 47
       },
       "ipa": "ˌlæst ˈmɪnɪt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase",
+      "definition": "collocation used as one lexical expression in this context.",
+      "exampleTranslation": "последнюю минуту"
     },
     {
       "word": "least idea",
@@ -3537,7 +3515,9 @@
         "endInExample": 70
       },
       "ipa": "ˌliːst aɪˈdiə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "left off",
@@ -3565,7 +3545,10 @@
         "endInExample": 16
       },
       "ipa": "ˌleft ˈɒf",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "left",
@@ -3619,7 +3602,10 @@
         "endInExample": 31
       },
       "ipa": "ˌlet ˈdaʊn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "let",
@@ -3725,7 +3711,10 @@
         "endInExample": 13
       },
       "ipa": "ˈlʊkt æt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "look",
@@ -4071,7 +4060,10 @@
         "endInExample": 36
       },
       "ipa": "ˌmaʊntɪŋ ˈʌp",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "mounting",
@@ -4131,7 +4123,9 @@
         "endInExample": 21
       },
       "ipa": "maɪ ˈtʃeɪndʒ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "my taste buds",
@@ -4159,7 +4153,9 @@
         "endInExample": 49
       },
       "ipa": "maɪ ˌteɪst ˈbʌdz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "nice",
@@ -4291,7 +4287,9 @@
         "endInExample": 67
       },
       "ipa": "ˌɒd ˈeə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "older",
@@ -4435,7 +4433,9 @@
         "endInExample": 86
       },
       "ipa": "ˌɔːdɪnəri ˈpɜːsən",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "page",
@@ -4883,7 +4883,10 @@
         "endInExample": 116
       },
       "ipa": "ˌpʊt ˈɒn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "put out",
@@ -4912,7 +4915,10 @@
         "endInExample": 22
       },
       "ipa": "ˌpʊt ˈaʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "puzzled",
@@ -5052,12 +5058,12 @@
     },
     {
       "word": "resisting",
-      "lemma": "resist",
-      "lemmaId": "resist",
+      "lemma": "resisting",
+      "lemmaId": "resisting",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "resist_adjective",
-      "level": "B1",
+      "wordKey": "resisting_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "устойчивый; сопротивляющийся"
@@ -5066,13 +5072,12 @@
           "translation": "сталий; Опір"
         }
       },
-      "_spacyLemma": "resist",
+      "_spacyLemma": "resisting",
       "example": "He took Janet’s resisting elbow and towed her along to the playroom.",
       "exampleStart": 2152,
       "exampleEnd": 2220,
       "matchedForm": "resisting",
-      "ipa": "rɪˈzɪstɪŋ",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.66,
       "difficultySource": "zipf"
     },
@@ -5206,7 +5211,9 @@
         "endInExample": 141
       },
       "ipa": "ˌraɪt ˈweɪ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "rolled",
@@ -5422,7 +5429,9 @@
         "endInExample": 28
       },
       "ipa": "ˌsekənd ˈpiːs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "second time",
@@ -5450,7 +5459,9 @@
         "endInExample": 130
       },
       "ipa": "ˌsekənd ˈtaɪm",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "seen",
@@ -5758,12 +5769,12 @@
     },
     {
       "word": "speaking",
-      "lemma": "speak",
-      "lemmaId": "speak",
+      "lemma": "speaking",
+      "lemmaId": "speaking",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "speak_adjective",
-      "level": "A1",
+      "wordKey": "speaking_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "говорящий"
@@ -5772,13 +5783,12 @@
           "translation": "Спікер"
         }
       },
-      "_spacyLemma": "speak",
+      "_spacyLemma": "speaking",
       "example": "Mary flounced crossly to the speaking tube and ordered a pot of coffee and a pot of tea.",
       "exampleStart": 4408,
       "exampleEnd": 4496,
       "matchedForm": "speaking",
-      "ipa": "ˈspiːkɪŋ",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.422857,
       "difficultySource": "zipf"
     },
@@ -5930,7 +5940,10 @@
         "endInExample": 19
       },
       "ipa": "ˌsteɪ ˈaʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "stay",
@@ -6560,7 +6573,9 @@
         "endInExample": 72
       },
       "ipa": "ˌjuːʒuːəl ˈbred",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "usual things",
@@ -6588,16 +6603,18 @@
         "endInExample": 17
       },
       "ipa": "ˌjuːʒuːəl ˈθɪŋz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "vague",
       "lemma": "vague",
       "lemmaId": "vague",
-      "pos": "noun",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "vague_noun",
-      "level": "B2",
+      "wordKey": "vague_adjective",
+      "level": "B1",
       "translations": {
         "de": {
           "translation": "vage"
@@ -6618,7 +6635,7 @@
       "exampleEnd": 2592,
       "matchedForm": "vague",
       "ipa": "veɪɡ",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.754286,
       "difficultySource": "zipf"
     },
@@ -6996,7 +7013,9 @@
         "endInExample": 18
       },
       "ipa": "jɔː ˈeəz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "your taste buds",
@@ -7024,7 +7043,305 @@
         "endInExample": 30
       },
       "ipa": "jɔː ˌteɪst ˈbʌdz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
+    },
+    {
+      "word": "after all",
+      "lemma": "after all",
+      "lemmaId": "after_all",
+      "pos": "phrase",
+      "type": "discourse_marker",
+      "category": "mwe",
+      "mweType": "discourse_marker",
+      "syntacticForm": "adverb_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "всё-таки"
+        },
+        "uk": {
+          "translation": "зрештою"
+        }
+      },
+      "definition": "discourse marker used as one lexical expression in this context.",
+      "example": "Cat was very pleased to hear that cocoa was not compulsory after all.",
+      "exampleStart": 4071,
+      "exampleEnd": 4140,
+      "exampleTranslation": "всё-таки",
+      "phraseMatch": {
+        "text": "after all",
+        "startInExample": 59,
+        "endInExample": 68
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "after_all_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "зрештою"
+        }
+      }
+    },
+    {
+      "word": "as soon as",
+      "lemma": "as soon as",
+      "lemmaId": "as_soon_as",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "clause",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "с первого взгляда"
+        },
+        "uk": {
+          "translation": "щойно"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "He knew Mary would recognize her as soon as she set eyes on her.",
+      "exampleStart": 2087,
+      "exampleEnd": 2151,
+      "exampleTranslation": "с первого взгляда",
+      "phraseMatch": {
+        "text": "as soon as",
+        "startInExample": 33,
+        "endInExample": 43
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "as_soon_as_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "щойно"
+        }
+      }
+    },
+    {
+      "word": "change of heart",
+      "lemma": "change of heart",
+      "lemmaId": "change_of_heart",
+      "pos": "phrase",
+      "type": "idiom",
+      "category": "mwe",
+      "mweType": "idiom",
+      "syntacticForm": "noun_phrase",
+      "source": "manual_mwe",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "переменилось сердце"
+        },
+        "uk": {
+          "translation": "змінив своє серце"
+        }
+      },
+      "definition": "idiom used as one lexical expression in this context.",
+      "example": "“When I had my change of heart, all my taste buds changed too.",
+      "exampleStart": 3822,
+      "exampleEnd": 3884,
+      "exampleTranslation": "переменилось сердце",
+      "phraseMatch": {
+        "text": "change of heart",
+        "startInExample": 15,
+        "endInExample": 30
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "change_of_heart_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "змінив своє серце"
+        }
+      }
+    },
+    {
+      "word": "if anything",
+      "lemma": "if anything",
+      "lemmaId": "if_anything",
+      "pos": "phrase",
+      "type": "discourse_marker",
+      "category": "mwe",
+      "mweType": "discourse_marker",
+      "syntacticForm": "clause",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "если это что-нибудь и меняет"
+        },
+        "uk": {
+          "translation": "якщо вже на те пішло"
+        }
+      },
+      "definition": "discourse marker used as one lexical expression in this context.",
+      "example": "As they started breakfast, Cat thought that this, if anything, made the situation more difficult than ever.",
+      "exampleStart": 5228,
+      "exampleEnd": 5335,
+      "exampleTranslation": "если это что-нибудь и меняет",
+      "phraseMatch": {
+        "text": "if anything",
+        "startInExample": 50,
+        "endInExample": 61
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "if_anything_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "якщо вже на те пішло"
+        }
+      }
+    },
+    {
+      "word": "or something",
+      "lemma": "or something",
+      "lemmaId": "or_something",
+      "pos": "phrase",
+      "type": "formulaic_expression",
+      "category": "mwe",
+      "mweType": "formulaic_expression",
+      "syntacticForm": "adverb_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "что ли"
+        },
+        "uk": {
+          "translation": "чи щось таке"
+        }
+      },
+      "definition": "formulaic expression used as one lexical expression in this context.",
+      "example": "Under the carpet or something?”",
+      "exampleStart": 3933,
+      "exampleEnd": 3964,
+      "exampleTranslation": "что ли",
+      "phraseMatch": {
+        "text": "or something",
+        "startInExample": 17,
+        "endInExample": 29
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "or_something_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "чи щось таке"
+        }
+      }
+    },
+    {
+      "word": "set eyes on",
+      "lemma": "set eyes on",
+      "lemmaId": "set_eyes_on",
+      "pos": "phrase",
+      "type": "idiom",
+      "category": "mwe",
+      "mweType": "idiom",
+      "syntacticForm": "verb_phrase",
+      "source": "manual_mwe",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "с первого взгляда"
+        },
+        "uk": {
+          "translation": "побачить"
+        }
+      },
+      "definition": "idiom used as one lexical expression in this context.",
+      "example": "He knew Mary would recognize her as soon as she set eyes on her.",
+      "exampleStart": 2087,
+      "exampleEnd": 2151,
+      "exampleTranslation": "с первого взгляда",
+      "phraseMatch": {
+        "text": "set eyes on",
+        "startInExample": 48,
+        "endInExample": 59
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "set_eyes_on_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "побачить"
+        }
+      }
+    },
+    {
+      "word": "get used to",
+      "lemma": "get used to",
+      "lemmaId": "get_used_to",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "verb_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "привыкать"
+        },
+        "uk": {
+          "translation": "звикнути"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "It was only the second piece of witchcraft she had seen and she did not find it easy to get used to.",
+      "exampleStart": 2607,
+      "exampleEnd": 2707,
+      "exampleTranslation": "привыкать",
+      "phraseMatch": {
+        "text": "get used to",
+        "startInExample": 88,
+        "endInExample": 99
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "get_used_to_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "звикнути"
+        }
+      }
+    },
+    {
+      "word": "the last minute",
+      "lemma": "the last minute",
+      "lemmaId": "the_last_minute",
+      "pos": "phrase",
+      "type": "collocation",
+      "category": "mwe",
+      "mweType": "collocation",
+      "syntacticForm": "noun_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "последнюю минуту"
+        },
+        "uk": {
+          "translation": "останньої хвилини"
+        }
+      },
+      "definition": "collocation used as one lexical expression in this context.",
+      "example": "“Don’t you two ever get up till the last minute?” said Julia.",
+      "exampleStart": 2222,
+      "exampleEnd": 2283,
+      "exampleTranslation": "последнюю минуту",
+      "phraseMatch": {
+        "text": "the last minute",
+        "startInExample": 32,
+        "endInExample": 47
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "the_last_minute_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "останньої хвилини"
+        }
+      }
     }
   ],
   "namedEntities": [

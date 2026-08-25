@@ -21,13 +21,13 @@
       "wordCount": 648,
       "uniqueWordCount": 399,
       "paragraphCount": 20,
-      "vocabularyCount": 251,
+      "vocabularyCount": 250,
       "levelDistribution": {
-        "A1": 62,
-        "A2": 48,
-        "B1": 69,
-        "B2": 51,
-        "C1": 20,
+        "A1": 61,
+        "A2": 49,
+        "B1": 67,
+        "B2": 53,
+        "C1": 19,
         "C2": 1
       }
     }
@@ -651,10 +651,10 @@
       "word": "burning",
       "lemma": "burn",
       "lemmaId": "burn",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "burn_adjective",
-      "level": "A1",
+      "wordKey": "burn_noun",
+      "level": "A2",
       "translations": {
         "ru": {
           "translation": "обожжённый; горящий"
@@ -665,8 +665,8 @@
       "exampleStart": 331,
       "exampleEnd": 454,
       "matchedForm": "burning",
-      "ipa": "ˈbɜːnɪŋ",
-      "levelSource": "vocabulary_index",
+      "ipa": "bɜːn",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.565714,
       "difficultySource": "zipf"
     },
@@ -883,24 +883,24 @@
     },
     {
       "word": "churning",
-      "lemma": "churn",
-      "lemmaId": "churn",
+      "lemma": "churning",
+      "lemmaId": "churning",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "churn_adjective",
-      "level": "B1",
+      "wordKey": "churning_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "Перебивание"
         }
       },
-      "_spacyLemma": "churn",
+      "_spacyLemma": "churning",
       "example": "Most of the burning portions were below, but swirling whirlwinds of flame rose from the ground in churning, fiery vortexes.",
       "exampleStart": 331,
       "exampleEnd": 454,
       "matchedForm": "churning",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 0.982857,
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.968571,
       "difficultySource": "zipf",
       "ipa": "ˈtʃɜːnɪŋ"
     },
@@ -2271,31 +2271,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "flying at",
-      "lemma": "fly at",
-      "lemmaId": "fly_at",
-      "pos": "prepositional_verb",
-      "type": "prepositional_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "fly_at_prepositional_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "лететь со скоростью"
-        }
-      },
-      "example": "The ship turned and curved along the perimeter, flying at a slight angle to trail the storm—which retreated before them, chasing the setting sun.",
-      "exampleStart": 1470,
-      "exampleEnd": 1615,
-      "phraseMatch": {
-        "text": "flying at",
-        "startInExample": 48,
-        "endInExample": 57
-      },
-      "levelSource": "dictionary_phrase",
-      "ipa": "ˈflaɪɪŋ æt"
-    },
-    {
       "word": "flying",
       "lemma": "fly",
       "lemmaId": "fly",
@@ -2398,26 +2373,25 @@
     },
     {
       "word": "gaped",
-      "lemma": "gap",
-      "lemmaId": "gap",
+      "lemma": "gape",
+      "lemmaId": "gape",
       "pos": "verb",
       "source": "word",
-      "wordKey": "gap_verb",
-      "level": "B1",
+      "wordKey": "gape_verb",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "Разрыв"
         }
       },
-      "_spacyLemma": "gap",
+      "_spacyLemma": "gape",
       "example": "”\n\nHe gaped at the inferno.",
       "exampleStart": 945,
       "exampleEnd": 972,
       "matchedForm": "gaped",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.582857,
-      "difficultySource": "zipf",
-      "ipa": "ɡeɪpt"
+      "difficultySource": "zipf"
     },
     {
       "word": "Gases",
@@ -3088,24 +3062,23 @@
     },
     {
       "word": "indoors",
-      "lemma": "indoor",
-      "lemmaId": "indoor",
-      "pos": "noun",
+      "lemma": "indoors",
+      "lemmaId": "indoors",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "indoor_noun",
+      "wordKey": "indoors_adverb",
       "level": "A2",
       "translations": {
         "ru": {
           "translation": "в помещении"
         }
       },
-      "_spacyLemma": "indoor",
+      "_spacyLemma": "indoors",
       "example": "He kept forgetting that the Beaconites kept their lights uncommonly low, even indoors.",
       "exampleStart": 57,
       "exampleEnd": 143,
       "matchedForm": "indoors",
-      "ipa": "ɪnˈdɔːz",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.691429,
       "difficultySource": "zipf"
     },
@@ -3886,9 +3859,9 @@
       "word": "Normally",
       "lemma": "normally",
       "lemmaId": "normally",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "normally_adjective",
+      "wordKey": "normally_adverb",
       "level": "A2",
       "translations": {
         "ru": {
@@ -3900,7 +3873,7 @@
       "exampleStart": 2370,
       "exampleEnd": 2586,
       "matchedForm": "Normally",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.554286,
       "difficultySource": "zipf",
       "ipa": "ˈnɔːməli"
@@ -3964,9 +3937,9 @@
       "word": "occasionally",
       "lemma": "occasionally",
       "lemmaId": "occasionally",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "occasionally_adjective",
+      "wordKey": "occasionally_adverb",
       "level": "B1",
       "translations": {
         "ru": {
@@ -3979,7 +3952,7 @@
       "exampleEnd": 3612,
       "matchedForm": "occasionally",
       "ipa": "əˈkeɪʒənəli",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.605714,
       "difficultySource": "zipf"
     },
@@ -5328,12 +5301,12 @@
     },
     {
       "word": "swirling",
-      "lemma": "swirl",
-      "lemmaId": "swirl",
-      "pos": "verb",
+      "lemma": "swirling",
+      "lemmaId": "swirling",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "swirl_verb",
-      "level": "C1",
+      "wordKey": "swirling_adjective",
+      "level": "B2",
       "translations": {
         "de": {
           "translation": "wirbelnd"
@@ -5348,14 +5321,14 @@
           "translation": "закручений"
         }
       },
-      "_spacyLemma": "swirl",
+      "_spacyLemma": "swirling",
       "example": "Most of the burning portions were below, but swirling whirlwinds of flame rose from the ground in churning, fiery vortexes.",
       "exampleStart": 331,
       "exampleEnd": 454,
       "matchedForm": "swirling",
       "ipa": "ˈswɜːlɪŋ",
       "levelSource": "vocabulary_index",
-      "difficultyScore": 0.957143,
+      "difficultyScore": 0.954286,
       "difficultySource": "zipf"
     },
     {
@@ -5607,9 +5580,9 @@
       "word": "throttle",
       "lemma": "throttle",
       "lemmaId": "throttle",
-      "pos": "verb",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "throttle_verb",
+      "wordKey": "throttle_noun",
       "level": "B2",
       "translations": {
         "ru": {
@@ -5621,7 +5594,7 @@
       "exampleStart": 3423,
       "exampleEnd": 3499,
       "matchedForm": "throttle",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.868571,
       "difficultySource": "zipf",
       "ipa": "ˈθrɒtəl"
@@ -5800,9 +5773,9 @@
       "word": "unnaturally",
       "lemma": "unnaturally",
       "lemmaId": "unnaturally",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "unnaturally_adjective",
+      "wordKey": "unnaturally_adverb",
       "level": "C2",
       "translations": {
         "ru": {
@@ -5814,7 +5787,7 @@
       "exampleStart": 2201,
       "exampleEnd": 2267,
       "matchedForm": "unnaturally",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "vocabulary_index",
       "difficultyScore": 1,
       "difficultySource": "zipf",
       "ipa": "ʌnˈnætʃərəli"

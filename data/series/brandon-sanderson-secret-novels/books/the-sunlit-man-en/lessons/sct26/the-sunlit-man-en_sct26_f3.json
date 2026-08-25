@@ -21,14 +21,13 @@
       "wordCount": 1089,
       "uniqueWordCount": 594,
       "paragraphCount": 34,
-      "vocabularyCount": 357,
+      "vocabularyCount": 354,
       "levelDistribution": {
-        "A1": 90,
-        "A2": 87,
-        "B1": 98,
-        "B2": 69,
-        "C1": 13,
-        "C2": 0
+        "A1": 89,
+        "A2": 85,
+        "B1": 99,
+        "B2": 68,
+        "C1": 13
       }
     }
   },
@@ -1295,10 +1294,10 @@
       "word": "consumed",
       "lemma": "consume",
       "lemmaId": "consume",
-      "pos": "adjective",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "consume_adjective",
-      "level": "B2",
+      "wordKey": "consume_verb",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "потреблен"
@@ -1309,10 +1308,10 @@
       "exampleStart": 708,
       "exampleEnd": 810,
       "matchedForm": "consumed",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.751429,
       "difficultySource": "zipf",
-      "ipa": "kənˈsjuːmd"
+      "ipa": "kənˈsjuːm"
     },
     {
       "word": "conversation",
@@ -1825,31 +1824,6 @@
       },
       "levelSource": "phrase_fallback",
       "ipa": "ˌdɪstənt ˈkʌzənz"
-    },
-    {
-      "word": "doing in",
-      "lemma": "do in",
-      "lemmaId": "do_in",
-      "pos": "prepositional_verb",
-      "type": "prepositional_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "do_in_prepositional_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "Сделай"
-        }
-      },
-      "example": "Since that’s essentially what we’re going to be doing in a few short hours.",
-      "exampleStart": 354,
-      "exampleEnd": 429,
-      "phraseMatch": {
-        "text": "doing in",
-        "startInExample": 48,
-        "endInExample": 56
-      },
-      "ipa": "ˌduːɪŋ ˈɪn",
-      "levelSource": "phrase_index"
     },
     {
       "word": "drifting off",
@@ -2841,25 +2815,25 @@
     },
     {
       "word": "froze",
-      "lemma": "froze",
-      "lemmaId": "froze",
+      "lemma": "freeze",
+      "lemmaId": "freeze",
       "pos": "verb",
       "source": "word",
-      "wordKey": "froze_verb",
-      "level": "B1",
+      "wordKey": "freeze_verb",
+      "level": "A2",
       "translations": {
         "ru": {
           "translation": "заморожен"
         }
       },
-      "_spacyLemma": "froze",
+      "_spacyLemma": "freeze",
       "example": "”\n\nNomad froze, then turned and searched the sky.",
       "exampleStart": 5716,
       "exampleEnd": 5765,
       "matchedForm": "froze",
-      "ipa": "frəʊz",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.882857,
+      "ipa": "friːz",
+      "levelSource": "cefr_reference",
+      "difficultyScore": 0.685714,
       "difficultySource": "zipf"
     },
     {
@@ -3247,26 +3221,25 @@
     },
     {
       "word": "gutting",
-      "lemma": "gutte",
-      "lemmaId": "gutte",
+      "lemma": "gut",
+      "lemmaId": "gut",
       "pos": "verb",
       "source": "word",
-      "wordKey": "gutte_verb",
-      "level": "B1",
+      "wordKey": "gut_verb",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "выхолащивать"
         }
       },
-      "_spacyLemma": "gutte",
+      "_spacyLemma": "gut",
       "example": "You cannot abandon fancy without gutting the truth.",
       "exampleStart": 2648,
       "exampleEnd": 2699,
       "matchedForm": "gutting",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "ˈɡʌtɪŋ"
+      "difficultySource": "zipf"
     },
     {
       "word": "hands",
@@ -3768,29 +3741,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "Huh",
-      "lemma": "huh",
-      "lemmaId": "huh",
-      "pos": "adjective",
-      "source": "word",
-      "wordKey": "huh_adjective",
-      "level": "A2",
-      "translations": {
-        "ru": {
-          "translation": "Хах"
-        }
-      },
-      "_spacyLemma": "huh",
-      "example": "“Huh,” Contemplation said, following his gaze.",
-      "exampleStart": 5927,
-      "exampleEnd": 5973,
-      "matchedForm": "Huh",
-      "ipa": "hʌ",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.64,
-      "difficultySource": "zipf"
-    },
-    {
       "word": "idea",
       "lemma": "idea",
       "lemmaId": "idea",
@@ -4069,9 +4019,9 @@
       "word": "intermingle",
       "lemma": "intermingle",
       "lemmaId": "intermingle",
-      "pos": "noun",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "intermingle_noun",
+      "wordKey": "intermingle_verb",
       "level": "C1",
       "translations": {
         "ru": {
@@ -4083,7 +4033,7 @@
       "exampleStart": 2545,
       "exampleEnd": 2621,
       "matchedForm": "intermingle",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf",
       "ipa": "ˌɪntəˈmɪŋɡəl"
@@ -4450,29 +4400,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.177143,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "light",
-      "lemma": "light",
-      "lemmaId": "light",
-      "pos": "adverb",
-      "source": "word",
-      "wordKey": "light_adverb",
-      "level": "A1",
-      "translations": {
-        "ru": {
-          "translation": "Свет"
-        }
-      },
-      "_spacyLemma": "light",
-      "example": "“From that day it was said that their eyes had been bleached by the intense light, like clay cooked too long.",
-      "exampleStart": 3206,
-      "exampleEnd": 3315,
-      "matchedForm": "light",
-      "levelSource": "cefr_frequency",
-      "difficultyScore": 0.337143,
-      "difficultySource": "zipf",
-      "ipa": "laɪt"
     },
     {
       "word": "light",
@@ -6208,24 +6135,23 @@
     },
     {
       "word": "remaining",
-      "lemma": "remain",
-      "lemmaId": "remain",
+      "lemma": "remaining",
+      "lemmaId": "remaining",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "remain_adjective",
-      "level": "A2",
+      "wordKey": "remaining_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "Остались"
         }
       },
-      "_spacyLemma": "remain",
+      "_spacyLemma": "remaining",
       "example": "“I should like,” she whispered, “to live my remaining days in a place where we could afford to tell such stories.",
       "exampleStart": 4992,
       "exampleEnd": 5105,
       "matchedForm": "remaining",
-      "ipa": "rɪˈmeɪnɪŋ",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.48,
       "difficultySource": "zipf"
     },
@@ -6318,24 +6244,23 @@
     },
     {
       "word": "riches",
-      "lemma": "rich",
-      "lemmaId": "rich",
+      "lemma": "riches",
+      "lemmaId": "riches",
       "pos": "noun",
       "source": "word",
-      "wordKey": "rich_noun",
-      "level": "A2",
+      "wordKey": "riches_noun",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "богатство"
         }
       },
-      "_spacyLemma": "rich",
+      "_spacyLemma": "riches",
       "example": "‘It must glow with riches to shine so brightly.",
       "exampleStart": 2120,
       "exampleEnd": 2167,
       "matchedForm": "riches",
-      "ipa": "ˈrɪtʃɪz",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.457143,
       "difficultySource": "zipf"
     },

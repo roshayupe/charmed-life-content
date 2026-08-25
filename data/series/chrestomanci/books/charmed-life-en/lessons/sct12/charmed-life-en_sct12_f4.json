@@ -21,14 +21,13 @@
       "wordCount": 639,
       "uniqueWordCount": 353,
       "paragraphCount": 16,
-      "vocabularyCount": 176,
+      "vocabularyCount": 177,
       "levelDistribution": {
-        "A1": 49,
-        "A2": 29,
-        "B1": 33,
-        "B2": 51,
-        "C1": 14,
-        "C2": 0
+        "A1": 48,
+        "A2": 28,
+        "B1": 35,
+        "B2": 52,
+        "C1": 14
       }
     }
   },
@@ -221,7 +220,10 @@
         "endInExample": 36
       },
       "ipa": "biː ˈɪn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "bed",
@@ -353,7 +355,9 @@
         "endInExample": 78
       },
       "ipa": "ˌblest ˈtʃæns",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "book",
@@ -407,7 +411,10 @@
         "endInExample": 16
       },
       "ipa": "ˈkɔːlz fɔː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "calls",
@@ -571,7 +578,10 @@
         "endInExample": 17
       },
       "ipa": "ˈtʃeɪndʒɪŋ ˌɪntʊ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "changing",
@@ -601,12 +611,12 @@
     },
     {
       "word": "chipped",
-      "lemma": "chip",
-      "lemmaId": "chip",
+      "lemma": "chipped",
+      "lemmaId": "chipped",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "chip_adjective",
-      "level": "A2",
+      "wordKey": "chipped_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "щербатый; отколотый"
@@ -615,13 +625,12 @@
           "translation": "Щербатій; відщеплений"
         }
       },
-      "_spacyLemma": "chip",
+      "_spacyLemma": "chipped",
       "example": "She was carrying an armful of things, with a chipped teapot hanging off one finger.",
       "exampleStart": 2507,
       "exampleEnd": 2590,
       "matchedForm": "chipped",
-      "ipa": "tʃɪpt",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.628571,
       "difficultySource": "zipf"
     },
@@ -651,7 +660,10 @@
         "endInExample": 71
       },
       "ipa": "ˌkeɪm ˈɪn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "come into",
@@ -679,7 +691,10 @@
         "endInExample": 11
       },
       "ipa": "ˈkʌm ˌɪntʊ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "come out",
@@ -707,7 +722,10 @@
         "endInExample": 39
       },
       "ipa": "ˌkʌm ˈaʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "comes",
@@ -824,16 +842,16 @@
       "lemma": "dead loss",
       "lemmaId": "dead_loss",
       "pos": "phrase",
-      "type": "phrase",
-      "source": "spacy_phrase",
+      "type": "idiom",
+      "source": "manual_mwe",
       "wordKey": "dead_loss_phrase",
       "level": "C1",
       "translations": {
         "ru": {
-          "translation": "Погибшая потеря"
+          "translation": "полный провал"
         },
         "uk": {
-          "translation": "Втрачена втрата"
+          "translation": "повна втрата"
         }
       },
       "example": "As Janet said, if they really had wanted to play houses, two stools and an old carpet would have been just the thing, but from a selling point of view, they were just a dead loss.",
@@ -845,7 +863,17 @@
         "endInExample": 178
       },
       "ipa": "ˌded ˈlɒs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "syntacticForm": "noun_phrase",
+      "mweType": "idiom",
+      "definition": "idiom used as one lexical expression in this context.",
+      "exampleTranslation": "полный провал",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "повна втрата"
+        }
+      }
     },
     {
       "word": "dived",
@@ -1061,7 +1089,9 @@
         "endInExample": 64
       },
       "ipa": "ˌiːzi ˈweɪ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "expect",
@@ -1471,7 +1501,10 @@
         "endInExample": 49
       },
       "ipa": "ɡet ˈdaʊn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "get up",
@@ -1499,7 +1532,10 @@
         "endInExample": 23
       },
       "ipa": "ɡet ˈʌp",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "gets",
@@ -1715,7 +1751,9 @@
         "endInExample": 20
       },
       "ipa": "hɜː ˈbʊk",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her forehead",
@@ -1743,7 +1781,9 @@
         "endInExample": 50
       },
       "ipa": "hɜː ˈfɔːhed",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her head",
@@ -1771,7 +1811,9 @@
         "endInExample": 64
       },
       "ipa": "hɜː ˈhed",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "hide",
@@ -1825,7 +1867,9 @@
         "endInExample": 32
       },
       "ipa": "hɪz ˈmaɪnd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his money",
@@ -1853,7 +1897,9 @@
         "endInExample": 26
       },
       "ipa": "hɪz ˈmʌni",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "hit",
@@ -2075,7 +2121,9 @@
         "endInExample": 45
       },
       "ipa": "ɪts ˈsliːv",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "knee",
@@ -2239,7 +2287,10 @@
         "endInExample": 28
       },
       "ipa": "ˌlaɪd əˈbaʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "lied",
@@ -2325,7 +2376,10 @@
         "endInExample": 23
       },
       "ipa": "ˈlʊkɪŋ æt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "looked",
@@ -2493,32 +2547,6 @@
       "ipa": "mɑːtʃt",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.357143,
-      "difficultySource": "zipf"
-    },
-    {
-      "word": "Maud",
-      "lemma": "maud",
-      "lemmaId": "maud",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "maud_noun",
-      "level": "A1",
-      "translations": {
-        "ru": {
-          "translation": "Мод"
-        },
-        "uk": {
-          "translation": "Мод"
-        }
-      },
-      "_spacyLemma": "maud",
-      "example": "“‘Come into the garden, Maud,’” she proclaimed.",
-      "exampleStart": 2385,
-      "exampleEnd": 2432,
-      "matchedForm": "Maud",
-      "ipa": "mɔːd",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.991429,
       "difficultySource": "zipf"
     },
     {
@@ -2709,7 +2737,9 @@
         "endInExample": 39
       },
       "ipa": "ˌmɔː ˈtrʌbəl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "much interest",
@@ -2737,7 +2767,9 @@
         "endInExample": 36
       },
       "ipa": "ˌmʌtʃ ˈɪntrest",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "my fault",
@@ -2765,7 +2797,9 @@
         "endInExample": 19
       },
       "ipa": "maɪ ˈfɒlt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "my saying",
@@ -2793,7 +2827,9 @@
         "endInExample": 27
       },
       "ipa": "maɪ ˈseɪɪŋ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "nasty",
@@ -2879,7 +2915,9 @@
         "endInExample": 85
       },
       "ipa": "ˌəʊld ˈkɑːpɪt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "ominous",
@@ -2939,7 +2977,9 @@
         "endInExample": 65
       },
       "ipa": "ˌɒmɪnəs ˈlʌmp",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "one tiny bit",
@@ -2967,7 +3007,9 @@
         "endInExample": 94
       },
       "ipa": "ˌwɒn ˌtaɪni ˈbɪt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "opened the book",
@@ -2995,7 +3037,9 @@
         "endInExample": 26
       },
       "ipa": "ˌəʊpənd ðə ˈbʊk",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "opened",
@@ -3055,7 +3099,10 @@
         "endInExample": 56
       },
       "ipa": "ˌpɪk ˈʌp",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "pick",
@@ -3139,9 +3186,9 @@
       "word": "poetry",
       "lemma": "poetry",
       "lemmaId": "poetry",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "poetry_adjective",
+      "wordKey": "poetry_noun",
       "level": "B1",
       "translations": {
         "ru": {
@@ -3157,7 +3204,7 @@
       "exampleEnd": 2731,
       "matchedForm": "poetry",
       "ipa": "ˈpəʊɪtri",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.602857,
       "difficultySource": "zipf"
     },
@@ -3575,7 +3622,9 @@
         "endInExample": 142
       },
       "ipa": "ˌselɪŋ ˈpɔɪnt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "shift",
@@ -3991,7 +4040,10 @@
         "endInExample": 39
       },
       "ipa": "ˈtɔːkɪŋ tuː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "talking",
@@ -4311,7 +4363,10 @@
         "endInExample": 19
       },
       "ipa": "ˌtɜːnd əˈraʊnd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "turned into",
@@ -4339,7 +4394,10 @@
         "endInExample": 42
       },
       "ipa": "ˈtɜːnd ˌɪntʊ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "turned",
@@ -4697,7 +4755,9 @@
         "endInExample": 22
       },
       "ipa": "ˌhəʊl ˈstɔːri",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "wo",
@@ -4872,6 +4932,80 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.157143,
       "difficultySource": "zipf"
+    },
+    {
+      "word": "As soon as",
+      "lemma": "as soon as",
+      "lemmaId": "as_soon_as",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "clause",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Как только"
+        },
+        "uk": {
+          "translation": "Щойно"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "As soon as Miss Bessemer had gone, they dived to see if, by any blessed chance, any of the pile was valuable.",
+      "exampleStart": 3033,
+      "exampleEnd": 3142,
+      "exampleTranslation": "Как только",
+      "phraseMatch": {
+        "text": "As soon as",
+        "startInExample": 0,
+        "endInExample": 10
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "as_soon_as_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "Щойно"
+        }
+      }
+    },
+    {
+      "word": "inside out",
+      "lemma": "inside out",
+      "lemmaId": "inside_out",
+      "pos": "phrase",
+      "type": "idiom",
+      "category": "mwe",
+      "mweType": "idiom",
+      "syntacticForm": "adverb_phrase",
+      "source": "manual_mwe",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "обложкой внутрь"
+        },
+        "uk": {
+          "translation": "навиворіт"
+        }
+      },
+      "definition": "idiom used as one lexical expression in this context.",
+      "example": "Janet doubled Magic for Beginners inside out so that it could have been any book, and waved it at Cat.",
+      "exampleStart": 2282,
+      "exampleEnd": 2384,
+      "exampleTranslation": "обложкой внутрь",
+      "phraseMatch": {
+        "text": "inside out",
+        "startInExample": 34,
+        "endInExample": 44
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "inside_out_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "навиворіт"
+        }
+      }
     }
   ],
   "namedEntities": [

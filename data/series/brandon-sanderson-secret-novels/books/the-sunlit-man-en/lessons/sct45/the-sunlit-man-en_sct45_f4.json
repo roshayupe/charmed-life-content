@@ -21,14 +21,14 @@
       "wordCount": 1088,
       "uniqueWordCount": 553,
       "paragraphCount": 61,
-      "vocabularyCount": 335,
+      "vocabularyCount": 326,
       "levelDistribution": {
         "A1": 84,
-        "A2": 71,
-        "B1": 87,
-        "B2": 73,
-        "C1": 17,
-        "C2": 3
+        "A2": 68,
+        "B1": 82,
+        "B2": 71,
+        "C1": 16,
+        "C2": 5
       }
     }
   },
@@ -83,10 +83,10 @@
       "word": "alight",
       "lemma": "alight",
       "lemmaId": "alight",
-      "pos": "noun",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "alight_noun",
-      "level": "A2",
+      "wordKey": "alight_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "горящий; освещённый"
@@ -98,7 +98,7 @@
       "exampleEnd": 6316,
       "matchedForm": "alight",
       "ipa": "əˈlaɪt",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -147,29 +147,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.382857,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "arcanist",
-      "lemma": "arcanist",
-      "lemmaId": "arcanist",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "arcanist_noun",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "Арканист"
-        }
-      },
-      "_spacyLemma": "arcanist",
-      "example": "“Are you an arcanist?",
-      "exampleStart": 227,
-      "exampleEnd": 248,
-      "matchedForm": "arcanist",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "ˈɑːkəˌnɪst"
     },
     {
       "word": "armor",
@@ -648,10 +625,10 @@
       "word": "buckle",
       "lemma": "buckle",
       "lemmaId": "buckle",
-      "pos": "verb",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "buckle_verb",
-      "level": "B1",
+      "wordKey": "buckle_noun",
+      "level": "C2",
       "translations": {
         "ru": {
           "translation": "Пряжка"
@@ -662,32 +639,32 @@
       "exampleStart": 1625,
       "exampleEnd": 1647,
       "matchedForm": "buckle",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.86,
       "difficultySource": "zipf",
       "ipa": "ˈbʌkəl"
     },
     {
       "word": "building",
-      "lemma": "building",
-      "lemmaId": "building",
-      "pos": "adjective",
+      "lemma": "build",
+      "lemmaId": "build",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "building_adjective",
-      "level": "A2",
+      "wordKey": "build_verb",
+      "level": "A1",
       "translations": {
         "ru": {
           "translation": "здание"
         }
       },
-      "_spacyLemma": "building",
+      "_spacyLemma": "build",
       "example": "Nomad—Zellion—looked through them toward the building sunlight.",
       "exampleStart": 3568,
       "exampleEnd": 3631,
       "matchedForm": "building",
-      "ipa": "ˈbɪldɪŋ",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.348571,
+      "ipa": "bɪld",
+      "levelSource": "cefr_reference",
+      "difficultyScore": 0.42,
       "difficultySource": "zipf"
     },
     {
@@ -1457,49 +1434,48 @@
     },
     {
       "word": "deepening",
-      "lemma": "deepening",
-      "lemmaId": "deepening",
-      "pos": "noun",
+      "lemma": "deepen",
+      "lemmaId": "deepen",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "deepening_noun",
+      "wordKey": "deepen_verb",
       "level": "B2",
       "translations": {
         "ru": {
           "translation": "Углубление"
         }
       },
-      "_spacyLemma": "deepening",
+      "_spacyLemma": "deepen",
       "example": "” the woman asked, her frown deepening.",
       "exampleStart": 248,
       "exampleEnd": 287,
       "matchedForm": "deepening",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.948571,
       "difficultySource": "zipf",
-      "ipa": "ˈdiːpənɪŋ"
+      "ipa": "ˈdiːpən"
     },
     {
       "word": "depleted",
-      "lemma": "deplete",
-      "lemmaId": "deplete",
+      "lemma": "depleted",
+      "lemmaId": "depleted",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "deplete_adjective",
+      "wordKey": "depleted_adjective",
       "level": "B2",
       "translations": {
         "ru": {
           "translation": "истощенной"
         }
       },
-      "_spacyLemma": "deplete",
+      "_spacyLemma": "depleted",
       "example": "Just a little bleeding of their warmth to prime depleted sunhearts, then bury them and return to find them glowing again!",
       "exampleStart": 611,
       "exampleEnd": 732,
       "matchedForm": "depleted",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "dɪˈpliːtɪd"
+      "difficultySource": "zipf"
     },
     {
       "word": "destination",
@@ -1773,29 +1749,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.46,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "downed",
-      "lemma": "down",
-      "lemmaId": "down",
-      "pos": "verb",
-      "source": "word",
-      "wordKey": "down_verb",
-      "level": "A1",
-      "translations": {
-        "ru": {
-          "translation": "Вниз"
-        }
-      },
-      "_spacyLemma": "down",
-      "example": "Then the Beaconites have a good fifteen before it reaches them, as they flew a short distance before being downed.",
-      "exampleStart": 2692,
-      "exampleEnd": 2806,
-      "matchedForm": "downed",
-      "levelSource": "cefr_frequency",
-      "difficultyScore": 0.18,
-      "difficultySource": "zipf",
-      "ipa": "daʊnd"
     },
     {
       "word": "dramatically",
@@ -2537,9 +2490,9 @@
       "word": "frown",
       "lemma": "frown",
       "lemmaId": "frown",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "frown_adjective",
+      "wordKey": "frown_noun",
       "level": "B1",
       "translations": {
         "ru": {
@@ -2551,7 +2504,7 @@
       "exampleStart": 248,
       "exampleEnd": 287,
       "matchedForm": "frown",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.928571,
       "difficultySource": "zipf",
       "ipa": "fraʊn"
@@ -2670,12 +2623,12 @@
     },
     {
       "word": "glowing",
-      "lemma": "glow",
-      "lemmaId": "glow",
+      "lemma": "glowing",
+      "lemmaId": "glowing",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "glow_adjective",
-      "level": "C1",
+      "wordKey": "glowing_adjective",
+      "level": "C2",
       "translations": {
         "de": {
           "translation": "glühend"
@@ -2690,14 +2643,14 @@
           "translation": "сяючий"
         }
       },
-      "_spacyLemma": "glow",
+      "_spacyLemma": "glowing",
       "example": "“Nothing so grand,” he said, staring at her powerfully glowing sunheart, charged far beyond its regular capacity.",
       "exampleStart": 289,
       "exampleEnd": 402,
       "matchedForm": "glowing",
       "ipa": "ˈɡləʊɪŋ",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.742857,
+      "levelSource": "cefr_reference",
+      "difficultyScore": 0.788571,
       "difficultySource": "zipf"
     },
     {
@@ -4572,27 +4525,6 @@
       "ipa": "əʊθs"
     },
     {
-      "word": "Oathed",
-      "lemma": "oathe",
-      "lemmaId": "oathe",
-      "pos": "verb",
-      "source": "word",
-      "wordKey": "oathe_verb",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "принести клятву"
-        }
-      },
-      "_spacyLemma": "oathe",
-      "example": "Some from his first oaths, some from his second.",
-      "exampleStart": 1033,
-      "exampleEnd": 1081,
-      "matchedForm": "oaths",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "əʊðd"
-    },
-    {
       "word": "opened",
       "lemma": "open",
       "lemmaId": "open",
@@ -4890,9 +4822,9 @@
       "word": "powerfully",
       "lemma": "powerfully",
       "lemmaId": "powerfully",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "powerfully_adjective",
+      "wordKey": "powerfully_adverb",
       "level": "B2",
       "translations": {
         "ru": {
@@ -4904,7 +4836,7 @@
       "exampleStart": 289,
       "exampleEnd": 402,
       "matchedForm": "powerfully",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.962857,
       "difficultySource": "zipf",
       "ipa": "ˈpaʊəfəli"
@@ -5296,31 +5228,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "return to",
-      "lemma": "return to",
-      "lemmaId": "return_to",
-      "pos": "phrasal_verb",
-      "type": "phrasal_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "return_to_phrasal_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "Вернуться к"
-        }
-      },
-      "example": "Just a little bleeding of their warmth to prime depleted sunhearts, then bury them and return to find them glowing again!",
-      "exampleStart": 611,
-      "exampleEnd": 732,
-      "phraseMatch": {
-        "text": "return to",
-        "startInExample": 87,
-        "endInExample": 96
-      },
-      "levelSource": "dictionary_phrase",
-      "ipa": "rɪˈtɜːn tuː"
-    },
-    {
       "word": "return",
       "lemma": "return",
       "lemmaId": "return",
@@ -5677,27 +5584,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.177143,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "Scadrian",
-      "lemma": "scadrian",
-      "lemmaId": "scadrian",
-      "pos": "adjective",
-      "source": "word",
-      "wordKey": "scadrian_adjective",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "скадрианский"
-        }
-      },
-      "_spacyLemma": "scadrian",
-      "example": "” one of the Scadrian leaders said.",
-      "exampleStart": 2568,
-      "exampleEnd": 2603,
-      "matchedForm": "Scadrian",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "ˈskædriən"
     },
     {
       "word": "Scadrian leaders",
@@ -6955,48 +6841,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "sunhearts",
-      "lemma": "sunheart",
-      "lemmaId": "sunheart",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "sunheart_noun",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "Санхарт"
-        }
-      },
-      "_spacyLemma": "sunheart",
-      "example": "It was a simple answer to recharging the sunhearts, but one that would take either happenstance or a deep understanding of Investiture to try.",
-      "exampleStart": 25,
-      "exampleEnd": 167,
-      "matchedForm": "sunhearts",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "ˈsʌnhɑːts"
-    },
-    {
-      "word": "sunheart",
-      "lemma": "sunheart",
-      "lemmaId": "sunheart",
-      "pos": "verb",
-      "source": "word",
-      "wordKey": "sunheart_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "Санхарт"
-        }
-      },
-      "_spacyLemma": "sunheart",
-      "example": "It was a simple answer to recharging the sunhearts, but one that would take either happenstance or a deep understanding of Investiture to try.",
-      "exampleStart": 25,
-      "exampleEnd": 167,
-      "matchedForm": "sunhearts",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "ˈsʌnhɑːt"
-    },
-    {
       "word": "sunlight",
       "lemma": "sunlight",
       "lemmaId": "sunlight",
@@ -7030,29 +6874,6 @@
       "translations": {
         "ru": {
           "translation": "Восход солнца"
-        }
-      },
-      "_spacyLemma": "sunrise",
-      "example": "”\n\nThe other Scadrians spun, looking away from the sad sight of the Beaconites—who had gathered in a huddle amid their fallen and powerless ships—as the sunrise loomed.",
-      "exampleStart": 1884,
-      "exampleEnd": 2052,
-      "matchedForm": "sunrise",
-      "levelSource": "cefr_frequency",
-      "difficultyScore": 0.768571,
-      "difficultySource": "zipf",
-      "ipa": "ˈsʌnraɪz"
-    },
-    {
-      "word": "sunrise",
-      "lemma": "sunrise",
-      "lemmaId": "sunrise",
-      "pos": "verb",
-      "source": "word",
-      "wordKey": "sunrise_verb",
-      "level": "A2",
-      "translations": {
-        "ru": {
-          "translation": "Рассвет"
         }
       },
       "_spacyLemma": "sunrise",
@@ -8247,27 +8068,6 @@
       },
       "levelSource": "phrase_fallback",
       "ipa": "jɔː ˈəʊθs"
-    },
-    {
-      "word": "Zellion",
-      "lemma": "zellion",
-      "lemmaId": "zellion",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "zellion_noun",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "Зеллион"
-        }
-      },
-      "_spacyLemma": "zellion",
-      "example": "Nomad—Zellion—looked through them toward the building sunlight.",
-      "exampleStart": 3568,
-      "exampleEnd": 3631,
-      "matchedForm": "Zellion",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "ˈzeliən"
     }
   ],
   "namedEntities": [

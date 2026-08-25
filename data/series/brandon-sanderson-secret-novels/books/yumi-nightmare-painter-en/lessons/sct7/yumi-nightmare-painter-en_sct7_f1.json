@@ -21,12 +21,12 @@
       "wordCount": 540,
       "uniqueWordCount": 320,
       "paragraphCount": 14,
-      "vocabularyCount": 231,
+      "vocabularyCount": 229,
       "levelDistribution": {
         "A1": 53,
-        "A2": 55,
-        "B1": 53,
-        "B2": 54,
+        "A2": 51,
+        "B1": 54,
+        "B2": 55,
         "C1": 14,
         "C2": 2
       }
@@ -298,29 +298,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "bent",
-      "lemma": "bent",
-      "lemmaId": "bent",
-      "pos": "verb",
-      "source": "word",
-      "wordKey": "bent_verb",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "согнул; наклонился"
-        }
-      },
-      "_spacyLemma": "bent",
-      "example": "A body with lupine features, legs that bent the wrong way, a face with a snout.",
-      "exampleStart": 1203,
-      "exampleEnd": 1282,
-      "matchedForm": "bent",
-      "ipa": "bent",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.72,
-      "difficultySource": "zipf"
-    },
-    {
       "word": "blood",
       "lemma": "blood",
       "lemmaId": "blood",
@@ -487,10 +464,10 @@
       "word": "ceiling",
       "lemma": "ceiling",
       "lemmaId": "ceiling",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "ceiling_adjective",
-      "level": "B2",
+      "wordKey": "ceiling_noun",
+      "level": "A2",
       "translations": {
         "ru": {
           "translation": "Потолок"
@@ -501,7 +478,7 @@
       "exampleStart": 639,
       "exampleEnd": 879,
       "matchedForm": "ceiling",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.665714,
       "difficultySource": "zipf",
       "ipa": "ˈsiːlɪŋ"
@@ -1582,26 +1559,26 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "feed",
-      "lemma": "fee",
-      "lemmaId": "fee",
+      "word": "feedings",
+      "lemma": "feed",
+      "lemmaId": "feed",
       "pos": "verb",
       "source": "word",
-      "wordKey": "fee_verb",
+      "wordKey": "feed_verb",
       "level": "B1",
       "translations": {
         "ru": {
           "translation": "кормить"
         }
       },
-      "_spacyLemma": "fee",
+      "_spacyLemma": "feed",
       "example": "It took around ten feedings for a nightmare to coalesce to this level.",
       "exampleStart": 1747,
       "exampleEnd": 1817,
       "matchedForm": "feedings",
       "ipa": "fiːd",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.571429,
+      "levelSource": "cefr_reference",
+      "difficultyScore": 0.525714,
       "difficultySource": "zipf"
     },
     {
@@ -2199,29 +2176,6 @@
       },
       "levelSource": "phrase_fallback",
       "ipa": "hɪˌɒn ˈlaɪnz"
-    },
-    {
-      "word": "hion",
-      "lemma": "hion",
-      "lemmaId": "hion",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "hion_noun",
-      "level": "A1",
-      "translations": {
-        "ru": {
-          "translation": "Привет"
-        }
-      },
-      "_spacyLemma": "hion",
-      "example": "The hion lines overhead here were as thin as twine, barely giving him enough light to see by.",
-      "exampleStart": 303,
-      "exampleEnd": 396,
-      "matchedForm": "hion",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "hɪˈɒn"
     },
     {
       "word": "his eyes",
@@ -3035,10 +2989,10 @@
       "word": "lupine",
       "lemma": "lupine",
       "lemmaId": "lupine",
-      "pos": "noun",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "lupine_noun",
-      "level": "A2",
+      "wordKey": "lupine_adjective",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "Люпин"
@@ -3049,7 +3003,7 @@
       "exampleStart": 1203,
       "exampleEnd": 1282,
       "matchedForm": "lupine",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf",
       "ipa": "ˈluːpaɪn"
@@ -3150,26 +3104,26 @@
     },
     {
       "word": "narrower",
-      "lemma": "narrower",
-      "lemmaId": "narrower",
-      "pos": "adverb",
+      "lemma": "narrow",
+      "lemmaId": "narrow",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "narrower_adverb",
-      "level": "B2",
+      "wordKey": "narrow_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "Ужее"
         }
       },
-      "_spacyLemma": "narrower",
+      "_spacyLemma": "narrow",
       "example": "He backtracked twice as the streets grew narrower, winding through the huddled tenements of the city’s outer rings.",
       "exampleStart": 186,
       "exampleEnd": 301,
       "matchedForm": "narrower",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 0.92,
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.605714,
       "difficultySource": "zipf",
-      "ipa": "ˈnærəʊə"
+      "ipa": "ˈnærəʊ"
     },
     {
       "word": "neck",
@@ -3439,9 +3393,9 @@
       "word": "pay",
       "lemma": "pay",
       "lemmaId": "pay",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "pay_adjective",
+      "wordKey": "pay_noun",
       "level": "A1",
       "translations": {
         "ru": {
@@ -3453,7 +3407,7 @@
       "exampleStart": 2072,
       "exampleEnd": 2101,
       "matchedForm": "pay",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.317143,
       "difficultySource": "zipf",
       "ipa": "peɪ"
@@ -4542,12 +4496,12 @@
     },
     {
       "word": "stuffed",
-      "lemma": "stuff",
-      "lemmaId": "stuff",
+      "lemma": "stuffed",
+      "lemmaId": "stuffed",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "stuff_adjective",
-      "level": "C1",
+      "wordKey": "stuffed_adjective",
+      "level": "B1",
       "translations": {
         "de": {
           "translation": "stopfen"
@@ -4562,13 +4516,12 @@
           "translation": "набивати"
         }
       },
-      "_spacyLemma": "stuff",
+      "_spacyLemma": "stuffed",
       "example": "He huddled on his side, eyes squeezed shut, holding to a worn pillow that had eyes sewn on it—a poorer family’s approximation of a stuffed toy.",
       "exampleStart": 914,
       "exampleEnd": 1057,
       "matchedForm": "stuffed",
-      "ipa": "stʌft",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.391429,
       "difficultySource": "zipf"
     },
@@ -4755,35 +4708,35 @@
     },
     {
       "word": "telling",
-      "lemma": "telling",
-      "lemmaId": "telling",
-      "pos": "noun",
+      "lemma": "tell",
+      "lemmaId": "tell",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "telling_noun",
-      "level": "A2",
+      "wordKey": "tell_verb",
+      "level": "A1",
       "translations": {
         "ru": {
           "translation": "рассказывать"
         }
       },
-      "_spacyLemma": "telling",
+      "_spacyLemma": "tell",
       "example": "Most telling, it had eyes.",
       "exampleStart": 1407,
       "exampleEnd": 1433,
       "matchedForm": "telling",
-      "ipa": "ˈtelɪŋ",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.454286,
+      "ipa": "tel",
+      "levelSource": "cefr_reference",
+      "difficultyScore": 0.28,
       "difficultySource": "zipf"
     },
     {
       "word": "tender",
       "lemma": "tender",
       "lemmaId": "tender",
-      "pos": "noun",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "tender_noun",
-      "level": "A2",
+      "wordKey": "tender_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "уязвимый"
@@ -4794,7 +4747,7 @@
       "exampleStart": 639,
       "exampleEnd": 879,
       "matchedForm": "tender",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.691429,
       "difficultySource": "zipf",
       "ipa": "ˈtendə"
@@ -5073,13 +5026,13 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "trailing",
+      "word": "trail",
       "lemma": "trail",
       "lemmaId": "trail",
-      "pos": "adjective",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "trail_adjective",
-      "level": "A2",
+      "wordKey": "trail_verb",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "тянущийся; волочащийся"
@@ -5090,8 +5043,8 @@
       "exampleStart": 106,
       "exampleEnd": 185,
       "matchedForm": "trail",
-      "ipa": "ˈtreɪlɪŋ",
-      "levelSource": "vocabulary_index",
+      "ipa": "treɪl",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.588571,
       "difficultySource": "zipf"
     },
@@ -5152,24 +5105,24 @@
     },
     {
       "word": "Treasured",
-      "lemma": "treasure",
-      "lemmaId": "treasure",
-      "pos": "verb",
+      "lemma": "treasured",
+      "lemmaId": "treasured",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "treasure_verb",
+      "wordKey": "treasured_adjective",
       "level": "B2",
       "translations": {
         "ru": {
           "translation": "дорожить"
         }
       },
-      "_spacyLemma": "treasure",
+      "_spacyLemma": "treasured",
       "example": "Treasured regardless.",
       "exampleStart": 1058,
       "exampleEnd": 1079,
       "matchedForm": "Treasured",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 0.668571,
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.968571,
       "difficultySource": "zipf",
       "ipa": "ˈtreʒəd"
     },
@@ -5542,26 +5495,26 @@
     },
     {
       "word": "wisps",
-      "lemma": "wisps",
-      "lemmaId": "wisps",
+      "lemma": "wisp",
+      "lemmaId": "wisp",
       "pos": "noun",
       "source": "word",
-      "wordKey": "wisps_noun",
-      "level": "A2",
+      "wordKey": "wisp_noun",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "огоньки"
         }
       },
-      "_spacyLemma": "wisps",
+      "_spacyLemma": "wisp",
       "example": "The trail was difficult to follow; the dark wisps seemed to vanish in the haze.",
       "exampleStart": 106,
       "exampleEnd": 185,
       "matchedForm": "wisps",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf",
-      "ipa": "wɪsps"
+      "ipa": "wɪsp"
     },
     {
       "word": "worn",

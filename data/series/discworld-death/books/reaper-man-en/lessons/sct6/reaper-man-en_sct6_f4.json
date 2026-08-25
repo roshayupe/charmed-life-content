@@ -21,37 +21,18 @@
       "wordCount": 720,
       "uniqueWordCount": 406,
       "paragraphCount": 51,
-      "vocabularyCount": 251,
+      "vocabularyCount": 246,
       "levelDistribution": {
         "A1": 63,
         "A2": 55,
-        "B1": 74,
-        "B2": 52,
-        "C1": 5,
+        "B1": 69,
+        "B2": 51,
+        "C1": 6,
         "C2": 2
       }
     }
   },
   "vocabulary": [
-    {
-      "word": "acquire",
-      "lemma": "acquire",
-      "lemmaId": "acquire",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "acquire_noun",
-      "level": "B1",
-      "translations": {},
-      "_spacyLemma": "acquire",
-      "example": "Maybe life is something you sort of acquire?",
-      "exampleStart": 114,
-      "exampleEnd": 158,
-      "matchedForm": "acquire",
-      "levelSource": "cefr_frequency",
-      "difficultyScore": 0.68,
-      "difficultySource": "zipf",
-      "ipa": "əˈkwaɪə"
-    },
     {
       "word": "acquire",
       "lemma": "acquire",
@@ -125,9 +106,9 @@
       "word": "ALIVE",
       "lemma": "alive",
       "lemmaId": "alive",
-      "pos": "verb",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "alive_verb",
+      "wordKey": "alive_adjective",
       "level": "A2",
       "translations": {},
       "_spacyLemma": "alive",
@@ -135,7 +116,7 @@
       "exampleStart": 40,
       "exampleEnd": 58,
       "matchedForm": "ALIVE",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.5,
       "difficultySource": "zipf",
       "ipa": "əˈlaɪv"
@@ -579,17 +560,17 @@
       "word": "caviar",
       "lemma": "caviar",
       "lemmaId": "caviar",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "caviar_adjective",
-      "level": "B1",
+      "wordKey": "caviar_noun",
+      "level": "C1",
       "translations": {},
       "_spacyLemma": "caviar",
       "example": "For months after he’d refused omelettes and caviar, just in case.",
       "exampleStart": 3928,
       "exampleEnd": 3993,
       "matchedForm": "caviar",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.96,
       "difficultySource": "zipf",
       "ipa": "ˈkævɪˌɑː"
@@ -782,27 +763,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.328571,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "come after",
-      "lemma": "come after",
-      "lemmaId": "come_after",
-      "pos": "phrasal_verb",
-      "type": "phrasal_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "come_after_phrasal_verb",
-      "level": "B2",
-      "translations": {},
-      "example": "Miss Flitworth found the edge of her vision filling with purple and blue blotches, like the flashes of after-image with no image to come after.",
-      "exampleStart": 1115,
-      "exampleEnd": 1258,
-      "phraseMatch": {
-        "text": "come after",
-        "startInExample": 132,
-        "endInExample": 142
-      },
-      "levelSource": "phrase_index",
-      "ipa": "ˌkʌm ˈæftə"
     },
     {
       "word": "came",
@@ -1361,25 +1321,25 @@
     },
     {
       "word": "feed",
-      "lemma": "fee",
-      "lemmaId": "fee",
+      "lemma": "feed",
+      "lemmaId": "feed",
       "pos": "verb",
       "source": "word",
-      "wordKey": "fee_verb",
+      "wordKey": "feed_verb",
       "level": "B1",
       "translations": {
         "ru": {
           "translation": "кормить"
         }
       },
-      "_spacyLemma": "fee",
+      "_spacyLemma": "feed",
       "example": "‘And if I was you, young man, I’d feed my horse.",
       "exampleStart": 2949,
       "exampleEnd": 2997,
       "matchedForm": "feed",
       "ipa": "fiːd",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.571429,
+      "levelSource": "cefr_reference",
+      "difficultyScore": 0.525714,
       "difficultySource": "zipf"
     },
     {
@@ -2343,27 +2303,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "hovering around",
-      "lemma": "hover around",
-      "lemmaId": "hover_around",
-      "pos": "prepositional_verb",
-      "type": "prepositional_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "hover_around_prepositional_verb",
-      "level": "B2",
-      "translations": {},
-      "example": "If she jerked her head quickly and peered out of the tail of her eye, she could see small grey-clad shapes hovering around the walls.",
-      "exampleStart": 1260,
-      "exampleEnd": 1393,
-      "phraseMatch": {
-        "text": "hovering around",
-        "startInExample": 107,
-        "endInExample": 122
-      },
-      "levelSource": "phrase_index",
-      "ipa": "ˌhɒvərɪŋ əˈraʊnd"
-    },
-    {
       "word": "hovering",
       "lemma": "hover",
       "lemmaId": "hover",
@@ -3037,25 +2976,25 @@
     },
     {
       "word": "louder",
-      "lemma": "louder",
-      "lemmaId": "louder",
-      "pos": "adverb",
+      "lemma": "loud",
+      "lemmaId": "loud",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "louder_adverb",
+      "wordKey": "loud_adjective",
       "level": "B1",
       "translations": {
         "ru": {
           "translation": "громче"
         }
       },
-      "_spacyLemma": "louder",
+      "_spacyLemma": "loud",
       "example": "The hoofbeats grew louder, and echoed off the buildings behind them.",
       "exampleStart": 1543,
       "exampleEnd": 1611,
       "matchedForm": "louder",
-      "ipa": "ˈlaʊdə",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.768571,
+      "ipa": "laʊd",
+      "levelSource": "cefr_reference",
+      "difficultyScore": 0.565714,
       "difficultySource": "zipf"
     },
     {
@@ -3270,22 +3209,21 @@
     },
     {
       "word": "mounted",
-      "lemma": "mount",
-      "lemmaId": "mount",
+      "lemma": "mounted",
+      "lemmaId": "mounted",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "mount_adjective",
-      "level": "B1",
+      "wordKey": "mounted_adjective",
+      "level": "B2",
       "translations": {},
-      "_spacyLemma": "mount",
+      "_spacyLemma": "mounted",
       "example": "A mounted figure rode into the square.",
       "exampleStart": 1896,
       "exampleEnd": 1934,
       "matchedForm": "mounted",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.582857,
-      "difficultySource": "zipf",
-      "ipa": "ˈmaʊntɪd"
+      "difficultySource": "zipf"
     },
     {
       "word": "my horse",
@@ -4269,25 +4207,6 @@
       "word": "scythe",
       "lemma": "scythe",
       "lemmaId": "scythe",
-      "pos": "adverb",
-      "source": "word",
-      "wordKey": "scythe_adverb",
-      "level": "B1",
-      "translations": {},
-      "_spacyLemma": "scythe",
-      "example": "It held something that wasn’t exactly a scythe but which might have had a scythe in its ancestry, in the same way that even the most cunningly-fashioned surgical implement has a stick somewhere in its past.",
-      "exampleStart": 2520,
-      "exampleEnd": 2726,
-      "matchedForm": "scythe",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "saɪð"
-    },
-    {
-      "word": "scythe",
-      "lemma": "scythe",
-      "lemmaId": "scythe",
       "pos": "noun",
       "source": "word",
       "wordKey": "scythe_noun",
@@ -4555,29 +4474,6 @@
       "ipa": "smɔːl",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.285714,
-      "difficultySource": "zipf"
-    },
-    {
-      "word": "sort",
-      "lemma": "sort",
-      "lemmaId": "sort",
-      "pos": "adverb",
-      "source": "word",
-      "wordKey": "sort_adverb",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "в некоторой степени"
-        }
-      },
-      "_spacyLemma": "sort",
-      "example": "Maybe life is something you sort of acquire?",
-      "exampleStart": 114,
-      "exampleEnd": 158,
-      "matchedForm": "sort",
-      "ipa": "sɔːt",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.431429,
       "difficultySource": "zipf"
     },
     {

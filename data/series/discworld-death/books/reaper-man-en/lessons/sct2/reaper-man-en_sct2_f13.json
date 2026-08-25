@@ -21,13 +21,13 @@
       "wordCount": 774,
       "uniqueWordCount": 468,
       "paragraphCount": 46,
-      "vocabularyCount": 282,
+      "vocabularyCount": 280,
       "levelDistribution": {
         "A1": 62,
-        "A2": 67,
+        "A2": 66,
         "B1": 66,
-        "B2": 71,
-        "C1": 13,
+        "B2": 72,
+        "C1": 11,
         "C2": 3
       }
     }
@@ -504,24 +504,23 @@
     },
     {
       "word": "boiled",
-      "lemma": "boil",
-      "lemmaId": "boil",
+      "lemma": "boiled",
+      "lemmaId": "boiled",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "boil_adjective",
+      "wordKey": "boiled_adjective",
       "level": "A2",
       "translations": {
         "ru": {
           "translation": "варёный"
         }
       },
-      "_spacyLemma": "boil",
+      "_spacyLemma": "boiled",
       "example": "She pushed aside her boiled egg and waddled through the bead curtain.",
       "exampleStart": 320,
       "exampleEnd": 389,
       "matchedForm": "boiled",
-      "ipa": "bɔɪld",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.765714,
       "difficultySource": "zipf"
     },
@@ -1103,10 +1102,10 @@
       "word": "crystal",
       "lemma": "crystal",
       "lemmaId": "crystal",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "crystal_adjective",
-      "level": "B1",
+      "wordKey": "crystal_noun",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "хрустальный"
@@ -1118,7 +1117,7 @@
       "exampleEnd": 481,
       "matchedForm": "crystal",
       "ipa": "ˈkrɪstəl",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.602857,
       "difficultySource": "zipf"
     },
@@ -1298,17 +1297,17 @@
       "word": "definitely",
       "lemma": "definitely",
       "lemmaId": "definitely",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "definitely_adjective",
-      "level": "C1",
+      "wordKey": "definitely_adverb",
+      "level": "B1",
       "translations": {},
       "_spacyLemma": "definitely",
       "example": "You expected the whole thing to growl, but it spoke in a pleasant and definitely human voice.",
       "exampleStart": 1479,
       "exampleEnd": 1572,
       "matchedForm": "definitely",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.442857,
       "difficultySource": "zipf",
       "ipa": "ˈdefɪnətli"
@@ -1882,25 +1881,25 @@
     },
     {
       "word": "fed",
-      "lemma": "fee",
-      "lemmaId": "fee",
+      "lemma": "feed",
+      "lemmaId": "feed",
       "pos": "verb",
       "source": "word",
-      "wordKey": "fee_verb",
+      "wordKey": "feed_verb",
       "level": "B1",
       "translations": {
         "ru": {
           "translation": "кормить"
         }
       },
-      "_spacyLemma": "fee",
+      "_spacyLemma": "feed",
       "example": "His compost heaps heaved and fermented and glowed faintly in the dark, perhaps because of the mysterious and possibly illegal ingredients Modo fed them, although nothing had ever been proved and, anyway, no-one was about to dig into one to see what was in it.",
       "exampleStart": 4094,
       "exampleEnd": 4353,
       "matchedForm": "fed",
-      "ipa": "fed",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.571429,
+      "ipa": "fiːd",
+      "levelSource": "cefr_reference",
+      "difficultyScore": 0.525714,
       "difficultySource": "zipf"
     },
     {
@@ -2087,9 +2086,9 @@
       "word": "frying",
       "lemma": "frying",
       "lemmaId": "frying",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "frying_adjective",
+      "wordKey": "frying_noun",
       "level": "B1",
       "translations": {},
       "_spacyLemma": "frying",
@@ -2097,7 +2096,7 @@
       "exampleStart": 483,
       "exampleEnd": 549,
       "matchedForm": "frying",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.882857,
       "difficultySource": "zipf",
       "ipa": "ˈfraɪɪŋ"
@@ -2359,31 +2358,6 @@
         "endInExample": 26
       },
       "ipa": "went ˈɪn",
-      "levelSource": "phrase_index"
-    },
-    {
-      "word": "going up to",
-      "lemma": "go up to",
-      "lemmaId": "go_up_to",
-      "pos": "prepositional_verb",
-      "type": "prepositional_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "go_up_to_prepositional_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "ушёл в"
-        }
-      },
-      "example": "‘I saw them all going up to the palace,’ said the gardener.",
-      "exampleStart": 3237,
-      "exampleEnd": 3296,
-      "phraseMatch": {
-        "text": "going up to",
-        "startInExample": 16,
-        "endInExample": 27
-      },
-      "ipa": "ˌɡəʊɪŋ ˈʌp tuː",
       "levelSource": "phrase_index"
     },
     {
@@ -3739,25 +3713,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "Modo",
-      "lemma": "modo",
-      "lemmaId": "modo",
-      "pos": "verb",
-      "source": "word",
-      "wordKey": "modo_verb",
-      "level": "A2",
-      "translations": {},
-      "_spacyLemma": "modo",
-      "example": "’\n\nModo the University gardener was weeding a rose bed when the ancient, velvet lawn beside him heaved and sprouted a hardy perennial Windle Poons, who blinked in the light.",
-      "exampleStart": 2140,
-      "exampleEnd": 2313,
-      "matchedForm": "Modo",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "ˈməʊdəʊ"
-    },
-    {
       "word": "moodily",
       "lemma": "moodily",
       "lemmaId": "moodily",
@@ -4218,17 +4173,17 @@
       "word": "perfectly",
       "lemma": "perfectly",
       "lemmaId": "perfectly",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "perfectly_adjective",
-      "level": "C1",
+      "wordKey": "perfectly_adverb",
+      "level": "A2",
       "translations": {},
       "_spacyLemma": "perfectly",
       "example": "It was clearly, even attractively female, in general shape, and wore a perfectly ordinary dress.",
       "exampleStart": 1191,
       "exampleEnd": 1287,
       "matchedForm": "perfectly",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.542857,
       "difficultySource": "zipf",
       "ipa": "ˈpɜːfektˌlɪ"
@@ -4355,17 +4310,17 @@
       "word": "possibly",
       "lemma": "possibly",
       "lemmaId": "possibly",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "possibly_adjective",
-      "level": "B1",
+      "wordKey": "possibly_adverb",
+      "level": "A2",
       "translations": {},
       "_spacyLemma": "possibly",
       "example": "His compost heaps heaved and fermented and glowed faintly in the dark, perhaps because of the mysterious and possibly illegal ingredients Modo fed them, although nothing had ever been proved and, anyway, no-one was about to dig into one to see what was in it.",
       "exampleStart": 4094,
       "exampleEnd": 4353,
       "matchedForm": "possibly",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.497143,
       "difficultySource": "zipf",
       "ipa": "ˈpɒsɪbli"
@@ -4745,24 +4700,23 @@
     },
     {
       "word": "remains",
-      "lemma": "remain",
-      "lemmaId": "remain",
+      "lemma": "remains",
+      "lemmaId": "remains",
       "pos": "noun",
       "source": "word",
-      "wordKey": "remain_noun",
-      "level": "A2",
+      "wordKey": "remains_noun",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "остаток; останки"
         }
       },
-      "_spacyLemma": "remain",
+      "_spacyLemma": "remains",
       "example": "’ Windle pulled himself out of the grass and brushed the soil off the remains of his robe.",
       "exampleStart": 2523,
       "exampleEnd": 2613,
       "matchedForm": "remains",
-      "ipa": "rɪˈmeɪnz",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.48,
       "difficultySource": "zipf"
     },
@@ -4885,10 +4839,10 @@
       "word": "rose",
       "lemma": "rose",
       "lemmaId": "rose",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "rose_adjective",
-      "level": "A2",
+      "wordKey": "rose_noun",
+      "level": "A1",
       "translations": {
         "ru": {
           "translation": "розовый; розовый как роза"
@@ -4900,7 +4854,7 @@
       "exampleEnd": 2313,
       "matchedForm": "rose",
       "ipa": "rəʊz",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.482857,
       "difficultySource": "zipf"
     },
@@ -6438,10 +6392,10 @@
       "word": "way",
       "lemma": "way",
       "lemmaId": "way",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "way_adjective",
-      "level": "A1",
+      "wordKey": "way_adverb",
+      "level": "A2",
       "translations": {
         "ru": {
           "translation": "путь, направление"
@@ -6453,7 +6407,7 @@
       "exampleEnd": 3178,
       "matchedForm": "way",
       "ipa": "weɪ",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.142857,
       "difficultySource": "zipf"
     },
@@ -6482,22 +6436,21 @@
     },
     {
       "word": "weeding",
-      "lemma": "wee",
-      "lemmaId": "wee",
+      "lemma": "weed",
+      "lemmaId": "weed",
       "pos": "verb",
       "source": "word",
-      "wordKey": "wee_verb",
-      "level": "A2",
+      "wordKey": "weed_verb",
+      "level": "B2",
       "translations": {},
-      "_spacyLemma": "wee",
+      "_spacyLemma": "weed",
       "example": "’\n\nModo the University gardener was weeding a rose bed when the ancient, velvet lawn beside him heaved and sprouted a hardy perennial Windle Poons, who blinked in the light.",
       "exampleStart": 2140,
       "exampleEnd": 2313,
       "matchedForm": "weeding",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.754286,
-      "difficultySource": "zipf",
-      "ipa": "ˈwiːdɪŋ"
+      "difficultySource": "zipf"
     },
     {
       "word": "weight",

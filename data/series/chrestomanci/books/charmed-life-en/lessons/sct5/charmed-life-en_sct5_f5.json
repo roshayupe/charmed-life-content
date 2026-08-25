@@ -21,14 +21,14 @@
       "wordCount": 1199,
       "uniqueWordCount": 579,
       "paragraphCount": 24,
-      "vocabularyCount": 331,
+      "vocabularyCount": 338,
       "levelDistribution": {
-        "A1": 79,
-        "A2": 67,
-        "B1": 66,
-        "B2": 95,
+        "A1": 78,
+        "A2": 68,
+        "B1": 69,
+        "B2": 98,
         "C1": 23,
-        "C2": 1
+        "C2": 2
       }
     }
   },
@@ -653,7 +653,9 @@
         "endInExample": 41
       },
       "ipa": "ˌbɔːd ˈlʊk",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "butler",
@@ -759,7 +761,10 @@
         "endInExample": 22
       },
       "ipa": "ˌkærid ˈɒn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "carrying",
@@ -791,10 +796,10 @@
       "word": "Castle",
       "lemma": "castle",
       "lemmaId": "castle",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "castle_adjective",
-      "level": "B1",
+      "wordKey": "castle_noun",
+      "level": "A2",
       "translations": {
         "ru": {
           "translation": "замковый"
@@ -809,7 +814,7 @@
       "exampleEnd": 993,
       "matchedForm": "Castle",
       "ipa": "ˈkæsəl",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.588571,
       "difficultySource": "zipf"
     },
@@ -839,7 +844,9 @@
         "endInExample": 84
       },
       "ipa": "ˌkæsəl ˈɡraʊndz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "chairs",
@@ -925,7 +932,10 @@
         "endInExample": 112
       },
       "ipa": "ˌtʃeɪndʒɪŋ ˈəʊvə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "changing",
@@ -1121,7 +1131,10 @@
         "endInExample": 19
       },
       "ipa": "ˌkeɪm əˈraʊnd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "came out of",
@@ -1149,7 +1162,10 @@
         "endInExample": 24
       },
       "ipa": "ˈkeɪm ˌaʊtəv",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "came",
@@ -1237,12 +1253,12 @@
     },
     {
       "word": "crosser",
-      "lemma": "crosser",
-      "lemmaId": "crosser",
-      "pos": "noun",
+      "lemma": "cross",
+      "lemmaId": "cross",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "crosser_noun",
-      "level": "B1",
+      "wordKey": "cross_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "тот, кто пересекает; более сердитый"
@@ -1251,14 +1267,14 @@
           "translation": "той, хто перейде; Злішим"
         }
       },
-      "_spacyLemma": "crosser",
+      "_spacyLemma": "cross",
       "example": "And Gwendolen grew crosser every minute.",
       "exampleStart": 4513,
       "exampleEnd": 4553,
       "matchedForm": "crosser",
-      "ipa": "ˈkrɒsə",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 1,
+      "ipa": "krɒs",
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.431429,
       "difficultySource": "zipf"
     },
     {
@@ -1429,7 +1445,9 @@
         "endInExample": 96
       },
       "ipa": "ˌdek ˈtʃeəz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "deck",
@@ -1605,7 +1623,9 @@
         "endInExample": 53
       },
       "ipa": "ˌdaɪnɪŋ ˈruːm",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "dinner",
@@ -1635,12 +1655,12 @@
     },
     {
       "word": "draggled",
-      "lemma": "draggle",
-      "lemmaId": "draggle",
-      "pos": "verb",
+      "lemma": "draggled",
+      "lemmaId": "draggled",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "draggle_verb",
-      "level": "B2",
+      "wordKey": "draggled_adjective",
+      "level": "C2",
       "translations": {
         "ru": {
           "translation": "волочить; испачкать"
@@ -1649,39 +1669,12 @@
           "translation": "тягнути; Пляма"
         }
       },
-      "_spacyLemma": "draggle",
+      "_spacyLemma": "draggled",
       "example": "It was draggled and slimy.",
       "exampleStart": 5417,
       "exampleEnd": 5443,
       "matchedForm": "draggled",
-      "ipa": "ˈdræɡəld",
-      "levelSource": "vocabulary_index"
-    },
-    {
-      "word": "drawing",
-      "lemma": "drawing",
-      "lemmaId": "drawing",
-      "pos": "adjective",
-      "source": "word",
-      "wordKey": "drawing_adjective",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "рисующий; чертёжный"
-        },
-        "uk": {
-          "translation": "малювання; Малюнок"
-        }
-      },
-      "_spacyLemma": "drawing",
-      "example": "Chrestomanci said not a word about lawns, neither here nor in the drawing room beforehand.",
-      "exampleStart": 4554,
-      "exampleEnd": 4644,
-      "matchedForm": "drawing",
-      "ipa": "ˈdrɔːɪŋ",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.551429,
-      "difficultySource": "zipf"
+      "levelSource": "cefr_context_review"
     },
     {
       "word": "drawing room",
@@ -1709,7 +1702,9 @@
         "endInExample": 78
       },
       "ipa": "ˌdrɔːɪŋ ˈruːm",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "dream",
@@ -1741,10 +1736,10 @@
       "word": "dreamy",
       "lemma": "dreamy",
       "lemmaId": "dreamy",
-      "pos": "noun",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "dreamy_noun",
-      "level": "A2",
+      "wordKey": "dreamy_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "мечтательный; сонный"
@@ -1759,7 +1754,7 @@
       "exampleEnd": 4488,
       "matchedForm": "dreamy",
       "ipa": "ˈdriːmi",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.937143,
       "difficultySource": "zipf"
     },
@@ -2125,7 +2120,9 @@
         "endInExample": 92
       },
       "ipa": "eɡˌzɒtɪk səˈplaɪz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "explained",
@@ -2263,7 +2260,9 @@
         "endInExample": 112
       },
       "ipa": "ˌfjuː ˈdʒəʊks",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "filed",
@@ -2375,7 +2374,9 @@
         "endInExample": 21
       },
       "ipa": "ˌfɜːst ˈtaɪm",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "fish",
@@ -2887,7 +2888,10 @@
         "endInExample": 18
       },
       "ipa": "went ˈɒn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "went on to",
@@ -2915,7 +2919,10 @@
         "endInExample": 36
       },
       "ipa": "went ˈɒn tuː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "going",
@@ -3021,7 +3028,9 @@
         "endInExample": 169
       },
       "ipa": "ˌɡriːn ˈstretʃɪz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "grounds",
@@ -3327,7 +3336,9 @@
         "endInExample": 172
       },
       "ipa": "hɜː ˈhæt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her head",
@@ -3355,7 +3366,9 @@
         "endInExample": 41
       },
       "ipa": "hɜː ˈhed",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her lacy parasol",
@@ -3383,7 +3396,9 @@
         "endInExample": 53
       },
       "ipa": "hɜː ˌleɪsi ˈpærəˌsɒl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her parasol",
@@ -3411,7 +3426,9 @@
         "endInExample": 115
       },
       "ipa": "hɜː ˈpærəˌsɒl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her powers",
@@ -3439,7 +3456,9 @@
         "endInExample": 21
       },
       "ipa": "hɜː ˈpaʊəz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her spoon",
@@ -3467,7 +3486,9 @@
         "endInExample": 100
       },
       "ipa": "hɜː ˈspuːn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "Her voice",
@@ -3495,7 +3516,9 @@
         "endInExample": 9
       },
       "ipa": "hɜː ˈvɔɪs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "hesitation",
@@ -3555,7 +3578,9 @@
         "endInExample": 58
       },
       "ipa": "hɪz ˈbæθruːm",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his gentle dream",
@@ -3583,7 +3608,9 @@
         "endInExample": 41
       },
       "ipa": "hɪz ˌdʒentəl ˈdriːm",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his right hand",
@@ -3611,7 +3638,9 @@
         "endInExample": 50
       },
       "ipa": "hɪz ˌraɪt ˈhænd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his room",
@@ -3639,7 +3668,9 @@
         "endInExample": 40
       },
       "ipa": "hɪz ˈruːm",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his shoulder",
@@ -3667,7 +3698,9 @@
         "endInExample": 117
       },
       "ipa": "hɪz ˈʃəʊldə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "hope",
@@ -3793,11 +3826,11 @@
     },
     {
       "word": "indoors",
-      "lemma": "indoor",
-      "lemmaId": "indoor",
-      "pos": "noun",
+      "lemma": "indoors",
+      "lemmaId": "indoors",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "indoor_noun",
+      "wordKey": "indoors_adverb",
       "level": "A2",
       "translations": {
         "ru": {
@@ -3807,13 +3840,12 @@
           "translation": "У приміщенні"
         }
       },
-      "_spacyLemma": "indoor",
+      "_spacyLemma": "indoors",
       "example": "“By the way, Gwendolen, when I said the Castle, I meant of course the Castle grounds as well as indoors.",
       "exampleStart": 6279,
       "exampleEnd": 6383,
       "matchedForm": "indoors",
-      "ipa": "ɪnˈdɔːz",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.691429,
       "difficultySource": "zipf"
     },
@@ -3907,7 +3939,9 @@
         "endInExample": 70
       },
       "ipa": "ɪˌtæliən ˈsteɪts",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "jokes",
@@ -4013,7 +4047,10 @@
         "endInExample": 11
       },
       "ipa": "ˌkept ˈʌp",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "kept",
@@ -4203,7 +4240,10 @@
         "endInExample": 18
       },
       "ipa": "ˈlæf æt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "laugh",
@@ -4309,7 +4349,10 @@
         "endInExample": 17
       },
       "ipa": "ˌlet ˈaʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "let",
@@ -4499,7 +4542,9 @@
         "endInExample": 79
       },
       "ipa": "ˌlɪtəl ˈfɪʃ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "little practice",
@@ -4527,7 +4572,9 @@
         "endInExample": 80
       },
       "ipa": "ˌlɪtəl ˈpræktɪs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "loathsome",
@@ -4607,7 +4654,9 @@
         "endInExample": 82
       },
       "ipa": "ˌlɒŋ ˈwɪndəʊz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "look at",
@@ -4635,7 +4684,10 @@
         "endInExample": 7
       },
       "ipa": "ˈlʊk æt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "look",
@@ -4689,7 +4741,10 @@
         "endInExample": 15
       },
       "ipa": "ˌlʊkt ˈəʊvə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "looked up",
@@ -4717,16 +4772,19 @@
         "endInExample": 13
       },
       "ipa": "ˌlʊkt ˈʌp",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "lost",
-      "lemma": "lose",
-      "lemmaId": "lose",
+      "lemma": "lost",
+      "lemmaId": "lost",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "lose_adjective",
-      "level": "A1",
+      "wordKey": "lost_adjective",
+      "level": "A2",
       "translations": {
         "ru": {
           "translation": "потерянный"
@@ -4735,14 +4793,14 @@
           "translation": "Загублені"
         }
       },
-      "_spacyLemma": "lose",
+      "_spacyLemma": "lost",
       "example": "It looked like the lost ghost of a lunatic.",
       "exampleStart": 5336,
       "exampleEnd": 5379,
       "matchedForm": "lost",
       "ipa": "lɒst",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.408571,
+      "levelSource": "cefr_reference",
+      "difficultyScore": 0.32,
       "difficultySource": "zipf"
     },
     {
@@ -4797,7 +4855,9 @@
         "endInExample": 119
       },
       "ipa": "ˌlʌvli ˈweðə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "lunatic",
@@ -5091,7 +5151,9 @@
         "endInExample": 13
       },
       "ipa": "maɪ əˈpɪniən",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "nearly",
@@ -5203,7 +5265,9 @@
         "endInExample": 21
       },
       "ipa": "ˌnjuːzpeɪpə ˈpækɪts",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "next course",
@@ -5231,7 +5295,9 @@
         "endInExample": 40
       },
       "ipa": "ˌnekst ˈkɔːs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "night",
@@ -5401,7 +5467,9 @@
         "endInExample": 80
       },
       "ipa": "ˌəʊld ˈleɪdi",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "opinion",
@@ -5461,7 +5529,9 @@
         "endInExample": 97
       },
       "ipa": "ˌɒrɪndʒ ˈkɜːtənz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "orange",
@@ -5729,12 +5799,12 @@
     },
     {
       "word": "pickled",
-      "lemma": "pickle",
-      "lemmaId": "pickle",
+      "lemma": "pickled",
+      "lemmaId": "pickled",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "pickle_adjective",
-      "level": "B1",
+      "wordKey": "pickled_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "маринованный"
@@ -5743,14 +5813,14 @@
           "translation": "Маринований"
         }
       },
-      "_spacyLemma": "pickle",
+      "_spacyLemma": "pickled",
       "example": "For once he was not taken by surprise when the man thrust a tray of little fish and pickled cabbage over his shoulder.",
       "exampleStart": 3968,
       "exampleEnd": 4086,
       "matchedForm": "pickled",
       "ipa": "ˈpɪkəld",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.891429,
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.954286,
       "difficultySource": "zipf"
     },
     {
@@ -5811,7 +5881,9 @@
         "endInExample": 28
       },
       "ipa": "ˌpɪtiəs ˈkriːtʃə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "plate",
@@ -5891,7 +5963,9 @@
         "endInExample": 23
       },
       "ipa": "ˌpliːzɪŋ ˈsaɪt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "point",
@@ -5971,7 +6045,9 @@
         "endInExample": 54
       },
       "ipa": "ˌpɒlɪʃt ˈteɪbəl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "Poor",
@@ -6141,7 +6217,10 @@
         "endInExample": 22
       },
       "ipa": "ˌpʊt ˈɪn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "putting out",
@@ -6169,7 +6248,10 @@
         "endInExample": 37
       },
       "ipa": "ˌpʊtɪŋ ˈaʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "putting",
@@ -6307,7 +6389,9 @@
         "endInExample": 85
       },
       "ipa": "ˌriːzənəbəl ˈtɔːk",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "reckoned",
@@ -6361,7 +6445,10 @@
         "endInExample": 67
       },
       "ipa": "ˈrekənd wɪð",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "recognized",
@@ -6553,12 +6640,12 @@
     },
     {
       "word": "ruched",
-      "lemma": "ruche",
-      "lemmaId": "ruche",
+      "lemma": "ruched",
+      "lemmaId": "ruched",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "ruche_adjective",
-      "level": "B1",
+      "wordKey": "ruched_adjective",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "украшенный рюшами"
@@ -6567,13 +6654,12 @@
           "translation": "призбираний у складки"
         }
       },
-      "_spacyLemma": "ruche",
+      "_spacyLemma": "ruched",
       "example": "Despite her elegant ruched dress and her lacy parasol, she was a most ordinary, kind, good-natured lady.",
       "exampleStart": 127,
       "exampleEnd": 231,
       "matchedForm": "ruched",
-      "ipa": "rʌtʃt",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -6687,7 +6773,9 @@
         "endInExample": 30
       },
       "ipa": "ˌskɔːnfəl ˈsaɪləns",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "screamed",
@@ -6775,12 +6863,12 @@
     },
     {
       "word": "serving",
-      "lemma": "serve",
-      "lemmaId": "serve",
+      "lemma": "serving",
+      "lemmaId": "serving",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "serve_adjective",
-      "level": "A2",
+      "wordKey": "serving_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "служащий; подаваемый"
@@ -6789,13 +6877,12 @@
           "translation": "працівник; Фед"
         }
       },
-      "_spacyLemma": "serve",
+      "_spacyLemma": "serving",
       "example": "And, as he was now forbidden to use his right hand, Cat felt quite justified in changing the serving things over.",
       "exampleStart": 4087,
       "exampleEnd": 4200,
       "matchedForm": "serving",
-      "ipa": "ˈsɜːvɪŋ",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.474286,
       "difficultySource": "zipf"
     },
@@ -6825,7 +6912,10 @@
         "endInExample": 35
       },
       "ipa": "ˌsetəlɪŋ ˈɪn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "settling",
@@ -7027,7 +7117,10 @@
         "endInExample": 122
       },
       "ipa": "ˌʃʌt ˈaʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "shut",
@@ -7229,7 +7322,9 @@
         "endInExample": 59
       },
       "ipa": "ˌsɪlvə ˈpleɪt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "skinny",
@@ -7315,7 +7410,10 @@
         "endInExample": 18
       },
       "ipa": "ˌslɪp ˈθruː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "slip",
@@ -7453,7 +7551,10 @@
         "endInExample": 43
       },
       "ipa": "ˈspiːk tuː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "speak",
@@ -7831,12 +7932,12 @@
     },
     {
       "word": "strangest",
-      "lemma": "strangest",
-      "lemmaId": "strangest",
-      "pos": "adverb",
+      "lemma": "strange",
+      "lemmaId": "strange",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "strangest_adverb",
-      "level": "C1",
+      "wordKey": "strange_adjective",
+      "level": "A2",
       "translations": {
         "ru": {
           "translation": "страннее всего"
@@ -7845,14 +7946,14 @@
           "translation": "Найдивніше те, що"
         }
       },
-      "_spacyLemma": "strangest",
+      "_spacyLemma": "strange",
       "example": "After a while, Millie asked Cat what thing about the Castle he was finding strangest.",
       "exampleStart": 908,
       "exampleEnd": 993,
       "matchedForm": "strangest",
-      "ipa": "ˈstreɪndʒɪst",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.931429,
+      "ipa": "streɪndʒ",
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.534286,
       "difficultySource": "zipf"
     },
     {
@@ -8107,7 +8208,10 @@
         "endInExample": 161
       },
       "ipa": "ˌteɪk ˈaʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "taken",
@@ -8134,34 +8238,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.168571,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "talked at",
-      "lemma": "talk at",
-      "lemmaId": "talk_at",
-      "pos": "prepositional_verb",
-      "type": "prepositional_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "talk_at_prepositional_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "говорить на кого-то, не слушая ответа"
-        },
-        "uk": {
-          "translation": "Говорити з кимось, не слухаючи відповіді"
-        }
-      },
-      "example": "Cat answered shyly, but without hesitation, “The way everyone talks at supper.",
-      "exampleStart": 995,
-      "exampleEnd": 1073,
-      "phraseMatch": {
-        "text": "talks at",
-        "startInExample": 62,
-        "endInExample": 70
-      },
-      "ipa": "ˈtɔːkt æt",
-      "levelSource": "phrase_index"
     },
     {
       "word": "talk",
@@ -8357,7 +8433,9 @@
         "endInExample": 11
       },
       "ipa": "ðeə ˈsmel",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "thing",
@@ -8697,7 +8775,10 @@
         "endInExample": 16
       },
       "ipa": "ˌwɔːkt ˈɒn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "walked",
@@ -8919,7 +9000,10 @@
         "endInExample": 24
       },
       "ipa": "ˌweərɪŋ ˈɒf",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "wearing",
@@ -8999,7 +9083,10 @@
         "endInExample": 32
       },
       "ipa": "ˌweɪd ˈɒn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "weighed",
@@ -9105,7 +9192,9 @@
         "endInExample": 81
       },
       "ipa": "ˌhəʊl ˈklʌstə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "windows",
@@ -9248,6 +9337,339 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.76,
       "difficultySource": "zipf"
+    },
+    {
+      "word": "As soon as",
+      "lemma": "as soon as",
+      "lemmaId": "as_soon_as",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "clause",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Как только"
+        },
+        "uk": {
+          "translation": "щойно з'явиться чай"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "If we slip through the trees here, we should be on the lawn as soon as tea is.”",
+      "exampleStart": 1847,
+      "exampleEnd": 1926,
+      "exampleTranslation": "Как только",
+      "phraseMatch": {
+        "text": "as soon as tea is",
+        "startInExample": 60,
+        "endInExample": 77
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "as_soon_as_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "щойно з'явиться чай"
+        }
+      }
+    },
+    {
+      "word": "as well as indoors",
+      "lemma": "as well as",
+      "lemmaId": "as_well_as",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "prepositional_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "а не только помещения"
+        },
+        "uk": {
+          "translation": "і приміщення"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "“By the way, Gwendolen, when I said the Castle, I meant of course the Castle grounds as well as indoors.",
+      "exampleStart": 6279,
+      "exampleEnd": 6383,
+      "exampleTranslation": "а не только помещения",
+      "phraseMatch": {
+        "text": "as well as indoors",
+        "startInExample": 85,
+        "endInExample": 103
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "as_well_as_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "і приміщення"
+        }
+      }
+    },
+    {
+      "word": "at all",
+      "lemma": "at all",
+      "lemmaId": "at_all",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "adverb_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "вообще"
+        },
+        "uk": {
+          "translation": "взагалі"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "It became clearer and clearer that no one was going to mention the matter at all.",
+      "exampleStart": 4645,
+      "exampleEnd": 4726,
+      "exampleTranslation": "вообще",
+      "phraseMatch": {
+        "text": "at all",
+        "startInExample": 74,
+        "endInExample": 80
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "at_all_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "взагалі"
+        }
+      }
+    },
+    {
+      "word": "By the way",
+      "lemma": "by the way",
+      "lemmaId": "by_the_way",
+      "pos": "phrase",
+      "type": "discourse_marker",
+      "category": "mwe",
+      "mweType": "discourse_marker",
+      "syntacticForm": "prepositional_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Кстати"
+        },
+        "uk": {
+          "translation": "До речі"
+        }
+      },
+      "definition": "discourse marker used as one lexical expression in this context.",
+      "example": "“By the way, Gwendolen, when I said the Castle, I meant of course the Castle grounds as well as indoors.",
+      "exampleStart": 6279,
+      "exampleEnd": 6383,
+      "exampleTranslation": "Кстати",
+      "phraseMatch": {
+        "text": "By the way",
+        "startInExample": 1,
+        "endInExample": 11
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "by_the_way_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "До речі"
+        }
+      }
+    },
+    {
+      "word": "For once",
+      "lemma": "for once",
+      "lemmaId": "for_once",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "adverb_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "На этот раз"
+        },
+        "uk": {
+          "translation": "Вперше"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "For once he was not taken by surprise when the man thrust a tray of little fish and pickled cabbage over his shoulder.",
+      "exampleStart": 3968,
+      "exampleEnd": 4086,
+      "exampleTranslation": "На этот раз",
+      "phraseMatch": {
+        "text": "For once",
+        "startInExample": 0,
+        "endInExample": 8
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "for_once_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "Вперше"
+        }
+      }
+    },
+    {
+      "word": "make matters worse",
+      "lemma": "make matters worse",
+      "lemmaId": "make_matters_worse",
+      "pos": "phrase",
+      "type": "collocation",
+      "category": "mwe",
+      "mweType": "collocation",
+      "syntacticForm": "verb_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "хуже всего"
+        },
+        "uk": {
+          "translation": "що ще гірше"
+        }
+      },
+      "definition": "collocation used as one lexical expression in this context.",
+      "example": "She knew Chrestomanci was going to speak to her about the lawn now and, to make matters worse, she was not going to have a chance to take the exotic supplies out of her hat before he did.",
+      "exampleStart": 2238,
+      "exampleEnd": 2425,
+      "exampleTranslation": "хуже всего",
+      "phraseMatch": {
+        "text": "make matters worse",
+        "startInExample": 75,
+        "endInExample": 93
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "make_matters_worse_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "що ще гірше"
+        }
+      }
+    },
+    {
+      "word": "nothing for it",
+      "lemma": "nothing for it",
+      "lemmaId": "nothing_for_it",
+      "pos": "phrase",
+      "type": "idiom",
+      "category": "mwe",
+      "mweType": "idiom",
+      "syntacticForm": "clause",
+      "source": "manual_mwe",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "оставалось"
+        },
+        "uk": {
+          "translation": "залишалося лише"
+        }
+      },
+      "definition": "idiom used as one lexical expression in this context.",
+      "example": "So there was nothing for it but to begin on another spell.",
+      "exampleStart": 4854,
+      "exampleEnd": 4912,
+      "exampleTranslation": "оставалось",
+      "phraseMatch": {
+        "text": "nothing for it",
+        "startInExample": 13,
+        "endInExample": 27
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "nothing_for_it_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "залишалося лише"
+        }
+      }
+    },
+    {
+      "word": "out of sight",
+      "lemma": "out of sight",
+      "lemmaId": "out_of_sight",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "prepositional_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "из виду"
+        },
+        "uk": {
+          "translation": "з поля зору"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "“No, no. In my opinion, Venice is overrated,” Mr. Saunders asserted, and he went on to explain why, while the butler drew the long orange curtains and shut the creature out of sight.",
+      "exampleStart": 6019,
+      "exampleEnd": 6201,
+      "exampleTranslation": "из виду",
+      "phraseMatch": {
+        "text": "out of sight",
+        "startInExample": 169,
+        "endInExample": 181
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "out_of_sight_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "з поля зору"
+        }
+      }
+    },
+    {
+      "word": "Sure enough",
+      "lemma": "sure enough",
+      "lemmaId": "sure_enough",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "adverb_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "действительно"
+        },
+        "uk": {
+          "translation": "І справді"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "Sure enough, they followed Millie out of the shrubbery to find a whole cluster of deck chairs around the one where Mr. Saunders was, and footmen putting out tables and carrying trays.",
+      "exampleStart": 1928,
+      "exampleEnd": 2111,
+      "exampleTranslation": "действительно",
+      "phraseMatch": {
+        "text": "Sure enough",
+        "startInExample": 0,
+        "endInExample": 11
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "sure_enough_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "І справді"
+        }
+      }
     }
   ],
   "namedEntities": [

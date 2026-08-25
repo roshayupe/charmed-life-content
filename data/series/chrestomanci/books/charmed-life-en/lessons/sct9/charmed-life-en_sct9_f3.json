@@ -21,14 +21,13 @@
       "wordCount": 579,
       "uniqueWordCount": 305,
       "paragraphCount": 12,
-      "vocabularyCount": 156,
+      "vocabularyCount": 158,
       "levelDistribution": {
-        "A1": 46,
-        "A2": 27,
-        "B1": 39,
+        "A1": 49,
+        "A2": 24,
+        "B1": 40,
         "B2": 39,
-        "C1": 5,
-        "C2": 0
+        "C1": 6
       }
     }
   },
@@ -91,7 +90,9 @@
         "endInExample": 33
       },
       "ipa": "æt ˈhəʊm",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "battle",
@@ -177,7 +178,9 @@
         "endInExample": 109
       },
       "ipa": "ˌbɪɡ ɪˈvent",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "bless",
@@ -315,7 +318,10 @@
         "endInExample": 16
       },
       "ipa": "ˌkæri ˈɒn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "carry",
@@ -455,12 +461,12 @@
     },
     {
       "word": "diferent",
-      "lemma": "diferent",
-      "lemmaId": "diferent",
+      "lemma": "different",
+      "lemmaId": "different",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "diferent_adjective",
-      "level": "B2",
+      "wordKey": "different_adjective",
+      "level": "A1",
       "translations": {
         "ru": {
           "translation": "диферентный"
@@ -469,14 +475,14 @@
           "translation": "Диференціал"
         }
       },
-      "_spacyLemma": "diferent",
+      "_spacyLemma": "different",
       "example": "There are hundreds of other worlds only some are nicer than others, they are formed when there is a big event in History like a battle or an earthquake when the result can be two or more quite diferent things.",
       "exampleStart": 389,
       "exampleEnd": 598,
       "matchedForm": "diferent",
-      "ipa": "ˈdaɪfrənt",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 1,
+      "ipa": "ˈdɪfrənt",
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.262857,
       "difficultySource": "zipf"
     },
     {
@@ -505,7 +511,9 @@
         "endInExample": 208
       },
       "ipa": "ˌdaɪfrənt ˈθɪŋz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "dug",
@@ -585,7 +593,10 @@
         "endInExample": 95
       },
       "ipa": "ˈdræɡd ˌɪntʊ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "dragged",
@@ -621,12 +632,12 @@
     },
     {
       "word": "dressing",
-      "lemma": "dress",
-      "lemmaId": "dress",
-      "pos": "adjective",
+      "lemma": "dressing",
+      "lemmaId": "dressing",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "dress_adjective",
-      "level": "A2",
+      "wordKey": "dressing_noun",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "одетый; платьевой"
@@ -635,14 +646,14 @@
           "translation": "одягнений; Одяг"
         }
       },
-      "_spacyLemma": "dress",
+      "_spacyLemma": "dressing",
       "example": "”\n\nJanet bounced up in her un-Gwendolen-like way and took the letter over to the gilded dressing table.",
       "exampleStart": 2374,
       "exampleEnd": 2477,
       "matchedForm": "dressing",
       "ipa": "ˈdresɪŋ",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.5,
+      "levelSource": "cefr_reference",
+      "difficultyScore": 0.668571,
       "difficultySource": "zipf"
     },
     {
@@ -749,7 +760,9 @@
         "endInExample": 83
       },
       "ipa": "ˌempti ˈspeɪs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "event",
@@ -829,7 +842,9 @@
         "endInExample": 67
       },
       "ipa": "eɡˌzækt ˈdʌbəl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "exist",
@@ -1025,7 +1040,10 @@
         "endInExample": 16
       },
       "ipa": "ˌfaʊnd ˈaʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "found",
@@ -1090,8 +1108,8 @@
       "lemma": "for good",
       "lemmaId": "for_good",
       "pos": "phrase",
-      "type": "phrase",
-      "source": "spacy_phrase",
+      "type": "fixed_expression",
+      "source": "manual_mwe",
       "wordKey": "for_good_phrase",
       "level": "B1",
       "translations": {
@@ -1099,7 +1117,7 @@
           "translation": "навсегда"
         },
         "uk": {
-          "translation": "Назавжди"
+          "translation": "назавжди"
         }
       },
       "example": "I have found out how to go to another world and I am going there for good.",
@@ -1111,7 +1129,17 @@
         "endInExample": 73
       },
       "ipa": "fɔː ˈɡʊd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "syntacticForm": "adverb_phrase",
+      "mweType": "fixed_expression",
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "exampleTranslation": "навсегда",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "назавжди"
+        }
+      }
     },
     {
       "word": "formed",
@@ -1249,7 +1277,9 @@
         "endInExample": 44
       },
       "ipa": "ˌɡɑːləndɪd ˈmɪrə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "getting on with",
@@ -1277,7 +1307,10 @@
         "endInExample": 45
       },
       "ipa": "ˌɡetɪŋ ˈɒn wɪð",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "getting",
@@ -1307,11 +1340,11 @@
     },
     {
       "word": "gilded",
-      "lemma": "gild",
-      "lemmaId": "gild",
+      "lemma": "gilded",
+      "lemmaId": "gilded",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "gild_adjective",
+      "wordKey": "gilded_adjective",
       "level": "C1",
       "translations": {
         "de": {
@@ -1327,13 +1360,12 @@
           "translation": "Позолочений"
         }
       },
-      "_spacyLemma": "gild",
+      "_spacyLemma": "gilded",
       "example": "”\n\nJanet bounced up in her un-Gwendolen-like way and took the letter over to the gilded dressing table.",
       "exampleStart": 2374,
       "exampleEnd": 2477,
       "matchedForm": "gilded",
-      "ipa": "ˈɡɪldɪd",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -1441,16 +1473,18 @@
         "endInExample": 109
       },
       "ipa": "ˌɡʊd ˈhændz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "greatful",
-      "lemma": "greatful",
-      "lemmaId": "greatful",
+      "lemma": "grateful",
+      "lemmaId": "grateful",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "greatful_adjective",
-      "level": "B2",
+      "wordKey": "grateful_adjective",
+      "level": "B1",
       "translations": {
         "ru": {
           "translation": "великий"
@@ -1459,24 +1493,24 @@
           "translation": "вдячний"
         }
       },
-      "_spacyLemma": "greatful",
+      "_spacyLemma": "grateful",
       "example": "You can carry on here making Chrestomanci’s life a misery and I shall be greatful knowing it is in good hands.",
       "exampleStart": 1054,
       "exampleEnd": 1164,
       "matchedForm": "greatful",
       "ipa": "ˈɡreɪtfəl",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 1,
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.617143,
       "difficultySource": "zipf"
     },
     {
       "word": "greive",
-      "lemma": "greive",
-      "lemmaId": "greive",
-      "pos": "adjective",
+      "lemma": "grieve",
+      "lemmaId": "grieve",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "greive_adjective",
-      "level": "B1",
+      "wordKey": "grieve_verb",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "жадный"
@@ -1485,14 +1519,14 @@
           "translation": "Жадібний"
         }
       },
-      "_spacyLemma": "greive",
+      "_spacyLemma": "grieve",
       "example": "Do not greive however if your parents still live.",
       "exampleStart": 905,
       "exampleEnd": 954,
       "matchedForm": "greive",
       "ipa": "ɡriːv",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 1,
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.908571,
       "difficultySource": "zipf"
     },
     {
@@ -1529,12 +1563,12 @@
     },
     {
       "word": "hapen",
-      "lemma": "hapen",
-      "lemmaId": "hapen",
+      "lemma": "happen",
+      "lemmaId": "happen",
       "pos": "verb",
       "source": "word",
-      "wordKey": "hapen_verb",
-      "level": "B1",
+      "wordKey": "happen_verb",
+      "level": "A1",
       "translations": {
         "ru": {
           "translation": "закрепить"
@@ -1543,14 +1577,14 @@
           "translation": "Пін"
         }
       },
-      "_spacyLemma": "hapen",
+      "_spacyLemma": "happen",
       "example": "Both those things hapen but they cannot exist together so the world splits into two worlds witch start to go diferent after that.",
       "exampleStart": 599,
       "exampleEnd": 728,
       "matchedForm": "hapen",
-      "ipa": "ˈheɪpən",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 1,
+      "ipa": "ˈhæpən",
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.377143,
       "difficultySource": "zipf"
     },
     {
@@ -1631,7 +1665,9 @@
         "endInExample": 27
       },
       "ipa": "hɜː ˈfeɪs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her letter",
@@ -1659,7 +1695,9 @@
         "endInExample": 100
       },
       "ipa": "hɜː ˈletə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her nails",
@@ -1687,7 +1725,9 @@
         "endInExample": 17
       },
       "ipa": "hɜː ˈneɪlz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "hiding",
@@ -1871,7 +1911,9 @@
         "endInExample": 84
       },
       "ipa": "ɪts ˈswɪvəlz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "knelt",
@@ -2139,7 +2181,10 @@
         "endInExample": 10
       },
       "ipa": "ˈlʊkɪŋ æt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "Looking",
@@ -2387,7 +2432,10 @@
         "endInExample": 35
       },
       "ipa": "ˈmuːv ˌɪntʊ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "my eyes",
@@ -2415,7 +2463,9 @@
         "endInExample": 35
       },
       "ipa": "maɪ ˈaɪz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "my fortune",
@@ -2443,7 +2493,9 @@
         "endInExample": 48
       },
       "ipa": "maɪ ˈfɔːtʃuːn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "my mirror",
@@ -2471,7 +2523,9 @@
         "endInExample": 25
       },
       "ipa": "maɪ ˈmɪrə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "my parents",
@@ -2499,7 +2553,9 @@
         "endInExample": 63
       },
       "ipa": "maɪ ˈpeərənts",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "my resauces",
@@ -2527,7 +2583,9 @@
         "endInExample": 32
       },
       "ipa": "maɪ rɪˈsɔːsɪz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "my talents",
@@ -2555,7 +2613,9 @@
         "endInExample": 25
       },
       "ipa": "maɪ ˈtælənts",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "nails",
@@ -2693,7 +2753,9 @@
         "endInExample": 19
       },
       "ipa": "ˌəʊnli ˈpruːf",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "other worlds",
@@ -2721,7 +2783,9 @@
         "endInExample": 34
       },
       "ipa": "ˌʌðə ˈwɜːldz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "parents",
@@ -2853,7 +2917,9 @@
         "endInExample": 26
       },
       "ipa": "ˌpleɪn ˈplaɪwʊd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "plywood",
@@ -2991,7 +3057,9 @@
         "endInExample": 23
       },
       "ipa": "ˌpraɪvət ˈstɔːriz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "proof",
@@ -3055,10 +3123,10 @@
       "word": "Queen",
       "lemma": "queen",
       "lemmaId": "queen",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "queen_adjective",
-      "level": "A2",
+      "wordKey": "queen_noun",
+      "level": "A1",
       "translations": {
         "ru": {
           "translation": "королевский"
@@ -3073,7 +3141,7 @@
       "exampleEnd": 388,
       "matchedForm": "Queen",
       "ipa": "kwiːn",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.471429,
       "difficultySource": "zipf"
     },
@@ -3105,11 +3173,11 @@
     },
     {
       "word": "resauces",
-      "lemma": "resauce",
-      "lemmaId": "resauce",
+      "lemma": "resource",
+      "lemmaId": "resource",
       "pos": "noun",
       "source": "word",
-      "wordKey": "resauce_noun",
+      "wordKey": "resource_noun",
       "level": "B1",
       "translations": {
         "ru": {
@@ -3119,13 +3187,15 @@
           "translation": "Ресурси"
         }
       },
-      "_spacyLemma": "resauce",
+      "_spacyLemma": "resource",
       "example": "They do not know all my resauces.",
       "exampleStart": 209,
       "exampleEnd": 242,
       "matchedForm": "resauces",
-      "ipa": "rɪˈsɔːsɪz",
-      "levelSource": "vocabulary_index"
+      "ipa": "rɪˈzɔːs",
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.605714,
+      "difficultySource": "zipf"
     },
     {
       "word": "result",
@@ -3233,11 +3303,11 @@
     },
     {
       "word": "shining",
-      "lemma": "shin",
-      "lemmaId": "shin",
+      "lemma": "shining",
+      "lemmaId": "shining",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "shin_adjective",
+      "wordKey": "shining_adjective",
       "level": "A2",
       "translations": {
         "ru": {
@@ -3247,13 +3317,12 @@
           "translation": "Великогомілкова"
         }
       },
-      "_spacyLemma": "shin",
+      "_spacyLemma": "shining",
       "example": "“God bless her dear little sugar-coated shining soul!",
       "exampleStart": 2097,
       "exampleEnd": 2150,
       "matchedForm": "shining",
-      "ipa": "ˈʃaɪnɪŋ",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.805714,
       "difficultySource": "zipf"
     },
@@ -3529,7 +3598,10 @@
         "endInExample": 105
       },
       "ipa": "ˌsʌk ˈɪn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "suck",
@@ -3616,7 +3688,7 @@
       "pos": "noun",
       "source": "word",
       "wordKey": "swivel_noun",
-      "level": "A2",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "поворот"
@@ -3630,8 +3702,8 @@
       "exampleStart": 2511,
       "exampleEnd": 2596,
       "matchedForm": "swivels",
-      "ipa": "ˈswɪvəlz",
-      "levelSource": "vocabulary_index",
+      "ipa": "ˈswɪvəl",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -3803,7 +3875,9 @@
         "endInExample": 54
       },
       "ipa": "ˌterɪbəl ˈpleɪs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "terribly",
@@ -3939,9 +4013,9 @@
       "word": "wan",
       "lemma": "wan",
       "lemmaId": "wan",
-      "pos": "noun",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "wan_noun",
+      "wordKey": "wan_adjective",
       "level": "B2",
       "translations": {
         "ru": {
@@ -3957,7 +4031,7 @@
       "exampleEnd": 1740,
       "matchedForm": "wan",
       "ipa": "wæn",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.774286,
       "difficultySource": "zipf"
     },
@@ -4207,7 +4281,9 @@
         "endInExample": 20
       },
       "ipa": "jɔː ˈletə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "your parents",
@@ -4235,7 +4311,9 @@
         "endInExample": 37
       },
       "ipa": "jɔː ˈpeərənts",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "your place",
@@ -4263,7 +4341,9 @@
         "endInExample": 46
       },
       "ipa": "jɔː ˈpleɪs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "your sister",
@@ -4291,7 +4371,83 @@
         "endInExample": 16
       },
       "ipa": "jɔː ˈsɪstə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
+    },
+    {
+      "word": "All the same",
+      "lemma": "all the same",
+      "lemmaId": "all_the_same",
+      "pos": "phrase",
+      "type": "discourse_marker",
+      "category": "mwe",
+      "mweType": "discourse_marker",
+      "syntacticForm": "adverb_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "всё же"
+        },
+        "uk": {
+          "translation": "Все одно"
+        }
+      },
+      "definition": "discourse marker used as one lexical expression in this context.",
+      "example": "All the same, I wonder if she’s thought of the clever hiding place where I’m going to put her letter.",
+      "exampleStart": 2238,
+      "exampleEnd": 2339,
+      "exampleTranslation": "всё же",
+      "phraseMatch": {
+        "text": "All the same",
+        "startInExample": 0,
+        "endInExample": 12
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "all_the_same_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "Все одно"
+        }
+      }
+    },
+    {
+      "word": "as well as Cat knew Gwendolen",
+      "lemma": "as well as",
+      "lemmaId": "as_well_as",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "clause",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "так хорошо, как Кэт знал Гвендолен"
+        },
+        "uk": {
+          "translation": "так добре, як Кет знала Гвендолен"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "If you know a person as well as Cat knew Gwendolen, an exact double is hardly good enough.",
+      "exampleStart": 1423,
+      "exampleEnd": 1513,
+      "exampleTranslation": "так хорошо, как Кэт знал Гвендолен",
+      "phraseMatch": {
+        "text": "as well as Cat knew Gwendolen",
+        "startInExample": 21,
+        "endInExample": 50
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "as_well_as_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "так добре, як Кет знала Гвендолен"
+        }
+      }
     }
   ],
   "namedEntities": [

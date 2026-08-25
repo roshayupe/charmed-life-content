@@ -48365,31 +48365,6 @@
       "status": "ok"
     },
     {
-      "id": "pv-yumi-nightmare-painter-en_sct40_f1-hion_noun-ch40_p0002_src_s003-15-19-90",
-      "wordKey": "hion_noun",
-      "word": "hion",
-      "lemma": "hion",
-      "pos": "noun",
-      "level": "A1",
-      "sourceText": "hion",
-      "sourceSentenceId": "ch40_p0002_src_s003",
-      "targetSentenceId": "ch40_p0002_tgt_s003",
-      "sourceSpan": {
-        "start": 15,
-        "end": 19
-      },
-      "alignmentMethod": "simalign",
-      "alignmentConfidence": "high",
-      "alignmentWarningCode": null,
-      "status": "ok",
-      "targetSpan": {
-        "start": 7,
-        "end": 15
-      },
-      "contextTranslation": "хионовые",
-      "targetText": "хионовые"
-    },
-    {
       "id": "pv-yumi-nightmare-painter-en_sct40_f1-line_noun-ch40_p0002_src_s003-20-25-116",
       "wordKey": "line_noun",
       "word": "lines",
@@ -51653,29 +51628,6 @@
       "contextTranslation": "проблему"
     },
     {
-      "id": "pv-yumi-nightmare-painter-en_sct40_f1-matter_adverb-ch40_p0006_src_s004-113-119-123",
-      "wordKey": "matter_adverb",
-      "word": "matter",
-      "lemma": "matter",
-      "pos": "adverb",
-      "level": "A2",
-      "sourceText": "matter",
-      "targetText": "важно; имеет значение",
-      "dictionaryTranslation": "важно; имеет значение",
-      "rowTranslation": "важно; имеет значение",
-      "sourceSentenceId": "ch40_p0006_src_s004",
-      "sourceSpan": {
-        "start": 113,
-        "end": 119
-      },
-      "alignmentMethod": "none",
-      "alignmentConfidence": "none",
-      "alignmentWarningCode": "missing",
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. SimAlign did not produce a target token for this source span.",
-      "status": "missing_target",
-      "reason": "translated sentence unavailable"
-    },
-    {
       "id": "pv-yumi-nightmare-painter-en_sct40_f1-require_verb-ch40_p0006_src_s004-130-138-167",
       "wordKey": "require_verb",
       "word": "required",
@@ -52301,12 +52253,12 @@
       "contextTranslation": "поднималась"
     },
     {
-      "id": "pv-yumi-nightmare-painter-en_sct40_f1-higher_adverb-ch40_p0009_src_s001-12-18-88",
-      "wordKey": "higher_adverb",
+      "id": "pv-yumi-nightmare-painter-en_sct40_f1-high_adjective-ch40_p0009_src_s001-12-18-88",
+      "wordKey": "high_adjective",
       "word": "higher",
-      "lemma": "higher",
-      "pos": "adverb",
-      "level": "B1",
+      "lemma": "high",
+      "pos": "adjective",
+      "level": "A1",
       "sourceText": "higher",
       "targetText": "выше",
       "dictionaryTranslation": "выше",
@@ -52325,7 +52277,10 @@
       "alignmentMethod": "exact",
       "alignmentConfidence": "high",
       "alignmentWarningCode": null,
-      "status": "ok"
+      "status": "ok",
+      "ipa": "haɪ",
+      "difficultyScore": 0.217143,
+      "difficultySource": "zipf"
     },
     {
       "id": "pv-yumi-nightmare-painter-en_sct40_f1-air_noun-ch40_p0009_src_s001-26-29-7",
@@ -55192,34 +55147,6 @@
       "contextTranslation": "концентрируя"
     },
     {
-      "id": "pv-yumi-nightmare-painter-en_sct40_f1-invest_adjective-ch40_p0012_src_s004-96-104-99",
-      "wordKey": "invest_adjective",
-      "word": "Invested",
-      "lemma": "invest",
-      "pos": "adjective",
-      "level": "B1",
-      "sourceText": "Invested",
-      "targetText": "Инвеститурой",
-      "dictionaryTranslation": "инвестированный",
-      "rowTranslation": "инвестированный",
-      "sourceSentenceId": "ch40_p0012_src_s004",
-      "targetSentenceId": "ch40_p0012_tgt_s004",
-      "sourceSpan": {
-        "start": 96,
-        "end": 104
-      },
-      "alignmentMethod": "simalign",
-      "alignmentConfidence": "high",
-      "alignmentWarningCode": null,
-      "alignmentWarning": "Vocabulary translation exists, but matching Russian span was not found in the block translation. Dictionary translation differs from contextual block translation.",
-      "status": "ok",
-      "targetSpan": {
-        "start": 77,
-        "end": 89
-      },
-      "contextTranslation": "Инвеститурой"
-    },
-    {
       "id": "pv-yumi-nightmare-painter-en_sct40_f1-essence_noun-ch40_p0012_src_s004-105-112-57",
       "wordKey": "essence_noun",
       "word": "essence",
@@ -57135,18 +57062,6 @@
           "type": "noun",
           "rowTranslation": "город",
           "sourceText": "town",
-          "sourceSentenceText": "However, they’d come with a secondary mandate: to discover what was wrong in the town and to fix the problem, no matter what that required.",
-          "reason": "alignment_missing"
-        },
-        {
-          "lessonId": "yumi-nightmare-painter-en_sct40_f1",
-          "wordKey": "matter_adverb",
-          "word": "matter",
-          "lemma": "matter",
-          "pos": "adverb",
-          "type": "adverb",
-          "rowTranslation": "важно; имеет значение",
-          "sourceText": "matter",
           "sourceSentenceText": "However, they’d come with a secondary mandate: to discover what was wrong in the town and to fix the problem, no matter what that required.",
           "reason": "alignment_missing"
         },

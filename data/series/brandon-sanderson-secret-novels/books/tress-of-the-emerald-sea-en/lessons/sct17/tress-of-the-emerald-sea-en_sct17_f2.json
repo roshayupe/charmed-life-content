@@ -21,40 +21,40 @@
       "wordCount": 447,
       "uniqueWordCount": 287,
       "paragraphCount": 16,
-      "vocabularyCount": 173,
+      "vocabularyCount": 169,
       "levelDistribution": {
         "A1": 43,
-        "A2": 30,
-        "B1": 48,
-        "B2": 40,
-        "C1": 8,
-        "C2": 4
+        "A2": 28,
+        "B1": 45,
+        "B2": 42,
+        "C1": 6,
+        "C2": 5
       }
     }
   },
   "vocabulary": [
     {
       "word": "aiming",
-      "lemma": "aiming",
-      "lemmaId": "aiming",
-      "pos": "noun",
+      "lemma": "aim",
+      "lemmaId": "aim",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "aiming_noun",
-      "level": "A2",
+      "wordKey": "aim_verb",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "Прицеливание"
         }
       },
-      "_spacyLemma": "aiming",
+      "_spacyLemma": "aim",
       "example": "The cannonmaster was in charge of loading, aiming, and firing the weapon.",
       "exampleStart": 227,
       "exampleEnd": 300,
       "matchedForm": "aiming",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 0.748571,
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.571429,
       "difficultySource": "zipf",
-      "ipa": "ˈeɪmɪŋ"
+      "ipa": "eɪm"
     },
     {
       "word": "asked",
@@ -282,27 +282,6 @@
       "difficultyScore": 1,
       "difficultySource": "zipf",
       "ipa": "ˈkænənˌbɔːlz"
-    },
-    {
-      "word": "cannonmaster",
-      "lemma": "cannonmaster",
-      "lemmaId": "cannonmaster",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "cannonmaster_noun",
-      "level": "C1",
-      "translations": {
-        "ru": {
-          "translation": "Пушковый мастер"
-        }
-      },
-      "_spacyLemma": "cannonmaster",
-      "example": "The cannonmaster was in charge of loading, aiming, and firing the weapon.",
-      "exampleStart": 227,
-      "exampleEnd": 300,
-      "matchedForm": "cannonmaster",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "ˈkænənˌmæstə"
     },
     {
       "word": "carpenter",
@@ -817,10 +796,10 @@
       "word": "erodes",
       "lemma": "erode",
       "lemmaId": "erode",
-      "pos": "noun",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "erode_noun",
-      "level": "A2",
+      "wordKey": "erode_verb",
+      "level": "C2",
       "translations": {
         "ru": {
           "translation": "Эрозия"
@@ -831,10 +810,10 @@
       "exampleStart": 1158,
       "exampleEnd": 1278,
       "matchedForm": "erodes",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.994286,
       "difficultySource": "zipf",
-      "ipa": "ɪˈrəʊdz"
+      "ipa": "ɪˈrəʊd"
     },
     {
       "word": "fact",
@@ -1005,9 +984,9 @@
       "word": "fully",
       "lemma": "fully",
       "lemmaId": "fully",
-      "pos": "adjective",
+      "pos": "adverb",
       "source": "word",
-      "wordKey": "fully_adjective",
+      "wordKey": "fully_adverb",
       "level": "A2",
       "translations": {
         "ru": {
@@ -1019,7 +998,7 @@
       "exampleStart": 1158,
       "exampleEnd": 1278,
       "matchedForm": "fully",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.462857,
       "difficultySource": "zipf",
       "ipa": "ˈfʊli"
@@ -1365,12 +1344,12 @@
     },
     {
       "word": "hardened",
-      "lemma": "harden",
-      "lemmaId": "harden",
+      "lemma": "hardened",
+      "lemmaId": "hardened",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "harden_adjective",
-      "level": "C1",
+      "wordKey": "hardened_adjective",
+      "level": "B2",
       "translations": {
         "de": {
           "translation": "verhärten"
@@ -1385,13 +1364,12 @@
           "translation": "затвердіти"
         }
       },
-      "_spacyLemma": "harden",
+      "_spacyLemma": "hardened",
       "example": "Oh, a sprouter can patch up a hull with a quick burst of spores—but silver erodes even fully hardened roseite over time.",
       "exampleStart": 1158,
       "exampleEnd": 1278,
       "matchedForm": "hardened",
-      "ipa": "ˈhɑːdənd",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.854286,
       "difficultySource": "zipf"
     },
@@ -1568,24 +1546,24 @@
     },
     {
       "word": "hidden",
-      "lemma": "hide",
-      "lemmaId": "hide",
+      "lemma": "hidden",
+      "lemmaId": "hidden",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "hide_adjective",
+      "wordKey": "hidden_adjective",
       "level": "B1",
       "translations": {
         "ru": {
           "translation": "Скрыто"
         }
       },
-      "_spacyLemma": "hide",
+      "_spacyLemma": "hidden",
       "example": "She bet those hidden cannonballs wouldn’t pass Fort’s inspection—they wouldn’t be rigged to incapacitate the target with vines.",
       "exampleStart": 445,
       "exampleEnd": 572,
       "matchedForm": "hidden",
-      "levelSource": "cefr_frequency",
-      "difficultyScore": 0.562857,
+      "levelSource": "cefr_reference",
+      "difficultyScore": 0.565714,
       "difficultySource": "zipf",
       "ipa": "ˈhɪdən"
     },
@@ -1806,27 +1784,6 @@
       "ipa": "læk"
     },
     {
-      "word": "Laggart",
-      "lemma": "laggart",
-      "lemmaId": "laggart",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "laggart_noun",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "Лаггарт"
-        }
-      },
-      "_spacyLemma": "laggart",
-      "example": "Laggart, the cannonmaster, had deliberately sunk that other ship.",
-      "exampleStart": 573,
-      "exampleEnd": 638,
-      "matchedForm": "Laggart",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "ˈlæɡɑːt"
-    },
-    {
       "word": "lanky",
       "lemma": "lanky",
       "lemmaId": "lanky",
@@ -1899,9 +1856,9 @@
       "word": "loading",
       "lemma": "loading",
       "lemmaId": "loading",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "loading_adjective",
+      "wordKey": "loading_noun",
       "level": "B1",
       "translations": {
         "ru": {
@@ -1913,7 +1870,7 @@
       "exampleStart": 227,
       "exampleEnd": 300,
       "matchedForm": "loading",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.688571,
       "difficultySource": "zipf",
       "ipa": "ˈləʊdɪŋ"
@@ -2888,27 +2845,6 @@
       "ipa": "rɪɡd"
     },
     {
-      "word": "roseite",
-      "lemma": "roseite",
-      "lemmaId": "roseite",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "roseite_noun",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "розеит"
-        }
-      },
-      "_spacyLemma": "roseite",
-      "example": "Oh, a sprouter can patch up a hull with a quick burst of spores—but silver erodes even fully hardened roseite over time.",
-      "exampleStart": 1158,
-      "exampleEnd": 1278,
-      "matchedForm": "roseite",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "ˈrəʊzaɪt"
-    },
-    {
       "word": "Sadly",
       "lemma": "sadly",
       "lemmaId": "sadly",
@@ -3375,27 +3311,6 @@
       "difficultyScore": 1,
       "difficultySource": "zipf",
       "ipa": "spɔː"
-    },
-    {
-      "word": "sprouter",
-      "lemma": "sprouter",
-      "lemmaId": "sprouter",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "sprouter_noun",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "Прорастатель"
-        }
-      },
-      "_spacyLemma": "sprouter",
-      "example": "Oh, a sprouter can patch up a hull with a quick burst of spores—but silver erodes even fully hardened roseite over time.",
-      "exampleStart": 1158,
-      "exampleEnd": 1278,
-      "matchedForm": "sprouter",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "ˈspraʊtə"
     },
     {
       "word": "staring",

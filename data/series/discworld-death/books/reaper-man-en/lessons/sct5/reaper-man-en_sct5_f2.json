@@ -21,14 +21,14 @@
       "wordCount": 706,
       "uniqueWordCount": 397,
       "paragraphCount": 29,
-      "vocabularyCount": 276,
+      "vocabularyCount": 273,
       "levelDistribution": {
         "A1": 61,
-        "A2": 64,
-        "B1": 74,
-        "B2": 57,
-        "C1": 15,
-        "C2": 5
+        "A2": 61,
+        "B1": 73,
+        "B2": 54,
+        "C1": 18,
+        "C2": 6
       }
     }
   },
@@ -58,22 +58,21 @@
     },
     {
       "word": "affronted",
-      "lemma": "affront",
-      "lemmaId": "affront",
-      "pos": "verb",
+      "lemma": "affronted",
+      "lemmaId": "affronted",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "affront_verb",
-      "level": "B2",
+      "wordKey": "affronted_adjective",
+      "level": "C1",
       "translations": {},
-      "_spacyLemma": "affront",
+      "_spacyLemma": "affronted",
       "example": "Simnel looked mildly affronted.",
       "exampleStart": 2116,
       "exampleEnd": 2147,
       "matchedForm": "affronted",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "əˈfrʌntɪd"
+      "difficultySource": "zipf"
     },
     {
       "word": "aid",
@@ -1033,20 +1032,20 @@
     },
     {
       "word": "combing",
-      "lemma": "comb",
-      "lemmaId": "comb",
-      "pos": "adjective",
+      "lemma": "combing",
+      "lemmaId": "combing",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "comb_adjective",
-      "level": "A1",
+      "wordKey": "combing_noun",
+      "level": "C1",
       "translations": {},
-      "_spacyLemma": "comb",
+      "_spacyLemma": "combing",
       "example": "‘The power comes up via the pulley here, and the cams move the swaging arms – that’s these things – and the combing gate, which is operated by the reciprocating mechanism, comes down just as the gripping shutter drops in this slot here, and of course at the same time the two brass balls go round and round and the fletching sheets carry off the straw while the grain drops with the aid of gravity down the riffling screw and into the hopper.",
       "exampleStart": 2903,
       "exampleEnd": 3345,
       "matchedForm": "combing",
-      "levelSource": "cefr_frequency",
-      "difficultyScore": 0.854286,
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 1,
       "difficultySource": "zipf",
       "ipa": "ˈkəʊmɪŋ"
     },
@@ -1121,29 +1120,6 @@
       "ipa": "kʌmz",
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.208571,
-      "difficultySource": "zipf"
-    },
-    {
-      "word": "course",
-      "lemma": "course",
-      "lemmaId": "course",
-      "pos": "adverb",
-      "source": "word",
-      "wordKey": "course_adverb",
-      "level": "A2",
-      "translations": {
-        "ru": {
-          "translation": "конечно"
-        }
-      },
-      "_spacyLemma": "course",
-      "example": "‘Of course, you’re not seeing it at its best when it’s standing still,’ said Simnel.",
-      "exampleStart": 1867,
-      "exampleEnd": 1951,
-      "matchedForm": "course",
-      "ipa": "kɔːs",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.305714,
       "difficultySource": "zipf"
     },
     {
@@ -1433,31 +1409,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "drops in",
-      "lemma": "drop in",
-      "lemmaId": "drop_in",
-      "pos": "prepositional_verb",
-      "type": "prepositional_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "drop_in_prepositional_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "упасть в"
-        }
-      },
-      "example": "‘The power comes up via the pulley here, and the cams move the swaging arms – that’s these things – and the combing gate, which is operated by the reciprocating mechanism, comes down just as the gripping shutter drops in this slot here, and of course at the same time the two brass balls go round and round and the fletching sheets carry off the straw while the grain drops with the aid of gravity down the riffling screw and into the hopper.",
-      "exampleStart": 2903,
-      "exampleEnd": 3345,
-      "phraseMatch": {
-        "text": "drops in",
-        "startInExample": 212,
-        "endInExample": 220
-      },
-      "ipa": "ˌdrɒps ˈɪn",
-      "levelSource": "phrase_index"
-    },
-    {
       "word": "drops",
       "lemma": "drop",
       "lemmaId": "drop",
@@ -1711,17 +1662,17 @@
       "word": "farming",
       "lemma": "farming",
       "lemmaId": "farming",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "farming_adjective",
-      "level": "A2",
+      "wordKey": "farming_noun",
+      "level": "B1",
       "translations": {},
       "_spacyLemma": "farming",
       "example": "‘It will revolutionise farming methods, and drag them kicking and screaming into the Century of the Fruitbat.",
       "exampleStart": 2187,
       "exampleEnd": 2296,
       "matchedForm": "farming",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.657143,
       "difficultySource": "zipf",
       "ipa": "ˈfɑːmɪŋ"
@@ -2109,9 +2060,9 @@
       "word": "giving",
       "lemma": "give",
       "lemmaId": "give",
-      "pos": "adjective",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "give_adjective",
+      "wordKey": "give_verb",
       "level": "A1",
       "translations": {
         "ru": {
@@ -2123,8 +2074,8 @@
       "exampleStart": 161,
       "exampleEnd": 304,
       "matchedForm": "giving",
-      "ipa": "ˈɡɪvɪŋ",
-      "levelSource": "vocabulary_index",
+      "ipa": "ɡɪv",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.228571,
       "difficultySource": "zipf"
     },
@@ -2262,24 +2213,24 @@
     },
     {
       "word": "gratified",
-      "lemma": "gratify",
-      "lemmaId": "gratify",
-      "pos": "verb",
+      "lemma": "gratified",
+      "lemmaId": "gratified",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "gratify_verb",
+      "wordKey": "gratified_adjective",
       "level": "B2",
       "translations": {
         "ru": {
           "translation": "удовлетворительный"
         }
       },
-      "_spacyLemma": "gratify",
+      "_spacyLemma": "gratified",
       "example": "‘Well, the heart of it all is this cam shaft,’ said Simnel, gratified at the interest.",
       "exampleStart": 2816,
       "exampleEnd": 2902,
       "matchedForm": "gratified",
       "ipa": "ˈɡrætɪˌfaɪd",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -2310,9 +2261,9 @@
       "word": "gripping",
       "lemma": "grip",
       "lemmaId": "grip",
-      "pos": "adjective",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "grip_adjective",
+      "wordKey": "grip_verb",
       "level": "B2",
       "translations": {},
       "_spacyLemma": "grip",
@@ -2320,10 +2271,10 @@
       "exampleStart": 2903,
       "exampleEnd": 3345,
       "matchedForm": "gripping",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.685714,
       "difficultySource": "zipf",
-      "ipa": "ˈɡrɪpɪŋ"
+      "ipa": "ɡrɪp"
     },
     {
       "word": "grunt",
@@ -2833,10 +2784,10 @@
       "word": "imagine",
       "lemma": "imagine",
       "lemmaId": "imagine",
-      "pos": "adjective",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "imagine_adjective",
-      "level": "B2",
+      "wordKey": "imagine_verb",
+      "level": "A1",
       "translations": {
         "ru": {
           "translation": "Представьте себе"
@@ -2848,7 +2799,7 @@
       "exampleEnd": 3732,
       "matchedForm": "imagine",
       "ipa": "ɪˈmædʒɪn",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.454286,
       "difficultySource": "zipf"
     },
@@ -3173,22 +3124,21 @@
     },
     {
       "word": "knurled",
-      "lemma": "knurle",
-      "lemmaId": "knurle",
+      "lemma": "knurled",
+      "lemmaId": "knurled",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "knurle_adjective",
-      "level": "B1",
+      "wordKey": "knurled_adjective",
+      "level": "C2",
       "translations": {},
-      "_spacyLemma": "knurle",
+      "_spacyLemma": "knurled",
       "example": "’ Simnel fished around among the debris on the floor, picked up a small knurled object, and screwed it on to a protruding piece of the mechanism.",
       "exampleStart": 3414,
       "exampleEnd": 3559,
       "matchedForm": "knurled",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "nɜːld"
+      "difficultySource": "zipf"
     },
     {
       "word": "leaving",
@@ -3786,20 +3736,20 @@
       "word": "nailing",
       "lemma": "nail",
       "lemmaId": "nail",
-      "pos": "adjective",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "nail_adjective",
-      "level": "B1",
+      "wordKey": "nail_verb",
+      "level": "B2",
       "translations": {},
       "_spacyLemma": "nail",
       "example": "My folk have had this forge for three hundred years, but Ned Simnel doesn’t intend to spend the rest of his life nailing bits of bent metal on to horses, I can tell you.",
       "exampleStart": 2297,
       "exampleEnd": 2466,
       "matchedForm": "nailing",
-      "levelSource": "cefr_frequency",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.657143,
       "difficultySource": "zipf",
-      "ipa": "ˈneɪlɪŋ"
+      "ipa": "neɪl"
     },
     {
       "word": "needs",
@@ -4477,22 +4427,21 @@
     },
     {
       "word": "reciprocating",
-      "lemma": "reciprocate",
-      "lemmaId": "reciprocate",
+      "lemma": "reciprocating",
+      "lemmaId": "reciprocating",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "reciprocate_adjective",
-      "level": "C2",
+      "wordKey": "reciprocating_adjective",
+      "level": "C1",
       "translations": {},
-      "_spacyLemma": "reciprocate",
+      "_spacyLemma": "reciprocating",
       "example": "‘The power comes up via the pulley here, and the cams move the swaging arms – that’s these things – and the combing gate, which is operated by the reciprocating mechanism, comes down just as the gripping shutter drops in this slot here, and of course at the same time the two brass balls go round and round and the fletching sheets carry off the straw while the grain drops with the aid of gravity down the riffling screw and into the hopper.",
       "exampleStart": 2903,
       "exampleEnd": 3345,
       "matchedForm": "reciprocating",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
-      "difficultySource": "zipf",
-      "ipa": "rɪˈsɪprəˌkeɪtɪŋ"
+      "difficultySource": "zipf"
     },
     {
       "word": "regarded",
@@ -4823,23 +4772,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "scringeing",
-      "lemma": "scringee",
-      "lemmaId": "scringee",
-      "pos": "adjective",
-      "source": "word",
-      "wordKey": "scringee_adjective",
-      "level": "B2",
-      "translations": {},
-      "_spacyLemma": "scringee",
-      "example": "This isn’t a’ – there was the scringeing noise of a piece of metal giving way – ‘my thumb, my thumb, you made me’ – there was a clang – ‘aargh.",
-      "exampleStart": 161,
-      "exampleEnd": 304,
-      "matchedForm": "scringeing",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "ˈskrɪndʒɪŋ"
-    },
-    {
       "word": "second",
       "lemma": "second",
       "lemmaId": "second",
@@ -5015,25 +4947,25 @@
     },
     {
       "word": "shaped",
-      "lemma": "shape",
-      "lemmaId": "shape",
+      "lemma": "shaped",
+      "lemmaId": "shaped",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "shape_adjective",
-      "level": "A2",
+      "wordKey": "shaped_adjective",
+      "level": "C2",
       "translations": {
         "ru": {
           "translation": "имеющий форму"
         }
       },
-      "_spacyLemma": "shape",
+      "_spacyLemma": "shaped",
       "example": "Bill Door selected a piece of shaped metal at random, and placed it in the hand.",
       "exampleStart": 0,
       "exampleEnd": 80,
       "matchedForm": "shaped",
       "ipa": "ʃeɪpt",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.511429,
+      "levelSource": "cefr_reference",
+      "difficultyScore": 0.608571,
       "difficultySource": "zipf"
     },
     {
@@ -6176,9 +6108,9 @@
       "word": "whirligig",
       "lemma": "whirligig",
       "lemmaId": "whirligig",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "whirligig_adjective",
+      "wordKey": "whirligig_noun",
       "level": "C1",
       "translations": {},
       "_spacyLemma": "whirligig",
@@ -6186,7 +6118,7 @@
       "exampleStart": 2601,
       "exampleEnd": 2717,
       "matchedForm": "whirligig",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf",
       "ipa": "ˈwɜːlɪˌdʒɪɡ"

@@ -25,8 +25,8 @@
       "levelDistribution": {
         "A1": 44,
         "A2": 24,
-        "B1": 39,
-        "B2": 53,
+        "B1": 41,
+        "B2": 51,
         "C1": 15,
         "C2": 1
       }
@@ -143,7 +143,9 @@
         "endInExample": 48
       },
       "ipa": "ɔːlˌtɜːnət ˈhændz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "amuse",
@@ -281,7 +283,10 @@
         "endInExample": 63
       },
       "ipa": "biː ˈɪn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "big",
@@ -445,7 +450,10 @@
         "endInExample": 67
       },
       "ipa": "ˌkætʃ ˈʌp wɪð",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "catch",
@@ -526,34 +534,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "coming along",
-      "lemma": "come along",
-      "lemmaId": "come_along",
-      "pos": "prepositional_verb",
-      "type": "prepositional_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "come_along_prepositional_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "идти вместе; появляться"
-        },
-        "uk": {
-          "translation": "йди разом; Спавн"
-        }
-      },
-      "example": "”\n\nBy a stroke of good fortune, Chrestomanci was coming along the gallery on the other side of the staircase, behind a curly marble balustrade.",
-      "exampleStart": 3025,
-      "exampleEnd": 3168,
-      "phraseMatch": {
-        "text": "coming along",
-        "startInExample": 49,
-        "endInExample": 61
-      },
-      "ipa": "ˌkʌmɪŋ əˈlɒŋ",
-      "levelSource": "phrase_index"
-    },
-    {
       "word": "came in",
       "lemma": "come in",
       "lemmaId": "come_in",
@@ -579,7 +559,10 @@
         "endInExample": 67
       },
       "ipa": "ˌkeɪm ˈɪn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "came over",
@@ -607,7 +590,10 @@
         "endInExample": 31
       },
       "ipa": "ˌkeɪm ˈəʊvə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "came",
@@ -929,10 +915,10 @@
       "word": "dressing",
       "lemma": "dressing",
       "lemmaId": "dressing",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "dressing_adjective",
-      "level": "B2",
+      "wordKey": "dressing_noun",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "одевающийся; перевязочный"
@@ -947,7 +933,7 @@
       "exampleEnd": 3294,
       "matchedForm": "dressing",
       "ipa": "ˈdresɪŋ",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.668571,
       "difficultySource": "zipf"
     },
@@ -1009,7 +995,9 @@
         "endInExample": 215
       },
       "ipa": "ˌelɪɡənt ˈdəʊm",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "essay",
@@ -1393,7 +1381,9 @@
         "endInExample": 30
       },
       "ipa": "ˌfreʃ ˈeə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "gallery",
@@ -1499,7 +1489,10 @@
         "endInExample": 7
       },
       "ipa": "ˌɡəʊ ˈaʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "went",
@@ -1579,7 +1572,9 @@
         "endInExample": 30
       },
       "ipa": "ˌɡʊd ˈfɔːtʃuːn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "good morning",
@@ -1607,7 +1602,9 @@
         "endInExample": 37
       },
       "ipa": "ˌɡʊd ˈmɔːnɪŋ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "gown",
@@ -1637,11 +1634,11 @@
     },
     {
       "word": "grander",
-      "lemma": "grander",
-      "lemmaId": "grander",
-      "pos": "noun",
+      "lemma": "grand",
+      "lemmaId": "grand",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "grander_noun",
+      "wordKey": "grand_adjective",
       "level": "B1",
       "translations": {
         "ru": {
@@ -1651,14 +1648,14 @@
           "translation": "більш величним"
         }
       },
-      "_spacyLemma": "grander",
+      "_spacyLemma": "grand",
       "example": "Cat ran after her as hard as he could, but he did not catch up with her until they came to a much grander part of the Castle, where a big marble staircase curled away downward and the light came from an elegant dome in the roof.",
       "exampleStart": 2512,
       "exampleEnd": 2740,
       "matchedForm": "grander",
-      "ipa": "ˈɡrændə",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 1,
+      "ipa": "ɡrænd",
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.457143,
       "difficultySource": "zipf"
     },
     {
@@ -1713,7 +1710,9 @@
         "endInExample": 20
       },
       "ipa": "ˌɡreɪt ˈhænd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "half",
@@ -1767,7 +1766,9 @@
         "endInExample": 18
       },
       "ipa": "ˌhɑːf ˈaʊə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "hand",
@@ -1905,7 +1906,9 @@
         "endInExample": 8
       },
       "ipa": "hɪz ˈfeɪs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his right hand",
@@ -1933,7 +1936,9 @@
         "endInExample": 25
       },
       "ipa": "hɪz ˌraɪt ˈhænd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his thoughts",
@@ -1961,7 +1966,9 @@
         "endInExample": 37
       },
       "ipa": "hɪz ˈθɔːts",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "held",
@@ -2319,7 +2326,9 @@
         "endInExample": 31
       },
       "ipa": "ˌnɒbi ˈhænd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "knots",
@@ -2535,7 +2544,9 @@
         "endInExample": 38
       },
       "ipa": "ˌlɪtəl ˈwɪtʃkræft",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "looked at",
@@ -2563,7 +2574,10 @@
         "endInExample": 45
       },
       "ipa": "ˈlʊkt æt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "look",
@@ -2701,7 +2715,9 @@
         "endInExample": 53
       },
       "ipa": "ˌmɑːbəl ˈsteəkeɪs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "miles",
@@ -2993,7 +3009,9 @@
         "endInExample": 45
       },
       "ipa": "pɪˌkjuːliə ˈriːzən",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "pen",
@@ -3377,7 +3395,9 @@
         "endInExample": 97
       },
       "ipa": "ˌraɪt ˈhænd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "right way",
@@ -3405,7 +3425,9 @@
         "endInExample": 25
       },
       "ipa": "ˌraɪt ˈweɪ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "roared",
@@ -3517,7 +3539,10 @@
         "endInExample": 13
       },
       "ipa": "ˌræn ˈæftə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "ran around",
@@ -3545,7 +3570,10 @@
         "endInExample": 20
       },
       "ipa": "ˌræn əˈraʊnd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "ran away",
@@ -3573,7 +3601,10 @@
         "endInExample": 40
       },
       "ipa": "ˌræn əˈweɪ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "ran",
@@ -3705,7 +3736,9 @@
         "endInExample": 86
       },
       "ipa": "ˌsiəriəs ˈtrʌbəl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "shabby",
@@ -3765,7 +3798,9 @@
         "endInExample": 69
       },
       "ipa": "ˌʃæbi ˈpleɪruːm",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "shaken",
@@ -3934,34 +3969,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.391429,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "stopped in",
-      "lemma": "stop in",
-      "lemmaId": "stop_in",
-      "pos": "prepositional_verb",
-      "type": "prepositional_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "stop_in_prepositional_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "зайти; остановиться внутри"
-        },
-        "uk": {
-          "translation": "заходьте; Зупинись всередині"
-        }
-      },
-      "example": "”\n\nGwendolen stopped in the doorway and looked at him.",
-      "exampleStart": 2303,
-      "exampleEnd": 2357,
-      "phraseMatch": {
-        "text": "stopped in",
-        "startInExample": 13,
-        "endInExample": 23
-      },
-      "ipa": "ˌstɒpt ˈɪn",
-      "levelSource": "phrase_index"
     },
     {
       "word": "stop",
@@ -4145,7 +4152,10 @@
         "endInExample": 50
       },
       "ipa": "ˌtɔː ˈaʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "tore",
@@ -4231,7 +4241,9 @@
         "endInExample": 26
       },
       "ipa": "ðeə ˈɡɪfts",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "thoughts",
@@ -4285,7 +4297,10 @@
         "endInExample": 32
       },
       "ipa": "ˌtaɪd ˈʌp",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "tied",
@@ -4341,12 +4356,12 @@
     },
     {
       "word": "towering",
-      "lemma": "tower",
-      "lemmaId": "tower",
+      "lemma": "towering",
+      "lemmaId": "towering",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "tower_adjective",
-      "level": "C1",
+      "wordKey": "towering_adjective",
+      "level": "B2",
       "translations": {
         "de": {
           "translation": "erhaben"
@@ -4361,13 +4376,12 @@
           "translation": "Високий"
         }
       },
-      "_spacyLemma": "tower",
+      "_spacyLemma": "towering",
       "example": "Saunders flew into a towering rage.",
       "exampleStart": 806,
       "exampleEnd": 841,
       "matchedForm": "towering",
-      "ipa": "ˈtaʊərɪŋ",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.574286,
       "difficultySource": "zipf"
     },
@@ -4455,7 +4469,10 @@
         "endInExample": 24
       },
       "ipa": "ˌtɜːn əˈraʊnd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "turned to",
@@ -4483,7 +4500,10 @@
         "endInExample": 50
       },
       "ipa": "ˈtɜːnd tuː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "turning",
@@ -4537,7 +4557,9 @@
         "endInExample": 37
       },
       "ipa": "ˌtuː ˌfæt ˌlɪtəl ˈfuːlz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "untold",
@@ -4591,7 +4613,9 @@
         "endInExample": 33
       },
       "ipa": "ʌnˌtəʊld ˈhɑːm",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "use",
@@ -4871,7 +4895,9 @@
         "endInExample": 65
       },
       "ipa": "jɔː ˌleft ˈhænd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "your right hand",
@@ -4899,7 +4925,83 @@
         "endInExample": 43
       },
       "ipa": "jɔː ˌraɪt ˈhænd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
+    },
+    {
+      "word": "or something",
+      "lemma": "or something",
+      "lemmaId": "or_something",
+      "pos": "phrase",
+      "type": "formulaic_expression",
+      "category": "mwe",
+      "mweType": "formulaic_expression",
+      "syntacticForm": "adverb_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "или что"
+        },
+        "uk": {
+          "translation": "чи що"
+        }
+      },
+      "definition": "formulaic expression used as one lexical expression in this context.",
+      "example": "“Does it amuse you to write with alternate hands, or something?”",
+      "exampleStart": 666,
+      "exampleEnd": 730,
+      "exampleTranslation": "или что",
+      "phraseMatch": {
+        "text": "or something",
+        "startInExample": 50,
+        "endInExample": 62
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "or_something_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "чи що"
+        }
+      }
+    },
+    {
+      "word": "was used to this",
+      "lemma": "be used to",
+      "lemmaId": "be_used_to",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "verb_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "привык к"
+        },
+        "uk": {
+          "translation": "звикла до цього"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "Cat was used to this.",
+      "exampleStart": 398,
+      "exampleEnd": 419,
+      "exampleTranslation": "привык к",
+      "phraseMatch": {
+        "text": "was used to this",
+        "startInExample": 4,
+        "endInExample": 20
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "be_used_to_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "звикла до цього"
+        }
+      }
     }
   ],
   "namedEntities": [

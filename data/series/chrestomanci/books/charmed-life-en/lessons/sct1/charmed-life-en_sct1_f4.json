@@ -21,14 +21,13 @@
       "wordCount": 564,
       "uniqueWordCount": 302,
       "paragraphCount": 7,
-      "vocabularyCount": 171,
+      "vocabularyCount": 175,
       "levelDistribution": {
-        "A1": 61,
-        "A2": 27,
-        "B1": 37,
-        "B2": 37,
-        "C1": 9,
-        "C2": 0
+        "A1": 62,
+        "A2": 26,
+        "B1": 41,
+        "B2": 36,
+        "C1": 10
       }
     }
   },
@@ -325,7 +324,9 @@
         "endInExample": 79
       },
       "ipa": "ˌbɪznəs ˈletəz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "business",
@@ -599,7 +600,10 @@
         "endInExample": 14
       },
       "ipa": "ˈklʌŋ tuː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "clung",
@@ -659,7 +663,10 @@
         "endInExample": 55
       },
       "ipa": "ˌkeɪm ˈbæk",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "came",
@@ -769,10 +776,10 @@
       "word": "dearie",
       "lemma": "dearie",
       "lemmaId": "dearie",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "dearie_adjective",
-      "level": "B1",
+      "wordKey": "dearie_noun",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "дорогуша"
@@ -787,7 +794,7 @@
       "exampleEnd": 540,
       "matchedForm": "dearie",
       "ipa": "ˈdiəri",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -1129,7 +1136,9 @@
         "endInExample": 36
       },
       "ipa": "ˌeksələnt ˈprəʊɡres",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "exercise books",
@@ -1163,7 +1172,9 @@
         "endInExample": 36
       },
       "ipa": "ˌeksəˌsaɪz ˈbʊks",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "exercise",
@@ -1270,34 +1281,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "fallen out",
-      "lemma": "fall out",
-      "lemmaId": "fall_out",
-      "pos": "prepositional_verb",
-      "type": "prepositional_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "fall_out_prepositional_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "выпало"
-        },
-        "uk": {
-          "translation": "Відкинуто"
-        }
-      },
-      "example": "” A little red book of matches had fallen out of the bundle of business letters.",
-      "exampleStart": 89,
-      "exampleEnd": 169,
-      "phraseMatch": {
-        "text": "fallen out",
-        "startInExample": 35,
-        "endInExample": 45
-      },
-      "ipa": "ˌfɔːlən ˈaʊt",
-      "levelSource": "phrase_index"
-    },
-    {
       "word": "fell to",
       "lemma": "fall to",
       "lemmaId": "fall_to",
@@ -1323,7 +1306,10 @@
         "endInExample": 46
       },
       "ipa": "ˈfel tuː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "fallen",
@@ -1463,12 +1449,12 @@
     },
     {
       "word": "following",
-      "lemma": "follow",
-      "lemmaId": "follow",
+      "lemma": "following",
+      "lemmaId": "following",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "follow_adjective",
-      "level": "A2",
+      "wordKey": "following_adjective",
+      "level": "A1",
       "translations": {
         "ru": {
           "translation": "следующий"
@@ -1477,14 +1463,14 @@
           "translation": "Далі"
         }
       },
-      "_spacyLemma": "follow",
+      "_spacyLemma": "following",
       "example": "She took the Third and Fourth grades together just after Christmas and, by the following summer, she was starting on Advanced Magic.",
       "exampleStart": 2372,
       "exampleEnd": 2504,
       "matchedForm": "following",
       "ipa": "ˈfɒləʊɪŋ",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.391429,
+      "levelSource": "cefr_reference",
+      "difficultyScore": 0.3,
       "difficultySource": "zipf"
     },
     {
@@ -1701,7 +1687,10 @@
         "endInExample": 104
       },
       "ipa": "went ˈɒn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "went",
@@ -2143,7 +2132,9 @@
         "endInExample": 62
       },
       "ipa": "hɜː ˈɑːm",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her dress",
@@ -2171,7 +2162,9 @@
         "endInExample": 84
       },
       "ipa": "hɜː ˈdres",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her eyes",
@@ -2199,7 +2192,9 @@
         "endInExample": 39
       },
       "ipa": "hɜː ˈaɪz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "Her hair",
@@ -2227,7 +2222,9 @@
         "endInExample": 8
       },
       "ipa": "hɜː ˈheə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her lessons",
@@ -2255,7 +2252,9 @@
         "endInExample": 72
       },
       "ipa": "hɜː ˈlesənz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her magic case",
@@ -2283,7 +2282,9 @@
         "endInExample": 48
       },
       "ipa": "hɜː ˌmædʒɪk ˈkeɪs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her whole manner",
@@ -2311,7 +2312,9 @@
         "endInExample": 73
       },
       "ipa": "hɜː ˌhəʊl ˈmænə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his buttonhole",
@@ -2339,7 +2342,9 @@
         "endInExample": 29
       },
       "ipa": "hɪz ˈbʌtənˌhəʊl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his favorite pupil",
@@ -2367,7 +2372,9 @@
         "endInExample": 42
       },
       "ipa": "hɪz ˌfeɪvərɪt ˈpjuːpəl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "impatient",
@@ -2693,7 +2700,10 @@
         "endInExample": 18
       },
       "ipa": "ˈlɪvɪŋ wɪð",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "lonely",
@@ -2831,7 +2841,9 @@
         "endInExample": 44
       },
       "ipa": "ˌmeɪk ˈruːm",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "manner",
@@ -2891,7 +2903,9 @@
         "endInExample": 83
       },
       "ipa": "ˌmeni ˈpiːpəl",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "matches",
@@ -2923,9 +2937,9 @@
       "word": "music",
       "lemma": "music",
       "lemmaId": "music",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "music_adjective",
+      "wordKey": "music_noun",
       "level": "A1",
       "translations": {
         "ru": {
@@ -2941,7 +2955,7 @@
       "exampleEnd": 1983,
       "matchedForm": "music",
       "ipa": "ˈmjuːzɪk",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 0.282857,
       "difficultySource": "zipf"
     },
@@ -2971,7 +2985,9 @@
         "endInExample": 54
       },
       "ipa": "ˌmjuːzɪk ˈkeɪs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "music lessons",
@@ -2999,7 +3015,9 @@
         "endInExample": 109
       },
       "ipa": "ˌmjuːzɪk ˈlesənz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "my love",
@@ -3027,7 +3045,9 @@
         "endInExample": 40
       },
       "ipa": "maɪ ˈlʌv",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "next door",
@@ -3055,7 +3075,9 @@
         "endInExample": 75
       },
       "ipa": "ˌnekst ˈdɔː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "only drawback",
@@ -3083,7 +3105,9 @@
         "endInExample": 17
       },
       "ipa": "ˌəʊnli ˈdrɔːbæk",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "only family",
@@ -3111,7 +3135,9 @@
         "endInExample": 57
       },
       "ipa": "ˌəʊnli ˈfæmɪli",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "opened",
@@ -3171,7 +3197,10 @@
         "endInExample": 35
       },
       "ipa": "ˌpækɪŋ əˈweɪ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "packing",
@@ -3497,7 +3526,9 @@
         "endInExample": 22
       },
       "ipa": "ˌprɒmɪsɪŋ ˈwɪtʃ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "punished",
@@ -3589,7 +3620,10 @@
         "endInExample": 24
       },
       "ipa": "ˌpʊt ˈdaʊn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "red",
@@ -3877,7 +3911,9 @@
         "endInExample": 53
       },
       "ipa": "ˌsevrəl ˈtaɪmz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "skipped",
@@ -3957,7 +3993,10 @@
         "endInExample": 116
       },
       "ipa": "ˌstɑːtɪŋ ˈɒn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "starting",
@@ -4089,7 +4128,10 @@
         "endInExample": 16
       },
       "ipa": "ˌtʊk ˈʌp",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "took",
@@ -4169,7 +4211,10 @@
         "endInExample": 64
       },
       "ipa": "ˌtɔːn ˈaʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "torn",
@@ -4281,7 +4326,9 @@
         "endInExample": 32
       },
       "ipa": "ðeə ˈwaɪvz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "things",
@@ -4569,7 +4616,9 @@
         "endInExample": 39
       },
       "ipa": "ˌwaɪt ˈheðə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "wives",
@@ -4680,6 +4729,191 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.157143,
       "difficultySource": "zipf"
+    },
+    {
+      "word": "all at once",
+      "lemma": "all at once",
+      "lemmaId": "all_at_once",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "adverb_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "все сразу"
+        },
+        "uk": {
+          "translation": "все одразу"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "Mrs. Sharp gave him one every term for a year, starting with the last. “Not all at once, in case he gets greedy,” she said.",
+      "exampleStart": 2056,
+      "exampleEnd": 2179,
+      "exampleTranslation": "все сразу",
+      "phraseMatch": {
+        "text": "all at once",
+        "startInExample": 76,
+        "endInExample": 87
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "all_at_once_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "все одразу"
+        }
+      }
+    },
+    {
+      "word": "All the same",
+      "lemma": "all the same",
+      "lemmaId": "all_the_same",
+      "pos": "phrase",
+      "type": "discourse_marker",
+      "category": "mwe",
+      "mweType": "discourse_marker",
+      "syntacticForm": "adverb_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "всё же"
+        },
+        "uk": {
+          "translation": "Проте"
+        }
+      },
+      "definition": "discourse marker used as one lexical expression in this context.",
+      "example": "All the same, at the heart of everything, he felt lost and lonely.",
+      "exampleStart": 1588,
+      "exampleEnd": 1654,
+      "exampleTranslation": "всё же",
+      "phraseMatch": {
+        "text": "All the same",
+        "startInExample": 0,
+        "endInExample": 12
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "all_the_same_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "Проте"
+        }
+      }
+    },
+    {
+      "word": "Or else",
+      "lemma": "or else",
+      "lemmaId": "or_else",
+      "pos": "phrase",
+      "type": "formulaic_expression",
+      "category": "mwe",
+      "mweType": "formulaic_expression",
+      "syntacticForm": "clause",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "А не то"
+        },
+        "uk": {
+          "translation": "Інакше"
+        }
+      },
+      "definition": "formulaic expression used as one lexical expression in this context.",
+      "example": "“Or else.”",
+      "exampleStart": 1877,
+      "exampleEnd": 1887,
+      "exampleTranslation": "А не то",
+      "phraseMatch": {
+        "text": "Or else",
+        "startInExample": 1,
+        "endInExample": 8
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "or_else_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "Інакше"
+        }
+      }
+    },
+    {
+      "word": "to pieces",
+      "lemma": "to pieces",
+      "lemmaId": "to_pieces",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "prepositional_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "рассыпалась"
+        },
+        "uk": {
+          "translation": "на шматки"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "Cat wore it in his buttonhole until it fell to pieces.",
+      "exampleStart": 795,
+      "exampleEnd": 849,
+      "exampleTranslation": "рассыпалась",
+      "phraseMatch": {
+        "text": "to pieces",
+        "startInExample": 44,
+        "endInExample": 53
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "to_pieces_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "на шматки"
+        }
+      }
+    },
+    {
+      "word": "was used to it",
+      "lemma": "be used to",
+      "lemmaId": "be_used_to",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "verb_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "привык"
+        },
+        "uk": {
+          "translation": "до цього звик"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "But they did that at all the schools Cat had been to, and he was used to it.",
+      "exampleStart": 1485,
+      "exampleEnd": 1561,
+      "exampleTranslation": "привык",
+      "phraseMatch": {
+        "text": "was used to it",
+        "startInExample": 61,
+        "endInExample": 75
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "be_used_to_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "до цього звик"
+        }
+      }
     }
   ],
   "namedEntities": [

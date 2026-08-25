@@ -21,13 +21,13 @@
       "wordCount": 641,
       "uniqueWordCount": 352,
       "paragraphCount": 18,
-      "vocabularyCount": 186,
+      "vocabularyCount": 187,
       "levelDistribution": {
-        "A1": 44,
+        "A1": 45,
         "A2": 34,
         "B1": 48,
-        "B2": 44,
-        "C1": 12,
+        "B2": 45,
+        "C1": 11,
         "C2": 4
       }
     }
@@ -59,7 +59,10 @@
         "endInExample": 22
       },
       "ipa": "əˈkaʊnt fɔː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "account",
@@ -455,7 +458,10 @@
         "endInExample": 25
       },
       "ipa": "ˌbiːn ˈʌp tuː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "bent",
@@ -541,7 +547,10 @@
         "endInExample": 27
       },
       "ipa": "ˌbreɪk ˈdaʊn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "breaking through",
@@ -569,7 +578,10 @@
         "endInExample": 66
       },
       "ipa": "ˌbreɪkɪŋ ˈθruː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "breaking",
@@ -654,8 +666,8 @@
       "lemma": "by mistake",
       "lemmaId": "by_mistake",
       "pos": "phrase",
-      "type": "phrase",
-      "source": "spacy_phrase",
+      "type": "fixed_expression",
+      "source": "manual_mwe",
       "wordKey": "by_mistake_phrase",
       "level": "B1",
       "translations": {
@@ -663,7 +675,7 @@
           "translation": "по ошибке"
         },
         "uk": {
-          "translation": "помилково"
+          "translation": "випадково"
         }
       },
       "example": "Naturally, Cat found Janet had sat in his desk by mistake.",
@@ -675,7 +687,17 @@
         "endInExample": 57
       },
       "ipa": "baɪ mɪˈsteɪk",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "syntacticForm": "prepositional_phrase",
+      "mweType": "fixed_expression",
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "exampleTranslation": "по ошибке",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "випадково"
+        }
+      }
     },
     {
       "word": "called",
@@ -707,10 +729,10 @@
       "word": "Castle",
       "lemma": "castle",
       "lemmaId": "castle",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "castle_adjective",
-      "level": "B1",
+      "wordKey": "castle_noun",
+      "level": "A2",
       "translations": {
         "ru": {
           "translation": "замковый"
@@ -725,7 +747,7 @@
       "exampleEnd": 3577,
       "matchedForm": "Castle",
       "ipa": "ˈkæsəl",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.588571,
       "difficultySource": "zipf"
     },
@@ -755,7 +777,9 @@
         "endInExample": 75
       },
       "ipa": "ˌkæsəl ˈseləz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "caught",
@@ -1191,7 +1215,9 @@
         "endInExample": 57
       },
       "ipa": "ˌɪŋɡlɪʃ ˈeseɪ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "essay",
@@ -1221,12 +1247,12 @@
     },
     {
       "word": "exasperated",
-      "lemma": "exasperate",
-      "lemmaId": "exasperate",
-      "pos": "verb",
+      "lemma": "exasperated",
+      "lemmaId": "exasperated",
+      "pos": "adjective",
       "source": "word",
-      "wordKey": "exasperate_verb",
-      "level": "C1",
+      "wordKey": "exasperated_adjective",
+      "level": "B2",
       "translations": {
         "de": {
           "translation": "ärgern"
@@ -1241,13 +1267,13 @@
           "translation": "Роздратований"
         }
       },
-      "_spacyLemma": "exasperate",
+      "_spacyLemma": "exasperated",
       "example": "Saunders looked so exasperated that she babbled, “Well, I think it was.",
       "exampleStart": 1617,
       "exampleEnd": 1688,
       "matchedForm": "exasperated",
       "ipa": "eɡˈzæspəˌreɪtɪd",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf"
     },
@@ -1355,7 +1381,10 @@
         "endInExample": 105
       },
       "ipa": "ˌfaɪnd ˈaʊt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "Finding",
@@ -1546,34 +1575,6 @@
       "difficultySource": "zipf"
     },
     {
-      "word": "go through",
-      "lemma": "go through",
-      "lemmaId": "go_through",
-      "pos": "phrasal_verb",
-      "type": "phrasal_verb",
-      "source": "dictionary_phrasal",
-      "wordKey": "go_through_phrasal_verb",
-      "level": "B2",
-      "translations": {
-        "ru": {
-          "translation": "Проходите"
-        },
-        "uk": {
-          "translation": "Заходьте"
-        }
-      },
-      "example": "They had to go through to the schoolroom.",
-      "exampleStart": 669,
-      "exampleEnd": 710,
-      "phraseMatch": {
-        "text": "go through",
-        "startInExample": 12,
-        "endInExample": 22
-      },
-      "ipa": "ˌɡəʊ ˈθruː",
-      "levelSource": "phrase_index"
-    },
-    {
       "word": "going",
       "lemma": "go",
       "lemmaId": "go",
@@ -1651,7 +1652,9 @@
         "endInExample": 92
       },
       "ipa": "ˌɡreɪ ˈmætə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "great",
@@ -1705,7 +1708,9 @@
         "endInExample": 148
       },
       "ipa": "ˌɡreɪt ˈsnɔː",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "growing on",
@@ -1733,7 +1738,10 @@
         "endInExample": 89
       },
       "ipa": "ˌɡrəʊɪŋ ˈɒn",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "prepositional_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "growing",
@@ -1929,7 +1937,9 @@
         "endInExample": 78
       },
       "ipa": "hɜː ˈfeɪs",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her own world",
@@ -1957,7 +1967,9 @@
         "endInExample": 35
       },
       "ipa": "hɜː ˌəʊn ˈwɜːld",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her relief",
@@ -1985,7 +1997,9 @@
         "endInExample": 38
       },
       "ipa": "hɜː rɪˈliːf",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "her world",
@@ -2013,7 +2027,9 @@
         "endInExample": 37
       },
       "ipa": "hɜː ˈwɜːld",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "hid",
@@ -2093,7 +2109,9 @@
         "endInExample": 46
       },
       "ipa": "hɪz ˈdesk",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his eyes",
@@ -2121,7 +2139,9 @@
         "endInExample": 15
       },
       "ipa": "hɪz ˈaɪz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his hands",
@@ -2149,7 +2169,9 @@
         "endInExample": 22
       },
       "ipa": "hɪz ˈhændz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his head",
@@ -2177,7 +2199,9 @@
         "endInExample": 34
       },
       "ipa": "hɪz ˈhed",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his moment",
@@ -2205,7 +2229,9 @@
         "endInExample": 22
       },
       "ipa": "hɪz ˈməʊmənt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "his nose",
@@ -2233,16 +2259,18 @@
         "endInExample": 41
       },
       "ipa": "hɪz ˈnəʊz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "History",
       "lemma": "history",
       "lemmaId": "history",
-      "pos": "adjective",
+      "pos": "noun",
       "source": "word",
-      "wordKey": "history_adjective",
-      "level": "A2",
+      "wordKey": "history_noun",
+      "level": "A1",
       "translations": {
         "ru": {
           "translation": "исторический"
@@ -2257,7 +2285,7 @@
       "exampleEnd": 1299,
       "matchedForm": "History",
       "ipa": "ˈhɪstəri",
-      "levelSource": "vocabulary_index",
+      "levelSource": "cefr_reference",
       "difficultyScore": 0.32,
       "difficultySource": "zipf"
     },
@@ -2287,7 +2315,9 @@
         "endInExample": 54
       },
       "ipa": "ˌhɪstəri ˈtest",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "hoping",
@@ -2405,7 +2435,9 @@
         "endInExample": 42
       },
       "ipa": "ˌaɪən ˌʌndəˈweə",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "jokes",
@@ -2763,7 +2795,9 @@
         "endInExample": 77
       },
       "ipa": "ˌlɪtəl ˈsel",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "long",
@@ -3005,7 +3039,9 @@
         "endInExample": 49
       },
       "ipa": "ˌmɑːbəl ˈhed",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "marble",
@@ -3285,7 +3321,9 @@
         "endInExample": 31
       },
       "ipa": "maɪ ˈhed",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "Naturally",
@@ -3365,7 +3403,9 @@
         "endInExample": 36
       },
       "ipa": "ˌwɒn ˌnɒbi ˈhænd",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "only subject",
@@ -3393,7 +3433,9 @@
         "endInExample": 22
       },
       "ipa": "ˌəʊnli ˈsʌbdʒekt",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "only thing",
@@ -3421,7 +3463,9 @@
         "endInExample": 50
       },
       "ipa": "ˌəʊnli ˈθɪŋ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "opposite",
@@ -3559,7 +3603,9 @@
         "endInExample": 122
       },
       "ipa": "pɔːˌtentəs ˈlʊk",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "Probably",
@@ -3981,7 +4027,9 @@
         "endInExample": 72
       },
       "ipa": "ˌsɪmpəl əˈrɪθməˌtɪk",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "sat",
@@ -4209,7 +4257,9 @@
         "endInExample": 66
       },
       "ipa": "ˌstrɪkən ˈlʊk",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "subject",
@@ -4515,7 +4565,9 @@
         "endInExample": 131
       },
       "ipa": "ðeə ˈlɒŋbəʊz",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "thing",
@@ -4725,7 +4777,10 @@
         "endInExample": 28
       },
       "ipa": "ˌtɜːn ˈbæk",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "mwe",
+      "mweType": "phrasal_verb",
+      "syntacticForm": "verb_phrase"
     },
     {
       "word": "turned",
@@ -4811,7 +4866,9 @@
         "endInExample": 37
       },
       "ipa": "ʌŋˌkʌmftəbəl ˈmɔːnɪŋ",
-      "levelSource": "phrase_index"
+      "levelSource": "phrase_index",
+      "category": "phrase",
+      "syntacticForm": "noun_phrase"
     },
     {
       "word": "underwear",
@@ -5180,6 +5237,80 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.76,
       "difficultySource": "zipf"
+    },
+    {
+      "word": "At last",
+      "lemma": "at last",
+      "lemmaId": "at_last",
+      "pos": "phrase",
+      "type": "fixed_expression",
+      "category": "mwe",
+      "mweType": "fixed_expression",
+      "syntacticForm": "adverb_phrase",
+      "source": "manual_mwe",
+      "level": "B1",
+      "translations": {
+        "ru": {
+          "translation": "Наконец"
+        },
+        "uk": {
+          "translation": "Нарешті"
+        }
+      },
+      "definition": "fixed expression used as one lexical expression in this context.",
+      "example": "At last — very long last — it was time for Mary to bring the milk and biscuits, which she did, with a very portentous look.",
+      "exampleStart": 3282,
+      "exampleEnd": 3405,
+      "exampleTranslation": "Наконец",
+      "phraseMatch": {
+        "text": "At last",
+        "startInExample": 0,
+        "endInExample": 7
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "at_last_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "Нарешті"
+        }
+      }
+    },
+    {
+      "word": "take the hint",
+      "lemma": "take the hint",
+      "lemmaId": "take_the_hint",
+      "pos": "phrase",
+      "type": "idiom",
+      "category": "mwe",
+      "mweType": "idiom",
+      "syntacticForm": "verb_phrase",
+      "source": "manual_mwe",
+      "level": "B2",
+      "translations": {
+        "ru": {
+          "translation": "поймёт намёк"
+        },
+        "uk": {
+          "translation": "зрозуміє натяк"
+        }
+      },
+      "definition": "idiom used as one lexical expression in this context.",
+      "example": "“Gwendolen never knows anything,” he remarked loudly, hoping Janet would take the hint.",
+      "exampleStart": 2453,
+      "exampleEnd": 2540,
+      "exampleTranslation": "поймёт намёк",
+      "phraseMatch": {
+        "text": "take the hint",
+        "startInExample": 73,
+        "endInExample": 86
+      },
+      "levelSource": "phrase_fallback",
+      "wordKey": "take_the_hint_phrase",
+      "exampleTranslations": {
+        "uk": {
+          "translation": "зрозуміє натяк"
+        }
+      }
     }
   ],
   "namedEntities": [

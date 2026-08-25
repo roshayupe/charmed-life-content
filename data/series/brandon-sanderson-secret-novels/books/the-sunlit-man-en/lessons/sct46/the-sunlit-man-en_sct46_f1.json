@@ -21,14 +21,13 @@
       "wordCount": 487,
       "uniqueWordCount": 277,
       "paragraphCount": 12,
-      "vocabularyCount": 168,
+      "vocabularyCount": 166,
       "levelDistribution": {
         "A1": 42,
-        "A2": 33,
-        "B1": 45,
-        "B2": 38,
-        "C1": 10,
-        "C2": 0
+        "A2": 32,
+        "B1": 42,
+        "B2": 40,
+        "C1": 10
       }
     }
   },
@@ -156,27 +155,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.385714,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "cinderheart",
-      "lemma": "cinderheart",
-      "lemmaId": "cinderheart",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "cinderheart_noun",
-      "level": "C1",
-      "translations": {
-        "ru": {
-          "translation": "углесердце"
-        }
-      },
-      "_spacyLemma": "cinderheart",
-      "example": "His cinderheart glowed fiercely beneath his shirt, and he smiled with unbridled glee at the horror in Rebeke’s expression.",
-      "exampleStart": 522,
-      "exampleEnd": 644,
-      "matchedForm": "cinderheart",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "ˈsɪndəˌhɑːt"
     },
     {
       "word": "city",
@@ -375,10 +353,10 @@
       "word": "cower",
       "lemma": "cower",
       "lemmaId": "cower",
-      "pos": "noun",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "cower_noun",
-      "level": "A2",
+      "wordKey": "cower_verb",
+      "level": "C1",
       "translations": {
         "ru": {
           "translation": "Страх"
@@ -389,7 +367,7 @@
       "exampleStart": 2533,
       "exampleEnd": 2681,
       "matchedForm": "cower",
-      "levelSource": "difficulty_heuristic",
+      "levelSource": "cefr_context_review",
       "difficultyScore": 1,
       "difficultySource": "zipf",
       "ipa": "ˈkaʊə"
@@ -870,25 +848,25 @@
     },
     {
       "word": "farthest",
-      "lemma": "farth",
-      "lemmaId": "farth",
+      "lemma": "far",
+      "lemmaId": "far",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "farth_adjective",
-      "level": "B1",
+      "wordKey": "far_adjective",
+      "level": "A2",
       "translations": {
         "ru": {
           "translation": "самый дальний"
         }
       },
-      "_spacyLemma": "farth",
+      "_spacyLemma": "far",
       "example": "“Your people will be the flames that carry my ships to conquer and unite even the farthest corridors.",
       "exampleStart": 2431,
       "exampleEnd": 2532,
       "matchedForm": "farthest",
-      "ipa": "ˈfɑːðɪst",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 0.985714,
+      "ipa": "fɑː",
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.288571,
       "difficultySource": "zipf"
     },
     {
@@ -1716,24 +1694,24 @@
     },
     {
       "word": "huddled",
-      "lemma": "huddle",
-      "lemmaId": "huddle",
+      "lemma": "huddled",
+      "lemmaId": "huddled",
       "pos": "adjective",
       "source": "word",
-      "wordKey": "huddle_adjective",
-      "level": "B1",
+      "wordKey": "huddled_adjective",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "Спрятались"
         }
       },
-      "_spacyLemma": "huddle",
+      "_spacyLemma": "huddled",
       "example": "She fell to her knees at the side of the flying city, looking down at the huddled remnants of Beacon, gathered on the ground.",
       "exampleStart": 645,
       "exampleEnd": 770,
       "matchedForm": "huddled",
-      "levelSource": "difficulty_heuristic",
-      "difficultyScore": 0.98,
+      "levelSource": "vocabulary_index",
+      "difficultyScore": 0.997143,
       "difficultySource": "zipf",
       "ipa": "ˈhʌdəld"
     },
@@ -1902,25 +1880,25 @@
     },
     {
       "word": "knelt",
-      "lemma": "knelt",
-      "lemmaId": "knelt",
-      "pos": "noun",
+      "lemma": "kneel",
+      "lemmaId": "kneel",
+      "pos": "verb",
       "source": "word",
-      "wordKey": "knelt_noun",
-      "level": "A2",
+      "wordKey": "kneel_verb",
+      "level": "B2",
       "translations": {
         "ru": {
           "translation": "колено"
         }
       },
-      "_spacyLemma": "knelt",
+      "_spacyLemma": "kneel",
       "example": "Rebeke knelt at the edge of the city, shaking.",
       "exampleStart": 1955,
       "exampleEnd": 2001,
       "matchedForm": "knelt",
-      "ipa": "nelt",
-      "levelSource": "vocabulary_index",
-      "difficultyScore": 1,
+      "ipa": "niːl",
+      "levelSource": "cefr_context_review",
+      "difficultyScore": 0.934286,
       "difficultySource": "zipf"
     },
     {
@@ -3560,27 +3538,6 @@
       "levelSource": "vocabulary_index",
       "difficultyScore": 0.44,
       "difficultySource": "zipf"
-    },
-    {
-      "word": "sunheart",
-      "lemma": "sunheart",
-      "lemmaId": "sunheart",
-      "pos": "noun",
-      "source": "word",
-      "wordKey": "sunheart_noun",
-      "level": "B1",
-      "translations": {
-        "ru": {
-          "translation": "Санхарт"
-        }
-      },
-      "_spacyLemma": "sunheart",
-      "example": "So they didn’t know about the sliver of a sunheart that Zellion had given her.",
-      "exampleStart": 1825,
-      "exampleEnd": 1903,
-      "matchedForm": "sunheart",
-      "levelSource": "difficulty_heuristic",
-      "ipa": "ˈsʌnhɑːt"
     },
     {
       "word": "surrender",

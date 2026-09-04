@@ -39,7 +39,7 @@
 
 ## charmed-life-en_sct1_f4
 
-- Existing taxonomy normalized: vocabulary MWE 16, syntactic phrases 24; links MWE 16, syntactic phrases 24.
+- Existing taxonomy normalized: vocabulary MWE 15, syntactic phrases 24; links MWE 16, syntactic phrases 24.
 - Curated: 5; vocabulary added/reclassified 5/0; links added/reclassified 5/0; unresolved 0; target omitted 0.
 - Lexicon candidates rejected as ordinary, literal, accidental, or not learner-useful: 3.
 
@@ -64,7 +64,7 @@
 
 ## charmed-life-en_sct2_f1
 
-- Existing taxonomy normalized: vocabulary MWE 9, syntactic phrases 27; links MWE 9, syntactic phrases 27.
+- Existing taxonomy normalized: vocabulary MWE 8, syntactic phrases 27; links MWE 9, syntactic phrases 27.
 - Curated: 0; vocabulary added/reclassified 0/0; links added/reclassified 0/0; unresolved 0; target omitted 0.
 - Lexicon candidates rejected as ordinary, literal, accidental, or not learner-useful: 11.
 
@@ -91,7 +91,7 @@
 
 ## charmed-life-en_sct2_f4
 
-- Existing taxonomy normalized: vocabulary MWE 10, syntactic phrases 19; links MWE 11, syntactic phrases 19.
+- Existing taxonomy normalized: vocabulary MWE 9, syntactic phrases 19; links MWE 11, syntactic phrases 19.
 - Curated: 2; vocabulary added/reclassified 2/0; links added/reclassified 2/0; unresolved 0; target omitted 0.
 - Lexicon candidates rejected as ordinary, literal, accidental, or not learner-useful: 6.
 
@@ -114,7 +114,7 @@
 
 ## charmed-life-en_sct3_f1
 
-- Existing taxonomy normalized: vocabulary MWE 8, syntactic phrases 31; links MWE 8, syntactic phrases 31.
+- Existing taxonomy normalized: vocabulary MWE 7, syntactic phrases 31; links MWE 8, syntactic phrases 31.
 - Curated: 1; vocabulary added/reclassified 1/0; links added/reclassified 1/0; unresolved 0; target omitted 0.
 - Lexicon candidates rejected as ordinary, literal, accidental, or not learner-useful: 3.
 
@@ -122,7 +122,7 @@
 
 ## charmed-life-en_sct3_f2
 
-- Existing taxonomy normalized: vocabulary MWE 8, syntactic phrases 31; links MWE 8, syntactic phrases 31.
+- Existing taxonomy normalized: vocabulary MWE 7, syntactic phrases 31; links MWE 8, syntactic phrases 31.
 - Curated: 3; vocabulary added/reclassified 3/0; links added/reclassified 3/0; unresolved 0; target omitted 0.
 - Lexicon candidates rejected as ordinary, literal, accidental, or not learner-useful: 3.
 
@@ -152,7 +152,7 @@
 
 ## charmed-life-en_sct4_f1
 
-- Existing taxonomy normalized: vocabulary MWE 17, syntactic phrases 26; links MWE 18, syntactic phrases 26.
+- Existing taxonomy normalized: vocabulary MWE 16, syntactic phrases 26; links MWE 18, syntactic phrases 26.
 - Curated: 3; vocabulary added/reclassified 2/1; links added/reclassified 2/1; unresolved 0; target omitted 0.
 - Lexicon candidates rejected as ordinary, literal, accidental, or not learner-useful: 8.
 
@@ -170,7 +170,7 @@
 
 ## charmed-life-en_sct4_f3
 
-- Existing taxonomy normalized: vocabulary MWE 16, syntactic phrases 32; links MWE 16, syntactic phrases 32.
+- Existing taxonomy normalized: vocabulary MWE 15, syntactic phrases 32; links MWE 16, syntactic phrases 32.
 - Curated: 5; vocabulary added/reclassified 5/0; links added/reclassified 5/0; unresolved 0; target omitted 0.
 - Lexicon candidates rejected as ordinary, literal, accidental, or not learner-useful: 14.
 
@@ -182,7 +182,7 @@
 
 ## charmed-life-en_sct4_f4
 
-- Existing taxonomy normalized: vocabulary MWE 16, syntactic phrases 26; links MWE 21, syntactic phrases 26.
+- Existing taxonomy normalized: vocabulary MWE 15, syntactic phrases 26; links MWE 21, syntactic phrases 26.
 - Curated: 4; vocabulary added/reclassified 4/0; links added/reclassified 4/0; unresolved 0; target omitted 0.
 - Lexicon candidates rejected as ordinary, literal, accidental, or not learner-useful: 8.
 
@@ -193,7 +193,7 @@
 
 ## charmed-life-en_sct4_f5
 
-- Existing taxonomy normalized: vocabulary MWE 17, syntactic phrases 23; links MWE 18, syntactic phrases 23.
+- Existing taxonomy normalized: vocabulary MWE 15, syntactic phrases 23; links MWE 18, syntactic phrases 23.
 - Curated: 2; vocabulary added/reclassified 2/0; links added/reclassified 2/0; unresolved 0; target omitted 0.
 - Lexicon candidates rejected as ordinary, literal, accidental, or not learner-useful: 9.
 
@@ -223,7 +223,7 @@
 
 ## charmed-life-en_sct5_f2
 
-- Existing taxonomy normalized: vocabulary MWE 23, syntactic phrases 23; links MWE 24, syntactic phrases 23.
+- Existing taxonomy normalized: vocabulary MWE 22, syntactic phrases 23; links MWE 24, syntactic phrases 23.
 - Curated: 6; vocabulary added/reclassified 6/0; links added/reclassified 6/0; unresolved 0; target omitted 1.
 - Lexicon candidates rejected as ordinary, literal, accidental, or not learner-useful: 7.
 
@@ -236,7 +236,7 @@
 
 ## charmed-life-en_sct5_f3
 
-- Existing taxonomy normalized: vocabulary MWE 13, syntactic phrases 33; links MWE 14, syntactic phrases 33.
+- Existing taxonomy normalized: vocabulary MWE 12, syntactic phrases 33; links MWE 14, syntactic phrases 33.
 - Curated: 2; vocabulary added/reclassified 2/0; links added/reclassified 2/0; unresolved 0; target omitted 0.
 - Lexicon candidates rejected as ordinary, literal, accidental, or not learner-useful: 10.
 
@@ -245,7 +245,7 @@
 
 ## charmed-life-en_sct5_f4
 
-- Existing taxonomy normalized: vocabulary MWE 12, syntactic phrases 23; links MWE 15, syntactic phrases 23.
+- Existing taxonomy normalized: vocabulary MWE 11, syntactic phrases 23; links MWE 15, syntactic phrases 23.
 - Curated: 3; vocabulary added/reclassified 2/0; links added/reclassified 3/0; unresolved 0; target omitted 1.
 - Lexicon candidates rejected as ordinary, literal, accidental, or not learner-useful: 11.
 
@@ -255,7 +255,7 @@
 
 ## charmed-life-en_sct5_f5
 
-- Existing taxonomy normalized: vocabulary MWE 34, syntactic phrases 39; links MWE 39, syntactic phrases 39.
+- Existing taxonomy normalized: vocabulary MWE 32, syntactic phrases 39; links MWE 39, syntactic phrases 39.
 - Curated: 11; vocabulary added/reclassified 9/0; links added/reclassified 11/0; unresolved 0; target omitted 0.
 - Lexicon candidates rejected as ordinary, literal, accidental, or not learner-useful: 10.
 
@@ -273,7 +273,7 @@
 
 ## charmed-life-en_sct6_f1
 
-- Existing taxonomy normalized: vocabulary MWE 15, syntactic phrases 18; links MWE 15, syntactic phrases 18.
+- Existing taxonomy normalized: vocabulary MWE 13, syntactic phrases 18; links MWE 15, syntactic phrases 18.
 - Curated: 1; vocabulary added/reclassified 1/0; links added/reclassified 1/0; unresolved 0; target omitted 0.
 - Lexicon candidates rejected as ordinary, literal, accidental, or not learner-useful: 5.
 
@@ -302,7 +302,7 @@
 
 ## charmed-life-en_sct6_f4
 
-- Existing taxonomy normalized: vocabulary MWE 7, syntactic phrases 16; links MWE 8, syntactic phrases 16.
+- Existing taxonomy normalized: vocabulary MWE 6, syntactic phrases 16; links MWE 8, syntactic phrases 16.
 - Curated: 1; vocabulary added/reclassified 1/0; links added/reclassified 1/0; unresolved 0; target omitted 0.
 - Lexicon candidates rejected as ordinary, literal, accidental, or not learner-useful: 7.
 
@@ -355,7 +355,7 @@
 
 ## charmed-life-en_sct7_f4
 
-- Existing taxonomy normalized: vocabulary MWE 18, syntactic phrases 22; links MWE 20, syntactic phrases 22.
+- Existing taxonomy normalized: vocabulary MWE 17, syntactic phrases 22; links MWE 20, syntactic phrases 22.
 - Curated: 4; vocabulary added/reclassified 4/0; links added/reclassified 4/0; unresolved 0; target omitted 0.
 - Lexicon candidates rejected as ordinary, literal, accidental, or not learner-useful: 10.
 
@@ -376,7 +376,7 @@
 
 ## charmed-life-en_sct8_f1
 
-- Existing taxonomy normalized: vocabulary MWE 11, syntactic phrases 28; links MWE 13, syntactic phrases 28.
+- Existing taxonomy normalized: vocabulary MWE 10, syntactic phrases 28; links MWE 13, syntactic phrases 28.
 - Curated: 4; vocabulary added/reclassified 3/0; links added/reclassified 4/0; unresolved 0; target omitted 0.
 - Lexicon candidates rejected as ordinary, literal, accidental, or not learner-useful: 6.
 
@@ -404,7 +404,7 @@
 
 ## charmed-life-en_sct8_f4
 
-- Existing taxonomy normalized: vocabulary MWE 20, syntactic phrases 37; links MWE 21, syntactic phrases 37.
+- Existing taxonomy normalized: vocabulary MWE 19, syntactic phrases 37; links MWE 21, syntactic phrases 37.
 - Curated: 3; vocabulary added/reclassified 3/0; links added/reclassified 3/0; unresolved 0; target omitted 0.
 - Lexicon candidates rejected as ordinary, literal, accidental, or not learner-useful: 7.
 
@@ -424,7 +424,7 @@
 
 ## charmed-life-en_sct9_f2
 
-- Existing taxonomy normalized: vocabulary MWE 12, syntactic phrases 22; links MWE 12, syntactic phrases 22.
+- Existing taxonomy normalized: vocabulary MWE 11, syntactic phrases 22; links MWE 12, syntactic phrases 22.
 - Curated: 0; vocabulary added/reclassified 0/0; links added/reclassified 0/0; unresolved 0; target omitted 0.
 - Lexicon candidates rejected as ordinary, literal, accidental, or not learner-useful: 8.
 
@@ -453,7 +453,7 @@
 
 ## charmed-life-en_sct9_f5
 
-- Existing taxonomy normalized: vocabulary MWE 23, syntactic phrases 30; links MWE 24, syntactic phrases 30.
+- Existing taxonomy normalized: vocabulary MWE 22, syntactic phrases 30; links MWE 24, syntactic phrases 30.
 - Curated: 10; vocabulary added/reclassified 8/0; links added/reclassified 10/0; unresolved 0; target omitted 1.
 - Lexicon candidates rejected as ordinary, literal, accidental, or not learner-useful: 11.
 
@@ -470,7 +470,7 @@
 
 ## charmed-life-en_sct10_f1
 
-- Existing taxonomy normalized: vocabulary MWE 11, syntactic phrases 27; links MWE 11, syntactic phrases 27.
+- Existing taxonomy normalized: vocabulary MWE 10, syntactic phrases 27; links MWE 11, syntactic phrases 27.
 - Curated: 3; vocabulary added/reclassified 2/1; links added/reclassified 2/1; unresolved 0; target omitted 0.
 - Lexicon candidates rejected as ordinary, literal, accidental, or not learner-useful: 6.
 
@@ -511,7 +511,7 @@
 
 ## charmed-life-en_sct10_f5
 
-- Existing taxonomy normalized: vocabulary MWE 25, syntactic phrases 42; links MWE 25, syntactic phrases 42.
+- Existing taxonomy normalized: vocabulary MWE 23, syntactic phrases 42; links MWE 25, syntactic phrases 42.
 - Curated: 1; vocabulary added/reclassified 1/0; links added/reclassified 1/0; unresolved 0; target omitted 0.
 - Lexicon candidates rejected as ordinary, literal, accidental, or not learner-useful: 6.
 
@@ -519,7 +519,7 @@
 
 ## charmed-life-en_sct11_f1
 
-- Existing taxonomy normalized: vocabulary MWE 14, syntactic phrases 23; links MWE 17, syntactic phrases 23.
+- Existing taxonomy normalized: vocabulary MWE 13, syntactic phrases 23; links MWE 17, syntactic phrases 23.
 - Curated: 3; vocabulary added/reclassified 3/0; links added/reclassified 3/0; unresolved 0; target omitted 0.
 - Lexicon candidates rejected as ordinary, literal, accidental, or not learner-useful: 7.
 
@@ -685,7 +685,7 @@
 
 ## charmed-life-en_sct13_f7
 
-- Existing taxonomy normalized: vocabulary MWE 14, syntactic phrases 35; links MWE 14, syntactic phrases 35.
+- Existing taxonomy normalized: vocabulary MWE 12, syntactic phrases 35; links MWE 14, syntactic phrases 35.
 - Curated: 2; vocabulary added/reclassified 2/0; links added/reclassified 2/0; unresolved 0; target omitted 0.
 - Lexicon candidates rejected as ordinary, literal, accidental, or not learner-useful: 13.
 
@@ -694,7 +694,7 @@
 
 ## charmed-life-en_sct14_f1
 
-- Existing taxonomy normalized: vocabulary MWE 20, syntactic phrases 24; links MWE 22, syntactic phrases 24.
+- Existing taxonomy normalized: vocabulary MWE 18, syntactic phrases 24; links MWE 22, syntactic phrases 24.
 - Curated: 2; vocabulary added/reclassified 2/0; links added/reclassified 2/0; unresolved 0; target omitted 0.
 - Lexicon candidates rejected as ordinary, literal, accidental, or not learner-useful: 6.
 
@@ -732,7 +732,7 @@
 
 ## charmed-life-en_sct14_f5
 
-- Existing taxonomy normalized: vocabulary MWE 13, syntactic phrases 31; links MWE 14, syntactic phrases 31.
+- Existing taxonomy normalized: vocabulary MWE 12, syntactic phrases 31; links MWE 14, syntactic phrases 31.
 - Curated: 2; vocabulary added/reclassified 2/0; links added/reclassified 2/0; unresolved 0; target omitted 0.
 - Lexicon candidates rejected as ordinary, literal, accidental, or not learner-useful: 11.
 
@@ -741,7 +741,7 @@
 
 ## charmed-life-en_sct14_f6
 
-- Existing taxonomy normalized: vocabulary MWE 24, syntactic phrases 56; links MWE 27, syntactic phrases 56.
+- Existing taxonomy normalized: vocabulary MWE 23, syntactic phrases 56; links MWE 27, syntactic phrases 56.
 - Curated: 4; vocabulary added/reclassified 4/0; links added/reclassified 4/0; unresolved 0; target omitted 0.
 - Lexicon candidates rejected as ordinary, literal, accidental, or not learner-useful: 12.
 
@@ -752,7 +752,7 @@
 
 ## charmed-life-en_sct15_f1
 
-- Existing taxonomy normalized: vocabulary MWE 16, syntactic phrases 30; links MWE 16, syntactic phrases 30.
+- Existing taxonomy normalized: vocabulary MWE 14, syntactic phrases 30; links MWE 16, syntactic phrases 30.
 - Curated: 2; vocabulary added/reclassified 2/0; links added/reclassified 2/0; unresolved 0; target omitted 1.
 - Lexicon candidates rejected as ordinary, literal, accidental, or not learner-useful: 9.
 
@@ -778,7 +778,7 @@
 
 ## charmed-life-en_sct15_f4
 
-- Existing taxonomy normalized: vocabulary MWE 11, syntactic phrases 29; links MWE 13, syntactic phrases 29.
+- Existing taxonomy normalized: vocabulary MWE 10, syntactic phrases 29; links MWE 13, syntactic phrases 29.
 - Curated: 4; vocabulary added/reclassified 3/0; links added/reclassified 4/0; unresolved 0; target omitted 1.
 - Lexicon candidates rejected as ordinary, literal, accidental, or not learner-useful: 10.
 
@@ -789,7 +789,7 @@
 
 ## charmed-life-en_sct15_f5
 
-- Existing taxonomy normalized: vocabulary MWE 12, syntactic phrases 29; links MWE 13, syntactic phrases 29.
+- Existing taxonomy normalized: vocabulary MWE 11, syntactic phrases 29; links MWE 13, syntactic phrases 29.
 - Curated: 4; vocabulary added/reclassified 3/1; links added/reclassified 3/1; unresolved 0; target omitted 0.
 - Lexicon candidates rejected as ordinary, literal, accidental, or not learner-useful: 10.
 
@@ -800,7 +800,7 @@
 
 ## charmed-life-en_sct15_f6
 
-- Existing taxonomy normalized: vocabulary MWE 12, syntactic phrases 29; links MWE 12, syntactic phrases 29.
+- Existing taxonomy normalized: vocabulary MWE 11, syntactic phrases 29; links MWE 12, syntactic phrases 29.
 - Curated: 1; vocabulary added/reclassified 1/0; links added/reclassified 1/0; unresolved 0; target omitted 0.
 - Lexicon candidates rejected as ordinary, literal, accidental, or not learner-useful: 8.
 
@@ -861,7 +861,7 @@
 
 ## charmed-life-en_sct16_f4
 
-- Existing taxonomy normalized: vocabulary MWE 19, syntactic phrases 28; links MWE 19, syntactic phrases 28.
+- Existing taxonomy normalized: vocabulary MWE 17, syntactic phrases 28; links MWE 19, syntactic phrases 28.
 - Curated: 3; vocabulary added/reclassified 2/1; links added/reclassified 2/1; unresolved 0; target omitted 0.
 - Lexicon candidates rejected as ordinary, literal, accidental, or not learner-useful: 4.
 
@@ -894,7 +894,7 @@
 
 ## charmed-life-en_sct16_f7
 
-- Existing taxonomy normalized: vocabulary MWE 29, syntactic phrases 49; links MWE 36, syntactic phrases 49.
+- Existing taxonomy normalized: vocabulary MWE 26, syntactic phrases 49; links MWE 36, syntactic phrases 49.
 - Curated: 11; vocabulary added/reclassified 8/1; links added/reclassified 10/1; unresolved 0; target omitted 2.
 - Lexicon candidates rejected as ordinary, literal, accidental, or not learner-useful: 12.
 

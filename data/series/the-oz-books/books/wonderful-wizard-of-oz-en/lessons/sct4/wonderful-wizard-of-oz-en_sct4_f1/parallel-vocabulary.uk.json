@@ -1,0 +1,965 @@
+{
+  "ok": true,
+  "translationSource": "mapped_bundle",
+  "paragraphAlignmentSource": "mapping_file",
+  "sentenceAlignmentSource": "mapping_file",
+  "sentenceAlignmentStatus": "locked",
+  "sentAlignUsed": false,
+  "lessonId": "wonderful-wizard-of-oz-en_sct4_f1",
+  "sourceLanguage": "en",
+  "targetLanguage": "uk",
+  "sourceSentences": [
+    {
+      "id": "ch004_p0001_src_s001",
+      "text": "The Wonderful Wizard of Oz"
+    }
+  ],
+  "translatedSentences": [
+    {
+      "id": "ch004_p0001_tgt_s001",
+      "text": "«Дивовижний чарівник Країни Оз»",
+      "provider": "epub"
+    }
+  ],
+  "sourceParagraphs": [
+    {
+      "id": "wonderful-wizard-of-oz-en_sct4_f1:p1",
+      "sentenceIds": [
+        "ch004_p0001_src_s001"
+      ],
+      "text": "The Wonderful Wizard of Oz",
+      "sentenceOffsets": [
+        {
+          "sentenceId": "ch004_p0001_src_s001",
+          "start": 0,
+          "end": 26
+        }
+      ]
+    }
+  ],
+  "translatedParagraphs": [
+    {
+      "id": "wonderful-wizard-of-oz-en_sct4_f1:p1",
+      "role": "body",
+      "sentenceIds": [
+        "ch004_p0001_tgt_s001"
+      ],
+      "text": "«Дивовижний чарівник Країни Оз»",
+      "sentenceOffsets": [
+        {
+          "sentenceId": "ch004_p0001_tgt_s001",
+          "start": 0,
+          "end": 31
+        }
+      ]
+    }
+  ],
+  "paragraphPairs": [
+    {
+      "paragraphId": "wonderful-wizard-of-oz-en_sct4_f1:p1",
+      "role": "body",
+      "sourceText": "The Wonderful Wizard of Oz",
+      "translatedText": "«Дивовижний чарівник Країни Оз»",
+      "sourceSentenceIds": [
+        "ch004_p0001_src_s001"
+      ],
+      "translatedSentenceIds": [
+        "ch004_p0001_tgt_s001"
+      ],
+      "sourceSentences": [
+        {
+          "id": "ch004_p0001_src_s001",
+          "text": "The Wonderful Wizard of Oz",
+          "startOffset": 0,
+          "endOffset": 26
+        }
+      ],
+      "translatedSentences": [
+        {
+          "id": "ch004_p0001_tgt_s001",
+          "text": "«Дивовижний чарівник Країни Оз»",
+          "startOffset": 0,
+          "endOffset": 31
+        }
+      ],
+      "mappedSentenceGroups": [
+        {
+          "ownerId": "mapped:wonderful-wizard-of-oz-en_sct4_f1:p1:ch004_p0001_g001",
+          "groupId": "ch004_p0001_g001",
+          "paragraphId": "ch004_p0001",
+          "runtimeParagraphId": "wonderful-wizard-of-oz-en_sct4_f1:p1",
+          "groupType": "1:1",
+          "sourceSentenceIds": [
+            "ch004_p0001_src_s001"
+          ],
+          "targetSentenceIds": [
+            "ch004_p0001_tgt_s001"
+          ],
+          "sourceText": "The Wonderful Wizard of Oz",
+          "mappedSourceText": "The Wonderful Wizard of Oz",
+          "targetText": "«Дивовижний чарівник Країни Оз»",
+          "sourceSpan": {
+            "start": 0,
+            "end": 26
+          },
+          "mappedSourceSpan": {
+            "start": 0,
+            "end": 26
+          },
+          "targetSpan": {
+            "start": 0,
+            "end": 31
+          },
+          "sourceRanges": [
+            {
+              "sentenceId": "ch004_p0001_src_s001",
+              "text": "The Wonderful Wizard of Oz",
+              "start": 0,
+              "end": 26,
+              "startInParagraph": 0,
+              "endInParagraph": 26,
+              "startInGroup": 0,
+              "endInGroup": 26
+            }
+          ],
+          "mappedSourceRanges": [
+            {
+              "sentenceId": "ch004_p0001_src_s001",
+              "text": "The Wonderful Wizard of Oz",
+              "start": 0,
+              "end": 26,
+              "startInParagraph": 0,
+              "endInParagraph": 26,
+              "startInGroup": 0,
+              "endInGroup": 26
+            }
+          ],
+          "targetRanges": [
+            {
+              "sentenceId": "ch004_p0001_tgt_s001",
+              "text": "«Дивовижний чарівник Країни Оз»",
+              "start": 0,
+              "end": 31,
+              "startInParagraph": 0,
+              "endInParagraph": 31,
+              "startInGroup": 0,
+              "endInGroup": 31
+            }
+          ],
+          "sourceTokens": [
+            {
+              "index": 0,
+              "start": 0,
+              "end": 3,
+              "text": "The"
+            },
+            {
+              "index": 1,
+              "start": 4,
+              "end": 13,
+              "text": "Wonderful"
+            },
+            {
+              "index": 2,
+              "start": 14,
+              "end": 20,
+              "text": "Wizard"
+            },
+            {
+              "index": 3,
+              "start": 21,
+              "end": 23,
+              "text": "of"
+            },
+            {
+              "index": 4,
+              "start": 24,
+              "end": 26,
+              "text": "Oz"
+            }
+          ],
+          "targetTokens": [
+            {
+              "index": 0,
+              "start": 0,
+              "end": 1,
+              "text": "«"
+            },
+            {
+              "index": 1,
+              "start": 1,
+              "end": 11,
+              "text": "Дивовижний"
+            },
+            {
+              "index": 2,
+              "start": 12,
+              "end": 20,
+              "text": "чарівник"
+            },
+            {
+              "index": 3,
+              "start": 21,
+              "end": 27,
+              "text": "Країни"
+            },
+            {
+              "index": 4,
+              "start": 28,
+              "end": 30,
+              "text": "Оз"
+            },
+            {
+              "index": 5,
+              "start": 30,
+              "end": 31,
+              "text": "»"
+            }
+          ],
+          "links": [
+            {
+              "sourceTokenIndex": 0,
+              "targetTokenIndex": 1,
+              "method": "itermax",
+              "score": null,
+              "sourceSpan": {
+                "start": 0,
+                "end": 3
+              },
+              "targetSpan": {
+                "start": 1,
+                "end": 11
+              },
+              "sourceText": "The",
+              "targetText": "Дивовижний"
+            },
+            {
+              "sourceTokenIndex": 1,
+              "targetTokenIndex": 1,
+              "method": "itermax",
+              "score": null,
+              "sourceSpan": {
+                "start": 4,
+                "end": 13
+              },
+              "targetSpan": {
+                "start": 1,
+                "end": 11
+              },
+              "sourceText": "Wonderful",
+              "targetText": "Дивовижний"
+            },
+            {
+              "sourceTokenIndex": 2,
+              "targetTokenIndex": 2,
+              "method": "itermax",
+              "score": null,
+              "sourceSpan": {
+                "start": 14,
+                "end": 20
+              },
+              "targetSpan": {
+                "start": 12,
+                "end": 20
+              },
+              "sourceText": "Wizard",
+              "targetText": "чарівник"
+            },
+            {
+              "sourceTokenIndex": 3,
+              "targetTokenIndex": 2,
+              "method": "itermax",
+              "score": null,
+              "sourceSpan": {
+                "start": 21,
+                "end": 23
+              },
+              "targetSpan": {
+                "start": 12,
+                "end": 20
+              },
+              "sourceText": "of",
+              "targetText": "чарівник"
+            },
+            {
+              "sourceTokenIndex": 4,
+              "targetTokenIndex": 4,
+              "method": "itermax",
+              "score": null,
+              "sourceSpan": {
+                "start": 24,
+                "end": 26
+              },
+              "targetSpan": {
+                "start": 28,
+                "end": 30
+              },
+              "sourceText": "Oz",
+              "targetText": "Оз"
+            }
+          ],
+          "processed": true,
+          "cacheHit": true
+        }
+      ]
+    }
+  ],
+  "mappedSentenceGroupAlignments": [
+    {
+      "ownerId": "mapped:wonderful-wizard-of-oz-en_sct4_f1:p1:ch004_p0001_g001",
+      "groupId": "ch004_p0001_g001",
+      "paragraphId": "ch004_p0001",
+      "runtimeParagraphId": "wonderful-wizard-of-oz-en_sct4_f1:p1",
+      "groupType": "1:1",
+      "sourceSentenceIds": [
+        "ch004_p0001_src_s001"
+      ],
+      "targetSentenceIds": [
+        "ch004_p0001_tgt_s001"
+      ],
+      "sourceText": "The Wonderful Wizard of Oz",
+      "mappedSourceText": "The Wonderful Wizard of Oz",
+      "targetText": "«Дивовижний чарівник Країни Оз»",
+      "sourceSpan": {
+        "start": 0,
+        "end": 26
+      },
+      "mappedSourceSpan": {
+        "start": 0,
+        "end": 26
+      },
+      "targetSpan": {
+        "start": 0,
+        "end": 31
+      },
+      "sourceRanges": [
+        {
+          "sentenceId": "ch004_p0001_src_s001",
+          "text": "The Wonderful Wizard of Oz",
+          "start": 0,
+          "end": 26,
+          "startInParagraph": 0,
+          "endInParagraph": 26,
+          "startInGroup": 0,
+          "endInGroup": 26
+        }
+      ],
+      "mappedSourceRanges": [
+        {
+          "sentenceId": "ch004_p0001_src_s001",
+          "text": "The Wonderful Wizard of Oz",
+          "start": 0,
+          "end": 26,
+          "startInParagraph": 0,
+          "endInParagraph": 26,
+          "startInGroup": 0,
+          "endInGroup": 26
+        }
+      ],
+      "targetRanges": [
+        {
+          "sentenceId": "ch004_p0001_tgt_s001",
+          "text": "«Дивовижний чарівник Країни Оз»",
+          "start": 0,
+          "end": 31,
+          "startInParagraph": 0,
+          "endInParagraph": 31,
+          "startInGroup": 0,
+          "endInGroup": 31
+        }
+      ],
+      "sourceTokens": [
+        {
+          "index": 0,
+          "start": 0,
+          "end": 3,
+          "text": "The"
+        },
+        {
+          "index": 1,
+          "start": 4,
+          "end": 13,
+          "text": "Wonderful"
+        },
+        {
+          "index": 2,
+          "start": 14,
+          "end": 20,
+          "text": "Wizard"
+        },
+        {
+          "index": 3,
+          "start": 21,
+          "end": 23,
+          "text": "of"
+        },
+        {
+          "index": 4,
+          "start": 24,
+          "end": 26,
+          "text": "Oz"
+        }
+      ],
+      "targetTokens": [
+        {
+          "index": 0,
+          "start": 0,
+          "end": 1,
+          "text": "«"
+        },
+        {
+          "index": 1,
+          "start": 1,
+          "end": 11,
+          "text": "Дивовижний"
+        },
+        {
+          "index": 2,
+          "start": 12,
+          "end": 20,
+          "text": "чарівник"
+        },
+        {
+          "index": 3,
+          "start": 21,
+          "end": 27,
+          "text": "Країни"
+        },
+        {
+          "index": 4,
+          "start": 28,
+          "end": 30,
+          "text": "Оз"
+        },
+        {
+          "index": 5,
+          "start": 30,
+          "end": 31,
+          "text": "»"
+        }
+      ],
+      "links": [
+        {
+          "sourceTokenIndex": 0,
+          "targetTokenIndex": 1,
+          "method": "itermax",
+          "score": null,
+          "sourceSpan": {
+            "start": 0,
+            "end": 3
+          },
+          "targetSpan": {
+            "start": 1,
+            "end": 11
+          },
+          "sourceText": "The",
+          "targetText": "Дивовижний"
+        },
+        {
+          "sourceTokenIndex": 1,
+          "targetTokenIndex": 1,
+          "method": "itermax",
+          "score": null,
+          "sourceSpan": {
+            "start": 4,
+            "end": 13
+          },
+          "targetSpan": {
+            "start": 1,
+            "end": 11
+          },
+          "sourceText": "Wonderful",
+          "targetText": "Дивовижний"
+        },
+        {
+          "sourceTokenIndex": 2,
+          "targetTokenIndex": 2,
+          "method": "itermax",
+          "score": null,
+          "sourceSpan": {
+            "start": 14,
+            "end": 20
+          },
+          "targetSpan": {
+            "start": 12,
+            "end": 20
+          },
+          "sourceText": "Wizard",
+          "targetText": "чарівник"
+        },
+        {
+          "sourceTokenIndex": 3,
+          "targetTokenIndex": 2,
+          "method": "itermax",
+          "score": null,
+          "sourceSpan": {
+            "start": 21,
+            "end": 23
+          },
+          "targetSpan": {
+            "start": 12,
+            "end": 20
+          },
+          "sourceText": "of",
+          "targetText": "чарівник"
+        },
+        {
+          "sourceTokenIndex": 4,
+          "targetTokenIndex": 4,
+          "method": "itermax",
+          "score": null,
+          "sourceSpan": {
+            "start": 24,
+            "end": 26
+          },
+          "targetSpan": {
+            "start": 28,
+            "end": 30
+          },
+          "sourceText": "Oz",
+          "targetText": "Оз"
+        }
+      ],
+      "processed": true,
+      "cacheHit": true
+    }
+  ],
+  "links": [
+    {
+      "id": "pv-wonderful-wizard-of-oz-en_sct4_f1-wonderful_adjective-ch004_p0001_src_s001-4-13-1",
+      "wordKey": "wonderful_adjective",
+      "word": "Wonderful",
+      "lemma": "wonderful",
+      "pos": "adjective",
+      "level": "A2",
+      "sourceText": "Wonderful",
+      "targetText": "Дивовижний",
+      "dictionaryTranslation": "прекрасний",
+      "rowTranslation": "прекрасний",
+      "sourceSentenceId": "ch004_p0001_src_s001",
+      "targetSentenceId": "ch004_p0001_tgt_s001",
+      "sourceSpan": {
+        "start": 4,
+        "end": 13
+      },
+      "alignmentMethod": "simalign",
+      "alignmentConfidence": "high",
+      "alignmentWarningCode": null,
+      "alignmentWarning": "Vocabulary translation exists, but a matching target-language span was not found in the block translation. Dictionary translation differs from contextual block translation.",
+      "status": "ok",
+      "targetSpan": {
+        "start": 1,
+        "end": 11
+      },
+      "contextTranslation": "Дивовижний"
+    }
+  ],
+  "namedEntitySpans": [
+    {
+      "id": "ne-wonderful-wizard-of-oz-en_sct4_f1-the_wonderful_wizard_of_oz_org-ch004_p0001_src_s001-0-26-1",
+      "entityKey": "the_wonderful_wizard_of_oz_org",
+      "text": "The Wonderful Wizard of Oz",
+      "normalizedText": "the wonderful wizard of oz",
+      "entityType": "ORG",
+      "entityCategory": "organization_candidate",
+      "difficultyMarker": "proper_name",
+      "sourceSentenceId": "ch004_p0001_src_s001",
+      "sourceSpan": {
+        "start": 0,
+        "end": 26
+      },
+      "targetSentenceId": "ch004_p0001_tgt_s001",
+      "targetSpan": {
+        "start": 28,
+        "end": 30
+      },
+      "targetText": "Оз",
+      "contextTranslation": "Оз",
+      "alignmentMethod": "simalign",
+      "alignmentConfidence": "medium",
+      "status": "ok",
+      "alignmentWarning": "SimAlign raw target links split into multiple compact clusters; accepted span uses one compact cluster without min/max expansion."
+    }
+  ],
+  "parallelPreviewDiagnostics": {
+    "paragraphPairCount": 1,
+    "duplicateTranslatedSentencePrevented": 0,
+    "skippedMetadataParagraphs": 0,
+    "headingParagraphs": 0,
+    "bodyParagraphs": 1,
+    "mappedParagraphCount": 1,
+    "lockedSentenceGroupCount": 1,
+    "sourceSentenceCount": 1,
+    "targetSentenceCount": 1,
+    "previewAlignmentRowCount": 1,
+    "sentAlignBypassed": true,
+    "highlightOffsetWarnings": []
+  },
+  "diagnostics": {
+    "reason": "target spans unavailable",
+    "translationAvailability": {
+      "vocabularyTranslation": {
+        "available": false,
+        "providerRows": {
+          "argos": 0,
+          "microsoft": 0,
+          "llm": 0
+        }
+      },
+      "blockTranslation": {
+        "available": true,
+        "mode": "section",
+        "provider": "epub",
+        "blockCount": 30,
+        "scope": "section",
+        "reusedByFragments": 68,
+        "translatedSentenceCount": 2171,
+        "reason": "Block translated sentences available",
+        "cacheBackend": "no_write",
+        "cacheWritable": false,
+        "cacheWarning": null
+      }
+    },
+    "translationQualityDiagnostics": {
+      "sentenceCount": 1,
+      "paragraphCount": 1,
+      "possibleMarkerBleedRows": [],
+      "namedEntityWarnings": [],
+      "possibleFalsePhrasalRows": []
+    },
+    "targetSpanDiagnostics": {
+      "vocabularyRows": 1,
+      "sourceSpanFoundRows": 1,
+      "sourceSpanMissingRows": 0,
+      "targetSpanFoundRows": 1,
+      "targetSpanMissingRows": 0,
+      "phraseRows": 0,
+      "phraseSourceSpanFoundRows": 0,
+      "phraseTargetSpanFoundRows": 0,
+      "phraseTargetSpanMissingRows": 0,
+      "ordinaryRows": 1,
+      "ordinaryTargetSpanFoundRows": 1,
+      "ordinaryTargetSpanMissingRows": 0,
+      "targetSpanMissingExamples": [],
+      "simAlign": {
+        "available": true,
+        "used": true
+      },
+      "alignmentMethodCounts": {
+        "exact": 0,
+        "normalized": 0,
+        "translation_inflected": 0,
+        "simalign": 1,
+        "openai": 0,
+        "openai_translation_anchor": 0,
+        "none": 0
+      }
+    },
+    "openAiTranslationAnchorDiagnostics": {
+      "available": false,
+      "anchorCount": 0,
+      "usableAnchorCount": 0,
+      "matchedRows": 0,
+      "rejectedRows": 0,
+      "targetSpansFromAnchors": 0,
+      "warnings": [
+        "OpenAI translation sidecar anchors are absent from this preview payload."
+      ]
+    },
+    "alignmentProvider": "simalign",
+    "simalignDiagnostics": {
+      "alignmentSource": "runtime_raw_sidecar",
+      "enabled": true,
+      "required": false,
+      "available": true,
+      "cacheBackend": "kv",
+      "providerCallCount": 0,
+      "cacheHitCount": 1,
+      "alignmentPairCount": 1,
+      "logicalGroupInputCount": 1,
+      "logicalGroupProcessedCount": 1,
+      "ownerGroupCount": 1,
+      "targetSpansFromSimalign": 1,
+      "warnings": [],
+      "errors": [],
+      "clauseWindowEnabled": false,
+      "clauseWindowAvailable": false,
+      "clauseWindowPairCount": 0,
+      "clauseWindowLinkCount": 0,
+      "clauseWindowSourceTokenCount": 0,
+      "clauseWindowProviderCallCount": 0,
+      "clauseWindowSpacyItemCount": 0,
+      "clauseWindowWarnings": [],
+      "ownerLinkCount": 3,
+      "ownerConflictCount": 2,
+      "ownerDictionaryWinnerCount": 0,
+      "ownerPositionWinnerCount": 3,
+      "bundledSpanAlignmentGroupCount": 1,
+      "bundledSourceSpanCount": 5,
+      "bundledTargetSpanCount": 6,
+      "bundledSpanLinkCount": 5
+    },
+    "contextTranslationDiagnostics": {
+      "rowsWithContextTranslation": 1,
+      "rowsWhereDictionaryDiffersFromContext": 1,
+      "suspiciousPhraseRows": 0,
+      "examples": [
+        {
+          "wordKey": "wonderful_adjective",
+          "word": "Wonderful",
+          "lemma": "wonderful",
+          "pos": "adjective",
+          "dictionaryTranslation": "прекрасний",
+          "contextTranslation": "Дивовижний",
+          "sourceText": "Wonderful"
+        }
+      ]
+    },
+    "lexicalPhraseMaterialization": {
+      "lexicalPhraseCount": 0,
+      "materializedPhraseCount": 0,
+      "skippedPhraseCount": 0,
+      "replacedExistingPhraseLinks": 0,
+      "alignmentSource": "lexical_inventory",
+      "skippedPhraseIds": [],
+      "lexicalMweCount": 0,
+      "materializedMweCount": 0,
+      "skippedMweCount": 0,
+      "replacedExistingMweLinks": 0,
+      "skippedMweIds": []
+    },
+    "pyTextRankReportSelection": {
+      "selectedSource": null,
+      "sources": []
+    }
+  },
+  "rawSimalignAlignments": [
+    {
+      "id": "wonderful-wizard-of-oz-en_sct4_f1:p1",
+      "sourceTokens": [
+        {
+          "index": 0,
+          "start": 0,
+          "end": 3,
+          "text": "The"
+        },
+        {
+          "index": 1,
+          "start": 4,
+          "end": 13,
+          "text": "Wonderful"
+        },
+        {
+          "index": 2,
+          "start": 14,
+          "end": 20,
+          "text": "Wizard"
+        },
+        {
+          "index": 3,
+          "start": 21,
+          "end": 23,
+          "text": "of"
+        },
+        {
+          "index": 4,
+          "start": 24,
+          "end": 26,
+          "text": "Oz"
+        }
+      ],
+      "targetTokens": [
+        {
+          "index": 0,
+          "start": 0,
+          "end": 1,
+          "text": "«"
+        },
+        {
+          "index": 1,
+          "start": 1,
+          "end": 11,
+          "text": "Дивовижний"
+        },
+        {
+          "index": 2,
+          "start": 12,
+          "end": 20,
+          "text": "чарівник"
+        },
+        {
+          "index": 3,
+          "start": 21,
+          "end": 27,
+          "text": "Країни"
+        },
+        {
+          "index": 4,
+          "start": 28,
+          "end": 30,
+          "text": "Оз"
+        },
+        {
+          "index": 5,
+          "start": 30,
+          "end": 31,
+          "text": "»"
+        }
+      ],
+      "links": [
+        {
+          "sourceTokenIndex": 0,
+          "targetTokenIndex": 1,
+          "method": "itermax",
+          "score": null
+        },
+        {
+          "sourceTokenIndex": 1,
+          "targetTokenIndex": 1,
+          "method": "itermax",
+          "score": null
+        },
+        {
+          "sourceTokenIndex": 2,
+          "targetTokenIndex": 2,
+          "method": "itermax",
+          "score": null
+        },
+        {
+          "sourceTokenIndex": 3,
+          "targetTokenIndex": 2,
+          "method": "itermax",
+          "score": null
+        },
+        {
+          "sourceTokenIndex": 4,
+          "targetTokenIndex": 4,
+          "method": "itermax",
+          "score": null
+        }
+      ]
+    }
+  ],
+  "rawSimalignOwnerAlignments": [
+    {
+      "id": "wonderful-wizard-of-oz-en_sct4_f1:p1",
+      "sourceTokens": [
+        {
+          "index": 0,
+          "start": 0,
+          "end": 3,
+          "text": "The"
+        },
+        {
+          "index": 1,
+          "start": 4,
+          "end": 13,
+          "text": "Wonderful"
+        },
+        {
+          "index": 2,
+          "start": 14,
+          "end": 20,
+          "text": "Wizard"
+        },
+        {
+          "index": 3,
+          "start": 21,
+          "end": 23,
+          "text": "of"
+        },
+        {
+          "index": 4,
+          "start": 24,
+          "end": 26,
+          "text": "Oz"
+        }
+      ],
+      "targetTokens": [
+        {
+          "index": 0,
+          "start": 0,
+          "end": 1,
+          "text": "«"
+        },
+        {
+          "index": 1,
+          "start": 1,
+          "end": 11,
+          "text": "Дивовижний"
+        },
+        {
+          "index": 2,
+          "start": 12,
+          "end": 20,
+          "text": "чарівник"
+        },
+        {
+          "index": 3,
+          "start": 21,
+          "end": 27,
+          "text": "Країни"
+        },
+        {
+          "index": 4,
+          "start": 28,
+          "end": 30,
+          "text": "Оз"
+        },
+        {
+          "index": 5,
+          "start": 30,
+          "end": 31,
+          "text": "»"
+        }
+      ],
+      "links": [
+        {
+          "sourceTokenIndex": 1,
+          "targetTokenIndex": 1,
+          "method": "itermax",
+          "score": null,
+          "ownerScore": 32.33,
+          "ownerReason": "position",
+          "losingLinks": [
+            {
+              "sourceTokenIndex": 0,
+              "targetTokenIndex": 1,
+              "method": "itermax",
+              "score": null,
+              "ownerScore": 32.132,
+              "ownerReason": "position"
+            }
+          ]
+        },
+        {
+          "sourceTokenIndex": 2,
+          "targetTokenIndex": 2,
+          "method": "itermax",
+          "score": null,
+          "ownerScore": 31.983,
+          "ownerReason": "position",
+          "losingLinks": [
+            {
+              "sourceTokenIndex": 3,
+              "targetTokenIndex": 2,
+              "method": "itermax",
+              "score": null,
+              "ownerScore": 16.598,
+              "ownerReason": "method"
+            }
+          ]
+        },
+        {
+          "sourceTokenIndex": 4,
+          "targetTokenIndex": 4,
+          "method": "itermax",
+          "score": null,
+          "ownerScore": 40.916,
+          "ownerReason": "position",
+          "losingLinks": []
+        }
+      ]
+    }
+  ]
+}

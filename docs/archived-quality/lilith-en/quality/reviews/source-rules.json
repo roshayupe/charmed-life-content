@@ -1,0 +1,40 @@
+{
+  "bookId": "lilith-en",
+  "source": "pilot.10",
+  "reviewMethod": "Context review of the deterministic proposal; term-wide exclusions apply only to the exact proposed source phrase",
+  "rejectLemmas": {
+    "this time": "Ordinary demonstrative noun phrase, including 'by this time'.",
+    "now for": "All three hits cross the boundary between adverb 'now' and a following 'for' phrase.",
+    "be a man": "Literal predication in this book, not a conversational formula.",
+    "of old": "False hit inside 'disc of old copper'.",
+    "as ever": "Both hits belong to longer comparative clauses, not the standalone formula.",
+    "come on": "'Come on them suddenly' means encounter them, not the conversational formula.",
+    "precious little": "False hit across 'precious Little Ones', a named group.",
+    "on the whole": "False hit inside 'effect on the whole army'.",
+    "and then some": "False hit across 'and then some incipient air'.",
+    "at that": "Both hits are ordinary preposition plus determiner: 'at that time/door'.",
+    "at the time": "Compositional temporal phrase in both occurrences.",
+    "even then": "Compositional adverb plus time reference in both occurrences.",
+    "too late": "Compositional degree adverb plus adjective in all occurrences."
+  },
+  "rejectOccurrences": [
+    { "lessonId": "lilith-en_sct8_f1", "sourceStart": 448, "reason": "'Turning my ring about to catch ...': about means around; to introduces purpose." },
+    { "lessonId": "lilith-en_sct23_f2", "sourceStart": 1906, "reason": "'In sight of my eyes' is literal wording, not the listed fixed expression." },
+    { "lessonId": "lilith-en_sct44_f1", "sourceStart": 2886, "reason": "'I fear for the children' is a lexical verb with complement." },
+    { "lessonId": "lilith-en_sct44_f6", "sourceStart": 1528, "reason": "'I fear that child' is a lexical verb with object." },
+    { "lessonId": "lilith-en_sct44_f6", "sourceStart": 1672, "reason": "'I fear the Shadow' is a lexical verb with object." }
+  ],
+  "reclassifyOccurrences": [
+    { "lessonId": "lilith-en_sct48_f3", "sourceStart": 4195, "lemma": "be used to", "mweType": "fixed_expression", "syntacticForm": "verb_phrase", "reason": "'Was ... used to weeping' means accustomed to, not the habitual semi-modal 'used to'." },
+    { "lessonId": "lilith-en_sct7_f3", "sourceStart": 4555, "lemma": "go down on one's knees", "mweType": "fixed_expression", "syntacticForm": "verb_phrase", "reason": "The complete construction means kneel; 'go down on' alone is incomplete." }
+  ],
+  "sourceBoundaryRules": [
+    { "lemma": "as well", "nextText": " as", "sourceTextSuffix": " as", "reason": "Include the complete additive/comparative conjunction 'as well as' when followed by the second as." },
+    { "lemma": "as well as", "nextText": " I could", "sourceTextSuffix": " I could", "reason": "Include the complete manner construction when the comparison is 'as well as I could'." },
+    { "lemma": "so far", "nextText": " as", "sourceTextSuffix": " as", "reason": "Include the complete 'so far as' construction." },
+    { "lemma": "so far", "nextText": " from", "sourceTextSuffix": " from", "reason": "Include the complete 'so far from' construction." },
+    { "lemma": "as soon as", "nextText": " possible", "sourceTextSuffix": " possible", "reason": "Include 'possible' in the superlative expression." },
+    { "lemma": "go down on one's knees", "nextText": " my knees", "sourceTextSuffix": " my knees", "lemmaOverride": "go down on one's knees", "reason": "Select the complete idiomatic action." },
+    { "lemma": "in a moment", "nextText": " or two", "sourceTextSuffix": " or two", "reason": "Include the complete approximate-time expression." }
+  ]
+}

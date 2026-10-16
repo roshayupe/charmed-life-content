@@ -27,7 +27,8 @@
         "A2": 39,
         "B1": 50,
         "B2": 62,
-        "C1": 13
+        "C1": 13,
+        "C2": 0
       }
     }
   },
@@ -48,7 +49,18 @@
           "translation": "responder"
         },
         "ru": {
-          "translation": "отвечать"
+          "translation": "отвечать",
+          "candidates": [
+            {
+              "id": "tr_61d19bbabd0b401a4b2e4a8e",
+              "text": "отвечать",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         },
         "uk": {
           "translation": "відповідати"
@@ -73,7 +85,18 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "извинение"
+          "translation": "извинение",
+          "candidates": [
+            {
+              "id": "tr_669820c6c9bc3c6a7ea829c3",
+              "text": "извинение",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "apology",
@@ -95,7 +118,18 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "прочь"
+          "translation": "прочь",
+          "candidates": [
+            {
+              "id": "tr_f806c30b63c124213d60f78d",
+              "text": "прочь",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "away",
@@ -115,7 +149,31 @@
       "source": "word",
       "wordKey": "barn_noun",
       "level": "B2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "амбар; сарай",
+          "candidates": [
+            {
+              "id": "tr_c814087057c3c5ce295d3dd1",
+              "text": "амбар",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            },
+            {
+              "id": "tr_6d64dbb81dcac07c12665c30",
+              "text": "сарай",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "_spacyLemma": "barn",
       "matchedForm": "barn",
       "levelSource": "cefr_reference",
@@ -134,7 +192,23 @@
       "source": "spacy_phrase",
       "wordKey": "barn_door_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Дверь в амбар",
+          "candidates": [
+            {
+              "id": "tr_511d21085b45bf8d0ebb5733",
+              "text": "Дверь в амбар",
+              "sources": [
+                {
+                  "provider": "microsoft_translate"
+                }
+              ],
+              "pos": "phrase"
+            }
+          ]
+        }
+      },
       "levelSource": "phrase_fallback",
       "ipa": "ˌbɑːn ˈdɔː",
       "exampleStart": 465,
@@ -155,7 +229,18 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "баррель"
+          "translation": "баррель",
+          "candidates": [
+            {
+              "id": "tr_1e29a5a8f969c47463dbf86c",
+              "text": "баррель",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "barrel",
@@ -177,7 +262,18 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "луч"
+          "translation": "луч",
+          "candidates": [
+            {
+              "id": "tr_8e5f3ad5795bff6e303c9315",
+              "text": "луч",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "beam",
@@ -199,7 +295,18 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "спальня"
+          "translation": "спальня",
+          "candidates": [
+            {
+              "id": "tr_d8fcbaa871b43bda210e6185",
+              "text": "спальня",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "bedroom",
@@ -220,7 +327,23 @@
       "source": "spacy_phrase",
       "wordKey": "bedroom_window_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "окно спальни",
+          "candidates": [
+            {
+              "id": "tr_8fad411c3271d4173f26d40e",
+              "text": "окно спальни",
+              "sources": [
+                {
+                  "provider": "microsoft_translate"
+                }
+              ],
+              "pos": "phrase"
+            }
+          ]
+        }
+      },
       "levelSource": "phrase_fallback",
       "ipa": "ˌbedruːm ˈwɪndəʊz",
       "exampleStart": 2170,
@@ -241,7 +364,18 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "одеяло"
+          "translation": "одеяло",
+          "candidates": [
+            {
+              "id": "tr_e3da6dda21e2e34ec4ae5c20",
+              "text": "одеяло",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "blanket",
@@ -261,7 +395,46 @@
       "source": "word",
       "wordKey": "bogeyman_noun",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "сговоре; привидение; чудовище",
+          "candidates": [
+            {
+              "id": "tr_8fce8fff7a4c6160c32b92c2",
+              "text": "сговоре",
+              "sources": [
+                {
+                  "provider": "microsoft_dictionary"
+                }
+              ],
+              "pos": "noun",
+              "confidence": 0.3818
+            },
+            {
+              "id": "tr_8d47854b530eac2372b9b098",
+              "text": "привидение",
+              "sources": [
+                {
+                  "provider": "microsoft_dictionary"
+                }
+              ],
+              "pos": "noun",
+              "confidence": 0.3389
+            },
+            {
+              "id": "tr_7d9b2e52687d7854181dbdde",
+              "text": "чудовище",
+              "sources": [
+                {
+                  "provider": "microsoft_dictionary"
+                }
+              ],
+              "pos": "noun",
+              "confidence": 0.2793
+            }
+          ]
+        }
+      },
       "_spacyLemma": "bogeyman",
       "matchedForm": "bogeyman",
       "levelSource": "difficulty_heuristic",
@@ -281,7 +454,18 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "бренди"
+          "translation": "бренди",
+          "candidates": [
+            {
+              "id": "tr_da43c7574a2ad2db127e9b94",
+              "text": "бренди",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "brandy",
@@ -303,7 +487,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "принес"
+          "translation": "принес",
+          "candidates": [
+            {
+              "id": "tr_e3063e794d9c481ec7bbc905",
+              "text": "принес",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "bring",
@@ -331,7 +526,18 @@
           "translation": "cubo"
         },
         "ru": {
-          "translation": "ведро"
+          "translation": "ведро",
+          "candidates": [
+            {
+              "id": "tr_d4f85b469bfe8c07d27d2189",
+              "text": "ведро",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         },
         "uk": {
           "translation": "відро"
@@ -356,7 +562,18 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "строить"
+          "translation": "строить",
+          "candidates": [
+            {
+              "id": "tr_917e64b032132a8e110a4dc3",
+              "text": "строить",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "build",
@@ -378,7 +595,18 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "здание"
+          "translation": "здание",
+          "candidates": [
+            {
+              "id": "tr_0f01a288279d673a73405c38",
+              "text": "здание",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "building",
@@ -400,7 +628,36 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "обожжённый; горящий"
+          "translation": "обожжённый; горящий",
+          "candidates": [
+            {
+              "id": "tr_5b5c45274a1691ba6b441c26",
+              "text": "обожжённый",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            },
+            {
+              "id": "tr_0c396641c000a498229a6d1a",
+              "text": "горящий",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            },
+            {
+              "id": "tr_f858a00be8ea200327dd363e",
+              "text": "ожог",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "burn",
@@ -422,7 +679,18 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "осторожно"
+          "translation": "осторожно",
+          "candidates": [
+            {
+              "id": "tr_1df6e3e60da3db9a45ae4c08",
+              "text": "осторожно",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "carefully",
@@ -450,7 +718,18 @@
           "translation": "escalar"
         },
         "ru": {
-          "translation": "взобрались"
+          "translation": "взобрались",
+          "candidates": [
+            {
+              "id": "tr_ba26aa0db2d284e5c02d90ac",
+              "text": "взобрались",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         },
         "uk": {
           "translation": "лазити"
@@ -476,7 +755,18 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "опускаться"
+          "translation": "опускаться",
+          "candidates": [
+            {
+              "id": "tr_3e079ba011fa2fc725d17b85",
+              "text": "опускаться",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "ipa": "ˌkʌm ˈdaʊn",
@@ -500,7 +790,18 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Давай"
+          "translation": "Давай",
+          "candidates": [
+            {
+              "id": "tr_7d61933fbd32c4ca493fe2e0",
+              "text": "Давай",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "ipa": "ˌkʌm ˈɒn",
@@ -523,7 +824,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "приходить"
+          "translation": "приходить",
+          "candidates": [
+            {
+              "id": "tr_d380f7151e2a589c9b50b605",
+              "text": "приходить",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "come",
@@ -545,7 +857,18 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "пара"
+          "translation": "пара",
+          "candidates": [
+            {
+              "id": "tr_6be9131ca106b056e6c3c7e3",
+              "text": "пара",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "couple",
@@ -567,7 +890,18 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "сумасшедшим"
+          "translation": "сумасшедшим",
+          "candidates": [
+            {
+              "id": "tr_c7cc1512bd6283400b46bb4c",
+              "text": "сумасшедшим",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "crazy",
@@ -587,7 +921,22 @@
       "source": "word",
       "wordKey": "curtain_verb",
       "level": "B2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "зашиты",
+          "candidates": [
+            {
+              "id": "tr_5461b3a6d6a9025ca749c6a4",
+              "text": "зашиты",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "_spacyLemma": "curtain",
       "matchedForm": "curtained",
       "levelSource": "cefr_context_review",
@@ -605,7 +954,22 @@
       "source": "word",
       "wordKey": "customer_noun",
       "level": "A1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "клиентов",
+          "candidates": [
+            {
+              "id": "tr_1e17109d4412763de869beec",
+              "text": "клиентов",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "_spacyLemma": "customer",
       "matchedForm": "customers",
       "levelSource": "vocabulary_index",
@@ -625,7 +989,18 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "влажный"
+          "translation": "влажный",
+          "candidates": [
+            {
+              "id": "tr_71ae371dcbcdd1e3965c180b",
+              "text": "влажный",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "damp",
@@ -646,7 +1021,23 @@
       "source": "spacy_phrase",
       "wordKey": "damp_blanket_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Влажное одеяло",
+          "candidates": [
+            {
+              "id": "tr_268e4b4e3d6ce2c1a5cfcc74",
+              "text": "Влажное одеяло",
+              "sources": [
+                {
+                  "provider": "microsoft_translate"
+                }
+              ],
+              "pos": "phrase"
+            }
+          ]
+        }
+      },
       "levelSource": "head_verb_index",
       "ipa": "ˌdæmp ˈblæŋkɪt",
       "exampleStart": 2273,
@@ -667,7 +1058,18 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "темнота"
+          "translation": "темнота",
+          "candidates": [
+            {
+              "id": "tr_cb3e8a538dc7dcb3f565ff48",
+              "text": "темнота",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "darkness",
@@ -689,7 +1091,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "мёртвый"
+          "translation": "мёртвый",
+          "candidates": [
+            {
+              "id": "tr_3f4db1858b7c88fc48d31637",
+              "text": "мёртвый",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "dead",
@@ -711,7 +1124,18 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "уничтожать"
+          "translation": "уничтожать",
+          "candidates": [
+            {
+              "id": "tr_7662458ba04e98f19595e15e",
+              "text": "уничтожать",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "destroy",
@@ -734,7 +1158,18 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "делать с"
+          "translation": "делать с",
+          "candidates": [
+            {
+              "id": "tr_2b9798ed3a68cab092650bfb",
+              "text": "делать с",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "ipa": "ˈduː wɪð",
@@ -757,7 +1192,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "дверь"
+          "translation": "дверь",
+          "candidates": [
+            {
+              "id": "tr_71a8902e918e4ead3197da9e",
+              "text": "дверь",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "door",
@@ -779,7 +1225,18 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "дверной проём"
+          "translation": "дверной проём",
+          "candidates": [
+            {
+              "id": "tr_e50d46c95a3532391a3e695a",
+              "text": "дверной проём",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "doorway",
@@ -807,7 +1264,18 @@
           "translation": "arrastrando"
         },
         "ru": {
-          "translation": "таскать"
+          "translation": "таскать",
+          "candidates": [
+            {
+              "id": "tr_af7eedfe9656e1cbbbb636fb",
+              "text": "таскать",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         },
         "uk": {
           "translation": "волочучий"
@@ -832,7 +1300,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "двигаться"
+          "translation": "двигаться",
+          "candidates": [
+            {
+              "id": "tr_f8e48f981e8e07a27456144a",
+              "text": "двигаться",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "draw",
@@ -854,7 +1333,27 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "сон; мечта"
+          "translation": "сон; мечта",
+          "candidates": [
+            {
+              "id": "tr_08ff221cd57873f6b7da19f5",
+              "text": "сон",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            },
+            {
+              "id": "tr_81c7f24f067827df407af226",
+              "text": "мечта",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "dream",
@@ -875,7 +1374,22 @@
       "source": "dictionary_phrasal",
       "wordKey": "drown_out_phrasal_verb",
       "level": "B2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Заглушить",
+          "candidates": [
+            {
+              "id": "tr_d8d8920a55abdc2c7d3cd642",
+              "text": "Заглушить",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "levelSource": "phrase_index",
       "ipa": "ˌdraʊnd ˈaʊt",
       "exampleStart": 2762,
@@ -902,7 +1416,18 @@
           "translation": "ahogarse"
         },
         "ru": {
-          "translation": "утонул"
+          "translation": "утонул",
+          "candidates": [
+            {
+              "id": "tr_e91d898572f82b4625295c35",
+              "text": "утонул",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         },
         "uk": {
           "translation": "тонути"
@@ -927,7 +1452,18 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "локоть"
+          "translation": "локоть",
+          "candidates": [
+            {
+              "id": "tr_370a010a7b0b51dc0aeca2cc",
+              "text": "локоть",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "elbow",
@@ -949,7 +1485,18 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "ожидать"
+          "translation": "ожидать",
+          "candidates": [
+            {
+              "id": "tr_034a7982a31421e092129f6e",
+              "text": "ожидать",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "expect",
@@ -971,7 +1518,18 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "лицо"
+          "translation": "лицо",
+          "candidates": [
+            {
+              "id": "tr_4e8aadd71c4be9f426c29ab5",
+              "text": "лицо",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "face",
@@ -993,7 +1551,18 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "факт"
+          "translation": "факт",
+          "candidates": [
+            {
+              "id": "tr_50bb905104e43c770b3b000e",
+              "text": "факт",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "fact",
@@ -1014,7 +1583,22 @@
       "source": "dictionary_phrasal",
       "wordKey": "fall_in_phrasal_verb",
       "level": "B2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "упал.",
+          "candidates": [
+            {
+              "id": "tr_545339f1efe65fc7af47716a",
+              "text": "упал.",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "levelSource": "dictionary_phrase",
       "ipa": "ˌfel ˈɪn",
       "exampleStart": 2492,
@@ -1035,7 +1619,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "падало"
+          "translation": "падало",
+          "candidates": [
+            {
+              "id": "tr_ca74ccad7585c9a61640b6a2",
+              "text": "падало",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "fall",
@@ -1057,7 +1652,18 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "ферма"
+          "translation": "ферма",
+          "candidates": [
+            {
+              "id": "tr_2942b2833981d64fa0d3518f",
+              "text": "ферма",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "farm",
@@ -1079,7 +1685,18 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "участь, судьба"
+          "translation": "участь, судьба",
+          "candidates": [
+            {
+              "id": "tr_f6e075b869b04604503356a8",
+              "text": "участь, судьба",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "fate",
@@ -1101,7 +1718,27 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "чувствовал"
+          "translation": "чувствовал",
+          "candidates": [
+            {
+              "id": "tr_29f87e89cf4581e8ee92caa4",
+              "text": "чувствовал",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            },
+            {
+              "id": "tr_899f19398c4c271f68213267",
+              "text": "чувствовать",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "feel",
@@ -1123,7 +1760,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "бороться"
+          "translation": "бороться",
+          "candidates": [
+            {
+              "id": "tr_0cba90cf433362132b806ca8",
+              "text": "бороться",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "fight",
@@ -1145,7 +1793,18 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "фигура"
+          "translation": "фигура",
+          "candidates": [
+            {
+              "id": "tr_e752bdac4aa3280eaf61b5bb",
+              "text": "фигура",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "figure",
@@ -1173,7 +1832,18 @@
           "translation": "hallazgo"
         },
         "ru": {
-          "translation": "обнаружил"
+          "translation": "обнаружил",
+          "candidates": [
+            {
+              "id": "tr_355c424a752c6b42255aecf2",
+              "text": "обнаружил",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         },
         "uk": {
           "translation": "знахідка"
@@ -1198,7 +1868,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "огонь"
+          "translation": "огонь",
+          "candidates": [
+            {
+              "id": "tr_4f87bc6bf4147a28ab6f8950",
+              "text": "огонь",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "fire",
@@ -1220,7 +1901,18 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Огненный огонь"
+          "translation": "Огненный огонь",
+          "candidates": [
+            {
+              "id": "tr_75fefbc73c29e10368ffaaf9",
+              "text": "Огненный огонь",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "firelight",
@@ -1242,7 +1934,18 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "пылающий"
+          "translation": "пылающий",
+          "candidates": [
+            {
+              "id": "tr_9c35132d21d376adc421bedb",
+              "text": "пылающий",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "flaming",
@@ -1270,7 +1973,18 @@
           "translation": "llama"
         },
         "ru": {
-          "translation": "пламя"
+          "translation": "пламя",
+          "candidates": [
+            {
+              "id": "tr_5fd88370bec88387a15b9552",
+              "text": "пламя",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         },
         "uk": {
           "translation": "полум'я"
@@ -1295,7 +2009,18 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "течь"
+          "translation": "течь",
+          "candidates": [
+            {
+              "id": "tr_e32bf98af17036626b86bbcc",
+              "text": "течь",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "flow",
@@ -1317,7 +2042,18 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "силы"
+          "translation": "силы",
+          "candidates": [
+            {
+              "id": "tr_a39291354eff7e6f1dccfaef",
+              "text": "силы",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "force",
@@ -1339,7 +2075,18 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "будущее"
+          "translation": "будущее",
+          "candidates": [
+            {
+              "id": "tr_39adc0a13757f5309681f653",
+              "text": "будущее",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "future",
@@ -1359,7 +2106,22 @@
       "source": "word",
       "wordKey": "garbage_noun",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "мусора",
+          "candidates": [
+            {
+              "id": "tr_8cc21ca5953b48399dcbcfa0",
+              "text": "мусора",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "_spacyLemma": "garbage",
       "matchedForm": "garbage",
       "levelSource": "vocabulary_index",
@@ -1380,7 +2142,27 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Вставай"
+          "translation": "Вставай",
+          "candidates": [
+            {
+              "id": "tr_4cd0ea0fe06baf0137496092",
+              "text": "Вставай",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            },
+            {
+              "id": "tr_e7549c299fdf2af61e50609e",
+              "text": "вставать",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "ipa": "ɡet ˈʌp",
@@ -1403,7 +2185,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "получил"
+          "translation": "получил",
+          "candidates": [
+            {
+              "id": "tr_b7df79e006370d6fc5bd3b3d",
+              "text": "получил",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "get",
@@ -1425,7 +2218,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "давать"
+          "translation": "давать",
+          "candidates": [
+            {
+              "id": "tr_c69ca8cd982c2f609aa0c6cf",
+              "text": "давать",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "give",
@@ -1453,7 +2257,36 @@
           "translation": "gafas"
         },
         "ru": {
-          "translation": "очки"
+          "translation": "очки",
+          "candidates": [
+            {
+              "id": "tr_b1b41e31226a9bfae94e622e",
+              "text": "очки",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            },
+            {
+              "id": "tr_89e0db541f2a39842e89fa97",
+              "text": "стекло",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            },
+            {
+              "id": "tr_36e584c7946bd6589f890477",
+              "text": "стакан",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         },
         "uk": {
           "translation": "окуляри"
@@ -1478,7 +2311,27 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "светиться; пылать"
+          "translation": "светиться; пылать",
+          "candidates": [
+            {
+              "id": "tr_c82dd86f9f0eea86b5459e07",
+              "text": "светиться",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            },
+            {
+              "id": "tr_23d68d2bc1bc36683110b377",
+              "text": "пылать",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "glow",
@@ -1499,7 +2352,22 @@
       "source": "dictionary_phrasal",
       "wordKey": "go_on_about_prepositional_verb",
       "level": "B2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "занимается",
+          "candidates": [
+            {
+              "id": "tr_7259328bf449cf8b480cbe15",
+              "text": "занимается",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "levelSource": "dictionary_phrase",
       "ipa": "ˌɡəʊɪŋ ˌɒn əˈbaʊt",
       "exampleStart": 3934,
@@ -1521,7 +2389,18 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "идти дальше"
+          "translation": "идти дальше",
+          "candidates": [
+            {
+              "id": "tr_31abee5227e2a96c2c6f9683",
+              "text": "идти дальше",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "ipa": "went ˈɒn",
@@ -1544,7 +2423,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "идти"
+          "translation": "идти",
+          "candidates": [
+            {
+              "id": "tr_5bb0c26904cfd63189c29f49",
+              "text": "идти",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "go",
@@ -1572,7 +2462,18 @@
           "translation": "dorado"
         },
         "ru": {
-          "translation": "золотистый"
+          "translation": "золотистый",
+          "candidates": [
+            {
+              "id": "tr_175245a6100dbc918e09535f",
+              "text": "золотистый",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         },
         "uk": {
           "translation": "золотий"
@@ -1596,7 +2497,23 @@
       "source": "spacy_phrase",
       "wordKey": "golden_timer_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Золотой таймер",
+          "candidates": [
+            {
+              "id": "tr_64f2a75d90501a7863e7f3bc",
+              "text": "Золотой таймер",
+              "sources": [
+                {
+                  "provider": "microsoft_translate"
+                }
+              ],
+              "pos": "phrase"
+            }
+          ]
+        }
+      },
       "levelSource": "phrase_fallback",
       "ipa": "ˌɡəʊldən ˈtaɪmə",
       "exampleStart": 2410,
@@ -1623,7 +2540,18 @@
           "translation": "gruñir"
         },
         "ru": {
-          "translation": "рычать"
+          "translation": "рычать",
+          "candidates": [
+            {
+              "id": "tr_2a57e87033322c58b5729d12",
+              "text": "рычать",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         },
         "uk": {
           "translation": "гарчати"
@@ -1648,7 +2576,18 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "колотить"
+          "translation": "колотить",
+          "candidates": [
+            {
+              "id": "tr_26df5a13cae83cdaaf065d11",
+              "text": "колотить",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "hammer",
@@ -1676,7 +2615,18 @@
           "translation": "mano"
         },
         "ru": {
-          "translation": "руки"
+          "translation": "руки",
+          "candidates": [
+            {
+              "id": "tr_0988d16e155a5b9c7109c523",
+              "text": "руки",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         },
         "uk": {
           "translation": "рука"
@@ -1701,7 +2651,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "происходить"
+          "translation": "происходить",
+          "candidates": [
+            {
+              "id": "tr_d4e582873e338d79ea2f69fc",
+              "text": "происходить",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "happen",
@@ -1723,7 +2684,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "трудный"
+          "translation": "трудный",
+          "candidates": [
+            {
+              "id": "tr_2afa17871b150599024640ec",
+              "text": "трудный",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "hard",
@@ -1743,7 +2715,22 @@
       "source": "word",
       "wordKey": "hay_noun",
       "level": "C1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "сена",
+          "candidates": [
+            {
+              "id": "tr_4d4660b48338e067e48fffe9",
+              "text": "сена",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "_spacyLemma": "hay",
       "matchedForm": "hay",
       "levelSource": "cefr_frequency",
@@ -1763,7 +2750,18 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "каблук"
+          "translation": "каблук",
+          "candidates": [
+            {
+              "id": "tr_f697e116491606a281cf82f5",
+              "text": "каблук",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "heel",
@@ -1786,7 +2784,27 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "её руки"
+          "translation": "её руки",
+          "candidates": [
+            {
+              "id": "tr_ead5f9168bd1a4cbdfd3c623",
+              "text": "её руки",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            },
+            {
+              "id": "tr_07148e132f642e25551221da",
+              "text": "её рука",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "ipa": "hɜː ˈhænd",
@@ -1810,7 +2828,27 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "её пятка; её каблук"
+          "translation": "её пятка; её каблук",
+          "candidates": [
+            {
+              "id": "tr_b80813fbe0e103a7a2850359",
+              "text": "её пятка",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            },
+            {
+              "id": "tr_40aaa6a0ac2dc709ebf044fd",
+              "text": "её каблук",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "ipa": "hɜː ˈhiːl",
@@ -1832,7 +2870,23 @@
       "source": "spacy_phrase",
       "wordKey": "her_knuckle_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "её костяшка пальца",
+          "candidates": [
+            {
+              "id": "tr_7b993517c7ce49b678c234f6",
+              "text": "её костяшка пальца",
+              "sources": [
+                {
+                  "provider": "microsoft_translate"
+                }
+              ],
+              "pos": "phrase"
+            }
+          ]
+        }
+      },
       "levelSource": "phrase_fallback",
       "ipa": "hɜː ˈnʌkəlz",
       "exampleStart": 1886,
@@ -1852,7 +2906,23 @@
       "source": "spacy_phrase",
       "wordKey": "his_customer_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "его клиент",
+          "candidates": [
+            {
+              "id": "tr_03f9a10759b0d2a2b5f69083",
+              "text": "его клиент",
+              "sources": [
+                {
+                  "provider": "microsoft_translate"
+                }
+              ],
+              "pos": "phrase"
+            }
+          ]
+        }
+      },
       "levelSource": "phrase_fallback",
       "ipa": "hɪz ˈkʌstəməz",
       "exampleStart": 1119,
@@ -1874,7 +2944,27 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "его нога"
+          "translation": "его нога",
+          "candidates": [
+            {
+              "id": "tr_ab088dada37c27c5a9d93471",
+              "text": "его нога",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            },
+            {
+              "id": "tr_22c1ffeb0313d49ddedab48e",
+              "text": "Его ноги",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "ipa": "hɪz ˈleɡz",
@@ -1896,7 +2986,23 @@
       "source": "spacy_phrase",
       "wordKey": "his_momentary_relief_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "его кратковременное облегчение",
+          "candidates": [
+            {
+              "id": "tr_72b61442dfa16596c281b120",
+              "text": "его кратковременное облегчение",
+              "sources": [
+                {
+                  "provider": "microsoft_translate"
+                }
+              ],
+              "pos": "phrase"
+            }
+          ]
+        }
+      },
       "levelSource": "phrase_fallback",
       "ipa": "hɪz ˌməʊməntəri rɪˈliːf",
       "exampleStart": 424,
@@ -1918,7 +3024,27 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "его карман"
+          "translation": "его карман",
+          "candidates": [
+            {
+              "id": "tr_bddbc71f9b6bb42cea15c212",
+              "text": "его карман",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            },
+            {
+              "id": "tr_2906f4a29164e149b284efad",
+              "text": "кармана",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "ipa": "hɪz ˈpɒkɪt",
@@ -1941,7 +3067,18 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "шипение"
+          "translation": "шипение",
+          "candidates": [
+            {
+              "id": "tr_ea0a364f89f16a019cc0f6a1",
+              "text": "шипение",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "hissing",
@@ -1963,7 +3100,18 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "Крючки"
+          "translation": "Крючки",
+          "candidates": [
+            {
+              "id": "tr_3cac0857da436f220661cf10",
+              "text": "Крючки",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "hook",
@@ -1985,7 +3133,18 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "лошадь"
+          "translation": "лошадь",
+          "candidates": [
+            {
+              "id": "tr_6c07487ccfd0d0853d3f1954",
+              "text": "лошадь",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "horse",
@@ -2007,7 +3166,18 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "индивидуальный"
+          "translation": "индивидуальный",
+          "candidates": [
+            {
+              "id": "tr_3409ef1b5b205e0778783791",
+              "text": "индивидуальный",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "individual",
@@ -2028,7 +3198,23 @@
       "source": "spacy_phrase",
       "wordKey": "its_hissing_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "его шипение",
+          "candidates": [
+            {
+              "id": "tr_f5e199b8b3eacf172ec68a3b",
+              "text": "его шипение",
+              "sources": [
+                {
+                  "provider": "microsoft_translate"
+                }
+              ],
+              "pos": "phrase"
+            }
+          ]
+        }
+      },
       "levelSource": "phrase_fallback",
       "ipa": "ɪts ˈhɪsɪŋ",
       "exampleStart": 2762,
@@ -2055,7 +3241,18 @@
           "translation": "sacudir"
         },
         "ru": {
-          "translation": "толчок"
+          "translation": "толчок",
+          "candidates": [
+            {
+              "id": "tr_539e0b32c7b0c88d1b6f155c",
+              "text": "толчок",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         },
         "uk": {
           "translation": "струсити"
@@ -2078,7 +3275,22 @@
       "source": "word",
       "wordKey": "keyhole_noun",
       "level": "B2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "скважину",
+          "candidates": [
+            {
+              "id": "tr_8cd97a228d48d21305471294",
+              "text": "скважину",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "_spacyLemma": "keyhole",
       "matchedForm": "keyhole",
       "levelSource": "cefr_frequency",
@@ -2098,7 +3310,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "вид"
+          "translation": "вид",
+          "candidates": [
+            {
+              "id": "tr_74d38250c808897e449324b8",
+              "text": "вид",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "kind",
@@ -2126,7 +3349,18 @@
           "translation": "consciente"
         },
         "ru": {
-          "translation": "знать"
+          "translation": "знать",
+          "candidates": [
+            {
+              "id": "tr_cb0ecd3954b57fc20d4ecfe2",
+              "text": "знать",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         },
         "uk": {
           "translation": "обізнаний"
@@ -2151,7 +3385,18 @@
       "level": "C1",
       "translations": {
         "ru": {
-          "translation": "знание"
+          "translation": "знание",
+          "candidates": [
+            {
+              "id": "tr_8aef584258f82e5dc35c338f",
+              "text": "знание",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "knowledge",
@@ -2173,7 +3418,18 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "костяшка пальца"
+          "translation": "костяшка пальца",
+          "candidates": [
+            {
+              "id": "tr_8efcaa1a00a4708962ecd2f1",
+              "text": "костяшка пальца",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "knuckle",
@@ -2195,7 +3451,18 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "лестница"
+          "translation": "лестница",
+          "candidates": [
+            {
+              "id": "tr_2b8cf9f5830b22a7b078a2c2",
+              "text": "лестница",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "ladder",
@@ -2218,7 +3485,18 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Лежа"
+          "translation": "Лежа",
+          "candidates": [
+            {
+              "id": "tr_ccde51d2f2d0bb773daaf7ed",
+              "text": "Лежа",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "ipa": "ˌleɪ ˈdaʊn",
@@ -2242,7 +3520,27 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "запасать; укладывать в"
+          "translation": "запасать; укладывать в",
+          "candidates": [
+            {
+              "id": "tr_af5184521dd78d12516a41cf",
+              "text": "запасать",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            },
+            {
+              "id": "tr_01c4e22030c0db78c09fb7ba",
+              "text": "укладывать в",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "ipa": "ˌleɪ ˈɪn",
@@ -2265,7 +3563,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "покидать"
+          "translation": "покидать",
+          "candidates": [
+            {
+              "id": "tr_384b208bd0dbe587b8a2a51c",
+              "text": "покидать",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "leave",
@@ -2287,7 +3596,18 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "нога"
+          "translation": "нога",
+          "candidates": [
+            {
+              "id": "tr_902eb104806fd3392c49fef4",
+              "text": "нога",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "leg",
@@ -2310,7 +3630,18 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Впусти"
+          "translation": "Впусти",
+          "candidates": [
+            {
+              "id": "tr_53c1ef7b8353ddafde7f9acb",
+              "text": "Впусти",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "ipa": "ˌlet ˈɪn",
@@ -2332,7 +3663,22 @@
       "source": "dictionary_phrasal",
       "wordKey": "let_in_prepositional_verb",
       "level": "B2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "впустить в",
+          "candidates": [
+            {
+              "id": "tr_d5cd2c74b14df7665951692d",
+              "text": "впустить в",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "levelSource": "dictionary_phrase",
       "ipa": "ˌlet ˈɪn",
       "exampleStart": 3639,
@@ -2353,7 +3699,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "позволять"
+          "translation": "позволять",
+          "candidates": [
+            {
+              "id": "tr_5fe83cada105d7a0a5e8d39a",
+              "text": "позволять",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "let",
@@ -2381,7 +3738,18 @@
           "translation": "mentiras"
         },
         "ru": {
-          "translation": "лежать"
+          "translation": "лежать",
+          "candidates": [
+            {
+              "id": "tr_ecfa14dd4ddd483168c74141",
+              "text": "лежать",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         },
         "uk": {
           "translation": "брехня"
@@ -2405,7 +3773,23 @@
       "source": "spacy_phrase",
       "wordKey": "life_force_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Жизненная сила",
+          "candidates": [
+            {
+              "id": "tr_f61e54a99874eb1abe96b105",
+              "text": "Жизненная сила",
+              "sources": [
+                {
+                  "provider": "microsoft_translate"
+                }
+              ],
+              "pos": "phrase"
+            }
+          ]
+        }
+      },
       "levelSource": "phrase_fallback",
       "ipa": "ˌlaɪf ˈfɔːs",
       "exampleStart": 4005,
@@ -2426,7 +3810,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "жизнь"
+          "translation": "жизнь",
+          "candidates": [
+            {
+              "id": "tr_b4ed6cf84db442d9c21ee404",
+              "text": "жизнь",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "life",
@@ -2448,7 +3843,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "маленький"
+          "translation": "маленький",
+          "candidates": [
+            {
+              "id": "tr_dff82239bbc5d44b45d7fd59",
+              "text": "маленький",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "little",
@@ -2471,7 +3877,27 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "Маленький"
+          "translation": "Маленький",
+          "candidates": [
+            {
+              "id": "tr_4693ab2aa5509bd8cf136379",
+              "text": "Маленький",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            },
+            {
+              "id": "tr_d0fad95e43cab857f0ae64fd",
+              "text": "маленькая",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "ipa": "ˌlɪtəl ˈweɪ",
@@ -2494,7 +3920,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "длинный"
+          "translation": "длинный",
+          "candidates": [
+            {
+              "id": "tr_fc58c7fa85c8c2f866c5a94e",
+              "text": "длинный",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "long",
@@ -2515,7 +3952,23 @@
       "source": "spacy_phrase",
       "wordKey": "long_hook_phrase",
       "level": "A1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Длинный крюк",
+          "candidates": [
+            {
+              "id": "tr_6fabb6d3e0ab7e13de953e9c",
+              "text": "Длинный крюк",
+              "sources": [
+                {
+                  "provider": "microsoft_translate"
+                }
+              ],
+              "pos": "phrase"
+            }
+          ]
+        }
+      },
       "levelSource": "head_verb_index",
       "ipa": "ˌlɒŋ ˈhʊks",
       "exampleStart": 2045,
@@ -2537,7 +3990,18 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "смотреть на"
+          "translation": "смотреть на",
+          "candidates": [
+            {
+              "id": "tr_67a674d9a6375cc50175d268",
+              "text": "смотреть на",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "ipa": "ˈlʊkt æt",
@@ -2561,7 +4025,18 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Посмотрел вверх"
+          "translation": "Посмотрел вверх",
+          "candidates": [
+            {
+              "id": "tr_37548fc6b7d0babf8cd79499",
+              "text": "Посмотрел вверх",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "ipa": "ˌlʊk ˈʌp",
@@ -2584,7 +4059,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "выглядеть"
+          "translation": "выглядеть",
+          "candidates": [
+            {
+              "id": "tr_587f2198c22306b305a14132",
+              "text": "выглядеть",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "look",
@@ -2606,7 +4092,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "много"
+          "translation": "много",
+          "candidates": [
+            {
+              "id": "tr_eacfa546489bb5dbfe7ede23",
+              "text": "много",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "lot",
@@ -2634,7 +4131,18 @@
           "translation": "loco"
         },
         "ru": {
-          "translation": "сумасшедший"
+          "translation": "сумасшедший",
+          "candidates": [
+            {
+              "id": "tr_ed12d94816b82aaddea18d46",
+              "text": "сумасшедший",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         },
         "uk": {
           "translation": "шалений"
@@ -2659,7 +4167,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "мужчины"
+          "translation": "мужчины",
+          "candidates": [
+            {
+              "id": "tr_8626778a9aa181da7660b562",
+              "text": "мужчины",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "man",
@@ -2687,7 +4206,18 @@
           "translation": "marchar"
         },
         "ru": {
-          "translation": "идти маршем"
+          "translation": "идти маршем",
+          "candidates": [
+            {
+              "id": "tr_5fc7066fd89528c158451218",
+              "text": "идти маршем",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         },
         "uk": {
           "translation": "марширувати"
@@ -2712,7 +4242,18 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "возможно"
+          "translation": "возможно",
+          "candidates": [
+            {
+              "id": "tr_45c1827adec62f6c96a33e50",
+              "text": "возможно",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "maybe",
@@ -2734,7 +4275,18 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "означать"
+          "translation": "означать",
+          "candidates": [
+            {
+              "id": "tr_32c370d4853b1a9659358b30",
+              "text": "означать",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "mean",
@@ -2754,7 +4306,22 @@
       "source": "word",
       "wordKey": "momentary_adjective",
       "level": "C1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "сиюминутное",
+          "candidates": [
+            {
+              "id": "tr_123d3c58df62e84fb48b679c",
+              "text": "сиюминутное",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "_spacyLemma": "momentary",
       "matchedForm": "momentary",
       "levelSource": "vocabulary_index",
@@ -2773,7 +4340,23 @@
       "source": "spacy_phrase",
       "wordKey": "my_farm_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Моя ферма",
+          "candidates": [
+            {
+              "id": "tr_ffce05a3e7b3d3fc9ffd8014",
+              "text": "Моя ферма",
+              "sources": [
+                {
+                  "provider": "microsoft_translate"
+                }
+              ],
+              "pos": "phrase"
+            }
+          ]
+        }
+      },
       "levelSource": "phrase_fallback",
       "ipa": "maɪ ˈfɑːm",
       "exampleStart": 1905,
@@ -2794,7 +4377,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "нужно"
+          "translation": "нужно",
+          "candidates": [
+            {
+              "id": "tr_fd6aa8cd2e8e842ff05f2684",
+              "text": "нужно",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "need",
@@ -2817,7 +4411,27 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "в огне; горящий"
+          "translation": "в огне; горящий",
+          "candidates": [
+            {
+              "id": "tr_bd5da212d4d98ff9aec784d4",
+              "text": "в огне",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            },
+            {
+              "id": "tr_986de9e37ce76bd90ced3c88",
+              "text": "горящий",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "ipa": "ˌɒn ˈfaɪə",
@@ -2839,7 +4453,23 @@
       "source": "spacy_phrase",
       "wordKey": "oook_oook_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "ооок ооок",
+          "candidates": [
+            {
+              "id": "tr_e47dfdc4e5b94e4831d9e800",
+              "text": "ооок ооок",
+              "sources": [
+                {
+                  "provider": "microsoft_translate"
+                }
+              ],
+              "pos": "phrase"
+            }
+          ]
+        }
+      },
       "levelSource": "phrase_fallback",
       "ipa": "ˌuːɒk ˈuːɒk",
       "exampleStart": 3708,
@@ -2860,7 +4490,18 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "открытый"
+          "translation": "открытый",
+          "candidates": [
+            {
+              "id": "tr_958251b34854a0eac167d8a7",
+              "text": "открытый",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "open",
@@ -2880,7 +4521,22 @@
       "source": "word",
       "wordKey": "organise_verb",
       "level": "B2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "организуя",
+          "candidates": [
+            {
+              "id": "tr_d031fdad4ddf02f01b049bfa",
+              "text": "организуя",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "_spacyLemma": "organise",
       "matchedForm": "organised",
       "levelSource": "difficulty_heuristic",
@@ -2900,7 +4556,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "Прошлое"
+          "translation": "Прошлое",
+          "candidates": [
+            {
+              "id": "tr_2f8a8e3002864c633f059bef",
+              "text": "Прошлое",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "past",
@@ -2922,7 +4589,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "люди"
+          "translation": "люди",
+          "candidates": [
+            {
+              "id": "tr_b5d837dc3412f5323e6a2e75",
+              "text": "люди",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "people",
@@ -2950,7 +4628,18 @@
           "translation": "persuadir"
         },
         "ru": {
-          "translation": "убеждать"
+          "translation": "убеждать",
+          "candidates": [
+            {
+              "id": "tr_47f3d0352b804611cf83c5f2",
+              "text": "убеждать",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         },
         "uk": {
           "translation": "переконувати"
@@ -2975,7 +4664,18 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "карман"
+          "translation": "карман",
+          "candidates": [
+            {
+              "id": "tr_cbec43b7d60cc08949723c56",
+              "text": "карман",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "pocket",
@@ -2995,7 +4695,24 @@
       "source": "word",
       "wordKey": "pocketful_noun",
       "level": "B2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "карман",
+          "candidates": [
+            {
+              "id": "tr_3d1a83905005c679dec50a05",
+              "text": "карман",
+              "sources": [
+                {
+                  "provider": "microsoft_dictionary"
+                }
+              ],
+              "pos": "noun",
+              "confidence": 1
+            }
+          ]
+        }
+      },
       "_spacyLemma": "pocketful",
       "matchedForm": "pocketful",
       "levelSource": "difficulty_heuristic",
@@ -3015,7 +4732,18 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "защита"
+          "translation": "защита",
+          "candidates": [
+            {
+              "id": "tr_4328108e35a39fb3c2267b49",
+              "text": "защита",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "protection",
@@ -3043,7 +4771,18 @@
           "translation": "merodear"
         },
         "ru": {
-          "translation": "красться"
+          "translation": "красться",
+          "candidates": [
+            {
+              "id": "tr_4ca64564285c41a8ba8caf19",
+              "text": "красться",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         },
         "uk": {
           "translation": "крастися"
@@ -3069,7 +4808,27 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "вытащил"
+          "translation": "вытащил",
+          "candidates": [
+            {
+              "id": "tr_9c50eb4a2e691974e97ff426",
+              "text": "вытащил",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            },
+            {
+              "id": "tr_3c0883a39bc623cf37f0c833",
+              "text": "сунула руку в карман, вытащила",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "ipa": "ˌpʊld ˈaʊt",
@@ -3098,7 +4857,18 @@
           "translation": "tirar"
         },
         "ru": {
-          "translation": "вытянутый"
+          "translation": "вытянутый",
+          "candidates": [
+            {
+              "id": "tr_65bfe78aca98c9a26dfe7c7d",
+              "text": "вытянутый",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         },
         "uk": {
           "translation": "тягнути"
@@ -3121,7 +4891,22 @@
       "source": "word",
       "wordKey": "pump_noun",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "насос",
+          "candidates": [
+            {
+              "id": "tr_f7641cede56d558c9d2cc1d5",
+              "text": "насос",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "_spacyLemma": "pump",
       "matchedForm": "pump",
       "levelSource": "vocabulary_index",
@@ -3142,7 +4927,18 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "убрать"
+          "translation": "убрать",
+          "candidates": [
+            {
+              "id": "tr_7f87b66b606f961bfacba2f8",
+              "text": "убрать",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "ipa": "ˌpʊt əˈweɪ",
@@ -3166,7 +4962,27 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Положи обратно"
+          "translation": "Положи обратно",
+          "candidates": [
+            {
+              "id": "tr_69cde617a59cb16124998bba",
+              "text": "Положи обратно",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            },
+            {
+              "id": "tr_9b74f9731cf4f3a6e5c251ca",
+              "text": "посадить обратно",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "ipa": "ˌpʊt ˈbæk",
@@ -3189,7 +5005,18 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "быстро"
+          "translation": "быстро",
+          "candidates": [
+            {
+              "id": "tr_999f5295c3c42b899c09f7fb",
+              "text": "быстро",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "quick",
@@ -3211,7 +5038,18 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "достигать"
+          "translation": "достигать",
+          "candidates": [
+            {
+              "id": "tr_28437119ade617ba5f67c63d",
+              "text": "достигать",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "reach",
@@ -3231,7 +5069,22 @@
       "source": "word",
       "wordKey": "realise_verb",
       "level": "B2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "поняла",
+          "candidates": [
+            {
+              "id": "tr_2373670b3904b7a18b5dafc8",
+              "text": "поняла",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "_spacyLemma": "realise",
       "matchedForm": "realised",
       "levelSource": "difficulty_heuristic",
@@ -3251,7 +5104,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "красный"
+          "translation": "красный",
+          "candidates": [
+            {
+              "id": "tr_297805cf2c4bda4cd484c944",
+              "text": "красный",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "red",
@@ -3271,7 +5135,23 @@
       "source": "word",
       "wordKey": "redly_adverb",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "редли",
+          "candidates": [
+            {
+              "id": "tr_8e37f4ced683cdc43e5434d3",
+              "text": "редли",
+              "sources": [
+                {
+                  "provider": "microsoft_translate"
+                }
+              ],
+              "pos": "adverb"
+            }
+          ]
+        }
+      },
       "_spacyLemma": "redly",
       "matchedForm": "redly",
       "levelSource": "difficulty_heuristic",
@@ -3295,7 +5175,18 @@
           "translation": "alivio"
         },
         "ru": {
-          "translation": "облегчение"
+          "translation": "облегчение",
+          "candidates": [
+            {
+              "id": "tr_406b03509d5906340a6df6ed",
+              "text": "облегчение",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         },
         "uk": {
           "translation": "полегшення"
@@ -3320,7 +5211,18 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "заменять"
+          "translation": "заменять",
+          "candidates": [
+            {
+              "id": "tr_140584061a9d9c0918966c8a",
+              "text": "заменять",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "replace",
@@ -3340,7 +5242,31 @@
       "source": "word",
       "wordKey": "ringing_adjective",
       "level": "A1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "звенящий; кольцевой",
+          "candidates": [
+            {
+              "id": "tr_60d00ec1430822088f11cfae",
+              "text": "звенящий",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            },
+            {
+              "id": "tr_e60a31261276986249f64cbc",
+              "text": "кольцевой",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "_spacyLemma": "ringing",
       "matchedForm": "ringing",
       "levelSource": "cefr_frequency",
@@ -3359,7 +5285,23 @@
       "source": "spacy_phrase",
       "wordKey": "ringing_slap_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Звонящий хлопок",
+          "candidates": [
+            {
+              "id": "tr_3357e7845fc63170e758b93f",
+              "text": "Звонящий хлопок",
+              "sources": [
+                {
+                  "provider": "microsoft_translate"
+                }
+              ],
+              "pos": "phrase"
+            }
+          ]
+        }
+      },
       "levelSource": "phrase_fallback",
       "ipa": "ˌrɪŋɪŋ ˈslæp",
       "exampleStart": 1796,
@@ -3380,7 +5322,18 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "дорога"
+          "translation": "дорога",
+          "candidates": [
+            {
+              "id": "tr_f6cd35ae1caeac234142b307",
+              "text": "дорога",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "road",
@@ -3402,7 +5355,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "рев"
+          "translation": "рев",
+          "candidates": [
+            {
+              "id": "tr_388e1a5018207198c109d32c",
+              "text": "рев",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "roar",
@@ -3430,7 +5394,18 @@
           "translation": "rugir"
         },
         "ru": {
-          "translation": "реветь"
+          "translation": "реветь",
+          "candidates": [
+            {
+              "id": "tr_a30e74cfcd0b1cba984d7a00",
+              "text": "реветь",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         },
         "uk": {
           "translation": "ревіти"
@@ -3455,7 +5430,18 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "Ограбление"
+          "translation": "Ограбление",
+          "candidates": [
+            {
+              "id": "tr_55fe94cf4c8183901a1b88e0",
+              "text": "Ограбление",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "robed",
@@ -3477,7 +5463,18 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "крыша"
+          "translation": "крыша",
+          "candidates": [
+            {
+              "id": "tr_a2b8f7d5baec926e7291a380",
+              "text": "крыша",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "roof",
@@ -3500,7 +5497,18 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "сталкиваться"
+          "translation": "сталкиваться",
+          "candidates": [
+            {
+              "id": "tr_2af37539a59b22163004bc19",
+              "text": "сталкиваться",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "ipa": "ˈrʌnɪŋ ˌɪntʊ",
@@ -3523,7 +5531,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "бежать"
+          "translation": "бежать",
+          "candidates": [
+            {
+              "id": "tr_8744d77c68d289cb2330ca6a",
+              "text": "бежать",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "run",
@@ -3545,7 +5564,27 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "сказать"
+          "translation": "сказать",
+          "candidates": [
+            {
+              "id": "tr_a3d335d0bb08b8dc05ce39f4",
+              "text": "сказать",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            },
+            {
+              "id": "tr_2637264373340ca4f271edb9",
+              "text": "говорить",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "say",
@@ -3573,7 +5612,18 @@
           "translation": "gritar"
         },
         "ru": {
-          "translation": "кричать"
+          "translation": "кричать",
+          "candidates": [
+            {
+              "id": "tr_acfdf07d1e09cda6c6423da6",
+              "text": "кричать",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         },
         "uk": {
           "translation": "кричати"
@@ -3596,7 +5646,22 @@
       "source": "word",
       "wordKey": "scuffle_noun",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "услышал",
+          "candidates": [
+            {
+              "id": "tr_10e090ecb33f9345851613b2",
+              "text": "услышал",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "_spacyLemma": "scuffle",
       "matchedForm": "scuffle",
       "levelSource": "difficulty_heuristic",
@@ -3616,7 +5681,18 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "крики"
+          "translation": "крики",
+          "candidates": [
+            {
+              "id": "tr_928264be6f416df3c23fdbdb",
+              "text": "крики",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "shouting",
@@ -3638,7 +5714,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "небо"
+          "translation": "небо",
+          "candidates": [
+            {
+              "id": "tr_38e2e30b732aaaf4d81b3089",
+              "text": "небо",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "sky",
@@ -3666,7 +5753,18 @@
           "translation": "dar un portazo"
         },
         "ru": {
-          "translation": "хлопать"
+          "translation": "хлопать",
+          "candidates": [
+            {
+              "id": "tr_cdfb5095876f3a934c20dea7",
+              "text": "хлопать",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         },
         "uk": {
           "translation": "грюкати"
@@ -3689,7 +5787,22 @@
       "source": "word",
       "wordKey": "slap_noun",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "плечу",
+          "candidates": [
+            {
+              "id": "tr_e9a8c26d95317ecf4263c69e",
+              "text": "плечу",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "_spacyLemma": "slap",
       "matchedForm": "slap",
       "levelSource": "cefr_frequency",
@@ -3709,7 +5822,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "маленький"
+          "translation": "маленький",
+          "candidates": [
+            {
+              "id": "tr_9981a0294c87783888ce5f85",
+              "text": "маленький",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "small",
@@ -3729,7 +5853,22 @@
       "source": "word",
       "wordKey": "smoulder_verb",
       "level": "B2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "запирая",
+          "candidates": [
+            {
+              "id": "tr_e155a669bfaa9e6adeeee0ae",
+              "text": "запирая",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "_spacyLemma": "smoulder",
       "matchedForm": "smouldering",
       "levelSource": "difficulty_heuristic",
@@ -3755,7 +5894,18 @@
           "translation": "gruñó"
         },
         "ru": {
-          "translation": "рычал"
+          "translation": "рычал",
+          "candidates": [
+            {
+              "id": "tr_d6243a41cbb9fbef52fcd269",
+              "text": "рычал",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         },
         "uk": {
           "translation": "гарчав"
@@ -3780,7 +5930,36 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "сортировать"
+          "translation": "сортировать",
+          "candidates": [
+            {
+              "id": "tr_fff2a738495c9ee378629ad8",
+              "text": "сортировать",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            },
+            {
+              "id": "tr_72567cf2aa32f3fb35df8828",
+              "text": "вид",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            },
+            {
+              "id": "tr_449bb11da44680e4ecac791a",
+              "text": "тип",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "sort",
@@ -3800,7 +5979,22 @@
       "source": "word",
       "wordKey": "spark_verb",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "искриться",
+          "candidates": [
+            {
+              "id": "tr_df2f2e66ef454d13933136a8",
+              "text": "искриться",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "_spacyLemma": "spark",
       "matchedForm": "sparks",
       "levelSource": "vocabulary_index",
@@ -3826,7 +6020,18 @@
           "translation": "extendiendo"
         },
         "ru": {
-          "translation": "распространять"
+          "translation": "распространять",
+          "candidates": [
+            {
+              "id": "tr_31110c5850704f25ab3f8c99",
+              "text": "распространять",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         },
         "uk": {
           "translation": "поширюючий"
@@ -3851,7 +6056,27 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "квадрат; площадь"
+          "translation": "квадрат; площадь",
+          "candidates": [
+            {
+              "id": "tr_238aa6df24828fdb829b9676",
+              "text": "квадрат",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            },
+            {
+              "id": "tr_cb52ba25291a297fa2c3d4a7",
+              "text": "площадь",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "square",
@@ -3872,7 +6097,22 @@
       "source": "dictionary_phrasal",
       "wordKey": "stand_around_phrasal_verb",
       "level": "B2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Стоять",
+          "candidates": [
+            {
+              "id": "tr_b35c573ddfb56a413a2243c6",
+              "text": "Стоять",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "levelSource": "phrase_index",
       "ipa": "ˌstændɪŋ əˈraʊnd",
       "exampleStart": 949,
@@ -3893,7 +6133,18 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "стоять"
+          "translation": "стоять",
+          "candidates": [
+            {
+              "id": "tr_f3d5eeea80396add4f30110f",
+              "text": "стоять",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "stand",
@@ -3921,7 +6172,18 @@
           "translation": "mirar fijamente"
         },
         "ru": {
-          "translation": "пристально смотреть"
+          "translation": "пристально смотреть",
+          "candidates": [
+            {
+              "id": "tr_b887a34624c2d51bc9fc3e69",
+              "text": "пристально смотреть",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         },
         "uk": {
           "translation": "витріщатися"
@@ -3962,7 +6224,27 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "паровой"
+          "translation": "паровой",
+          "candidates": [
+            {
+              "id": "tr_a33122f789a299cff5094e0a",
+              "text": "паровой",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            },
+            {
+              "id": "tr_e7d73d0ca1448c4e5f112fed",
+              "text": "Пар",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "steaming",
@@ -3984,7 +6266,27 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "остановиться"
+          "translation": "остановиться",
+          "candidates": [
+            {
+              "id": "tr_2e24bb6fce971820da945ea2",
+              "text": "остановиться",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            },
+            {
+              "id": "tr_3cb89bb472370a756e6ad279",
+              "text": "останавливаться",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "stop",
@@ -4012,7 +6314,18 @@
           "translation": "impactante"
         },
         "ru": {
-          "translation": "броситься в глаза"
+          "translation": "броситься в глаза",
+          "candidates": [
+            {
+              "id": "tr_5fc1a64d5df9f298f761d286",
+              "text": "броситься в глаза",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         },
         "uk": {
           "translation": "вражаючий"
@@ -4037,7 +6350,18 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "Показывают"
+          "translation": "Показывают",
+          "candidates": [
+            {
+              "id": "tr_4ea2b80a6ce2c0c7e3e342a0",
+              "text": "Показывают",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "strut",
@@ -4059,7 +6383,18 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "высасывать"
+          "translation": "высасывать",
+          "candidates": [
+            {
+              "id": "tr_fc3ad1ea21800c25cb1dc474",
+              "text": "высасывать",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "suck",
@@ -4081,7 +6416,18 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "качаться"
+          "translation": "качаться",
+          "candidates": [
+            {
+              "id": "tr_516f300ce655462b97e2488b",
+              "text": "качаться",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "swing",
@@ -4104,7 +6450,27 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "вывести"
+          "translation": "вывести",
+          "candidates": [
+            {
+              "id": "tr_c6f8de63599693545558dc35",
+              "text": "вывести",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            },
+            {
+              "id": "tr_e2e877e1a1b735785c67f0f1",
+              "text": "вынимать",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "ipa": "ˌtʊk ˈaʊt",
@@ -4127,7 +6493,18 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "брать"
+          "translation": "брать",
+          "candidates": [
+            {
+              "id": "tr_999d4adbddcc149e8e2e8c00",
+              "text": "брать",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "take",
@@ -4149,7 +6526,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "команда"
+          "translation": "команда",
+          "candidates": [
+            {
+              "id": "tr_8ef7773b3443fafefc2b218d",
+              "text": "команда",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "team",
@@ -4169,7 +6557,35 @@
       "source": "word",
       "wordKey": "thatch_noun",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Тэтч; соломы",
+          "candidates": [
+            {
+              "id": "tr_b31eae589feaa43275dbd4bb",
+              "text": "Тэтч",
+              "sources": [
+                {
+                  "provider": "microsoft_dictionary"
+                }
+              ],
+              "pos": "noun",
+              "confidence": 0.5807
+            },
+            {
+              "id": "tr_10581cfd37c31b3c9c71ec3a",
+              "text": "соломы",
+              "sources": [
+                {
+                  "provider": "microsoft_dictionary"
+                }
+              ],
+              "pos": "noun",
+              "confidence": 0.4193
+            }
+          ]
+        }
+      },
       "_spacyLemma": "thatch",
       "matchedForm": "thatch",
       "levelSource": "difficulty_heuristic",
@@ -4189,7 +6605,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "вещи"
+          "translation": "вещи",
+          "candidates": [
+            {
+              "id": "tr_7f43cd4ede01bb12d586817e",
+              "text": "вещи",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "thing",
@@ -4211,7 +6638,27 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "думать"
+          "translation": "думать",
+          "candidates": [
+            {
+              "id": "tr_284c0e50d035959623026b42",
+              "text": "думать",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            },
+            {
+              "id": "tr_8d16f664286330f701442a1b",
+              "text": "считать",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "think",
@@ -4233,7 +6680,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "время"
+          "translation": "время",
+          "candidates": [
+            {
+              "id": "tr_3bceaa981ca9b6ed5ccb4ff2",
+              "text": "время",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "time",
@@ -4255,7 +6713,18 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "таймер"
+          "translation": "таймер",
+          "candidates": [
+            {
+              "id": "tr_95339f94ad5d3417ef5dc1dc",
+              "text": "таймер",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "timer",
@@ -4277,7 +6746,18 @@
       "level": "C1",
       "translations": {
         "ru": {
-          "translation": "ремонтировать, заниматься починкой"
+          "translation": "ремонтировать, заниматься починкой",
+          "candidates": [
+            {
+              "id": "tr_47aafec6b441fa955c34b5b1",
+              "text": "ремонтировать, заниматься починкой",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "tinker",
@@ -4299,7 +6779,27 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "сегодня вечером; сегодняшняя ночь"
+          "translation": "сегодня вечером; сегодняшняя ночь",
+          "candidates": [
+            {
+              "id": "tr_dc3c65f860d3999a25f924d2",
+              "text": "сегодня вечером",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            },
+            {
+              "id": "tr_0f2b842a399e61a33d4043a8",
+              "text": "сегодняшняя ночь",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "tonight",
@@ -4321,7 +6821,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "город"
+          "translation": "город",
+          "candidates": [
+            {
+              "id": "tr_7b2c82ff723b0dad36e0f9fb",
+              "text": "город",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "town",
@@ -4342,7 +6853,23 @@
       "source": "spacy_phrase",
       "wordKey": "town_square_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Городская площадь",
+          "candidates": [
+            {
+              "id": "tr_e695aa09a88ccb9d77adf401",
+              "text": "Городская площадь",
+              "sources": [
+                {
+                  "provider": "microsoft_translate"
+                }
+              ],
+              "pos": "phrase"
+            }
+          ]
+        }
+      },
       "levelSource": "phrase_fallback",
       "ipa": "ˌtaʊn ˈskweə",
       "exampleStart": 832,
@@ -4363,7 +6890,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "пытаться"
+          "translation": "пытаться",
+          "candidates": [
+            {
+              "id": "tr_c3bc1d7475f34644be5dce3a",
+              "text": "пытаться",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "try",
@@ -4386,7 +6924,18 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "включен"
+          "translation": "включен",
+          "candidates": [
+            {
+              "id": "tr_d4becc7dd27bcaac91be7d7f",
+              "text": "включен",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "ipa": "ˌtɜːnd ˈɒn",
@@ -4409,7 +6958,18 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "повернуть"
+          "translation": "повернуть",
+          "candidates": [
+            {
+              "id": "tr_7b3bd6ca76630c7d8b2821ff",
+              "text": "повернуть",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "turn",
@@ -4431,7 +6991,36 @@
       "level": "B1",
       "translations": {
         "ru": {
-          "translation": "скручивание; извив"
+          "translation": "скручивание; извив",
+          "candidates": [
+            {
+              "id": "tr_04c3942b3fb26edf0fc8b45c",
+              "text": "скручивание",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            },
+            {
+              "id": "tr_2257f0a4835e7e1b75ac9d62",
+              "text": "извив",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            },
+            {
+              "id": "tr_b885f5229d2c2c4f855c682e",
+              "text": "вертеться",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "twist",
@@ -4451,7 +7040,22 @@
       "source": "word",
       "wordKey": "typical_adjective",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "типичные",
+          "candidates": [
+            {
+              "id": "tr_ab88858b4013cdb0e2529faf",
+              "text": "типичные",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "_spacyLemma": "typical",
       "matchedForm": "typical",
       "levelSource": "vocabulary_index",
@@ -4471,7 +7075,18 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "понимать"
+          "translation": "понимать",
+          "candidates": [
+            {
+              "id": "tr_cb2d55fcdf4b37ddbc48547c",
+              "text": "понимать",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "understand",
@@ -4499,7 +7114,18 @@
           "translation": "injusto"
         },
         "ru": {
-          "translation": "несправедливый"
+          "translation": "несправедливый",
+          "candidates": [
+            {
+              "id": "tr_16bedb5af9ba2c016c5a0bdb",
+              "text": "несправедливый",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         },
         "uk": {
           "translation": "несправедливий"
@@ -4524,7 +7150,18 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "верхний"
+          "translation": "верхний",
+          "candidates": [
+            {
+              "id": "tr_596a389892a98a337a185af0",
+              "text": "верхний",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "upper",
@@ -4545,7 +7182,23 @@
       "source": "spacy_phrase",
       "wordKey": "upper_window_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Верхнее окно",
+          "candidates": [
+            {
+              "id": "tr_c0fe2b98f50bc9039946a110",
+              "text": "Верхнее окно",
+              "sources": [
+                {
+                  "provider": "microsoft_translate"
+                }
+              ],
+              "pos": "phrase"
+            }
+          ]
+        }
+      },
       "levelSource": "phrase_fallback",
       "ipa": "ˌʌpə ˈwɪndəʊ",
       "exampleStart": 1314,
@@ -4566,7 +7219,27 @@
       "level": "B2",
       "translations": {
         "ru": {
-          "translation": "вертикально; прямо"
+          "translation": "вертикально; прямо",
+          "candidates": [
+            {
+              "id": "tr_03de74c6bcd0e78f37471ccb",
+              "text": "вертикально",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            },
+            {
+              "id": "tr_0628976541b7ef0a95476bc6",
+              "text": "прямо",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "upright",
@@ -4588,7 +7261,18 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "деревня"
+          "translation": "деревня",
+          "candidates": [
+            {
+              "id": "tr_0b4162a85584e3b22e5a2256",
+              "text": "деревня",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "village",
@@ -4610,7 +7294,18 @@
       "level": "A2",
       "translations": {
         "ru": {
-          "translation": "голос"
+          "translation": "голос",
+          "candidates": [
+            {
+              "id": "tr_a14c4e33e4b3208ec1cccde0",
+              "text": "голос",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "voice",
@@ -4631,7 +7326,22 @@
       "source": "dictionary_phrasal",
       "wordKey": "walk_into_prepositional_verb",
       "level": "B2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Войти в",
+          "candidates": [
+            {
+              "id": "tr_32267e1f74e042cfc799d187",
+              "text": "Войти в",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "levelSource": "phrase_index",
       "ipa": "ˈwɔːkt ˌɪntʊ",
       "exampleStart": 3223,
@@ -4652,7 +7362,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "ходить"
+          "translation": "ходить",
+          "candidates": [
+            {
+              "id": "tr_4131a891763ed51bd3fd96ec",
+              "text": "ходить",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "walk",
@@ -4680,7 +7401,18 @@
           "translation": "observar"
         },
         "ru": {
-          "translation": "наблюдать"
+          "translation": "наблюдать",
+          "candidates": [
+            {
+              "id": "tr_18455ac2870f1bfeca6d10cf",
+              "text": "наблюдать",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         },
         "uk": {
           "translation": "спостерігати"
@@ -4705,7 +7437,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "способ"
+          "translation": "способ",
+          "candidates": [
+            {
+              "id": "tr_955ea6bf528e25756d8ecaeb",
+              "text": "способ",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "way",
@@ -4726,7 +7469,23 @@
       "source": "spacy_phrase",
       "wordKey": "whole_world_phrase",
       "level": "B1",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Весь мир",
+          "candidates": [
+            {
+              "id": "tr_0c81b175b03ced72a9a0254c",
+              "text": "Весь мир",
+              "sources": [
+                {
+                  "provider": "microsoft_translate"
+                }
+              ],
+              "pos": "phrase"
+            }
+          ]
+        }
+      },
       "levelSource": "phrase_fallback",
       "ipa": "ˌhəʊl ˈwɜːld",
       "exampleStart": 3076,
@@ -4747,7 +7506,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "окно"
+          "translation": "окно",
+          "candidates": [
+            {
+              "id": "tr_442e8e11dbca5d9fb15e6aa3",
+              "text": "окно",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "window",
@@ -4769,7 +7539,18 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "мир"
+          "translation": "мир",
+          "candidates": [
+            {
+              "id": "tr_776e03970b8ca1ead9b844d6",
+              "text": "мир",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "world",
@@ -4791,7 +7572,27 @@
       "level": "A1",
       "translations": {
         "ru": {
-          "translation": "двор"
+          "translation": "двор",
+          "candidates": [
+            {
+              "id": "tr_75fc42434dda1df7640f8252",
+              "text": "двор",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            },
+            {
+              "id": "tr_f8e02d3eba489581e0ee398c",
+              "text": "ярд",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         }
       },
       "_spacyLemma": "yard",
@@ -4819,7 +7620,18 @@
           "translation": "gritar"
         },
         "ru": {
-          "translation": "кричать"
+          "translation": "кричать",
+          "candidates": [
+            {
+              "id": "tr_1f3c7ebab576244b61f348a8",
+              "text": "кричать",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
         },
         "uk": {
           "translation": "кричати"
@@ -4842,7 +7654,22 @@
       "source": "word",
       "wordKey": "yelp_verb",
       "level": "A2",
-      "translations": {},
+      "translations": {
+        "ru": {
+          "translation": "Крик",
+          "candidates": [
+            {
+              "id": "tr_eea18a32c55eabccb73e776a",
+              "text": "Крик",
+              "sources": [
+                {
+                  "provider": "legacy"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "_spacyLemma": "yelp",
       "matchedForm": "yelped",
       "levelSource": "vocabulary_index",
